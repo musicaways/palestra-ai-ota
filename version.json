@@ -1,6 +1,6 @@
 {
-  "version": "1.2.0",
-  "url": "https://github.com/musicaways/palestra-ai-ota/releases/download/v1.2.0/dist.zip",
-  "notes": "885 alimenti offline nel diario, scanner barcode funzionante, ricettario a 112 ricette italiane.",
-  "publishedAt": "2026-08-23T16:19:07Z"
+  "version": "1.2.1",
+  "url": "https://github.com/musicaways/palestra-ai-ota/releases/download/v1.2.1/dist.zip",
+  "notes": "Database alimenti completo: 802 voci, tutte in italiano.",
+  "publishedAt": "2026-08-23T17:01:59Z"
 }
