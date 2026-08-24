@@ -1,6 +1,6 @@
 {
-  "version": "1.2.1",
-  "url": "https://github.com/musicaways/palestra-ai-ota/releases/download/v1.2.1/dist.zip",
-  "notes": "Database alimenti completo: 802 voci, tutte in italiano.",
-  "publishedAt": "2026-08-23T17:01:59Z"
+  "version": "1.3.0",
+  "url": "https://github.com/musicaways/palestra-ai-ota/releases/download/v1.3.0/dist.zip",
+  "notes": "Permessi e notifiche funzionanti, cinque strutture di scheda, 116 esercizi in piu', integratori con diario e parere del coach, 77 videoricette verificate.",
+  "publishedAt": "2026-08-24T00:12:00Z"
 }
