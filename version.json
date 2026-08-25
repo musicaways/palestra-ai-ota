@@ -1,6 +1,9 @@
 {
-  "version": "1.4.0",
-  "url": "https://github.com/musicaways/palestra-ai-ota/releases/download/v1.4.0/dist.zip",
-  "notes": "Notifiche in background e interattive, Open Food Facts al posto di USDA, navigazione a quattro voci, wizard con tastierino e chiave AI.",
-  "publishedAt": "2026-08-24T08:45:00Z"
+  "version": "1.6.1",
+  "url": "https://github.com/musicaways/palestra-ai-ota/releases/download/v1.6.1/dist.zip",
+  "checksum": "abeff817e89140ef30da34b49ac833aae80b40138eddcce4aaf5ae03c94a07c0",
+  "minNative": "1.6.1",
+  "signature": "riwHn9rZjxp0d9iiZ8H6tGu+DNQagNBVHLRz3SjkSNCgWIyThJiDoEkJ1TeWohE0tZsbB6BKsrOAhLQRJWFQig==",
+  "notes": "Correzione analisi foto Gemini, player video esercizi/ricette, account opzionale e backup cifrato.",
+  "publishedAt": "2026-08-25T13:02:40Z"
 }
