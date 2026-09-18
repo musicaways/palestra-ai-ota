@@ -71,14 +71,40 @@ Il dettaglio sta in [`docs/architettura.md`](docs/architettura.md).
 ## Sviluppo
 
 ```bash
-# hub
-cd server && pip install -e ".[dev]" && python -m pytest -q && ruff check .
-
-# plugin (Lua 5.1, nessuna dipendenza da KOReader: i moduli sono simulati)
-cd koplugin && lua5.1 tests/run.lua
+./scripts/setup-dev.sh     # una volta: Python 3.11+, Lua 5.1, dipendenze
+./scripts/check.sh         # sempre: ruff, pytest, test Lua, sintassi Lua
+make                       # l'elenco delle scorciatoie
 ```
+
+Guida completa per lavorarci in locale — anche con Claude Code e Codex sulla
+stessa cartella: [`docs/sviluppo-locale.md`](docs/sviluppo-locale.md).
+Come si contribuisce: [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
+## Memoria condivisa
+
+[`memoria/`](memoria/) è il cervello comune del progetto: stato attuale,
+attività, decisioni con il loro perché, invarianti da non rompere, diario delle
+sessioni e domande aperte. Sono file di testo versionati, quindi li leggono e li
+aggiornano allo stesso modo una persona, Claude Code e Codex — e non svaniscono
+alla fine di una sessione.
+
+Si comincia sempre da [`memoria/STATO.md`](memoria/STATO.md).
+
+## Dove guardare
+
+| File | Cosa contiene |
+|---|---|
+| [`docs/architettura.md`](docs/architettura.md) | come funziona, e perché così |
+| [`docs/installazione-kobo.md`](docs/installazione-kobo.md) | installazione passo passo su hub e lettore |
+| [`docs/api.md`](docs/api.md) | riferimento dell'API dell'hub |
+| [`docs/limitazioni.md`](docs/limitazioni.md) | limiti noti, senza sconti |
+| [`docs/sviluppo-locale.md`](docs/sviluppo-locale.md) | il progetto sul tuo PC, e il lavoro a più assistenti |
+| [`CHANGELOG.md`](CHANGELOG.md) | cosa è cambiato, versione per versione |
+| [`ROADMAP.md`](ROADMAP.md) | cosa viene dopo, e cosa resta fuori per scelta |
+| [`AGENTS.md`](AGENTS.md) | istruzioni per gli assistenti in questa cartella |
 
 ## Limiti noti
 
 Sono elencati senza sconti in [`docs/limitazioni.md`](docs/limitazioni.md):
-vale la pena leggerli prima di installare.
+vale la pena leggerli prima di installare. In una riga: InkBridge **non è ancora
+stato collaudato su hardware reale** — è l'attività `IB-001`.

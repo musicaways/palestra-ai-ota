@@ -1,0 +1,77 @@
+# Gli stessi controlli di inkbridge/scripts/check.sh, a ogni modifica di InkBridge.
+name: InkBridge
+
+on:
+  push:
+    paths:
+      - 'inkbridge/**'
+      - '.github/workflows/inkbridge.yml'
+  pull_request:
+    paths:
+      - 'inkbridge/**'
+      - '.github/workflows/inkbridge.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  hub:
+    name: Hub (Python)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Installa le dipendenze
+        run: python -m pip install --upgrade pip && pip install -e "./inkbridge/server[dev]"
+
+      - name: ruff
+        working-directory: inkbridge/server
+        run: ruff check .
+
+      - name: pytest
+        working-directory: inkbridge/server
+        run: python -m pytest -q
+
+  plugin:
+    name: Plugin (Lua)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Installa Lua 5.1
+        run: sudo apt-get update -qq && sudo apt-get install -y lua5.1
+
+      - name: Test del plugin
+        working-directory: inkbridge/koplugin
+        run: lua5.1 tests/run.lua
+
+      - name: Sintassi di tutti i file Lua
+        working-directory: inkbridge/koplugin
+        run: find . -name '*.lua' -print0 | xargs -0 -n1 luac5.1 -p
+
+  memoria:
+    name: Memoria condivisa
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: stato.json valido
+        run: python3 -c "import json; json.load(open('inkbridge/memoria/stato.json'))"
+
+      - name: I file di memoria esistono e non sono vuoti
+        run: |
+          for file in STATO.md ATTIVITA.md DECISIONI.md INVARIANTI.md DIARIO.md \
+                      DOMANDE.md GLOSSARIO.md README.md; do
+            percorso="inkbridge/memoria/$file"
+            if [ ! -s "$percorso" ]; then
+              echo "::error file=$percorso::manca o è vuoto"
+              exit 1
+            fi
+          done
+          echo "Memoria condivisa a posto."
