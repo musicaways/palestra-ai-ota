@@ -1,6 +1,7 @@
 // Riconoscimento degli accordi dal microfono tramite "chroma": l'energia dello spettro raccolta
 // nelle 12 classi di nota (Do, Do#, … Si) e confrontata con i modelli degli accordi.
 import { parseChord, noteIndex } from './music.js';
+import { GuitarInput } from './input.js';
 
 const INTERVALS = {
   maj: [0, 4, 7], m: [0, 3, 7], '7': [0, 4, 7, 10], m7: [0, 3, 7, 10], maj7: [0, 4, 7, 11],
@@ -122,15 +123,11 @@ export class Listener {
   }
 
   async start() {
-    this.stream = await navigator.mediaDevices.getUserMedia({
-      audio: { echoCancellation: false, noiseSuppression: false, autoGainControl: false },
-    });
-    this.ctx = new (window.AudioContext || window.webkitAudioContext)();
-    const src = this.ctx.createMediaStreamSource(this.stream);
-    this.analyser = this.ctx.createAnalyser();
-    this.analyser.fftSize = 8192;
+    this.input = await GuitarInput.open({ fftSize: 8192 });
+    this.rocksmith = this.input.rocksmith;
+    this.ctx = this.input.ctx;
+    this.analyser = this.input.analyser;
     this.analyser.smoothingTimeConstant = 0.5;
-    src.connect(this.analyser);
     const db = new Float32Array(this.analyser.frequencyBinCount);
     const time = new Float32Array(this.analyser.fftSize);
     const mags = new Float32Array(db.length);
@@ -148,7 +145,6 @@ export class Listener {
 
   stop() {
     clearInterval(this.timer);
-    this.stream?.getTracks().forEach((t) => t.stop());
-    this.ctx?.close();
+    this.input?.close();
   }
 }

@@ -9,6 +9,7 @@ import { displayChord, chordColor, shapeNameWithCapo, suggestCapo } from './musi
 import { click, WakeLock } from './audio.js';
 import { addPractice, recordRate, recordAccuracy, getStats } from './stats.js';
 import { Listener, matchChord } from './detect.js';
+import { mountInputPanel } from './input.js';
 import { icon } from './icons.js';
 import { chordDiagram } from './diagram.js';
 import { Tuner } from './tuner.js';
@@ -152,6 +153,7 @@ export async function openPlayer(root, song) {
         <label class="check"><input type="checkbox" name="highStringOnTop"> Mi cantino in alto (come le tablature)</label>
         <label class="check"><input type="checkbox" name="showNoteNames"> Nome delle note al posto delle dita</label>
         <label class="check"><input type="checkbox" name="autoScroll"> Scorrimento automatico del testo</label>
+        <button type="button" class="chip-btn" data-act="input">${icon('guitar', 16)} Ingresso audio (microfono o cavo Rocksmith)</button>
         <p class="hint">Scorciatoie: spazio play/pausa · ← → ±5 s · [ ] punti A/B · L loop · T tap in registrazione</p>
         <menu><button value="ok" class="chip-btn primary">Chiudi</button></menu>
       </form>
@@ -200,7 +202,11 @@ export async function openPlayer(root, song) {
       <div class="capo-preview"></div>
       <menu><button value="ok" class="chip-btn primary">Fatto</button></menu></form></dialog>
 
+    <dialog class="dlg dlg-input"><form method="dialog"><h3>Ingresso audio</h3><div class="input-panel"></div>
+      <menu><button value="ok" class="chip-btn primary">Fatto</button></menu></form></dialog>
+
     <dialog class="dlg dlg-tuner"><form method="dialog"><h3>Accordatore</h3><div class="tuner"></div>
+      <button type="button" class="chip-btn" data-act="input">${icon('guitar', 16)} Ingresso audio</button>
       <p class="hint">Accordatura standard: Mi La Re Sol Si Mi. Pizzica una corda e attendi che la lancetta si fermi al centro.</p>
       <menu><button value="ok" class="chip-btn primary">Chiudi</button></menu></form></dialog>
 
@@ -617,7 +623,7 @@ export async function openPlayer(root, song) {
     btn.classList.add('active');
     scoreHud.hidden = false;
     paintScore();
-    toast('Ascolto attivo: suona insieme al brano');
+    toast(listener.rocksmith ? 'Ascolto dal cavo Rocksmith: suona insieme al brano' : 'Ascolto attivo: suona insieme al brano');
   }
 
   // Chiamata al cambio accordo: giudica quello appena finito.
@@ -632,6 +638,18 @@ export async function openPlayer(root, song) {
     else score.streak = 0;
     fretboard.verdict = { ok, at: performance.now() };
     paintScore();
+  }
+
+  async function openInput() {
+    // chiude tutto ciò che usa l'ingresso, poi apre il pannello
+    const tunerDlg = $('.dlg-tuner');
+    if (tunerDlg.open) tunerDlg.close();
+    if (listener) toggleListen();
+    root.querySelectorAll('dialog[open]').forEach((d) => d.close());
+    const dlg = $('.dlg-input');
+    dlg.showModal();
+    const unmount = await mountInputPanel(dlg.querySelector('.input-panel'));
+    dlg.onclose = () => unmount();
   }
 
   function openTuner() {
@@ -673,6 +691,7 @@ export async function openPlayer(root, song) {
       case 'countin': settings.countIn = !settings.countIn; saveSettings(settings); paintToggles(); break;
       case 'tuner': openTuner(); break;
       case 'listen': toggleListen(); break;
+      case 'input': e.preventDefault(); openInput(); break;
       case 'capo': openCapo(); break;
       case 'focus':
         settings.focus = !settings.focus; saveSettings(settings);

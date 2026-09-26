@@ -473,6 +473,18 @@ kbd { background: rgba(146, 132, 255, .12); border: 1px solid var(--line); borde
   background: var(--grad); color: #0a0816;
 }
 
+/* ---------- Ingresso audio ---------- */
+.input-panel { display: flex; flex-direction: column; gap: 4px; }
+.input-panel select, .input-panel input[type="range"] { width: 100%; }
+.input-panel input[type="range"] { accent-color: var(--cyan); }
+.in-detected { margin: 0; }
+.in-detected.ok { color: #3ddc84; font-weight: 700; }
+.in-meter { height: 12px; border-radius: 6px; background: rgba(146, 132, 255, .12); overflow: hidden; margin: 8px 0; }
+.in-meter-fill { height: 100%; width: 0; background: linear-gradient(90deg, #3ddc84, var(--cyan)); transition: width .06s linear; }
+.in-meter-fill.hot { background: linear-gradient(90deg, #3ddc84, var(--orange), #ff4d5e); }
+.in-gain-out { color: var(--cyan); }
+.dlg-settings [data-act="input"], .dlg-tuner [data-act="input"] { margin-top: 6px; }
+
 /* ---------- Tablet e telefono ---------- */
 @media (max-width: 960px) {
   .player-main { grid-template-columns: 1fr; }

@@ -1,5 +1,6 @@
 // Accordatore cromatico dal microfono (autocorrelazione), con le 6 corde in accordatura standard.
 import { noteName, STRING_COLORS, STRING_NAMES } from './music.js';
+import { GuitarInput } from './input.js';
 
 const STRINGS_HZ = [82.41, 110.0, 146.83, 196.0, 246.94, 329.63];
 
@@ -78,19 +79,16 @@ export class Tuner {
 
   async start() {
     try {
-      this.stream = await navigator.mediaDevices.getUserMedia({
-        audio: { echoCancellation: false, noiseSuppression: false, autoGainControl: false },
-      });
+      this.input = await GuitarInput.open({ fftSize: 4096 });
     } catch {
       this.info.textContent = 'Serve il permesso di usare il microfono (e una pagina https).';
       return;
     }
-    this.ctx = new (window.AudioContext || window.webkitAudioContext)();
-    const src = this.ctx.createMediaStreamSource(this.stream);
-    this.analyser = this.ctx.createAnalyser();
-    this.analyser.fftSize = 4096;
-    src.connect(this.analyser);
+    if (this.stopped) { this.input.close(); return; }
+    this.analyser = this.input.analyser;
+    this.ctx = this.input.ctx;
     this.buf = new Float32Array(this.analyser.fftSize);
+    this.info.textContent = this.input.rocksmith ? `Cavo Rocksmith collegato · suona una corda` : 'Suona una corda alla volta';
     const loop = () => {
       this.raf = requestAnimationFrame(loop);
       this.analyser.getFloatTimeDomainData(this.buf);
@@ -114,8 +112,8 @@ export class Tuner {
   }
 
   stop() {
+    this.stopped = true;
     cancelAnimationFrame(this.raf);
-    this.stream?.getTracks().forEach((t) => t.stop());
-    this.ctx?.close();
+    this.input?.close();
   }
 }
