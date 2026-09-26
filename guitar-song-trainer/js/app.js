@@ -6,6 +6,7 @@ import { openEditor } from './editor.js';
 import { getUserSong, mergeLibrary } from './usersongs.js';
 import { renderLearn, openLesson } from './learn.js';
 import { renderRecordings } from './recordings.js';
+import { renderProgress } from './progress.js';
 
 const root = document.getElementById('app');
 let index = null;
@@ -57,6 +58,10 @@ async function route() {
     } else if (location.hash === '#/impara') {
       document.title = 'Impara · Guitar Song Trainer';
       renderLearn(root);
+      window.scrollTo(0, 0);
+    } else if (location.hash === '#/progressi') {
+      document.title = 'Progressi · Guitar Song Trainer';
+      renderProgress(root);
       window.scrollTo(0, 0);
     } else if (location.hash === '#/registrazioni') {
       document.title = 'Registrazioni · Guitar Song Trainer';

@@ -25,7 +25,27 @@ export function addPractice(id, seconds, now = Date.now()) {
   s.seconds += seconds;
   s.lastPlayed = now;
   save(id, s);
+  const days = getDays();
+  const k = dayKey(now);
+  days[k] = (days[k] ?? 0) + seconds;
+  store.set('days', days);
   return s;
+}
+
+// Pratica giorno per giorno (per la serie di giorni consecutivi).
+export const dayKey = (ts) => {
+  const d = new Date(ts);
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+};
+export const getDays = () => store.get('days', {});
+
+// Giorni consecutivi con almeno un minuto di pratica, fino a oggi (o fino a ieri, se oggi non hai ancora suonato).
+export function streak(days, now = Date.now()) {
+  let n = 0;
+  let t = now;
+  if (!((days[dayKey(t)] ?? 0) >= 60)) t -= 86400000;
+  while ((days[dayKey(t)] ?? 0) >= 60) { n++; t -= 86400000; }
+  return n;
 }
 
 // Precisione migliore in modalità ascolto (0..1).

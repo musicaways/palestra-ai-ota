@@ -423,6 +423,11 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   await shot('allenamento');
   await page.click('.drill-start');
 
+  // Progressi
+  await page.goto(`${BASE}/#/progressi`);
+  await page.waitForSelector('.badge');
+  check(await page.locator('.badge.on').count() >= 1, `progressi: ${await page.locator('.badge.on').count()} obiettivi sbloccati, ${await page.textContent('.progress h1 span')}`);
+
   // Registrazioni
   await page.goto(`${BASE}/#/registrazioni`);
   await page.waitForSelector('.rec-card', { timeout: 5000 }).catch(() => {});

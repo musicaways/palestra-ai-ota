@@ -25,7 +25,9 @@ def fetch(url, tries=3):
                 return r.read().decode('utf-8', 'ignore'), r.geturl()
         except Exception as e:
             err = e
-            import time; time.sleep(2 + 3 * i)
+            if getattr(e, 'code', None) == 404: break
+            if i + 1 < tries:
+                import time; time.sleep(2 + 3 * i)
     raise err
 
 def slug(s):
@@ -423,17 +425,20 @@ def main():
         art = a.chords_artist or re.split(r',| feat\.? | & | e ', a.artist)[0]
         w = slug(art).split('-')
         arts = [slug(art)] + (['-'.join(w[1:] + w[:1])] if len(w) == 2 else []) + (['-'.join(w[-1:] + w[:-1])] if len(w) == 3 else [])
-        tit = slug(a.chords_title or a.title)
+        tt = a.chords_title or a.title
+        tits = list(dict.fromkeys([slug(tt), slug(tt.replace("'", '').replace('’', '')), slug(re.sub(r'\(.*?\)', '', tt))]))
+        tit = tits[0]
         w0 = slug(art)
         if w0.startswith('the-'): arts += [w0[4:], w0[4:] + '-the']
-        urls = [f'https://www.accordiespartiti.it/accordi/{zone}/{ar}/{tit}/' for zone in ('italiani', 'internazionali') for ar in arts]
+        urls = [f'https://www.accordiespartiti.it/accordi/{zone}/{ar}/{t}/' for zone in ('italiani', 'internazionali') for ar in arts for t in tits]
+        keys = [k for k in slug(art).split('-') if len(k) > 2 and k != 'the'] or [slug(art)]
         # ricerca nel sito: primo risultato che contiene titolo e (una parte del) nome dell'artista
         try:
             sp, _ = fetch('https://www.accordiespartiti.it/?s=' + urllib.parse.quote_plus(f'{art} {a.chords_title or a.title}'), tries=1)
-            keys = [k for k in slug(art).split('-') if len(k) > 2 and k != 'the'] or [slug(art)]
             for u in dict.fromkeys(re.findall(r'href="(https://www\.accordiespartiti\.it/accordi/[^"]+/)"', sp)):
                 tail = u.rstrip('/').split('/')
-                if tit in tail[-1] and any(k in tail[-2] for k in keys) and u not in urls: urls.append(u)
+                same = any(t in tail[-1] or difflib.SequenceMatcher(None, t, tail[-1]).ratio() >= 0.8 for t in tits)
+                if same and any(k in tail[-2] for k in keys) and u not in urls: urls.insert(0, u)
         except Exception:
             pass
     page = final = items = None
@@ -442,6 +447,10 @@ def main():
             page, final = fetch(url, tries=1)
         except Exception:
             continue
+        # il sito reindirizza gli indirizzi sconosciuti a brani simili di altri artisti: si scartano
+        if not a.chords_url:
+            fa = final.rstrip('/').split('/')[-2]
+            if not any(k in fa for k in keys): continue
         items = parse_chord_page(page)
         if items and any(i[0] == 'c' for i in items): break
         items = None
@@ -455,12 +464,12 @@ def main():
     lrc = lrc_lines(rec['syncedLyrics'])
     duration = float(rec['duration'])
     yt, ytd = (a.yt, None) if a.yt else youtube(a.artist, a.title, duration)
+    ts = [t for t, x in lrc if x]
     bpm0 = a.bpm or sb.get('bpm')
     if not bpm0:
         # senza fonte: il periodo che allinea meglio le righe (battute fra 1,8 e 3,4 s)
         best = max((phase_fit(ts, 60 / b * a.beats)[0], b) for b in [x / 2 for x in range(140, 360)] if 1.8 <= 60 / b * a.beats <= 3.4)
         bpm0 = best[1]
-    ts = [t for t, x in lrc if x]
     # BPM della fonte, oppure metà/doppio: si sceglie la battuta fra 1,6 e 4,2 s che allinea meglio le righe
     cands = []
     for mul in (0.5, 1, 2):
@@ -512,6 +521,8 @@ def main():
     if data['year'] is None: del data['year']
     path = os.path.join(ROOT, 'songs', sid + '.json')
     json.dump(data, open(path, 'w'), ensure_ascii=False, indent=1)
+    if os.environ.get('AUTOSONG_NOINDEX'):
+        print('SCRITTO', path); return
     idx_path = os.path.join(ROOT, 'songs', 'index.json')
     index = json.load(open(idx_path))
     entry = {'id': sid, 'file': sid + '.json', 'title': a.title, 'artist': a.artist, 'album': data['album'], 'genre': a.genre,

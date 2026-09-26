@@ -1,5 +1,16 @@
 # Novità
 
+## 1.7.0 — 2026-09-26
+- **Catalogo ampliato** con un generatore automatico (`tools/autosong.py`): gli accordi di una pagina pubblica vengono
+  agganciati riga per riga ai tempi del canto di LRCLIB (il testo resta solo in memoria), con BPM, sezioni e video.
+- **Impara**: 29 lezioni con esercizi animati (scale con la forma in trasparenza, tecniche con etichette H/P/slide/bend,
+  ritmi, accordi), suono della nota, BPM regolabile; predisposta per basso, ukulele e pianoforte.
+- **Ampli ed effetti** per la chitarra collegata: distorsione, equalizzatore, cassa, chorus, delay, riverbero; 8 preset,
+  suono suggerito per ogni brano, scelta per brano o predefinita.
+- **Video mentre suoni** con la fotocamera, pagina Registrazioni, condivisione.
+- **Studio guidato** sezione per sezione; **Progressi** con livello, serie di giorni e obiettivi.
+- Telefono: velocità con poche scelte più − e +; sezioni in una riga di chip scorrevole e leggibile.
+
 ## 1.6.0 — 2026-09-26
 - **Vista**: si può nascondere il manico o il video — completa, manico e testo, video e testo, solo video,
   solo testo. Senza manico resta una barra compatta con accordo attuale e prossimo; il video nascosto continua a suonare.

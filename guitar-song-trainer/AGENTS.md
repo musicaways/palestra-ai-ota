@@ -66,6 +66,15 @@ js/editor.js          pagina #/editor e #/editor/<id>
 js/input.js           ingresso audio condiviso (GuitarInput): dispositivo, cavo Rocksmith, guadagno, monitor
 js/syncmath.js        coerenza testo/accordi (lyricGridCheck), stima dello sfasamento dall'audio, tocco
 js/arrangement.js     parti di chitarra: ritmica, arpeggio (buildArpeggio → tl.notes), power chord, facile
+js/amp.js             ampli ed effetti in Web Audio (Amp), 8 preset, suggestTone(song), curve e riverbero puri
+js/lessons.js         dati delle lezioni (INSTRUMENTS, CATEGORIES, LESSONS) e buildLessonTimeline (senza DOM)
+js/learn.js           pagine #/impara e #/impara/<id> (esercizio animato: tl.noteMode, tl.box, suono pluck)
+js/camera.js          CameraRecorder (fotocamera + audio, MediaRecorder), registrazioni in IndexedDB, condivisione
+js/recordings.js      pagina #/registrazioni
+js/progress.js        livello, serie di giorni, obiettivi (computeProgress puro) e pagina #/progressi
+tools/autosong.py     GENERA UN BRANO: accordi (accordiespartiti) agganciati alle righe LRCLIB, BPM, sezioni, video
+tools/chordscan.py    mostra solo le sigle degli accordi di una pagina (il testo diventa "~")
+tools/checksong.mjs   controlla forme, durata e video di ogni brano
 tools/checklyrics.py  verifica che ogni brano abbia il testo sincronizzato su LRCLIB (stampa solo numeri)
 tools/checksync.mjs   coerenza griglia/testo per ogni brano; con --fix corregge l'offset se affidabile
 tools/lrcgrid.py      analisi dei SOLI tempi LRCLIB: BPM ottimale, offset, blocchi e ritornelli
@@ -101,6 +110,20 @@ Documentato nel README (sezione "Aggiungere un brano"). Punti chiave:
 - `shapes`: diteggiature personalizzate; `capo`: capotasto consigliato di default.
 
 ### Procedura per aggiungere un brano (per l'AI)
+
+**Metodo veloce (consigliato, dalla v1.7):**
+```bash
+python3 tools/autosong.py --artist "Vasco Rossi" --title "Albachiara" --genre Rock --year 1979          # prova: stampa solo numeri
+python3 tools/autosong.py --artist "Vasco Rossi" --title "Albachiara" --genre Rock --year 1979 --write  # scrive brano e indice
+node tools/checksong.mjs vasco-rossi-albachiara && node tools/checksync.mjs
+```
+Il riepilogo JSON dice quante righe della pagina sono state agganciate a LRCLIB e quante righe cantate hanno accordi.
+Criteri usati per accettare un brano: ≥70% delle righe cantate con accordi, ≥45% delle righe della pagina agganciate,
+video con durata entro 10 s dalla versione del testo, almeno 2 accordi. Opzioni utili: `--chords-url` (pagina precisa),
+`--bpm`, `--yt`, `--lrclib`, `--beats 3`. Il sito degli accordi reindirizza titoli sconosciuti ad altri brani: lo script
+controlla che l'indirizzo finale contenga l'artista. Il testo non viene mai stampato né salvato.
+
+**Metodo manuale:**
 
 1. Trova il video ufficiale su YouTube (ID dopo `watch?v=`).
 2. Ricava tonalità, BPM, metro e giro di accordi da fonti di accordi pubbliche (solo accordi, niente testo).
@@ -174,6 +197,11 @@ Nel test e2e YouTube è bloccato di proposito (si prova il clock di riserva); il
   Lo stesso vale per trasposizione e parti (power/facile).
 - **Parti ricavate dagli accordi**, non riff originali trascritti: niente materiale protetto e funziona per ogni brano.
   Il motore delle note singole (`tl.notes`) è pronto per ospitare tablature vere in futuro.
+- **Brani generati dall'aggancio accordi↔righe**: ogni riga cantata inizia su una battuta (quantizzata sulla griglia
+  del BPM scelto per allineare meglio le righe), gli accordi della riga si distribuiscono nel suo tempo. Più preciso
+  della stima per blocchi della v1.5; resta da verificare sul video (tocco in Sincronia).
+- **Ampli in Web Audio senza librerie**: latenza bassa, niente file; col cavo Rocksmith il segnale è già pulito.
+- **Registrazioni solo sul dispositivo** (IndexedDB) finché non esiste un servizio della community: niente server.
 - **Interfaccia sobria**: niente etichette permanenti per stati rari (sincronia → pallino), strumenti rari dietro ⋯.
 - Il suggerimento del capotasto penalizza barrè, estensioni ampie e tasti alti (`shapeDifficulty`).
 

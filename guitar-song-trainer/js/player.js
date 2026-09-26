@@ -729,7 +729,7 @@ export async function openPlayer(root, song) {
       // sezione suonata a velocità piena: imparata, si passa alla successiva
       const k = study.section;
       if (!study.learned.includes(k)) study.learned.push(k);
-      store.set(key('study'), { learned: study.learned });
+      store.set(key('study'), { learned: study.learned, total: tl.sections.length });
       drawScrubSections();
       const nextSec = tl.sections.findIndex((_, i) => i > k && !study.learned.includes(i));
       if (nextSec >= 0) { toast(`«${tl.sections[k].name}» imparata! Ora: ${tl.sections[nextSec].name}`); startStudySection(nextSec); }

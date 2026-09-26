@@ -2,6 +2,7 @@
 import { getFavorites, toggleFavorite, store } from './store.js';
 import { icon } from './icons.js';
 import { getAllStats, formatDuration, formatAgo } from './stats.js';
+import { loadProgress } from './progress.js';
 
 const TABS = [
   { id: 'all', label: 'Tutti' },
@@ -30,6 +31,7 @@ export function renderLibrary(root, songs) {
           <a class="chip-btn" href="#/registrazioni">${icon('camera', 16)} Registrazioni</a>
           <a class="chip-btn" href="#/editor">${icon('text', 16)} Crea un brano</a>
           <a class="chip-btn continue-btn" hidden></a>
+          <a class="chip-btn level-chip" href="#/progressi"></a>
           <span class="hero-stats"></span>
         </div>
       </section>
@@ -173,6 +175,8 @@ export function renderLibrary(root, songs) {
     stats = getAllStats();
     const total = Object.values(stats).reduce((x, v) => x + (v.seconds || 0), 0);
     root.querySelector('.hero-stats').textContent = total ? `Hai suonato ${formatDuration(total)} in tutto` : '';
+    const pg = loadProgress();
+    root.querySelector('.level-chip').innerHTML = `${icon('starFill', 14)} Livello ${pg.level}${pg.streak ? ` · ${pg.streak} ${pg.streak === 1 ? 'giorno' : 'giorni'} di fila` : ''}`;
     tabsEl.querySelectorAll('.tab').forEach((b) => b.classList.toggle('active', b.dataset.tab === tab));
     const favs = getFavorites();
     let list = songs.filter((s) =>

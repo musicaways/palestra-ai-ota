@@ -34,7 +34,17 @@ Funziona nel browser di **PC, tablet e telefono Android** e si può installare c
 - Schermo sempre acceso mentre suoni. **Vista** a scelta: completa, manico e testo, video e testo, solo video, solo testo.
 - **Parti di chitarra**: ritmica, arpeggio, power chord, facile. **Tonalità**: trasposizione e versione senza capotasto.
 - Le scelte (tonalità, capotasto, parte, vista, velocità, loop) restano **salvate per ogni brano**. **Stampa accordi** in PDF.
-- Comandi compatti: play, velocità e loop in una riga; gli strumenti meno usati dietro ⋯.
+- Comandi compatti: play, velocità (0,5× 0,75× 1× 1,25× più − e +) e loop in una riga; gli strumenti meno usati dietro ⋯.
+- **Sezioni del brano** in una riga di chip scorrevole: un tocco per andarci, ⟲ per ripeterla.
+- **Studio guidato**: il brano diviso in sezioni, ognuna in loop dal lento alla velocità piena; quando ci arrivi è imparata.
+- **Ampli ed effetti** per la chitarra collegata (cavo Rocksmith o scheda audio): 8 preset (pulito, chorus, acustico,
+  crunch, distorsione, assolo, metal, ambient) e manopole; il suono è scelto in automatico per il brano, oppure
+  lo imposti per ogni brano o come predefinito.
+- **Video mentre suoni**: fotocamera frontale o posteriore, audio con la chitarra; i video restano sul dispositivo
+  (*Registrazioni*) e si condividono con le app del telefono.
+- **Impara**: lezioni ed esercizi animati sul manico (primi passi, accordi, ritmo, scale, tecniche, teoria),
+  con suono della nota, tempo regolabile e lezioni completate. Pronta per altri strumenti.
+- **Progressi**: livello, giorni di fila e obiettivi sbloccati.
 - **Modalità ascolto** (stile Rocksmith): il microfono riconosce l'accordo che suoni; a ogni cambio il
   manico si illumina di verde o di rosso, con precisione, serie e record.
 - **Frecce della pennata** (↓ ↑) che scorrono sulla corsia a tempo.
