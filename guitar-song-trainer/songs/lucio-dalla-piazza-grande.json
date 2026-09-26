@@ -1,0 +1,151 @@
+{
+ "title": "Piazza grande",
+ "artist": "Lucio Dalla",
+ "album": "The Best Of",
+ "year": 1972,
+ "genre": "Cantautori",
+ "difficulty": 5,
+ "youtubeId": "oBZ1jSXHb8E",
+ "key": "G",
+ "bpm": 66.97,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.85,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37460956,
+  "duration": 193,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – A – D7 – E7 – Ab – Eb7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G",
+    "%",
+    "D7",
+    "%",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "G:2",
+     "D7:2"
+    ],
+    "G",
+    "D7",
+    "%",
+    [
+     "G:2",
+     "D7:2"
+    ],
+    "G",
+    "E",
+    "Am",
+    "D7",
+    "G",
+    "D7",
+    "G",
+    "D7",
+    "G",
+    "D7",
+    "%",
+    [
+     "Ab:2",
+     "Eb7:2"
+    ],
+    "Ab",
+    [
+     "F:2",
+     "Bbm:2"
+    ],
+    "Bb7",
+    "Eb7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Eb7",
+    "Ab",
+    [
+     "F:2",
+     "Bbm:2"
+    ],
+    [
+     "Eb7:2",
+     "Ab:2"
+    ],
+    "Eb",
+    "Ab",
+    "Eb",
+    "Ab",
+    "Eb7",
+    "%",
+    [
+     "A:2",
+     "E7:2"
+    ],
+    "A",
+    "F#",
+    "Bm",
+    "E7",
+    "A",
+    "E7",
+    "A",
+    "E7",
+    "A",
+    "E7",
+    "A",
+    "E7",
+    "A",
+    "E7",
+    "A",
+    "E7",
+    "A"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   5,
+   18.943
+  ],
+  [
+   9,
+   33.35
+  ],
+  [
+   15,
+   54.878
+  ],
+  [
+   21,
+   75.58
+  ],
+  [
+   28,
+   101.266
+  ],
+  [
+   33,
+   119.185
+  ],
+  [
+   38,
+   137.377
+  ]
+ ]
+}

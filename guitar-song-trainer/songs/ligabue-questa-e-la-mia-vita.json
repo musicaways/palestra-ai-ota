@@ -1,0 +1,264 @@
+{
+ "title": "Questa è la mia vita",
+ "artist": "Ligabue",
+ "album": "Discover Italia anni 2000",
+ "year": 2005,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "vWpy3AQp1T0",
+ "key": "D4",
+ "bpm": 108.15,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.41,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34322856,
+  "duration": 241,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D4 – C – D – G – Em – Cmaj7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Em",
+    "D4",
+    "D",
+    "C",
+    "G",
+    "C",
+    "Cmaj7",
+    "Em",
+    "D4",
+    "D",
+    "D4",
+    "D",
+    "Em",
+    "D4"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "G",
+    "%",
+    "C",
+    "%",
+    "Em",
+    "D4",
+    [
+     "D4:2",
+     "D:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "G",
+    "%",
+    "C",
+    "%",
+    "Em",
+    "D4",
+    [
+     "D4:2",
+     "D:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Am7",
+    "C",
+    "%",
+    "G",
+    "Am7",
+    "Cmaj7",
+    "G",
+    "C",
+    [
+     "C:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "D4:2"
+    ],
+    [
+     "D4:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "D4:2"
+    ],
+    "%",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "G",
+    "%",
+    "%",
+    "C",
+    "%",
+    "Em",
+    "D4",
+    [
+     "D4:2",
+     "D:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "G",
+    "%",
+    "C",
+    "%",
+    "Em",
+    "D4",
+    [
+     "D4:2",
+     "D:2"
+    ],
+    "%",
+    "Am7",
+    "C",
+    "%",
+    "G",
+    "Am7",
+    "Cmaj7",
+    "G",
+    "C",
+    "Cmaj7",
+    [
+     "Cmaj7:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "D4:2"
+    ],
+    [
+     "D4:2",
+     "D:2"
+    ],
+    "%",
+    "D4",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "G",
+    "%",
+    "C",
+    "%",
+    "Em",
+    "D4",
+    [
+     "D4:2",
+     "D:2"
+    ],
+    "%",
+    "Am7",
+    "C",
+    "%",
+    "G",
+    "Am7",
+    "Cmaj7",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "C",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "C7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   14,
+   32.673
+  ],
+  [
+   19,
+   44.027
+  ],
+  [
+   23,
+   52.922
+  ],
+  [
+   30,
+   68.08
+  ],
+  [
+   35,
+   79.08
+  ],
+  [
+   46,
+   103.491
+  ],
+  [
+   53,
+   119.157
+  ],
+  [
+   57,
+   128.399
+  ],
+  [
+   76,
+   170.002
+  ],
+  [
+   81,
+   180.898
+  ],
+  [
+   86,
+   191.653
+  ],
+  [
+   90,
+   200.529
+  ]
+ ]
+}

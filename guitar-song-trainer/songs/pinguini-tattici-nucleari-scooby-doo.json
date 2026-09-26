@@ -1,0 +1,241 @@
+{
+ "title": "Scooby Doo",
+ "artist": "Pinguini Tattici Nucleari",
+ "album": "AHIA! [Explicit]",
+ "year": 2020,
+ "genre": "Pop / Indie",
+ "difficulty": 5,
+ "youtubeId": "gYJUPA26MyI",
+ "key": "F#",
+ "bpm": 67.53,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.49,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 23209799,
+  "duration": 179.121633,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F# – D#m – B – G#m7 – G#m – C#.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "F#:1",
+     "G#m7:2",
+     "D#m:1"
+    ],
+    "F#",
+    [
+     "G#m7:2",
+     "D#m:2"
+    ],
+    [
+     "B:2",
+     "F#:2"
+    ],
+    "G#m7",
+    "D#m",
+    "G#m7",
+    [
+     "D#m:2",
+     "B:2"
+    ],
+    [
+     "F#:1",
+     "G#m:2",
+     "D#m:1"
+    ],
+    [
+     "B:2",
+     "F#:2"
+    ],
+    [
+     "G#m:2",
+     "D#m:2"
+    ],
+    [
+     "B:2",
+     "F#:2"
+    ],
+    "G#m7",
+    [
+     "D#m:2",
+     "B:2"
+    ],
+    [
+     "F#:2",
+     "G#m7:2"
+    ],
+    [
+     "D#m:2",
+     "B:2"
+    ],
+    "F#",
+    "G#m7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "F#:1",
+     "G#m7:2",
+     "D#m:1"
+    ],
+    [
+     "B:2",
+     "F#:2"
+    ],
+    [
+     "G#m7:2",
+     "D#m:2"
+    ],
+    [
+     "B:2",
+     "F#:2"
+    ],
+    "%",
+    "F#",
+    "%",
+    "D#m",
+    [
+     "F#:1",
+     "G#m:2",
+     "D#m:1"
+    ],
+    [
+     "B:2",
+     "F#:2"
+    ],
+    [
+     "G#m:2",
+     "D#m:2"
+    ],
+    [
+     "B:2",
+     "F#:2"
+    ],
+    "G#m7",
+    [
+     "D#m:2",
+     "B:2"
+    ],
+    [
+     "F#:2",
+     "G#m7:2"
+    ],
+    [
+     "D#m:2",
+     "B:2"
+    ],
+    [
+     "C#:2",
+     "D#m7:2"
+    ],
+    "C#",
+    "%",
+    "G#m7",
+    "%",
+    "F#",
+    "G#m7",
+    "D#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    [
+     "F#:1",
+     "G#m:2",
+     "D#m:1"
+    ],
+    [
+     "B:2",
+     "F#:2"
+    ],
+    [
+     "G#m:2",
+     "D#m:2"
+    ],
+    [
+     "B:2",
+     "F#:2"
+    ],
+    "G#m7",
+    [
+     "D#m:2",
+     "B:2"
+    ],
+    [
+     "F#:2",
+     "G#m7:2"
+    ],
+    [
+     "D#m:2",
+     "B:2"
+    ]
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   1,
+   6.252
+  ],
+  [
+   5,
+   20.288
+  ],
+  [
+   9,
+   34.752
+  ],
+  [
+   13,
+   48.58
+  ],
+  [
+   18,
+   66.35
+  ],
+  [
+   23,
+   84.076
+  ],
+  [
+   27,
+   98.516
+  ],
+  [
+   32,
+   116.152
+  ],
+  [
+   37,
+   133.922
+  ],
+  [
+   42,
+   151.914
+  ],
+  [
+   47,
+   169.938
+  ],
+  [
+   49,
+   176.682
+  ]
+ ]
+}

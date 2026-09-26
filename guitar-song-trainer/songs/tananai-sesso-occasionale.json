@@ -1,0 +1,161 @@
+{
+ "title": "Sesso occasionale",
+ "artist": "Tananai",
+ "album": "HOT PARTY SPRING 2022",
+ "year": 2022,
+ "genre": "Pop",
+ "difficulty": 2,
+ "youtubeId": "2HMPD8o8J3A",
+ "key": "Am",
+ "bpm": 65.33,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 3.0,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36937323,
+  "duration": 196.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Am – Dm7 – Cmaj7 – G – C.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "C"
+   ]
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "C",
+    "%",
+    "C",
+    "%",
+    "C",
+    "Am",
+    "C",
+    "Am",
+    [
+     "Cmaj7:1",
+     "Am:2",
+     "Dm7:1"
+    ],
+    "%",
+    [
+     "G:1",
+     "Cmaj7:2",
+     "Am:1"
+    ],
+    "Dm7",
+    [
+     "Cmaj7:2",
+     "Am:2"
+    ],
+    [
+     "Am:2",
+     "Dm7:2"
+    ],
+    [
+     "Cmaj7:1",
+     "Am:2",
+     "Dm7:1"
+    ],
+    "G",
+    "C",
+    "C",
+    "%",
+    "C",
+    "%",
+    "C",
+    "%",
+    "C",
+    "Am",
+    [
+     "Cmaj7:1",
+     "Am:2",
+     "Dm7:1"
+    ],
+    "%",
+    [
+     "G:1",
+     "Cmaj7:2",
+     "Am:1"
+    ],
+    "Dm7",
+    "G",
+    [
+     "Cmaj7:1",
+     "Am:2",
+     "Dm7:1"
+    ],
+    "G",
+    [
+     "Cmaj7:1",
+     "Am:2",
+     "Dm7:1"
+    ],
+    "G",
+    "Cmaj7",
+    "Am",
+    "Dm7",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "C:2",
+     "Am:2"
+    ],
+    [
+     "Dm7:2",
+     "G:2"
+    ],
+    [
+     "C:2",
+     "Am:2"
+    ],
+    [
+     "Dm7:2",
+     "G:2"
+    ],
+    [
+     "C:1",
+     "Am:2",
+     "Dm7:1"
+    ],
+    "G",
+    [
+     "Cmaj7:1",
+     "Am:2",
+     "Dm7:1"
+    ],
+    "G",
+    [
+     "Cmaj7:2",
+     "Am:2"
+    ],
+    [
+     "Dm7:2",
+     "G:2"
+    ],
+    [
+     "Cmaj7:2",
+     "Am:2"
+    ],
+    "Dm7",
+    "G",
+    "Cmaj7"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

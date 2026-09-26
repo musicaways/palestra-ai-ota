@@ -1,0 +1,247 @@
+{
+ "title": "Via le mani dagli occhi",
+ "artist": "Negramaro",
+ "album": "Una Storia Semplice CD1",
+ "year": 2008,
+ "genre": "Pop / Rock",
+ "difficulty": 5,
+ "youtubeId": "oLkDk9_5Lgs",
+ "key": "G#m",
+ "bpm": 100.62,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.64,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37000817,
+  "duration": 229,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G#m – E – F# – B – C#m – Bm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G#m",
+    "%",
+    "%",
+    "%",
+    "E",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "%",
+    "G#m",
+    "E",
+    "F#",
+    "C#m",
+    "G#m",
+    "%",
+    "%",
+    "%",
+    "G#m",
+    "E",
+    "F#",
+    "C#m",
+    "E",
+    "%",
+    "B",
+    [
+     "B:2",
+     "F#:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "G#m",
+    "E",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "G#m",
+    "E",
+    "F#",
+    "C#m",
+    "G#m",
+    "%",
+    "E",
+    "%",
+    "F#",
+    "C#m",
+    "E",
+    "%",
+    "B",
+    [
+     "B:2",
+     "F#:2"
+    ],
+    "%",
+    "G#m",
+    "G#m",
+    [
+     "G#m:2",
+     "E:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "B",
+    "F#",
+    "G#m",
+    "E",
+    "%",
+    "%",
+    "C#m",
+    "%",
+    "G#m",
+    "E",
+    "%",
+    "%",
+    "C#m",
+    "%",
+    "B",
+    [
+     "B:2",
+     "F#:2"
+    ],
+    "%",
+    "G#m",
+    "G#m",
+    [
+     "G#m:2",
+     "E:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "B",
+    "F#",
+    "%",
+    "G#m",
+    "E",
+    "%",
+    "G#m",
+    "Bm",
+    "G#m",
+    "Bm",
+    "G#m",
+    "Bm",
+    "G#m",
+    "Bm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "G#",
+    "Bm",
+    "G#m",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   9,
+   23.03
+  ],
+  [
+   13,
+   32.729
+  ],
+  [
+   17,
+   42.111
+  ],
+  [
+   23,
+   56.211
+  ],
+  [
+   34,
+   82.626
+  ],
+  [
+   39,
+   94.871
+  ],
+  [
+   45,
+   109.129
+  ],
+  [
+   50,
+   121.047
+  ],
+  [
+   56,
+   134.861
+  ],
+  [
+   62,
+   148.95
+  ],
+  [
+   67,
+   161.24
+  ],
+  [
+   71,
+   170.84
+  ],
+  [
+   75,
+   180.49
+  ],
+  [
+   80,
+   192.546
+  ],
+  [
+   89,
+   214.165
+  ],
+  [
+   91,
+   218.935
+  ]
+ ]
+}

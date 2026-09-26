@@ -1,0 +1,224 @@
+{
+ "title": "Ring of Fire",
+ "artist": "Johnny Cash",
+ "album": "1963! Songs of the Year",
+ "year": 1963,
+ "genre": "Country",
+ "difficulty": 1,
+ "youtubeId": "FwiYC0SsQIc",
+ "key": "G",
+ "bpm": 102.75,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.9,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36947264,
+  "duration": 158,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – C – D.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G",
+    "C",
+    "G"
+   ]
+  },
+  {
+   "name": "Strofa",
+   "bars": [
+    "G",
+    "C",
+    "G",
+    "D",
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "C",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "G",
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    "D",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "G",
+    "C",
+    "G",
+    "G",
+    "C",
+    "G",
+    "G",
+    "D",
+    "G",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    "D",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "G",
+    "C",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "%",
+    [
+     "G:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    "D",
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "C",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    "G",
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    "D",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "G",
+    "C",
+    "G",
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    "D",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "G",
+    "C",
+    "G",
+    "G",
+    "%",
+    "C",
+    "G",
+    "D",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   5.75,
+   15.426
+  ],
+  [
+   11.25,
+   28.272
+  ],
+  [
+   15.75,
+   38.804
+  ],
+  [
+   27.25,
+   65.711
+  ],
+  [
+   32.25,
+   77.34
+  ],
+  [
+   37.25,
+   88.869
+  ],
+  [
+   43,
+   102.271
+  ],
+  [
+   47.75,
+   113.36
+  ],
+  [
+   52.25,
+   123.881
+  ],
+  [
+   57.25,
+   135.701
+  ],
+  [
+   62.5,
+   148.041
+  ]
+ ]
+}

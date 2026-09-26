@@ -1,0 +1,156 @@
+{
+ "title": "Ogni volta",
+ "artist": "Vasco Rossi",
+ "album": "vado al massimo 40 rplay special edition",
+ "year": 1982,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "uEekWuIGsHg",
+ "key": "A",
+ "bpm": 72.84,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.41,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34671884,
+  "duration": 254.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – Dadd9 – C#m – F#7 – E – Dm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "A",
+    "C#m",
+    "F#7",
+    "Dadd9",
+    "Dm7",
+    "A",
+    "E",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "A",
+    "C#m",
+    "F#7",
+    "Dadd9",
+    "Dm7",
+    "A",
+    "E",
+    "A",
+    "%",
+    "C#m",
+    "F#7",
+    "Dadd9",
+    "Dm7",
+    "A",
+    "E",
+    "E7",
+    "A",
+    "C#m",
+    "F#7",
+    "Dadd9",
+    "Dm7",
+    "A",
+    [
+     "E:2",
+     "E7:2"
+    ],
+    [
+     "E:2",
+     "E7:2"
+    ],
+    "A",
+    "C#m",
+    [
+     "F#7:2",
+     "Dadd9:2"
+    ],
+    [
+     "Dadd9:2",
+     "Dm:2"
+    ],
+    [
+     "Dm:2",
+     "A:2"
+    ],
+    "E",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "C#m",
+    [
+     "C#m:2",
+     "F#7:2"
+    ],
+    "%",
+    "Dadd9",
+    [
+     "Dadd9:2",
+     "Dm7:2"
+    ],
+    "%",
+    "A",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "A",
+    "C#m",
+    "F#7",
+    "Dadd9",
+    "Dm7",
+    "A",
+    [
+     "E:2",
+     "E7:2"
+    ],
+    "A",
+    "C#m",
+    "F#7",
+    "Dadd9",
+    "Dm7",
+    "A",
+    "E",
+    "A",
+    "A",
+    "C#m",
+    "F#7",
+    "Dadd9",
+    "Dm7",
+    "A",
+    "E",
+    "E7",
+    "A",
+    "A",
+    "C#m",
+    "F#7",
+    "Dadd9",
+    "Dm7"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

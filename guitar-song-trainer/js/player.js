@@ -1526,6 +1526,7 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
       ['Album', song.album], ['Anno', song.year], ['Genere', song.genre], ['Tonalità', song.key], ['BPM', song.bpm],
       ['Tempo', song.timeSignature?.join('/')], ['Capotasto', song.capo ? `${song.capo}° tasto` : 'nessuno'],
       ['Accordatura', song.tuning ?? 'Standard (E A D G B E)'],
+      ['Sincronia', sync?.length ? 'tempi registrati da te' : song.warp?.length ? `agganciata ai tempi del canto (${song.warp.length} punti)` : 'griglia a tempo costante'],
     ];
     for (const [k, v] of rows) {
       if (v == null || v === '') continue;

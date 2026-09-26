@@ -1,0 +1,299 @@
+{
+ "title": "Your Song",
+ "artist": "Elton John",
+ "album": "Elton John",
+ "year": 1970,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "CrznwpD-2tk",
+ "key": "Eb",
+ "bpm": 128.24,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.52,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 15681380,
+  "duration": 242,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Eb – Ab6 – Fm7 – Abmaj7 – Bb – Ab.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Eb",
+    "%",
+    "Abmaj7",
+    "%"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Eb",
+    "Abmaj7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Eb",
+    "%",
+    [
+     "Eb:2",
+     "Fm7:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Eb",
+    "Abmaj7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Eb",
+    "%",
+    [
+     "Eb:2",
+     "Fm7:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "Fm7",
+    "Ab",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Cm",
+    "%",
+    "%",
+    "Ab6",
+    "Ab6",
+    "%",
+    [
+     "Ab6:2",
+     "Bb:2"
+    ],
+    "%",
+    "%",
+    "Bb4",
+    "%",
+    [
+     "Bb4:2",
+     "Bb:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Abmaj7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "Eb",
+    "%",
+    [
+     "Eb:2",
+     "Fm7:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "Eb",
+    "Abmaj7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Ab",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Eb",
+    "%",
+    [
+     "Eb:2",
+     "Fm7:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "Fm7",
+    "Ab",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    "Cm",
+    "%",
+    "%",
+    "Ab6",
+    "%",
+    "Ab6",
+    "%",
+    [
+     "Ab6:2",
+     "Bb:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 7",
+   "bars": [
+    "Cm",
+    "%",
+    "%",
+    "Ab6",
+    "%",
+    "Ab6",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   9.147
+  ],
+  [
+   8,
+   16.633
+  ],
+  [
+   16,
+   31.605
+  ],
+  [
+   21,
+   40.903
+  ],
+  [
+   29,
+   55.67
+  ],
+  [
+   38,
+   72.513
+  ],
+  [
+   46,
+   87.389
+  ],
+  [
+   60,
+   113.585
+  ],
+  [
+   68,
+   128.557
+  ],
+  [
+   77,
+   145.483
+  ],
+  [
+   85,
+   160.737
+  ],
+  [
+   94,
+   177.604
+  ],
+  [
+   102,
+   192.552
+  ],
+  [
+   112,
+   211.093
+  ],
+  [
+   117,
+   220.694
+  ]
+ ]
+}

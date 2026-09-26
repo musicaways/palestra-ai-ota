@@ -1,0 +1,251 @@
+{
+ "title": "Rewind",
+ "artist": "Vasco Rossi",
+ "album": "VASCONONSTOP",
+ "year": 1998,
+ "genre": "Rock",
+ "difficulty": 1,
+ "youtubeId": "-_xdcH6Bhow",
+ "key": "D",
+ "bpm": 65.39,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 3.21,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36817538,
+  "duration": 269,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – G – C.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "G",
+    "C",
+    "D",
+    "G",
+    "%",
+    "C",
+    "D",
+    "G",
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "G:1"
+    ],
+    "%",
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    "G",
+    "C",
+    "D",
+    "G",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "G",
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    "C",
+    "%",
+    "D",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "G",
+    "C",
+    "D",
+    "G",
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "G:1"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "G:1"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "G:1"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "G:1"
+    ],
+    "C",
+    "%",
+    "%",
+    "%",
+    "%",
+    "D",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   6,
+   25.59
+  ],
+  [
+   10,
+   40.12
+  ],
+  [
+   16,
+   62.041
+  ],
+  [
+   20,
+   76.89
+  ],
+  [
+   26,
+   98.912
+  ],
+  [
+   32,
+   120.3
+  ],
+  [
+   38,
+   142.93
+  ],
+  [
+   44,
+   164.952
+  ],
+  [
+   48,
+   179.738
+  ],
+  [
+   54,
+   201.76
+  ],
+  [
+   57,
+   213.391
+  ]
+ ]
+}

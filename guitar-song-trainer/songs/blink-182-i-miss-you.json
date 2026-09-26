@@ -1,0 +1,200 @@
+{
+ "title": "I Miss You",
+ "artist": "Blink-182",
+ "album": "Blink-182",
+ "year": 2003,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "E-NMd8PPhkM",
+ "key": "B",
+ "bpm": 109.24,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.35,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 21398967,
+  "duration": 227.253333,
+  "offset": 0
+ },
+ "notes": "Accordi principali: B – F# – D#m – E – G#m7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G#m7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G#m7",
+    "%",
+    "B",
+    "%",
+    "%",
+    "B",
+    "%",
+    "D#m",
+    "%",
+    [
+     "D#m:2",
+     "F#:2"
+    ],
+    "%",
+    "%",
+    "E",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "B:1",
+     "D#m:1",
+     "F#:1",
+     "E:1"
+    ],
+    "B",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "B",
+    "%",
+    "%",
+    "%",
+    "B",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "B:2",
+     "D#m:2"
+    ],
+    "F#",
+    [
+     "F#:2",
+     "E:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "B:2",
+     "D#m:2"
+    ],
+    "F#",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "F#:2",
+     "E:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "B",
+    [
+     "B:2",
+     "D#m:2"
+    ],
+    "%",
+    "F#",
+    [
+     "F#:2",
+     "E:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "B",
+    "D#m",
+    "F#",
+    "E",
+    [
+     "B:2",
+     "D#m:2"
+    ],
+    "F#",
+    [
+     "F#:2",
+     "E:2"
+    ],
+    "%",
+    [
+     "B:2",
+     "D#m:2"
+    ],
+    "F#",
+    "%",
+    "%",
+    "E",
+    "%",
+    "%",
+    "B",
+    "D#m",
+    "F#",
+    "E",
+    "B",
+    "D#m",
+    "F#",
+    "E",
+    "B",
+    "D#m",
+    "F#",
+    "E",
+    "B",
+    [
+     "D#m:2",
+     "F#:2"
+    ],
+    "E"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

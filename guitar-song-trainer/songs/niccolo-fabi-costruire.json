@@ -1,0 +1,250 @@
+{
+ "title": "Costruire",
+ "artist": "Niccolò Fabi",
+ "album": "Dischi volanti 1996-2006",
+ "year": 2006,
+ "genre": "Cantautori",
+ "difficulty": 5,
+ "youtubeId": "mhH0X7RtZyM",
+ "key": "Dbadd9",
+ "bpm": 116.5,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.89,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34308395,
+  "duration": 311.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Dbadd9 – Eb – Bbm – Bbm7 – Ab – Abmaj7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Fm",
+    "%",
+    "%"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Fm7",
+    "%",
+    "Eb",
+    "%",
+    [
+     "Bbm:2",
+     "Bbm:2"
+    ],
+    "Db",
+    "%",
+    "%",
+    "%",
+    "Ab",
+    "Abmaj7",
+    "Bbm",
+    "Bbm",
+    [
+     "Bbm:2",
+     "Dbadd9:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "Ab",
+    "Abmaj7",
+    "Bbm",
+    "Bbm",
+    "Dbadd9",
+    "%",
+    "%",
+    "Ab",
+    "Abmaj7",
+    "Bbm",
+    "%",
+    "Dbmaj7",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "F",
+    "Fadd9",
+    "%",
+    "%",
+    "%",
+    "Bbm7",
+    "Dbadd9",
+    "Ab",
+    "%",
+    "Eb",
+    "%",
+    "Eb4",
+    "%",
+    "Eb",
+    "%",
+    "Bbm7",
+    "%",
+    "Dbadd9",
+    "%",
+    "%",
+    "%",
+    "Eb",
+    "%",
+    "Bbm",
+    [
+     "Bbm:2",
+     "Bbm7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "%",
+    "Ab",
+    "Abmaj7",
+    "Bbm",
+    "Bbm7",
+    "Dbadd9",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "F",
+    "Fadd9",
+    "%",
+    "%",
+    "%",
+    "Bbm7",
+    [
+     "Bbm7:2",
+     "Dbadd9:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "Ab",
+    "Eb",
+    "F",
+    "%",
+    "%",
+    "Bbm7",
+    "%",
+    "Dbadd9",
+    "%",
+    "Ab",
+    "%",
+    "Eb",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    "%",
+    "%",
+    "Ebadd9",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 8",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "Dbadd9",
+    "%",
+    "%",
+    "%",
+    "Eb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 9",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "Dbadd9",
+    "%",
+    "%",
+    "%",
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "Dbadd9",
+    "%",
+    "%",
+    "%",
+    "Eb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 10",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "Dbadd9",
+    "%",
+    "%",
+    "%",
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "Dbadd9",
+    "%",
+    "%",
+    "%",
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "Dbadd9"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

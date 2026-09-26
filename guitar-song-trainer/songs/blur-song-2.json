@@ -1,0 +1,321 @@
+{
+ "title": "Song 2",
+ "artist": "Blur",
+ "album": "ST. Pauli Underground",
+ "year": 1997,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "Ie-ml9zuagc",
+ "key": "A",
+ "bpm": 129.94,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.28,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37474286,
+  "duration": 121,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – F#m – E – Bm – C#m – D.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F#m",
+    "E",
+    "A",
+    "Bm",
+    "C#m",
+    "F#m",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "F#m:2",
+     "E:1",
+     "A:1"
+    ],
+    [
+     "A:1",
+     "Bm:1",
+     "C#m:2"
+    ],
+    [
+     "F#m:2",
+     "E:1",
+     "A:1"
+    ],
+    [
+     "A:1",
+     "Bm:1",
+     "C#m:2"
+    ],
+    [
+     "F#m:2",
+     "E:1",
+     "A:1"
+    ],
+    [
+     "A:1",
+     "Bm:1",
+     "C#m:2"
+    ],
+    [
+     "F#m:2",
+     "E:1",
+     "A:1"
+    ],
+    [
+     "A:1",
+     "Bm:1",
+     "C#m:2"
+    ],
+    [
+     "F#m:2",
+     "E:1",
+     "A:1"
+    ],
+    [
+     "A:1",
+     "Bm:1",
+     "C#m:2"
+    ],
+    [
+     "F#m:2",
+     "E:1",
+     "A:1"
+    ],
+    [
+     "A:1",
+     "Bm:1",
+     "C#m:2"
+    ],
+    [
+     "F#m:2",
+     "E:1",
+     "A:1"
+    ],
+    [
+     "A:1",
+     "Bm:1",
+     "C#m:2"
+    ],
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    [
+     "A:1",
+     "Bm:2",
+     "C#m:1"
+    ],
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    [
+     "A:1",
+     "Bm:2",
+     "C#m:1"
+    ],
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    [
+     "A:1",
+     "Bm:2",
+     "C#m:1"
+    ],
+    "F#m",
+    "A",
+    "%",
+    "D",
+    "F#m",
+    "%",
+    "E",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "F#m:2",
+     "E:1",
+     "A:1"
+    ],
+    [
+     "A:1",
+     "Bm:1",
+     "C#m:2"
+    ],
+    [
+     "F#m:2",
+     "E:1",
+     "A:1"
+    ],
+    [
+     "A:1",
+     "Bm:1",
+     "C#m:2"
+    ],
+    [
+     "F#m:2",
+     "E:1",
+     "A:1"
+    ],
+    [
+     "A:1",
+     "Bm:1",
+     "C#m:2"
+    ],
+    [
+     "F#m:2",
+     "E:1",
+     "A:1"
+    ],
+    [
+     "A:1",
+     "Bm:1",
+     "C#m:2"
+    ],
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    [
+     "A:1",
+     "Bm:2",
+     "C#m:1"
+    ],
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    [
+     "A:1",
+     "Bm:2",
+     "C#m:1"
+    ],
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    [
+     "A:1",
+     "Bm:2",
+     "C#m:1"
+    ],
+    "F#m",
+    "A",
+    "%",
+    "D",
+    "F#m",
+    "%",
+    [
+     "F#m:2",
+     "E:1",
+     "A:1"
+    ],
+    [
+     "A:1",
+     "Bm:1",
+     "C#m:2"
+    ],
+    [
+     "F#m:2",
+     "E:1",
+     "A:1"
+    ],
+    [
+     "A:1",
+     "Bm:1",
+     "C#m:2"
+    ],
+    [
+     "F#m:2",
+     "E:1",
+     "A:1"
+    ],
+    [
+     "A:1",
+     "Bm:1",
+     "C#m:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   7,
+   14.286
+  ],
+  [
+   11,
+   21.512
+  ],
+  [
+   15,
+   28.834
+  ],
+  [
+   21,
+   39.87
+  ],
+  [
+   25,
+   47.553
+  ],
+  [
+   29,
+   54.914
+  ],
+  [
+   37,
+   69.586
+  ],
+  [
+   41,
+   76.974
+  ],
+  [
+   46,
+   86.246
+  ],
+  [
+   51,
+   95.478
+  ],
+  [
+   57,
+   106.549
+  ],
+  [
+   63,
+   117.634
+  ]
+ ]
+}

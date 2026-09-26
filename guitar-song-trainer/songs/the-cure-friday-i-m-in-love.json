@@ -1,0 +1,248 @@
+{
+ "title": "Friday I'm in Love",
+ "artist": "The Cure",
+ "album": "Greatest Ever! Love Songs: The Definitive Collection",
+ "year": 1992,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "mGgMZpGYiy8",
+ "key": "D",
+ "bpm": 67.88,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.2,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37469847,
+  "duration": 215,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – A – G – Bm – Cadd9 – Bm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "D",
+    "G",
+    "D",
+    "A",
+    "Bm7",
+    "G",
+    "D",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "G:2",
+     "A:2"
+    ],
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    "D",
+    "G",
+    "D",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "G:2",
+     "A:2"
+    ],
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "Bm:2",
+     "Cadd9:2"
+    ],
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    "Cadd9",
+    "Bm",
+    "Cadd9",
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    "Cadd9",
+    "A",
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    "D",
+    "G",
+    "D",
+    "A",
+    "Bm7",
+    "G",
+    "D",
+    "A",
+    "D",
+    "G",
+    "D"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   8,
+   29.684
+  ],
+  [
+   12,
+   43.791
+  ],
+  [
+   16,
+   57.589
+  ],
+  [
+   20,
+   71.96
+  ],
+  [
+   27,
+   96.71
+  ],
+  [
+   31,
+   110.724
+  ],
+  [
+   36,
+   128.984
+  ],
+  [
+   40,
+   143.11
+  ],
+  [
+   45,
+   160.263
+  ],
+  [
+   49,
+   174.406
+  ]
+ ]
+}

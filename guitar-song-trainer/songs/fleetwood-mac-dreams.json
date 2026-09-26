@@ -1,0 +1,277 @@
+{
+ "title": "Dreams",
+ "artist": "Fleetwood Mac",
+ "album": "Top 100 Usa 21.03",
+ "year": 1977,
+ "genre": "Rock",
+ "difficulty": 1,
+ "youtubeId": "v4fH2G0DclA",
+ "key": "Fmaj7",
+ "bpm": 61.78,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 3.16,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37018334,
+  "duration": 254,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Fmaj7 – G – Am.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Fmaj7",
+    "G",
+    "Fmaj7",
+    "G",
+    "Fmaj7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "G:2",
+     "Fmaj7:2"
+    ],
+    [
+     "Fmaj7:2",
+     "G:2"
+    ],
+    "Fmaj7",
+    "G",
+    [
+     "Fmaj7:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Fmaj7:2"
+    ],
+    [
+     "Fmaj7:2",
+     "G:2"
+    ],
+    [
+     "Fmaj7:1",
+     "G:1",
+     "Fmaj7:1",
+     "G:1"
+    ],
+    "Fmaj7",
+    "G",
+    [
+     "Fmaj7:2",
+     "G:2"
+    ],
+    [
+     "Fmaj7:2",
+     "G:2"
+    ],
+    [
+     "Fmaj7:2",
+     "G:2"
+    ],
+    [
+     "Fmaj7:2",
+     "G:2"
+    ],
+    [
+     "Fmaj7:2",
+     "G:2"
+    ],
+    [
+     "Fmaj7:2",
+     "G:2"
+    ],
+    [
+     "Fmaj7:2",
+     "G:2"
+    ],
+    [
+     "Fmaj7:2",
+     "G:2"
+    ],
+    "Fmaj7",
+    "G",
+    [
+     "Fmaj7:1",
+     "G:1",
+     "Fmaj7:1",
+     "G:1"
+    ],
+    "Am",
+    "G",
+    "Fmaj7",
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Fmaj7:2",
+     "G:2"
+    ],
+    [
+     "Fmaj7:2",
+     "G:2"
+    ],
+    [
+     "Fmaj7:2",
+     "G:1",
+     "Fmaj7:1"
+    ],
+    [
+     "Fmaj7:1",
+     "G:1",
+     "Fmaj7:2"
+    ],
+    "Fmaj7",
+    "G",
+    [
+     "Fmaj7:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Fmaj7:2"
+    ],
+    [
+     "Fmaj7:2",
+     "G:2"
+    ],
+    [
+     "Fmaj7:1",
+     "G:1",
+     "Fmaj7:1",
+     "G:1"
+    ],
+    [
+     "Fmaj7:2",
+     "G:2"
+    ],
+    "Fmaj7",
+    "G",
+    [
+     "Fmaj7:2",
+     "G:2"
+    ],
+    [
+     "Fmaj7:1",
+     "G:1",
+     "Fmaj7:1",
+     "G:1"
+    ],
+    "Fmaj7",
+    [
+     "G:2",
+     "Fmaj7:2"
+    ],
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Fmaj7:2",
+     "G:2"
+    ],
+    [
+     "Fmaj7:2",
+     "G:2"
+    ],
+    "Fmaj7",
+    "G",
+    [
+     "Fmaj7:2",
+     "G:2"
+    ],
+    [
+     "Fmaj7:2",
+     "G:2"
+    ],
+    [
+     "Fmaj7:1",
+     "G:1",
+     "Fmaj7:1",
+     "G:1"
+    ],
+    "Fmaj7",
+    [
+     "G:2",
+     "Fmaj7:2"
+    ],
+    "G",
+    "Fmaj7",
+    "%",
+    [
+     "Fmaj7:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   2,
+   11.77
+  ],
+  [
+   7,
+   30.95
+  ],
+  [
+   11,
+   46.461
+  ],
+  [
+   17,
+   69.83
+  ],
+  [
+   21,
+   85.37
+  ],
+  [
+   30,
+   119.961
+  ],
+  [
+   36,
+   143.026
+  ],
+  [
+   41,
+   162.45
+  ],
+  [
+   48,
+   189.033
+  ],
+  [
+   55,
+   215.942
+  ],
+  [
+   63,
+   247.02
+  ]
+ ]
+}

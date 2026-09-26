@@ -1,0 +1,269 @@
+{
+ "title": "Hey Joe",
+ "artist": "Jimi Hendrix",
+ "album": "Vários (RFA)",
+ "year": 1966,
+ "genre": "Rock",
+ "difficulty": 2,
+ "youtubeId": "msx-yjvXFd0",
+ "key": "C",
+ "bpm": 80.84,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.97,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36985564,
+  "duration": 210,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – G – C – A – E.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "C",
+    "G",
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "A",
+    "E",
+    [
+     "C:1",
+     "G:2",
+     "D:1"
+    ],
+    "A",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "D",
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    [
+     "C:1",
+     "G:2",
+     "D:1"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    "%",
+    [
+     "C:1",
+     "G:2",
+     "D:1"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    "%",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "D",
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    "C",
+    "%",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "D",
+    "%",
+    "%",
+    "A",
+    "%",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "C:1",
+     "G:2",
+     "D:1"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    "%",
+    [
+     "C:1",
+     "G:2",
+     "D:1"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    "%",
+    [
+     "C:1",
+     "G:2",
+     "D:1"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    [
+     "C:1",
+     "G:2",
+     "D:1"
+    ],
+    "A",
+    "E",
+    "%",
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:1",
+     "A:2",
+     "E:1"
+    ],
+    "%",
+    "%",
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:1",
+     "A:2",
+     "E:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   6,
+   20.561
+  ],
+  [
+   10,
+   32.231
+  ],
+  [
+   15,
+   46.804
+  ],
+  [
+   20,
+   61.408
+  ],
+  [
+   25,
+   75.639
+  ],
+  [
+   30,
+   90.115
+  ],
+  [
+   45,
+   135.225
+  ],
+  [
+   50,
+   150.12
+  ],
+  [
+   54,
+   162.417
+  ],
+  [
+   60,
+   180.451
+  ],
+  [
+   65,
+   195.258
+  ],
+  [
+   69,
+   206.79
+  ]
+ ]
+}

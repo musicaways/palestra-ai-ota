@@ -490,6 +490,14 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   await page.click('.lesson-card[href="#/impara/fingerpicking"]');
   await page.waitForSelector('.lesson-play');
   check(await page.locator('.lesson-side .diagram').count() === 4, 'lezione fingerpicking: diagrammi degli accordi');
+  // Quiz d'ascolto
+  await page.goto(`${BASE}/#/impara/orecchio-giro-do`);
+  await page.waitForSelector('.quiz-play');
+  await page.click('.quiz-play');
+  await page.click('.quiz-opt >> nth=0');
+  check(await page.locator('.quiz-opt.right').count() === 1, `quiz d'ascolto: risposta valutata (${await page.textContent('.quiz-msg')})`);
+  await page.click('.quiz-next');
+  check(await page.locator('.quiz-opt.right').count() === 0, 'quiz: nuova domanda');
   const lw = await page.evaluate(() => document.documentElement.scrollWidth);
   check(lw <= viewport.width + 1, 'lezione: nessuno scorrimento orizzontale');
   await page.goto(BASE);

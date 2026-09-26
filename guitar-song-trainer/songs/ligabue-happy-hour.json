@@ -1,0 +1,307 @@
+{
+ "title": "Happy Hour",
+ "artist": "Ligabue",
+ "album": "Fuori come va?",
+ "year": 2005,
+ "genre": "Rock",
+ "difficulty": 2,
+ "youtubeId": "-qjdBMbGIfw",
+ "key": "D",
+ "bpm": 140.54,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.55,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36907025,
+  "duration": 250,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – C – G – Am7 – Em.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "C",
+    "G",
+    "D",
+    "Am7",
+    "C",
+    "G",
+    "D",
+    "Am7",
+    "C",
+    "G",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "C",
+    "G",
+    "D",
+    "Am7",
+    "C",
+    "G",
+    "D",
+    "Am7",
+    "C",
+    "G",
+    "D",
+    "Am7",
+    "C",
+    "G",
+    "D",
+    "Am7",
+    "C",
+    "G",
+    "D",
+    "Am7",
+    "C",
+    "G",
+    [
+     "D:2",
+     "Am7:2"
+    ],
+    "C",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%",
+    "Am7",
+    "%",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "C",
+    "G",
+    "D",
+    "Am7",
+    "C",
+    "G",
+    "D",
+    "Am7",
+    "C",
+    "G",
+    "D",
+    "Am7",
+    "C",
+    "G",
+    "D",
+    "Am7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "C",
+    "G",
+    "D",
+    "Am7",
+    "C",
+    "G",
+    "D",
+    "Am7",
+    "C",
+    "G",
+    "D",
+    "Am7",
+    "C",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "Am7",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "%",
+    "G",
+    "%",
+    "D",
+    "%",
+    "Am7",
+    "%",
+    "C",
+    "D",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%",
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "D",
+    [
+     "D:2",
+     "Em:2"
+    ],
+    "%",
+    "D",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "C",
+    "G",
+    "D",
+    "Am7",
+    "%",
+    "C",
+    "G",
+    "D",
+    "C",
+    "G",
+    "D",
+    "Am7",
+    "C",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "C",
+    "G",
+    "D",
+    "Am7",
+    "C",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "Am7",
+    "C",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%",
+    "Am7",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%",
+    "Am7",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%",
+    "Am7",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   11,
+   20.319
+  ],
+  [
+   16,
+   28.861
+  ],
+  [
+   21,
+   37.445
+  ],
+  [
+   27,
+   47.669
+  ],
+  [
+   31,
+   54.495
+  ],
+  [
+   43,
+   74.992
+  ],
+  [
+   48,
+   83.64
+  ],
+  [
+   53,
+   92.225
+  ],
+  [
+   59,
+   102.471
+  ],
+  [
+   63,
+   109.26
+  ],
+  [
+   69,
+   119.165
+  ],
+  [
+   83,
+   143.072
+  ],
+  [
+   95,
+   163.639
+  ],
+  [
+   100,
+   172.392
+  ],
+  [
+   107,
+   184.346
+  ],
+  [
+   115,
+   197.845
+  ],
+  [
+   119,
+   204.59
+  ]
+ ]
+}

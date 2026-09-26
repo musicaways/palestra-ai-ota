@@ -1,0 +1,181 @@
+{
+ "title": "Luna",
+ "artist": "Verdena",
+ "album": "null",
+ "year": 2004,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "r47cVxZHIn4",
+ "key": "B",
+ "bpm": 98.72,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.44,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36532415,
+  "duration": 213.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: B – D#m7 – C# – D#m – Badd9.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "%",
+    "D#m7",
+    "%",
+    "D#m7",
+    "%",
+    "B",
+    "%",
+    "B",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "D#m7",
+    "%",
+    "%",
+    "Badd9",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "D#m7",
+    "%",
+    "%",
+    "Badd9",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "C#",
+    [
+     "C#:2",
+     "B:2"
+    ],
+    "%",
+    "%",
+    "C#",
+    "%",
+    "B",
+    "B",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "%",
+    "D#m7",
+    "%",
+    "%",
+    "Badd9",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "%",
+    "D#m7",
+    "%",
+    "%",
+    "Badd9",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    [
+     "C#:1",
+     "B:1",
+     "C#:1"
+    ],
+    [
+     "C#:1",
+     "B:1",
+     "D#m:1"
+    ],
+    "B",
+    "C#",
+    "D#m",
+    "B",
+    "B",
+    "C#",
+    "D#m",
+    "B",
+    "B",
+    "C#",
+    "D#m",
+    "B",
+    "B",
+    "C#",
+    "D#m",
+    "B",
+    "B",
+    "C#",
+    "D#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 7",
+   "bars": [
+    [
+     "C#:1",
+     "B:2"
+    ],
+    [
+     "C#:1",
+     "B:2"
+    ],
+    "%",
+    "D#m7",
+    "%",
+    "D#m7",
+    "%",
+    "%",
+    "D#m7",
+    "%",
+    "D#m7",
+    "%",
+    "%",
+    "D#m7",
+    "%",
+    "D#m7",
+    "%",
+    "%",
+    "D#m7",
+    "%",
+    "D#m7",
+    "%",
+    "%",
+    "D#m7",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

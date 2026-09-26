@@ -1,0 +1,287 @@
+{
+ "title": "Andromeda",
+ "artist": "Elodie",
+ "album": "Sanremo 2020: La compilation",
+ "year": 2020,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "esgGK28jKVk",
+ "key": "G#m",
+ "bpm": 122.18,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.83,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34603707,
+  "duration": 202,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G#m – D#m – F# – C#m – C#m7 – E.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G#m",
+    "D#",
+    "C#m",
+    "D#7",
+    "G#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "G#m",
+    "%",
+    "%",
+    "D#m",
+    "%",
+    "%",
+    "G#m",
+    "%",
+    "E",
+    "%",
+    "F#",
+    "D#m",
+    "%",
+    "%",
+    "E",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "G#m:2",
+     "F#:2"
+    ],
+    "C#m",
+    [
+     "D#m:2",
+     "G#m:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "D#m",
+    "%",
+    "%",
+    "C#m",
+    "D#m",
+    "G#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "F#:2",
+     "C#m7:2"
+    ],
+    [
+     "C#m7:2",
+     "D#m7:2"
+    ],
+    "G#m",
+    "%",
+    "C#m",
+    "%",
+    "D#m",
+    "%",
+    "%",
+    [
+     "E:2",
+     "F#:2"
+    ],
+    [
+     "F#:2",
+     "G#m:2"
+    ],
+    "E",
+    "%",
+    "F#",
+    "D#m",
+    "%",
+    "%",
+    "E",
+    "%",
+    "%",
+    "%",
+    "G#m",
+    [
+     "F#:2",
+     "C#m:2"
+    ],
+    [
+     "C#m:2",
+     "D#m:2"
+    ],
+    "G#m",
+    "D#m",
+    "%",
+    "C#m",
+    "D#m",
+    "G#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "F#:2",
+     "C#m7:2"
+    ],
+    [
+     "C#m7:2",
+     "D#m7:2"
+    ],
+    "G#m",
+    "%",
+    [
+     "F#:2",
+     "C#m7:2"
+    ],
+    [
+     "C#m7:2",
+     "D#m7:2"
+    ],
+    "G#m",
+    [
+     "G#m:2",
+     "F#:2"
+    ],
+    [
+     "Emaj7:2",
+     "D#m:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "G#m7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G#m",
+    [
+     "F#:2",
+     "C#m:2"
+    ],
+    [
+     "C#m:2",
+     "D#m:2"
+    ],
+    "G#m",
+    "D#m",
+    "%",
+    "C#m",
+    "D#m",
+    "G#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    [
+     "F#:2",
+     "C#m7:2"
+    ],
+    [
+     "C#m7:2",
+     "D#m7:2"
+    ],
+    "G#m",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   5,
+   10.996
+  ],
+  [
+   11,
+   22.493
+  ],
+  [
+   17,
+   34.173
+  ],
+  [
+   26,
+   51.836
+  ],
+  [
+   33,
+   65.418
+  ],
+  [
+   38,
+   75.363
+  ],
+  [
+   47,
+   93.005
+  ],
+  [
+   51,
+   101.004
+  ],
+  [
+   56,
+   110.72
+  ],
+  [
+   66,
+   130.26
+  ],
+  [
+   70,
+   138.117
+  ],
+  [
+   75,
+   148.331
+  ],
+  [
+   85,
+   167.93
+  ],
+  [
+   94,
+   185.544
+  ],
+  [
+   99,
+   195.283
+  ],
+  [
+   100,
+   197.247
+  ]
+ ]
+}

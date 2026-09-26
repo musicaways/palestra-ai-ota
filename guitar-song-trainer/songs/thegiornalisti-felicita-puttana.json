@@ -1,0 +1,217 @@
+{
+ "title": "Felicità puttana",
+ "artist": "Thegiornalisti",
+ "album": "Top 100 Italia - Classifica Del 03.06.2019",
+ "year": 2018,
+ "genre": "Indie / Pop",
+ "difficulty": 3,
+ "youtubeId": "mcnQLyF3H6k",
+ "key": "G",
+ "bpm": 93.38,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.85,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37387042,
+  "duration": 220,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – Em – F – Am – Dm – E7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F",
+    "G",
+    "Em",
+    "Am",
+    "F",
+    "G",
+    "Em",
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "C",
+    "Dm",
+    "%",
+    "C",
+    "Am7",
+    "Dm",
+    "G",
+    "%",
+    "F",
+    "G",
+    "Em",
+    "E7",
+    "F",
+    "G",
+    "Em",
+    "E7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    [
+     "F:2",
+     "G:2"
+    ],
+    "Em",
+    "Am",
+    "F",
+    "G",
+    "Em",
+    [
+     "Em:2",
+     "Am:2"
+    ],
+    "%",
+    "C",
+    "Dm",
+    "%",
+    "C",
+    "Am7",
+    "Dm",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "F",
+    "G",
+    "Em",
+    "E7",
+    "F",
+    "G",
+    "Em",
+    "E7",
+    "F",
+    "G",
+    "Em",
+    "Am",
+    "F",
+    "G",
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "Am",
+    [
+     "F:2",
+     "G:2"
+    ],
+    "Em",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "F",
+    "G",
+    "Em",
+    "Am",
+    "%",
+    "F",
+    "G",
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "F",
+    "G",
+    "Em",
+    "Am",
+    [
+     "F:2",
+     "G:2"
+    ],
+    "Em",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   8,
+   22.7
+  ],
+  [
+   12,
+   32.82
+  ],
+  [
+   16,
+   43.069
+  ],
+  [
+   20,
+   53.43
+  ],
+  [
+   26,
+   69.62
+  ],
+  [
+   49,
+   128.733
+  ],
+  [
+   53,
+   138.689
+  ],
+  [
+   58,
+   151.478
+  ],
+  [
+   65,
+   169.439
+  ],
+  [
+   73,
+   189.902
+  ],
+  [
+   77,
+   200.07
+  ],
+  [
+   79,
+   205.21
+  ]
+ ]
+}

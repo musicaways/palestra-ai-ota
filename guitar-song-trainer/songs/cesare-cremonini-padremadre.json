@@ -1,0 +1,170 @@
+{
+ "title": "Padremadre",
+ "artist": "Cesare Cremonini",
+ "album": "Bagus",
+ "year": 2002,
+ "genre": "Pop / Cantautori",
+ "difficulty": 2,
+ "youtubeId": "SqPF1Z7JnM0",
+ "key": "D",
+ "bpm": 82.58,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.1,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 1049600,
+  "duration": 273.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – A – E – E7 – F#m – A4.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "A",
+    "D",
+    "E",
+    "A",
+    "D",
+    "E",
+    "A",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "A",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%",
+    "D",
+    "%",
+    "A",
+    "E7",
+    "D",
+    "A",
+    "%",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%",
+    "D",
+    "%",
+    "A",
+    "E7",
+    "D",
+    "A",
+    "E",
+    "D",
+    "A",
+    "E",
+    [
+     "E:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "A",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%",
+    "D",
+    "%",
+    "A",
+    "E7",
+    "D",
+    "A",
+    "E",
+    "D",
+    "A",
+    "E",
+    "D",
+    "A",
+    "E",
+    "D",
+    "A",
+    "E",
+    [
+     "E:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "A",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%",
+    "D",
+    "%",
+    "A",
+    "E7",
+    "D",
+    "F#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "D",
+    "F#m",
+    "D",
+    "A",
+    "E",
+    "D",
+    "A",
+    "E",
+    "D",
+    "F#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "D",
+    "F#m",
+    "D",
+    "A",
+    "A4",
+    "A",
+    "A4",
+    "A"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

@@ -1,0 +1,202 @@
+{
+ "title": "Splash",
+ "artist": "Colapesce Dimartino",
+ "album": "un disco per l'estate",
+ "year": 2023,
+ "genre": "Indie / Pop",
+ "difficulty": 3,
+ "youtubeId": "YgHem8WhHXU",
+ "key": "Dm",
+ "bpm": 74.22,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.29,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 35845091,
+  "duration": 208,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Dm – C – A7 – Gm7 – Bbmaj7 – A.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Dm7",
+    "C",
+    "Am"
+   ]
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "Dm",
+    "Bbmaj7",
+    "Gm",
+    "C",
+    "%",
+    [
+     "C:2",
+     "Bbmaj7:2"
+    ],
+    "C",
+    "A7",
+    "%",
+    "%",
+    [
+     "Dm:2",
+     "Gm7:2"
+    ],
+    "A7",
+    "Dm",
+    "%",
+    "Gm7",
+    "A7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "Dm",
+    "A7",
+    "%",
+    [
+     "C:2",
+     "Dm:2"
+    ],
+    [
+     "C:2",
+     "Bbmaj7:2"
+    ],
+    [
+     "C:2",
+     "Dm:2"
+    ],
+    [
+     "C:2",
+     "Bbmaj7:2"
+    ],
+    "C6",
+    "%",
+    "A7",
+    "%",
+    [
+     "Dm:2",
+     "Gm7:2"
+    ],
+    "A7",
+    "Dm",
+    "%",
+    "Gm7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "A7",
+    "Dm",
+    "A",
+    "%",
+    "Dm",
+    "C6",
+    "Gm7",
+    "A",
+    "C6",
+    "%",
+    "Gm7",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "Dm:2",
+     "Gm7:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "A7",
+    "Dm",
+    "%",
+    "Gm7",
+    "A",
+    "%",
+    [
+     "Bbmaj7:2",
+     "Am:2"
+    ],
+    [
+     "Am:2",
+     "Gm:2"
+    ],
+    "A",
+    "%",
+    "%",
+    "Dm",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   3,
+   10.12
+  ],
+  [
+   8,
+   25.531
+  ],
+  [
+   12,
+   38.465
+  ],
+  [
+   16,
+   52.227
+  ],
+  [
+   22,
+   71.828
+  ],
+  [
+   28,
+   90.333
+  ],
+  [
+   33,
+   107.147
+  ],
+  [
+   39,
+   126.598
+  ],
+  [
+   45,
+   146.075
+  ],
+  [
+   52,
+   168.389
+  ],
+  [
+   57,
+   184.261
+  ],
+  [
+   62,
+   200.725
+  ]
+ ]
+}

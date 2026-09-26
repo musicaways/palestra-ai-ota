@@ -1,0 +1,243 @@
+{
+ "title": "No Surprises",
+ "artist": "Radiohead",
+ "album": "OKNOTOK [Box Set Vinyl]",
+ "year": 1997,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "dp2bdREgaJ0",
+ "key": "C",
+ "bpm": 75.58,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.18,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37182110,
+  "duration": 232,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – Bbm – F – Gm – C4 – Gm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F",
+    "%",
+    "%",
+    "Bbm",
+    "%",
+    "%",
+    "Bbm",
+    "%",
+    "F",
+    "%",
+    "%",
+    "Gm",
+    "%",
+    "C",
+    [
+     "C:2",
+     "C4:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa",
+   "bars": [
+    "F",
+    "%",
+    "%",
+    "%",
+    "Gm",
+    [
+     "Gm:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "C4:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "F",
+    "%",
+    "%",
+    "%",
+    [
+     "Gm:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "C4:2"
+    ],
+    [
+     "Gm:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "C4:2"
+    ],
+    [
+     "Gm:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "C4:2"
+    ],
+    [
+     "F:2",
+     "Bbm:2"
+    ],
+    [
+     "Bbm:2",
+     "Bbm:2"
+    ],
+    [
+     "F:2",
+     "Bbm:2"
+    ],
+    [
+     "Bbm:2",
+     "Bbm:2"
+    ],
+    "F",
+    "%",
+    "%",
+    "%",
+    [
+     "Gm:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "C4:2"
+    ],
+    [
+     "Gm:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "C4:2"
+    ],
+    [
+     "Gm:1",
+     "C:2",
+     "C4:1"
+    ],
+    "C",
+    "Bbm",
+    "Bbm",
+    "C",
+    "Bbm",
+    "Bbm",
+    "Gm7",
+    "Bbm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "F",
+    "%",
+    "%",
+    "%",
+    [
+     "Gm:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "C4:2"
+    ],
+    [
+     "Gm:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "C4:2"
+    ],
+    [
+     "Gm:1",
+     "C:2",
+     "C4:1"
+    ],
+    "F",
+    "Bbm",
+    "Bbm",
+    "F",
+    "F",
+    "Bbm",
+    "Bbm",
+    "F",
+    "F",
+    "Bbm"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   8,
+   25.694
+  ],
+  [
+   13,
+   41.813
+  ],
+  [
+   18,
+   57.69
+  ],
+  [
+   24,
+   76.743
+  ],
+  [
+   30,
+   95.042
+  ],
+  [
+   34,
+   107.709
+  ],
+  [
+   40,
+   126.762
+  ],
+  [
+   46,
+   146.182
+  ],
+  [
+   57,
+   181.177
+  ],
+  [
+   61,
+   194.05
+  ],
+  [
+   63,
+   200.763
+  ]
+ ]
+}

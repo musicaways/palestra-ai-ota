@@ -1,0 +1,249 @@
+{
+ "title": "Lulù e Marlene",
+ "artist": "Litfiba",
+ "album": "Litfiba Pirata",
+ "year": 1994,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "oTM5NJ89yd0",
+ "key": "Fm",
+ "bpm": 97.97,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.12,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 20091220,
+  "duration": 254.197551,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Fm – Abm – Fdim – Fm7 – Gbmaj7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Fm",
+    "%",
+    "Fm",
+    "Abm",
+    "Fm",
+    "Gbmaj7",
+    "Fm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Fm",
+    "Gbmaj7",
+    "Fm",
+    "Fm",
+    "Fm",
+    "Fm",
+    "%",
+    "Fm",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "Fm",
+    "Fdim",
+    "Fm",
+    "%",
+    [
+     "Fm:2",
+     "Fdim:2"
+    ],
+    "Fm",
+    "%",
+    "Fm",
+    "%",
+    "Fm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Fm",
+    "Fm",
+    "Fdim",
+    "Fm",
+    "%",
+    "%",
+    [
+     "Fm:1",
+     "Fdim:2",
+     "Fm:1"
+    ],
+    [
+     "Fm:2",
+     "Fdim:1"
+    ],
+    "Fm",
+    "%",
+    "Fm",
+    "Fdim",
+    "Fm",
+    "%",
+    "Fm",
+    "Fm",
+    "%",
+    "Fm",
+    "Fdim",
+    "Fm",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Fm",
+    "%",
+    "Fm",
+    "Abm",
+    "Fm",
+    "%",
+    "Fm",
+    "Abm",
+    "Fm",
+    "%",
+    "Fm",
+    "Abm",
+    "Fm",
+    "%",
+    [
+     "Fm:2",
+     "Abm:2"
+    ],
+    "Fm",
+    "Fm",
+    "%",
+    "Fm7",
+    "%",
+    "%",
+    "%",
+    [
+     "Fm7:2",
+     "Abm:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "Fm",
+    "Fm",
+    "%",
+    "Fm7",
+    "Abm",
+    "Fm",
+    "%",
+    [
+     "Fm7:2",
+     "Abm:2"
+    ],
+    "Fm",
+    "Fm",
+    "%",
+    "Fm7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Abm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Fm",
+    "Fm"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   7,
+   17.704
+  ],
+  [
+   20,
+   49.371
+  ],
+  [
+   28,
+   68.52
+  ],
+  [
+   33,
+   80.769
+  ],
+  [
+   43,
+   105.53
+  ],
+  [
+   47,
+   115.329
+  ],
+  [
+   52,
+   127.731
+  ],
+  [
+   57,
+   139.85
+  ],
+  [
+   61,
+   149.49
+  ],
+  [
+   66,
+   161.819
+  ],
+  [
+   70,
+   171.773
+  ],
+  [
+   82,
+   200.827
+  ],
+  [
+   87,
+   213.075
+  ],
+  [
+   103,
+   252
+  ],
+  [
+   104,
+   255.13
+  ]
+ ]
+}

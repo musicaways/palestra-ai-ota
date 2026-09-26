@@ -143,7 +143,10 @@ def youtube(artist, title, dur):
     cands = [c for c in cands[:10]]
     ok = [c for c in cands if dur is None or abs(c[1] - dur) <= 20]
     # la durata più vicina alla versione del testo sincronizzato: così audio e righe combaciano
-    ok.sort(key=lambda c: (bool(re.search(r'live|cover|karaoke|reaction|piano|remix|sped|slowed|8d', c[2], re.I)), abs(c[1] - dur) > 4 if dur else 0, abs(c[1] - dur) if dur else 0))
+    tnorm = normtext(title)[:12]
+    ok.sort(key=lambda c: (tnorm not in normtext(c[2]),  # il titolo del video deve contenere quello del brano
+                           bool(re.search(r'live|cover|karaoke|reaction|piano|remix|sped|slowed|8d', c[2], re.I)),
+                           abs(c[1] - dur) > 4 if dur else 0, abs(c[1] - dur) if dur else 0))
     for vid, d, t in ok:
         if embeddable(vid): return vid, d
     for vid, d, t in cands[:8]:

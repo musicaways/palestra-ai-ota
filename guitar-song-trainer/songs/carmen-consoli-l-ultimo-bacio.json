@@ -1,0 +1,231 @@
+{
+ "title": "L'ultimo bacio",
+ "artist": "Carmen Consoli",
+ "album": "Carmen Consoli Songs",
+ "year": 2001,
+ "genre": "Rock / Cantautori",
+ "difficulty": 3,
+ "youtubeId": "BdvhfJ5FgPY",
+ "key": "C",
+ "bpm": 132.41,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.72,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 33901164,
+  "duration": 203.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – Am – Dm7 – E7 – D – C6.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Em7",
+    "Gmaj7",
+    "C6",
+    "D",
+    "Em7",
+    "Gmaj7",
+    "C6",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Em7",
+    [
+     "Gmaj7:2",
+     "C6:2"
+    ],
+    "D",
+    "Em7",
+    [
+     "Gmaj7:2",
+     "C6:2"
+    ],
+    "D",
+    "Em7",
+    [
+     "Gmaj7:2",
+     "C6:2"
+    ],
+    "D",
+    [
+     "Em7:2",
+     "Gmaj7:2"
+    ],
+    [
+     "C6:2",
+     "D:2"
+    ],
+    "Am",
+    "C",
+    "E7",
+    "Am",
+    "C",
+    "E7",
+    "Am",
+    "C",
+    "E7",
+    "Am",
+    "C",
+    "%",
+    "E7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Dm7:1",
+     "G:1",
+     "Dm7:1",
+     "G:1"
+    ],
+    "Dm7",
+    [
+     "Dm7:2",
+     "G:2"
+    ],
+    "%",
+    "Dm7",
+    [
+     "Dm7:2",
+     "G:2"
+    ],
+    "%",
+    "Dm7",
+    "Em7",
+    "%",
+    "Gmaj7",
+    "%",
+    "C6",
+    "%",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Em7",
+    [
+     "Gmaj7:2",
+     "C6:2"
+    ],
+    "D",
+    "Em7",
+    [
+     "Gmaj7:2",
+     "C6:2"
+    ],
+    "D",
+    "Em7",
+    [
+     "Gmaj7:2",
+     "C6:2"
+    ],
+    "D",
+    [
+     "Em7:2",
+     "Gmaj7:2"
+    ],
+    [
+     "C6:2",
+     "D:2"
+    ],
+    "Am",
+    "C",
+    "E7",
+    "Am",
+    "C",
+    "E7",
+    "Am",
+    "C",
+    "E7",
+    "Am",
+    "C",
+    "C",
+    "%",
+    "E7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Am",
+    "C",
+    "E7",
+    "Am",
+    "C",
+    "E7",
+    "Am",
+    "C",
+    "E7",
+    "Am",
+    "C",
+    "%",
+    "E7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    [
+     "Dm7:1",
+     "G:1",
+     "Dm7:1",
+     "G:1"
+    ],
+    "Dm7",
+    [
+     "Dm7:2",
+     "G:2"
+    ],
+    "%",
+    "Dm7",
+    [
+     "Dm7:2",
+     "G:2"
+    ],
+    "%",
+    [
+     "Dm7:2",
+     "G:2"
+    ],
+    "Am",
+    "%",
+    "C",
+    "%",
+    "%",
+    "%",
+    "E7",
+    "%",
+    "Am",
+    "%",
+    "C",
+    "%",
+    "%",
+    "%",
+    "E7",
+    "%",
+    "Am",
+    "%",
+    "C"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

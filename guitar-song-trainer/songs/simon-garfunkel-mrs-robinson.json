@@ -1,0 +1,242 @@
+{
+ "title": "Mrs. Robinson",
+ "artist": "Simon & Garfunkel",
+ "album": "Swinging Sixties",
+ "year": 1968,
+ "genre": "Folk",
+ "difficulty": 5,
+ "youtubeId": "yfSny4MkS3c",
+ "key": "F#m",
+ "bpm": 91.32,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.14,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36953219,
+  "duration": 230.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F#m – A – F# – D – E7 – Bm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F#",
+    "F#",
+    "F#",
+    "F#"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "%",
+    "B7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "E7:1",
+     "A:2",
+     "F#m:1"
+    ],
+    [
+     "A:2",
+     "F#m:2"
+    ],
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    "E",
+    "A",
+    "F#m",
+    [
+     "A:1",
+     "F#m:2",
+     "D:1"
+    ],
+    "Bm",
+    [
+     "Bm:2",
+     "F#:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "F#",
+    [
+     "F#:2",
+     "F#:2"
+    ],
+    "F#",
+    "B7",
+    "%",
+    "E7",
+    "A",
+    "F#7",
+    "%",
+    [
+     "E7:1",
+     "A:2",
+     "F#m:1"
+    ],
+    [
+     "A:2",
+     "F#m:2"
+    ],
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    "E",
+    [
+     "A:2",
+     "F#m:2"
+    ],
+    [
+     "A:2",
+     "F#m:2"
+    ],
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    "Bm",
+    "%",
+    "F#",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "%",
+    "B7",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "E7",
+    "%",
+    [
+     "E7:1",
+     "A:2",
+     "F#m:1"
+    ],
+    [
+     "A:2",
+     "F#m:2"
+    ],
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    "E",
+    [
+     "A:2",
+     "F#m:2"
+    ],
+    [
+     "A:2",
+     "F#m:2"
+    ],
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    "Bm",
+    "%",
+    "F#",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "F#7",
+    "%",
+    "B7",
+    "%",
+    [
+     "E7:2",
+     "A:2"
+    ],
+    "%",
+    [
+     "F#7:2",
+     "E7:2"
+    ],
+    [
+     "E7:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "F#m:2"
+    ],
+    [
+     "A:2",
+     "F#m:2"
+    ],
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    "E",
+    [
+     "A:2",
+     "F#m:2"
+    ],
+    [
+     "A:2",
+     "F#m:2"
+    ],
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    "Bm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "F#",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

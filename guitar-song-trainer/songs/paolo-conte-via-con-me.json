@@ -1,0 +1,279 @@
+{
+ "title": "Via con me",
+ "artist": "Paolo Conte",
+ "album": "Bella Donna - Sommer Hits aus Italien",
+ "year": 1981,
+ "genre": "Cantautori",
+ "difficulty": 3,
+ "youtubeId": "BZOObJjjiOA",
+ "key": "Gm",
+ "bpm": 82.2,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.62,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37071844,
+  "duration": 167,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Gm – D7 – Eb7 – Cm – G7 – Ab.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Gm"
+   ]
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Gm",
+    [
+     "D7:1",
+     "Gm:2"
+    ],
+    [
+     "D7:1",
+     "Gm:2"
+    ],
+    [
+     "D7:1",
+     "Gm:1",
+     "D7:1"
+    ],
+    "Gm",
+    [
+     "D7:1",
+     "Gm:2"
+    ],
+    [
+     "D7:1",
+     "Gm:2"
+    ],
+    [
+     "D7:1",
+     "Gm:2",
+     "G7:1"
+    ],
+    [
+     "Cm:2",
+     "Eb7:2"
+    ],
+    [
+     "Cm:2",
+     "Eb7:2"
+    ],
+    [
+     "Cm:2",
+     "Eb7:2"
+    ],
+    [
+     "Cm:2",
+     "Eb7:2"
+    ],
+    [
+     "Gm:1",
+     "D7:1",
+     "Gm:1"
+    ],
+    [
+     "D7:2",
+     "Gm:1"
+    ],
+    [
+     "D7:2",
+     "Gm:1"
+    ],
+    "%",
+    "Gm",
+    [
+     "D7:1",
+     "Gm:2"
+    ],
+    [
+     "D7:1",
+     "Gm:2"
+    ],
+    [
+     "D7:1",
+     "Gm:1",
+     "D7:1"
+    ],
+    "Gm",
+    [
+     "D7:1",
+     "Gm:2"
+    ],
+    [
+     "D7:1",
+     "Gm:2"
+    ],
+    [
+     "D7:1",
+     "Gm:2",
+     "G7:1"
+    ],
+    [
+     "Cm:2",
+     "Eb7:2"
+    ],
+    [
+     "Ab:2",
+     "G7:2"
+    ],
+    [
+     "Cm:2",
+     "Eb7:2"
+    ],
+    "%",
+    [
+     "Gm:1",
+     "D7:1",
+     "Gm:1"
+    ],
+    [
+     "D7:2",
+     "Gm:1"
+    ],
+    [
+     "D7:2",
+     "Gm:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Gm",
+    [
+     "D7:1",
+     "Gm:2"
+    ],
+    [
+     "D7:1",
+     "Gm:2"
+    ],
+    [
+     "D7:1",
+     "Gm:1",
+     "D7:1"
+    ],
+    "Gm",
+    [
+     "D7:1",
+     "Gm:2"
+    ],
+    [
+     "D7:1",
+     "Gm:2"
+    ],
+    [
+     "D7:1",
+     "Gm:2",
+     "G7:1"
+    ],
+    [
+     "Cm:2",
+     "Eb7:2"
+    ],
+    [
+     "Cm:2",
+     "Eb7:2"
+    ],
+    [
+     "Cm:2",
+     "Eb7:2"
+    ],
+    [
+     "Cm:2",
+     "Eb7:2"
+    ],
+    [
+     "Gm:1",
+     "D7:1",
+     "Gm:1"
+    ],
+    [
+     "D7:2",
+     "Gm:1"
+    ],
+    [
+     "D7:2",
+     "Gm:1"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   1,
+   5.611
+  ],
+  [
+   5,
+   17.269
+  ],
+  [
+   9,
+   29.11
+  ],
+  [
+   13,
+   40.81
+  ],
+  [
+   17,
+   51.929
+  ],
+  [
+   21,
+   63.43
+  ],
+  [
+   25,
+   75.31
+  ],
+  [
+   30,
+   90.059
+  ],
+  [
+   39,
+   116.3
+  ],
+  [
+   43,
+   128.08
+  ],
+  [
+   47,
+   139.789
+  ],
+  [
+   52,
+   154.989
+  ],
+  [
+   55,
+   163.319
+  ]
+ ]
+}

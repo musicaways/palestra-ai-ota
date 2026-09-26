@@ -1,0 +1,256 @@
+{
+ "title": "Andrea",
+ "artist": "Fabrizio De André",
+ "album": "Fabrizio De André",
+ "year": 1978,
+ "genre": "Cantautori",
+ "difficulty": 1,
+ "youtubeId": "pWM2sdSC7jE",
+ "key": "G",
+ "bpm": 115.67,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.73,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 35249193,
+  "duration": 330.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – C – D – D7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G",
+    "C",
+    "D7",
+    "C",
+    "G",
+    "G",
+    "C",
+    "D7",
+    "C",
+    "G",
+    "D7",
+    "D7",
+    "C",
+    "G",
+    "D7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "D:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "G",
+    "%",
+    "D",
+    "C",
+    "%",
+    "G",
+    "%",
+    "%",
+    [
+     "D:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "G",
+    "%",
+    "D",
+    "C",
+    "%",
+    "%",
+    "G",
+    "G",
+    "%",
+    "C",
+    "%",
+    "D7",
+    "%",
+    "C",
+    "%",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "D:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "G",
+    "%",
+    "D",
+    "C",
+    "%",
+    "%",
+    "G",
+    "%",
+    "D",
+    "C",
+    "%",
+    "%",
+    "G",
+    "%",
+    "D",
+    "C",
+    "%",
+    "G",
+    "D7",
+    "%",
+    "D7",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "D7",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "D:2",
+     "C:2"
+    ],
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "D:2",
+     "C:2"
+    ],
+    "G",
+    "%",
+    "%",
+    [
+     "D:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "D",
+    "C",
+    "G",
+    "D7",
+    "%",
+    "D7",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "D7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "D",
+    "C",
+    "G",
+    "%",
+    "%",
+    [
+     "D:2",
+     "C:2"
+    ],
+    "G",
+    "%",
+    "G",
+    "%",
+    "D",
+    "C",
+    "G",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "D",
+    "C",
+    "%",
+    "G",
+    "%",
+    "%",
+    "D",
+    [
+     "D:2",
+     "C:2"
+    ],
+    "%",
+    "G",
+    "%",
+    "%",
+    "D",
+    [
+     "D:2",
+     "C:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    "G",
+    "D7",
+    "%",
+    "D7",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "D7",
+    "%",
+    "D7",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "D7",
+    "%",
+    "D7",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

@@ -1,0 +1,326 @@
+{
+ "title": "Otherside",
+ "artist": "Red Hot Chili Peppers",
+ "album": "All",
+ "year": 1999,
+ "genre": "Rock",
+ "difficulty": 2,
+ "youtubeId": "NHH8ENlkMC0",
+ "key": "Am",
+ "bpm": 123.25,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.48,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36975112,
+  "duration": 255,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Am – G – C – F – Em – E5.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Am",
+    "%",
+    "F",
+    "%",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Am:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    "G",
+    "Am",
+    [
+     "Am:2",
+     "F:2"
+    ],
+    "%",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "G",
+    "Am",
+    "F",
+    "C",
+    "%",
+    "Am",
+    "Em",
+    "Am",
+    "Em",
+    "Am",
+    "Em",
+    "G",
+    [
+     "G:2",
+     "Am:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Am",
+    "Em",
+    "Am",
+    "Em",
+    "Am",
+    "Em",
+    "G",
+    "Am",
+    "G",
+    "Am",
+    "G",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Am",
+    "F",
+    "C",
+    "G",
+    "Am",
+    "F",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "G",
+    "Am",
+    "F",
+    "C",
+    "%",
+    "Am",
+    "Em",
+    "Am",
+    "Em",
+    "Am",
+    "Em",
+    "G",
+    "%",
+    "Am",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "Am",
+    "Em",
+    "Am",
+    "Em",
+    "Am",
+    "Em",
+    "G",
+    "Am",
+    "G",
+    "Am",
+    "G",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Am",
+    "F",
+    "C",
+    "G",
+    "Am",
+    "F",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    "G",
+    "Am",
+    "F",
+    "C",
+    "%",
+    "E5",
+    "%",
+    "Cmaj7",
+    "%",
+    "E5",
+    "%",
+    "Cmaj7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 7",
+   "bars": [
+    "E5",
+    "%",
+    "Cmaj7",
+    "%",
+    "E5",
+    "Cmaj7",
+    "Am",
+    "%",
+    "F",
+    "%",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Am",
+    "F",
+    "C",
+    "G",
+    "Am",
+    "F",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 8",
+   "bars": [
+    "G",
+    "Am",
+    "F",
+    "C",
+    "%",
+    "%",
+    "C",
+    "G",
+    [
+     "G:2",
+     "Am:2"
+    ],
+    "%",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "C",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   7,
+   15.327
+  ],
+  [
+   17,
+   34.515
+  ],
+  [
+   23,
+   46.199
+  ],
+  [
+   28,
+   55.916
+  ],
+  [
+   34,
+   67.625
+  ],
+  [
+   43,
+   85.15
+  ],
+  [
+   47,
+   93.059
+  ],
+  [
+   54,
+   106.69
+  ],
+  [
+   62,
+   122.268
+  ],
+  [
+   68,
+   134.045
+  ],
+  [
+   76,
+   149.198
+  ],
+  [
+   83,
+   162.829
+  ],
+  [
+   96,
+   188.024
+  ],
+  [
+   100,
+   195.832
+  ],
+  [
+   108,
+   211.687
+  ],
+  [
+   114,
+   223.16
+  ],
+  [
+   120,
+   235.062
+  ],
+  [
+   125,
+   244.84
+  ]
+ ]
+}

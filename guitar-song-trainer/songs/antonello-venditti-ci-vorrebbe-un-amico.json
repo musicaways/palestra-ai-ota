@@ -1,0 +1,214 @@
+{
+ "title": "Ci vorrebbe un amico",
+ "artist": "Antonello Venditti",
+ "album": "Diamanti [3CD]",
+ "year": 1984,
+ "genre": "Cantautori",
+ "difficulty": 5,
+ "youtubeId": "L8S-yRI_kIY",
+ "key": "Ab",
+ "bpm": 84.12,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.37,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37146344,
+  "duration": 233,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Ab – Fm7 – Db – C – F – Eb.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Ab",
+    "%",
+    "%",
+    "%",
+    "Fm7",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    [
+     "Ab:2",
+     "Fm7:2"
+    ],
+    "%",
+    [
+     "Db:2",
+     "Ab:2"
+    ],
+    "%",
+    "Fm7",
+    "%",
+    "%",
+    "%",
+    [
+     "Ab:2",
+     "Fm7:2"
+    ],
+    "Db",
+    "Ab",
+    "%",
+    "Fm7",
+    "%",
+    "%",
+    [
+     "Ab:2",
+     "Fm7:2"
+    ],
+    "%",
+    [
+     "Db:2",
+     "Ab:2"
+    ],
+    "%",
+    "Fm7",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "Ab:2",
+     "Fm7:2"
+    ],
+    "Db",
+    "Ab",
+    "%",
+    "Fm7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    [
+     "C:2",
+     "Am7:2"
+    ],
+    "F",
+    "C",
+    "%",
+    "Am7",
+    "%",
+    "%",
+    "%",
+    [
+     "Bb:2",
+     "Gm7:2"
+    ],
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    "%",
+    "Gm7",
+    "%",
+    "%",
+    [
+     "Eb:1",
+     "F:1"
+    ],
+    "%",
+    [
+     "Bb:2",
+     "Gm7:2"
+    ],
+    "Eb",
+    "F",
+    "%",
+    [
+     "C:2",
+     "Am7:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   9,
+   26.487
+  ],
+  [
+   14,
+   40.347
+  ],
+  [
+   20,
+   57.129
+  ],
+  [
+   25,
+   71.844
+  ],
+  [
+   30,
+   85.997
+  ],
+  [
+   36,
+   102.763
+  ],
+  [
+   48,
+   137.041
+  ],
+  [
+   53,
+   151.413
+  ],
+  [
+   58,
+   166.187
+  ],
+  [
+   63,
+   180.459
+  ],
+  [
+   68,
+   194.189
+  ],
+  [
+   72,
+   205.746
+  ]
+ ]
+}

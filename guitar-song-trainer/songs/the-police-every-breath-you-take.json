@@ -1,0 +1,290 @@
+{
+ "title": "Every Breath You Take",
+ "artist": "The Police",
+ "album": "Rolling Stone's The 500 Greatest Songs of All Time",
+ "year": 1983,
+ "genre": "Rock",
+ "difficulty": 5,
+ "youtubeId": "iOT_zuDHvVk",
+ "key": "Ab",
+ "bpm": 117.41,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.33,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37496396,
+  "duration": 254,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Ab – Db – Fm – Eb4 – Eb – Bb7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Ab",
+    "Fm",
+    "Db",
+    "Eb",
+    "Ab",
+    "Ab",
+    "Fm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Ab",
+    "%",
+    "Fm",
+    "%",
+    "Db",
+    "%",
+    "Ab",
+    "%",
+    "%",
+    "Ab",
+    "Fm",
+    "%",
+    "Db",
+    "Eb4",
+    "Ab",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bb7",
+    "Eb",
+    "Bb7",
+    "Eb",
+    "%",
+    "Ab",
+    "Fm",
+    "%",
+    "Db",
+    "Eb4",
+    "Ab",
+    "%",
+    "%",
+    "E",
+    "F#",
+    "E",
+    "%",
+    "F#",
+    "%",
+    "E",
+    "%",
+    "Ab",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bb7",
+    "Eb",
+    "%",
+    "Ab",
+    "Fm",
+    "%",
+    "Db",
+    "%",
+    "Eb4",
+    "Eb4",
+    "Ab",
+    "Fm",
+    "Ab",
+    "Eb4",
+    "Db",
+    [
+     "Db:2",
+     "Ab:2"
+    ],
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "Db:1",
+     "Ab:2",
+     "Fm:1"
+    ],
+    "Ab",
+    "Ab",
+    "Db",
+    [
+     "Db:1",
+     "Ab:2",
+     "Fm:1"
+    ],
+    "Ab",
+    "%",
+    "Db",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%",
+    "Ab",
+    "%",
+    "%",
+    "%",
+    "Ab",
+    "Ab",
+    "Db",
+    [
+     "Db:1",
+     "Ab:2",
+     "Fm:1"
+    ],
+    "Ab",
+    "%",
+    "Db",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%",
+    "%",
+    "Db",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   7,
+   15.962
+  ],
+  [
+   11,
+   24.014
+  ],
+  [
+   15,
+   32.315
+  ],
+  [
+   19,
+   40.414
+  ],
+  [
+   23,
+   48.59
+  ],
+  [
+   29,
+   60.568
+  ],
+  [
+   35,
+   72.718
+  ],
+  [
+   40,
+   82.965
+  ],
+  [
+   46,
+   95.23
+  ],
+  [
+   52,
+   107.495
+  ],
+  [
+   65,
+   134.034
+  ],
+  [
+   71,
+   146.298
+  ],
+  [
+   77,
+   158.682
+  ],
+  [
+   81,
+   166.882
+  ],
+  [
+   87,
+   179.461
+  ],
+  [
+   91,
+   187.332
+  ],
+  [
+   96,
+   197.582
+  ],
+  [
+   101,
+   208.098
+  ],
+  [
+   105,
+   216.126
+  ],
+  [
+   110,
+   226.084
+  ],
+  [
+   114,
+   233.822
+  ],
+  [
+   118,
+   241.718
+  ]
+ ]
+}

@@ -1,0 +1,277 @@
+{
+ "title": "Pezzo di me",
+ "artist": "Levante",
+ "album": "Nel caos di stanze stupefacenti  (Flac)",
+ "year": 2019,
+ "genre": "Indie",
+ "difficulty": 2,
+ "youtubeId": "XNGL_5N4_ZU",
+ "key": "F",
+ "bpm": 86.99,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.89,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 25861155,
+  "duration": 202.4533329,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F – C – Em – Em7 – Am.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "C",
+    "F",
+    "C"
+   ]
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "%",
+    "F",
+    "C",
+    "F",
+    "C",
+    "F",
+    "Em7",
+    "F",
+    [
+     "Am:1",
+     "C:1",
+     "Em:1",
+     "F:1"
+    ],
+    [
+     "F:2",
+     "Am:2"
+    ],
+    [
+     "C:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "F:2"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    "Em7",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "C",
+    [
+     "C:2",
+     "F:2"
+    ],
+    "%",
+    "F",
+    "C",
+    "F",
+    "C",
+    "F",
+    "Em7",
+    "F",
+    "%",
+    [
+     "F:2",
+     "Am:2"
+    ],
+    "C",
+    "Em",
+    "F",
+    [
+     "C:2",
+     "F:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "Em7",
+    "F",
+    "C",
+    "F",
+    "Em7",
+    "F",
+    "C",
+    "F",
+    "C",
+    "F",
+    [
+     "C:2",
+     "F:2"
+    ],
+    "%",
+    "C",
+    "F",
+    "Em7",
+    [
+     "F:2",
+     "Am:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    [
+     "C:1",
+     "Em:1",
+     "F:1",
+     "Am:1"
+    ],
+    "%",
+    "%",
+    [
+     "C:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "F:2"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    "Em7",
+    "F",
+    "C",
+    "F",
+    "Em7",
+    "F",
+    [
+     "C:1",
+     "F:1",
+     "C:1",
+     "F:1"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    [
+     "C:2",
+     "F:2"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    "C",
+    "F"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   3,
+   10.252
+  ],
+  [
+   7,
+   20.892
+  ],
+  [
+   11,
+   32.143
+  ],
+  [
+   16,
+   46.051
+  ],
+  [
+   22,
+   63.297
+  ],
+  [
+   27,
+   77.167
+  ],
+  [
+   31,
+   88.798
+  ],
+  [
+   37,
+   105.796
+  ],
+  [
+   43,
+   123.23
+  ],
+  [
+   47,
+   134.321
+  ],
+  [
+   51,
+   145.357
+  ],
+  [
+   55,
+   156.801
+  ],
+  [
+   59,
+   167.837
+  ],
+  [
+   63,
+   178.477
+  ],
+  [
+   67,
+   189.138
+  ],
+  [
+   70,
+   197.348
+  ]
+ ]
+}

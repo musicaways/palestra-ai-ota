@@ -1,0 +1,315 @@
+{
+ "title": "Non è l'inferno",
+ "artist": "Emma",
+ "album": "Best of Me",
+ "year": 2012,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "ss_4JDtRYk4",
+ "key": "D#m",
+ "bpm": 127.31,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.14,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 21026025,
+  "duration": 222.490635,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D#m – B – F# – C# – G#m7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "D#m",
+    "%",
+    "F#",
+    "%",
+    "C#",
+    "%",
+    "D#m",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "D#m",
+    [
+     "D#m:2",
+     "F#:2"
+    ],
+    "%",
+    "C#",
+    "%",
+    "D#m",
+    "%",
+    "%",
+    "F#",
+    "%",
+    "%",
+    "C#",
+    "%",
+    "D#m",
+    "%",
+    "%",
+    "B",
+    [
+     "B:2",
+     "F#:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C#",
+    "%",
+    "D#m",
+    "%",
+    "%",
+    "B",
+    [
+     "B:2",
+     "F#:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C#",
+    "%",
+    "D#m",
+    "%",
+    "B",
+    [
+     "B:2",
+     "F#:2"
+    ],
+    "F#",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "D#m",
+    "%",
+    "B",
+    [
+     "B:2",
+     "D#m:2"
+    ],
+    "%",
+    [
+     "B:2",
+     "D#m:2"
+    ],
+    [
+     "D#m:2",
+     "C#:2"
+    ],
+    "G#m7",
+    "%",
+    "%",
+    "D#m",
+    [
+     "D#m:2",
+     "F#:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "D#m",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "B",
+    [
+     "B:2",
+     "F#:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "D#m",
+    "%",
+    "%",
+    "B",
+    [
+     "B:2",
+     "F#:2"
+    ],
+    "%",
+    "C#",
+    "%",
+    "D#m",
+    "%",
+    "B",
+    [
+     "B:2",
+     "F#:2"
+    ],
+    "F#",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "D#m",
+    "%",
+    "B",
+    [
+     "B:2",
+     "D#m:2"
+    ],
+    "%",
+    [
+     "B:2",
+     "D#m:2"
+    ],
+    [
+     "D#m:2",
+     "C#:2"
+    ],
+    "G#m7",
+    "%",
+    "B",
+    "F#",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "D#m",
+    "%",
+    "B",
+    [
+     "B:2",
+     "D#m:2"
+    ],
+    "%",
+    "C#",
+    "%",
+    "D#m",
+    "%",
+    "%",
+    "B",
+    "%",
+    "F#",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   8,
+   16.385
+  ],
+  [
+   13,
+   25.819
+  ],
+  [
+   19,
+   37.13
+  ],
+  [
+   24,
+   46.555
+  ],
+  [
+   29,
+   55.778
+  ],
+  [
+   35,
+   66.97
+  ],
+  [
+   43,
+   82.051
+  ],
+  [
+   48,
+   91.596
+  ],
+  [
+   53,
+   101.026
+  ],
+  [
+   59,
+   112.434
+  ],
+  [
+   64,
+   121.625
+  ],
+  [
+   69,
+   130.891
+  ],
+  [
+   75,
+   142.345
+  ],
+  [
+   83,
+   157.54
+  ],
+  [
+   88,
+   167.125
+  ],
+  [
+   93,
+   176.57
+  ],
+  [
+   98,
+   186.065
+  ],
+  [
+   102,
+   193.605
+  ],
+  [
+   107,
+   202.96
+  ],
+  [
+   112,
+   212.386
+  ]
+ ]
+}

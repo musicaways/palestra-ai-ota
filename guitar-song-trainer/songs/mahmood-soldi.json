@@ -1,0 +1,254 @@
+{
+ "title": "Soldi",
+ "artist": "Mahmood",
+ "album": "We Love Summer 2019",
+ "year": 2019,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "Pz168-XMNIk",
+ "key": "D#m",
+ "bpm": 96.89,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.33,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36977214,
+  "duration": 195.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D#m – A#m – B – C# – Badd9 – G#m.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "B",
+    "A#m"
+   ]
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "D#m",
+    "A#m",
+    [
+     "D#m:2",
+     "B:2"
+    ],
+    [
+     "A#m:2",
+     "D#m:2"
+    ],
+    [
+     "B:2",
+     "A#m:2"
+    ],
+    "D#m",
+    "B",
+    "A#m",
+    [
+     "B:1",
+     "A#m:2",
+     "D#m:1"
+    ],
+    [
+     "B:1",
+     "A#m:2",
+     "D#m:1"
+    ],
+    "%",
+    "%",
+    [
+     "F#:2",
+     "G#m:2"
+    ],
+    [
+     "G#m:2",
+     "D#m:2"
+    ],
+    [
+     "C#:1",
+     "D#m:2",
+     "Badd9:1"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    [
+     "C#:2",
+     "D#m:2"
+    ],
+    "Badd9",
+    "D#m",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "B:1",
+     "A#m:2",
+     "D#m:1"
+    ],
+    [
+     "B:2",
+     "A#m:2"
+    ],
+    [
+     "A#m:2",
+     "D#m:2"
+    ],
+    [
+     "D#m:1",
+     "B:2",
+     "A#m:1"
+    ],
+    "%",
+    [
+     "D#m:1",
+     "B:2",
+     "A#m:1"
+    ],
+    "D#m",
+    [
+     "B:2",
+     "A#m:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    [
+     "B:1",
+     "A#m:2",
+     "D#m:1"
+    ],
+    [
+     "B:1",
+     "A#m:2",
+     "D#m:1"
+    ],
+    [
+     "F#:1",
+     "G#m:2",
+     "D#m:1"
+    ],
+    "%",
+    "%",
+    [
+     "F#:1",
+     "G#m:2",
+     "D#m:1"
+    ],
+    [
+     "C#:2",
+     "D#m:2"
+    ],
+    [
+     "D#m:2",
+     "Badd9:2"
+    ],
+    "%",
+    [
+     "C#:1",
+     "D#m:2",
+     "Badd9:1"
+    ],
+    "D#m",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    [
+     "B:1",
+     "A#m:2",
+     "D#m:1"
+    ],
+    [
+     "B:2",
+     "A#m:2"
+    ],
+    [
+     "A#m:2",
+     "D#m:2"
+    ],
+    "F#6",
+    "%",
+    "D#m",
+    "B",
+    "F#6",
+    "A#m",
+    "D#m",
+    "%",
+    "D#m",
+    "B"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "D#m:2",
+     "B:2"
+    ],
+    [
+     "B:2",
+     "A#m:2"
+    ],
+    [
+     "C#:1",
+     "D#m:2",
+     "Badd9:1"
+    ],
+    "%",
+    [
+     "C#:2",
+     "D#m:2"
+    ],
+    "Badd9",
+    "D#m",
+    "%",
+    "%",
+    "%",
+    [
+     "B:1",
+     "A#m:2",
+     "D#m:1"
+    ],
+    [
+     "B:1",
+     "A#m:2",
+     "D#m:1"
+    ],
+    [
+     "B:1",
+     "A#m:2",
+     "D#m:1"
+    ],
+    "B",
+    "A#m",
+    "D#m"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

@@ -1,0 +1,237 @@
+{
+ "title": "Dio è morto",
+ "artist": "Francesco Guccini",
+ "album": "Se io avessi previsto tutto questo: gli amici, la strada, le canzoni",
+ "year": 1967,
+ "genre": "Cantautori",
+ "difficulty": 3,
+ "youtubeId": "FfwGE6OgcSI",
+ "key": "A",
+ "bpm": 106.77,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 21410306,
+  "duration": 173.7142859,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – B7 – E – C#m – B.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "C#m",
+    "%",
+    "%",
+    "%"
+   ]
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "C#m",
+    "%",
+    "A",
+    "%",
+    [
+     "B:2",
+     "B7:2"
+    ],
+    "E",
+    "%",
+    "%",
+    "C#m",
+    "%",
+    "A",
+    "%",
+    "B",
+    "B7",
+    "E",
+    [
+     "A:2",
+     "B7:2"
+    ],
+    [
+     "B7:2",
+     "E:2"
+    ],
+    [
+     "A:2",
+     "B7:2"
+    ],
+    [
+     "B7:2",
+     "E:2"
+    ],
+    "A",
+    [
+     "A:2",
+     "B7:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "C#m",
+    "%",
+    "A",
+    "%",
+    "B",
+    "B7",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C#m",
+    "%",
+    "A",
+    "%",
+    "B",
+    "%",
+    "E",
+    [
+     "A:2",
+     "B7:2"
+    ],
+    [
+     "B7:2",
+     "E:2"
+    ],
+    [
+     "A:2",
+     "B7:2"
+    ],
+    [
+     "B7:2",
+     "E:2"
+    ],
+    "A",
+    [
+     "A:2",
+     "B7:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C#m",
+    "%",
+    "A",
+    "%",
+    "B",
+    "E",
+    "%",
+    [
+     "A:2",
+     "B7:2"
+    ],
+    [
+     "B7:2",
+     "E:2"
+    ],
+    [
+     "A:2",
+     "B7:2"
+    ],
+    [
+     "B7:2",
+     "E:2"
+    ],
+    "A",
+    "B7",
+    "A",
+    "E",
+    "A",
+    "E",
+    "A",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   1,
+   2.845
+  ],
+  [
+   6,
+   14.379
+  ],
+  [
+   10,
+   23.633
+  ],
+  [
+   16,
+   37.227
+  ],
+  [
+   21,
+   48.161
+  ],
+  [
+   26,
+   59.379
+  ],
+  [
+   32,
+   72.887
+  ],
+  [
+   38,
+   86.363
+  ],
+  [
+   44,
+   100.196
+  ],
+  [
+   49,
+   111.26
+  ],
+  [
+   56,
+   126.994
+  ],
+  [
+   61,
+   138.1
+  ],
+  [
+   65,
+   147.026
+  ],
+  [
+   74,
+   167.15
+  ]
+ ]
+}

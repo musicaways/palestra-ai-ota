@@ -1,0 +1,168 @@
+{
+ "title": "Peter Pan",
+ "artist": "Ultimo",
+ "album": "Ultimo",
+ "year": 2018,
+ "genre": "Pop",
+ "difficulty": 2,
+ "youtubeId": "MX7eCXb09Vg",
+ "key": "G",
+ "bpm": 72.85,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.01,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36031961,
+  "duration": 227,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – D – Bm – A – Gmaj7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G",
+    "D",
+    "G",
+    "D"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "G",
+    "%",
+    "D",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%",
+    "G",
+    "D",
+    "G",
+    "D",
+    "Bm",
+    "Gmaj7",
+    "D",
+    "%",
+    "Bm",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "G",
+    "%",
+    "D",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "Bm",
+    "A",
+    "G",
+    "D",
+    "G",
+    "D",
+    "Bm",
+    "Gmaj7",
+    "D",
+    "%",
+    "Bm",
+    "G",
+    "D",
+    "%",
+    "Bm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   15.66
+  ],
+  [
+   8,
+   28.984
+  ],
+  [
+   12,
+   41.73
+  ],
+  [
+   16,
+   54.371
+  ],
+  [
+   20,
+   67.273
+  ],
+  [
+   24,
+   80.481
+  ],
+  [
+   28,
+   93.674
+  ],
+  [
+   32,
+   107.564
+  ],
+  [
+   36,
+   121.2
+  ],
+  [
+   40,
+   133.446
+  ],
+  [
+   44,
+   146.86
+  ],
+  [
+   48,
+   160.457
+  ],
+  [
+   51,
+   170.453
+  ]
+ ]
+}

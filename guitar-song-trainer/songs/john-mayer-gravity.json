@@ -1,0 +1,284 @@
+{
+ "title": "Gravity",
+ "artist": "John Mayer",
+ "album": "Music From House MD Season 3",
+ "year": 2006,
+ "genre": "Rock / Blues",
+ "difficulty": 3,
+ "youtubeId": "R9Hw_lMum8U",
+ "key": "G",
+ "bpm": 123.72,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.35,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37052935,
+  "duration": 246,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – C – D7 – Ebmaj7 – Am7 – Bb6.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G",
+    "%",
+    "%",
+    "%",
+    "C",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "C",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "G",
+    "%",
+    "%",
+    "C",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "G",
+    "%",
+    "%",
+    "C",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Am7",
+    "%",
+    "D7",
+    "%",
+    "%",
+    "%",
+    "Bb6",
+    [
+     "Bb6:2",
+     "Ebmaj7:2"
+    ],
+    "%",
+    [
+     "Ebmaj7:2",
+     "D7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "%",
+    "G",
+    "%",
+    "%",
+    "C",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "G",
+    "%",
+    "%",
+    "C",
+    "%",
+    "%",
+    "Am7",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    "D7",
+    "%",
+    "%",
+    "Ebmaj7",
+    [
+     "Ebmaj7:2",
+     "D7:2"
+    ],
+    "%",
+    "G",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "Am7",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 7",
+   "bars": [
+    "D7",
+    "%",
+    "%",
+    "Ebmaj7",
+    "%",
+    [
+     "Ebmaj7:2",
+     "D7:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 8",
+   "bars": [
+    "%",
+    "G",
+    "%",
+    [
+     "G:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "C",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 9",
+   "bars": [
+    "%",
+    "G",
+    "%",
+    "%",
+    "C",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "C",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "C",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   18,
+   35.43
+  ],
+  [
+   24,
+   47.069
+  ],
+  [
+   36,
+   70.348
+  ],
+  [
+   41,
+   79.959
+  ],
+  [
+   48,
+   93.37
+  ],
+  [
+   57,
+   110.69
+  ],
+  [
+   81,
+   157.247
+  ],
+  [
+   89,
+   172.86
+  ],
+  [
+   95,
+   184.801
+  ],
+  [
+   100,
+   194.451
+  ],
+  [
+   107,
+   207.92
+  ],
+  [
+   113,
+   219.48
+  ],
+  [
+   116,
+   225.3
+  ]
+ ]
+}

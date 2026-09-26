@@ -1,0 +1,155 @@
+{
+ "title": "Sinceramente",
+ "artist": "Annalisa",
+ "album": "Le migliori uscite del 2024",
+ "year": 2024,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "K_iaQPLdmJU",
+ "key": "D#m",
+ "bpm": 94.66,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.14,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34629553,
+  "duration": 216.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D#m – G#m – B – A#m – A#7 – F#6.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "D#m",
+    "G#m",
+    "B",
+    "%",
+    "D#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "D#m",
+    "%",
+    "A#m",
+    "B",
+    "%",
+    [
+     "F#:2",
+     "A#m:2"
+    ],
+    "D#m",
+    "A#m",
+    "%",
+    "%",
+    "F#",
+    "A#",
+    "D#m",
+    "%",
+    "%",
+    "B"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "F#",
+    "A#m",
+    "D#m",
+    "%",
+    "%",
+    "Bmaj7",
+    "F#6",
+    "A#m",
+    "D#m",
+    "G#m",
+    "%",
+    "B",
+    "A#5",
+    "%",
+    "D#m",
+    "A#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "D#m",
+    "%",
+    "%",
+    "B",
+    "F#6",
+    "A#m",
+    "D#m",
+    "%",
+    "%",
+    "Bmaj7",
+    "F#6",
+    "A#7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "D#m",
+    "G#m",
+    "%",
+    "B",
+    "A#5",
+    "%",
+    "D#m",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "G#m",
+    [
+     "G#m:2",
+     "A#7:2"
+    ],
+    "%",
+    "G#m",
+    "%",
+    "%",
+    "D#m",
+    "A#7",
+    "%",
+    "D#m",
+    "G#m",
+    "%",
+    "B",
+    "A#7",
+    "%",
+    "D#m",
+    "%",
+    "G#m",
+    "B",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

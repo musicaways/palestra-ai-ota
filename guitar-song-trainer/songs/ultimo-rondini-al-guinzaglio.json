@@ -1,0 +1,318 @@
+{
+ "title": "Rondini al guinzaglio",
+ "artist": "Ultimo",
+ "album": "Radio Italia Summer Hits 2019",
+ "year": 2019,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "znzmN0BFW6I",
+ "key": "Dadd9",
+ "bpm": 142.24,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.33,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37455821,
+  "duration": 241,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – Dadd9 – D – F#m – C#m7 – C.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "C#m",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "C#m",
+    "%",
+    "Dadd9",
+    "Aadd9",
+    "%",
+    "%",
+    "F#m",
+    "%",
+    "Dadd9",
+    "%",
+    "Aadd9",
+    "%",
+    "%",
+    "%",
+    "F#m7",
+    "%",
+    "E6",
+    "%",
+    "Dadd9",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "C#m7",
+    "%",
+    "Dadd9",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%",
+    "C#m7",
+    "%",
+    "Dadd9",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%",
+    "D",
+    [
+     "D:2",
+     "E:2"
+    ],
+    "%",
+    "A",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "C#m7",
+    "Dadd9",
+    "Aadd9",
+    "%",
+    "%",
+    "%",
+    "F#m",
+    "%",
+    "Dadd9",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%",
+    "F#m",
+    "%",
+    "E6",
+    "%",
+    "D",
+    "%",
+    "%",
+    "C#m7",
+    "%",
+    "Dadd9",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%",
+    "C#m7",
+    "%",
+    "Dadd9",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%",
+    "D",
+    "E",
+    "A",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "F#m",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%",
+    "F#m",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "G7",
+    "Em",
+    "%",
+    "Fadd9",
+    "%",
+    "C",
+    "%",
+    "%",
+    "%",
+    "Em",
+    "%",
+    "Fadd9",
+    "%",
+    "C",
+    "%",
+    "%",
+    "%",
+    "%",
+    "F",
+    "G",
+    "C",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   11,
+   18.98
+  ],
+  [
+   15,
+   25.59
+  ],
+  [
+   21,
+   35.696
+  ],
+  [
+   25,
+   42.515
+  ],
+  [
+   29,
+   49.269
+  ],
+  [
+   33,
+   56.065
+  ],
+  [
+   37,
+   62.819
+  ],
+  [
+   43,
+   72.885
+  ],
+  [
+   47,
+   79.635
+  ],
+  [
+   52,
+   88.131
+  ],
+  [
+   56,
+   94.82
+  ],
+  [
+   60,
+   101.536
+  ],
+  [
+   64,
+   108.234
+  ],
+  [
+   68,
+   115.035
+  ],
+  [
+   72,
+   121.809
+  ],
+  [
+   77,
+   130.246
+  ],
+  [
+   81,
+   137.081
+  ],
+  [
+   85,
+   143.796
+  ],
+  [
+   89,
+   150.545
+  ],
+  [
+   93,
+   157.295
+  ],
+  [
+   102,
+   172.39
+  ],
+  [
+   106,
+   178.935
+  ],
+  [
+   110,
+   185.595
+  ],
+  [
+   114,
+   192.345
+  ],
+  [
+   119,
+   201.215
+  ],
+  [
+   123,
+   207.964
+  ],
+  [
+   127,
+   214.755
+  ],
+  [
+   136,
+   229.986
+  ]
+ ]
+}

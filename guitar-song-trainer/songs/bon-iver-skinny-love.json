@@ -1,0 +1,159 @@
+{
+ "title": "Skinny Love",
+ "artist": "Bon Iver",
+ "album": "2019-06-08 [Ådalen, Aarhus, Denmark]",
+ "year": 2007,
+ "genre": "Folk",
+ "difficulty": 1,
+ "youtubeId": "-83qrKGZ3ps",
+ "key": "Am",
+ "bpm": 75.22,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.93,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 33398005,
+  "duration": 255.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – Am – G4 – C6.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Am",
+    "C",
+    "Am",
+    "C",
+    "Am",
+    "C",
+    "G4",
+    "Am",
+    "C",
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Am",
+    "C",
+    "Am",
+    "C",
+    "Am",
+    "C",
+    "G4",
+    [
+     "G4:2",
+     "Am:2"
+    ],
+    [
+     "Am:2",
+     "C6:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Am",
+    "C",
+    "Am",
+    "C",
+    "Am",
+    "C",
+    "G4",
+    "Am",
+    "C",
+    "%",
+    "C",
+    "%",
+    "C",
+    "%",
+    "C",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Am:2",
+     "C:2"
+    ],
+    "Am",
+    "C",
+    "Am",
+    "C",
+    "G4",
+    [
+     "G4:2",
+     "Am:2"
+    ],
+    [
+     "Am:2",
+     "C6:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "C",
+    "%",
+    "C",
+    "%",
+    "C",
+    "%",
+    "C",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "C",
+    "%",
+    "Am",
+    "C",
+    "Am",
+    "C",
+    "Am",
+    "C",
+    "G4",
+    "Am",
+    "C6",
+    "Am",
+    "C",
+    "Am",
+    "C",
+    "Am",
+    "C",
+    "G4",
+    "Am",
+    "C6",
+    "Am",
+    "C",
+    "Am"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

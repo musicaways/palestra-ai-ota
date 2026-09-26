@@ -1,0 +1,253 @@
+{
+ "title": "Voglio vederti danzare",
+ "artist": "Franco Battiato",
+ "album": "Battiato Studio Collection Disc 1",
+ "year": 1982,
+ "genre": "Cantautori",
+ "difficulty": 5,
+ "youtubeId": "4CyjIN-nmAI",
+ "key": "Bb",
+ "bpm": 75.43,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.27,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37458394,
+  "duration": 219,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bb – F – G – B – C – Eb.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bb",
+    "Gm",
+    "Eb",
+    "Bb"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Cm:2",
+     "Gm:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Bb:1",
+     "Eb:2",
+     "F:1"
+    ],
+    "Bb",
+    "Gm",
+    "Eb",
+    "Bb",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "Bb",
+    "F",
+    [
+     "Bb:1",
+     "Eb:2",
+     "F:1"
+    ],
+    "Bb",
+    "Gm",
+    "Eb",
+    "Bb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Bb",
+    [
+     "F:2",
+     "Gm:2"
+    ],
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "G:2"
+    ],
+    "C",
+    "Am",
+    "F",
+    "C",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "G:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    "A",
+    "D",
+    "Bm",
+    "G",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "D",
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "A",
+    "B",
+    [
+     "E:2",
+     "B:2"
+    ],
+    [
+     "F#m:2",
+     "C#m:2"
+    ],
+    [
+     "E:2",
+     "B:2"
+    ],
+    [
+     "E:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "B:2"
+    ],
+    [
+     "E:2",
+     "B:2"
+    ],
+    [
+     "F#m:2",
+     "C#m:2"
+    ],
+    [
+     "E:2",
+     "B:2"
+    ],
+    "C#",
+    "F#",
+    "D#m",
+    "B",
+    "F#",
+    "C#",
+    "D#m",
+    "B",
+    "F#",
+    "D#m",
+    "B",
+    "F#",
+    "C#"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   13.145
+  ],
+  [
+   13,
+   41.476
+  ],
+  [
+   21,
+   66.858
+  ],
+  [
+   30,
+   95.87
+  ],
+  [
+   35,
+   111.988
+  ],
+  [
+   45,
+   143.6
+  ],
+  [
+   49,
+   156.175
+  ],
+  [
+   54,
+   172.167
+  ],
+  [
+   56,
+   178.442
+  ]
+ ]
+}

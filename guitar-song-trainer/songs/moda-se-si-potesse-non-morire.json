@@ -1,0 +1,172 @@
+{
+ "title": "Se si potesse non morire",
+ "artist": "Modà",
+ "album": "Radiodigitalia Festival",
+ "year": 2012,
+ "genre": "Pop / Rock",
+ "difficulty": 4,
+ "youtubeId": "_hu4X_e-VoQ",
+ "key": "B",
+ "bpm": 65.03,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.86,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 23237866,
+  "duration": 250,
+  "offset": 0
+ },
+ "notes": "Accordi principali: B – E – Em – F# – Bmaj7 – B7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "E",
+    "Em",
+    "B"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "E",
+    "Em",
+    "B",
+    "B7",
+    "E",
+    "Em",
+    "B",
+    "%",
+    "E",
+    "%",
+    "B",
+    "F#",
+    "B",
+    "Bmaj7",
+    "E",
+    "Em",
+    "B",
+    "F#",
+    "B",
+    "Bmaj7",
+    "E",
+    "Em",
+    "B",
+    "F#",
+    "E",
+    "B",
+    "B7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "E",
+    "Em",
+    "B",
+    "B7",
+    "E",
+    "Em",
+    "B",
+    "F#",
+    "B",
+    "Bmaj7",
+    "E",
+    "Em",
+    "B",
+    "F#",
+    "B",
+    "%",
+    "E",
+    "Em",
+    "B",
+    "F#",
+    "B",
+    "Bmaj7",
+    "E",
+    "Em",
+    "B",
+    "F#"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strumentale",
+   "bars": [
+    "B",
+    "%",
+    "E",
+    "Em",
+    "B",
+    "F#",
+    "E",
+    "Em",
+    "%",
+    "B",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   18.158
+  ],
+  [
+   8,
+   32.681
+  ],
+  [
+   13,
+   50.45
+  ],
+  [
+   17,
+   65.301
+  ],
+  [
+   21,
+   80.498
+  ],
+  [
+   26,
+   99.39
+  ],
+  [
+   31,
+   117.843
+  ],
+  [
+   37,
+   139.222
+  ],
+  [
+   41,
+   153.819
+  ],
+  [
+   46,
+   172.699
+  ],
+  [
+   56,
+   209.608
+  ],
+  [
+   61,
+   228.34
+  ],
+  [
+   63,
+   235.991
+  ]
+ ]
+}

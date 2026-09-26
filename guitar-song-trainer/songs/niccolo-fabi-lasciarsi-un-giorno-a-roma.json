@@ -1,0 +1,349 @@
+{
+ "title": "Lasciarsi un giorno a Roma",
+ "artist": "Niccolò Fabi",
+ "album": "Super Sanremo '98",
+ "year": 1998,
+ "genre": "Cantautori",
+ "difficulty": 4,
+ "youtubeId": "Noh5kM6bCCQ",
+ "key": "C",
+ "bpm": 73.49,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.26,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37082245,
+  "duration": 282,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – D – F – Bb – Gm7 – Dm. La fonte suggerisce il capotasto al 5° tasto.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Dm7",
+    "C",
+    "F",
+    "Gm7",
+    "C",
+    "Bb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Dm:1",
+     "C:2",
+     "F:1"
+    ],
+    [
+     "Gm7:2",
+     "C:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "C:2",
+     "Dm:2"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    [
+     "Gm7:2",
+     "C:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "Dm:1",
+     "C:2",
+     "F:1"
+    ],
+    "Gm7",
+    "C",
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "Dm:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Gm7:2"
+    ],
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Dm:2"
+    ],
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Gm7:2"
+    ],
+    [
+     "Bb:1",
+     "C:2",
+     "Bbadd9:1"
+    ],
+    "Dm7",
+    "C",
+    "Gm7",
+    "C",
+    "Bbadd9",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Dm:1",
+     "C:2",
+     "F:1"
+    ],
+    [
+     "Gm7:2",
+     "C:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "Dm:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Gm7:2"
+    ],
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Dm:2"
+    ],
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    [
+     "Gm7:2",
+     "Bb:2"
+    ],
+    "C",
+    "%",
+    "Bbadd9",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Em:1",
+     "D:2",
+     "G:1"
+    ],
+    [
+     "Am7:2",
+     "D:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    "%",
+    [
+     "D:1",
+     "G:2",
+     "Am7:1"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "Em:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Am7:2"
+    ],
+    "C",
+    "D",
+    "Em",
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Am7:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    "%",
+    [
+     "C:1",
+     "D:2",
+     "Am7:1"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "Em7:1"
+    ],
+    "%",
+    "%",
+    [
+     "C:1",
+     "D:2",
+     "Am7:1"
+    ],
+    "%",
+    [
+     "C:1",
+     "D:2",
+     "Em7:1"
+    ],
+    "C",
+    "D",
+    "Am7",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "C",
+    "%",
+    "%",
+    [
+     "C:2",
+     "D:2"
+    ],
+    "%",
+    "%",
+    "%",
+    [
+     "D:2",
+     "Em7:2"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   6,
+   20.998
+  ],
+  [
+   10,
+   34.367
+  ],
+  [
+   15,
+   50.67
+  ],
+  [
+   23,
+   76.358
+  ],
+  [
+   33,
+   108.894
+  ],
+  [
+   38,
+   125.223
+  ],
+  [
+   46,
+   151.516
+  ],
+  [
+   50,
+   164.262
+  ],
+  [
+   54,
+   176.967
+  ],
+  [
+   61,
+   199.828
+  ],
+  [
+   65,
+   213.38
+  ],
+  [
+   70,
+   230.231
+  ],
+  [
+   75,
+   246.745
+  ]
+ ]
+}

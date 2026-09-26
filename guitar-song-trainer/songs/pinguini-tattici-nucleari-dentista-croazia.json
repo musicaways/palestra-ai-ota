@@ -1,0 +1,285 @@
+{
+ "title": "Dentista Croazia",
+ "artist": "Pinguini Tattici Nucleari",
+ "album": "Fake News (Bonus 2023)",
+ "year": 2019,
+ "genre": "Pop / Indie",
+ "difficulty": 5,
+ "youtubeId": "yAD9xi3dVBU",
+ "key": "C",
+ "bpm": 70.29,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.21,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 17754779,
+  "duration": 263.44,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – Bb – F – Dm – Gm7 – A.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "F:1",
+     "A:2",
+     "Bb:1"
+    ],
+    [
+     "Dm:2",
+     "C:2"
+    ],
+    [
+     "F:1",
+     "A:2",
+     "Bb:1"
+    ],
+    [
+     "Dm:1",
+     "C:2",
+     "Dm:1"
+    ],
+    [
+     "Am:2",
+     "Bb:2"
+    ],
+    [
+     "C:1",
+     "C#dim:2",
+     "Dm:1"
+    ],
+    [
+     "Am:2",
+     "Bb:2"
+    ],
+    "%",
+    [
+     "F:1",
+     "A:2",
+     "Bb:1"
+    ],
+    [
+     "Dm:2",
+     "C:2"
+    ],
+    "F",
+    [
+     "Dm:1",
+     "C:2",
+     "Dm:1"
+    ],
+    [
+     "Am:2",
+     "Bb:2"
+    ],
+    [
+     "C:2",
+     "Dm:2"
+    ],
+    [
+     "Am7:2",
+     "Bb:2"
+    ],
+    "Bb",
+    [
+     "Gm7:2",
+     "C:2"
+    ],
+    "F",
+    "%",
+    [
+     "Bb:2",
+     "Gm7:2"
+    ],
+    "C",
+    "F",
+    "%",
+    [
+     "Bb:2",
+     "Gm7:2"
+    ],
+    "C",
+    "%",
+    "%",
+    [
+     "F:1",
+     "A:2",
+     "Bb:1"
+    ],
+    [
+     "Dm:1",
+     "C:2",
+     "F:1"
+    ],
+    [
+     "A:2",
+     "Bb:2"
+    ],
+    [
+     "Dm:1",
+     "C:2",
+     "Dm7:1"
+    ],
+    [
+     "Am7:2",
+     "Bb:2"
+    ],
+    [
+     "C:2",
+     "Dm7:2"
+    ],
+    [
+     "Am7:2",
+     "Bb:2"
+    ],
+    "%",
+    [
+     "Gm7:2",
+     "C:2"
+    ],
+    "F",
+    "%",
+    [
+     "Bb:2",
+     "Gm7:2"
+    ],
+    "C",
+    "F",
+    "%",
+    [
+     "Bb:2",
+     "Gm7:2"
+    ],
+    "C",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "F",
+    "Dm7",
+    "C",
+    "Bb",
+    [
+     "F:2",
+     "Dm7:2"
+    ],
+    "C",
+    "Bbadd9",
+    "Gm7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Gm7:2",
+     "C:2"
+    ],
+    "F",
+    "%",
+    [
+     "Bb:2",
+     "Gm7:2"
+    ],
+    "C",
+    "F",
+    "%",
+    [
+     "Bb:2",
+     "Gm7:2"
+    ],
+    "C",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   0,
+   1.346
+  ],
+  [
+   4,
+   14.176
+  ],
+  [
+   8,
+   27.709
+  ],
+  [
+   12,
+   41.376
+  ],
+  [
+   17,
+   58.367
+  ],
+  [
+   22,
+   75.607
+  ],
+  [
+   27,
+   92.056
+  ],
+  [
+   32,
+   108.884
+  ],
+  [
+   37,
+   126.009
+  ],
+  [
+   42,
+   143.231
+  ],
+  [
+   47,
+   160.303
+  ],
+  [
+   51,
+   174.556
+  ],
+  [
+   63,
+   215.561
+  ],
+  [
+   68,
+   232.704
+  ],
+  [
+   72,
+   246.454
+  ]
+ ]
+}

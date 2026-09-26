@@ -1,0 +1,289 @@
+{
+ "title": "Un'altra te",
+ "artist": "Eros Ramazzotti",
+ "album": "Best of Eros Ramazzotti",
+ "year": 1996,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "d5Z4Lofyl0Q",
+ "key": "Ab",
+ "bpm": 88.33,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.79,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36108864,
+  "duration": 278,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Ab – Ebm7 – Db – Gb – Fm7 – Ab4.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Gb",
+    "%",
+    "%",
+    "Fm7",
+    "%",
+    "%",
+    "Ebm7",
+    "%",
+    "%",
+    "Ab4",
+    "%",
+    "%",
+    "Bbm",
+    "%",
+    "%",
+    "Gb",
+    "Dbadd9",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Gb",
+    "%",
+    "%",
+    "%",
+    [
+     "Ebm7:2",
+     "Ab4:2"
+    ],
+    [
+     "Ab4:2",
+     "Bbm7:2"
+    ],
+    "Gb",
+    "%",
+    "%",
+    "%",
+    "Ebm7",
+    "Ab",
+    "Dbadd9",
+    "%",
+    "Bbm",
+    "%",
+    "Dbadd9",
+    "%",
+    "%",
+    "Dbadd9",
+    "%",
+    "%",
+    "Ebm",
+    "Gb",
+    [
+     "Gb:2",
+     "Ebm7:2"
+    ],
+    "%",
+    "Ab4",
+    [
+     "Ab4:2",
+     "Ab:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Db:1",
+     "Ab:2",
+     "Ebm7:1"
+    ],
+    "Db",
+    "Ab",
+    "Ebm7",
+    [
+     "Db:1",
+     "Ab:2",
+     "Ebm7:1"
+    ],
+    [
+     "Db:2",
+     "Ab:2"
+    ],
+    [
+     "Ab:2",
+     "Ebm7:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "Dbadd9",
+    "%",
+    "%",
+    "Ebm",
+    "%",
+    "Gb",
+    "Ebm7",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "Db:2",
+     "Ab:2"
+    ],
+    [
+     "Ab:2",
+     "Ebm7:2"
+    ],
+    [
+     "Db:2",
+     "Ab:2"
+    ],
+    [
+     "Ab:2",
+     "Ebm7:2"
+    ],
+    [
+     "Db:2",
+     "Ab:2"
+    ],
+    [
+     "Ab:2",
+     "Ebm7:2"
+    ],
+    [
+     "Db:1",
+     "Ab:2",
+     "Ebm7:1"
+    ],
+    "Eb",
+    "Bb",
+    "Fm7",
+    "Eb",
+    "Bb",
+    "Fm7",
+    "Eb",
+    "Bb",
+    "Fm7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "Abadd9",
+    "%",
+    "%",
+    "Abadd9",
+    "%",
+    "%",
+    "Abadd9"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "%",
+    [
+     "Abadd9:2",
+     "Gm7:2"
+    ],
+    [
+     "Gm7:2",
+     "Fm7:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   16,
+   44.402
+  ],
+  [
+   22,
+   60.526
+  ],
+  [
+   26,
+   71.394
+  ],
+  [
+   32,
+   87.802
+  ],
+  [
+   36,
+   98.695
+  ],
+  [
+   41,
+   112.255
+  ],
+  [
+   47,
+   128.583
+  ],
+  [
+   52,
+   141.907
+  ],
+  [
+   62,
+   169.07
+  ],
+  [
+   67,
+   182.577
+  ],
+  [
+   73,
+   198.727
+  ],
+  [
+   79,
+   215.069
+  ],
+  [
+   89,
+   242.509
+  ],
+  [
+   96,
+   261.93
+  ],
+  [
+   99,
+   270.134
+  ]
+ ]
+}

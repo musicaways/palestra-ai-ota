@@ -1,0 +1,252 @@
+{
+ "title": "drivers license",
+ "artist": "Olivia Rodrigo",
+ "album": "German Top 100 Jahrescharts 2021",
+ "year": 2021,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "-FpgCIOoavQ",
+ "key": "Bb",
+ "bpm": 72.22,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.63,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37220134,
+  "duration": 242,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bb – Eb – Ebmaj7 – Gm – F – Dm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bb",
+    "%"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Bb",
+    "Gm",
+    "%",
+    "Eb",
+    "%",
+    "Bb",
+    "%",
+    "%",
+    "Gm",
+    "%",
+    "%",
+    "Eb",
+    "Bb",
+    "%",
+    "Ebmaj7",
+    [
+     "Eb6:2",
+     "Eb:2"
+    ],
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    "Eb6",
+    "Eb",
+    "Bb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Bb:2",
+     "Dm:2"
+    ],
+    [
+     "Dm:2",
+     "Eb:2"
+    ],
+    "F",
+    "Bb",
+    "Bb",
+    "%",
+    "Gm",
+    "%",
+    "Eb",
+    "Bb",
+    "%",
+    "Ebmaj7",
+    [
+     "Eb6:2",
+     "Eb:2"
+    ],
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    "Eb6",
+    "Eb",
+    "Bb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Bb:2",
+     "Dm:2"
+    ],
+    [
+     "Dm:2",
+     "Eb:2"
+    ],
+    "F",
+    "Bb",
+    "Gm",
+    "Ebmaj7",
+    "Bb",
+    "F",
+    "Gm",
+    "Ebmaj7",
+    [
+     "Ebmaj7:2",
+     "Bb:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Gm",
+    [
+     "Ebmaj7:2",
+     "Bb:2"
+    ],
+    "F",
+    "%",
+    "Gm",
+    "Ebmaj7",
+    [
+     "Ebmaj7:2",
+     "Bb:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    [
+     "Eb:2",
+     "Eb6:2"
+    ],
+    [
+     "Ebmaj7:2",
+     "Eb:2"
+    ],
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    "Ebmaj7",
+    "Eb",
+    "Bb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    [
+     "Dm:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "Eb:2"
+    ],
+    "F",
+    "Bb",
+    "F",
+    "%",
+    "Gm",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   2,
+   8.607
+  ],
+  [
+   7,
+   25.147
+  ],
+  [
+   11,
+   38.343
+  ],
+  [
+   16,
+   54.361
+  ],
+  [
+   22,
+   74.504
+  ],
+  [
+   27,
+   91.12
+  ],
+  [
+   31,
+   104.416
+  ],
+  [
+   36,
+   121.14
+  ],
+  [
+   41,
+   137.914
+  ],
+  [
+   46,
+   154.574
+  ],
+  [
+   51,
+   171.19
+  ],
+  [
+   56,
+   187.793
+  ],
+  [
+   60,
+   201.144
+  ],
+  [
+   65,
+   217.76
+  ],
+  [
+   69,
+   231.052
+  ]
+ ]
+}

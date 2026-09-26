@@ -1,0 +1,245 @@
+{
+ "title": "Napule è",
+ "artist": "Pino Daniele",
+ "album": "The Platinum Collection - Pino Daniele",
+ "year": 1977,
+ "genre": "Cantautori",
+ "difficulty": 3,
+ "youtubeId": "DcS8uIyDPM8",
+ "key": "Gmaj7",
+ "bpm": 126.58,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.83,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34728316,
+  "duration": 225,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Gmaj7 – Dmaj7 – D – Bm7 – G – F#7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Dmaj7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Gmaj7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Dmaj7",
+    "%",
+    "Gmaj7",
+    "%",
+    "Dmaj7",
+    "%",
+    "Gmaj7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "%",
+    "F#7",
+    "Bm7",
+    "G",
+    "%",
+    "%",
+    "D",
+    "%",
+    [
+     "D:2",
+     "Gmaj7:2"
+    ],
+    "%",
+    [
+     "Gmaj7:2",
+     "Dmaj7:2"
+    ],
+    "%",
+    "Gmaj7",
+    "%",
+    "Dmaj7",
+    "%",
+    "Gmaj7",
+    "%",
+    "Dmaj7",
+    "%",
+    "Gmaj7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "F#7",
+    "Bm7",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "D",
+    "%",
+    "%",
+    [
+     "D:2",
+     "Gmaj7:2"
+    ],
+    "%",
+    "%",
+    [
+     "Gmaj7:2",
+     "Dmaj7:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "Gmaj7",
+    "%",
+    "%",
+    "Dmaj7",
+    "%",
+    "Gmaj7",
+    "%",
+    "Dmaj7",
+    "%",
+    "Gmaj7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "%",
+    "F#7",
+    "Bm7",
+    "G",
+    "%",
+    "%",
+    "D",
+    "%",
+    [
+     "D:2",
+     "Gmaj7:2"
+    ],
+    "%",
+    [
+     "Gmaj7:2",
+     "Dmaj7:2"
+    ],
+    "%",
+    "Gmaj7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Dmaj7",
+    "Gmaj7",
+    "%",
+    "%",
+    "Dmaj7",
+    "Gmaj7",
+    "Dmaj7",
+    "Gmaj7",
+    "Dmaj7",
+    "Gmaj7",
+    "%",
+    "%",
+    "Dmaj7",
+    "Gmaj7",
+    "Dmaj7",
+    "Gmaj7",
+    "Dmaj7",
+    "Gmaj7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   19,
+   36.97
+  ],
+  [
+   27,
+   52.138
+  ],
+  [
+   42,
+   80.352
+  ],
+  [
+   50,
+   95.52
+  ],
+  [
+   73,
+   139.246
+  ],
+  [
+   81,
+   154.53
+  ],
+  [
+   85,
+   161.998
+  ],
+  [
+   96,
+   182.642
+  ],
+  [
+   100,
+   190.226
+  ],
+  [
+   106,
+   201.74
+  ],
+  [
+   110,
+   209.452
+  ],
+  [
+   114,
+   217.112
+  ]
+ ]
+}

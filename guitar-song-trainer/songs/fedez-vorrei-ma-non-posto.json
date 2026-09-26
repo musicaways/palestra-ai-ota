@@ -1,0 +1,319 @@
+{
+ "title": "Vorrei ma non posto",
+ "artist": "Fedez",
+ "album": "Xeulitzy Videos",
+ "year": 2016,
+ "genre": "Pop / Rap",
+ "difficulty": 3,
+ "youtubeId": "1KhzVjE5VnQ",
+ "key": "D",
+ "bpm": 95.73,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.02,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36072213,
+  "duration": 222,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – E – A – F#m – C#m7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F#m",
+    "D",
+    "A",
+    "E",
+    "F#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "A",
+    "%",
+    "D",
+    "A",
+    "A",
+    "C#m7",
+    "E",
+    "%",
+    [
+     "D:1",
+     "E:2",
+     "F#m:1"
+    ],
+    [
+     "D:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    "D",
+    "E",
+    [
+     "A:2",
+     "D:2"
+    ],
+    "%",
+    "C#m7",
+    [
+     "F#m:1",
+     "D:2",
+     "A:1"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    "F#m",
+    "D",
+    "A",
+    "E",
+    "F#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "A",
+    "%",
+    "D",
+    "E",
+    "A",
+    "C#m7",
+    "D",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "A",
+    "C#m7",
+    "D",
+    "E",
+    "A",
+    "C#m7",
+    "D",
+    "E",
+    [
+     "D:1",
+     "E:2",
+     "F#m:1"
+    ],
+    [
+     "D:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    "D",
+    "E",
+    [
+     "A:2",
+     "D:2"
+    ],
+    "%",
+    "C#m7",
+    [
+     "F#m:1",
+     "D:2",
+     "A:1"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    "F#m",
+    "D",
+    "A",
+    "E",
+    "F#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "F#m:1",
+     "D:2",
+     "A:1"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    "D",
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "F#m:1",
+     "D:2",
+     "A:1"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    "F#m",
+    "D",
+    "A",
+    "E"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   5,
+   14.659
+  ],
+  [
+   10,
+   27
+  ],
+  [
+   16,
+   41.991
+  ],
+  [
+   20,
+   52.496
+  ],
+  [
+   24,
+   62.524
+  ],
+  [
+   33,
+   84.99
+  ],
+  [
+   38,
+   97.196
+  ],
+  [
+   43,
+   109.753
+  ],
+  [
+   48,
+   122.241
+  ],
+  [
+   54,
+   136.706
+  ],
+  [
+   60,
+   152.517
+  ],
+  [
+   69,
+   175.166
+  ],
+  [
+   74,
+   187.44
+  ],
+  [
+   80,
+   202.804
+  ],
+  [
+   82,
+   207.864
+  ]
+ ]
+}

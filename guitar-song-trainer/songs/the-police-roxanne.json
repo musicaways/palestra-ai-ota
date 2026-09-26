@@ -1,0 +1,193 @@
+{
+ "title": "Roxanne",
+ "artist": "The Police",
+ "album": "Rolling Stone Top 500",
+ "year": 1978,
+ "genre": "Rock",
+ "difficulty": 5,
+ "youtubeId": "3T1c7GkzRQQ",
+ "key": "Cm",
+ "bpm": 67.34,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.55,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36861814,
+  "duration": 191,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Cm – F4 – G4 – Gm – F – Ebmaj7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Gm",
+    "%",
+    "Ebmaj7",
+    "Dm",
+    "Cm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Ebmaj7",
+    [
+     "Ebmaj7:2",
+     "Dm:2"
+    ],
+    [
+     "Cm:2",
+     "F4:2"
+    ],
+    "G4",
+    "Gm",
+    [
+     "Ebmaj7:2",
+     "Dm:1"
+    ],
+    [
+     "Cm:2",
+     "F4:2"
+    ],
+    "G4",
+    "Cm",
+    [
+     "F4:2",
+     "G4:2"
+    ],
+    "Cm",
+    [
+     "F4:2",
+     "G4:2"
+    ],
+    "%",
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "Gm:2"
+    ],
+    "%",
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    "Gm",
+    "%",
+    "Gm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Gm",
+    "%",
+    [
+     "Cm:2",
+     "F4:2"
+    ],
+    "G4",
+    "Gm",
+    [
+     "Ebmaj7:2",
+     "Dm:2"
+    ],
+    [
+     "Cm:2",
+     "F4:2"
+    ],
+    "G4",
+    "Cm",
+    [
+     "F4:2",
+     "G4:2"
+    ],
+    "Cm",
+    [
+     "F4:2",
+     "G4:2"
+    ],
+    "%",
+    "%",
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "Gm:2"
+    ],
+    "%",
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   7,
+   25.05
+  ],
+  [
+   11,
+   39.712
+  ],
+  [
+   16,
+   57.456
+  ],
+  [
+   20,
+   71.712
+  ],
+  [
+   28,
+   100.952
+  ],
+  [
+   33,
+   118.772
+  ],
+  [
+   38,
+   136.358
+  ],
+  [
+   43,
+   153.732
+  ],
+  [
+   48,
+   170.952
+  ],
+  [
+   51,
+   181.644
+  ]
+ ]
+}

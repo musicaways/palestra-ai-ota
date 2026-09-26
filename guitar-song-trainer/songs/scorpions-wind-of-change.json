@@ -1,0 +1,334 @@
+{
+ "title": "Wind of Change",
+ "artist": "Scorpions",
+ "album": "All",
+ "year": 1990,
+ "genre": "Rock",
+ "difficulty": 2,
+ "youtubeId": "mZ2BueFde9A",
+ "key": "G",
+ "bpm": 151.74,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.23,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36967532,
+  "duration": 312.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – Dm – C – Am – F – E7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Dm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "C",
+    "%",
+    "Dm",
+    "Am",
+    "G",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Dm",
+    "%",
+    "%",
+    "C",
+    "%",
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    [
+     "Am:2",
+     "G:2"
+    ],
+    "F",
+    "%",
+    "Dm",
+    "%",
+    "F",
+    "%",
+    "Dm",
+    "%",
+    "Am",
+    "%",
+    "Dm",
+    "%",
+    "Am",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Dm",
+    "%",
+    "C",
+    "%",
+    "Dm",
+    "Am",
+    [
+     "Am:2",
+     "G:2"
+    ],
+    "%",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Dm",
+    "%",
+    "C",
+    "%",
+    "Dm",
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    "%",
+    [
+     "Am:2",
+     "G:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "C",
+    "G",
+    "Dm",
+    "G",
+    "C",
+    "G",
+    "Dm",
+    [
+     "G:2",
+     "Am:2"
+    ],
+    "F",
+    "G",
+    "%",
+    "%",
+    "%",
+    "C",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "Dm",
+    "C",
+    "%",
+    "Dm",
+    "Am",
+    [
+     "Am:2",
+     "G:2"
+    ],
+    "%",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Dm",
+    "%",
+    "C",
+    "%",
+    "Dm",
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    "%",
+    [
+     "Am:2",
+     "G:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 9",
+   "bars": [
+    "C",
+    "G",
+    "Dm",
+    "G",
+    "C",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "C",
+    "G",
+    "Dm",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 10",
+   "bars": [
+    "C",
+    "G",
+    "Dm",
+    [
+     "G:2",
+     "Am:2"
+    ],
+    "F",
+    "G",
+    "%",
+    "Am",
+    "%",
+    "G",
+    "%",
+    "Am",
+    "%",
+    "G",
+    "%",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 11",
+   "bars": [
+    "%",
+    "Dm",
+    "%",
+    "E7",
+    "%",
+    "F",
+    "%",
+    "G",
+    "%",
+    "E7",
+    "%",
+    "Am",
+    "%",
+    "F",
+    "%",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 12",
+   "bars": [
+    "%",
+    "Am",
+    "%",
+    "F",
+    "%",
+    "G",
+    "%",
+    "E7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 7",
+   "bars": [
+    "C",
+    "G",
+    "Dm",
+    "G",
+    "C",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "C",
+    "G",
+    "Dm",
+    "G",
+    "C",
+    "G",
+    "Dm",
+    "G",
+    "Am",
+    "F",
+    "G",
+    "%",
+    "%",
+    "F",
+    "%",
+    "Dm",
+    "%",
+    "F",
+    "%",
+    "Dm",
+    "%",
+    "Am",
+    "%",
+    "Dm",
+    "%",
+    "F",
+    "%",
+    "Dm",
+    "%",
+    "F",
+    "%",
+    "Dm"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

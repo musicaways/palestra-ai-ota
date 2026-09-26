@@ -1,0 +1,230 @@
+{
+ "title": "Could You Be Loved",
+ "artist": "Bob Marley",
+ "album": "100 Top Reggae",
+ "year": 1980,
+ "genre": "Reggae",
+ "difficulty": 3,
+ "youtubeId": "tr-yQaMbQ3o",
+ "key": "Bm",
+ "bpm": 102.74,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.58,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37099038,
+  "duration": 235.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bm – G – Em – D – F#m – E7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bm",
+    "E7",
+    "Bm",
+    "E7",
+    "Bm",
+    "E7",
+    "Bm",
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    "Bm",
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    "Bm",
+    [
+     "Bm:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "Bm:2"
+    ],
+    "%",
+    "Em",
+    "%",
+    "Bm",
+    "%",
+    "%",
+    "%",
+    [
+     "G:2",
+     "F#m:2"
+    ],
+    [
+     "F#m:2",
+     "Em:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Bm",
+    "G",
+    [
+     "F#m:2",
+     "A:2"
+    ],
+    "D",
+    "Bm",
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    "Bm",
+    "G",
+    "D",
+    "Bm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "Bm:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "Bm:2"
+    ],
+    "Em",
+    [
+     "Em:2",
+     "Bm:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    [
+     "G:2",
+     "F#m:2"
+    ],
+    [
+     "F#m:2",
+     "Em:2"
+    ],
+    "Bm",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "G:2",
+     "F#m:2"
+    ],
+    [
+     "F#m:2",
+     "A:2"
+    ],
+    "D",
+    "%",
+    "Bm",
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    "Bm",
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

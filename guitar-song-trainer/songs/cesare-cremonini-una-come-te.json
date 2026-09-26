@@ -1,0 +1,362 @@
+{
+ "title": "Una come te",
+ "artist": "Cesare Cremonini",
+ "album": "Cesare Cremonini Videos",
+ "year": 2012,
+ "genre": "Pop / Cantautori",
+ "difficulty": 5,
+ "youtubeId": "Za1mMhu97xw",
+ "key": "E",
+ "bpm": 122.96,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.56,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34836970,
+  "duration": 258,
+  "offset": 0
+ },
+ "notes": "Accordi principali: E – B – A – Bm7 – C#m – G#m.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "E",
+    "%",
+    "Bm7",
+    "%",
+    "E",
+    "%",
+    "Bm7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bm7",
+    "E",
+    "Bm7",
+    "E",
+    "Bm7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bm7",
+    "C#m",
+    "B",
+    "D",
+    "A",
+    "B",
+    [
+     "B:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "B:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "A",
+    "E",
+    "B",
+    "E",
+    "A",
+    "E",
+    "B",
+    "E",
+    "A",
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "B:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "E",
+    "Bm7",
+    "E",
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    [
+     "Bm7:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    "%",
+    "E",
+    "Bm7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "C#m",
+    "B",
+    "D",
+    "A",
+    "B",
+    [
+     "B:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "B:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "A",
+    "E",
+    "B",
+    "E",
+    "A",
+    "E",
+    "B",
+    "E",
+    "A",
+    "%",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    [
+     "E:2",
+     "B:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "C#m",
+    "G#m",
+    "C#m",
+    "G#m",
+    [
+     "G#m:2",
+     "E7:2"
+    ],
+    [
+     "E7:2",
+     "A:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "B",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "A",
+    "E",
+    "B",
+    "E",
+    "A",
+    "E",
+    "B",
+    "E",
+    "A",
+    "E",
+    "B",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    "A",
+    "%",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    [
+     "E:2",
+     "B:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 7",
+   "bars": [
+    "E",
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    "%",
+    "E",
+    "Bm7",
+    "E",
+    "%",
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    "%",
+    [
+     "Bm7:2",
+     "E:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   8,
+   16.724
+  ],
+  [
+   12,
+   24.78
+  ],
+  [
+   20,
+   40.53
+  ],
+  [
+   27,
+   54.516
+  ],
+  [
+   32,
+   64.32
+  ],
+  [
+   38,
+   76.046
+  ],
+  [
+   44,
+   87.53
+  ],
+  [
+   48,
+   95.337
+  ],
+  [
+   60,
+   118.76
+  ],
+  [
+   65,
+   128.48
+  ],
+  [
+   69,
+   136.287
+  ],
+  [
+   75,
+   147.749
+  ],
+  [
+   80,
+   157.376
+  ],
+  [
+   88,
+   173.123
+  ],
+  [
+   95,
+   186.957
+  ],
+  [
+   101,
+   198.669
+  ],
+  [
+   109,
+   214.4
+  ],
+  [
+   113,
+   222.051
+  ],
+  [
+   120,
+   235.87
+  ],
+  [
+   125,
+   245.762
+  ]
+ ]
+}

@@ -1,0 +1,262 @@
+{
+ "title": "Alice",
+ "artist": "Francesco De Gregori",
+ "album": "Hit Parade 45 Giri",
+ "year": 1973,
+ "genre": "Cantautori",
+ "difficulty": 3,
+ "youtubeId": "kseKsFaLAwQ",
+ "key": "G",
+ "bpm": 114.1,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.95,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36976475,
+  "duration": 226,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – C – D – Cm – Em – Bm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "G",
+    "C",
+    "D",
+    "%",
+    "%",
+    [
+     "G:2",
+     "C:2"
+    ],
+    "D",
+    "%",
+    "%",
+    "%",
+    "G",
+    "C",
+    "Bm",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "D",
+    "G",
+    "Cm",
+    "%",
+    "G",
+    "%",
+    "D",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "%",
+    "D",
+    "D7",
+    "G",
+    "Bm",
+    "Em",
+    "A7",
+    [
+     "A7:2",
+     "Cm:2"
+    ],
+    [
+     "Cm:2",
+     "G:2"
+    ],
+    "%",
+    "G",
+    "C",
+    "D",
+    "%",
+    "%",
+    [
+     "G:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "G",
+    "C",
+    "Bm",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    "Cm",
+    "%",
+    "G",
+    "%",
+    "D",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "%",
+    "D",
+    "D7",
+    "G",
+    "Bm",
+    "Em",
+    "A7",
+    [
+     "A7:2",
+     "Cm:2"
+    ],
+    [
+     "Cm:2",
+     "G:2"
+    ],
+    "%",
+    "G",
+    "C",
+    "D",
+    "%",
+    "%",
+    "G",
+    "C",
+    "D",
+    "%",
+    "%",
+    "G",
+    "C",
+    "Bm",
+    "C",
+    "D",
+    "G",
+    "Cm",
+    [
+     "Cm:2",
+     "G:2"
+    ],
+    "%",
+    "D",
+    "C",
+    "G",
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "%",
+    "D",
+    "D7",
+    "G",
+    "Bm",
+    "Em",
+    "A7",
+    "%",
+    "%",
+    "Cm",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   2,
+   5.132
+  ],
+  [
+   14,
+   30.39
+  ],
+  [
+   23,
+   49.321
+  ],
+  [
+   30,
+   64.129
+  ],
+  [
+   36,
+   76.691
+  ],
+  [
+   48,
+   101.991
+  ],
+  [
+   57,
+   120.836
+  ],
+  [
+   61,
+   129.317
+  ],
+  [
+   68,
+   144.096
+  ],
+  [
+   73,
+   154.67
+  ],
+  [
+   78,
+   165.13
+  ],
+  [
+   84,
+   177.68
+  ],
+  [
+   91,
+   192.166
+  ],
+  [
+   98,
+   206.89
+  ]
+ ]
+}

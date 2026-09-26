@@ -1,0 +1,332 @@
+{
+ "title": "Dream On",
+ "artist": "Aerosmith",
+ "album": "Rock",
+ "year": 1973,
+ "genre": "Rock",
+ "difficulty": 5,
+ "youtubeId": "kR4zpS-ky9o",
+ "key": "Fm",
+ "bpm": 78.1,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.6,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36889421,
+  "duration": 265,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Fm – Eb – Bbm – Db – C – Bb.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Fm",
+    "Bbm",
+    "Fm",
+    "Bbm",
+    "Fm",
+    "%",
+    "Fm",
+    "Fm",
+    "Bbm",
+    "Fm",
+    "Bbm",
+    "Fm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Fm:2",
+     "Bbm:2"
+    ],
+    [
+     "Fm:2",
+     "Bbm:2"
+    ],
+    [
+     "Fm:2",
+     "Bbm:2"
+    ],
+    [
+     "Fm:2",
+     "Bbm:2"
+    ],
+    [
+     "Fm:2",
+     "Bbm:2"
+    ],
+    [
+     "Fm:2",
+     "Bbm:2"
+    ],
+    [
+     "Fm:2",
+     "Bbm:2"
+    ],
+    [
+     "Fm:2",
+     "Bbm:2"
+    ],
+    [
+     "Fm:2",
+     "C4:2"
+    ],
+    "Fm",
+    "Bbm",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "Fm:2",
+     "Eb:2"
+    ],
+    [
+     "Db:2",
+     "Eb:2"
+    ],
+    [
+     "Fm:2",
+     "Eb:2"
+    ],
+    [
+     "Db:1",
+     "Eb:2",
+     "Fm:1"
+    ],
+    "Fm",
+    "Bbm",
+    "Fm",
+    "Bbm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Fm:2",
+     "Bbm:2"
+    ],
+    [
+     "Fm:2",
+     "Bbm:2"
+    ],
+    [
+     "Fm:2",
+     "Bbm:2"
+    ],
+    [
+     "Fm:2",
+     "Bbm:2"
+    ],
+    [
+     "Fm:2",
+     "Bbm:2"
+    ],
+    [
+     "Fm:2",
+     "Bbm:2"
+    ],
+    [
+     "Fm:2",
+     "Bbm:2"
+    ],
+    [
+     "Fm:2",
+     "C:2"
+    ],
+    [
+     "Fm:2",
+     "Eb:2"
+    ],
+    [
+     "Db:2",
+     "Eb:2"
+    ],
+    [
+     "Fm:2",
+     "Eb:2"
+    ],
+    "Fm",
+    "Fm",
+    "Fm",
+    "Bb",
+    "%",
+    "%",
+    "%",
+    "Fm",
+    "Fm",
+    "Fm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strumentale",
+   "bars": [
+    [
+     "Fm:2",
+     "Eb:2"
+    ],
+    [
+     "Db:2",
+     "Eb:2"
+    ],
+    [
+     "Fm:2",
+     "Eb:2"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Eb:2",
+     "Fm:2"
+    ],
+    "Eb",
+    [
+     "Eb:2",
+     "Fm:2"
+    ],
+    "%",
+    [
+     "Eb:2",
+     "Fm:2"
+    ],
+    "Eb",
+    [
+     "Eb:2",
+     "Fm:2"
+    ],
+    "%",
+    [
+     "Eb:2",
+     "Fm:2"
+    ],
+    [
+     "Eb:2",
+     "Fm:2"
+    ],
+    "Cm",
+    [
+     "Ab:2",
+     "Bb:2"
+    ],
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "Fm:2",
+     "Eb:2"
+    ],
+    [
+     "Db:2",
+     "Eb:2"
+    ],
+    [
+     "Fm:2",
+     "Eb:2"
+    ],
+    "%",
+    [
+     "Fm:2",
+     "Eb:2"
+    ],
+    [
+     "Db:2",
+     "Eb:2"
+    ],
+    [
+     "Fm:2",
+     "Eb:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   12,
+   37.544
+  ],
+  [
+   18,
+   55.898
+  ],
+  [
+   24,
+   74.088
+  ],
+  [
+   32,
+   99.316
+  ],
+  [
+   38,
+   117.754
+  ],
+  [
+   42,
+   129.733
+  ],
+  [
+   53,
+   163.264
+  ],
+  [
+   59,
+   181.387
+  ],
+  [
+   63,
+   193.651
+  ],
+  [
+   68,
+   209.403
+  ],
+  [
+   72,
+   221.771
+  ],
+  [
+   76,
+   234.094
+  ],
+  [
+   79,
+   243.313
+  ]
+ ]
+}

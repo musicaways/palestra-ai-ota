@@ -1,0 +1,215 @@
+{
+ "title": "Afrodite",
+ "artist": "Blanco",
+ "album": "BLANCO",
+ "year": 2021,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "QNrV-6RAsT0",
+ "key": "Bm",
+ "bpm": 79.94,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.94,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 35174704,
+  "duration": 192,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bm – D – F#7 – G6 – Gmaj7 – Dmaj7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "D"
+   ]
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    [
+     "D:2",
+     "F#:2"
+    ],
+    "Bm",
+    "Gmaj7",
+    "D",
+    "F#7",
+    "Bm",
+    "G6",
+    "D",
+    [
+     "Dmaj7:2",
+     "F#7:2"
+    ],
+    "Bm",
+    "G6",
+    "D",
+    "%",
+    [
+     "F#7:2",
+     "Bm:2"
+    ],
+    "G6",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    [
+     "F#7:2",
+     "Bm:2"
+    ],
+    [
+     "Bm:2",
+     "Gmaj7:2"
+    ],
+    "%",
+    [
+     "D:2",
+     "Dmaj7:2"
+    ],
+    [
+     "F#7:2",
+     "Bm:2"
+    ],
+    "G6",
+    "D",
+    [
+     "F#7:1",
+     "Bm:2",
+     "Gmaj7:1"
+    ],
+    "%",
+    "%",
+    "D",
+    "%",
+    [
+     "F#7:2",
+     "Bm:2"
+    ],
+    "G6",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    [
+     "Dmaj7:2",
+     "F#7:2"
+    ],
+    "Bm",
+    "G6",
+    "%",
+    "D",
+    [
+     "F#7:2",
+     "Bm:2"
+    ],
+    "G6",
+    "D",
+    [
+     "F#7:1",
+     "Bm:2",
+     "G:1"
+    ],
+    "%",
+    "%",
+    "D",
+    "%",
+    [
+     "F#7:2",
+     "Bm:2"
+    ],
+    [
+     "Bm:2",
+     "G6:2"
+    ],
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "%",
+    "Bm",
+    "%",
+    "D",
+    "F#7",
+    "Bm",
+    "G6",
+    "D",
+    "F#7",
+    "Bm",
+    "G6",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   1,
+   4.218
+  ],
+  [
+   5,
+   16.199
+  ],
+  [
+   10,
+   31.09
+  ],
+  [
+   14,
+   43.073
+  ],
+  [
+   20,
+   60.448
+  ],
+  [
+   28,
+   84.459
+  ],
+  [
+   33,
+   99.818
+  ],
+  [
+   38,
+   114.829
+  ],
+  [
+   44,
+   132.345
+  ],
+  [
+   49,
+   148.15
+  ],
+  [
+   54,
+   163.335
+  ],
+  [
+   59,
+   178.347
+  ]
+ ]
+}

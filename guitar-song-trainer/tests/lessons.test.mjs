@@ -55,3 +55,18 @@ test('nomi dei file video', () => {
   assert.equal(n, 'cartine-corte-salmo-20260926-1805.webm');
   assert.equal(extFor('video/mp4;codecs=avc1'), 'mp4');
 });
+
+test('quiz d\'ascolto: domande valide e suonabili', async () => {
+  const { LESSONS, quizQuestion } = await import('../js/lessons.js');
+  const { getShape } = await import('../js/music.js');
+  const quizzes = LESSONS.filter((l) => l.quiz);
+  assert.ok(quizzes.length >= 4);
+  for (const l of quizzes) {
+    for (let i = 0; i < 30; i++) {
+      const q = quizQuestion(l.quiz);
+      assert.ok(getShape(q.chord), `${l.id}: ${q.chord}`);
+      const values = l.quiz.options.map((o) => (typeof o === 'string' ? o : o.q));
+      assert.ok(values.includes(q.answer), `${l.id}: risposta ${q.answer}`);
+    }
+  }
+});

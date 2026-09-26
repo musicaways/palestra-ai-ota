@@ -4,11 +4,12 @@ import { eventIndexAt, beatAt } from './timeline.js';
 import { Fretboard } from './fretboard.js';
 import { chordDiagram } from './diagram.js';
 import { displayChord, chordColor } from './music.js';
-import { click, pluck, WakeLock } from './audio.js';
+import { click, pluck, WakeLock, strumChord } from './audio.js';
+import { getShape } from './music.js';
 import { icon } from './icons.js';
 import { store, loadSettings } from './store.js';
 import { Tuner } from './tuner.js';
-import { INSTRUMENTS, CATEGORIES, LESSONS, lessonById, buildLessonTimeline } from './lessons.js';
+import { INSTRUMENTS, CATEGORIES, LESSONS, lessonById, buildLessonTimeline, quizQuestion } from './lessons.js';
 
 const LEVEL = { 1: 'Base', 2: 'Intermedio', 3: 'Avanzato' };
 const doneSet = () => new Set(store.get('lessonsDone', []));
@@ -162,6 +163,7 @@ export function openLesson(root, id) {
     <p class="hint">H hammer-on · P pull-off · / slide · ↑ bend · ~ vibrato · PM palm muting</p>`;
   else side.innerHTML = '<p class="hint">Lezione di sola lettura: nessun esercizio a tempo.</p>';
 
+  if (lesson.quiz) return mountQuiz(root, lesson, side, settings);
   if (!ex) return () => { tuner?.stop(); };
 
   const fretboard = new Fretboard($('.fretboard'));
@@ -286,4 +288,54 @@ export function openLesson(root, id) {
 
 function tlHasNotes(ex) {
   return ex.type === 'notes' || ex.type === 'arpeggio';
+}
+
+// Quiz d'ascolto: l'app suona un accordo, si sceglie la risposta; serie e record salvati.
+function mountQuiz(root, lesson, side, settings) {
+  const quiz = lesson.quiz;
+  const best = () => store.get(`quizBest:${lesson.id}`, 0);
+  let q = null;
+  let streak = 0;
+  let answered = false;
+  const box = document.createElement('div');
+  box.className = 'card quiz';
+  box.innerHTML = `
+    <div class="quiz-top"><button class="round big quiz-play" title="Ascolta">${icon('play', 26)}</button>
+      <div><div class="quiz-msg">Tocca play per ascoltare l'accordo</div><div class="hint quiz-score"></div></div></div>
+    <div class="quiz-opts"></div>
+    <button class="chip-btn quiz-next" hidden>Prossimo →</button>`;
+  root.querySelector('.lesson-body').after(box);
+  const opts = box.querySelector('.quiz-opts');
+  const labelOf = (o) => (quiz.kind === 'quality' ? o.label : displayChord(o, settings.notation));
+  const valueOf = (o) => (quiz.kind === 'quality' ? o.q : o);
+  opts.innerHTML = quiz.options.map((o) => `<button class="option quiz-opt" data-v="${valueOf(o)}"><b>${labelOf(o)}</b></button>`).join('');
+  const play = (name) => { const sh = getShape(name); if (sh) strumChord(sh.frets, { volume: 0.3 }); };
+  const paintScore = () => { box.querySelector('.quiz-score').textContent = `Serie ${streak} · record ${best()}`; };
+  const ask = () => {
+    q = quizQuestion(quiz);
+    answered = false;
+    opts.querySelectorAll('.quiz-opt').forEach((b) => b.classList.remove('right', 'wrong'));
+    box.querySelector('.quiz-next').hidden = true;
+    box.querySelector('.quiz-msg').textContent = 'Che accordo è?';
+    play(q.chord);
+  };
+  box.querySelector('.quiz-play').addEventListener('click', () => (q && !answered ? play(q.chord) : ask()));
+  box.querySelector('.quiz-next').addEventListener('click', ask);
+  opts.addEventListener('click', (e) => {
+    const b = e.target.closest('.quiz-opt');
+    if (!b) return;
+    if (!q || answered) { play(quiz.kind === 'quality' ? `C${b.dataset.v}` : b.dataset.v); return; } // prima si ascoltano liberamente
+    answered = true;
+    const ok = b.dataset.v === q.answer;
+    b.classList.add(ok ? 'right' : 'wrong');
+    opts.querySelector(`[data-v="${CSS.escape(q.answer)}"]`)?.classList.add('right');
+    streak = ok ? streak + 1 : 0;
+    if (streak > best()) store.set(`quizBest:${lesson.id}`, streak);
+    box.querySelector('.quiz-msg').textContent = ok ? `Giusto! Era ${displayChord(q.chord, settings.notation)}` : `No: era ${displayChord(q.chord, settings.notation)}`;
+    box.querySelector('.quiz-next').hidden = false;
+    paintScore();
+  });
+  side.innerHTML = '<p class="hint">Prima di iniziare tocca le risposte per ascoltare come suonano. Poi premi play: l\'app sceglie un accordo a caso. Il record della serie resta salvato.</p>';
+  paintScore();
+  return () => {};
 }

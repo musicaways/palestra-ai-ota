@@ -1,0 +1,304 @@
+{
+ "title": "Africa",
+ "artist": "Toto",
+ "album": "Toto IV",
+ "year": 1982,
+ "genre": "Rock",
+ "difficulty": 5,
+ "youtubeId": "U1LB_OerHCE",
+ "key": "A",
+ "bpm": 93.49,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.52,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 17015514,
+  "duration": 295.941224,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – G#m – C#m7 – F#m – D – D#m7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "A",
+    "G#m",
+    "C#m7",
+    "A",
+    "G#m",
+    "C#m7",
+    "A",
+    "G#m",
+    "C#m7",
+    "A",
+    "G#m",
+    [
+     "B:2",
+     "D#m7:2"
+    ],
+    [
+     "D#m7:2",
+     "G#m7:2"
+    ],
+    "%",
+    "%",
+    "%",
+    [
+     "B:1",
+     "D#m7:2",
+     "G#m7:1"
+    ],
+    "%",
+    "%",
+    "%",
+    [
+     "B:2",
+     "D#m7:2"
+    ],
+    [
+     "D#m7:2",
+     "G#m7:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "A",
+    [
+     "A:2",
+     "G#m:2"
+    ],
+    [
+     "G#m:2",
+     "C#m7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "F#m",
+    "D",
+    "F#m",
+    "D",
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    "F#m",
+    "D",
+    "A",
+    "G#m",
+    "C#m7",
+    "A",
+    "G#m",
+    [
+     "B:1",
+     "D#m7:2",
+     "G#m7:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "B:1",
+     "D#m7:2",
+     "G#m7:1"
+    ],
+    "G#m",
+    "A",
+    [
+     "G#m:2",
+     "C#m7:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "B:1",
+     "D#m7:2",
+     "G#m7:1"
+    ],
+    "A",
+    "G#m",
+    "C#m7",
+    "F#m",
+    "D",
+    "F#m",
+    "D",
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    "F#m",
+    "D",
+    "A",
+    "G#m",
+    "C#m7",
+    "A",
+    "G#m",
+    "C#m7",
+    "B",
+    "D#m7",
+    "G#m7",
+    "A",
+    "G#m",
+    "A",
+    "G#m",
+    "C#m7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "F#m",
+    "D",
+    "F#m",
+    "D",
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    "F#m",
+    "D",
+    "A",
+    "G#m",
+    "C#m7",
+    "A",
+    "G#m",
+    "C#m7",
+    "A",
+    "G#m",
+    "C#m7",
+    "A",
+    "G#m",
+    "C#m7",
+    "A",
+    "G#m",
+    "C#m7",
+    "A",
+    "G#m",
+    "C#m7",
+    "A",
+    "G#m",
+    "C#m7",
+    "A"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   11,
+   31.24
+  ],
+  [
+   16,
+   44.013
+  ],
+  [
+   20,
+   53.646
+  ],
+  [
+   25,
+   66.482
+  ],
+  [
+   29,
+   76.917
+  ],
+  [
+   35,
+   92.32
+  ],
+  [
+   42,
+   110.344
+  ],
+  [
+   51,
+   133.67
+  ],
+  [
+   57,
+   149.2
+  ],
+  [
+   74,
+   192.77
+  ],
+  [
+   79,
+   205.272
+  ],
+  [
+   85,
+   220.674
+  ],
+  [
+   89,
+   231.026
+  ],
+  [
+   91,
+   236.194
+  ]
+ ]
+}

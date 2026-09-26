@@ -1,0 +1,262 @@
+{
+ "title": "Amen",
+ "artist": "Francesco Gabbani",
+ "album": "Magellan",
+ "year": 2016,
+ "genre": "Pop",
+ "difficulty": 3,
+ "youtubeId": "kdZP0OCt0Yo",
+ "key": "F#",
+ "bpm": 118.72,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.71,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36544335,
+  "duration": 197,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F# – D#m – B – C#.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F#",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "F#",
+    "B",
+    "%",
+    "F#",
+    "%",
+    "B",
+    "%",
+    "F#",
+    "%",
+    "C#",
+    "B",
+    "F#",
+    "D#m",
+    "C#",
+    "%",
+    "%",
+    "%",
+    "%",
+    "F#",
+    [
+     "F#:2",
+     "D#m:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "F#",
+    "D#m",
+    [
+     "C#:2",
+     "B:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "F#",
+    "B",
+    "%",
+    "F#",
+    "%",
+    "B",
+    "%",
+    "F#",
+    "%",
+    "C#",
+    "B",
+    "F#",
+    "D#m",
+    "C#",
+    "%",
+    "%",
+    "%",
+    "%",
+    "F#",
+    [
+     "F#:2",
+     "D#m:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "F#",
+    "D#m",
+    [
+     "C#:2",
+     "B:2"
+    ],
+    "F#",
+    "%",
+    "D#m",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "B:2",
+     "F#:2"
+    ],
+    "D#m",
+    [
+     "D#m:2",
+     "C#:2"
+    ],
+    "%",
+    "B",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "F#",
+    "%",
+    "D#m",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "F#",
+    "D#m",
+    "C#",
+    "B",
+    "F#",
+    [
+     "F#:2",
+     "D#m:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "B",
+    "F#",
+    "D#m",
+    "%",
+    "B",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   6,
+   14.008
+  ],
+  [
+   11,
+   24.07
+  ],
+  [
+   17,
+   36.003
+  ],
+  [
+   22,
+   46.077
+  ],
+  [
+   28,
+   58.244
+  ],
+  [
+   33,
+   68.377
+  ],
+  [
+   37,
+   76.341
+  ],
+  [
+   43,
+   88.469
+  ],
+  [
+   47,
+   96.555
+  ],
+  [
+   52,
+   106.61
+  ],
+  [
+   56,
+   114.699
+  ],
+  [
+   63,
+   128.85
+  ],
+  [
+   69,
+   140.967
+  ],
+  [
+   74,
+   151.061
+  ],
+  [
+   80,
+   163.236
+  ],
+  [
+   84,
+   171.322
+  ],
+  [
+   89,
+   181.588
+  ],
+  [
+   91,
+   185.83
+  ]
+ ]
+}

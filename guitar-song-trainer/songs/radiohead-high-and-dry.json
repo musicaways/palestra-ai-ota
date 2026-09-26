@@ -1,0 +1,277 @@
+{
+ "title": "High and Dry",
+ "artist": "Radiohead",
+ "album": "The Coolest Rock Album Ever",
+ "year": 1995,
+ "genre": "Rock",
+ "difficulty": 1,
+ "youtubeId": "o2GGv69Iesc",
+ "key": "Aadd9",
+ "bpm": 86.82,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.41,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37351575,
+  "duration": 258,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Aadd9 – F#m7 – E.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F#m7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "F#m7",
+    "Aadd9",
+    [
+     "Aadd9:2",
+     "E:2"
+    ],
+    "%",
+    "F#m7",
+    "Aadd9",
+    [
+     "Aadd9:2",
+     "E:2"
+    ],
+    "%",
+    "F#m7",
+    "Aadd9",
+    [
+     "Aadd9:2",
+     "E:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "F#m7",
+    "Aadd9",
+    "E",
+    [
+     "F#m7:2",
+     "Aadd9:2"
+    ],
+    [
+     "Aadd9:2",
+     "E:2"
+    ],
+    "%",
+    "%",
+    [
+     "F#m7:2",
+     "Aadd9:2"
+    ],
+    [
+     "Aadd9:2",
+     "E:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "F#m7",
+    "Aadd9",
+    [
+     "Aadd9:2",
+     "E:2"
+    ],
+    "%",
+    "F#m7",
+    "Aadd9",
+    "%",
+    "%",
+    "F#m7",
+    "Aadd9",
+    [
+     "Aadd9:2",
+     "E:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "F#m7",
+    "Aadd9",
+    "E",
+    [
+     "F#m7:2",
+     "Aadd9:2"
+    ],
+    [
+     "Aadd9:2",
+     "E:2"
+    ],
+    "%",
+    "%",
+    [
+     "F#m7:1",
+     "Aadd9:2",
+     "E:1"
+    ],
+    "F#m7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "F#m7",
+    "Aadd9",
+    [
+     "Aadd9:2",
+     "E:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "F#m7",
+    "Aadd9",
+    "E",
+    [
+     "F#m7:2",
+     "Aadd9:2"
+    ],
+    [
+     "Aadd9:2",
+     "E:2"
+    ],
+    "%",
+    "%",
+    [
+     "F#m7:2",
+     "Aadd9:2"
+    ],
+    [
+     "Aadd9:2",
+     "E:2"
+    ],
+    "%",
+    "%",
+    "F#m7",
+    [
+     "F#m7:2",
+     "Aadd9:2"
+    ],
+    [
+     "Aadd9:2",
+     "E:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    [
+     "F#m7:2",
+     "Aadd9:2"
+    ],
+    [
+     "Aadd9:2",
+     "E:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   9,
+   27.563
+  ],
+  [
+   13,
+   38.616
+  ],
+  [
+   18,
+   52.4
+  ],
+  [
+   26,
+   74.515
+  ],
+  [
+   37,
+   104.453
+  ],
+  [
+   41,
+   115.463
+  ],
+  [
+   46,
+   129.217
+  ],
+  [
+   52,
+   145.694
+  ],
+  [
+   58,
+   162.567
+  ],
+  [
+   68,
+   190.211
+  ],
+  [
+   72,
+   201.596
+  ],
+  [
+   77,
+   215.673
+  ],
+  [
+   81,
+   226.73
+  ],
+  [
+   87,
+   243.187
+  ],
+  [
+   89,
+   248.716
+  ]
+ ]
+}

@@ -1,0 +1,193 @@
+{
+ "title": "Ti amo",
+ "artist": "Umberto Tozzi",
+ "album": "Top 100 over 1978",
+ "year": 1977,
+ "genre": "Pop",
+ "difficulty": 2,
+ "youtubeId": "TxtjTag4-Mw",
+ "key": "F#m",
+ "bpm": 93.3,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.04,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37138812,
+  "duration": 249.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F#m – A – Bm – E.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "A",
+    "F#m",
+    "A",
+    "F#m",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    [
+     "A:1",
+     "F#m:2",
+     "Bm:1"
+    ],
+    "%",
+    "%",
+    "E",
+    "%",
+    "%",
+    "A",
+    "F#m",
+    "Bm",
+    "E",
+    "%",
+    "%",
+    [
+     "A:2",
+     "F#m:2"
+    ],
+    "Bm",
+    "%",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    "A",
+    "F#m",
+    "%",
+    "Bm",
+    "E",
+    "%",
+    "%",
+    "%",
+    "Bm",
+    "%",
+    "%",
+    "E",
+    "A",
+    "F#m",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "Bm",
+    "E",
+    "%",
+    "A",
+    "%",
+    "F#m",
+    "Bm",
+    "E",
+    "%",
+    "A",
+    "F#m",
+    "%",
+    [
+     "Bm:2",
+     "E:2"
+    ],
+    "%",
+    "%",
+    "A",
+    "F#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Bm",
+    "%",
+    "%",
+    "E",
+    "A",
+    "F#m",
+    "%",
+    "Bm",
+    "E",
+    "%",
+    "A",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "F#m:2",
+     "Bm:2"
+    ],
+    "E",
+    "%",
+    "A",
+    "%",
+    "%",
+    [
+     "Bm:2",
+     "E:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "A:2",
+     "F#m:2"
+    ],
+    [
+     "F#m:2",
+     "Bm:2"
+    ],
+    "%",
+    [
+     "A:2",
+     "F#m:2"
+    ],
+    [
+     "F#m:2",
+     "Bm:2"
+    ],
+    "E",
+    "%",
+    [
+     "A:1",
+     "F#m:2",
+     "Bm:1"
+    ],
+    "E",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

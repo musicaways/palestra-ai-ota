@@ -1,0 +1,290 @@
+{
+ "title": "The Final Countdown",
+ "artist": "Europe",
+ "album": "Rock Busters",
+ "year": 1986,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "cZid3J36wH8",
+ "key": "F#m",
+ "bpm": 118.04,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.76,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37017259,
+  "duration": 309,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F#m – E – Bm – D – C#m – A.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F#m",
+    "%",
+    "%",
+    "%",
+    "D",
+    "%",
+    "%",
+    "%",
+    "Bm",
+    "%",
+    "%",
+    "%",
+    "E",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "F#m",
+    "%",
+    "%",
+    "%",
+    "E",
+    "%",
+    "%",
+    "%",
+    "D",
+    "%",
+    "%",
+    "%",
+    "Bm",
+    "%",
+    "%",
+    "%",
+    "E",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "F#m",
+    "%",
+    "Bm",
+    "F#m",
+    "%",
+    "%",
+    "%",
+    "%",
+    "E",
+    "A",
+    "%",
+    "%",
+    "C#m",
+    [
+     "C#m:2",
+     "E:2"
+    ],
+    "%",
+    "F#m",
+    "D",
+    "Bm",
+    "E",
+    "F#m",
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "Bm:2",
+     "E:2"
+    ],
+    "F#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "Bm",
+    "F#m",
+    "%",
+    "%",
+    "%",
+    "%",
+    "E",
+    "A",
+    "%",
+    "%",
+    "C#m",
+    [
+     "C#m:2",
+     "E:2"
+    ],
+    "%",
+    "F#m",
+    "D",
+    "Bm",
+    "E",
+    "F#m",
+    "D",
+    "Bm",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bm",
+    "%",
+    "A7",
+    "%",
+    "F#m",
+    "D",
+    "Bm",
+    "E",
+    "F#m",
+    "D",
+    "Bm",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "F#m",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "F#m",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   42,
+   87.08
+  ],
+  [
+   48,
+   99.279
+  ],
+  [
+   54,
+   111.5
+  ],
+  [
+   61,
+   125.841
+  ],
+  [
+   68,
+   140.132
+  ],
+  [
+   74,
+   152.273
+  ],
+  [
+   81,
+   166.504
+  ],
+  [
+   89,
+   182.765
+  ],
+  [
+   119,
+   243.819
+  ],
+  [
+   123,
+   251.899
+  ],
+  [
+   131,
+   268.3
+  ],
+  [
+   137,
+   280.467
+  ],
+  [
+   141,
+   288.374
+  ],
+  [
+   146,
+   298.54
+  ],
+  [
+   150,
+   306.672
+  ]
+ ]
+}

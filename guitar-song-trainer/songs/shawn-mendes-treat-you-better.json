@@ -1,0 +1,319 @@
+{
+ "title": "Treat You Better",
+ "artist": "Shawn Mendes",
+ "album": "Top Hits of the 2010s",
+ "year": 2016,
+ "genre": "Pop",
+ "difficulty": 3,
+ "youtubeId": "Pe8W7XgPTo0",
+ "key": "Ab",
+ "bpm": 83.33,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.6,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37502725,
+  "duration": 188,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Ab – Gb – Bbm – Db.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bbm",
+    "Ab",
+    "Gb"
+   ]
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    [
+     "Bbm:2",
+     "Ab:2"
+    ],
+    [
+     "Ab:2",
+     "Gb:2"
+    ],
+    [
+     "Ab:2",
+     "Bbm:2"
+    ],
+    [
+     "Ab:2",
+     "Gb:2"
+    ],
+    [
+     "Ab:2",
+     "Bbm:2"
+    ],
+    "Gb",
+    [
+     "Ab:2",
+     "Bbm:2"
+    ],
+    "Gb",
+    [
+     "Bbm:2",
+     "Ab:2"
+    ],
+    [
+     "Gb:2",
+     "Db:2"
+    ],
+    [
+     "Bbm:2",
+     "Ab:2"
+    ],
+    [
+     "Gb:2",
+     "Db:2"
+    ],
+    "Ab",
+    [
+     "Gb:2",
+     "Db:2"
+    ],
+    [
+     "Bbm:2",
+     "Ab:2"
+    ],
+    [
+     "Ab:2",
+     "Gb:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    [
+     "Bbm:2",
+     "Ab:2"
+    ],
+    [
+     "Ab:2",
+     "Gb:2"
+    ],
+    [
+     "Ab:2",
+     "Bbm:1",
+     "Ab:1"
+    ],
+    [
+     "Ab:1",
+     "Gb:1",
+     "Ab:2"
+    ],
+    [
+     "Bbm:2",
+     "Ab:2"
+    ],
+    "Gb",
+    [
+     "Ab:1",
+     "Bbm:2",
+     "Ab:1"
+    ],
+    "Gb",
+    [
+     "Bbm:2",
+     "Ab:2"
+    ],
+    [
+     "Gb:2",
+     "Db:2"
+    ],
+    [
+     "Bbm:2",
+     "Ab:2"
+    ],
+    [
+     "Gb:2",
+     "Db:2"
+    ],
+    "Bbm",
+    [
+     "Gb:2",
+     "Db:2"
+    ],
+    [
+     "Bbm:2",
+     "Ab:2"
+    ],
+    [
+     "Ab:2",
+     "Gb:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    [
+     "Bbm:2",
+     "Ab:2"
+    ],
+    [
+     "Ab:2",
+     "Gb:2"
+    ],
+    [
+     "Db:2",
+     "Bbm:1",
+     "Ab:1"
+    ],
+    [
+     "Ab:1",
+     "Gb:1",
+     "Db:2"
+    ],
+    "%",
+    [
+     "Db:2",
+     "Gb:2"
+    ],
+    "%",
+    "%",
+    "%",
+    [
+     "Db:2",
+     "Gb:2"
+    ],
+    "Bbm",
+    "Ab",
+    [
+     "Bbm:2",
+     "Ab:2"
+    ],
+    [
+     "Gb:2",
+     "Db:2"
+    ],
+    [
+     "Bbm:2",
+     "Ab:2"
+    ],
+    [
+     "Gb:2",
+     "Db:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "Bbm",
+    [
+     "Gb:2",
+     "Db:2"
+    ],
+    [
+     "Bbm:2",
+     "Ab:2"
+    ],
+    [
+     "Ab:2",
+     "Gb:2"
+    ],
+    [
+     "Bbm:2",
+     "Ab:2"
+    ],
+    [
+     "Ab:2",
+     "Gb:2"
+    ],
+    [
+     "Db:2",
+     "Bbm:2"
+    ],
+    [
+     "Ab:2",
+     "Gb:2"
+    ],
+    [
+     "Db:1",
+     "Bbm:1",
+     "Ab:1",
+     "Gb:1"
+    ],
+    "Bbm",
+    "Ab",
+    "Gb",
+    "Db",
+    "Bbm"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   3,
+   11.449
+  ],
+  [
+   7,
+   23.03
+  ],
+  [
+   11,
+   34.369
+  ],
+  [
+   16,
+   48.349
+  ],
+  [
+   21,
+   63.171
+  ],
+  [
+   25,
+   74.85
+  ],
+  [
+   29,
+   86.13
+  ],
+  [
+   33,
+   97.32
+  ],
+  [
+   37,
+   109.291
+  ],
+  [
+   43,
+   126.65
+  ],
+  [
+   47,
+   138.3
+  ],
+  [
+   51,
+   149.58
+  ],
+  [
+   57,
+   166.33
+  ],
+  [
+   59,
+   172.09
+  ]
+ ]
+}

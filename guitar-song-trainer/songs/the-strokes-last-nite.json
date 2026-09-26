@@ -1,0 +1,188 @@
+{
+ "title": "Last Nite",
+ "artist": "The Strokes",
+ "album": "NME- Greatest Songs of All Time",
+ "year": 2001,
+ "genre": "Rock",
+ "difficulty": 2,
+ "youtubeId": "iV1abpbBESk",
+ "key": "F",
+ "bpm": 102.9,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.11,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37032522,
+  "duration": 193,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F – G4 – Dm7 – C – Em7 – G.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "C",
+    "F",
+    "G4",
+    "F",
+    "G4",
+    "F",
+    "G4",
+    "F",
+    "G4",
+    "C",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "C",
+    "%",
+    "%",
+    "Dm7",
+    "Em7",
+    "Dm7",
+    "C",
+    "%",
+    "Dm7",
+    "Em7",
+    "Dm7",
+    "%",
+    "%",
+    "Dm7",
+    "%",
+    [
+     "Em7:2",
+     "Dm7:2"
+    ],
+    "F",
+    "G4",
+    "F",
+    "G4",
+    "F",
+    "G4",
+    "F",
+    "G4",
+    "C",
+    "%",
+    "Dm7",
+    "Em7",
+    "Dm7",
+    "C",
+    "%",
+    "Dm7",
+    "Em7",
+    "Dm7",
+    "C",
+    "F",
+    "G4",
+    "F",
+    "G4",
+    "C",
+    "F",
+    "G",
+    "C",
+    "F",
+    "G4",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "F",
+    "G4",
+    "F",
+    "G4",
+    "F",
+    "G4",
+    "F",
+    "G4",
+    "C",
+    "%",
+    "Dm7",
+    "Em7",
+    "Dm7",
+    "C",
+    "%",
+    "Dm7",
+    [
+     "Em7:2",
+     "Dm7:2"
+    ],
+    [
+     "Dm7:2",
+     "C:2"
+    ],
+    "F",
+    "G4",
+    "F",
+    "G4",
+    "C",
+    "F",
+    "G4",
+    "F"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   11,
+   25.866
+  ],
+  [
+   15,
+   35.06
+  ],
+  [
+   19,
+   44.389
+  ],
+  [
+   24,
+   55.939
+  ],
+  [
+   29,
+   67.936
+  ],
+  [
+   35,
+   81.984
+  ],
+  [
+   40,
+   93.592
+  ],
+  [
+   57,
+   132.76
+  ],
+  [
+   61,
+   142.089
+  ],
+  [
+   65,
+   151.685
+  ],
+  [
+   70,
+   163.665
+  ],
+  [
+   73,
+   170.69
+  ]
+ ]
+}

@@ -1,0 +1,239 @@
+{
+ "title": "Uno su mille",
+ "artist": "Gianni Morandi",
+ "album": "Grazie a Tutti",
+ "year": 1985,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "gKo9naVHg2Q",
+ "key": "Bb",
+ "bpm": 84.58,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.8,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 21437148,
+  "duration": 246.073469,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bb – Ab – Eb – Cm – Bb6.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Ab",
+    "%",
+    "%",
+    "Bb",
+    "%",
+    "%",
+    "Eb",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    [
+     "Ab:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    "Ab",
+    "Bb",
+    "Eb",
+    [
+     "Ab:2",
+     "Bb:1",
+     "Cm:1"
+    ],
+    [
+     "Cm:1",
+     "Bb:1",
+     "Ab:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bb",
+    "Cm",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "Cm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bb",
+    "%",
+    [
+     "Eb:2",
+     "Ab:2"
+    ],
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    [
+     "Ab:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "%",
+    "Bb",
+    "Bb6",
+    "%",
+    "Ab",
+    "Eb",
+    "Bb6",
+    "Ab",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bb",
+    "Eb",
+    [
+     "Ab:2",
+     "Bb:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    [
+     "Ab:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   8,
+   24.7
+  ],
+  [
+   15,
+   44.422
+  ],
+  [
+   20,
+   58.515
+  ],
+  [
+   24,
+   69.82
+  ],
+  [
+   30,
+   86.535
+  ],
+  [
+   36,
+   103.98
+  ],
+  [
+   42,
+   121.53
+  ],
+  [
+   49,
+   141.015
+  ],
+  [
+   55,
+   157.827
+  ],
+  [
+   64,
+   183.28
+  ],
+  [
+   70,
+   200.39
+  ],
+  [
+   76,
+   217.505
+  ]
+ ]
+}

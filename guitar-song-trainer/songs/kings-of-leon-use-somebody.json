@@ -1,0 +1,352 @@
+{
+ "title": "Use Somebody",
+ "artist": "Kings of Leon",
+ "album": "(EP & Single Collection)",
+ "year": 2008,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "tIC_fdz7mXA",
+ "key": "C",
+ "bpm": 134.91,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.41,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 38341991,
+  "duration": 232,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – Em – Am7 – Fmaj7 – F – Am.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro (1)",
+   "bars": [
+    "Am7",
+    "%",
+    "%",
+    "C",
+    "%",
+    "%",
+    "Fmaj7",
+    "%",
+    "%",
+    "Am7",
+    "%",
+    "%",
+    "C",
+    "%",
+    "%",
+    "Fmaj7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Intro (2)",
+   "bars": [
+    "%",
+    "Em",
+    "%",
+    [
+     "Em:2",
+     "F:2"
+    ],
+    "%",
+    "%",
+    "C",
+    [
+     "C:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "F:2"
+    ],
+    "%",
+    "Am",
+    [
+     "Am:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    "%",
+    "Am",
+    [
+     "Am:2",
+     "C:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Intro (3)",
+   "bars": [
+    [
+     "C:2",
+     "F:2"
+    ],
+    "%",
+    "C",
+    [
+     "C:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "F:2"
+    ],
+    "%",
+    "C",
+    [
+     "C:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "F:2"
+    ],
+    "%",
+    "Am",
+    [
+     "Am:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Fmaj7:2"
+    ],
+    "%",
+    "Am",
+    [
+     "Am:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Fmaj7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Am7",
+    "%",
+    "C",
+    "%",
+    "Fmaj7",
+    "%",
+    "Am7",
+    "%",
+    "C",
+    "%",
+    "Fmaj7",
+    "%",
+    "Am7",
+    "%",
+    "C",
+    "%",
+    "Fmaj7",
+    "C",
+    [
+     "C:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "F:2"
+    ],
+    "%",
+    "C",
+    [
+     "C:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "F:2"
+    ],
+    "%",
+    "Am7",
+    [
+     "Am7:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Fmaj7:2"
+    ],
+    "%",
+    "Am7",
+    [
+     "Am7:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Fmaj7:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Am7:1",
+     "C:1",
+     "Fmaj7:1",
+     "Am7:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "Am7:1",
+     "C:2",
+     "Fmaj7:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "Am7:1",
+     "C:2",
+     "Fmaj7:1"
+    ],
+    "%",
+    "%",
+    "%",
+    [
+     "Am7:1",
+     "C:2",
+     "Fmaj7:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "Em",
+    [
+     "Em:2",
+     "Fadd9:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   22,
+   39.05
+  ],
+  [
+   26,
+   46.166
+  ],
+  [
+   34,
+   60.65
+  ],
+  [
+   42,
+   75.17
+  ],
+  [
+   50,
+   89.402
+  ],
+  [
+   67,
+   119.644
+  ],
+  [
+   71,
+   126.692
+  ],
+  [
+   75,
+   133.808
+  ],
+  [
+   83,
+   148.108
+  ],
+  [
+   91,
+   162.4
+  ],
+  [
+   101,
+   180.19
+  ],
+  [
+   106,
+   188.999
+  ],
+  [
+   115,
+   205.01
+  ],
+  [
+   124,
+   221.094
+  ],
+  [
+   128,
+   228.747
+  ]
+ ]
+}

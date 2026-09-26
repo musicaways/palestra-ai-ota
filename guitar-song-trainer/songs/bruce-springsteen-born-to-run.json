@@ -1,0 +1,311 @@
+{
+ "title": "Born to Run",
+ "artist": "Bruce Springsteen",
+ "album": "Bruce (The Boss) Springsteen - 50 Tracks Part I in DTS-HD (op verzoek)",
+ "year": 1975,
+ "genre": "Rock",
+ "difficulty": 5,
+ "youtubeId": "a7tOcGVT20E",
+ "key": "A",
+ "bpm": 73.31,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.67,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37017251,
+  "duration": 270,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – E – G#m – B – F#m – C#m7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "E",
+    "A",
+    "B",
+    "E"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "E",
+    [
+     "A:2",
+     "B:2"
+    ],
+    "E",
+    [
+     "A:2",
+     "B:2"
+    ],
+    [
+     "A:2",
+     "G#m:2"
+    ],
+    "F#m",
+    "G#m",
+    [
+     "A:2",
+     "G#m:2"
+    ],
+    [
+     "F#m:2",
+     "G#m:2"
+    ],
+    "%",
+    "A",
+    "E",
+    "A",
+    "%",
+    "%",
+    "E",
+    [
+     "A:2",
+     "B:2"
+    ],
+    "E",
+    [
+     "A:2",
+     "B:2"
+    ],
+    [
+     "A:2",
+     "G#m:2"
+    ],
+    "G#m",
+    "E",
+    [
+     "E7:1",
+     "A:2",
+     "G#m:1"
+    ],
+    [
+     "F#m:2",
+     "G#m:2"
+    ],
+    [
+     "E:2",
+     "C#m7:2"
+    ],
+    "E",
+    "A",
+    "B",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "D4:1",
+     "D:1",
+     "D4:1",
+     "D:1"
+    ],
+    [
+     "G4:1",
+     "G:1",
+     "G4:1",
+     "G:1"
+    ],
+    [
+     "A4:1",
+     "A:1",
+     "A4:1",
+     "A:1"
+    ],
+    [
+     "C4:1",
+     "C:1",
+     "C4:1",
+     "C:1"
+    ],
+    [
+     "D4:1",
+     "D:1",
+     "D4:1",
+     "D:1"
+    ],
+    [
+     "G4:1",
+     "G:1",
+     "G4:1",
+     "G:1"
+    ],
+    [
+     "A4:1",
+     "A:1",
+     "A4:1",
+     "A:1"
+    ],
+    [
+     "C4:1",
+     "C:1",
+     "C4:1",
+     "C:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "E",
+    [
+     "A:1",
+     "B4:2",
+     "B:1"
+    ],
+    "E",
+    [
+     "A:2",
+     "B:2"
+    ],
+    [
+     "A:2",
+     "G#m:2"
+    ],
+    [
+     "F#m:2",
+     "G#m:2"
+    ],
+    [
+     "G#m:2",
+     "E:2"
+    ],
+    [
+     "E7:1",
+     "A:2",
+     "G#m:1"
+    ],
+    "F#m",
+    "C#m7",
+    "A",
+    [
+     "B:1",
+     "E:1",
+     "C#m7:1",
+     "A:1"
+    ],
+    "%",
+    [
+     "B:1",
+     "E:1",
+     "C#m7:1",
+     "A:1"
+    ],
+    "%",
+    [
+     "B:2",
+     "E:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   14.166
+  ],
+  [
+   8,
+   27.238
+  ],
+  [
+   12,
+   40.23
+  ],
+  [
+   17,
+   56.379
+  ],
+  [
+   21,
+   69.349
+  ],
+  [
+   26,
+   85.639
+  ],
+  [
+   32,
+   105.196
+  ],
+  [
+   40,
+   131.386
+  ],
+  [
+   44,
+   144.628
+  ],
+  [
+   48,
+   157.79
+  ],
+  [
+   56,
+   184.041
+  ],
+  [
+   60,
+   197.628
+  ],
+  [
+   64,
+   210.445
+  ],
+  [
+   68,
+   223.152
+  ],
+  [
+   72,
+   236.082
+  ],
+  [
+   76,
+   249.706
+  ],
+  [
+   78,
+   256.254
+  ]
+ ]
+}

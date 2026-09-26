@@ -1,0 +1,315 @@
+{
+ "title": "Everlong",
+ "artist": "Foo Fighters",
+ "album": "Rolling Stone- Best Songs of All Time",
+ "year": 1997,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "hq0rZ3IiyWw",
+ "key": "G",
+ "bpm": 154.04,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.46,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37021528,
+  "duration": 251.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – Badd9 – D – Bm – Dmaj7 – Gadd9.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Dmaj7",
+    "%",
+    "Badd9",
+    "%",
+    "Gadd9",
+    "%",
+    "Badd9",
+    "%",
+    "Dmaj7",
+    "%",
+    "Badd9",
+    "%",
+    "Gadd9",
+    "%",
+    "Badd9",
+    "%",
+    "Dmaj7",
+    "%",
+    "Badd9",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Dmaj7",
+    "%",
+    "Badd9",
+    "%",
+    "%",
+    "Gadd9",
+    "Badd9",
+    "Dmaj7",
+    "Badd9",
+    "%",
+    "%",
+    "Dmaj7",
+    "%",
+    "Badd9",
+    "%",
+    "Gadd9",
+    "%",
+    "Badd9",
+    "%",
+    "Dmaj7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Dmaj7",
+    "Badd9",
+    "%",
+    "%",
+    "Gadd9",
+    "Badd9",
+    "Dmaj7",
+    "%",
+    "Badd9",
+    "%",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%",
+    "D",
+    "A",
+    "%",
+    [
+     "A:2",
+     "D:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Bm",
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    "Bm",
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "A",
+    [
+     "A:2",
+     "G:2"
+    ],
+    "%",
+    "Dmaj7",
+    "%",
+    "Badd9",
+    "%",
+    "Gadd9",
+    "%",
+    "Badd9",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Dmaj7",
+    "Badd9",
+    "%",
+    "%",
+    "Gadd9",
+    "Badd9",
+    "Dmaj7",
+    "%",
+    "Badd9",
+    "%",
+    "%",
+    "Gadd9",
+    [
+     "Gadd9:2",
+     "Badd9:2"
+    ],
+    "%",
+    "D",
+    "%",
+    "A",
+    "%",
+    [
+     "A:2",
+     "D:2"
+    ],
+    "%",
+    "%",
+    "Bm",
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    "Bm",
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "A",
+    [
+     "A:2",
+     "G:2"
+    ],
+    "%",
+    "Dmaj7",
+    "%",
+    "Badd9",
+    "%",
+    "Gadd9",
+    "%",
+    "Badd9",
+    "%",
+    "Dmaj7",
+    "%",
+    "Badd9",
+    "%",
+    "Gadd9",
+    "%",
+    "Badd9",
+    "%",
+    "D",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    "%",
+    "Bm",
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    "Bm",
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "A",
+    [
+     "A:2",
+     "G:2"
+    ],
+    "%",
+    "G",
+    "%",
+    "G",
+    "%",
+    "G",
+    "%",
+    "G",
+    "%",
+    "G",
+    "%",
+    "G"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

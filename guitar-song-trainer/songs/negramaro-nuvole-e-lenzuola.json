@@ -1,0 +1,167 @@
+{
+ "title": "Nuvole e lenzuola",
+ "artist": "Negramaro",
+ "album": "Guitar Hero World Tour (Soundtrack)",
+ "year": 2005,
+ "genre": "Pop / Rock",
+ "difficulty": 2,
+ "youtubeId": "gK58K22wykY",
+ "key": "G",
+ "bpm": 67.59,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.33,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36309923,
+  "duration": 201,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – Bm – Gmaj7 – A – D – A#.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bm",
+    "G",
+    "%",
+    "Gmaj7"
+   ]
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "Gmaj7",
+    "%",
+    "%",
+    "%",
+    "Gmaj7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G",
+    "Bm",
+    "%",
+    "G",
+    "%",
+    "Bm",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    "G",
+    "G",
+    "%",
+    "%",
+    "%",
+    "D",
+    "G",
+    "%",
+    "%",
+    [
+     "A:1",
+     "A#:1",
+     "Bm:1",
+     "A:1"
+    ],
+    "Bm",
+    "G",
+    "%",
+    "%",
+    "Bm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "G",
+    "%",
+    "Bm",
+    "D",
+    "G",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Gmaj7",
+    "%",
+    "Bm",
+    "Bm",
+    "G",
+    "Gmaj7",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   15.697
+  ],
+  [
+   8,
+   29.867
+  ],
+  [
+   13,
+   47.621
+  ],
+  [
+   18,
+   65.332
+  ],
+  [
+   22,
+   79.472
+  ],
+  [
+   27,
+   96.799
+  ],
+  [
+   31,
+   111.347
+  ],
+  [
+   36,
+   129.332
+  ],
+  [
+   40,
+   142.922
+  ],
+  [
+   44,
+   155.65
+  ],
+  [
+   49,
+   172.18
+  ],
+  [
+   53,
+   185.75
+  ],
+  [
+   54,
+   189.301
+  ]
+ ]
+}

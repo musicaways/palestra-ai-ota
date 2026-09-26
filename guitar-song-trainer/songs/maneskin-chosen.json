@@ -1,0 +1,191 @@
+{
+ "title": "Chosen",
+ "artist": "Måneskin",
+ "album": "Chosen - Single",
+ "year": 2017,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "d22ueuFfGak",
+ "key": "Bm",
+ "bpm": 110.3,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.15,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34495402,
+  "duration": 160.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bm – E – F#m – C#7 – F#m7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "F#m7",
+    "%",
+    "%",
+    "F#m7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "F#m",
+    "Bm",
+    "F#m7",
+    [
+     "Bm:2",
+     "C#7:2"
+    ],
+    [
+     "F#m7:2",
+     "E:2"
+    ],
+    "Bm",
+    "E",
+    [
+     "Bm:2",
+     "C#7:2"
+    ],
+    "F#m",
+    [
+     "E:1",
+     "Bm:1",
+     "C#7:1",
+     "F#m:1"
+    ],
+    "E",
+    [
+     "Bm:2",
+     "C#7:2"
+    ],
+    "F#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "E:2",
+     "Bm:2"
+    ],
+    [
+     "C#7:2",
+     "F#m:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "F#m7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "F#m",
+    "Bm",
+    "F#m7",
+    "F#m7",
+    "E",
+    "E",
+    [
+     "Bm:2",
+     "C#7:2"
+    ],
+    "F#m",
+    [
+     "E:1",
+     "Bm:1",
+     "C#7:1",
+     "F#m:1"
+    ],
+    [
+     "E:1",
+     "Bm:1",
+     "C#7:1",
+     "F#m:1"
+    ],
+    "E",
+    "Bm",
+    "C#7",
+    "%",
+    "F#m",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    [
+     "E:1",
+     "Bm:1",
+     "C#7:1",
+     "F#m:1"
+    ],
+    [
+     "E:1",
+     "Bm:1",
+     "C#7:1",
+     "F#m:1"
+    ],
+    [
+     "E:1",
+     "Bm:1",
+     "C#7:1",
+     "F#m:1"
+    ],
+    [
+     "E:2",
+     "Bm:2"
+    ],
+    "C#7",
+    "F#m"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

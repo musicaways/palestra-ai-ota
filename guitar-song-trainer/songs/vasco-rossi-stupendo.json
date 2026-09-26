@@ -1,0 +1,227 @@
+{
+ "title": "Stupendo",
+ "artist": "Vasco Rossi",
+ "album": "Vasco Rossi Videos",
+ "year": 1999,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "s5Gp47ftYts",
+ "key": "Cm",
+ "bpm": 56.22,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.21,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36954802,
+  "duration": 394,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Cm – G – Ab – Eb – Cm7 – G4.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Cm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Cm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    "%",
+    "Cm7",
+    "Cm",
+    "%",
+    "%",
+    "Cm7",
+    [
+     "Ab:2",
+     "Eb:2"
+    ],
+    "%",
+    "G",
+    "Cm",
+    "Ab",
+    "Eb",
+    "Bb",
+    "G4",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "Cm",
+    "Cm",
+    "%",
+    "%",
+    "Cm7",
+    "Cm",
+    "%",
+    "%",
+    "Cm7",
+    "Ab",
+    "Eb",
+    "G",
+    "Cm",
+    "Ab",
+    "Eb",
+    "Bb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    [
+     "G4:2",
+     "G7:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "Dm7",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Ab",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Eb",
+    "G",
+    "Cm",
+    "Ab",
+    "Eb",
+    "Bb",
+    [
+     "G4:2",
+     "G7:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   10,
+   44.742
+  ],
+  [
+   21,
+   91.7
+  ],
+  [
+   25,
+   108.581
+  ],
+  [
+   29,
+   125.87
+  ],
+  [
+   34,
+   147.396
+  ],
+  [
+   39,
+   168.742
+  ],
+  [
+   44,
+   190.087
+  ],
+  [
+   48,
+   207.159
+  ],
+  [
+   52,
+   224.649
+  ],
+  [
+   57,
+   245.328
+  ],
+  [
+   71,
+   305.572
+  ],
+  [
+   75,
+   322.648
+  ],
+  [
+   79,
+   339.449
+  ],
+  [
+   83,
+   355.987
+  ],
+  [
+   85,
+   364.598
+  ]
+ ]
+}

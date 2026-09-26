@@ -1,0 +1,268 @@
+{
+ "title": "Così celeste",
+ "artist": "Zucchero",
+ "album": "Spirito DiVino (30th Anniversary Edition)",
+ "year": 1995,
+ "genre": "Rock / Blues",
+ "difficulty": 5,
+ "youtubeId": "5LOgoD512z0",
+ "key": "Ab",
+ "bpm": 80.72,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 35983474,
+  "duration": 291,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Ab – Eb6 – Db – Bbm – Eb – Ab4.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Ab",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bbm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Ab",
+    "Bbm",
+    [
+     "Eb6:2",
+     "Ab:2"
+    ],
+    [
+     "Ab:2",
+     "Ab4:2"
+    ],
+    "Ab",
+    "Bbm",
+    [
+     "Eb6:2",
+     "Ab:2"
+    ],
+    [
+     "Ab:2",
+     "Ab4:2"
+    ],
+    "Ab",
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Eb6:2",
+     "Ab:2"
+    ],
+    "Ab",
+    "Db",
+    "Eb6",
+    "Ab",
+    "Ab",
+    "Bbm",
+    [
+     "Eb6:2",
+     "Ab:2"
+    ],
+    [
+     "Ab:2",
+     "Ab4:2"
+    ],
+    "Ab",
+    "Bbm",
+    [
+     "Eb6:2",
+     "Ab:2"
+    ],
+    [
+     "Ab:2",
+     "Ab4:2"
+    ],
+    "Ab",
+    "Db",
+    "Eb6",
+    "Ab",
+    "Ab",
+    "Db",
+    [
+     "Eb6:2",
+     "Ab:2"
+    ],
+    "Eb",
+    "Db",
+    "Eb",
+    "Ab",
+    [
+     "Db:2",
+     "Eb:2"
+    ],
+    "Ab"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Cm7:1",
+     "Eb:1",
+     "Fm7:1",
+     "Db:1"
+    ],
+    [
+     "Ab:1",
+     "Eb:1",
+     "Db:1",
+     "Eb:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Ab",
+    "Db",
+    "Eb6",
+    "Ab",
+    "Ab",
+    "Db",
+    "Eb6",
+    "Ab",
+    "Ab",
+    "Db",
+    "Eb6",
+    "Ab",
+    "Ab",
+    "Db",
+    "Eb6",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Ab",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "Ab",
+    "Bbm",
+    "Eb6",
+    "%",
+    [
+     "Eb6:2",
+     "Ab:2"
+    ],
+    "%",
+    "%",
+    [
+     "Ab:2",
+     "Ab4:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   12,
+   36.664
+  ],
+  [
+   18,
+   54.574
+  ],
+  [
+   23,
+   69.447
+  ],
+  [
+   28,
+   84.313
+  ],
+  [
+   34,
+   102.044
+  ],
+  [
+   40,
+   119.881
+  ],
+  [
+   46,
+   137.599
+  ],
+  [
+   50,
+   149.613
+  ],
+  [
+   64,
+   191.154
+  ],
+  [
+   68,
+   203.121
+  ],
+  [
+   74,
+   220.96
+  ],
+  [
+   88,
+   262.585
+  ],
+  [
+   90,
+   268.795
+  ]
+ ]
+}

@@ -18,6 +18,7 @@ export const CATEGORIES = [
   { id: 'scale', label: 'Scale', desc: 'Pentatonica, blues, maggiore e minore: la base degli assoli.' },
   { id: 'tecniche', label: 'Tecniche', desc: 'Hammer-on, pull-off, slide, bending, vibrato, palm muting, fingerpicking.' },
   { id: 'teoria', label: 'Teoria', desc: 'Le note sul manico e come nascono gli accordi.' },
+  { id: 'orecchio', label: 'Orecchio', desc: 'Riconoscere gli accordi ascoltandoli.' },
 ];
 
 // Nota compatta "corda:tasto:dito[:tecnica]" (corda 0 = Mi grave … 5 = Mi cantino).
@@ -38,6 +39,7 @@ const PENTA_MIN_A = scaleRun('0:5:1 0:8:4 1:5:1 1:7:3 2:5:1 2:7:3 3:5:1 3:7:3 4:
 const BLUES_A = scaleRun('0:5:1 0:8:4 1:5:1 1:6:2 1:7:3 2:5:1 2:7:3 3:5:1 3:7:3 3:8:4 4:5:1 4:8:4 5:5:1 5:8:4', ['0:5', '2:7', '5:5']);
 const PENTA_MAJ_G = scaleRun('0:3:2 0:5:4 1:2:1 1:5:4 2:2:1 2:5:4 3:2:1 3:4:3 4:3:2 4:5:4 5:3:2 5:5:4', ['0:3', '2:5', '5:3']);
 const MAJOR_C = scaleRun('1:3:3 2:0:0 2:2:2 2:3:3 3:0:0 3:2:2 4:0:0 4:1:1', ['1:3', '4:1']);
+const PENTA_MIN_A2 = scaleRun('0:8:1 0:10:3 1:7:1 1:10:4 2:7:1 2:10:4 3:7:1 3:9:3 4:8:1 4:10:3 5:8:1 5:10:3', ['1:12', '3:7']);
 const MINOR_A = scaleRun('1:0:0 1:2:2 1:3:3 2:0:0 2:2:2 2:3:3 3:0:0 3:2:2', ['1:0', '3:2']);
 
 export const LESSONS = [
@@ -115,6 +117,18 @@ export const LESSONS = [
     exercise: { type: 'strum', chords: ['E5', 'A5', 'D5', 'A5'], beatsPerChord: 4, bpm: 100, bars: 16, strum: 'DDDDDDDD', tone: 'rock' },
   },
   {
+    id: 'blues-12', cat: 'ritmo', instrument: 'guitar', level: 2, title: 'Il blues in 12 battute (La)',
+    summary: 'A7 – D7 – E7: la struttura di mezzo rock and roll.',
+    body: '<p>Quattro battute di A7, due di D7, due di A7, poi E7, D7, A7, E7 per ripartire. Conta le battute: è il "giro" che tutti i musicisti conoscono.</p>',
+    exercise: { type: 'chords', chords: ['A7', 'A7', 'A7', 'A7', 'D7', 'D7', 'A7', 'A7', 'E7', 'D7', 'A7', 'E7'], beatsPerChord: 4, bpm: 90, bars: 24, strum: 'D-DUD-DU', tone: 'crunch' },
+  },
+  {
+    id: 'boogie', cat: 'tecniche', instrument: 'guitar', level: 2, title: 'Riff boogie (shuffle)',
+    summary: 'Il riff rock\'n\'roll sulle corde basse: La 5 – La 6.',
+    body: '<p>Corda di La a vuoto più il 2° o il 4° tasto della corda di Re, a crome. Tieni il ritmo "saltellato" e stoppa leggermente col palmo.</p>',
+    exercise: { type: 'notes', bpm: 96, context: 'A5', tone: 'crunch', notes: seq('1:0:0:pm 2:2:1 1:0:0:pm 2:2:1 1:0:0:pm 2:4:3 1:0:0:pm 2:4:3 1:0:0:pm 2:2:1 1:0:0:pm 2:2:1 1:0:0:pm 2:4:3 1:0:0:pm 2:4:3', 0.5) },
+  },
+  {
     id: 'ritmo-reggae', cat: 'ritmo', instrument: 'guitar', level: 2, title: 'Reggae: il levare',
     summary: 'Si suona solo sul 2 e sul 4, corto e stoppato.',
     body: '<p>Il reggae accentua i tempi deboli. Pennata corta, poi smorza subito le corde allentando la mano sinistra.</p>',
@@ -133,6 +147,12 @@ export const LESSONS = [
     body: `<p>Cinque note che suonano bene su quasi tutto il rock. Le note <b>rosa</b> sono la radice (La).
       Dito 1 al 5° tasto, dito 3 al 7°, dito 4 all'8°. Sali e scendi a tempo, poi improvvisa sopra un brano in La minore.</p>`,
     exercise: { type: 'notes', ...PENTA_MIN_A, bpm: 70, context: 'Am', tone: 'lead' },
+  },
+  {
+    id: 'pentatonica-2', cat: 'scale', instrument: 'guitar', level: 3, title: 'Pentatonica minore di La (2ª posizione)',
+    summary: 'La forma successiva, dal 7° al 10° tasto: per uscire dalla "scatola".',
+    body: '<p>Si aggancia alla prima posizione: le note all\'8° tasto sono in comune. Collegare le posizioni permette assoli su tutto il manico.</p>',
+    exercise: { type: 'notes', ...PENTA_MIN_A2, bpm: 66, context: 'Am', tone: 'lead' },
   },
   {
     id: 'blues', cat: 'scale', instrument: 'guitar', level: 3, title: 'Scala blues di La',
@@ -233,7 +253,43 @@ export const LESSONS = [
       da sola a ogni ripetizione fino al 100%. Quando una sezione è a velocità piena viene segnata come imparata.</p>`,
     link: { href: '#/', label: 'Scegli un brano' },
   },
+  // ---------- Orecchio ----------
+  {
+    id: 'orecchio-maggiore-minore', cat: 'orecchio', instrument: 'guitar', level: 1, title: 'Maggiore o minore?',
+    summary: 'Ascolta l\'accordo e dì se è allegro (maggiore) o malinconico (minore).',
+    body: '<p>La differenza sta in una sola nota, la terza. Ascolta più volte: il maggiore suona "aperto", il minore "triste".</p>',
+    quiz: { kind: 'quality', options: [{ q: '', label: 'Maggiore' }, { q: 'm', label: 'Minore' }], roots: ['C', 'D', 'E', 'G', 'A'] },
+  },
+  {
+    id: 'orecchio-settima', cat: 'orecchio', instrument: 'guitar', level: 2, title: 'Maggiore, minore o settima?',
+    summary: 'Tre colori da distinguere.',
+    body: '<p>La settima aggiunge una nota che "tira" verso l\'accordo successivo: il suono del blues.</p>',
+    quiz: { kind: 'quality', options: [{ q: '', label: 'Maggiore' }, { q: 'm', label: 'Minore' }, { q: '7', label: 'Settima' }], roots: ['C', 'D', 'E', 'G', 'A'] },
+  },
+  {
+    id: 'orecchio-giro-do', cat: 'orecchio', instrument: 'guitar', level: 2, title: 'Quale accordo del giro di Do?',
+    summary: 'C, G, Am o F: riconoscili a orecchio.',
+    body: '<p>Prima ascoltali tutti (tocca i nomi), poi indovina quello che suona l\'app. Utile per suonare le canzoni "a orecchio".</p>',
+    quiz: { kind: 'chord', options: ['C', 'G', 'Am', 'F'] },
+  },
+  {
+    id: 'orecchio-aperti', cat: 'orecchio', instrument: 'guitar', level: 3, title: 'Accordi aperti a orecchio',
+    summary: 'Sei accordi: C, D, E, G, A, Em.',
+    body: '<p>Più accordi, più difficile. Concentrati sul basso (la nota più grave) e sul colore.</p>',
+    quiz: { kind: 'chord', options: ['C', 'D', 'E', 'G', 'A', 'Em'] },
+  },
 ];
+
+// Domanda del quiz: accordo da suonare e risposta giusta.
+export function quizQuestion(quiz, rnd = Math.random) {
+  if (quiz.kind === 'quality') {
+    const opt = quiz.options[Math.floor(rnd() * quiz.options.length)];
+    const root = quiz.roots[Math.floor(rnd() * quiz.roots.length)];
+    return { chord: root + opt.q, answer: opt.q };
+  }
+  const c = quiz.options[Math.floor(rnd() * quiz.options.length)];
+  return { chord: c, answer: c };
+}
 
 export const lessonById = (id) => LESSONS.find((l) => l.id === id) ?? null;
 

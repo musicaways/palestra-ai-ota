@@ -1,0 +1,198 @@
+{
+ "title": "Sono già solo",
+ "artist": "Modà",
+ "album": "Viva i Romantici",
+ "year": 2010,
+ "genre": "Pop / Rock",
+ "difficulty": 2,
+ "youtubeId": "yBRjm6Dk7MQ",
+ "key": "Am",
+ "bpm": 82.45,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.31,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 35973309,
+  "duration": 208,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Am – E7 – Dm – G7 – C.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Am",
+    "%",
+    "%",
+    "%"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "E7",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Dm",
+    "G7",
+    "%",
+    "C",
+    "E7",
+    "Am",
+    "%",
+    "Dm",
+    "%",
+    "G7",
+    "%",
+    "Am",
+    "%",
+    [
+     "Am:2",
+     "E7:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "E7",
+    "%",
+    "Am",
+    "%",
+    "E7",
+    "%",
+    "Am",
+    "%",
+    "Dm",
+    "%",
+    "G7",
+    "C",
+    "E7",
+    "%",
+    "%",
+    "Dm",
+    "%",
+    "G7",
+    "%",
+    "%",
+    [
+     "Am:2",
+     "E7:2"
+    ],
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    "Dm",
+    "G7",
+    "E7",
+    "Am",
+    "Dm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "%",
+    "%",
+    "Dm",
+    "%",
+    "G7",
+    "%",
+    "%",
+    "Am",
+    [
+     "Am:2",
+     "E7:2"
+    ],
+    "%",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   12.598
+  ],
+  [
+   9,
+   26.992
+  ],
+  [
+   13,
+   38.943
+  ],
+  [
+   18,
+   53.57
+  ],
+  [
+   22,
+   64.98
+  ],
+  [
+   29,
+   85.717
+  ],
+  [
+   33,
+   97.361
+  ],
+  [
+   37,
+   108.673
+  ],
+  [
+   42,
+   123.599
+  ],
+  [
+   46,
+   135.41
+  ],
+  [
+   56,
+   164.617
+  ],
+  [
+   60,
+   176.469
+  ],
+  [
+   68,
+   199.756
+  ]
+ ]
+}

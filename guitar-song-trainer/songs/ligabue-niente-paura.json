@@ -1,0 +1,197 @@
+{
+ "title": "Niente paura",
+ "artist": "Ligabue",
+ "album": "Primo tempo",
+ "year": 2008,
+ "genre": "Rock",
+ "difficulty": 2,
+ "youtubeId": "T98Rtj3XjdU",
+ "key": "F",
+ "bpm": 90.22,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.51,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 656163,
+  "duration": 229,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F – Bb – Am – C.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F",
+    "C",
+    "Am"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "F",
+    "%",
+    "Bb",
+    "%",
+    "F",
+    "%",
+    "Am",
+    "Bb",
+    "C",
+    "%",
+    "Am",
+    "%",
+    "F",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "F",
+    "%",
+    "Bb",
+    "%",
+    "F",
+    "%",
+    "Bb",
+    "%",
+    "C",
+    "%",
+    "Am",
+    "%",
+    "F",
+    "%",
+    "Am",
+    "%",
+    "Bb",
+    "%",
+    "Bb",
+    "%",
+    "Bb",
+    "%",
+    "Bb",
+    "%",
+    "F",
+    "C",
+    "Am",
+    "Bb",
+    "F",
+    "C",
+    "Am",
+    "Bb",
+    "F",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "F",
+    "%",
+    "Bb",
+    "%",
+    "C",
+    "%",
+    "Bb",
+    "%",
+    "C",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "F",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "C",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   3,
+   10.63
+  ],
+  [
+   7,
+   20.94
+  ],
+  [
+   13,
+   36.879
+  ],
+  [
+   17,
+   47.59
+  ],
+  [
+   23,
+   63.629
+  ],
+  [
+   27,
+   74.279
+  ],
+  [
+   33,
+   90.24
+  ],
+  [
+   39,
+   106.829
+  ],
+  [
+   45,
+   122.79
+  ],
+  [
+   57,
+   154.68
+  ],
+  [
+   63,
+   170.32
+  ],
+  [
+   68,
+   182.929
+  ],
+  [
+   78,
+   209.5
+  ]
+ ]
+}

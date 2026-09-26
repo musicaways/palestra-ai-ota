@@ -1,0 +1,211 @@
+{
+ "title": "Upside Down",
+ "artist": "Jack Johnson",
+ "album": "Singles",
+ "year": 2006,
+ "genre": "Folk / Pop",
+ "difficulty": 4,
+ "youtubeId": "y-crQFVuOMI",
+ "key": "E",
+ "bpm": 102.46,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.53,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34828736,
+  "duration": 210.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: E – F#m – A – B – F#m7 – G#m.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "E",
+    "%",
+    "%",
+    "F#m",
+    "%",
+    "%",
+    "E",
+    "%",
+    "%",
+    "F#m",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "E",
+    "%",
+    "F#m",
+    "E",
+    "F#m",
+    "%",
+    "E",
+    "%",
+    "F#m",
+    "%",
+    "E",
+    "%",
+    "F#m",
+    "%",
+    "E",
+    "F#m",
+    [
+     "A:2",
+     "B:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    [
+     "A:2",
+     "B:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    [
+     "A:2",
+     "B:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    [
+     "A:2",
+     "B:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    "E",
+    "F#m",
+    "E",
+    "F#m",
+    "E",
+    "F#m",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "E",
+    "F#m",
+    "E",
+    "%",
+    "F#m",
+    "%",
+    "E",
+    "F#m",
+    [
+     "A:2",
+     "B:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    [
+     "A:2",
+     "B:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    [
+     "A:2",
+     "B:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    [
+     "A:2",
+     "B:2"
+    ],
+    "G#m",
+    "F#m",
+    [
+     "G#m:2",
+     "A:2"
+    ],
+    "%",
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    [
+     "A:2",
+     "B:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    "A",
+    "B",
+    "E",
+    "F#m",
+    "E",
+    "%",
+    "F#m",
+    "%",
+    "E",
+    "%",
+    "F#m",
+    "%",
+    "E",
+    "%",
+    "F#m",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    [
+     "A:2",
+     "F#m7:2"
+    ],
+    [
+     "F#m7:2",
+     "E:2"
+    ],
+    "F#m7",
+    [
+     "F#m7:2",
+     "A:2"
+    ],
+    "%",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

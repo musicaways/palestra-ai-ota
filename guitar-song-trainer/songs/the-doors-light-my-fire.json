@@ -1,0 +1,488 @@
+{
+ "title": "Light My Fire",
+ "artist": "The Doors",
+ "album": "Greatest Hits (CD1) - Light My Fire",
+ "year": 1967,
+ "genre": "Rock",
+ "difficulty": 5,
+ "youtubeId": "LY1l8T2Lcl0",
+ "key": "D",
+ "bpm": 125.37,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.72,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36979453,
+  "duration": 427,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – A – G – Am – F#m – F.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G",
+    "D",
+    "F",
+    "Bb",
+    "Eb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "Am",
+    "F#m",
+    [
+     "Am:2",
+     "F#m:2"
+    ],
+    "Am",
+    "F#m",
+    "Am",
+    "F#m",
+    [
+     "G:2",
+     "A:1",
+     "D:1"
+    ],
+    [
+     "D:1",
+     "D4:1",
+     "D:2"
+    ],
+    [
+     "G:2",
+     "A:2"
+    ],
+    [
+     "D:2",
+     "B:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "E:2",
+     "E7:2"
+    ],
+    "Am",
+    [
+     "Am:2",
+     "F#m:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "Am",
+    "F#m",
+    "Am",
+    "F#m",
+    "Am",
+    "F#m",
+    [
+     "G:2",
+     "A:1",
+     "D:1"
+    ],
+    [
+     "D:1",
+     "D4:1",
+     "D:2"
+    ],
+    [
+     "G:2",
+     "A:2"
+    ],
+    [
+     "D:2",
+     "B:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "E:2",
+     "E7:2"
+    ],
+    "G",
+    "%",
+    "D",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "F",
+    "%",
+    "Bb",
+    "%",
+    "Eb",
+    "%",
+    "Ab",
+    "%",
+    "A",
+    "%",
+    "A",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "F",
+    "%",
+    "Bb",
+    "%",
+    "Eb",
+    "%",
+    "Ab",
+    "%",
+    "A",
+    "%",
+    "A",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "F",
+    "%",
+    "Bb",
+    "%",
+    "Eb",
+    "%",
+    "Ab",
+    "%",
+    "A",
+    "%",
+    "A",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "F",
+    "%",
+    "Bb",
+    "%",
+    "Eb",
+    "%",
+    "Ab",
+    "%",
+    "A",
+    "%",
+    "A",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 8",
+   "bars": [
+    "F",
+    "%",
+    "Bb",
+    "%",
+    "Eb",
+    "%",
+    "Ab",
+    "%",
+    "A",
+    "%",
+    "A",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 9",
+   "bars": [
+    "F",
+    "%",
+    "Bb",
+    "%",
+    "Eb",
+    "%",
+    "Ab",
+    "%",
+    "A",
+    "%",
+    "A",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 10",
+   "bars": [
+    "F",
+    "%",
+    "Bb",
+    "%",
+    "Eb",
+    "%",
+    "Ab",
+    "%",
+    "A",
+    "%",
+    "A",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 11",
+   "bars": [
+    "F",
+    "%",
+    "Bb",
+    "%",
+    "Eb",
+    "%",
+    "Ab",
+    "%",
+    "A",
+    "%",
+    "A",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 12",
+   "bars": [
+    "F",
+    "%",
+    "Bb",
+    "%",
+    "Eb",
+    "%",
+    "Ab",
+    "%",
+    "A",
+    "%",
+    "A",
+    "%",
+    "G",
+    "%",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Am",
+    "F#m",
+    "Am",
+    "F#m",
+    "Am",
+    "F#m",
+    "Am",
+    "F#m",
+    [
+     "G:2",
+     "A:1",
+     "D:1"
+    ],
+    [
+     "D:1",
+     "D4:1",
+     "D:2"
+    ],
+    [
+     "G:2",
+     "A:2"
+    ],
+    [
+     "D:2",
+     "B:2"
+    ],
+    "G",
+    [
+     "D:2",
+     "E:2"
+    ],
+    "E7",
+    "Am",
+    "F#m",
+    "Am",
+    "F#m",
+    "Am",
+    "F#m",
+    "Am",
+    "F#m",
+    [
+     "G:2",
+     "A:1",
+     "D:1"
+    ],
+    [
+     "D:1",
+     "D4:1",
+     "D:2"
+    ],
+    [
+     "G:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    "G",
+    "%",
+    "D",
+    "%",
+    "F",
+    "%",
+    "Bb",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   5,
+   10.418
+  ],
+  [
+   10,
+   19.99
+  ],
+  [
+   14,
+   27.647
+  ],
+  [
+   21,
+   40.954
+  ],
+  [
+   25,
+   48.499
+  ],
+  [
+   31,
+   59.946
+  ],
+  [
+   180,
+   345.146
+  ],
+  [
+   184,
+   352.803
+  ],
+  [
+   190,
+   364.359
+  ],
+  [
+   195,
+   374.023
+  ],
+  [
+   199,
+   381.773
+  ],
+  [
+   205,
+   393.251
+  ],
+  [
+   209,
+   400.909
+  ],
+  [
+   213,
+   408.55
+  ]
+ ]
+}

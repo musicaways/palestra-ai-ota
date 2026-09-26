@@ -1,0 +1,291 @@
+{
+ "title": "She Will Be Loved",
+ "artist": "Maroon 5",
+ "album": "Songs About Jane",
+ "year": 2002,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "k4H4G28NYIc",
+ "key": "Cm",
+ "bpm": 104.82,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.66,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 9554250,
+  "duration": 258,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Cm – Bb7 – Bb4 – Ebadd9 – Cm7 – Abadd9.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Cm",
+    "Bb7",
+    "Cm",
+    "Bb7"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Cm",
+    "Bb7",
+    "Cm",
+    "Bb7",
+    "Cm",
+    "Bb7",
+    "Cm",
+    "Bb7",
+    "Cm",
+    "Bb7",
+    "Cm",
+    [
+     "Cm:2",
+     "Bb7:2"
+    ],
+    "%",
+    [
+     "Cm:1",
+     "Bb7:2",
+     "Cm:1"
+    ],
+    "Bb7",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Ebadd9",
+    "Bb4",
+    "Cm7",
+    "Bb4",
+    "Ebadd9",
+    "Bb4",
+    [
+     "Cm7:2",
+     "Abadd9:2"
+    ],
+    "Ebadd9",
+    "Bb4",
+    "Cm7",
+    "%",
+    "Abadd9",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Cm",
+    "Bb7",
+    "Cm",
+    "Bb7",
+    "Cm",
+    "Bb7",
+    "Cm",
+    "Bb7",
+    "Cm",
+    "Bb7",
+    "Cm",
+    "Bb7",
+    "Cm",
+    "Bb7",
+    "Cm",
+    "Bb7",
+    "Ebadd9",
+    "Bb4",
+    "Cm7",
+    "Bb4",
+    "Ebadd9",
+    [
+     "Ebadd9:2",
+     "Bb4:2"
+    ],
+    "%",
+    [
+     "Cm7:2",
+     "Abadd9:2"
+    ],
+    "Ebadd9",
+    "Bb4",
+    "Cm7",
+    "Abadd9",
+    "Ebadd9",
+    "Bb4",
+    "Cm7",
+    [
+     "Cm7:2",
+     "Abadd9:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "Cm:2",
+     "Bb7:2"
+    ],
+    "Cm",
+    "Bb7",
+    "%",
+    [
+     "Cm:2",
+     "Bb7:2"
+    ],
+    [
+     "Bb7:2",
+     "Cm:2"
+    ],
+    "Bb7",
+    "Abadd9",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "Cm",
+    "Bb7",
+    "Cm",
+    "Bb7",
+    "Ebadd9",
+    "Bb4",
+    "Cm7",
+    "Bb4",
+    "Ebadd9",
+    "Bb4",
+    "Cm7",
+    "Abadd9",
+    "Ebadd9",
+    "Bb4",
+    "Cm7",
+    "Abadd9",
+    "Ebadd9",
+    "Bb4",
+    [
+     "Cm7:2",
+     "Abadd9:2"
+    ],
+    "Ebadd9",
+    "Bb4",
+    "Cm7",
+    "Bb4",
+    "Ebadd9",
+    "Bb4"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    "Ebadd9",
+    "Bb4",
+    "Cm7",
+    "Bb4",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   10.21
+  ],
+  [
+   8,
+   18.884
+  ],
+  [
+   14,
+   32.539
+  ],
+  [
+   18,
+   41.78
+  ],
+  [
+   27,
+   62.304
+  ],
+  [
+   34,
+   78.601
+  ],
+  [
+   38,
+   88.063
+  ],
+  [
+   42,
+   97.221
+  ],
+  [
+   46,
+   106.428
+  ],
+  [
+   52,
+   120.316
+  ],
+  [
+   58,
+   133.661
+  ],
+  [
+   64,
+   147.229
+  ],
+  [
+   69,
+   158.489
+  ],
+  [
+   73,
+   167.651
+  ],
+  [
+   79,
+   181.77
+  ],
+  [
+   85,
+   195.609
+  ],
+  [
+   91,
+   209.031
+  ],
+  [
+   102,
+   234.076
+  ],
+  [
+   106,
+   243.376
+  ]
+ ]
+}

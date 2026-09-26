@@ -1,0 +1,332 @@
+{
+ "title": "Piccola Katy",
+ "artist": "Pooh",
+ "album": "Piccola Katy (Radio Version)",
+ "year": 1968,
+ "genre": "Pop",
+ "difficulty": 2,
+ "youtubeId": "aj7fZ8vXqc4",
+ "key": "A",
+ "bpm": 137.64,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.08,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 14465747,
+  "duration": 139,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – E – F#m – D – E7 – G.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "E7",
+    "%",
+    "%",
+    "%"
+   ]
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    "D",
+    "A",
+    "E7",
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "G:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    [
+     "A:2",
+     "E:2"
+    ],
+    "A",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    "F#m",
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    "D",
+    "A",
+    "E7",
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    [
+     "G:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    "A",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    "F#m",
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    "D",
+    "A",
+    "E7",
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "G:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "E7:2"
+    ],
+    "A",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    "F#m",
+    "%",
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    "A",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "%",
+    "%",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   7.855
+  ],
+  [
+   8,
+   15.059
+  ],
+  [
+   13,
+   23.9
+  ],
+  [
+   19,
+   34.385
+  ],
+  [
+   27,
+   48.377
+  ],
+  [
+   32,
+   57.055
+  ],
+  [
+   36,
+   64.03
+  ],
+  [
+   43,
+   75.978
+  ],
+  [
+   49,
+   86.411
+  ],
+  [
+   53,
+   93.5
+  ],
+  [
+   59,
+   103.962
+  ],
+  [
+   64,
+   112.573
+  ],
+  [
+   66,
+   116.06
+  ]
+ ]
+}

@@ -1,0 +1,209 @@
+{
+ "title": "Half the World Away",
+ "artist": "Oasis",
+ "album": "The Master Plan",
+ "year": 1994,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "HGoarkk3CY0",
+ "key": "Fmaj7",
+ "bpm": 87.9,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.45,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37100999,
+  "duration": 262.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Fmaj7 – C – D – Am – E7 – Fm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "C",
+    "%",
+    "%",
+    "%"
+   ]
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "C:2",
+     "Fmaj7:2"
+    ],
+    [
+     "C:2",
+     "Fmaj7:2"
+    ],
+    "%",
+    "%",
+    "D",
+    "Fmaj7",
+    [
+     "C:2",
+     "Fmaj7:2"
+    ],
+    "C",
+    "Fmaj7",
+    "%",
+    "D",
+    "Fmaj7",
+    [
+     "Am:2",
+     "C:2"
+    ],
+    "E7",
+    "Am",
+    "Fmaj7",
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Am:2",
+     "C:2"
+    ],
+    "E7",
+    "Am",
+    "F",
+    "Fm",
+    "%",
+    "%",
+    "D",
+    "Fmaj7",
+    "C",
+    "Fmaj7",
+    "C",
+    "Fmaj7",
+    "C",
+    "Fmaj7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "C:2",
+     "Fmaj7:2"
+    ],
+    [
+     "C:2",
+     "Fmaj7:2"
+    ],
+    "%",
+    "%",
+    "D",
+    "Fmaj7",
+    [
+     "C:2",
+     "Fmaj7:2"
+    ],
+    "C",
+    "Fmaj7",
+    "%",
+    "D",
+    "Fmaj7",
+    [
+     "Am:2",
+     "C:2"
+    ],
+    "E7",
+    "Am",
+    "Fmaj7",
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Am:2",
+     "C:2"
+    ],
+    "E7",
+    "Am",
+    "F",
+    "Fm",
+    "%",
+    "%",
+    "D",
+    "Fmaj7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "C:2",
+     "Fmaj7:2"
+    ],
+    [
+     "C:2",
+     "Fmaj7:2"
+    ],
+    "C",
+    "Fmaj7",
+    [
+     "C:2",
+     "Fmaj7:2"
+    ],
+    [
+     "C:1",
+     "Fmaj7:1",
+     "C:1",
+     "Fmaj7:1"
+    ],
+    "C",
+    "Fmaj7",
+    "C",
+    "Fmaj7",
+    "C",
+    "Fmaj7",
+    "C",
+    "Fmaj7",
+    "C",
+    "Fmaj7",
+    "C",
+    "Fmaj7",
+    "C",
+    "Fmaj7",
+    "C",
+    "Fmaj7",
+    "C",
+    "Fmaj7",
+    "C",
+    "Fmaj7"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

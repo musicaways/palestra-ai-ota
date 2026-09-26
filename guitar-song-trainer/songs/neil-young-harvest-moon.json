@@ -1,0 +1,207 @@
+{
+ "title": "Harvest Moon",
+ "artist": "Neil Young",
+ "album": "1992! Songs of the Year",
+ "year": 1992,
+ "genre": "Folk / Rock",
+ "difficulty": 2,
+ "youtubeId": "flME-NIfqSs",
+ "key": "D",
+ "bpm": 56.65,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.61,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37024927,
+  "duration": 303,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – Dmaj7 – D6 – A – G – Em7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "D",
+    "D6",
+    "Dmaj7",
+    "D",
+    "Em7",
+    "D",
+    [
+     "A:2",
+     "D:2"
+    ],
+    "A",
+    "Em7",
+    "D",
+    [
+     "A:2",
+     "D:2"
+    ],
+    "A",
+    "G",
+    "D",
+    "D6",
+    "Dmaj7",
+    [
+     "D:1",
+     "D6:1",
+     "Dmaj7:1",
+     "G:1"
+    ],
+    "D",
+    "D6",
+    "Dmaj7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa",
+   "bars": [
+    "%",
+    "%",
+    "A",
+    [
+     "D:2",
+     "Dmaj7:2"
+    ],
+    "D",
+    "D6",
+    "Dmaj7",
+    "D",
+    [
+     "D:1",
+     "D6:1",
+     "Dmaj7:1",
+     "Em7:1"
+    ],
+    "D",
+    [
+     "A:2",
+     "D:2"
+    ],
+    "A",
+    "Em7",
+    "D",
+    [
+     "A:2",
+     "D:2"
+    ],
+    "A",
+    "G",
+    "D",
+    "D6",
+    "Dmaj7",
+    [
+     "D:1",
+     "D6:1",
+     "Dmaj7:1",
+     "G:1"
+    ],
+    "D",
+    "D6",
+    "Dmaj7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "A",
+    "%",
+    "A",
+    [
+     "D:1",
+     "D6:2",
+     "Dmaj7:1"
+    ],
+    "D",
+    "D6",
+    "Dmaj7",
+    "D",
+    "D6",
+    "Dmaj7",
+    "D",
+    "D6",
+    "Dmaj7",
+    "G",
+    "D",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "A",
+    [
+     "D:1",
+     "D6:2",
+     "Dmaj7:1"
+    ],
+    "D",
+    "D6",
+    "Dmaj7",
+    "D",
+    "D6",
+    "Dmaj7",
+    "D"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   19.587
+  ],
+  [
+   8,
+   36.406
+  ],
+  [
+   12,
+   53.1
+  ],
+  [
+   17,
+   74.276
+  ],
+  [
+   22,
+   95.937
+  ],
+  [
+   28,
+   121.747
+  ],
+  [
+   33,
+   142.896
+  ],
+  [
+   40,
+   172.066
+  ],
+  [
+   45,
+   193.137
+  ],
+  [
+   60,
+   256.842
+  ],
+  [
+   63,
+   269.523
+  ]
+ ]
+}

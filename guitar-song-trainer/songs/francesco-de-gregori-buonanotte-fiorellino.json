@@ -1,0 +1,206 @@
+{
+ "title": "Buonanotte fiorellino",
+ "artist": "Francesco De Gregori",
+ "album": "Je t'aime 4",
+ "year": 1975,
+ "genre": "Cantautori",
+ "difficulty": 5,
+ "youtubeId": "u3isp7ernP8",
+ "key": "G#m",
+ "bpm": 109.27,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.29,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37371492,
+  "duration": 124.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G#m – E – B7 – F# – F#m – A#m.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "E"
+   ]
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "E:2",
+     "G#m:2"
+    ],
+    [
+     "G#m:2",
+     "F#m:2"
+    ],
+    [
+     "A:2",
+     "B7:2"
+    ],
+    [
+     "B7:2",
+     "E:2"
+    ],
+    [
+     "E:1",
+     "G#m:2",
+     "F#m:1"
+    ],
+    "A",
+    "B7",
+    [
+     "E:2",
+     "G#m:2"
+    ],
+    [
+     "G#m:2",
+     "F#m:2"
+    ],
+    "F#7",
+    [
+     "F#7:2",
+     "B7:2"
+    ],
+    [
+     "G#m:2",
+     "C#m:2"
+    ],
+    [
+     "C#m:2",
+     "A:2"
+    ],
+    "E",
+    "B7",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "E:2",
+     "G#m:2"
+    ],
+    [
+     "G#m:2",
+     "F#m:2"
+    ],
+    [
+     "A:2",
+     "B7:2"
+    ],
+    [
+     "E:2",
+     "B7:2"
+    ],
+    [
+     "E:1",
+     "G#m:2",
+     "F#m:1"
+    ],
+    "A",
+    "B7",
+    [
+     "E:2",
+     "G#m:2"
+    ],
+    [
+     "G#m:2",
+     "F#m:2"
+    ],
+    "F#7",
+    [
+     "F#7:2",
+     "B:2"
+    ],
+    [
+     "G#m:2",
+     "C#m:2"
+    ],
+    [
+     "C#m:2",
+     "A:2"
+    ],
+    "E",
+    "B7",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "F#:2",
+     "A#m:2"
+    ],
+    [
+     "A#m:2",
+     "G#m:2"
+    ],
+    [
+     "B:2",
+     "C#7:2"
+    ],
+    [
+     "F#:2",
+     "C#7:2"
+    ],
+    [
+     "F#:1",
+     "A#m:2",
+     "G#m:1"
+    ],
+    "B",
+    "C#7",
+    [
+     "F#:2",
+     "A#m:2"
+    ],
+    [
+     "A#m:2",
+     "G#m:2"
+    ],
+    "G#7",
+    [
+     "G#7:2",
+     "C#:2"
+    ],
+    [
+     "A#m:2",
+     "D#m:2"
+    ],
+    [
+     "D#m:2",
+     "B:2"
+    ],
+    "F#",
+    "%",
+    "%",
+    [
+     "F#:2",
+     "C#7:2"
+    ],
+    "%",
+    "%",
+    [
+     "C#7:2",
+     "F#:2"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

@@ -1,0 +1,251 @@
+{
+ "title": "Slow Dancing in a Burning Room",
+ "artist": "John Mayer",
+ "album": "The Village Sessions",
+ "year": 2006,
+ "genre": "Rock / Blues",
+ "difficulty": 4,
+ "youtubeId": "IfFi4Q7ueA8",
+ "key": "A",
+ "bpm": 67.05,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.35,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36943044,
+  "duration": 242,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – C#m – E – B – C#m7 – F#m7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "C#m",
+    "A",
+    "E",
+    "C#m",
+    "A",
+    "E",
+    "C#m",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "C#m",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "C#m",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "C#m",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "C#m",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "B",
+    [
+     "C#m:2",
+     "A:2"
+    ],
+    "B",
+    "C#m",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "C#m",
+    "A",
+    "E",
+    "C#m",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "C#m",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "C#m",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "C#m",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "C#m",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "B",
+    [
+     "C#m:2",
+     "A:2"
+    ],
+    "B",
+    "C#m",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "C#m",
+    "A",
+    "E",
+    "C#m",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "F#m7:2",
+     "C#m7:2"
+    ],
+    [
+     "B:2",
+     "F#m7:2"
+    ],
+    [
+     "C#m7:2",
+     "B:2"
+    ],
+    [
+     "B:2",
+     "F#m7:2"
+    ],
+    [
+     "C#m7:2",
+     "B:2"
+    ],
+    [
+     "B:2",
+     "A:2"
+    ],
+    "C#m",
+    "%",
+    [
+     "C#m:2",
+     "A:2"
+    ],
+    "%",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "C#m:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "C#m:1",
+     "A:2",
+     "E:1"
+    ],
+    "C#m",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "C#m",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "C#m",
+    "A",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   8,
+   29.291
+  ],
+  [
+   13,
+   46.879
+  ],
+  [
+   18,
+   64.691
+  ],
+  [
+   26,
+   93.531
+  ],
+  [
+   30,
+   107.848
+  ],
+  [
+   35,
+   125.522
+  ],
+  [
+   44,
+   158.006
+  ],
+  [
+   50,
+   179.927
+  ],
+  [
+   57,
+   204.854
+  ],
+  [
+   61,
+   218.341
+  ],
+  [
+   65,
+   232.789
+  ]
+ ]
+}

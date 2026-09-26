@@ -1,0 +1,307 @@
+{
+ "title": "Il meglio deve ancora venire",
+ "artist": "Ligabue",
+ "album": "The Best Of (Deluxe Edition)",
+ "year": 2010,
+ "genre": "Rock",
+ "difficulty": 5,
+ "youtubeId": "7lp19pgrqrs",
+ "key": "A",
+ "bpm": 70.22,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 3.37,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 33501020,
+  "duration": 261,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – E – D – E4 – F#m7 – Dadd9.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "A",
+    "F#m",
+    "E4",
+    "E",
+    "D",
+    "Bm",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "E4:2",
+     "E:2"
+    ],
+    "A",
+    "E",
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "E4:2",
+     "E:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    "E",
+    "Dadd9",
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "Bm7:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    "D",
+    [
+     "E:1",
+     "A:2",
+     "F#m7:1"
+    ],
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    [
+     "A:2",
+     "D:2"
+    ],
+    "B",
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "E4:2",
+     "E:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "E4:2",
+     "E:2"
+    ],
+    "A",
+    "E",
+    "Dadd9",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "D:2"
+    ],
+    [
+     "Bm7:2",
+     "F#m7:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    [
+     "D:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "A:2"
+    ],
+    "A",
+    "D",
+    "Bm",
+    "A",
+    "F#m7",
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "Dadd9:2",
+     "B:2"
+    ],
+    "D",
+    "E",
+    "A",
+    "B",
+    "D",
+    "E",
+    [
+     "Gadd9:2",
+     "Bm:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    [
+     "Bm:2",
+     "Dadd9:2"
+    ],
+    [
+     "Bm7:2",
+     "Dadd9:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    "Dadd9",
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "D:2"
+    ],
+    [
+     "Bm7:2",
+     "F#m7:2"
+    ],
+    [
+     "D:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "A:2"
+    ],
+    "A4",
+    "A",
+    "D",
+    [
+     "B:2",
+     "A:2"
+    ],
+    [
+     "D:1",
+     "A:1",
+     "D:1",
+     "B:1"
+    ],
+    "A",
+    "F#m7",
+    "E4",
+    "E",
+    "Gadd9",
+    "F#m7",
+    "E"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   7,
+   27.259
+  ],
+  [
+   11,
+   40.792
+  ],
+  [
+   15,
+   55.14
+  ],
+  [
+   20,
+   72.09
+  ],
+  [
+   25,
+   88.742
+  ],
+  [
+   29,
+   102.25
+  ],
+  [
+   33,
+   116.352
+  ],
+  [
+   39,
+   136.859
+  ],
+  [
+   43,
+   150.611
+  ],
+  [
+   48,
+   167.449
+  ],
+  [
+   52,
+   181.189
+  ],
+  [
+   57,
+   198.16
+  ],
+  [
+   62,
+   215.004
+  ],
+  [
+   66,
+   228.676
+  ],
+  [
+   68,
+   235.511
+  ]
+ ]
+}

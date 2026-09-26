@@ -1,0 +1,215 @@
+{
+ "title": "L'uomo nero",
+ "artist": "Brunori Sas",
+ "album": "A Casa Tutto Bene",
+ "year": 2017,
+ "genre": "Indie",
+ "difficulty": 3,
+ "youtubeId": "Q4m_2WawSIY",
+ "key": "F",
+ "bpm": 115.01,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.25,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 5656311,
+  "duration": 268.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F – Am – Dm7 – G – Gadd9 – Dm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "G",
+    "%",
+    "Dm",
+    "%",
+    "F",
+    "%",
+    "C",
+    "%",
+    "F",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Gadd9",
+    "%",
+    "F",
+    "Dm7",
+    [
+     "Dm7:2",
+     "Am:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "Gadd9",
+    "%",
+    "F",
+    "Dm7",
+    [
+     "Dm7:2",
+     "Am:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "G",
+    "%",
+    "Dm",
+    "%",
+    "F",
+    "%",
+    "C",
+    "%",
+    "F",
+    "%",
+    [
+     "Am:1",
+     "G:1",
+     "F:1",
+     "Dm:1"
+    ],
+    "G",
+    "%",
+    "Dm7",
+    "%",
+    "F",
+    "%",
+    "Am",
+    "%",
+    "G",
+    "%",
+    "Dm7",
+    "%",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "G",
+    "%",
+    "Dm",
+    "%",
+    "F",
+    "%",
+    "C",
+    "E7",
+    "F",
+    "%",
+    "Am",
+    "Am",
+    "%",
+    "Gadd9",
+    "%",
+    "F",
+    "%",
+    "Dm7",
+    "%",
+    "Am",
+    "%",
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "G",
+    "%",
+    "Dm",
+    "%",
+    "F",
+    "%",
+    "C",
+    "E7",
+    "F",
+    "%",
+    [
+     "Am:1",
+     "Gadd9:1",
+     "F:1",
+     "Dm7:1"
+    ],
+    "Gadd9",
+    "%",
+    "Dm7",
+    "%",
+    "F",
+    "%",
+    "Am",
+    "%",
+    "Gadd9",
+    "%",
+    "Dm7",
+    "%",
+    "F",
+    "%",
+    "Am",
+    "%",
+    "Gadd9",
+    "%",
+    "Dm7",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

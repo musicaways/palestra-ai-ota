@@ -1,0 +1,272 @@
+{
+ "title": "Non c'è",
+ "artist": "Laura Pausini",
+ "album": "Bravo Hits  - Vol. 06 (cd2)",
+ "year": 1993,
+ "genre": "Pop",
+ "difficulty": 2,
+ "youtubeId": "YZrFaHdUPsI",
+ "key": "A",
+ "bpm": 101.14,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.06,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37333644,
+  "duration": 232,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – Em7 – Gadd9 – A4 – D – G.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "A4",
+    "%",
+    "%",
+    "Gadd9",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "%",
+    "A4",
+    "Gadd9",
+    "A",
+    [
+     "A:2",
+     "Bm7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "A4",
+    "Gadd9",
+    "A",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "D",
+    "%",
+    "%",
+    "%",
+    [
+     "Em7:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "Em7:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "%",
+    "%",
+    "A4",
+    "Gadd9",
+    "%",
+    "%",
+    "%",
+    "%",
+    "A4",
+    "G",
+    "A",
+    "%",
+    "%",
+    "D",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "%",
+    "Em7",
+    "%",
+    "%",
+    "D",
+    "%",
+    "%",
+    "%",
+    "Em7",
+    "A",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    [
+     "Em7:2",
+     "A:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "A4:2",
+     "Gadd9:2"
+    ],
+    [
+     "Gadd9:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Em7",
+    "A",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 8",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "D",
+    "%",
+    "%",
+    "%",
+    [
+     "G:2",
+     "Em7:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   6,
+   16.66
+  ],
+  [
+   10,
+   25.926
+  ],
+  [
+   15,
+   37.791
+  ],
+  [
+   20,
+   49.674
+  ],
+  [
+   25,
+   61.398
+  ],
+  [
+   29,
+   71.046
+  ],
+  [
+   35,
+   85.072
+  ],
+  [
+   41,
+   99.244
+  ],
+  [
+   45,
+   108.534
+  ],
+  [
+   50,
+   120.474
+  ],
+  [
+   55,
+   132.895
+  ],
+  [
+   62,
+   149.414
+  ],
+  [
+   70,
+   168.26
+  ],
+  [
+   76,
+   182.498
+  ],
+  [
+   81,
+   194.464
+  ],
+  [
+   85,
+   204.015
+  ],
+  [
+   90,
+   215.821
+  ],
+  [
+   94,
+   225.372
+  ],
+  [
+   97,
+   232.35
+  ]
+ ]
+}

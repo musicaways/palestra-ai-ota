@@ -810,3 +810,14 @@ kbd { background: rgba(146, 132, 255, .12); border: 1px solid var(--line); borde
 .az { display: flex; flex-wrap: wrap; gap: 4px; margin: 6px 0 4px; }
 .az a { display: grid; place-items: center; min-width: 28px; height: 28px; border-radius: 8px; background: rgba(146, 132, 255, .08); color: var(--muted); text-decoration: none; font-weight: 700; font-size: 12px; }
 .az a:hover { color: var(--cyan); }
+
+/* ---------- Quiz d'ascolto ---------- */
+.quiz { padding: 16px; display: grid; gap: 14px; }
+.quiz-top { display: flex; align-items: center; gap: 14px; }
+.quiz-msg { font-size: 18px; font-weight: 700; }
+.quiz-opts { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 8px; }
+.quiz-opt { text-align: center; padding: 14px; }
+.quiz-opt b { font-size: 18px; }
+.quiz-opt.right { border-color: #3ddc84; background: rgba(61, 220, 132, .15); }
+.quiz-opt.wrong { border-color: #ff4d5e; background: rgba(255, 77, 94, .15); }
+.quiz-next { justify-self: start; }

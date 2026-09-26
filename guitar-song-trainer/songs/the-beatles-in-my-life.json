@@ -1,0 +1,189 @@
+{
+ "title": "In My Life",
+ "artist": "The Beatles",
+ "album": "Original Best Selection",
+ "year": 1965,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "8zV6etKD3Ps",
+ "key": "A",
+ "bpm": 102.66,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.26,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37170747,
+  "duration": 148.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – Dm – F#m – E – D – A7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "A",
+    "E",
+    "A"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "F#m:2",
+     "A7:2"
+    ],
+    [
+     "D:2",
+     "Dm:2"
+    ],
+    [
+     "Dm:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    [
+     "F#m:2",
+     "A7:2"
+    ],
+    [
+     "D:2",
+     "Dm:2"
+    ],
+    [
+     "Dm:2",
+     "A:2"
+    ],
+    "F#m",
+    "D",
+    "G",
+    "A",
+    "F#m",
+    "B",
+    "Dm",
+    "A",
+    "A",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "F#m:2",
+     "A7:2"
+    ],
+    [
+     "D:2",
+     "Dm:2"
+    ],
+    [
+     "Dm:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    [
+     "F#m:2",
+     "A7:2"
+    ],
+    [
+     "D:2",
+     "Dm:2"
+    ],
+    [
+     "Dm:2",
+     "A:2"
+    ],
+    "F#m",
+    "D",
+    "G",
+    "A",
+    "F#m",
+    "B",
+    [
+     "Dm:2",
+     "A:2"
+    ],
+    "A",
+    "E",
+    "F#m",
+    "A7",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "F#m",
+    "%",
+    "%",
+    "D",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "G",
+    "A",
+    "F#m",
+    "B",
+    "Dm",
+    [
+     "Dm:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "Dm",
+    [
+     "Dm:2",
+     "A:2"
+    ],
+    "%",
+    "E",
+    "%",
+    "E7",
+    [
+     "E7:2",
+     "A:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

@@ -1,0 +1,328 @@
+{
+ "title": "I Don't Want to Miss a Thing",
+ "artist": "Aerosmith",
+ "album": "As melhores por Swatwer 2006",
+ "year": 1998,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "JkK8g6FMEXE",
+ "key": "G",
+ "bpm": 121.23,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.67,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37016545,
+  "duration": 296,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – Em – A – F#m – D – C.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "G",
+    "%",
+    "Em",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G",
+    "G",
+    "Em",
+    "%",
+    "F#m",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "Em",
+    "G",
+    "A",
+    "%",
+    "%",
+    "%",
+    "Em",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "G",
+    "%",
+    "Em",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "F#m",
+    [
+     "F#m:2",
+     "G:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "A",
+    "%",
+    "%",
+    "%",
+    "Em",
+    "G",
+    "A",
+    "%",
+    "%",
+    "%",
+    "Em",
+    "G",
+    "A",
+    "D",
+    "C",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "G",
+    "%",
+    "Bb",
+    "F",
+    "%",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "Dm",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "Em",
+    "G",
+    "A",
+    "%",
+    "%",
+    "%",
+    "Em",
+    "G",
+    "A",
+    "D",
+    "%",
+    "%",
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 8",
+   "bars": [
+    "G",
+    "A",
+    "D",
+    "%",
+    "%",
+    "Em",
+    "G",
+    "A",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 9",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   15,
+   31.552
+  ],
+  [
+   19,
+   39.46
+  ],
+  [
+   23,
+   47.209
+  ],
+  [
+   31,
+   62.939
+  ],
+  [
+   36,
+   72.837
+  ],
+  [
+   42,
+   85.059
+  ],
+  [
+   46,
+   92.803
+  ],
+  [
+   51,
+   102.701
+  ],
+  [
+   55,
+   110.62
+  ],
+  [
+   63,
+   126.369
+  ],
+  [
+   68,
+   136.267
+  ],
+  [
+   72,
+   143.829
+  ],
+  [
+   76,
+   152.25
+  ],
+  [
+   82,
+   163.78
+  ],
+  [
+   88,
+   175.902
+  ],
+  [
+   92,
+   183.85
+  ],
+  [
+   99,
+   197.708
+  ],
+  [
+   103,
+   205.76
+  ],
+  [
+   107,
+   213.679
+  ],
+  [
+   113,
+   225.729
+  ],
+  [
+   117,
+   233.611
+  ],
+  [
+   123,
+   245.489
+  ],
+  [
+   127,
+   253.508
+  ]
+ ]
+}

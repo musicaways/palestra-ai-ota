@@ -1,0 +1,307 @@
+{
+ "title": "Another Love",
+ "artist": "Tom Odell",
+ "album": "Top 100 Uk 26.03",
+ "year": 2012,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "ixRLjjTRczE",
+ "key": "Em",
+ "bpm": 61.72,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.39,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37011538,
+  "duration": 244,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Em – C – Bm – G – Am – D.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "C",
+    "Em",
+    "Am",
+    "Em",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "C:1",
+     "Em:1",
+     "Am:1",
+     "Em:1"
+    ],
+    [
+     "Bm:2",
+     "C:2"
+    ],
+    [
+     "Em:1",
+     "Am:2",
+     "Em:1"
+    ],
+    "Bm",
+    "C",
+    [
+     "Em:1",
+     "Am:2",
+     "Em:1"
+    ],
+    [
+     "Bm:2",
+     "C:2"
+    ],
+    [
+     "D:1",
+     "Em:1",
+     "Am:1",
+     "Em:1"
+    ],
+    "Bm",
+    "C",
+    [
+     "Cmaj7:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "Bm:2",
+     "C:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "Bm:2",
+     "Cmaj7:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "Bm:2",
+     "C:2"
+    ],
+    [
+     "G:1",
+     "Bm:2",
+     "C6:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "C:1",
+     "Em:1",
+     "Am:1",
+     "Em:1"
+    ],
+    [
+     "Bm:2",
+     "C:2"
+    ],
+    [
+     "D:1",
+     "Em:1",
+     "Am:1",
+     "Em:1"
+    ],
+    [
+     "Bm:2",
+     "C:2"
+    ],
+    [
+     "D:1",
+     "Em:1",
+     "Am:1",
+     "Em:1"
+    ],
+    [
+     "Bm:2",
+     "C:2"
+    ],
+    [
+     "D:1",
+     "Em:1",
+     "Am:1",
+     "Em:1"
+    ],
+    [
+     "Bm:2",
+     "C:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "Bm:2",
+     "C:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "Bm:2",
+     "C:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "Bm:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    "%",
+    [
+     "Em:1",
+     "Bm:1",
+     "C:1",
+     "D:1"
+    ],
+    "C",
+    "%",
+    "%",
+    [
+     "C:1",
+     "Em:1",
+     "Am:1",
+     "Em:1"
+    ],
+    [
+     "Bm:2",
+     "C:2"
+    ],
+    [
+     "Em:1",
+     "Am:2",
+     "Em:1"
+    ],
+    [
+     "Bm:2",
+     "C:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "Bm:2",
+     "C:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "Bm:2",
+     "C:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "Bm:1",
+     "C:2",
+     "G:1"
+    ],
+    [
+     "Em:2",
+     "Bm7:2"
+    ],
+    "G",
+    "Bm",
+    "C6"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   5,
+   21.983
+  ],
+  [
+   10,
+   41.85
+  ],
+  [
+   15,
+   62.36
+  ],
+  [
+   19,
+   78.71
+  ],
+  [
+   28,
+   114.791
+  ],
+  [
+   32,
+   130.55
+  ],
+  [
+   36,
+   146.393
+  ],
+  [
+   40,
+   162.326
+  ],
+  [
+   44,
+   177.886
+  ],
+  [
+   49,
+   196.831
+  ],
+  [
+   53,
+   212.289
+  ],
+  [
+   57,
+   227.936
+  ],
+  [
+   59,
+   235.899
+  ]
+ ]
+}

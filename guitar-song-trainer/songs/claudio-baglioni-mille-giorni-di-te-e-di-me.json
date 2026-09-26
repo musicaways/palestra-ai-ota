@@ -1,0 +1,255 @@
+{
+ "title": "Mille giorni di te e di me",
+ "artist": "Claudio Baglioni",
+ "album": "Tutti Qui CD3",
+ "year": 1990,
+ "genre": "Cantautori",
+ "difficulty": 5,
+ "youtubeId": "bNBSDCLIyb0",
+ "key": "Fmaj7",
+ "bpm": 77.98,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.53,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36957780,
+  "duration": 338,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Fmaj7 – Dm7 – C – Em7 – Am7 – B7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Fmaj7",
+    "Em7",
+    "Dm7",
+    "%",
+    "Fmaj7",
+    "Em7",
+    "Dm7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "%",
+    "Cmaj7",
+    "Fmaj7",
+    "Bbmaj7",
+    "E7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Ebmaj7",
+    "Abmaj7",
+    "Dbmaj7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "C:1",
+     "Am7:2",
+     "Fmaj7:1"
+    ],
+    [
+     "Dm7:1",
+     "C:1"
+    ],
+    "Am7",
+    "Fmaj7",
+    "%",
+    "B7",
+    [
+     "B7:2",
+     "Em:2"
+    ],
+    "Fmaj7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "Cmaj7",
+    "Fmaj7",
+    "Bbmaj7",
+    "E7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Ebmaj7",
+    "Abmaj7",
+    "Dbmaj7",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    [
+     "C:1",
+     "Am7:2",
+     "Fmaj7:1"
+    ],
+    "Dm7",
+    "C",
+    "Am7",
+    "%",
+    "Fmaj7",
+    [
+     "B7:2",
+     "Em:2"
+    ],
+    "C",
+    "%",
+    "%",
+    "%",
+    "Dm7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "%",
+    [
+     "Am:2",
+     "Fmaj7:2"
+    ],
+    [
+     "Em7:2",
+     "Dm7:2"
+    ],
+    "D",
+    "%",
+    "%",
+    "%",
+    "Em7",
+    "%",
+    "%",
+    "%",
+    "Gmaj7",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Em7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   10,
+   32.189
+  ],
+  [
+   16,
+   50.691
+  ],
+  [
+   20,
+   63.084
+  ],
+  [
+   26,
+   81.839
+  ],
+  [
+   30,
+   94.087
+  ],
+  [
+   42,
+   130.984
+  ],
+  [
+   53,
+   164.874
+  ],
+  [
+   57,
+   177.145
+  ],
+  [
+   62,
+   192.439
+  ],
+  [
+   68,
+   210.905
+  ],
+  [
+   72,
+   223.56
+  ],
+  [
+   79,
+   244.62
+  ],
+  [
+   83,
+   256.84
+  ],
+  [
+   84,
+   259.918
+  ]
+ ]
+}
