@@ -31,11 +31,14 @@ Funziona nel browser di **PC, tablet e telefono Android** e si può installare c
 - **Allenamento cambi accordo**: scegli 2-4 accordi e un tempo; li alterni col metronomo in round da
   un minuto, con il BPM che sale da solo e il record salvato per ogni combinazione.
 - **Statistiche di pratica**: tempo suonato e ultima volta su ogni brano, scheda *Recenti*.
-- Schermo sempre acceso mentre suoni e **modalità concentrazione** (solo palco e testo).
+- Schermo sempre acceso mentre suoni. **Vista** a scelta: completa, manico e testo, video e testo, solo video, solo testo.
+- **Parti di chitarra**: ritmica, arpeggio, power chord, facile. **Tonalità**: trasposizione e versione senza capotasto.
+- Le scelte (tonalità, capotasto, parte, vista, velocità, loop) restano **salvate per ogni brano**. **Stampa accordi** in PDF.
+- Comandi compatti: play, velocità e loop in una riga; gli strumenti meno usati dietro ⋯.
 - **Modalità ascolto** (stile Rocksmith): il microfono riconosce l'accordo che suoni; a ogni cambio il
   manico si illumina di verde o di rosso, con precisione, serie e record.
 - **Frecce della pennata** (↓ ↑) che scorrono sulla corsia a tempo.
-- **Sincronia garantita**: l'app controlla da sola che testo e accordi combacino (etichetta *In sincronia*),
+- **Sincronia garantita**: l'app controlla da sola che testo e accordi combacino (se no, pallino sul pulsante *Sincronia*),
   e li allinea al video con un tocco quando inizia il canto oppure ascoltando il video dal microfono.
 - **Testo sotto il manico** (riga attuale e successiva), **Riprendi** dal punto in cui eri, **guida rapida** (?).
 - Libreria: **Continua** l'ultimo brano, ordinamento (titolo, artista, più facili, più suonati, più recenti), tasto `/`.

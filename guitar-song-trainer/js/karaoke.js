@@ -158,17 +158,20 @@ function rowIndexAt(rows, t) {
 }
 
 export function scrollIntoPanel(panel, el) {
-  if (panel.scrollHeight > panel.clientHeight + 4) {
-    const top = el.offsetTop - panel.clientHeight * 0.32;
-    panel.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
+  // il contenitore che scorre davvero: il pannello (computer) o l'area sotto il palco (telefono)
+  let box = panel;
+  while (box && !(box.scrollHeight > box.clientHeight + 4 && /auto|scroll/.test(getComputedStyle(box).overflowY))) box = box.parentElement;
+  if (!box || box === document.body || box === document.documentElement) {
+    const r = el.getBoundingClientRect();
+    if (r.top < 8 || r.bottom > window.innerHeight - 8) window.scrollBy({ top: r.top - window.innerHeight * 0.3, behavior: 'smooth' });
     return;
   }
-  // Telefono: scorre la pagina tenendo conto del palco fisso in alto.
-  const sticky = document.querySelector('.stage')?.getBoundingClientRect().height ?? 0;
+  const b = box.getBoundingClientRect();
   const r = el.getBoundingClientRect();
-  const top = sticky + 8;
-  const bottom = window.innerHeight - 8;
-  if (r.top < top || r.bottom > bottom) {
-    window.scrollBy({ top: r.top - top - (bottom - top) * 0.25, behavior: 'smooth' });
-  }
+  // le schede del pannello restano ferme in alto: la riga non deve finirci sotto
+  const tabs = box.querySelector('.panel-tabs');
+  const sticky = tabs && getComputedStyle(tabs).position === 'sticky' ? tabs.getBoundingClientRect().height : 0;
+  const top = b.top + sticky + 8;
+  const target = r.top - top - (b.bottom - top) * 0.28;
+  if (r.top < top || r.bottom > b.bottom - 8 || Math.abs(target) > 4) box.scrollBy({ top: target, behavior: 'smooth' });
 }

@@ -24,6 +24,14 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   await ctx.addInitScript(() => { try { localStorage.setItem('gst:helpSeen', 'true'); } catch {} });
   const page = await ctx.newPage();
   page.on('pageerror', (e) => errors.push(`${name}: ${e.message}`));
+  // i comandi secondari stanno nei pannelli a scomparsa (velocità, loop, strumenti ⋯): si apre quello giusto
+  const tap = async (sel) => {
+    if (!(await page.isVisible(sel))) {
+      const pop = await page.evaluate((x) => document.querySelector(x)?.closest('[data-popbody]')?.dataset.popbody, sel);
+      if (pop) await page.click(`[data-pop="${pop}"]`);
+    }
+    await page.click(sel);
+  };
   const shot = (n) => SHOTS && page.screenshot({ path: `${SHOTS}/${name}-${n}.png` });
 
   // Libreria
@@ -70,7 +78,7 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   const rows = await page.locator('.k-row').count();
   check(rows > 10, `testo karaoke caricato (${rows} righe)`);
   check(await page.locator('.k-chord').count() > 10, 'accordi posizionati sul testo');
-  check(await page.isVisible('.sync-badge'), `indicatore di sincronia: ${await page.textContent('.sync-badge')}`);
+  check(!(await page.locator('.sync-badge').count()), 'niente etichetta di sincronia nel pannello (solo pallino su Sincronia se serve)');
 
   // Guida rapida
   await page.click('[data-act="help"]');
@@ -78,7 +86,7 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   await page.click('.dlg-help button[value="ok"]');
 
   // Allineamento col tocco: si tocca 1 s dopo l'inizio del canto → tutto si sposta di ~+1 s
-  await page.click('[data-act="sync"]');
+  await tap('[data-act="sync"]');
   await page.click('[data-sync="tap"]');
   check(await page.isVisible('.tapnow'), 'allineamento col tocco: pulsante ADESSO');
   const firstLine = await page.evaluate(() => {
@@ -93,7 +101,7 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   await page.click('.tapnow-btn');
   const shifted = await page.evaluate(() => ({ o: Number(localStorage.getItem('gst:offset:salmo-cartine-corte')), l: Number(localStorage.getItem('gst:lyricsOffset:salmo-cartine-corte')) }));
   check(shifted.o > 0.5 && shifted.o < 2.5 && Math.abs(shifted.o - shifted.l) < 0.01, `allineamento col tocco: testo e accordi spostati insieme (+${shifted.o.toFixed(2)} s)`);
-  await page.click('[data-act="sync"]');
+  await tap('[data-act="sync"]');
   await page.click('[data-step="all:-0.1"]');
   const after = await page.evaluate(() => Number(localStorage.getItem('gst:offset:salmo-cartine-corte')));
   check(Math.abs(after - (shifted.o - 0.1)) < 0.01, 'regolatore "Tutto"');
@@ -123,7 +131,7 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   // Loop di una sezione + velocità progressiva
   await page.locator('.k-sec-loop').nth(1).click();
   check((await page.textContent('.loop-label')).startsWith('Loop'), 'loop di sezione attivo');
-  await page.click('[data-act="ramp"]');
+  await tap('[data-act="ramp"]');
   await page.waitForTimeout(400);
   const speed0 = await page.textContent('.speed-pills .seg.active');
   check(speed0 === '50%', `velocità progressiva parte lenta (${speed0})`);
@@ -139,21 +147,21 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   await page.waitForTimeout(2500);
   const speed1 = await page.textContent('.speed-pills .seg.active');
   check(speed1 !== '50%', `al giro del loop accelera (${speed1})`);
-  await page.click('[data-act="loopClear"]');
+  await tap('[data-act="loopClear"]');
   check(!(await page.locator('[data-act="ramp"].active').count()), 'cancellare il loop spegne la velocità progressiva');
 
   // Conteggio d'attacco
   await page.click('[data-act="play"]'); // pausa
-  await page.click('[data-act="countin"]');
+  await tap('[data-act="countin"]');
   await page.click('[data-act="play"]');
   await page.waitForTimeout(200);
   check(await page.isVisible('.count-overlay'), 'conteggio d\'attacco visibile');
   await page.waitForTimeout(4500); // 3 battiti al 60% di velocità
   check(!(await page.isVisible('.count-overlay')) && (await page.getAttribute('[data-act="play"]', 'class')).includes('playing'), 'dopo il conteggio parte');
-  await page.click('[data-act="countin"]');
+  await tap('[data-act="countin"]');
 
   // Accordatore con microfono finto (Chromium genera un tono)
-  await page.click('[data-act="tuner"]');
+  await tap('[data-act="tuner"]');
   await page.waitForTimeout(2500);
   const tunerNote = await page.textContent('.tuner-note');
   check(tunerNote && tunerNote !== '—', `accordatore rileva una nota (${tunerNote})`);
@@ -161,7 +169,7 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   await page.click('.dlg-tuner button[value="ok"]');
 
   // Sincronia e registrazione tempi
-  await page.click('[data-act="sync"]');
+  await tap('[data-act="sync"]');
   const parseOut = (t) => Number(t.replace('−', '-').replace(' s', ''));
   const before = parseOut(await page.textContent('.out-chords'));
   await page.click('[data-step="chords:0.05"]');
@@ -169,13 +177,13 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   check(Math.abs(afterStep - before - 0.05) < 0.001, `offset accordi regolabile (${before} → ${afterStep})`);
   await page.click('[data-step="chords:-0.05"]');
   await page.click('.dlg-sync button[value="ok"]');
-  await page.click('[data-act="record"]');
+  await tap('[data-act="record"]');
   for (let i = 0; i < 3; i++) { await page.waitForTimeout(400); await page.keyboard.press('t'); }
   check((await page.textContent('.rec-info')).includes('cambio 4/'), 'registrazione tempi con il tasto T');
   await page.click('[data-rec="done"]');
   const saved = await page.evaluate(() => JSON.parse(localStorage.getItem('gst:sync:salmo-cartine-corte') || '[]').length);
   check(saved === 3, 'tempi registrati salvati');
-  await page.click('[data-act="sync"]');
+  await tap('[data-act="sync"]');
   await page.click('[data-sync="resetTimes"]');
 
   // Impostazioni
@@ -201,7 +209,7 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   await page.click('.dlg-input button[value="ok"]');
 
   // Capotasto: suggerito 3 → le forme diventano Em, Em/D, Cmaj7…
-  await page.click('[data-act="capo"]');
+  await tap('[data-act="capo"]');
   check((await page.textContent('.capo-suggest')).includes('3°'), 'capotasto suggerito al 3° tasto');
   await page.click('.capo-suggest [data-capo="3"]');
   await page.click('.dlg-capo button[value="ok"]');
@@ -210,24 +218,121 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   check(capoNames.includes('Em') && capoNames.includes('Cmaj7') && !capoNames.includes('Gm'), `forme col capo 3 (${capoNames.slice(0, 4).join(' ')}…)`);
   check(await page.isVisible('.capo-badge'), 'badge "capo 3" nel palco');
   await shot('capo');
-  await page.click('[data-act="capo"]');
+  await tap('[data-act="capo"]');
   await page.click('.capo-grid [data-capo="0"]');
   await page.click('.dlg-capo button[value="ok"]');
   await page.click('.panel-tab[data-tab="lyrics"]');
 
   // Modalità ascolto (microfono finto di Chromium)
-  await page.click('[data-act="listen"]');
+  await tap('[data-act="listen"]');
   await page.waitForTimeout(1500);
   check(await page.isVisible('.score-hud'), 'modalità ascolto: punteggio visibile');
   check((await page.getAttribute('[data-act="listen"]', 'class')).includes('active'), 'modalità ascolto attiva');
-  await page.click('[data-act="listen"]');
+  await tap('[data-act="listen"]');
   check(!(await page.isVisible('.score-hud')), 'modalità ascolto si spegne');
 
-  // Modalità concentrazione
-  await page.click('[data-act="focus"]');
-  check(!(await page.isVisible('.video-wrap')), 'modalità concentrazione nasconde il video');
-  await page.click('[data-act="focus"]');
-  check(await page.isVisible('.video-wrap'), 'e lo rimostra');
+  // Tonalità: trasposizione e "senza capotasto"
+  await tap('[data-act="capo"]');
+  await page.click('[data-tr="1"]');
+  check((await page.textContent('.out-tr')) === '+1', 'trasposizione +1');
+  check(await page.isVisible('.tr-warn'), 'avviso: il video resta nella tonalità originale');
+  const trNames = await page.$$eval('.capo-preview .chip', (els) => els.map((e) => e.textContent));
+  check(trNames.includes('G#m') || trNames.includes('Abm'), `accordi trasposti (${trNames.slice(0, 4).join(' ')}…)`);
+  const easyBtn = page.locator('.tr-actions [data-trset]').filter({ hasText: 'più facile' });
+  if (await easyBtn.count()) {
+    await easyBtn.click();
+    check(!(await page.textContent('.out-tr')).startsWith('0') && (await page.getAttribute('.capo-grid [data-capo="0"]', 'class')).includes('active'), `tonalità più facile senza capotasto (${await page.textContent('.out-tr')})`);
+  }
+  await page.click('.tr-actions [data-trset="0"]');
+  check((await page.textContent('.out-tr')) === '0', 'si torna alla tonalità originale');
+  await page.click('.dlg-capo button[value="ok"]');
+
+  // Parte di chitarra: arpeggio (note singole), power chord, di nuovo ritmica
+  await tap('[data-act="part"]');
+  check(await page.locator('.dlg-part .option').count() === 4, 'quattro parti di chitarra');
+  await page.click('.dlg-part [data-part="power"]');
+  await page.click('.dlg-part button[value="ok"]');
+  await page.waitForTimeout(400);
+  check(/5$/.test(await page.textContent('.now-chord')), `power chord sul palco (${await page.textContent('.now-chord')})`);
+  check((await page.textContent('.part-label')) === 'Power chord', 'etichetta della parte');
+  await tap('[data-act="part"]');
+  await page.click('.dlg-part [data-part="arpeggio"]');
+  await page.click('.dlg-part button[value="ok"]');
+  const prefs = await page.evaluate(() => JSON.parse(localStorage.getItem('gst:prefs:salmo-cartine-corte') || '{}'));
+  check(prefs.arrangement === 'arpeggio', 'la parte scelta resta salvata per il brano');
+  await page.waitForTimeout(600);
+  await shot('arpeggio');
+  await tap('[data-act="part"]');
+  await page.click('.dlg-part [data-part="rhythm"]');
+  await page.click('.dlg-part button[value="ok"]');
+
+  // Velocità ricordata
+  await tap('.speed-pills [data-rate="0.75"]');
+  check((await page.evaluate(() => JSON.parse(localStorage.getItem('gst:prefs:salmo-cartine-corte')).rate)) === 0.75, 'velocità salvata per il brano');
+  await tap('.speed-pills [data-rate="1"]');
+
+  // Viste: nessun componente deve coprirne un altro
+  const overlaps = () => page.evaluate(() => {
+    // parte visibile dell'elemento (ritagliata dall'area che scorre sotto il palco, se c'è)
+    const vis = (el) => {
+      if (!el) return null;
+      const cs = getComputedStyle(el);
+      if (cs.display === 'none' || cs.visibility === 'hidden') return null;
+      let { left, top, right, bottom } = el.getBoundingClientRect();
+      for (let box = el.parentElement; box && box !== document.body; box = box.parentElement) {
+        if (getComputedStyle(box).overflowY === 'visible') continue;
+        const c = box.getBoundingClientRect();
+        left = Math.max(left, c.left); top = Math.max(top, c.top); right = Math.min(right, c.right); bottom = Math.min(bottom, c.bottom);
+      }
+      right = Math.min(right, innerWidth); bottom = Math.min(bottom, innerHeight); left = Math.max(left, 0); top = Math.max(top, 0);
+      return right - left > 0 && bottom - top > 0 ? { left, top, right, bottom } : null;
+    };
+    const hit = (a, b) => a && b && a.left < b.right - 1 && b.left < a.right - 1 && a.top < b.bottom - 1 && b.top < a.bottom - 1;
+    const out = [];
+    const head = [...document.querySelectorAll('.player-head > *')].map((e) => [e, vis(e)]).filter(([, r]) => r);
+    for (let i = 0; i < head.length; i++) for (let j = i + 1; j < head.length; j++) if (hit(head[i][1], head[j][1])) out.push(`testata: ${head[i][0].className} / ${head[j][0].className}`);
+    const blocks = ['.hud-block.now', '.hud-center', '.hud-block.next'].map((s) => [s, vis(document.querySelector(s))]).filter(([, r]) => r);
+    for (let i = 0; i < blocks.length; i++) for (let j = i + 1; j < blocks.length; j++) if (hit(blocks[i][1], blocks[j][1])) out.push(`palco: ${blocks[i][0]} / ${blocks[j][0]}`);
+    const stage = vis(document.querySelector('.stage'));
+    const headR = vis(document.querySelector('.player-head'));
+    for (const s of ['.panel-tabs', '.transport', '.video-wrap', '.tools-row']) {
+      const r = vis(document.querySelector(s));
+      if (hit(r, stage)) out.push(`${s} sotto il palco`);
+      if (hit(r, headR)) out.push(`${s} sotto la testata`);
+    }
+    for (const s of ['.stage-lyric', '.hud']) if (hit(vis(document.querySelector(s)), headR)) out.push(`${s} sotto la testata`);
+    return out;
+  });
+  for (const v of ['full', 'stage', 'videolyrics', 'video', 'lyrics']) {
+    await page.click('[data-act="view"]');
+    await page.click(`.dlg-view [data-view="${v}"]`);
+    await page.click('.dlg-view button[value="ok"]');
+    await page.waitForTimeout(300);
+    await page.keyboard.press('Escape');
+    const th = (await page.locator('.transport').boundingBox()).height;
+    check(th <= 150, `vista ${v}: comandi compatti (${Math.round(th)} px)`);
+    const canvasShown = await page.isVisible('.fretboard');
+    const vb = await page.locator('.video-wrap').boundingBox();
+    const videoShown = !!vb && vb.x > -1000;
+    const panelShown = await page.isVisible('.panel');
+    const want = { full: [1, 1, 1], stage: [1, 0, 1], videolyrics: [0, 1, 1], video: [0, 1, 0], lyrics: [0, 0, 1] }[v];
+    check(+canvasShown === want[0] && +videoShown === want[1] && +panelShown === want[2], `vista ${v}: manico ${canvasShown ? 'sì' : 'no'}, video ${videoShown ? 'sì' : 'no'}, testo ${panelShown ? 'sì' : 'no'}`);
+    check(await page.isVisible('.now-chord'), `vista ${v}: accordo attuale sempre visibile`);
+    check(await page.isVisible('[data-act="play"]') || v !== 'video', `vista ${v}: comandi raggiungibili`);
+    // si scorre il testo fino in fondo: le schede e la testata non devono essere coperte
+    await page.evaluate(() => { const m = document.querySelector('.player-main'); m.scrollTop = m.scrollHeight; window.scrollTo(0, document.body.scrollHeight); });
+    await page.waitForTimeout(150);
+    const ov = await overlaps();
+    check(!ov.length, `vista ${v}: nessuna sovrapposizione${ov.length ? ` (${ov.join('; ')})` : ''}`);
+    const w = await page.evaluate(() => document.documentElement.scrollWidth);
+    check(w <= viewport.width + 1, `vista ${v}: nessuno scorrimento orizzontale`);
+    await page.evaluate(() => { document.querySelector('.player-main').scrollTop = 0; window.scrollTo(0, 0); });
+    if (v !== 'full') await shot(`vista-${v}`);
+  }
+  check((await page.evaluate(() => JSON.parse(localStorage.getItem('gst:prefs:salmo-cartine-corte')).view)) === 'lyrics', 'la vista resta salvata per il brano');
+  await page.click('[data-act="view"]');
+  await page.click('.dlg-view [data-view="full"]');
+  await page.click('.dlg-view button[value="ok"]');
 
   // Ritorno alla libreria
   await page.click('.player-head a');

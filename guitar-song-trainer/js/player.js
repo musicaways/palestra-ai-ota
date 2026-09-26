@@ -5,7 +5,8 @@ import { Fretboard } from './fretboard.js';
 import { Sheet } from './sheet.js';
 import { Karaoke } from './karaoke.js';
 import { loadSyncedLyrics, looksLikeLrc, clearLyricsCache } from './lyrics.js';
-import { displayChord, chordColor, shapeNameWithCapo, suggestCapo } from './music.js';
+import { displayChord, chordColor, shapeNameWithCapo, suggestCapo, transposeChord, suggestTranspose } from './music.js';
+import { ARRANGEMENTS, arrangeName, buildArpeggio, shapeForArrangement } from './arrangement.js';
 import { click, WakeLock } from './audio.js';
 import { addPractice, recordRate, recordAccuracy, getStats } from './stats.js';
 import { Listener, matchChord } from './detect.js';
@@ -39,12 +40,19 @@ export async function openPlayer(root, song) {
   let lastBeatKey = '';
   let recorder = null;
   let destroyed = false;
+  let lastIdx = -2; // ultimo accordo mostrato nell'HUD (-2 = da ridisegnare)
   let syncCheck = null; // esito del controllo di coerenza fra testo e accordi
   let lastDiagram = null;
   let ramp = false;
   let counting = null; // conteggio d'attacco in corso
   let tuner = null;
   let capo = store.get(key('capo'), song.capo ?? 0);
+  // preferenze del brano, ricordate per la prossima volta: tonalità, parte, vista, velocità, loop
+  const prefs = {
+    transpose: 0, arrangement: 'rhythm', view: settings.focus ? 'stage' : (settings.view ?? 'full'), rate: 1, loop: null,
+    ...store.get(key('prefs'), {}),
+  };
+  const savePrefs = () => store.set(key('prefs'), prefs);
   let practiceAcc = 0;
   let lastFrameAt = performance.now();
   const wake = new WakeLock();
@@ -59,7 +67,7 @@ export async function openPlayer(root, song) {
       <div class="player-title"><div class="title"></div><div class="artist"></div></div>
       <button class="icon-btn fav" aria-label="Preferito"></button>
       <a class="icon-btn edit-link" href="#/editor/${encodeURIComponent(song.id)}" aria-label="Modifica il brano" title="Modifica il brano">${icon('text')}</a>
-      <button class="icon-btn" data-act="focus" aria-label="Modalità concentrazione" title="Modalità concentrazione: nasconde video e controlli">${icon('focus')}</button>
+      <button class="icon-btn" data-act="view" aria-label="Vista" title="Vista: scegli cosa mostrare (manico, video, testo)">${icon('focus')}</button>
       <button class="icon-btn" data-act="help" aria-label="Guida rapida" title="Guida rapida">?</button>
       <button class="icon-btn" data-act="settings" aria-label="Impostazioni">${icon('settings')}</button>
     </header>
@@ -90,20 +98,31 @@ export async function openPlayer(root, song) {
       <div class="left-col">
         <div class="video-wrap"><div class="video"></div><div class="video-msg" hidden></div></div>
         <div class="transport card">
-          <div class="scrubber" title="Posizione nel brano">
-            <div class="scrub-sections"></div>
-            <div class="scrub-loop" hidden></div>
-            <div class="scrub-fill"></div>
-            <div class="scrub-head"></div>
+          <div class="scrub-row">
+            <span class="t-cur">0:00</span>
+            <div class="scrubber" title="Posizione nel brano">
+              <div class="scrub-sections"></div>
+              <div class="scrub-loop" hidden></div>
+              <div class="scrub-fill"></div>
+              <div class="scrub-head"></div>
+            </div>
+            <span class="t-tot">0:00</span>
           </div>
-          <div class="time-row"><span class="t-cur">0:00</span><button class="resume-chip" hidden></button><span class="loop-label"></span><span class="t-tot">0:00</span></div>
           <div class="transport-row">
-            <div class="speed-pills" role="group" aria-label="Velocità"></div>
             <div class="play-group">
               <button class="round" data-act="back" title="Indietro 5 s (←)">${icon('rewind')}</button>
               <button class="round big" data-act="play" title="Play / Pausa (spazio)">${icon('play', 26)}</button>
               <button class="round" data-act="fwd" title="Avanti 5 s (→)">${icon('forward')}</button>
             </div>
+            <div class="status"><button class="resume-chip" hidden></button><span class="loop-label"></span></div>
+            <div class="mini-group">
+              <button class="mini" data-pop="speed" title="Velocità" aria-expanded="false"><span class="speed-val">100%</span></button>
+              <button class="mini" data-pop="loop" title="Loop A–B e velocità progressiva" aria-expanded="false">${icon('loop', 18)}</button>
+              <button class="mini" data-pop="tools" title="Strumenti: click, tonalità, parte, ascolto, accordatore, sincronia…" aria-expanded="false">${icon('more', 20)}</button>
+            </div>
+          </div>
+          <div class="pop" data-popbody="speed" hidden><div class="speed-pills" role="group" aria-label="Velocità"></div></div>
+          <div class="pop" data-popbody="loop" hidden>
             <div class="loop-group" role="group" aria-label="Loop">
               <button class="seg" data-act="loopA" title="Inizio loop qui ([)">A</button>
               <button class="seg" data-act="loopB" title="Fine loop qui (])">B</button>
@@ -111,16 +130,19 @@ export async function openPlayer(root, song) {
               <button class="seg" data-act="ramp" title="Velocità progressiva: a ogni ripetizione del loop accelera fino al 100%">${icon('ramp', 16)}</button>
               <button class="seg" data-act="loopClear" title="Cancella loop">${icon('close', 16)}</button>
             </div>
+            <span class="hint pop-hint">A e B segnano inizio e fine; ⟲ nel testo ripete una riga o una sezione</span>
           </div>
-          <div class="tools-row">
-            <button class="chip-btn" data-act="metro" title="Click del metronomo">${icon('metronome', 16)} Click</button>
-            <button class="chip-btn" data-act="countin" title="Una battuta di conteggio prima di partire">${icon('count', 16)} Conteggio</button>
-            <button class="chip-btn" data-act="listen" title="Ascolta dal microfono e controlla se suoni l'accordo giusto">${icon('mic', 16)} Ascolto</button>
-            <button class="chip-btn" data-act="capo" title="Capotasto: accordi più facili">${icon('capo', 16)} <span class="capo-label">Capotasto</span></button>
-            <button class="chip-btn" data-act="tuner" title="Accorda la chitarra col microfono">${icon('tuner', 16)} Accordatore</button>
-            <button class="chip-btn" data-act="sync" title="Allinea accordi e testo al video">${icon('sliders', 16)} Sincronia</button>
-            <button class="chip-btn" data-act="record" title="Registra i cambi accordo toccando a tempo">${icon('target', 16)} Registra tempi</button>
-            <button class="chip-btn" data-act="info" title="Informazioni sul brano">${icon('info', 16)} Info</button>
+          <div class="pop tools-row" data-popbody="tools" hidden>
+            <button class="tool" data-act="metro" title="Click del metronomo">${icon('metronome', 18)}<span>Click</span></button>
+            <button class="tool" data-act="countin" title="Una battuta di conteggio prima di partire">${icon('count', 18)}<span>Conteggio</span></button>
+            <button class="tool" data-act="capo" title="Tonalità e capotasto: trasponi o usa forme più facili">${icon('capo', 18)}<span class="capo-label">Tonalità</span></button>
+            <button class="tool" data-act="part" title="Parte di chitarra: ritmica, arpeggio, power chord, facile">${icon('guitar', 18)}<span class="part-label">Ritmica</span></button>
+            <button class="tool" data-act="listen" title="Ascolta dal microfono e controlla se suoni l'accordo giusto">${icon('mic', 18)}<span>Ascolto</span></button>
+            <button class="tool" data-act="tuner" title="Accorda la chitarra col microfono">${icon('tuner', 18)}<span>Accorda</span></button>
+            <button class="tool" data-act="sync" title="Allinea accordi e testo al video">${icon('sliders', 18)}<span>Sincronia</span></button>
+            <button class="tool" data-act="record" title="Registra i cambi accordo toccando a tempo">${icon('target', 18)}<span>Registra</span></button>
+            <button class="tool" data-act="print" title="Stampa o salva in PDF gli accordi del brano">${icon('print', 18)}<span>Stampa</span></button>
+            <button class="tool" data-act="info" title="Informazioni sul brano">${icon('info', 18)}<span>Info</span></button>
           </div>
         </div>
       </div>
@@ -129,7 +151,6 @@ export async function openPlayer(root, song) {
           <button class="panel-tab" data-tab="lyrics">${icon('mic', 16)} Testo</button>
           <button class="panel-tab" data-tab="chords">${icon('grid', 16)} Accordi</button>
           <button class="panel-tab" data-tab="shapes">${icon('hand', 16)} Diteggiature</button>
-          <button class="sync-badge" data-act="sync" hidden></button>
           <span class="panel-source"></span>
         </div>
         <div class="panel-body lyrics-body"></div>
@@ -216,12 +237,32 @@ export async function openPlayer(root, song) {
       </form>
     </dialog>
 
-    <dialog class="dlg dlg-capo"><form method="dialog"><h3>Capotasto</h3>
+    <dialog class="dlg dlg-capo"><form method="dialog"><h3>Tonalità e capotasto</h3>
+      <div class="dlg-sub">Trasposizione</div>
+      <div class="sync-line">
+        <div><b class="tr-desc"></b><span class="hint">cambia la tonalità: utile per cantarla più comoda o per evitare il capotasto</span></div>
+        <div class="stepper"><button type="button" class="round" data-tr="-1">−</button><output class="out-tr">0</output><button type="button" class="round" data-tr="1">+</button></div>
+      </div>
+      <div class="tr-actions"></div>
+      <p class="tr-warn hint" hidden>Attenzione: il video resta nella tonalità originale, quindi suonandoci sopra non combacia. Usalo per suonare da solo o per cantare.</p>
+      <div class="dlg-sub">Capotasto</div>
       <p class="hint">Con il capotasto il brano suona uguale, ma usi forme di accordo diverse, spesso più facili.
       Il manico, i diagrammi e il testo mostrano le forme da suonare.</p>
       <div class="capo-grid"></div>
       <div class="capo-suggest"></div>
       <div class="capo-preview"></div>
+      <menu><button value="ok" class="chip-btn primary">Fatto</button></menu></form></dialog>
+
+    <dialog class="dlg dlg-part"><form method="dialog"><h3>Parte di chitarra</h3>
+      <p class="hint">Più modi di suonare lo stesso brano, ricavati dai suoi accordi. Non sono trascrizioni dei riff originali:
+      sono arrangiamenti per studiare il brano a livelli diversi.</p>
+      <div class="option-list part-list"></div>
+      <menu><button value="ok" class="chip-btn primary">Fatto</button></menu></form></dialog>
+
+    <dialog class="dlg dlg-view"><form method="dialog"><h3>Vista</h3>
+      <p class="hint">Scegli cosa tenere sullo schermo. Il video continua a suonare anche quando è nascosto. La scelta resta salvata per questo brano.</p>
+      <div class="option-list view-list"></div>
+      <label class="check"><input type="checkbox" name="viewDefault"> Usa questa vista per tutti i brani</label>
       <menu><button value="ok" class="chip-btn primary">Fatto</button></menu></form></dialog>
 
     <dialog class="dlg dlg-input"><form method="dialog"><h3>Ingresso audio</h3><div class="input-panel"></div>
@@ -235,10 +276,12 @@ export async function openPlayer(root, song) {
     <dialog class="dlg dlg-help"><form method="dialog"><h3>Guida rapida</h3>
       <ol class="help-list">
         <li><b>Accorda</b> la chitarra con l'<b>Accordatore</b> (col microfono o col cavo Rocksmith).</li>
-        <li><b>Allinea</b> il brano al video: <b>Sincronia → Tocca quando inizia a cantare</b>. L'etichetta accanto al testo ti dice se testo e accordi sono coerenti.</li>
+        <li><b>Allinea</b> il brano al video: <b>Sincronia → Tocca quando inizia a cantare</b>. Se testo e accordi non combaciano, sul pulsante Sincronia compare un pallino arancione.</li>
         <li>Guarda le <b>cornici</b> che arrivano sulla corsia: quando toccano il manico, cambia accordo. Le frecce ↓↑ sono la pennata.</li>
-        <li>Troppo veloce? Abbassa la <b>velocità</b>, oppure metti in <b>loop</b> una sezione (⟲) e attiva la <b>velocità progressiva</b> (↗).</li>
-        <li>Accordi difficili? <b>Capotasto</b>: l'app ti suggerisce dove metterlo per avere forme più facili.</li>
+        <li>Troppo veloce? Tocca <b>100%</b> accanto al play per rallentare, oppure ⟲ per il <b>loop</b> A–B e la <b>velocità progressiva</b> (↗).</li>
+        <li>Gli strumenti meno usati (click, tonalità, parte, ascolto, accordatore, sincronia…) sono dietro al pulsante <b>⋯</b>.</li>
+        <li>Accordi difficili? <b>Tonalità</b>: capotasto suggerito o trasposizione in una tonalità più facile. Con <b>Parte</b> scegli ritmica, arpeggio, power chord o versione facile.</li>
+        <li>Troppe cose sullo schermo? Il pulsante <b>Vista</b> in alto nasconde il manico o il video: solo video, video e testo, solo testo.</li>
         <li>Attiva <b>Ascolto</b>: l'app sente cosa suoni e ti dice se l'accordo è giusto.</li>
       </ol>
       <p class="hint">Tastiera: spazio play/pausa · ← → ±5 s · [ ] punti A/B · L loop · T tocco (registrazione e allineamento)</p>
@@ -249,6 +292,7 @@ export async function openPlayer(root, song) {
   </div>`;
 
   const $ = (s) => root.querySelector(s);
+  $('.player').classList.add(`view-${prefs.view}`); // subito, prima che il video sia pronto
   const hudNow = $('.now-chord');
   const hudNext = $('.next-chord');
   const countdown = $('.countdown');
@@ -287,6 +331,11 @@ export async function openPlayer(root, song) {
   const sheet = new Sheet(chordsBody, handlers);
   const karaoke = new Karaoke(lyricsBody, handlers);
 
+  function diagramShapes(names) {
+    if (prefs.arrangement !== 'easy') return customShapes();
+    return Object.fromEntries(names.map((n) => [n, shapeForArrangement(n, 'easy', null)]).filter(([, sh]) => sh));
+  }
+
   function renderPanel() {
     root.querySelectorAll('.panel-tab').forEach((b) => b.classList.toggle('active', b.dataset.tab === panelTab));
     lyricsBody.hidden = panelTab !== 'lyrics';
@@ -294,7 +343,7 @@ export async function openPlayer(root, song) {
     shapesBody.hidden = panelTab !== 'shapes';
     const names = [...new Set(tl.events.map((e) => e.name))];
     shapesBody.innerHTML = `<p class="hint">Gli accordi del brano, nell'ordine in cui compaiono. Quello che stai suonando si illumina.${capo ? ` <b>Capotasto al ${capo}° tasto</b>: i diagrammi partono dal capotasto.` : ''}</p>
-      <div class="diagram-grid">${names.map((n) => chordDiagram(n, settings, capo ? null : song.shapes)).join('')}</div>`;
+      <div class="diagram-grid">${names.map((n) => chordDiagram(n, settings, diagramShapes(names))).join('')}</div>`;
     lastDiagram = null;
     if (synced?.lines.length) {
       karaoke.render(synced.lines, tl, settings, lyricsOffset);
@@ -316,17 +365,35 @@ export async function openPlayer(root, song) {
     lastIdx = -2;
   }));
 
+  // Nome che suona dopo trasposizione e parte scelta (prima del capotasto).
+  const playedName = (n) => arrangeName(transposeChord(n, prefs.transpose), prefs.arrangement);
+  // Le diteggiature del brano valgono solo per gli accordi originali, senza capotasto.
+  const customShapes = () => (capo || prefs.transpose || prefs.arrangement === 'power' || prefs.arrangement === 'easy' ? null : song.shapes ?? null);
+
   function rebuild() {
     tl = buildTimeline(song, { offset, sync });
-    // con il capotasto si mostrano le forme da suonare (il brano suona uguale)
-    if (capo) tl.events.forEach((ev) => { ev.sounding = ev.name; ev.name = shapeNameWithCapo(ev.name, capo); });
+    // trasposizione → parte → capotasto: si mostrano le forme da suonare, ev.sounding è ciò che suona
+    tl.events.forEach((ev) => {
+      ev.sounding = playedName(ev.name);
+      ev.name = capo ? shapeNameWithCapo(ev.sounding, capo) : ev.sounding;
+    });
     fretboard.capo = capo;
-    fretboard.customShapes = capo ? null : song.shapes ?? null;
+    fretboard.arrangement = prefs.arrangement;
+    fretboard.customShapes = customShapes();
+    fretboard.lastNote = -1;
+    if (prefs.arrangement === 'arpeggio') tl.notes = buildArpeggio(tl, (n) => shapeForArrangement(n, 'rhythm', customShapes()));
+    const tags = [];
+    if (prefs.transpose) tags.push(`${prefs.transpose > 0 ? '+' : '−'}${Math.abs(prefs.transpose)} st`);
+    if (capo) tags.push(`capo ${capo}`);
+    if (prefs.arrangement !== 'rhythm') tags.push(ARRANGEMENTS.find((a) => a.id === prefs.arrangement)?.label.toLowerCase());
     const badge = root.querySelector('.capo-badge');
-    if (badge) { badge.hidden = !capo; badge.textContent = `capo ${capo}`; }
+    if (badge) { badge.hidden = !tags.length; badge.textContent = tags.join(' · '); }
     const cl = root.querySelector('.capo-label');
-    if (cl) cl.textContent = capo ? `Capo ${capo}` : 'Capotasto';
-    root.querySelector('[data-act="capo"]')?.classList.toggle('active', !!capo);
+    if (cl) cl.textContent = [prefs.transpose ? `${prefs.transpose > 0 ? '+' : '−'}${Math.abs(prefs.transpose)}` : '', capo ? `Capo ${capo}` : ''].filter(Boolean).join(' · ') || 'Tonalità';
+    root.querySelector('[data-act="capo"]')?.classList.toggle('active', !!capo || !!prefs.transpose);
+    const pl = root.querySelector('.part-label');
+    if (pl) pl.textContent = ARRANGEMENTS.find((a) => a.id === prefs.arrangement)?.label ?? 'Ritmica';
+    root.querySelector('[data-act="part"]')?.classList.toggle('active', prefs.arrangement !== 'rhythm');
     renderPanel();
     drawScrubSections();
     paintLoop();
@@ -376,7 +443,10 @@ export async function openPlayer(root, song) {
   const speedBox = $('.speed-pills');
   const rates = clock.rates().filter((r) => r >= 0.5 && r <= 1.25);
   function paintSpeed() {
+    if (destroyed) return; // può arrivare da un timer dopo l'uscita dal brano
     const cur = clock.getRate();
+    $('.speed-val').textContent = `${Math.round(cur * 100)}%`;
+    $('[data-pop="speed"]').classList.toggle('active', Math.abs(cur - 1) > 0.001);
     speedBox.querySelectorAll('button').forEach((b) => b.classList.toggle('active', Math.abs(Number(b.dataset.rate) - cur) < 0.001));
   }
   for (const r of rates) {
@@ -384,11 +454,15 @@ export async function openPlayer(root, song) {
     b.className = 'seg';
     b.dataset.rate = r;
     b.textContent = `${Math.round(r * 100)}%`;
-    b.addEventListener('click', () => { clock.setRate(r); setTimeout(paintSpeed, 150); });
+    b.addEventListener('click', () => { clock.setRate(r); prefs.rate = r; savePrefs(); togglePop(null); setTimeout(paintSpeed, 150); });
     speedBox.append(b);
   }
+  if (prefs.rate !== 1 && rates.includes(prefs.rate)) clock.setRate(prefs.rate);
+  setTimeout(paintSpeed, 150);
   paintSpeed();
   drawScrubSections();
+  // loop salvato l'ultima volta: torna pronto ma spento (L o ⟲ per attivarlo)
+  if (prefs.loop && prefs.loop.b > prefs.loop.a) { loop = { on: false, ...prefs.loop }; paintLoop(); }
 
   // ---------- Loop ----------
   function setLoop(a, b, label = '') {
@@ -401,6 +475,8 @@ export async function openPlayer(root, song) {
   function paintLoop() {
     const dur = totalDuration();
     const valid = loop.a != null && loop.b != null && loop.b > loop.a;
+    const saved = valid ? { a: loop.a, b: loop.b, label: loop.label } : null;
+    if (clock && JSON.stringify(saved) !== JSON.stringify(prefs.loop ?? null) && (valid || loop.a == null)) { prefs.loop = saved; savePrefs(); }
     scrubLoop.hidden = !valid;
     if (valid) {
       scrubLoop.style.left = `${(loop.a / dur) * 100}%`;
@@ -408,6 +484,7 @@ export async function openPlayer(root, song) {
       scrubLoop.classList.toggle('off', !loop.on);
     }
     $('[data-act="loopToggle"]').classList.toggle('active', loop.on && valid);
+    $('[data-pop="loop"]').classList.toggle('active', loop.on && valid);
     $('[data-act="loopA"]').classList.toggle('active', loop.a != null);
     $('[data-act="loopB"]').classList.toggle('active', loop.b != null);
     loopLabel.textContent = valid
@@ -585,29 +662,150 @@ export async function openPlayer(root, song) {
 
   function openCapo() {
     const dlg = $('.dlg-capo');
-    const soundingNames = buildTimeline(song).events.map((e) => e.name);
-    const sug = suggestCapo(soundingNames, song.shapes);
+    const origNames = buildTimeline(song).events.map((e) => e.name);
+    const easiest = suggestTranspose(origNames.map((n) => arrangeName(n, prefs.arrangement)));
     const paint = () => {
+      const soundingNames = origNames.map(playedName);
+      const uniq = [...new Set(soundingNames)];
+      const sug = suggestCapo(soundingNames, customShapes());
+      const tr = prefs.transpose;
+      dlg.querySelector('.out-tr').textContent = tr ? `${tr > 0 ? '+' : '−'}${Math.abs(tr)}` : '0';
+      const key = song.key ? displayChord(transposeChord(song.key, tr), settings.notation) : '';
+      dlg.querySelector('.tr-desc').textContent = tr
+        ? `${Math.abs(tr)} semitoni ${tr > 0 ? 'sopra' : 'sotto'}${key ? ` · tonalità ${key}` : ''}`
+        : `Tonalità originale${key ? ` (${key})` : ''}`;
+      const acts = [];
+      if (tr) acts.push('<button type="button" class="chip-btn" data-trset="0">Torna all\'originale</button>');
+      // senza capotasto: si porta il brano alla tonalità che suona uguale con le forme "a capo"
+      if ((song.capo ?? 0) > 0 && tr !== song.capo) {
+        acts.push(`<button type="button" class="chip-btn" data-trset="${song.capo}" data-capoto="0">Suonala senza capotasto (+${song.capo})</button>`);
+      }
+      if (easiest.semitones !== tr && easiest.semitones !== 0) {
+        acts.push(`<button type="button" class="chip-btn" data-trset="${easiest.semitones}" data-capoto="0">Tonalità più facile senza capotasto (${easiest.semitones > 0 ? '+' : '−'}${Math.abs(easiest.semitones)})</button>`);
+      }
+      dlg.querySelector('.tr-actions').innerHTML = acts.join('');
+      dlg.querySelector('.tr-warn').hidden = !tr || !song.youtubeId;
       dlg.querySelector('.capo-grid').innerHTML = Array.from({ length: 8 }, (_, c) =>
         `<button type="button" class="seg${c === capo ? ' active' : ''}" data-capo="${c}">${c ? c + '°' : 'No'}</button>`).join('');
       dlg.querySelector('.capo-suggest').innerHTML = sug.capo
         ? `Suggerito: <b>capotasto al ${sug.capo}° tasto</b> (accordi più facili). <button type="button" class="chip-btn" data-capo="${sug.capo}">Usa il suggerito</button>`
-        : 'Suggerito: <b>nessun capotasto</b>, le forme originali sono già le più comode.';
-      const uniq = [...new Set(soundingNames)];
+        : 'Suggerito: <b>nessun capotasto</b>, le forme attuali sono già le più comode.';
       dlg.querySelector('.capo-preview').innerHTML = uniq.map((n) =>
-        `<span class="chip" style="--chip:${chordColor(n)}">${displayChord(shapeNameWithCapo(n, capo), settings.notation)}</span>`).join('');
+        `<span class="chip" style="--chip:${chordColor(n)}">${displayChord(capo ? shapeNameWithCapo(n, capo) : n, settings.notation)}</span>`).join('');
     };
     paint();
     dlg.onclick = (e) => {
-      const b = e.target.closest('[data-capo]');
+      const b = e.target.closest('[data-capo], [data-tr], [data-trset]');
       if (!b) return;
-      capo = Number(b.dataset.capo);
-      store.set(key('capo'), capo);
+      if (b.dataset.tr) prefs.transpose = Math.max(-6, Math.min(6, prefs.transpose + Number(b.dataset.tr)));
+      if (b.dataset.trset != null) prefs.transpose = Number(b.dataset.trset);
+      const c = b.dataset.capo ?? b.dataset.capoto;
+      if (c != null) { capo = Number(c); store.set(key('capo'), capo); }
+      savePrefs();
       rebuild();
       lastIdx = -2;
       paint();
     };
     dlg.showModal();
+  }
+
+  function openPart() {
+    const dlg = $('.dlg-part');
+    const paint = () => {
+      dlg.querySelector('.part-list').innerHTML = ARRANGEMENTS.map((a) =>
+        `<button type="button" class="option${a.id === prefs.arrangement ? ' active' : ''}" data-part="${a.id}"><b>${a.label}</b><span>${a.desc}</span></button>`).join('');
+    };
+    paint();
+    dlg.onclick = (e) => {
+      const b = e.target.closest('[data-part]');
+      if (!b) return;
+      prefs.arrangement = b.dataset.part;
+      savePrefs();
+      rebuild();
+      lastIdx = -2;
+      paint();
+    };
+    dlg.showModal();
+  }
+
+  // ---------- Vista: cosa tenere sullo schermo ----------
+  const VIEWS = [
+    { id: 'full', label: 'Completa', desc: 'Manico, video e testo con gli accordi.' },
+    { id: 'stage', label: 'Manico e testo', desc: 'Nasconde il video: più spazio al manico.' },
+    { id: 'videolyrics', label: 'Video e testo', desc: 'Nasconde il manico: video grande e testo scorrevole con gli accordi.' },
+    { id: 'video', label: 'Solo video', desc: 'Solo il video con accordo attuale e prossimo.' },
+    { id: 'lyrics', label: 'Solo testo', desc: 'Testo scorrevole con gli accordi, a tutto schermo. L\'audio del video continua.' },
+  ];
+  const stageHidden = () => ['videolyrics', 'video', 'lyrics'].includes(prefs.view);
+  function applyView() {
+    if (!VIEWS.some((v) => v.id === prefs.view)) prefs.view = 'full';
+    const el = root.querySelector('.player');
+    for (const v of VIEWS) el.classList.toggle(`view-${v.id}`, v.id === prefs.view);
+    $('[data-act="view"]').classList.toggle('active', prefs.view !== 'full');
+    lastIdx = -2;
+    karaoke.cur = -2;
+    requestAnimationFrame(() => fretboard.resize?.());
+  }
+  function openView() {
+    const dlg = $('.dlg-view');
+    const f = dlg.querySelector('form');
+    f.viewDefault.checked = (settings.view ?? 'full') === prefs.view;
+    const paint = () => {
+      dlg.querySelector('.view-list').innerHTML = VIEWS.map((v) =>
+        `<button type="button" class="option${v.id === prefs.view ? ' active' : ''}" data-view="${v.id}"><b>${v.label}</b><span>${v.desc}</span></button>`).join('');
+    };
+    paint();
+    const saveDefault = () => {
+      if (f.viewDefault.checked) { settings.view = prefs.view; delete settings.focus; saveSettings(settings); }
+    };
+    f.viewDefault.onchange = saveDefault;
+    dlg.onclick = (e) => {
+      const b = e.target.closest('[data-view]');
+      if (!b) return;
+      prefs.view = b.dataset.view;
+      savePrefs();
+      applyView();
+      saveDefault();
+      paint();
+    };
+    dlg.showModal();
+  }
+
+  // ---------- Stampa degli accordi (senza testo) ----------
+  function printSheet() {
+    const esc = (x) => String(x ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+    const names = [...new Set(tl.events.map((e) => e.name))];
+    const rows = tl.sections.map((sec) => {
+      const bars = tl.bars.filter((b) => b.start >= sec.start - 1e-6 && b.start < sec.end - 1e-6);
+      const cells = bars.map((b) => {
+        const evs = tl.events.filter((ev) => ev.start < b.end - 1e-6 && ev.end > b.start + 1e-6);
+        const shown = evs.filter((ev, i) => i === 0 ? ev.start >= b.start - 1e-6 : true);
+        return `<td>${shown.length ? shown.map((ev) => esc(displayChord(ev.name, settings.notation))).join(' ') : '%'}</td>`;
+      });
+      const per = song.barsPerRow ?? 4;
+      const lines = [];
+      for (let i = 0; i < cells.length; i += per) lines.push(`<tr>${cells.slice(i, i + per).join('')}</tr>`);
+      return `<h2>${esc(sec.name)}</h2><table>${lines.join('')}</table>`;
+    }).join('');
+    const tags = [
+      song.key && `Tonalità ${esc(displayChord(transposeChord(song.key, prefs.transpose), settings.notation))}`,
+      song.bpm && `${song.bpm} BPM`, song.timeSignature && song.timeSignature.join('/'),
+      capo && `Capotasto al ${capo}° tasto`, prefs.transpose && `Trasposto di ${prefs.transpose > 0 ? '+' : ''}${prefs.transpose}`,
+      prefs.arrangement !== 'rhythm' && `Parte: ${ARRANGEMENTS.find((a) => a.id === prefs.arrangement)?.label}`,
+      tl.strum && `Pennata ${esc(tl.strum)}`,
+    ].filter(Boolean).join(' · ');
+    const w = window.open('', '_blank');
+    if (!w) { toast('Consenti i popup per stampare'); return; }
+    w.document.write(`<!doctype html><html lang="it"><head><meta charset="utf-8"><title>${esc(song.title)} · accordi</title>
+      <style>body{font:14px system-ui,sans-serif;color:#111;margin:24px}h1{margin:0;font-size:24px}.meta{color:#555;margin:4px 0 16px}
+      h2{font-size:14px;text-transform:uppercase;letter-spacing:.08em;margin:18px 0 6px;color:#444}
+      table{border-collapse:collapse;width:100%}td{border:1px solid #bbb;padding:8px 10px;font-weight:700;font-size:16px;width:25%}
+      .diagrams{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px;break-inside:avoid}.diagrams>*{width:110px}
+      .diagrams svg{width:100%;height:auto}.diagrams *{color:#111!important}</style></head><body>
+      <h1>${esc(song.title)}</h1><div class="meta">${esc(song.artist)}${tags ? ' · ' + tags : ''}</div>${rows}
+      <div class="diagrams">${names.map((n) => chordDiagram(n, { ...settings, showNoteNames: false }, diagramShapes(names))).join('')}</div>
+      <script>setTimeout(()=>print(),300)<\/script></body></html>`);
+    w.document.close();
   }
 
   // ---------- Modalità ascolto: l'app sente cosa suoni ----------
@@ -698,7 +896,7 @@ export async function openPlayer(root, song) {
   }
 
   // ---------- Pulsanti ----------
-  root.querySelector('.player').classList.toggle('focus', !!settings.focus);
+  applyView();
   if (!store.get('helpSeen', false)) { store.set('helpSeen', true); setTimeout(() => !destroyed && $('.dlg-help').showModal(), 600); }
   const paintToggles = () => {
     $('[data-act="metro"]').classList.toggle('active', settings.metronome);
@@ -706,7 +904,23 @@ export async function openPlayer(root, song) {
   };
   paintToggles();
 
+  // Comandi secondari a scomparsa: velocità, loop e strumenti si aprono uno alla volta sotto la barra.
+  function togglePop(name) {
+    root.querySelectorAll('[data-popbody]').forEach((p) => {
+      const open = p.dataset.popbody === name && p.hidden;
+      p.hidden = !open;
+      const btn = root.querySelector(`[data-pop="${p.dataset.popbody}"]`);
+      btn.classList.toggle('open', open);
+      btn.setAttribute('aria-expanded', String(open));
+    });
+    // il pannello appena aperto deve vedersi anche se la barra è in fondo allo schermo
+    const opened = name && root.querySelector(`[data-popbody="${name}"]:not([hidden])`);
+    if (opened) requestAnimationFrame(() => opened.scrollIntoView({ block: 'nearest', behavior: 'smooth' }));
+  }
+
   $('.player').addEventListener('click', (e) => {
+    const pop = e.target.closest('[data-pop]')?.dataset.pop;
+    if (pop) { togglePop(pop); return; }
     const act = e.target.closest('[data-act]')?.dataset.act;
     if (!act) return;
     const t = clock.getTime();
@@ -730,10 +944,9 @@ export async function openPlayer(root, song) {
       case 'input': e.preventDefault(); openInput(); break;
       case 'capo': openCapo(); break;
       case 'help': $('.dlg-help').showModal(); break;
-      case 'focus':
-        settings.focus = !settings.focus; saveSettings(settings);
-        root.querySelector('.player').classList.toggle('focus', settings.focus);
-        break;
+      case 'view': openView(); break;
+      case 'part': openPart(); break;
+      case 'print': printSheet(); break;
       case 'metro': settings.metronome = !settings.metronome; saveSettings(settings); paintToggles(); break;
       case 'sync': openSync(); break;
       case 'record': startRecorder(); break;
@@ -798,16 +1011,17 @@ export async function openPlayer(root, song) {
     return (synced?.lines ?? []).filter((l) => l.text).map((l) => l.t + lyricsOffset);
   }
 
+  // Il controllo resta interno: se testo e accordi non combaciano compare solo un pallino sul pulsante Sincronia.
   function paintSyncBadge() {
-    const badge = root.querySelector('.sync-badge');
     syncCheck = synced?.lines.length ? lyricGridCheck(lyricLines(), tl) : null;
-    if (!badge) return;
-    badge.hidden = !syncCheck || syncCheck.status === 'unknown';
-    if (badge.hidden) return;
-    const ok = syncCheck.status === 'ok';
-    badge.classList.toggle('ok', ok);
-    badge.textContent = ok ? '✓ In sincronia' : '⚠ Sincronia da verificare';
-    badge.title = `Coerenza fra testo e accordi: ${Math.round(syncCheck.coherence * 100)}%`;
+    const btn = root.querySelector('.tools-row [data-act="sync"]');
+    if (!btn) return;
+    const warn = syncCheck?.status === 'check';
+    btn.classList.toggle('warn', warn);
+    root.querySelector('[data-pop="tools"]')?.classList.toggle('warn', warn);
+    btn.title = warn
+      ? `Testo e accordi da verificare (coerenza ${Math.round(syncCheck.coherence * 100)}%): apri per allinearli`
+      : 'Allinea accordi e testo al video';
   }
 
   function applyShift(d, why) {
@@ -983,6 +1197,7 @@ export async function openPlayer(root, song) {
       case '[': $('[data-act="loopA"]').click(); break;
       case ']': $('[data-act="loopB"]').click(); break;
       case 'l': case 'L': $('[data-act="loopToggle"]').click(); break;
+      case 'Escape': togglePop(null); break;
       case 't': case 'T': case 'Enter':
         if (tapPending) { e.preventDefault(); tapAlignNow(); } else if (recorder) { e.preventDefault(); tap(); }
         break;
@@ -992,7 +1207,6 @@ export async function openPlayer(root, song) {
   window.addEventListener('keydown', onKey);
 
   // ---------- Ciclo di animazione ----------
-  let lastIdx = -2;
   let lastTimeText = '';
   function frame() {
     if (destroyed) return;
@@ -1010,7 +1224,7 @@ export async function openPlayer(root, song) {
 
     const idx = eventIndexAt(tl, t);
     const { bar, beat } = beatAt(tl, t);
-    fretboard.render(t, tl, idx, settings, clock.playing);
+    if (!stageHidden()) fretboard.render(t, tl, idx, settings, clock.playing);
     if (panelTab === 'lyrics' && synced?.lines.length) karaoke.update(t, settings);
     else sheet.update(bar, settings);
 

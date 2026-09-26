@@ -257,3 +257,15 @@ export function suggestCapo(chordNames, custom) {
   }
   return { ...best, scores };
 }
+
+// Tonalità più comoda SENZA capotasto: trasposizione (−5…+6 semitoni) con gli accordi più facili.
+// Il brano suona in un'altra tonalità rispetto al video: utile per cantare o suonare da soli.
+export function suggestTranspose(chordNames) {
+  const names = [...new Set(chordNames)];
+  let best = { semitones: 0, score: Infinity };
+  for (let t = -5; t <= 6; t++) {
+    const score = names.reduce((s, n) => s + shapeDifficulty(getShape(transposeChord(n, t))), 0) + Math.abs(t) * 0.35;
+    if (score < best.score - 1e-9) best = { semitones: t, score };
+  }
+  return best;
+}

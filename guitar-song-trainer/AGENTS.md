@@ -65,6 +65,7 @@ js/usersongs.js       brani creati/modificati dall'utente (localStorage) e fusio
 js/editor.js          pagina #/editor e #/editor/<id>
 js/input.js           ingresso audio condiviso (GuitarInput): dispositivo, cavo Rocksmith, guadagno, monitor
 js/syncmath.js        coerenza testo/accordi (lyricGridCheck), stima dello sfasamento dall'audio, tocco
+js/arrangement.js     parti di chitarra: ritmica, arpeggio (buildArpeggio → tl.notes), power chord, facile
 tools/checklyrics.py  verifica che ogni brano abbia il testo sincronizzato su LRCLIB (stampa solo numeri)
 tools/checksync.mjs   coerenza griglia/testo per ogni brano; con --fix corregge l'offset se affidabile
 tools/lrcgrid.py      analisi dei SOLI tempi LRCLIB: BPM ottimale, offset, blocchi e ritornelli
@@ -80,8 +81,13 @@ tests/e2e.mjs         test end-to-end Playwright (desktop + telefono)
 
 Flusso del player: `buildTimeline(song, {offset, sync})` → ogni frame `clock.getTime()` →
 `eventIndexAt` / `beatAt` → `fretboard.render(...)`, `karaoke.update(...)` / `sheet.update(...)`, HUD.
-Con il capotasto gli eventi della timeline vengono rinominati con la forma da suonare
-(`ev.sounding` conserva il nome reale) e `Fretboard.capo` sposta le forme in su.
+Catena dei nomi in `rebuild()`: nome del brano → `transposeChord` (trasposizione) → `arrangeName`
+(parte: power/facile) = `ev.sounding` (ciò che suona) → `shapeNameWithCapo` = `ev.name` (forma da suonare).
+`Fretboard.capo` sposta le forme in su; con la parte arpeggio `tl.notes` contiene le note singole.
+Preferenze per brano in `gst:prefs:<id>` {transpose, arrangement, view, rate, loop}; vista predefinita in
+`settings.view`. Viste = classi `.player.view-<id>` (full, stage, videolyrics, video, lyrics); il video
+nascosto resta acceso fuori schermo; senza manico il canvas non viene disegnato.
+Comandi del trasporto: velocità, loop e strumenti sono pannelli `[data-popbody]` aperti da `[data-pop]`.
 
 ## Formato di un brano
 
@@ -118,10 +124,11 @@ node tests/e2e.mjs http://localhost:8080   # test nel browser (serve Playwright 
 ```
 Nel test e2e YouTube è bloccato di proposito (si prova il clock di riserva); il microfono è finto.
 
-## Stato attuale (v1.5.0 — 2026-09-26)
+## Stato attuale (v1.6.0 — 2026-09-26)
 
-- Funziona tutto quanto descritto sopra; 45 test unitari e 144 controlli e2e verdi (desktop + telefono,
-  incluso: ogni brano si apre con tutte le diteggiature, nessuno scorrimento orizzontale su telefono).
+- Funziona tutto quanto descritto sopra; 51 test unitari e 222 controlli e2e verdi (desktop + telefono,
+  incluso: ogni brano si apre con tutte le diteggiature, nessuno scorrimento orizzontale, nessuna
+  sovrapposizione fra componenti in tutte e cinque le viste, comandi compatti).
 - **33 brani**, tutti con testo sincronizzato disponibile (verificato con tools/checklyrics.py).
   Aggiunti in v1.5.0: Blanco (Mi fai impazzire, Paraocchi, Blu celeste), PTN (Giovani Wannabe, Scrivile
   scemo, La storia infinita), Olly (Depresso fortunato), Cremonini (Nessuno vuole essere Robin), Rino Gaetano
@@ -164,6 +171,10 @@ Nel test e2e YouTube è bloccato di proposito (si prova il clock di riserva); il
 - **Tempi reali tramite "warp" della griglia**: i TAP registrati deformano la griglia del BPM in modo
   continuo, così battute tenute e battiti restano coerenti.
 - **Capotasto come ridenominazione degli eventi**: tutto il resto dell'interfaccia non deve saperne nulla.
+  Lo stesso vale per trasposizione e parti (power/facile).
+- **Parti ricavate dagli accordi**, non riff originali trascritti: niente materiale protetto e funziona per ogni brano.
+  Il motore delle note singole (`tl.notes`) è pronto per ospitare tablature vere in futuro.
+- **Interfaccia sobria**: niente etichette permanenti per stati rari (sincronia → pallino), strumenti rari dietro ⋯.
 - Il suggerimento del capotasto penalizza barrè, estensioni ampie e tasti alti (`shapeDifficulty`).
 
 ## Diario delle sessioni
@@ -184,6 +195,10 @@ Nel test e2e YouTube è bloccato di proposito (si prova il clock di riserva); il
   testo con ricerca di riserva, 16 nuovi brani, riga del testo sotto il manico, riprendi, guida rapida,
   ordinamento e "Continua" in libreria. Bug corretti: errore se il testo arrivava prima del video,
   pagina più larga dello schermo su telefono (pulsanti velocità, schede, accordi del karaoke).
+  Poi v1.6.0 (richieste dell'utente): tolta l'etichetta di sincronia, viste (manico nascondibile),
+  parti di chitarra (arpeggio, power chord, facile), trasposizione e "senza capotasto", preferenze
+  per brano, stampa accordi, comandi compatti a scomparsa (l'utente li trovava troppo ingombranti),
+  schermata ad altezza fissa senza sovrapposizioni. Bug corretto: errore TDZ su `lastIdx`.
 
 ## Prossimi passi (idee in ordine di utilità)
 
@@ -194,6 +209,7 @@ Nel test e2e YouTube è bloccato di proposito (si prova il clock di riserva); il
    Rocksmith il segnale è pulito e forse si possono alzare le soglie).
 4b. Verificare sul video reale offset e strutture dei 17 brani e salvare i tempi `sync`.
 4c. Miniature dei brani offline (oggi arrivano da YouTube) e ordinamento per popolarità.
-5. Tablature per riff e intro (note singole oltre agli accordi).
+5. Tablature per riff e intro: il formato può aggiungere `riffs` per sezione che finiscono in `tl.notes`
+   (fretboard le disegna già come gemme); l'utente le ha chieste "dove possibile".
 6. Importare nell'editor gli accordi da testo incollato (formato "accordi sopra le parole").
 7. Sincronizzare i brani dell'utente fra dispositivi (oggi sono solo nel browser).

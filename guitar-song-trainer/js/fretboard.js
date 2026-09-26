@@ -4,6 +4,7 @@
 //   colorate sulle corde e sui tasti giusti, che si posano sul manico nel momento del cambio.
 import { getShape, displayChord, chordColor, STRING_COLORS, noteName, fretNote } from './music.js';
 import { beatsBetween } from './timeline.js';
+import { easyShape } from './arrangement.js';
 
 const INLAYS = [3, 5, 7, 9, 15, 17, 19, 21];
 const DOUBLE_INLAYS = [12, 24];
@@ -25,6 +26,8 @@ export class Fretboard {
     this.camStart = 0;
     this.customShapes = null;
     this.capo = 0;
+    this.arrangement = 'rhythm';
+    this.lastNote = -1;
     this.particles = [];
     this.vibration = [0, 0, 0, 0, 0, 0];
     this.lastIdx = -2;
@@ -51,7 +54,8 @@ export class Fretboard {
   // Con il capotasto la forma resta la stessa ma si sposta in su di "capo" tasti.
   shape(name) {
     if (!name) return null;
-    const base = getShape(name, this.capo ? null : this.customShapes);
+    let base = getShape(name, this.capo ? null : this.customShapes);
+    if (this.arrangement === 'easy') base = easyShape(base);
     if (!base || !this.capo) return base;
     const c = this.capo;
     return {
@@ -174,7 +178,7 @@ export class Fretboard {
     }
 
     // frecce della pennata sulle suddivisioni della battuta
-    if (tl.strum) {
+    if (tl.strum && !tl.notes) {
       const pat = tl.strum.replace(/\s+/g, '');
       const ax = laneL + (laneR - laneL) * (mirror ? 0.94 : 0.06);
       for (const bar of tl.bars) {
@@ -207,7 +211,21 @@ export class Fretboard {
     }
     upcoming.sort((a, b) => b.d - a.d);
     const geo = { P, X, noteX, fretX, stringY, yTop, yBot };
-    for (const u of upcoming) this.drawChordFrame(u.ev, u.d, settings, geo, u.ghost);
+    for (const u of upcoming) this.drawChordFrame(u.ev, u.d, settings, geo, u.ghost || !!tl.notes);
+
+    // parte ad arpeggio: le singole note arrivano come gemme sulla loro corda e sul loro tasto
+    if (tl.notes) {
+      const shift = (f) => (f > 0 ? f + this.capo : f);
+      for (let i = tl.notes.length - 1; i >= 0; i--) {
+        const nt = tl.notes[i];
+        const d = nt.t - t;
+        if (d > LOOKAHEAD || d <= 0) continue;
+        const [gx, gy, sc] = P(X(noteX(shift(nt.fret))), stringY(nt.string), d);
+        ctx.globalAlpha = Math.min(1, (LOOKAHEAD - d) / 0.6);
+        gem(ctx, gx, gy, Math.max(2, 9 * sc), STRING_COLORS[nt.string]);
+        ctx.globalAlpha = 1;
+      }
+    }
     ctx.restore();
 
     // ---- manico ----
@@ -222,6 +240,35 @@ export class Fretboard {
     }
     if (!shapeA && cur) this.unknown(cur.name, settings, neckTop + neckH / 2);
     this.drawFingering(shapeA, shapeB, p, t, cur, settings, { X, noteX, stringY, openW });
+
+    // nota dell'arpeggio che sta suonando: anello luminoso + scintille all'attacco
+    if (tl.notes) {
+      let lo = 0;
+      let hi = tl.notes.length - 1;
+      let ni = -1;
+      while (lo <= hi) {
+        const mid = (lo + hi) >> 1;
+        if (tl.notes[mid].t <= t) { ni = mid; lo = mid + 1; } else hi = mid - 1;
+      }
+      const nt = tl.notes[ni];
+      if (nt && t < nt.t + nt.dur) {
+        const f = nt.fret > 0 ? nt.fret + this.capo : 0;
+        const nx = X(noteX(f));
+        const ny = stringY(nt.string);
+        const k = 1 - (t - nt.t) / nt.dur;
+        ctx.strokeStyle = '#fff';
+        ctx.lineWidth = 3;
+        ctx.shadowColor = STRING_COLORS[nt.string];
+        ctx.shadowBlur = 24 * k;
+        ctx.beginPath(); ctx.arc(nx, ny, 15 + 4 * k, 0, Math.PI * 2); ctx.stroke();
+        ctx.shadowBlur = 0;
+        if (ni !== this.lastNote && playing) {
+          this.vibration[nt.string] = 0.8;
+          this.burst(nx, ny, STRING_COLORS[nt.string], 5);
+        }
+      }
+      this.lastNote = ni;
+    }
 
     // ---- esito in modalità ascolto ----
     if (this.verdict) {

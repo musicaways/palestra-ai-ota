@@ -1,5 +1,19 @@
 # Novità
 
+## 1.6.0 — 2026-09-26
+- **Vista**: si può nascondere il manico o il video — completa, manico e testo, video e testo, solo video,
+  solo testo. Senza manico resta una barra compatta con accordo attuale e prossimo; il video nascosto continua a suonare.
+- **Parti di chitarra**: ritmica, arpeggio (note singole a crome sulla corsia e sul manico), power chord, facile
+  (accordi semplificati, forme ridotte senza barrè). Arrangiamenti ricavati dagli accordi, non trascrizioni.
+- **Tonalità**: trasposizione ±6 semitoni, "suonala senza capotasto", tonalità più facile senza capotasto.
+- **Preferenze per brano** ricordate: tonalità, capotasto, parte, vista, velocità e loop.
+- **Comandi compatti**: una sola riga (play, velocità, loop, ⋯); gli strumenti usati di rado stanno in una
+  riga di icone scorrevole che si apre con ⋯. Da ~330 px a ~105 px.
+- Niente più etichetta "In sincronia": il controllo resta, e se serve compare un pallino sul pulsante Sincronia.
+- **Stampa accordi**: griglia per sezioni e diagrammi, pronta per stampa o PDF (senza testo).
+- Schermata ad altezza fissa su computer e telefono: nulla scorre sotto il palco, le schede del testo restano visibili.
+- Test: controllo automatico delle sovrapposizioni in ogni vista, tutte le parti e trasposizioni per ogni brano.
+
 ## 1.5.0 — 2026-09-26
 - Sincronia garantita: controllo automatico di coerenza fra testo e accordi con indicatore, correzione
   automatica, allineamento al video con un tocco o ascoltando il video dal microfono, regolatore "Tutto".
