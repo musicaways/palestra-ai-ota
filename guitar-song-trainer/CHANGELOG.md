@@ -1,5 +1,17 @@
 # Novità
 
+## 1.8.0 — 2026-09-26
+- **Sincronia di default per tutti i brani**: la griglia degli accordi è agganciata ai tempi del canto lungo tutto il
+  brano (campo `warp`): niente deriva anche se il BPM stimato non è perfetto o il brano è suonato senza metronomo;
+  per il rap l'aggancio è al battito. Coerenza testo/accordi ok per 417 brani su 443 (prima 183 su 213).
+- **Catalogo: 443 brani di 162 artisti** (230 nuovi).
+- **Base**: una chitarra sintetica suona gli accordi con la pennata del brano (o le note dell'arpeggio).
+- **Dizionario degli accordi** con suono; **quiz d'ascolto** in Impara; nuove lezioni (pentatonica 2ª posizione,
+  blues in 12 battute, riff boogie).
+- **Scalette**: brani in fila con passaggio automatico al successivo; libreria con filtri per genere e decennio,
+  brano a caso, indice A–Z degli artisti.
+- Corretto: gli strumenti di controllo non leggevano i testi LRC con fine riga Windows (\r\n).
+
 ## 1.7.0 — 2026-09-26
 - **Catalogo: 213 brani di 101 artisti** (179 nuovi) con un generatore automatico (`tools/autosong.py`): gli accordi di una pagina pubblica vengono
   agganciati riga per riga ai tempi del canto di LRCLIB (il testo resta solo in memoria), con BPM, sezioni e video.

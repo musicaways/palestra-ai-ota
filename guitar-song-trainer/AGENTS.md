@@ -72,9 +72,14 @@ js/learn.js           pagine #/impara e #/impara/<id> (esercizio animato: tl.not
 js/camera.js          CameraRecorder (fotocamera + audio, MediaRecorder), registrazioni in IndexedDB, condivisione
 js/recordings.js      pagina #/registrazioni
 js/progress.js        livello, serie di giorni, obiettivi (computeProgress puro) e pagina #/progressi
+js/chords.js          dizionario degli accordi #/accordi (chordInfo puro)
+js/setlists.js        scalette (localStorage), parseSongHash/songHref per #/song/<id>?s=<scaletta>
 tools/autosong.py     GENERA UN BRANO: accordi (accordiespartiti) agganciati alle righe LRCLIB, BPM, sezioni, video
 tools/chordscan.py    mostra solo le sigle degli accordi di una pagina (il testo diventa "~")
 tools/checksong.mjs   controlla forme, durata e video di ogni brano
+tools/lrcwarp.mjs     SINCRONIA DI DEFAULT: ancore warp (battuta→secondo) sui tempi del canto; --write le salva se migliorano
+tools/audiosync.py    sperimentale: BPM dall'anteprima audio Deezer + parole (faster-whisper); non usato (precisione 1–2%)
+tools/tlinfo.mjs      stampa la timeline di un brano in JSON (per gli strumenti Python)
 tools/checklyrics.py  verifica che ogni brano abbia il testo sincronizzato su LRCLIB (stampa solo numeri)
 tools/checksync.mjs   coerenza griglia/testo per ogni brano; con --fix corregge l'offset se affidabile
 tools/lrcgrid.py      analisi dei SOLI tempi LRCLIB: BPM ottimale, offset, blocchi e ritornelli
@@ -108,6 +113,8 @@ Documentato nel README (sezione "Aggiungere un brano"). Punti chiave:
 - `lyricsSource`: `{ "lrclibId": 123, "offset": 0 }` oppure ricerca per artista/titolo.
 - `sync`: tempi registrati di ogni cambio accordo (dall'app, "Registra tempi" → "Esporta JSON").
 - `shapes`: diteggiature personalizzate; `capo`: capotasto consigliato di default.
+- `warp`: ancore `[battuta, secondo]` generate da `tools/lrcwarp.mjs`; la griglia passa per quei punti. I tempi
+  registrati dall'utente (`sync`, TAP) hanno la precedenza; l'offset della finestra Sincronia si somma.
 
 ### Procedura per aggiungere un brano (per l'AI)
 
@@ -115,7 +122,7 @@ Documentato nel README (sezione "Aggiungere un brano"). Punti chiave:
 ```bash
 python3 tools/autosong.py --artist "Vasco Rossi" --title "Albachiara" --genre Rock --year 1979          # prova: stampa solo numeri
 python3 tools/autosong.py --artist "Vasco Rossi" --title "Albachiara" --genre Rock --year 1979 --write  # scrive brano e indice
-node tools/checksong.mjs vasco-rossi-albachiara && node tools/checksync.mjs
+node tools/checksong.mjs vasco-rossi-albachiara && node tools/lrcwarp.mjs vasco-rossi-albachiara --write && node tools/checksync.mjs vasco-rossi-albachiara
 ```
 Il riepilogo JSON dice quante righe della pagina sono state agganciate a LRCLIB e quante righe cantate hanno accordi.
 Criteri usati per accettare un brano: ≥70% delle righe cantate con accordi, ≥45% delle righe della pagina agganciate,
@@ -147,7 +154,15 @@ node tests/e2e.mjs http://localhost:8080   # test nel browser (serve Playwright 
 ```
 Nel test e2e YouTube è bloccato di proposito (si prova il clock di riserva); il microfono è finto.
 
-## Stato attuale (v1.7.0 — 2026-09-26)
+## Stato attuale (v1.8.0 — 2026-09-26)
+
+- **443 brani di 162 artisti**, tutti con forme, durata coerente, video e testo sincronizzato; ogni brano agganciato ai
+  tempi del canto (`warp`) dove migliora la coerenza. checksync: 417/443 ok; i restanti hanno righe che partono fuori
+  dal battere (anacrusi, rap): la griglia resta a tempo, il tocco in Sincronia rifinisce.
+- Nuovo: Base sintetica, Dizionario accordi, Scalette, filtri e brano a caso in libreria, quiz d'ascolto.
+- 71 test unitari e **706 controlli e2e verdi** (apre ognuno dei 443 brani; desktop e telefono).
+
+### Stato precedente (v1.7.0)
 
 - **213 brani di 101 artisti** (34 fatti a mano fino alla v1.6 + 179 generati con `tools/autosong.py`, fra cui
   Vasco, Ligabue, Battisti, De André, De Gregori, Dalla, 883, Jovanotti, Cremonini, PTN, Måneskin, Ultimo, Coez,
@@ -211,6 +226,11 @@ Nel test e2e YouTube è bloccato di proposito (si prova il clock di riserva); il
   della stima per blocchi della v1.5; resta da verificare sul video (tocco in Sincronia).
 - **Ampli in Web Audio senza librerie**: latenza bassa, niente file; col cavo Rocksmith il segnale è già pulito.
 - **Registrazioni solo sul dispositivo** (IndexedDB) finché non esiste un servizio della community: niente server.
+- **Sincronia di default con ancore sul canto** (non sull'audio): da qui YouTube blocca il download dell'audio e le
+  anteprime Deezer di 30 s danno il BPM solo con ±1–2% (provato con tools/audiosync.py: Shape of You 96,2 vs 96,
+  Wonderwall 84,5 vs 87). I tempi LRCLIB seguono la registrazione riga per riga su tutto il brano, quindi correggono
+  la deriva. Si provano BPM alternativi solo entro ±8% della fonte: tempi che allineano le righe ma non sono quelli
+  della musica (es. Certe notti a 120) sono stati scartati.
 - **Interfaccia sobria**: niente etichette permanenti per stati rari (sincronia → pallino), strumenti rari dietro ⋯.
 - Il suggerimento del capotasto penalizza barrè, estensioni ampie e tasti alti (`shapeDifficulty`).
 
@@ -245,6 +265,10 @@ Nel test e2e YouTube è bloccato di proposito (si prova il clock di riserva); il
   Creep, Karma Police, Good Riddance, Boulevard of Broken Dreams, Viva la Vida, Losing My Religion, No Woman No Cry,
   Hallelujah (Cohen), 505, Born in the U.S.A., Crazy Little Thing Called Love, Highway to Hell, Riptide.
   Si possono riprovare con `--chords-url` (pagina precisa) o `--lrclib`/`--yt` espliciti.
+  Poi v1.8.0: sincronia di default con ancore sul canto per tutti i brani (tools/lrcwarp.mjs, campo warp), catalogo
+  a 443 brani (230 nuovi; 56 scartati dai criteri), Base sintetica, Dizionario accordi, Scalette, filtri libreria,
+  quiz d'ascolto. Bug: gli strumenti non leggevano le LRC con \r\n (ora usano parseLrc dell'app). Due brani avevano
+  lo stesso video di un altro (Gazzelle, Brunori): autosong ora vuole il titolo del brano nel titolo del video.
 
 ## Prossimi passi (idee in ordine di utilità)
 
