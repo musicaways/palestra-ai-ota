@@ -1,0 +1,146 @@
+{
+ "title": "Ti dedico il silenzio",
+ "artist": "Ultimo",
+ "album": "48 mln wyświetleń",
+ "year": 2018,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "vUXmB4-HYUI",
+ "key": "Ab",
+ "bpm": 80.22,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.02,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36783618,
+  "duration": 240.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Ab – Eb – Bb – Ebadd9 – Cm7 – Gm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Cm7",
+    "%",
+    "Ab",
+    "%"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Cm7:2",
+     "Ab:2"
+    ],
+    "Eb",
+    "%",
+    "%",
+    "Ab",
+    "Eb",
+    "%",
+    "%",
+    "Ab",
+    "Eb",
+    "%",
+    "%",
+    "Ab",
+    [
+     "Ab:2",
+     "Eb:2"
+    ],
+    "%",
+    "%",
+    "Ab",
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Cm7:2",
+     "Ab:2"
+    ],
+    "Eb",
+    "%",
+    "%",
+    "Ab",
+    "Eb",
+    "%",
+    "%",
+    "Ab",
+    "Eb",
+    "%",
+    "%",
+    "Ab",
+    "Eb",
+    "%",
+    "%",
+    "Ab",
+    "Eb",
+    "%",
+    "%",
+    "Bb",
+    "Ab",
+    "Bb",
+    "Cm",
+    "Bb",
+    "Ab",
+    "%",
+    "Bb",
+    "%",
+    [
+     "Gm7:2",
+     "Ebadd9:2"
+    ],
+    "Bb",
+    "%",
+    "%",
+    "Ebadd9",
+    [
+     "Ebadd9:2",
+     "Bb:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

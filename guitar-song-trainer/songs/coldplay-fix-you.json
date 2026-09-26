@@ -1,0 +1,275 @@
+{
+ "title": "Fix You",
+ "artist": "Coldplay",
+ "album": "Now That's What I Call Music!, Vol. 20",
+ "year": 2005,
+ "genre": "Pop / Rock",
+ "difficulty": 4,
+ "youtubeId": "k4V3Mo61fJM",
+ "key": "Eb",
+ "bpm": 140.16,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.22,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36996337,
+  "duration": 294.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Eb – Bb – Ab – Abmaj7 – Bb4 – Gm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "Eb",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "Eb",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Ab",
+    "%",
+    "Bb",
+    "%",
+    "Ab",
+    "%",
+    "Bb",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Ab",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "Ab:2",
+     "Bb:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Ab",
+    "%",
+    "Bb",
+    "%",
+    "Ab",
+    "%",
+    "Bb",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Ab",
+    "Bb",
+    "Eb",
+    "%",
+    "Abmaj7",
+    "%",
+    "Eb",
+    "%",
+    "Bb4",
+    "%",
+    "Bb",
+    "%",
+    "Eb",
+    "%",
+    "Abmaj7",
+    "%",
+    "Eb",
+    "%",
+    "Bb4",
+    "%",
+    "Bb",
+    "%",
+    "Eb",
+    "%",
+    "Abmaj7",
+    "%",
+    "Eb",
+    "%",
+    "Bb4",
+    "%",
+    "Bb",
+    "%",
+    "Eb",
+    "%",
+    "Abmaj7",
+    "%",
+    "Eb",
+    "%",
+    "Abmaj7",
+    "%",
+    "Eb",
+    [
+     "Eb:2",
+     "Bb4:2"
+    ],
+    [
+     "Bb4:2",
+     "Bb:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "Ab",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "Eb",
+    [
+     "Eb:2",
+     "Abmaj7:2"
+    ],
+    "%",
+    "Eb",
+    "%",
+    [
+     "Eb:2",
+     "Gm:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "Ab",
+    "%",
+    "%",
+    "%",
+    "Ab",
+    "%",
+    "Bb",
+    "%",
+    "Ab",
+    "%",
+    "Bb",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "Ab",
+    "%",
+    "%",
+    "Bb",
+    "%",
+    "%",
+    "Eb",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

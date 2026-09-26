@@ -1,0 +1,190 @@
+{
+ "title": "È sempre bello",
+ "artist": "Coez",
+ "album": "Top 50 Italy 12.09.2019",
+ "year": 2019,
+ "genre": "Pop / Rap",
+ "difficulty": 4,
+ "youtubeId": "Pc9PxnWCjRU",
+ "key": "Ab",
+ "bpm": 108.83,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.18,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37015541,
+  "duration": 204.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Ab – Fm7 – Db – Cm7 – Fm – Cm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Ab",
+    "Cm7",
+    "Fm7",
+    "Db",
+    "Ab"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Ab",
+    "Cm7",
+    "Fm",
+    "%",
+    "Db",
+    "Ab",
+    "Cm7",
+    "%",
+    "Fm",
+    "Db",
+    "Ab",
+    "%",
+    "Cm7",
+    "Fm7",
+    "%",
+    "Db",
+    "Ab",
+    "Cm7",
+    "Fm7",
+    [
+     "Fm7:2",
+     "Db:2"
+    ],
+    "%",
+    "Ab",
+    "Cm7",
+    "Fm7",
+    [
+     "Fm7:2",
+     "Db:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Ab",
+    "Cm7",
+    "%",
+    "Fm7",
+    "Db",
+    "Ab",
+    "%",
+    "Cm7",
+    "Fm7",
+    "%",
+    "Db",
+    "Ab",
+    "Cm7",
+    "Fm7",
+    [
+     "Fm7:2",
+     "Db:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Ab",
+    "Cm7",
+    "Fm7",
+    "%",
+    "Db",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "Ab:2",
+     "Cm:2"
+    ],
+    "Fm",
+    "%",
+    "Db",
+    "%",
+    "Ab",
+    "Cm",
+    "Fm",
+    "Db",
+    "%",
+    "Ab",
+    "Cm7",
+    "Fm7",
+    [
+     "Fm7:2",
+     "Db:2"
+    ],
+    "%",
+    "Ab",
+    "Cm7",
+    "Fm7",
+    [
+     "Fm7:2",
+     "Db:2"
+    ],
+    "%",
+    "Ab",
+    [
+     "Ab:2",
+     "Cm7:2"
+    ],
+    "%",
+    "Fm7",
+    "Db"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "Ab",
+    [
+     "Ab:2",
+     "Cm7:2"
+    ],
+    "%",
+    "Fm7",
+    [
+     "Fm7:2",
+     "Db:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "Ab",
+    "Cm",
+    "Fm",
+    "Db",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

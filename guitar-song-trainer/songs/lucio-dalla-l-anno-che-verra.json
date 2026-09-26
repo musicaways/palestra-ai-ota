@@ -1,0 +1,159 @@
+{
+ "title": "L'anno che verrà",
+ "artist": "Lucio Dalla",
+ "album": "Radio Italia Gold Edition (CD 2)",
+ "year": 1979,
+ "genre": "Cantautori",
+ "difficulty": 5,
+ "youtubeId": "GqRq7crp8f8",
+ "key": "G",
+ "bpm": 61.55,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 3.87,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37021766,
+  "duration": 264.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – Bm – E – D – B – Em7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "A",
+    "%",
+    "D"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "A",
+    "D",
+    "Bm",
+    "Em7",
+    "G",
+    "%",
+    [
+     "Bm:2",
+     "Em7:2"
+    ],
+    "A7",
+    [
+     "A7:2",
+     "D:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "A",
+    "D",
+    "Bm",
+    "Em7",
+    "G",
+    "%",
+    [
+     "Bm:2",
+     "Em7:2"
+    ],
+    [
+     "A7:1",
+     "D:2",
+     "E:1"
+    ],
+    "B",
+    "E",
+    [
+     "C#m:2",
+     "F#m7:2"
+    ],
+    [
+     "B7:2",
+     "E:2"
+    ],
+    "B",
+    "E",
+    [
+     "C#m:2",
+     "F#m7:2"
+    ],
+    [
+     "B7:2",
+     "E:2"
+    ],
+    "A",
+    "%",
+    "F#m7",
+    [
+     "B7:1",
+     "E:2",
+     "G:1"
+    ],
+    "D",
+    "G",
+    [
+     "Em:2",
+     "Am7:2"
+    ],
+    [
+     "D7:2",
+     "G:2"
+    ],
+    "C6",
+    "%",
+    [
+     "Em:2",
+     "Am7:2"
+    ],
+    [
+     "D7:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "G7:2"
+    ],
+    "%",
+    "%",
+    "Bm",
+    "B",
+    "%",
+    "%",
+    "Bm",
+    "B",
+    "Cmaj7",
+    "%",
+    "Bm",
+    [
+     "B:2",
+     "G:2"
+    ],
+    "C",
+    "%",
+    "Am7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

@@ -1,0 +1,243 @@
+{
+ "title": "Via del campo",
+ "artist": "Fabrizio De André",
+ "album": "In concerto",
+ "year": 1967,
+ "genre": "Cantautori",
+ "difficulty": 5,
+ "youtubeId": "zH3i3y3E5FA",
+ "key": "Gm",
+ "bpm": 87.31,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.37,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34630745,
+  "duration": 170.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Gm – D7 – Eb – Bb – Cm – Dm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Gm",
+    "D7",
+    "Gm",
+    "Gm"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Gm:2",
+     "D7:2"
+    ],
+    [
+     "D7:2",
+     "Gm:2"
+    ],
+    [
+     "Bb:1",
+     "Eb:2",
+     "F:1"
+    ],
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    [
+     "Dm:2",
+     "Gm:2"
+    ],
+    [
+     "Cm:2",
+     "D7:2"
+    ],
+    [
+     "D7:2",
+     "Gm:2"
+    ],
+    [
+     "Gm:2",
+     "D7:2"
+    ],
+    [
+     "D7:2",
+     "Gm:2"
+    ],
+    [
+     "Bb:1",
+     "Eb:2",
+     "F:1"
+    ],
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    [
+     "Dm:2",
+     "Gm:2"
+    ],
+    [
+     "Cm:2",
+     "D7:2"
+    ],
+    [
+     "D7:2",
+     "Gm:2"
+    ],
+    [
+     "Gm:1",
+     "D7:2",
+     "Gm:1"
+    ],
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    [
+     "Bb:1",
+     "Eb:1",
+     "Dm:1",
+     "Gm:1"
+    ],
+    [
+     "Cm:2",
+     "D7:2"
+    ],
+    [
+     "D7:2",
+     "Gm:2"
+    ],
+    [
+     "Gm:1",
+     "D7:2",
+     "Gm:1"
+    ],
+    [
+     "Bb:1",
+     "Eb:2",
+     "F:1"
+    ],
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    [
+     "Dm:2",
+     "Gm:2"
+    ],
+    [
+     "Cm:1",
+     "D7:2",
+     "Gm:1"
+    ],
+    "Bbm",
+    "F7",
+    "Bbm",
+    "Db",
+    "Gb",
+    "Ab"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Gm:1",
+     "D7:2",
+     "Gm:1"
+    ],
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    [
+     "Bb:1",
+     "Eb:1",
+     "Dm:1",
+     "Gm:1"
+    ],
+    [
+     "Cm:2",
+     "D7:2"
+    ],
+    [
+     "D7:2",
+     "Gm:2"
+    ],
+    [
+     "Gm:2",
+     "D7:2"
+    ],
+    [
+     "D7:2",
+     "Gm:2"
+    ],
+    [
+     "Bb:1",
+     "Eb:2",
+     "F:1"
+    ],
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    [
+     "Dm:2",
+     "Gm:2"
+    ],
+    [
+     "Cm:1",
+     "D7:2",
+     "Gm:1"
+    ],
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    [
+     "Dm:2",
+     "Gm:2"
+    ],
+    "Cm",
+    "%",
+    "%",
+    "%",
+    [
+     "Cm:2",
+     "D7:2"
+    ],
+    "%",
+    "%",
+    "%",
+    [
+     "D7:2",
+     "Gm:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

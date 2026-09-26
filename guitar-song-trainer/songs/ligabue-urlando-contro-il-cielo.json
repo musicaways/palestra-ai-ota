@@ -1,0 +1,264 @@
+{
+ "title": "Urlando contro il cielo",
+ "artist": "Ligabue",
+ "album": "Lambrusco, Coltelli, Rose & Po",
+ "year": 1991,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "hSJFKwPJ7jQ",
+ "key": "E",
+ "bpm": 147.96,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.02,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 17723669,
+  "duration": 217.913469,
+  "offset": 0
+ },
+ "notes": "Accordi principali: E – D – A – Bm – C#m – F#m.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "A",
+    "A",
+    "D",
+    "E",
+    "A",
+    "A",
+    "D",
+    "E",
+    "D",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "A",
+    "%",
+    "D",
+    "E",
+    "A",
+    [
+     "A:2",
+     "D:2"
+    ],
+    "%",
+    "E",
+    "A",
+    "A",
+    "D",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "A",
+    "%",
+    "%",
+    [
+     "D:2",
+     "E:2"
+    ],
+    "A",
+    "%",
+    "D",
+    "E",
+    [
+     "F#m:2",
+     "C#m:2"
+    ],
+    "E",
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    "E",
+    [
+     "F#m:2",
+     "C#m:2"
+    ],
+    "E",
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    "Bm",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "D",
+    "%",
+    "%",
+    "%",
+    "%",
+    "E",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "A",
+    "%",
+    "D",
+    "E",
+    "A",
+    "%",
+    "D",
+    "E",
+    [
+     "F#m:2",
+     "C#m:2"
+    ],
+    "E",
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    "E",
+    [
+     "F#m:2",
+     "C#m:2"
+    ],
+    "E",
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    "Bm",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "D",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "E",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "C",
+    "%",
+    "D",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "C",
+    [
+     "C:2",
+     "D:2"
+    ],
+    "%",
+    "E4",
+    [
+     "E4:2",
+     "E:2"
+    ],
+    "%",
+    [
+     "F#m:2",
+     "C#m:2"
+    ],
+    "E",
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    "E",
+    [
+     "F#m:2",
+     "C#m:2"
+    ],
+    "E",
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    "Bm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "D",
+    "%",
+    "E",
+    "%",
+    "A",
+    "A",
+    "D",
+    "E",
+    [
+     "A:1",
+     "A:1",
+     "D:1",
+     "E:1"
+    ],
+    "A",
+    "%",
+    "A",
+    "A",
+    "A",
+    "D",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "A",
+    "%",
+    "A",
+    "%",
+    "D",
+    "%",
+    "E",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

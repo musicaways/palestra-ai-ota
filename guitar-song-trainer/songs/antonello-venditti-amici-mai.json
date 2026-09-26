@@ -1,0 +1,339 @@
+{
+ "title": "Amici mai",
+ "artist": "Antonello Venditti",
+ "album": "Diamanti (disc 1)",
+ "year": 1991,
+ "genre": "Cantautori",
+ "difficulty": 5,
+ "youtubeId": "R6vv-ZwFScI",
+ "key": "G",
+ "bpm": 135.82,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.43,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36136063,
+  "duration": 316.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – G4 – Am7 – Fmaj7 – Bm7 – C.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "C",
+    "%",
+    "%",
+    "F",
+    "%",
+    "%",
+    "Dm7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Fmaj7",
+    "G4",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "C:2",
+     "Am7:2"
+    ],
+    [
+     "Am7:2",
+     "F6:2"
+    ],
+    "%",
+    "%",
+    "Am7",
+    "Fmaj7",
+    "G4",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "C:2",
+     "Am7:2"
+    ],
+    [
+     "Am7:2",
+     "F6:2"
+    ],
+    "%",
+    "%",
+    "Am7",
+    "Fmaj7",
+    "G4",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Bb",
+    [
+     "Ab:2",
+     "G4:2"
+    ],
+    "G7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "Fmaj7",
+    [
+     "Fmaj7:2",
+     "G4:2"
+    ],
+    "%",
+    [
+     "G4:2",
+     "G:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    [
+     "D:2",
+     "Bm7:2"
+    ],
+    [
+     "Bm7:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "G",
+    "Em7",
+    "A4",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    [
+     "D:2",
+     "Bm7:2"
+    ],
+    [
+     "Bm7:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "G",
+    "Em7",
+    "A4",
+    "A",
+    "Bb",
+    [
+     "Ab:2",
+     "G4:2"
+    ],
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 7",
+   "bars": [
+    "C",
+    "%",
+    "F",
+    "%",
+    "Dm7",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "C",
+    "%",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Fmaj7",
+    "G4",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 8",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bm7",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 9",
+   "bars": [
+    "D",
+    "%",
+    "%",
+    "%",
+    "Bm7",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    [
+     "G:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    [
+     "G:2",
+     "Em7:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "A4",
+    "%",
+    "%",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

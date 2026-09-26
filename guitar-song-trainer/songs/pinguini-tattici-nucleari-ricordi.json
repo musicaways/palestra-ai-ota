@@ -1,0 +1,188 @@
+{
+ "title": "Ricordi",
+ "artist": "Pinguini Tattici Nucleari",
+ "album": "Hello World",
+ "year": 2020,
+ "genre": "Pop / Indie",
+ "difficulty": 5,
+ "youtubeId": "OkNfh29Vbwo",
+ "key": "E",
+ "bpm": 130.77,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.51,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36348609,
+  "duration": 204.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: E – B – A – C#m – F#m7 – G#m7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "C#m",
+    "B"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "C#m",
+    [
+     "C#m:2",
+     "B:2"
+    ],
+    "%",
+    [
+     "E:2",
+     "A:2"
+    ],
+    "C#m",
+    "B",
+    "E",
+    "%",
+    "C#m",
+    "B",
+    "E",
+    "A",
+    "C#m",
+    "B",
+    "E",
+    "%",
+    "B",
+    "%",
+    "E",
+    "A",
+    "C#m",
+    "B",
+    "E",
+    "%",
+    "E",
+    [
+     "E:2",
+     "G#m:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "F#m",
+    "%",
+    "A",
+    "%",
+    "C#m",
+    "%",
+    "A",
+    "%",
+    "F#m7",
+    "%",
+    "A",
+    "Am",
+    "%",
+    "B",
+    "%",
+    "%",
+    [
+     "E:2",
+     "A:2"
+    ],
+    "C#m",
+    "B",
+    "E",
+    "%",
+    "C#m",
+    "B",
+    "%",
+    "%",
+    "C#m",
+    "%",
+    "E",
+    "%",
+    "E",
+    [
+     "E:2",
+     "B:2"
+    ],
+    "%",
+    "F#m7",
+    "%",
+    "A",
+    "%",
+    "B",
+    "C#m",
+    "A",
+    "%",
+    "F#m7",
+    "%",
+    "A",
+    "Am",
+    [
+     "E:1",
+     "G#m7:2",
+     "C#m7:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "A",
+    "%",
+    "G#m7",
+    "%",
+    "F#m7",
+    "%",
+    "B",
+    "%",
+    "E",
+    [
+     "E:2",
+     "B:2"
+    ],
+    "%",
+    "F#m7",
+    "%",
+    "A",
+    "B",
+    "C#m",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%",
+    "A",
+    "Am",
+    [
+     "E:1",
+     "G#m7:2",
+     "C#m7:1"
+    ],
+    "%",
+    "%",
+    [
+     "E:2",
+     "G#m7:2"
+    ],
+    [
+     "G#m7:2",
+     "C#m7:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

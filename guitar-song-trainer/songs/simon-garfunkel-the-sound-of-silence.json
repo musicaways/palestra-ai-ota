@@ -1,0 +1,172 @@
+{
+ "title": "The Sound of Silence",
+ "artist": "Simon & Garfunkel",
+ "album": "Rock & Roll Hall of Fame",
+ "year": 1964,
+ "genre": "Folk",
+ "difficulty": 2,
+ "youtubeId": "nkUOACGtGfA",
+ "key": "F",
+ "bpm": 104.82,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.45,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36994651,
+  "duration": 186.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F – Bb – C – Dm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Dm"
+   ]
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Dm",
+    "C",
+    "Dm",
+    "%",
+    "Bb",
+    "F",
+    "Bb",
+    "F",
+    "Bb",
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "%",
+    "%",
+    "F",
+    "C",
+    "Dm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "%",
+    "Dm",
+    "%",
+    "Bb",
+    "F",
+    "Bb",
+    "F",
+    "Bb",
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "%",
+    "%",
+    "F",
+    "C",
+    "Dm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "%",
+    "Dm",
+    "%",
+    "Bb",
+    "F",
+    "Bb",
+    "F",
+    "Bb",
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Dm:2"
+    ],
+    "C",
+    "%",
+    "Dm",
+    "%",
+    "Bb",
+    "F",
+    "Bb",
+    "F",
+    "%",
+    "%",
+    "%",
+    "%",
+    "C",
+    "%",
+    "Dm",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "Dm",
+    "%",
+    "Bb",
+    "F",
+    "Bb",
+    "F",
+    "Bb",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "%",
+    "%",
+    "F",
+    "%",
+    [
+     "F:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    [
+     "C:2",
+     "Dm:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

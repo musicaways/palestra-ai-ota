@@ -1,0 +1,245 @@
+{
+ "title": "Perfect",
+ "artist": "Ed Sheeran",
+ "album": "Bravo Hits 2018",
+ "year": 2017,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "CWG-GDfejmY",
+ "key": "Ab",
+ "bpm": 99.91,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.44,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36995784,
+  "duration": 262.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Ab – Eb – Dbadd9 – Fm7 – Db – Fm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Ab",
+    "Ab",
+    [
+     "Ab:2",
+     "Fm7:2"
+    ],
+    "%",
+    "Dbadd9",
+    [
+     "Dbadd9:2",
+     "Eb:2"
+    ],
+    "%",
+    "Ab",
+    [
+     "Ab:2",
+     "Fm7:2"
+    ],
+    "%",
+    "Dbadd9",
+    [
+     "Dbadd9:2",
+     "Eb:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Ab",
+    "%",
+    "Fm7",
+    "%",
+    "Dbadd9",
+    "Ab",
+    "Eb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Ab",
+    "Fm7",
+    "%",
+    "Dbadd9",
+    [
+     "Dbadd9:2",
+     "Eb:2"
+    ],
+    "%",
+    "Fm",
+    "Dbadd9",
+    "Ab"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Eb",
+    "Fm7",
+    [
+     "Dbadd9:2",
+     "Ab:2"
+    ],
+    [
+     "Eb:2",
+     "Fm7:2"
+    ],
+    "Dbadd9",
+    "Ab",
+    [
+     "Eb:2",
+     "Fm7:2"
+    ],
+    "Db",
+    "Ab",
+    "%",
+    [
+     "Ab:2",
+     "Eb:2"
+    ],
+    "%",
+    "%",
+    "Ab",
+    [
+     "Ab:2",
+     "Fm7:2"
+    ],
+    "%",
+    "Eb",
+    "%",
+    "%",
+    "Ab",
+    "%",
+    "Fm7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Dbadd9",
+    "Eb",
+    "Ab",
+    "%",
+    "Fm7",
+    "%",
+    "Db",
+    "Ab",
+    "Eb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Ab",
+    "Fm7",
+    "%",
+    "Db",
+    [
+     "Db:2",
+     "Eb:2"
+    ],
+    "%",
+    "Fm",
+    "Dbadd9",
+    "Ab"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "Eb",
+    "Fm7",
+    [
+     "Dbadd9:2",
+     "Ab:2"
+    ],
+    [
+     "Eb:2",
+     "Fm7:2"
+    ],
+    "Dbadd9",
+    [
+     "Dbadd9:2",
+     "Ab:2"
+    ],
+    "%",
+    "Fm7",
+    "Dbadd9",
+    [
+     "Ab:2",
+     "Eb:2"
+    ],
+    [
+     "Ab:2",
+     "Fm7:2"
+    ],
+    "Dbadd9",
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "Fm",
+    "Dbadd9",
+    "Ab"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    [
+     "Eb:2",
+     "Fm7:2"
+    ],
+    "Dbadd9",
+    "Ab",
+    [
+     "Eb:2",
+     "Fm7:2"
+    ],
+    "Db",
+    "Ab",
+    [
+     "Eb:2",
+     "Fm7:2"
+    ],
+    [
+     "Fm7:2",
+     "Db:2"
+    ],
+    "Ab",
+    "Eb",
+    "Dbadd9",
+    "%",
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

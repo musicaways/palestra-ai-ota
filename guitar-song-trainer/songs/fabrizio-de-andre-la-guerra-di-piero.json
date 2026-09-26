@@ -1,0 +1,339 @@
+{
+ "title": "La guerra di Piero",
+ "artist": "Fabrizio De André",
+ "album": "In concerto (Volume 1 / Volume 2)",
+ "year": 1964,
+ "genre": "Cantautori",
+ "difficulty": 2,
+ "youtubeId": "4X8JhSaCcUk",
+ "key": "Am",
+ "bpm": 104.94,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.55,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37302242,
+  "duration": 208.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Am – Dm – E7 – C – G7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Am",
+    "%",
+    "E7",
+    "%",
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Am:1",
+     "E7:2",
+     "Am:1"
+    ],
+    [
+     "Dm:1",
+     "G7:2",
+     "C:1"
+    ],
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    [
+     "Dm:2",
+     "E7:2"
+    ],
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    [
+     "Dm:1",
+     "G7:2",
+     "C:1"
+    ],
+    "E7",
+    "Am",
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    [
+     "Dm:1",
+     "G7:2",
+     "C:1"
+    ],
+    "E7",
+    "%",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Am:1",
+     "E7:2",
+     "Am:1"
+    ],
+    [
+     "Dm:1",
+     "G7:2",
+     "C:1"
+    ],
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    [
+     "Dm:2",
+     "E7:2"
+    ],
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    [
+     "Dm:1",
+     "G7:2",
+     "C:1"
+    ],
+    "E7",
+    "Am",
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    [
+     "Dm:1",
+     "G7:2",
+     "C:1"
+    ],
+    "E7",
+    "%",
+    "Am",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Am:2",
+     "E7:2"
+    ],
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    [
+     "Dm:1",
+     "G7:2",
+     "C:1"
+    ],
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    [
+     "Dm:2",
+     "E7:2"
+    ],
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    [
+     "Dm:1",
+     "G7:2",
+     "C:1"
+    ],
+    "E7",
+    "Am",
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    [
+     "Dm:1",
+     "G7:2",
+     "C:1"
+    ],
+    "E7",
+    "%",
+    "Am",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "Am:1",
+     "E7:2",
+     "Am:1"
+    ],
+    [
+     "Dm:1",
+     "G7:2",
+     "C:1"
+    ],
+    "E7",
+    "Am",
+    [
+     "Dm:1",
+     "E7:2",
+     "Am:1"
+    ],
+    [
+     "Am:1",
+     "E7:2",
+     "Am:1"
+    ],
+    [
+     "Dm:1",
+     "G7:2",
+     "C:1"
+    ],
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    [
+     "Dm:2",
+     "E7:2"
+    ],
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    [
+     "Dm:1",
+     "G7:2",
+     "C:1"
+    ],
+    "E7",
+    "Am",
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    [
+     "Dm:1",
+     "G7:2",
+     "C:1"
+    ],
+    "E7",
+    "%",
+    "Am",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    [
+     "Am:2",
+     "E7:2"
+    ],
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    [
+     "Dm:1",
+     "G7:2",
+     "C:1"
+    ],
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Dm",
+    "%",
+    [
+     "Dm:2",
+     "E7:2"
+    ],
+    "%",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

@@ -1,0 +1,186 @@
+{
+ "title": "Photograph",
+ "artist": "Ed Sheeran",
+ "album": "Ö3 Greatest Hits 70",
+ "year": 2014,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "KKQl-pIRQMY",
+ "key": "E",
+ "bpm": 107.68,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.48,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37494258,
+  "duration": 259.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: E – B – C#m – A – Aadd9 – C#m7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "E",
+    "%",
+    "C#m7",
+    "%",
+    "B4",
+    "%",
+    "Aadd9",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "E",
+    "C#m",
+    [
+     "B:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "E",
+    "C#m",
+    "B",
+    "%",
+    "A",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C#m",
+    "A",
+    "E",
+    "B",
+    "C#m",
+    "A",
+    "E",
+    "B",
+    "E",
+    "B",
+    "%",
+    "C#m7",
+    "%",
+    "Aadd9",
+    "%",
+    "E",
+    "%",
+    "%",
+    "%",
+    "%",
+    "E",
+    "C#m",
+    [
+     "B:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "E",
+    "C#m",
+    "%",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C#m",
+    "A",
+    "E",
+    "B",
+    "C#m",
+    "A",
+    "E",
+    "B",
+    "E",
+    "B",
+    "%",
+    "C#m7",
+    "%",
+    "Aadd9",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "E",
+    "B",
+    "%",
+    "C#m7",
+    "%",
+    "Aadd9",
+    "%",
+    "C#m",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "B",
+    "%",
+    "E",
+    "%",
+    "B",
+    "%",
+    "C#m",
+    "%",
+    "Aadd9",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "E",
+    "B",
+    "%",
+    "C#m7",
+    "%",
+    "Aadd9",
+    "%",
+    "%",
+    "%",
+    "E",
+    "B",
+    "C#m",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

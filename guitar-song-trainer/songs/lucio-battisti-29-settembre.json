@@ -1,0 +1,146 @@
+{
+ "title": "29 settembre",
+ "artist": "Lucio Battisti",
+ "album": "Best Battisti",
+ "year": 1967,
+ "genre": "Cantautori",
+ "difficulty": 2,
+ "youtubeId": "hKVpwbTE3fw",
+ "key": "Eb",
+ "bpm": 87.4,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.15,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37214967,
+  "duration": 210.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Eb – Ab – Bb.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Eb",
+    "%",
+    "%",
+    "%"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Bb",
+    "Ab",
+    "Eb",
+    "Bb",
+    "%",
+    "Ab",
+    "Eb",
+    "Bb",
+    "Ab",
+    [
+     "Bb:2",
+     "Ab:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Bb",
+    "Ab",
+    "Eb",
+    "Bb",
+    "Ab",
+    [
+     "Ab:2",
+     "Eb:2"
+    ],
+    "%",
+    "Bb",
+    "Ab",
+    "Bb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "Eb",
+    "Eb",
+    "Eb",
+    "Eb",
+    "Eb",
+    "Eb",
+    "Eb",
+    "Eb",
+    "Eb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Bb",
+    "Ab",
+    "Eb",
+    "Bb",
+    "Ab",
+    [
+     "Ab:2",
+     "Eb:2"
+    ],
+    "%",
+    "Bb",
+    "Ab",
+    [
+     "Bb:2",
+     "Ab:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

@@ -1,0 +1,163 @@
+{
+ "title": "Hikikomori",
+ "artist": "Pinguini Tattici Nucleari",
+ "album": "Pinguini Tattici Nucleari",
+ "year": 2022,
+ "genre": "Pop / Indie",
+ "difficulty": 3,
+ "youtubeId": "coxpFksPyBQ",
+ "key": "F",
+ "bpm": 74.1,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.77,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 35677699,
+  "duration": 207.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F – Eb – Gm – Bb – D7 – Cm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Eb",
+    "F",
+    "Bb"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    "D7",
+    "%",
+    "F",
+    "Gm",
+    "F",
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    "D7",
+    "%",
+    "F",
+    "Gm",
+    [
+     "F:2",
+     "Eb:2"
+    ],
+    [
+     "F:2",
+     "Gm:2"
+    ],
+    [
+     "F:2",
+     "Eb:2"
+    ],
+    [
+     "Cm:2",
+     "Gm:2"
+    ],
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    [
+     "Cm:2",
+     "Gm:2"
+    ],
+    "F",
+    "Eb",
+    "Dm7",
+    "Cm",
+    "Gm",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    "D7",
+    "%",
+    "F",
+    "Gm",
+    [
+     "F:2",
+     "Eb:2"
+    ],
+    [
+     "F:2",
+     "Gm:2"
+    ],
+    "F",
+    "Eb",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

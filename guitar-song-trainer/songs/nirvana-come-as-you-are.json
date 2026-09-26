@@ -1,0 +1,206 @@
+{
+ "title": "Come as You Are",
+ "artist": "Nirvana",
+ "album": "Nirvana",
+ "year": 1991,
+ "genre": "Rock",
+ "difficulty": 2,
+ "youtubeId": "9I9c20LHmzY",
+ "key": "Em",
+ "bpm": 119.54,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.78,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 23589678,
+  "duration": 219.026667,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Em – D – G – Am – C.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Em",
+    "%",
+    "%",
+    "D",
+    "%",
+    "%",
+    "Em",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Em:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    "D",
+    "Em",
+    "D",
+    "Em",
+    "%",
+    "%",
+    "D",
+    "Em",
+    "D",
+    "Em",
+    "D",
+    "Em",
+    "D",
+    "Em",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Em",
+    "G",
+    "Em",
+    "G",
+    "Em",
+    "G",
+    "Em",
+    "D",
+    "Em",
+    "D",
+    "Em",
+    "D",
+    "Em",
+    "D",
+    "Em",
+    "G",
+    "Em",
+    "G",
+    "Em",
+    "G",
+    "Em",
+    [
+     "Em:2",
+     "G:2"
+    ],
+    "%",
+    "Am",
+    [
+     "C:2",
+     "Am:2"
+    ],
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Am",
+    "C",
+    [
+     "Am:2",
+     "C:2"
+    ],
+    "Em",
+    "%",
+    "D",
+    "%",
+    "Em",
+    "%",
+    "D",
+    "%",
+    "Em",
+    "%",
+    "D",
+    "%",
+    "Em",
+    "%",
+    "D",
+    "%",
+    "Em",
+    "%",
+    "D",
+    "%",
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "Em:2",
+     "G:2"
+    ],
+    "Em",
+    "G",
+    "Em",
+    "G",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "Am",
+    [
+     "C:2",
+     "Am:2"
+    ],
+    "C",
+    "Am",
+    "C",
+    "Am",
+    "C",
+    [
+     "Am:2",
+     "C:2"
+    ],
+    "Em",
+    "Am",
+    "%",
+    "C",
+    "%",
+    "Em",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "Em",
+    "%",
+    "%",
+    "%",
+    [
+     "Em:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

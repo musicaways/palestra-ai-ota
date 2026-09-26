@@ -1,0 +1,220 @@
+{
+ "title": "Redemption Song",
+ "artist": "Bob Marley",
+ "album": "Sounds Of The Eighties - The Rolling Stone Collection, 1980-1981",
+ "year": 1980,
+ "genre": "Reggae",
+ "difficulty": 2,
+ "youtubeId": "9ZpxaeICYyg",
+ "key": "G",
+ "bpm": 56.79,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.44,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36975082,
+  "duration": 227.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – C – D – Em – Em7 – Am7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G",
+    "%",
+    "Em",
+    "%"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "G:2",
+     "Em:2"
+    ],
+    "%",
+    [
+     "G:2",
+     "Em:2"
+    ],
+    "%",
+    [
+     "G:1",
+     "Em:2",
+     "Em7:1"
+    ],
+    "%",
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:1",
+     "Am7:2",
+     "D:1"
+    ],
+    "G",
+    [
+     "C:1",
+     "D:2",
+     "G:1"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "Em:1"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "G:1"
+    ],
+    [
+     "C:1",
+     "D:1",
+     "G:1",
+     "C:1"
+    ],
+    [
+     "G:1",
+     "Em:2",
+     "Em7:1"
+    ],
+    "%",
+    [
+     "G:2",
+     "Em:2"
+    ],
+    "%",
+    [
+     "G:1",
+     "Em:2",
+     "Em7:1"
+    ],
+    "%",
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:1",
+     "Am7:2",
+     "D:1"
+    ],
+    "G",
+    [
+     "C:1",
+     "D:2",
+     "G:1"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "Em:1"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "G:1"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "G:1"
+    ],
+    [
+     "C:1",
+     "D:1",
+     "G:1",
+     "C:1"
+    ],
+    "Em",
+    "C",
+    "D",
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "G:1",
+     "Em:2",
+     "Em7:1"
+    ],
+    "%",
+    [
+     "G:2",
+     "Em:2"
+    ],
+    "%",
+    [
+     "G:1",
+     "Em:2",
+     "Em7:1"
+    ],
+    "%",
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:1",
+     "Am7:2",
+     "D:1"
+    ],
+    "G",
+    [
+     "C:1",
+     "D:2",
+     "G:1"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "Em:1"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "G:1"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "Em:1"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "Em:1"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "G:1"
+    ],
+    "C",
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

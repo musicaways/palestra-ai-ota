@@ -1,0 +1,220 @@
+{
+ "title": "Piccola stella senza cielo",
+ "artist": "Ligabue",
+ "album": "Ligabue",
+ "year": 1990,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "159R8w4OniU",
+ "key": "D",
+ "bpm": 58.22,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.38,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36907855,
+  "duration": 284.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – Gmaj7 – A – Bm – G – Bm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bm7",
+    "Gmaj7",
+    "D",
+    "A"
+   ]
+  },
+  {
+   "name": "Strofa",
+   "bars": [
+    "D",
+    "%",
+    [
+     "Bm:2",
+     "Gmaj7:2"
+    ],
+    [
+     "D:1",
+     "A:2",
+     "G:1"
+    ],
+    [
+     "Bm:2",
+     "Gmaj7:2"
+    ],
+    [
+     "D:1",
+     "A:2",
+     "G:1"
+    ],
+    [
+     "Bm:2",
+     "Gmaj7:2"
+    ],
+    [
+     "D:1",
+     "A:2",
+     "G:1"
+    ],
+    "Bm",
+    [
+     "Gmaj7:1",
+     "D:1",
+     "A:1",
+     "G:1"
+    ],
+    "Bm",
+    [
+     "Gmaj7:1",
+     "D:1",
+     "A:1",
+     "G:1"
+    ],
+    "Bm",
+    [
+     "Gmaj7:1",
+     "D:1",
+     "A:1",
+     "G:1"
+    ],
+    "Bm",
+    "Gmaj7",
+    [
+     "D:2",
+     "A:2"
+    ],
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    [
+     "Bm:1",
+     "Gmaj7:1",
+     "D:1",
+     "A:1"
+    ],
+    "%",
+    [
+     "Bm:1",
+     "Gmaj7:1",
+     "D:1",
+     "A:1"
+    ],
+    [
+     "Bm:2",
+     "Gmaj7:2"
+    ],
+    [
+     "D:1",
+     "A:2",
+     "G:1"
+    ],
+    "%",
+    [
+     "Bm:1",
+     "Gmaj7:1",
+     "D:1",
+     "A:1"
+    ],
+    "Bm",
+    [
+     "Gmaj7:1",
+     "D:1",
+     "A:1",
+     "G:1"
+    ],
+    "Bm",
+    [
+     "Gmaj7:1",
+     "D:1",
+     "A:1",
+     "G:1"
+    ],
+    "Bm",
+    [
+     "Gmaj7:1",
+     "D:1",
+     "A:1",
+     "G:1"
+    ],
+    "Bm",
+    "Gmaj7",
+    "%",
+    "D",
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Bm",
+    [
+     "Gmaj7:1",
+     "D:1",
+     "A:1",
+     "G:1"
+    ],
+    "Bm",
+    [
+     "Gmaj7:1",
+     "D:1",
+     "A:1",
+     "G:1"
+    ],
+    "Bm",
+    [
+     "Gmaj7:1",
+     "D:1",
+     "A:1",
+     "G:1"
+    ],
+    "Bm",
+    "Gmaj7",
+    "%",
+    "%",
+    "%",
+    [
+     "Gmaj7:2",
+     "D:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%",
+    [
+     "A:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

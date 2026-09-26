@@ -1,0 +1,334 @@
+{
+ "title": "Bocca di rosa",
+ "artist": "Fabrizio De André",
+ "album": "In concerto - Arraggiamenti PFM (CD 2)",
+ "year": 1967,
+ "genre": "Cantautori",
+ "difficulty": 2,
+ "youtubeId": "0F_prPLht6o",
+ "key": "Am",
+ "bpm": 117.66,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.47,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36985543,
+  "duration": 280.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Am – E7 – Dm – C – G7 – A7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    [
+     "A7:2",
+     "Dm:2"
+    ],
+    [
+     "G7:2",
+     "C:2"
+    ],
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    [
+     "A7:2",
+     "Dm:2"
+    ],
+    [
+     "G7:2",
+     "C:2"
+    ],
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    "E7",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Am",
+    "%",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    [
+     "A7:2",
+     "Dm:2"
+    ],
+    [
+     "G7:2",
+     "C:2"
+    ],
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    [
+     "A7:2",
+     "Dm:2"
+    ],
+    [
+     "G7:2",
+     "C:2"
+    ],
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    "E7",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    [
+     "A7:2",
+     "Dm:2"
+    ],
+    [
+     "G7:2",
+     "C:2"
+    ],
+    "E7",
+    "Am",
+    "Am",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    [
+     "G7:2",
+     "C:2"
+    ],
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    "E7",
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    "E7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

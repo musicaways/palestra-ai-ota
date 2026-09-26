@@ -1,0 +1,185 @@
+{
+ "title": "Tra palco e realtà",
+ "artist": "Ligabue",
+ "album": "Su e Giù Da Un Palco (Cd 2)",
+ "year": 1999,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "AcnTBYYPxjI",
+ "key": "G",
+ "bpm": 73.86,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.09,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 18480486,
+  "duration": 275.649417,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – Am7 – D – Em – Cmaj7 – C.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G",
+    "%",
+    "Am7",
+    "%",
+    "G",
+    "G",
+    "%",
+    "Am7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    [
+     "G:2",
+     "Am7:2"
+    ],
+    "%",
+    [
+     "G:2",
+     "Am7:2"
+    ],
+    "%",
+    [
+     "G:2",
+     "Am7:2"
+    ],
+    "%",
+    "%",
+    [
+     "Am7:2",
+     "G:2"
+    ],
+    "%",
+    [
+     "Am7:2",
+     "G:2"
+    ],
+    "D",
+    "Am7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "G:2",
+     "Am7:2"
+    ],
+    "%",
+    [
+     "G:2",
+     "Am7:2"
+    ],
+    "%",
+    [
+     "G:2",
+     "Am7:2"
+    ],
+    "%",
+    [
+     "G:2",
+     "Am7:2"
+    ],
+    "%",
+    "%",
+    [
+     "Am7:2",
+     "G:2"
+    ],
+    "%",
+    [
+     "Am7:2",
+     "G:2"
+    ],
+    "D",
+    "Am7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Em",
+    "Cmaj7",
+    [
+     "G:1",
+     "Em7:1"
+    ],
+    "Cadd9",
+    "G",
+    [
+     "Em:1",
+     "Cmaj7:1"
+    ],
+    [
+     "G:1",
+     "C:1"
+    ],
+    "G",
+    "G",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    [
+     "G:2",
+     "Am7:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    [
+     "G:2",
+     "Am7:2"
+    ],
+    "%",
+    "%",
+    [
+     "Am7:2",
+     "G:2"
+    ],
+    "%",
+    [
+     "Am7:2",
+     "G:2"
+    ],
+    "D",
+    "Am7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

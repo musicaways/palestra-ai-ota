@@ -1,0 +1,121 @@
+{
+ "title": "La verità",
+ "artist": "Brunori Sas",
+ "album": "A Casa Tutto Bene",
+ "year": 2017,
+ "genre": "Indie",
+ "difficulty": 3,
+ "youtubeId": "J4FC5FzsYR4",
+ "key": "G",
+ "bpm": 55.13,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.15,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 5656315,
+  "duration": 302.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – Dmaj7 – F#m – F#m7 – Em – Gm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Dmaj7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Dmaj7",
+    "G",
+    "Dmaj7",
+    "G",
+    "Dmaj7",
+    "G",
+    "Dmaj7",
+    "G",
+    "Em",
+    "F#m7",
+    "G",
+    "Gm",
+    "Dmaj7",
+    "G",
+    "Dmaj7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Dmaj7",
+    "G",
+    "Dmaj7",
+    "G",
+    "Dmaj7",
+    "G",
+    "F#m",
+    "G",
+    "Em",
+    "F#m7",
+    "G",
+    "Dmaj7",
+    "G",
+    "F#m",
+    "%",
+    "Dmaj7",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Dmaj7",
+    "G",
+    "F#m",
+    "%",
+    "Dmaj7",
+    "G",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

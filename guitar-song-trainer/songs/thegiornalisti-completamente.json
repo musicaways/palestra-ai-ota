@@ -1,0 +1,164 @@
+{
+ "title": "Completamente",
+ "artist": "Thegiornalisti",
+ "album": "Thegiornalisti Videos",
+ "year": 2016,
+ "genre": "Indie / Pop",
+ "difficulty": 3,
+ "youtubeId": "x2X1I7WQoOw",
+ "key": "A",
+ "bpm": 108.36,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.21,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 20337744,
+  "duration": 216.36,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – G – D – Bm7 – Bm – A4.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "D",
+    "%",
+    "Bm7",
+    "%",
+    "G",
+    "%",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "D",
+    "%",
+    "Bm7",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%",
+    "D",
+    "%",
+    "Bm7",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%",
+    "Bm",
+    "%",
+    "A",
+    "G",
+    "A",
+    "%",
+    "%",
+    "%",
+    "Bm7",
+    "A",
+    "G",
+    "D",
+    "D",
+    "%",
+    "Bm7",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%",
+    "Bm7",
+    "%",
+    "A",
+    "G",
+    "D",
+    "A",
+    "%",
+    "%",
+    "Bm7",
+    "A",
+    "G",
+    "%",
+    "A4",
+    "A",
+    "Bm",
+    "A",
+    "G",
+    "%",
+    "%",
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    "G",
+    "%",
+    "A4",
+    "A",
+    "Bm7",
+    "A",
+    "G",
+    "A",
+    "Bm7",
+    "A",
+    [
+     "A:2",
+     "G:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    "%",
+    "G",
+    "A",
+    "Bm",
+    "A",
+    "G",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    "%",
+    "G",
+    "A",
+    "Bm",
+    "A",
+    [
+     "A:2",
+     "G:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "D",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

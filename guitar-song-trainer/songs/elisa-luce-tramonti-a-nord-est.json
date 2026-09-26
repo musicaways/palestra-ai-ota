@@ -1,0 +1,167 @@
+{
+ "title": "Luce (tramonti a nord est)",
+ "artist": "Elisa",
+ "album": "Unknown",
+ "year": 2001,
+ "genre": "Pop",
+ "difficulty": 3,
+ "youtubeId": "tPwqOWK6EFw",
+ "key": "F",
+ "bpm": 87.11,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.75,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 35059429,
+  "duration": 265.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F – Dm – Bb – C – A4 – Gm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Dm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Dm",
+    "%",
+    "%",
+    "%",
+    "Bb",
+    "%",
+    "A4",
+    "%",
+    "%",
+    "%",
+    "F",
+    "%",
+    "%",
+    "%",
+    "F",
+    "%",
+    "C",
+    "%",
+    "%",
+    "%",
+    "Dm",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Bb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "F",
+    "%",
+    "%",
+    "%",
+    "F",
+    "%",
+    "%",
+    "%",
+    "F",
+    "%",
+    "%",
+    "%",
+    "F",
+    "%",
+    [
+     "C:2",
+     "Bb:2"
+    ],
+    [
+     "Gm:2",
+     "Dm:2"
+    ],
+    [
+     "Am:2",
+     "Bb:2"
+    ],
+    "%",
+    "%",
+    "Gm",
+    "Dm",
+    "A4",
+    "%",
+    "%",
+    "F",
+    "%",
+    "%",
+    "%",
+    "F",
+    "%",
+    "%",
+    "F",
+    "%",
+    "%",
+    "%",
+    "F",
+    "%",
+    "C",
+    [
+     "Dm:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "Dm:1",
+     "Bb:2",
+     "F:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

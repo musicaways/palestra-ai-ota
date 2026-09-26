@@ -1,0 +1,340 @@
+{
+ "title": "Imagine",
+ "artist": "John Lennon",
+ "album": "Arrow Rock 500 Editie 2015",
+ "year": 1971,
+ "genre": "Pop",
+ "difficulty": 2,
+ "youtubeId": "WUxgIPYDQHE",
+ "key": "C",
+ "bpm": 155.96,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.66,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 22271652,
+  "duration": 184.226667,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – Cmaj7 – F – G – E – E7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "C",
+    "%",
+    "Cmaj7",
+    "%",
+    "F",
+    "%",
+    "C",
+    "%",
+    "Cmaj7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "C",
+    [
+     "C:2",
+     "Cmaj7:2"
+    ],
+    [
+     "Cmaj7:2",
+     "F:2"
+    ],
+    "%",
+    "C",
+    [
+     "C:2",
+     "Cmaj7:2"
+    ],
+    [
+     "Cmaj7:2",
+     "F:2"
+    ],
+    "%",
+    "C",
+    [
+     "C:2",
+     "Cmaj7:2"
+    ],
+    "%",
+    [
+     "Cmaj7:2",
+     "F:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "C",
+    "Cmaj7",
+    "F",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "C",
+    [
+     "C:2",
+     "Cmaj7:2"
+    ],
+    [
+     "Cmaj7:2",
+     "F:2"
+    ],
+    "%",
+    "C",
+    [
+     "C:2",
+     "Cmaj7:2"
+    ],
+    [
+     "Cmaj7:2",
+     "F:2"
+    ],
+    "%",
+    "C",
+    [
+     "C:2",
+     "Cmaj7:2"
+    ],
+    [
+     "Cmaj7:2",
+     "F:2"
+    ],
+    "%",
+    "C",
+    [
+     "C:2",
+     "Cmaj7:2"
+    ],
+    [
+     "Cmaj7:2",
+     "F:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "F:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "C:2"
+    ],
+    [
+     "Cmaj7:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "E7:2"
+    ],
+    [
+     "F:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "C:2"
+    ],
+    [
+     "Cmaj7:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "E7:2"
+    ],
+    [
+     "F:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "C:2"
+    ],
+    [
+     "Cmaj7:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "E7:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "C",
+    [
+     "C:2",
+     "Cmaj7:2"
+    ],
+    [
+     "Cmaj7:2",
+     "F:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "C",
+    [
+     "C:2",
+     "Cmaj7:2"
+    ],
+    [
+     "Cmaj7:2",
+     "F:2"
+    ],
+    "%",
+    "C",
+    [
+     "C:2",
+     "Cmaj7:2"
+    ],
+    [
+     "Cmaj7:2",
+     "F:2"
+    ],
+    "%",
+    "C",
+    [
+     "C:2",
+     "Cmaj7:2"
+    ],
+    [
+     "Cmaj7:2",
+     "F:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "F:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "C:2"
+    ],
+    [
+     "Cmaj7:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "E7:2"
+    ],
+    [
+     "F:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "C:2"
+    ],
+    [
+     "Cmaj7:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "E7:2"
+    ],
+    [
+     "F:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "C:2"
+    ],
+    [
+     "Cmaj7:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "E7:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "F",
+    "%",
+    [
+     "F:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    [
+     "G:2",
+     "C:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

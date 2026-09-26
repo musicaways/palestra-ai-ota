@@ -1,0 +1,186 @@
+{
+ "title": "Alba",
+ "artist": "Ultimo",
+ "album": "3:30",
+ "year": 2023,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "IpF9WqUS2S0",
+ "key": "F",
+ "bpm": 78.48,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.71,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 22382790,
+  "duration": 209.64,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F – Bb – Dm – Bbadd9 – Bbmaj7 – Am.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Dm",
+    "Bbadd9",
+    "F",
+    "Dm"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Dm:2",
+     "Bbadd9:2"
+    ],
+    [
+     "Bbadd9:2",
+     "F:2"
+    ],
+    [
+     "Dm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Dm:2",
+     "Bbadd9:2"
+    ],
+    [
+     "Bbadd9:2",
+     "F:2"
+    ],
+    [
+     "Dm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "Bb",
+    [
+     "Bb:2",
+     "Dm:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "F",
+    "%",
+    "Am",
+    "%",
+    "Gm7",
+    "%",
+    "Bb",
+    "F",
+    "C7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    [
+     "Dm:2",
+     "Bbadd9:2"
+    ],
+    [
+     "Bbadd9:2",
+     "F:2"
+    ],
+    [
+     "Dm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Dm:2",
+     "Bbadd9:2"
+    ],
+    [
+     "Bbadd9:2",
+     "F:2"
+    ],
+    [
+     "Dm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "Bbmaj7",
+    [
+     "Bbmaj7:2",
+     "Dm:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "%",
+    "%",
+    "F",
+    "%",
+    "Am",
+    "%",
+    "Bb",
+    "%",
+    "Bbmaj7",
+    "Dm",
+    "%",
+    "%",
+    "F",
+    "%",
+    "Dm7",
+    "%",
+    "Am",
+    "%",
+    "Gm7",
+    "%",
+    "Bb",
+    "%",
+    "%",
+    [
+     "Bb:2",
+     "Bbmaj7:2"
+    ],
+    "%",
+    "%",
+    "%",
+    [
+     "Bbmaj7:2",
+     "F:2"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

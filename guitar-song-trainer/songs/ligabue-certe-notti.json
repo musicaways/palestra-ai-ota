@@ -1,0 +1,283 @@
+{
+ "title": "Certe notti",
+ "artist": "Ligabue",
+ "album": "Italia 100%",
+ "year": 1995,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "DGj5aqLk4yM",
+ "key": "A",
+ "bpm": 89.17,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.84,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37010228,
+  "duration": 261.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – B – E – C#m – G#m – D.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "E",
+    "A"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "E:2",
+     "A:2"
+    ],
+    [
+     "B:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "C#m:2",
+     "A:2"
+    ],
+    "B",
+    "%",
+    [
+     "G#m:2",
+     "A:2"
+    ],
+    "C#m",
+    "A",
+    [
+     "E:2",
+     "A:2"
+    ],
+    [
+     "B:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    "D",
+    "D",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "E:2",
+     "A:2"
+    ],
+    [
+     "B:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "C#m:2",
+     "A:2"
+    ],
+    "B",
+    "%",
+    [
+     "G#m:2",
+     "A:2"
+    ],
+    "C#m",
+    "A",
+    [
+     "E:2",
+     "A:2"
+    ],
+    [
+     "B:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    "C#m",
+    [
+     "C#m:2",
+     "B:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "A",
+    [
+     "A:2",
+     "B:2"
+    ],
+    "%",
+    "G#m",
+    "A",
+    "B",
+    "A",
+    [
+     "A:2",
+     "B:2"
+    ],
+    [
+     "B:2",
+     "D:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "E:2",
+     "A:2"
+    ],
+    [
+     "B:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    "B",
+    "%",
+    "%",
+    "G#m",
+    [
+     "G#m:2",
+     "A:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "E",
+    "A",
+    [
+     "B:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    "C#m",
+    [
+     "C#m:2",
+     "B:2"
+    ],
+    "%",
+    "A",
+    "B",
+    "G#m",
+    "A",
+    "B"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    [
+     "A:2",
+     "B:2"
+    ],
+    [
+     "B:2",
+     "D:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "G#m",
+    "A",
+    [
+     "C#m:2",
+     "A:2"
+    ],
+    "E",
+    "A",
+    [
+     "B:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    "C#m",
+    [
+     "C#m:2",
+     "B:2"
+    ],
+    "%",
+    "A",
+    "B",
+    "G#m",
+    "A",
+    "B"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    [
+     "A:2",
+     "B:2"
+    ],
+    [
+     "B:2",
+     "D:2"
+    ],
+    "%",
+    "%",
+    "E",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

@@ -1,0 +1,184 @@
+{
+ "title": "Guardia '82",
+ "artist": "Brunori Sas",
+ "album": "Brunori Sas, Vol. 1",
+ "year": 2009,
+ "genre": "Indie",
+ "difficulty": 4,
+ "youtubeId": "Ba52NHhSGpQ",
+ "key": "D",
+ "bpm": 72.99,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.08,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 18294410,
+  "duration": 269.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – G – Dm – A – C – Cm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "G",
+    "Em7",
+    "Bm",
+    "D",
+    "G",
+    "Em7",
+    "%",
+    "D",
+    [
+     "C:2",
+     "Cm:2"
+    ],
+    [
+     "G:2",
+     "Gmaj7:2"
+    ],
+    [
+     "C:2",
+     "Cm:2"
+    ],
+    [
+     "G:2",
+     "Gmaj7:2"
+    ],
+    "C",
+    "Cm",
+    [
+     "A7:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "D7:2"
+    ],
+    "G",
+    "Em",
+    "Bm",
+    "D",
+    "G",
+    "Em",
+    "Bm",
+    "D",
+    [
+     "C:2",
+     "Cm:2"
+    ],
+    [
+     "G:2",
+     "Gmaj7:2"
+    ],
+    [
+     "C:2",
+     "Cm:2"
+    ],
+    [
+     "G:2",
+     "Gmaj7:2"
+    ],
+    "G",
+    "Em",
+    "A7",
+    "%",
+    "D",
+    "%",
+    "D7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "A",
+    "F#m",
+    "C#m",
+    "E",
+    "A",
+    "F#m",
+    "C#m",
+    "E",
+    [
+     "D:2",
+     "Dm:2"
+    ],
+    [
+     "A:2",
+     "Amaj7:2"
+    ],
+    [
+     "D:2",
+     "Dm:2"
+    ],
+    [
+     "A:2",
+     "Amaj7:2"
+    ],
+    "D",
+    "Dm",
+    "D",
+    "%",
+    "E",
+    "%",
+    "E7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "D:2",
+     "Dm:2"
+    ],
+    [
+     "A:2",
+     "Amaj7:2"
+    ],
+    [
+     "D:1",
+     "Dm:1",
+     "A:1",
+     "Amaj7:1"
+    ],
+    "D",
+    "Dm",
+    "%",
+    "Bm",
+    [
+     "D:2",
+     "E7:2"
+    ],
+    "Dm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

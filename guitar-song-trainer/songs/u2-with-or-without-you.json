@@ -1,0 +1,255 @@
+{
+ "title": "With or Without You",
+ "artist": "U2",
+ "album": "Pop Rock Classics - By Fuvi Clan",
+ "year": 1987,
+ "genre": "Rock",
+ "difficulty": 1,
+ "youtubeId": "E54UIjXTw2E",
+ "key": "Bm",
+ "bpm": 55.57,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.19,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37017897,
+  "duration": 295.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bm – D – A – G.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "D",
+    "A",
+    "Bm",
+    "G",
+    "D",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "D:1",
+     "A:2",
+     "Bm:1"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "D:1",
+     "A:2",
+     "Bm:1"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "D:1",
+     "A:1",
+     "Bm:1",
+     "G:1"
+    ],
+    [
+     "D:1",
+     "A:1",
+     "Bm:1",
+     "G:1"
+    ],
+    [
+     "D:1",
+     "A:2",
+     "Bm:1"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "D:1",
+     "A:2",
+     "Bm:1"
+    ],
+    [
+     "G:1",
+     "D:1",
+     "A:1",
+     "Bm:1"
+    ],
+    "%",
+    "D",
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    "G",
+    [
+     "D:1",
+     "A:1",
+     "Bm:1",
+     "G:1"
+    ],
+    [
+     "D:1",
+     "A:1",
+     "Bm:1",
+     "G:1"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "Bm:2",
+     "G:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "Bm:1",
+     "G:2",
+     "D:1"
+    ],
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "D:1",
+     "A:1",
+     "Bm:1",
+     "G:1"
+    ],
+    [
+     "D:1",
+     "A:1",
+     "Bm:1",
+     "G:1"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "D:1",
+     "A:2",
+     "Bm:1"
+    ],
+    [
+     "G:1",
+     "D:1",
+     "A:1",
+     "Bm:1"
+    ],
+    "%",
+    [
+     "D:1",
+     "A:1",
+     "Bm:1",
+     "G:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "D:1",
+     "A:1",
+     "Bm:1",
+     "G:1"
+    ],
+    [
+     "D:1",
+     "A:1",
+     "Bm:1",
+     "G:1"
+    ],
+    "%",
+    [
+     "D:1",
+     "A:1",
+     "Bm:1",
+     "G:1"
+    ],
+    "D",
+    "%",
+    "%",
+    "%",
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bm",
+    "%",
+    "%",
+    "%",
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

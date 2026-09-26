@@ -1,0 +1,142 @@
+{
+ "title": "L'essenziale",
+ "artist": "Marco Mengoni",
+ "album": "L'essenziale",
+ "year": 2013,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "PyFZbnaozaQ",
+ "key": "Ab",
+ "bpm": 63.41,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.96,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36650715,
+  "duration": 219.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Ab – Dbadd9 – A – E – F#m7 – F#.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Ab",
+    "Dbadd9"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Ab",
+    "Dbadd9",
+    "Ab",
+    "Dbadd9",
+    "Ab",
+    "Dbadd9",
+    "Fm",
+    "Dbadd9",
+    [
+     "Ab:2",
+     "Fm7:2"
+    ],
+    [
+     "Fm7:2",
+     "Dbadd9:2"
+    ],
+    [
+     "Ab:2",
+     "Fm7:2"
+    ],
+    [
+     "Fm7:2",
+     "Dbadd9:2"
+    ],
+    "Ab",
+    "Eb",
+    "Fm",
+    "Dbadd9",
+    "Gb",
+    "Ab",
+    "%",
+    [
+     "A:2",
+     "D:2"
+    ],
+    "F#m",
+    "D",
+    [
+     "A:2",
+     "F#m7:2"
+    ],
+    [
+     "F#m7:2",
+     "Dadd9:2"
+    ],
+    [
+     "A:2",
+     "F#m7:2"
+    ],
+    [
+     "F#m7:2",
+     "Dadd9:2"
+    ],
+    "A",
+    "E",
+    "%",
+    [
+     "F#m:2",
+     "Dadd9:2"
+    ],
+    "A",
+    "E",
+    "%",
+    [
+     "F#m:2",
+     "Dadd9:2"
+    ],
+    "G",
+    "Bm",
+    "G",
+    "F#",
+    "B",
+    "F#",
+    "G#m",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "B",
+    "F#",
+    "%",
+    [
+     "G#m:2",
+     "E:2"
+    ],
+    "B",
+    "F#",
+    "%",
+    [
+     "G#m:2",
+     "E:2"
+    ],
+    "A",
+    "%",
+    "%",
+    "B",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

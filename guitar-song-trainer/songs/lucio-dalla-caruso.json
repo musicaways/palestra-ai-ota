@@ -1,0 +1,240 @@
+{
+ "title": "Caruso",
+ "artist": "Lucio Dalla",
+ "album": "Ti amo Italia",
+ "year": 1986,
+ "genre": "Cantautori",
+ "difficulty": 3,
+ "youtubeId": "1qa_TMy3m7c",
+ "key": "Am7",
+ "bpm": 87.08,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.74,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37406663,
+  "duration": 314.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Am7 – Dm7 – E7 – G7 – Am – G.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "%",
+    "%",
+    "Dm7",
+    "%",
+    "G",
+    "%",
+    "Cmaj7",
+    "%",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Am7:2",
+     "Am:2"
+    ],
+    "Dm7",
+    "%",
+    "G7",
+    [
+     "E7:2",
+     "Am7:2"
+    ],
+    "Am7",
+    "Am",
+    "Dm7",
+    "%",
+    "G7",
+    [
+     "E7:2",
+     "Am7:2"
+    ],
+    "Am7",
+    "Dm7",
+    "G7",
+    "E7",
+    "Am7",
+    "Am7",
+    "Dm7",
+    "G7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "E7",
+    "Am7",
+    "%",
+    "Dm7",
+    "G",
+    "Cmaj7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "Am7:2",
+     "Am:2"
+    ],
+    "Dm7",
+    "G7",
+    "E7",
+    "Am7",
+    [
+     "Am7:2",
+     "Am:2"
+    ],
+    "Dm7",
+    "%",
+    "G7",
+    "E7",
+    "Am7",
+    [
+     "Am7:2",
+     "Am:2"
+    ],
+    "Dm7",
+    "%",
+    "G7",
+    [
+     "E7:2",
+     "Am7:2"
+    ],
+    "Am7",
+    "Dm7",
+    "G7",
+    "E7",
+    "Am7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Am7",
+    "Dm7",
+    "G7",
+    "E7",
+    "Am7",
+    "%",
+    "Dm7",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "Am7:2",
+     "Am:2"
+    ],
+    "Dm7",
+    "%",
+    [
+     "G7:2",
+     "E7:2"
+    ],
+    "Am7",
+    "Am7",
+    "Am",
+    "Dm7",
+    "G7",
+    "E7",
+    "Am7",
+    [
+     "Am7:2",
+     "Am:2"
+    ],
+    "Dm7",
+    "%",
+    "G7",
+    [
+     "E7:2",
+     "Am7:2"
+    ],
+    "Am7",
+    "Am",
+    "Dm7",
+    "%",
+    [
+     "G7:2",
+     "E7:2"
+    ],
+    "Am7",
+    "Am7",
+    "Dm7",
+    "G7",
+    "E7",
+    "Am7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Am7",
+    "Dm7",
+    "G7",
+    "E7",
+    [
+     "E7:2",
+     "Am7:2"
+    ],
+    "%",
+    "Am7",
+    "Dm7",
+    "G7",
+    "E7",
+    [
+     "E7:2",
+     "Am7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    [
+     "Am7:2",
+     "Dm7:2"
+    ],
+    [
+     "Dm7:2",
+     "G7:2"
+    ],
+    "E7",
+    "%",
+    "%",
+    "%",
+    [
+     "E7:2",
+     "Am7:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

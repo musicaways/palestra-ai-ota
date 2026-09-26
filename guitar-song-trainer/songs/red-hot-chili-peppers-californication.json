@@ -1,0 +1,289 @@
+{
+ "title": "Californication",
+ "artist": "Red Hot Chili Peppers",
+ "album": "Californication",
+ "year": 1999,
+ "genre": "Rock",
+ "difficulty": 5,
+ "youtubeId": "YlUKcNNmywk",
+ "key": "Am",
+ "bpm": 95.88,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.48,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 14471551,
+  "duration": 321.716286,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Am – F – G – C – Dm – Fmaj7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "F",
+    "%",
+    "F",
+    "%",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "F",
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    [
+     "Am:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "Am:2"
+    ],
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "F",
+    "%",
+    "F",
+    "%",
+    "C",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "Am",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Am:2",
+     "Fmaj7:2"
+    ],
+    "Am",
+    "Fmaj7",
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    [
+     "C:1",
+     "G:2",
+     "Dm:1"
+    ],
+    "Am",
+    "C",
+    "G",
+    "Dm",
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Am",
+    "%",
+    "Am",
+    "%",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "F",
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    [
+     "Am:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "Am:2"
+    ],
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "F",
+    "%",
+    "F",
+    "%",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "F",
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    [
+     "Am:2",
+     "Fmaj7:2"
+    ],
+    [
+     "Fmaj7:2",
+     "Am:2"
+    ],
+    "Fmaj7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    "Am",
+    "%",
+    "Fmaj7",
+    "Am",
+    "Fmaj7",
+    "Am",
+    "Fmaj7",
+    "%",
+    [
+     "C:1",
+     "G:1",
+     "Dm:1",
+     "Am:1"
+    ],
+    "C",
+    "G",
+    "Dm",
+    [
+     "C:1",
+     "G:1",
+     "Dm:1",
+     "Am:1"
+    ],
+    [
+     "C:1",
+     "G:2",
+     "Dm:1"
+    ],
+    "F#m",
+    "D",
+    "F#m",
+    "D",
+    "Badd9",
+    "D",
+    "A",
+    "E",
+    "F#m",
+    "D",
+    "F#m",
+    "D",
+    "Badd9",
+    "D",
+    "A",
+    "E",
+    "Badd9",
+    "D",
+    "A",
+    "E",
+    "Badd9"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 7",
+   "bars": [
+    "Am",
+    "%",
+    "Am",
+    "%",
+    "C",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "Fmaj7",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 8",
+   "bars": [
+    "Am",
+    "Fmaj7",
+    [
+     "Am:2",
+     "Fmaj7:2"
+    ],
+    "C",
+    [
+     "G:2",
+     "Dm:2"
+    ],
+    "Am",
+    [
+     "C:1",
+     "G:2",
+     "Dm:1"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    "C",
+    "%",
+    "G",
+    "%",
+    "Dm",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

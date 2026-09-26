@@ -1,0 +1,145 @@
+{
+ "title": "La notte",
+ "artist": "Modà",
+ "album": "Una canzone per te",
+ "year": 2011,
+ "genre": "Pop / Rock",
+ "difficulty": 3,
+ "youtubeId": "k60_RxuJdLw",
+ "key": "Am",
+ "bpm": 74.08,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.79,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 35256587,
+  "duration": 199.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Am – Em – B – B7 – G – D.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Em",
+    "Am",
+    "Em"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Em",
+    "Am",
+    "Em",
+    "%",
+    [
+     "B7:2",
+     "Em:2"
+    ],
+    "Am",
+    "Em",
+    "B7",
+    "%",
+    "Am",
+    "Em",
+    "B",
+    "%",
+    "Em",
+    "Am",
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "B7:2",
+     "Em:2"
+    ],
+    "Am",
+    "%",
+    "G",
+    "B",
+    "Am",
+    [
+     "Am:2",
+     "B:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Em",
+    "Am",
+    "Em",
+    "B7",
+    "%",
+    "Am",
+    "Em",
+    "%",
+    "B7",
+    "Em",
+    "Am",
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "B7:2",
+     "Em:2"
+    ],
+    "Am",
+    "%",
+    "G",
+    "B",
+    "Am",
+    "%",
+    [
+     "Am:2",
+     "B:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Em",
+    [
+     "Em:2",
+     "Am:2"
+    ],
+    "%",
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "B7:2",
+     "Em:2"
+    ],
+    "Am",
+    "%",
+    "G",
+    "B",
+    "Am",
+    [
+     "Am:2",
+     "B:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

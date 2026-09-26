@@ -1,0 +1,220 @@
+{
+ "title": "Il comico (sai che risate)",
+ "artist": "Cesare Cremonini",
+ "album": "Il comico (Sai che risate) - Single",
+ "year": 2012,
+ "genre": "Pop / Cantautori",
+ "difficulty": 4,
+ "youtubeId": "0ATzLQQ9z6k",
+ "key": "C",
+ "bpm": 115.28,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.04,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 17350516,
+  "duration": 257.880816,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – G – F – Bb – Fmaj7 – Em.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "C",
+    "%",
+    "%",
+    "%"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "C",
+    "%",
+    "%",
+    "%",
+    "Fmaj7",
+    "%",
+    "C",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Fmaj7",
+    "G",
+    "C",
+    "%",
+    "%",
+    "Fmaj7",
+    "%",
+    "%",
+    "C",
+    "%",
+    "Fmaj7",
+    "G",
+    "F",
+    "%",
+    "C",
+    "%",
+    "F",
+    "G",
+    "F",
+    "Dm7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "C",
+    "Em",
+    "C",
+    "Em",
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "Dm",
+    "%",
+    "Am",
+    "Bb",
+    [
+     "Bb:2",
+     "G:2"
+    ],
+    "%",
+    [
+     "G:2",
+     "C:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "%",
+    "%",
+    "Fmaj7",
+    "%",
+    "%",
+    "C",
+    "%",
+    "Fmaj7",
+    "G",
+    "F",
+    "%",
+    "C",
+    "%",
+    "F",
+    "G",
+    "F",
+    "Dm7",
+    "%",
+    "G",
+    "%",
+    "C",
+    "Em",
+    "C",
+    "Em",
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "Dm",
+    "%",
+    "Am",
+    "Bb",
+    [
+     "Bb:2",
+     "G:2"
+    ],
+    "%",
+    [
+     "G:2",
+     "F:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "F",
+    "%",
+    "G",
+    "%",
+    "F",
+    "G",
+    "%",
+    "%",
+    "C",
+    "Em",
+    "C",
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "Dm",
+    "%",
+    "Am",
+    [
+     "Bb:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "C:2"
+    ],
+    "C4",
+    "%",
+    "C",
+    "%",
+    "C4",
+    "%",
+    "C",
+    "%",
+    "C4",
+    "%",
+    "C"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

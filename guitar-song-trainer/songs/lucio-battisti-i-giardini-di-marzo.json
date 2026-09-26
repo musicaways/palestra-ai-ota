@@ -1,0 +1,218 @@
+{
+ "title": "I giardini di marzo",
+ "artist": "Lucio Battisti",
+ "album": "The Best cd 2",
+ "year": 1972,
+ "genre": "Cantautori",
+ "difficulty": 5,
+ "youtubeId": "z_N7dn7LLys",
+ "key": "G#m",
+ "bpm": 71.79,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.94,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37064633,
+  "duration": 332.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G#m – D#m7 – Emaj7 – C#m – F# – B.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G#m",
+    "D#m7",
+    "Emaj7",
+    "G#m",
+    "D#m7",
+    "G#m",
+    [
+     "G#m:2",
+     "D#m:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "G#m",
+    "D#m",
+    "G#m",
+    "D#m",
+    "G#m",
+    "D#m",
+    "G#m",
+    "D#m7",
+    "Emaj7",
+    "G#m",
+    "D#m7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "G#m",
+    [
+     "G#m:2",
+     "D#m7:2"
+    ],
+    "%",
+    "G#m",
+    "D#m7",
+    "G#m",
+    "D#m7",
+    "G#m",
+    "%",
+    [
+     "G#m:2",
+     "D#m7:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "B",
+    "F#",
+    [
+     "C#m:2",
+     "G#m:2"
+    ],
+    "G#m",
+    "C#m",
+    "%",
+    "%",
+    [
+     "F#:2",
+     "D#7:2"
+    ],
+    "B",
+    "%",
+    "G#m",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "C#m",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "G#m:2",
+     "D#m7:2"
+    ],
+    [
+     "D#m7:2",
+     "Emaj7:2"
+    ],
+    "G#m",
+    "D#m7",
+    "Emaj7",
+    "G#m",
+    "D#m7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "G#m",
+    "D#m7",
+    "G#m",
+    "D#m7",
+    "G#m",
+    "D#m7",
+    [
+     "G#m:2",
+     "D#m7:2"
+    ],
+    [
+     "D#m7:2",
+     "Emaj7:2"
+    ],
+    [
+     "G#m:2",
+     "D#m7:2"
+    ],
+    [
+     "D#m7:2",
+     "Emaj7:2"
+    ],
+    "G#m",
+    "%",
+    [
+     "G#m:2",
+     "D#m7:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "B",
+    "F#",
+    [
+     "C#m:2",
+     "G#m:2"
+    ],
+    "G#m",
+    "C#m",
+    "%",
+    "%",
+    [
+     "F#:2",
+     "D#7:2"
+    ],
+    "B",
+    "%",
+    "G#m",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "C#m",
+    "%",
+    [
+     "G#m:2",
+     "D#m7:2"
+    ],
+    [
+     "D#m7:2",
+     "Emaj7:2"
+    ],
+    "G#m",
+    "D#m7",
+    "Emaj7",
+    "G#m",
+    "D#m7",
+    "Emaj7",
+    "G#m7",
+    "G#m",
+    "D#m7"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

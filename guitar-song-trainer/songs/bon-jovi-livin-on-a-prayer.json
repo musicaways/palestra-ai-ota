@@ -1,0 +1,334 @@
+{
+ "title": "Livin' on a Prayer",
+ "artist": "Bon Jovi",
+ "album": "Bon Jovi Platinum",
+ "year": 1986,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "CuUefy9bT9U",
+ "key": "C",
+ "bpm": 123.49,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.23,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36974989,
+  "duration": 250.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – D – Em – Eb – Bb – G.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Em",
+    "%",
+    "%",
+    "C",
+    "%",
+    "%",
+    "D",
+    "%",
+    "%",
+    "Em",
+    "%",
+    "%",
+    "C",
+    "%",
+    "%",
+    "D",
+    "%",
+    "%",
+    "Em",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Em",
+    "%",
+    "%",
+    "%",
+    "C",
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    "%",
+    "Em",
+    "%",
+    "C",
+    "D",
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "C",
+    "D",
+    "Em",
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    "C",
+    [
+     "D:2",
+     "Em:2"
+    ],
+    "C",
+    "D",
+    [
+     "Em:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "G:2",
+     "C:2"
+    ],
+    "C",
+    [
+     "Em:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    "G",
+    [
+     "G:2",
+     "C:2"
+    ],
+    "C",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Em",
+    "%",
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Em",
+    "%",
+    "%",
+    "%",
+    "C",
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    "C",
+    [
+     "D:2",
+     "Em:2"
+    ],
+    "C",
+    "D",
+    [
+     "Em:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "G:2",
+     "C:2"
+    ],
+    "C",
+    [
+     "Em:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "G:2",
+     "C:2"
+    ],
+    "C",
+    [
+     "C4:2",
+     "Cmaj7:2"
+    ],
+    "Em",
+    "%",
+    "C",
+    "%",
+    "D",
+    "%",
+    "G",
+    "%",
+    "C",
+    "C",
+    [
+     "D:2",
+     "Em:2"
+    ],
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "C",
+    "D",
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    "Eb",
+    [
+     "Gm:2",
+     "Eb:2"
+    ],
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    "Eb",
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    "Eb",
+    [
+     "Gm:2",
+     "Eb:2"
+    ],
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    "Eb",
+    [
+     "Em:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    "Eb",
+    [
+     "Gm:2",
+     "Eb:2"
+    ],
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}
