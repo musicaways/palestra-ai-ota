@@ -1,0 +1,312 @@
+{
+ "title": "Highway to Hell",
+ "artist": "AC/DC",
+ "album": "Best Of AC/DC",
+ "year": 1979,
+ "genre": "Rock",
+ "difficulty": 2,
+ "youtubeId": "l482T0yNkeo",
+ "key": "A",
+ "bpm": 57.38,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.69,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34691201,
+  "duration": 208,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – D/F# – G – D – D/A – Dsus4.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "A",
+    "A",
+    "A",
+    "D/F#"
+   ]
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "A:1",
+     "A:1",
+     "A:1",
+     "D/F#:1"
+    ],
+    [
+     "D/F#:1",
+     "D/F#:1",
+     "G:1",
+     "D/F#:1"
+    ],
+    [
+     "A:1",
+     "A:1",
+     "A:1",
+     "D/F#:1"
+    ],
+    [
+     "D/F#:1",
+     "D/F#:1",
+     "G:1",
+     "D/F#:1"
+    ],
+    [
+     "A:1",
+     "A:1",
+     "A:1",
+     "D/F#:1"
+    ],
+    [
+     "D/F#:1",
+     "D/F#:1",
+     "G:1",
+     "D/F#:1"
+    ],
+    [
+     "A:1",
+     "A:1",
+     "A:1",
+     "D/F#:1"
+    ],
+    [
+     "D/F#:1",
+     "D/F#:1",
+     "G:1",
+     "D/F#:1"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "A:1",
+     "A:1",
+     "A:1",
+     "D/A:1"
+    ],
+    [
+     "D/F#:1",
+     "A:1",
+     "A:1",
+     "A:1"
+    ],
+    [
+     "D/F#:1",
+     "A:1",
+     "A:1",
+     "A:1"
+    ],
+    [
+     "D/F#:2",
+     "A:1",
+     "A:1"
+    ],
+    [
+     "A:1",
+     "A:1",
+     "D/A:2"
+    ],
+    [
+     "A:1",
+     "A:1",
+     "A:1",
+     "D/F#:1"
+    ],
+    [
+     "D/F#:1",
+     "D/F#:1",
+     "G:1",
+     "D/F#:1"
+    ],
+    [
+     "A:1",
+     "A:1",
+     "A:1",
+     "D/F#:1"
+    ],
+    [
+     "D/F#:1",
+     "D/F#:1",
+     "G:1",
+     "D/F#:1"
+    ],
+    [
+     "A:1",
+     "A:1",
+     "A:1",
+     "D/F#:1"
+    ],
+    [
+     "D/F#:1",
+     "D/F#:1",
+     "G:1",
+     "D/F#:1"
+    ],
+    [
+     "A:1",
+     "A:1",
+     "A:1",
+     "D/F#:1"
+    ],
+    [
+     "D/F#:1",
+     "D/F#:1",
+     "G:1",
+     "D/F#:1"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "A:1",
+     "A:1",
+     "A:1",
+     "D/A:1"
+    ],
+    [
+     "D/F#:1",
+     "A:1",
+     "A:1",
+     "A:1"
+    ],
+    [
+     "D/F#:1",
+     "A:1",
+     "A:1",
+     "A:1"
+    ],
+    [
+     "D/F#:1",
+     "A:1",
+     "A:1",
+     "A:1"
+    ],
+    [
+     "D:1",
+     "Dsus4:1",
+     "D:1",
+     "D:1"
+    ],
+    "A",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "D/F#:1",
+     "A:1",
+     "A:1",
+     "A:1"
+    ],
+    [
+     "D/F#:1",
+     "A:1",
+     "A:1",
+     "A:1"
+    ],
+    [
+     "D/F#:1",
+     "A:1",
+     "A:1",
+     "A:1"
+    ],
+    "%",
+    [
+     "D/F#:1",
+     "A:1",
+     "A:1",
+     "A:1"
+    ],
+    [
+     "D/F#:1",
+     "A:1",
+     "A:1",
+     "A:1"
+    ],
+    [
+     "D/F#:1",
+     "A:1",
+     "A:1",
+     "A:1"
+    ],
+    [
+     "D/F#:1",
+     "A:1",
+     "A:1",
+     "A:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   18.612
+  ],
+  [
+   8,
+   35.112
+  ],
+  [
+   13,
+   56.415
+  ],
+  [
+   17,
+   72.422
+  ],
+  [
+   22,
+   93.077
+  ],
+  [
+   26,
+   110.482
+  ],
+  [
+   31,
+   131.367
+  ],
+  [
+   36,
+   152.035
+  ],
+  [
+   40,
+   168.902
+  ],
+  [
+   48,
+   202.488
+  ]
+ ]
+}

@@ -1,0 +1,215 @@
+{
+ "title": "Heroes",
+ "artist": "David Bowie",
+ "album": "500 Greatest Songs - Rolling Stone Magazines 2010",
+ "year": 1977,
+ "genre": "Rock",
+ "difficulty": 2,
+ "youtubeId": "HOnaepanIDg",
+ "key": "D",
+ "bpm": 60.12,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.71,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37172405,
+  "duration": 370.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – G – Em – C – Am7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "D",
+    "G",
+    "D",
+    "G"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "D",
+    "G",
+    "D",
+    "G",
+    "C",
+    "D",
+    [
+     "Am7:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "D:2"
+    ],
+    "C",
+    "G",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    "G",
+    "D",
+    "G",
+    "D",
+    "G",
+    "D",
+    "G",
+    "C",
+    "D",
+    [
+     "Am7:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "D:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "D",
+    "G",
+    "D",
+    "G",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "D",
+    "G",
+    "D",
+    "G",
+    "C",
+    "D",
+    [
+     "Am7:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "D:2"
+    ],
+    [
+     "C:1",
+     "G:2",
+     "D:1"
+    ],
+    "D",
+    "G",
+    "D",
+    "G",
+    "D",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "D",
+    "G",
+    "D",
+    "G",
+    "C",
+    "D",
+    [
+     "Am7:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "D:2"
+    ],
+    "C",
+    "G",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    "G",
+    "D",
+    "G",
+    "D",
+    "G",
+    "D",
+    "G",
+    "C",
+    "D",
+    [
+     "Am7:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "D:2"
+    ],
+    "C",
+    "G",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "D",
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "D",
+    "G",
+    [
+     "D:1",
+     "G:2",
+     "D:1"
+    ],
+    "%",
+    "G",
+    "C",
+    "D",
+    [
+     "Am7:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "D:2"
+    ],
+    "C",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

@@ -1,0 +1,302 @@
+{
+ "title": "Boulevard of Broken Dreams",
+ "artist": "Green Day",
+ "album": "American Idiot (PBTHAL 24/96)",
+ "year": 2004,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "hBvJyi3fbtA",
+ "key": "G",
+ "bpm": 83.45,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.22,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36937691,
+  "duration": 262.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – Em – D – A – C – F5.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Em",
+    "G",
+    "D",
+    "A"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "D:1",
+     "A:2",
+     "Em:1"
+    ],
+    "G",
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "D:1",
+     "A:2",
+     "Em:1"
+    ],
+    "G",
+    [
+     "D:2",
+     "A:1",
+     "Em:1"
+    ],
+    [
+     "Em:1",
+     "G:1",
+     "D:2"
+    ],
+    "A",
+    "%",
+    "A",
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    "C",
+    "%",
+    "G",
+    "%",
+    "B7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "D:1",
+     "A:2",
+     "Em:1"
+    ],
+    "G",
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "D:1",
+     "A:2",
+     "Em:1"
+    ],
+    "G",
+    [
+     "D:2",
+     "A:1",
+     "Em:1"
+    ],
+    [
+     "Em:1",
+     "G:1",
+     "D:2"
+    ],
+    "A",
+    "%",
+    "A",
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    "C",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "%",
+    [
+     "G:2",
+     "B7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Em:1",
+     "G:1",
+     "D:1",
+     "A:1"
+    ],
+    "C",
+    "G",
+    "D",
+    "Em",
+    "C",
+    "G",
+    "D",
+    "Em",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "D:1",
+     "A:2",
+     "Em:1"
+    ],
+    "G",
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    [
+     "C:1",
+     "G:2",
+     "B7:1"
+    ],
+    "F5",
+    "Db5",
+    "Eb5",
+    "D5",
+    "Ab5",
+    "E5",
+    "F5",
+    "Db5",
+    "Eb5",
+    "D5",
+    "Ab5",
+    "E5",
+    "F5",
+    "Db5",
+    "Eb5",
+    "D5"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

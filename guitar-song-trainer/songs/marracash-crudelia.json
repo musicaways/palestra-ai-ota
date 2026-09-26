@@ -1,0 +1,261 @@
+{
+ "title": "Crudelia",
+ "artist": "Marracash",
+ "album": "Top 100 Italia - Classifica Del 20.11.2019",
+ "year": 2019,
+ "genre": "Rap / Hip-hop",
+ "difficulty": 2,
+ "youtubeId": "Z4GeFlGfbcw",
+ "key": "C",
+ "bpm": 109.41,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.08,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37004073,
+  "duration": 231,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – C – Am7 – Dm – Am.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Dm",
+    "%",
+    "Am",
+    "%",
+    "C",
+    "%",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "Dm",
+    "%",
+    "Am7",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "Am7",
+    "%",
+    "%",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "Am7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G",
+    "Dm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "Am7",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "%",
+    "Dm",
+    "%",
+    "%",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "Am7",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "Dm",
+    "%",
+    "Am7",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "Dm",
+    "%",
+    "Am7",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "Am7",
+    "%",
+    "%",
+    "C",
+    "%",
+    "%",
+    "G",
+    "Dm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "%",
+    "Am7",
+    "%",
+    "C",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Am7",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   7,
+   17.366
+  ],
+  [
+   13,
+   30.536
+  ],
+  [
+   17,
+   39.294
+  ],
+  [
+   21,
+   48.044
+  ],
+  [
+   25,
+   57.233
+  ],
+  [
+   29,
+   66.064
+  ],
+  [
+   33,
+   74.982
+  ],
+  [
+   38,
+   85.95
+  ],
+  [
+   48,
+   107.886
+  ],
+  [
+   55,
+   123.223
+  ],
+  [
+   59,
+   131.804
+  ],
+  [
+   63,
+   140.543
+  ],
+  [
+   67,
+   149.18
+  ],
+  [
+   71,
+   157.937
+  ],
+  [
+   75,
+   166.364
+  ],
+  [
+   79,
+   175.264
+  ],
+  [
+   83,
+   184.048
+  ],
+  [
+   88,
+   195.016
+  ],
+  [
+   92,
+   203.714
+  ],
+  [
+   96,
+   212.43
+  ],
+  [
+   100,
+   221.71
+  ]
+ ]
+}

@@ -1,0 +1,335 @@
+{
+ "title": "Back in Black",
+ "artist": "AC/DC",
+ "album": "Best Of AC/DC",
+ "year": 1980,
+ "genre": "Rock",
+ "difficulty": 2,
+ "youtubeId": "kYzbBPzyWrc",
+ "key": "A",
+ "bpm": 94.28,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.43,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34690646,
+  "duration": 256,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – E – B – D – G – A/C#.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "E",
+    "%",
+    "%",
+    "D",
+    "%",
+    "%",
+    "A/C#",
+    "%",
+    "%",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "E",
+    "A/C#",
+    "E",
+    "A/C#",
+    "D",
+    "A/C#",
+    "E",
+    "A/C#"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "A:2",
+     "E:1",
+     "B:1"
+    ],
+    [
+     "B:1",
+     "A:1",
+     "B:2"
+    ],
+    [
+     "G:2",
+     "D:1",
+     "A:1"
+    ],
+    [
+     "A:1",
+     "G:1",
+     "A:2"
+    ],
+    [
+     "A:1",
+     "E:1",
+     "B:1",
+     "A:1"
+    ],
+    [
+     "B:1",
+     "A:1",
+     "E:1",
+     "B:1"
+    ],
+    "G",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "E",
+    "A/C#",
+    "E",
+    "A/C#",
+    "E",
+    "A/C#",
+    "D",
+    "A/C#"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "A:2",
+     "E:1",
+     "B:1"
+    ],
+    [
+     "B:1",
+     "A:1",
+     "B:2"
+    ],
+    [
+     "G:2",
+     "D:1",
+     "A:1"
+    ],
+    [
+     "A:1",
+     "G:1",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:1",
+     "B:1"
+    ],
+    [
+     "B:1",
+     "A:1",
+     "B:2"
+    ],
+    [
+     "A:1",
+     "E:1",
+     "B:1",
+     "A:1"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "E",
+    "D",
+    "A/C#",
+    "E",
+    "D",
+    "A/C#",
+    "E",
+    "D",
+    "A/C#",
+    "E",
+    "D",
+    "A/C#",
+    "E",
+    "D",
+    "A/C#",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "A:2",
+     "E:1",
+     "B:1"
+    ],
+    [
+     "B:1",
+     "A:1",
+     "B:2"
+    ],
+    [
+     "G:2",
+     "D:1",
+     "A:1"
+    ],
+    [
+     "A:1",
+     "G:1",
+     "A:2"
+    ],
+    [
+     "A:1",
+     "E:1",
+     "B:1",
+     "A:1"
+    ],
+    [
+     "B:1",
+     "A:1",
+     "E:1",
+     "B:1"
+    ],
+    "G",
+    "D",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "B",
+    [
+     "A:2",
+     "B:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "A:1",
+     "E:1",
+     "B:1",
+     "A:1"
+    ],
+    "%",
+    [
+     "G:1",
+     "D:1",
+     "A:1",
+     "G:1"
+    ],
+    [
+     "A:1",
+     "G:1",
+     "D:1",
+     "A:1"
+    ],
+    [
+     "G:1",
+     "D:1",
+     "A:1",
+     "G:1"
+    ],
+    "G",
+    "%",
+    "D",
+    "%",
+    "C",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "B",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   10,
+   26.914
+  ],
+  [
+   14,
+   37.097
+  ],
+  [
+   20,
+   52.092
+  ],
+  [
+   25,
+   64.886
+  ],
+  [
+   30,
+   78.029
+  ],
+  [
+   34,
+   88.13
+  ],
+  [
+   40,
+   103.389
+  ],
+  [
+   58,
+   149.082
+  ],
+  [
+   62,
+   159.353
+  ],
+  [
+   66,
+   169.473
+  ],
+  [
+   74,
+   189.838
+  ],
+  [
+   78,
+   199.901
+  ],
+  [
+   83,
+   212.812
+  ]
+ ]
+}

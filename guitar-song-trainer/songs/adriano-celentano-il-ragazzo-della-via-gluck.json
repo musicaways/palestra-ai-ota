@@ -1,0 +1,300 @@
+{
+ "title": "Il ragazzo della via Gluck",
+ "artist": "Adriano Celentano",
+ "album": "Le Volte Che Celentano E' Stato 1°",
+ "year": 1966,
+ "genre": "Pop",
+ "difficulty": 1,
+ "youtubeId": "PAwjmpxXEh4",
+ "key": "D",
+ "bpm": 109.47,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.49,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34662822,
+  "duration": 256,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – Bm – A7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "D",
+    "A7"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "D:2",
+     "A7:2"
+    ],
+    "%",
+    "%",
+    "D",
+    "%",
+    "A7",
+    "%",
+    "%",
+    "D",
+    "%",
+    "Bm",
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    "%",
+    "%",
+    "Bm",
+    "%",
+    "%",
+    "%",
+    "D",
+    "A7",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    "A7",
+    "D",
+    "%",
+    "A7",
+    "%",
+    "D",
+    "%",
+    "A7",
+    "%",
+    "D",
+    "%",
+    "Bm",
+    "%",
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    "%",
+    "%",
+    "Bm",
+    "%",
+    "%",
+    "D",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "A7",
+    "%",
+    "%",
+    "D",
+    "A7",
+    "%",
+    "D",
+    "%",
+    "A7",
+    "%",
+    "D",
+    "%",
+    "Bm",
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Bm",
+    "%",
+    "D",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "A7",
+    "D",
+    "%",
+    "A7",
+    "%",
+    "D",
+    "%",
+    "A7",
+    "%",
+    "%",
+    "D",
+    "Bm",
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "Bm",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "D",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "D",
+    "%",
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    "%",
+    "Bm",
+    "%",
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    "%",
+    "D",
+    "%",
+    [
+     "A7:2",
+     "D:2"
+    ],
+    "%",
+    "%",
+    "A7",
+    "%",
+    "D",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   2,
+   5.853
+  ],
+  [
+   7,
+   16.73
+  ],
+  [
+   12,
+   27.711
+  ],
+  [
+   20,
+   45.25
+  ],
+  [
+   25,
+   56.212
+  ],
+  [
+   29,
+   64.86
+  ],
+  [
+   33,
+   73.743
+  ],
+  [
+   40,
+   89.09
+  ],
+  [
+   46,
+   102.306
+  ],
+  [
+   52,
+   115.89
+  ],
+  [
+   58,
+   128.805
+  ],
+  [
+   64,
+   141.959
+  ],
+  [
+   70,
+   155.183
+  ],
+  [
+   75,
+   166.172
+  ],
+  [
+   80,
+   177.267
+  ],
+  [
+   98,
+   216.483
+  ],
+  [
+   105,
+   231.685
+  ],
+  [
+   110,
+   242.647
+  ],
+  [
+   113,
+   249.375
+  ]
+ ]
+}

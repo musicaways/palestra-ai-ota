@@ -1,0 +1,290 @@
+{
+ "title": "Sfiorivano le viole",
+ "artist": "Rino Gaetano",
+ "album": "...E Cantavo Le Canzoni CD1",
+ "year": 1976,
+ "genre": "Cantautori",
+ "difficulty": 2,
+ "youtubeId": "Ao7dU-KCjJs",
+ "key": "Gmaj7",
+ "bpm": 81.99,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.33,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 18565358,
+  "duration": 298.266122,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Gmaj7 – A6 – A – Em – D – Bm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Gmaj7",
+    "A6",
+    "Gmaj7",
+    "A6",
+    "Gmaj7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Gmaj7",
+    "A6",
+    "%",
+    "%",
+    [
+     "Gmaj7:2",
+     "A6:2"
+    ],
+    "Gmaj7",
+    "A6",
+    "Gmaj7",
+    "A6",
+    "Gmaj7",
+    "A6",
+    "Gmaj7",
+    "A",
+    "Gmaj7",
+    "A",
+    "Gmaj7",
+    "A6",
+    "Gmaj7",
+    "A6"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Gmaj7:2",
+     "A6:2"
+    ],
+    "Gmaj7",
+    "%",
+    "A6",
+    "Gmaj7",
+    "A6",
+    "Gmaj7",
+    "A6",
+    "Gmaj7",
+    "A6",
+    "Gmaj7",
+    "A6",
+    "Gmaj7",
+    "A",
+    [
+     "Gmaj7:1",
+     "A:1",
+     "Gmaj7:1",
+     "A6:1"
+    ],
+    "Gmaj7",
+    "A6",
+    "Gmaj7",
+    "A6",
+    "Gmaj7",
+    "A6",
+    "Gmaj7",
+    "A6",
+    "Gmaj7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "Gmaj7",
+    "A6",
+    "A6",
+    "%",
+    "Gmaj7",
+    "A6",
+    "Gmaj7",
+    "A6",
+    "Gmaj7",
+    "A",
+    [
+     "Em:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ],
+    "A",
+    "D",
+    [
+     "Bm:2",
+     "Em:2"
+    ],
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "%",
+    [
+     "D:2",
+     "Bm:1",
+     "Em:1"
+    ],
+    [
+     "Em:1",
+     "A:1",
+     "D:2"
+    ],
+    [
+     "Bm:2",
+     "Em:2"
+    ],
+    "A",
+    "%",
+    [
+     "D:2",
+     "Bm:1",
+     "Em:1"
+    ],
+    [
+     "Em:1",
+     "A:1",
+     "D:2"
+    ],
+    "Bm",
+    "%",
+    [
+     "Em:2",
+     "A:2"
+    ],
+    [
+     "D:2",
+     "Bm:1",
+     "Em:1"
+    ],
+    [
+     "Em:1",
+     "A:1",
+     "D:2"
+    ],
+    "Bm",
+    "Em",
+    [
+     "D:2",
+     "Bm:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "Em",
+    [
+     "A:2",
+     "D:2"
+    ],
+    "Em",
+    "%",
+    [
+     "Bm:1",
+     "Em:2",
+     "A:1"
+    ],
+    "Gmaj7",
+    "A6",
+    "Gmaj7",
+    "A6",
+    "Gmaj7",
+    "A6",
+    "Gmaj7",
+    "A6",
+    "Gmaj7",
+    "A6",
+    "Gmaj7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "A6",
+    "Gmaj7",
+    "A6",
+    "Gmaj7",
+    "A6",
+    "Gmaj7"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   5,
+   15.988
+  ],
+  [
+   9,
+   27.658
+  ],
+  [
+   14,
+   42.19
+  ],
+  [
+   24,
+   71.493
+  ],
+  [
+   30,
+   89.297
+  ],
+  [
+   34,
+   101.006
+  ],
+  [
+   48,
+   141.941
+  ],
+  [
+   54,
+   159.476
+  ],
+  [
+   58,
+   171.184
+  ],
+  [
+   63,
+   185.691
+  ],
+  [
+   68,
+   200.327
+  ],
+  [
+   74,
+   217.584
+  ],
+  [
+   78,
+   229.293
+  ],
+  [
+   82,
+   241.056
+  ]
+ ]
+}

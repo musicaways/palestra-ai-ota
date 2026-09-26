@@ -1,0 +1,228 @@
+{
+ "title": "Boys Don't Cry",
+ "artist": "The Cure",
+ "album": "Staring At The Sea: The Singles",
+ "year": 1979,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "QRtZq39aMas",
+ "key": "Bm",
+ "bpm": 84.27,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.48,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 16834625,
+  "duration": 155.08898,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bm – C#m – A – D – E – F#m7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "A",
+    "Bm",
+    "C#m",
+    "D",
+    "C#m",
+    "Bm",
+    "A",
+    "Bm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    [
+     "C#m:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    "%",
+    "%",
+    [
+     "C#m:1",
+     "Bm:1",
+     "C#m:1",
+     "Bm:1"
+    ],
+    "%",
+    [
+     "C#m:1",
+     "Bm:1",
+     "C#m:1",
+     "Bm:1"
+    ],
+    [
+     "A:1",
+     "Bm:2",
+     "C#m:1"
+    ],
+    [
+     "D:1",
+     "C#m:2",
+     "Bm:1"
+    ],
+    [
+     "A:1",
+     "Bm:2",
+     "C#m:1"
+    ],
+    [
+     "D:1",
+     "C#m:2",
+     "Bm:1"
+    ],
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    "%",
+    "%",
+    [
+     "C#m:2",
+     "D:2"
+    ],
+    [
+     "C#m:1",
+     "Bm:1",
+     "C#m:1",
+     "Bm:1"
+    ],
+    [
+     "C#m:1",
+     "Bm:1",
+     "C#m:1",
+     "Bm:1"
+    ],
+    "%",
+    [
+     "C#m:1",
+     "Bm:1",
+     "C#m:1",
+     "Bm:1"
+    ],
+    [
+     "A:1",
+     "Bm:2",
+     "C#m:1"
+    ],
+    [
+     "D:1",
+     "C#m:2",
+     "Bm:1"
+    ],
+    [
+     "A:1",
+     "Bm:2",
+     "C#m:1"
+    ],
+    [
+     "D:1",
+     "C#m:2",
+     "Bm:1"
+    ],
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    [
+     "C#m:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    "%",
+    [
+     "E:2",
+     "F#m7:2"
+    ],
+    [
+     "E:2",
+     "F#m7:2"
+    ],
+    [
+     "E:2",
+     "F#m7:2"
+    ],
+    [
+     "D:2",
+     "E:2"
+    ],
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    [
+     "C#m:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    [
+     "C#m:2",
+     "D:2"
+    ],
+    [
+     "A:1",
+     "Bm:2",
+     "C#m:1"
+    ],
+    [
+     "D:1",
+     "C#m:2",
+     "Bm:1"
+    ],
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    [
+     "C#m:2",
+     "D:2"
+    ],
+    [
+     "C#m:2",
+     "Bm:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    [
+     "A:1",
+     "Bm:1",
+     "C#m:1",
+     "D:1"
+    ],
+    "A",
+    "Bm",
+    "C#m",
+    "D",
+    "C#m"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

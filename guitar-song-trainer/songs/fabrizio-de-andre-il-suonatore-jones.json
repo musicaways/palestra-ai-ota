@@ -1,0 +1,170 @@
+{
+ "title": "Il suonatore Jones",
+ "artist": "Fabrizio De André",
+ "album": "Tu che m'ascolti insegnami CD 2",
+ "year": 1971,
+ "genre": "Cantautori",
+ "difficulty": 5,
+ "youtubeId": "2kNwJX6E7pE",
+ "key": "E7",
+ "bpm": 69.95,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.92,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34293589,
+  "duration": 267.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: E7 – Em – C – Am – B7 – F#m.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "E7",
+    "%",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "E7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Am",
+    "%",
+    [
+     "Dm:1",
+     "Dm:1"
+    ],
+    "E7",
+    "%",
+    [
+     "G7:1",
+     "C:1",
+     "E7:1"
+    ],
+    "Am",
+    "%",
+    "%",
+    "Em",
+    "B7",
+    [
+     "Em:2",
+     "B7:2"
+    ],
+    [
+     "Em:2",
+     "E7:2"
+    ],
+    "Am",
+    "%",
+    "E7",
+    "%",
+    [
+     "G7:1",
+     "C:2",
+     "E7:1"
+    ],
+    "Am",
+    "%",
+    [
+     "C:1",
+     "F:2",
+     "C:1"
+    ],
+    [
+     "Em:2",
+     "B7:2"
+    ],
+    [
+     "Em:1",
+     "B7:1",
+     "Em:1",
+     "E7:1"
+    ],
+    "Am",
+    "C",
+    "F",
+    "C",
+    "Em",
+    "B7",
+    "Em",
+    "B7",
+    "Em",
+    "E7",
+    "Am",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Am",
+    "Dm",
+    "Dm",
+    "E7",
+    "%",
+    [
+     "G7:1",
+     "C:1",
+     "E7:1"
+    ],
+    "Am",
+    [
+     "C:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    "Em",
+    [
+     "B7:2",
+     "Em:2"
+    ],
+    [
+     "B7:1",
+     "Em:2",
+     "E7:1"
+    ],
+    "F#m",
+    "C#7",
+    "F#m",
+    "C#m",
+    "G#7",
+    "C#m",
+    "F#m",
+    "C#7",
+    "F#m",
+    "C#m",
+    "G#7",
+    "C#m",
+    "F#m",
+    "C#7",
+    "F#m",
+    "C#m",
+    "G#7",
+    "C#m",
+    "F#m",
+    "C#7",
+    "F#m",
+    "C#m"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

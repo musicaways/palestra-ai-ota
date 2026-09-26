@@ -1,0 +1,151 @@
+{
+ "title": "Mi sono innamorato di te",
+ "artist": "Luigi Tenco",
+ "album": "Nostalgia italiana 1962",
+ "year": 1962,
+ "genre": "Cantautori",
+ "difficulty": 4,
+ "youtubeId": "UGLJFHpRX7E",
+ "key": "Dm",
+ "bpm": 83.42,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.01,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34821883,
+  "duration": 168.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Dm – Bm – C – Am – E – Em.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Dm",
+    "%"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Dm",
+    "%",
+    [
+     "G7:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Em:2"
+    ],
+    [
+     "F:2",
+     "Dm:2"
+    ],
+    [
+     "Dm:2",
+     "Bm:2"
+    ],
+    "E",
+    [
+     "E:2",
+     "Am:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Dm",
+    "F/C",
+    [
+     "G:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Em:2"
+    ],
+    [
+     "F:2",
+     "Dm:2"
+    ],
+    [
+     "Dm:2",
+     "Bm:2"
+    ],
+    "E",
+    "E7",
+    "Am",
+    "A",
+    "Gm",
+    "Em",
+    "Gm",
+    "Em",
+    "A7",
+    [
+     "Dm:2",
+     "Bm:2"
+    ],
+    [
+     "Bm:2",
+     "F/C:2"
+    ],
+    [
+     "E:2",
+     "Am:2"
+    ],
+    "Dm7",
+    "%",
+    "%",
+    "G7",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "F/C",
+    "Dm",
+    "Bm",
+    [
+     "E:1",
+     "E7:1",
+     "Am7:1",
+     "D7:1"
+    ],
+    "Am",
+    "Dm",
+    "G7",
+    "C",
+    "F",
+    "Bm",
+    "E",
+    "Am",
+    "D7",
+    "Am",
+    "Am",
+    "Dm",
+    "F/C",
+    "G",
+    "C",
+    "Em",
+    "F",
+    "Dm",
+    "Bm",
+    "E",
+    "E7"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

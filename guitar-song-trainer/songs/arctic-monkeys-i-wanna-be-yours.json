@@ -1,0 +1,243 @@
+{
+ "title": "I Wanna Be Yours",
+ "artist": "Arctic Monkeys",
+ "album": "Singles",
+ "year": 2013,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "dFMu3ulTd-w",
+ "key": "Cm",
+ "bpm": 135.18,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.16,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34827845,
+  "duration": 184,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Cm – Gm – Fm – Ab – Bb.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Cm",
+    "%",
+    "Fm",
+    "%",
+    "Gm",
+    "%",
+    "Cm",
+    "%",
+    "Fm",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "Cm",
+    "%",
+    "Fm",
+    "Gm",
+    "Cm",
+    "%",
+    "Fm",
+    "Gm",
+    "Cm",
+    "%",
+    "Fm",
+    "Gm",
+    "Cm",
+    "%",
+    "Fm",
+    "Gm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "Fm",
+    "Gm",
+    "Cm",
+    "Fm",
+    "Gm",
+    "%",
+    "Cm",
+    "%",
+    "%",
+    "Cm",
+    "%",
+    "Bb",
+    "Ab",
+    "Gm",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "Cm",
+    "%",
+    "Fm",
+    "Gm",
+    "Cm",
+    "%",
+    "Fm",
+    "Gm",
+    "Cm",
+    "%",
+    "Fm",
+    "Gm",
+    "Cm",
+    "%",
+    "Fm",
+    "Gm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "Fm",
+    "Gm",
+    "Cm",
+    "Fm",
+    "Gm",
+    "%",
+    "Cm",
+    "%",
+    "%",
+    "Cm",
+    "%",
+    "Bb",
+    "Ab",
+    "Cm",
+    "%",
+    "Bb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "Ab",
+    "Cm",
+    "%",
+    "Bb",
+    "Ab",
+    "Cm",
+    "%",
+    [
+     "Bb:2",
+     "Ab:2"
+    ],
+    "Cm",
+    "%",
+    "Bb",
+    "Ab",
+    "Cm",
+    "%",
+    "Bb",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "Ab",
+    "%",
+    "Cm",
+    "Bb",
+    "Ab",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Gm",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   10,
+   18.118
+  ],
+  [
+   14,
+   25.219
+  ],
+  [
+   20,
+   35.669
+  ],
+  [
+   26,
+   46.269
+  ],
+  [
+   32,
+   56.931
+  ],
+  [
+   37,
+   65.829
+  ],
+  [
+   42,
+   74.747
+  ],
+  [
+   46,
+   81.808
+  ],
+  [
+   50,
+   89.042
+  ],
+  [
+   56,
+   99.539
+  ],
+  [
+   62,
+   110.192
+  ],
+  [
+   67,
+   119.088
+  ],
+  [
+   71,
+   126.198
+  ],
+  [
+   77,
+   136.899
+  ],
+  [
+   82,
+   146.14
+  ],
+  [
+   88,
+   156.94
+  ]
+ ]
+}

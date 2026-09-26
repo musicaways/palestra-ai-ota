@@ -1,0 +1,326 @@
+{
+ "title": "Non è tempo per noi",
+ "artist": "Ligabue",
+ "album": "Su e giù da un palco",
+ "year": 1990,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "idGtjoDyvGs",
+ "key": "D",
+ "bpm": 89.23,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.2,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 19396115,
+  "duration": 246.93551,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – C – G – Em – D/F# – Em7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "D",
+    "G/D",
+    "D",
+    "Cadd9",
+    [
+     "C:1",
+     "D:2",
+     "G:1"
+    ],
+    "D/F#",
+    [
+     "D/F#:2",
+     "Em7:2"
+    ],
+    "%",
+    [
+     "C:2",
+     "D:2"
+    ],
+    "G",
+    "D/F#",
+    "Em7",
+    "C",
+    "D",
+    "C",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "C:2",
+     "D:2"
+    ],
+    "G",
+    "D/F#",
+    "Em7",
+    [
+     "C:2",
+     "D:2"
+    ],
+    "G",
+    "D/F#",
+    "Em7",
+    "C",
+    "D",
+    "C",
+    "D",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "G:1",
+     "D:1",
+     "C:1",
+     "Em:1"
+    ],
+    "%",
+    [
+     "G:1",
+     "D:2",
+     "Em:1"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "Em:2",
+     "A7:2"
+    ],
+    "%",
+    [
+     "C:1",
+     "D:1",
+     "F:1",
+     "G:1"
+    ],
+    "G",
+    "D",
+    "C",
+    "Em",
+    [
+     "C:2",
+     "D:2"
+    ],
+    "G",
+    "D/F#",
+    "Em7",
+    [
+     "C:2",
+     "D:2"
+    ],
+    "G",
+    "D/F#",
+    "Em7",
+    "C",
+    "D",
+    "C",
+    "D",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "G:1",
+     "D:1",
+     "C:1",
+     "Em:1"
+    ],
+    "%",
+    [
+     "G:1",
+     "D:2",
+     "Em:1"
+    ],
+    "%",
+    [
+     "C:1",
+     "D:1",
+     "Em:1",
+     "A7:1"
+    ],
+    "%",
+    [
+     "C:1",
+     "D:1",
+     "F:1",
+     "G:1"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "G:1",
+     "D:1",
+     "C:1",
+     "Em:1"
+    ],
+    [
+     "G:1",
+     "D:2",
+     "Em:1"
+    ],
+    "%",
+    "%",
+    [
+     "C:1",
+     "D:1",
+     "Em:1",
+     "A:1"
+    ],
+    "%",
+    [
+     "C:1",
+     "D:1",
+     "F:1",
+     "G:1"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "G:1",
+     "D:1",
+     "C:1",
+     "Em:1"
+    ],
+    "%",
+    [
+     "G:1",
+     "D:2",
+     "Em:1"
+    ],
+    "%",
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "Em:2",
+     "A:2"
+    ],
+    [
+     "C:1",
+     "D:1",
+     "F:1",
+     "G:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   11.36
+  ],
+  [
+   8,
+   21.819
+  ],
+  [
+   12,
+   32.501
+  ],
+  [
+   16,
+   43.26
+  ],
+  [
+   20,
+   54.019
+  ],
+  [
+   24,
+   64.731
+  ],
+  [
+   29,
+   77.88
+  ],
+  [
+   34,
+   91.369
+  ],
+  [
+   44,
+   118.576
+  ],
+  [
+   48,
+   129.402
+  ],
+  [
+   52,
+   140.16
+  ],
+  [
+   57,
+   153.489
+  ],
+  [
+   61,
+   164.121
+  ],
+  [
+   65,
+   174.911
+  ],
+  [
+   70,
+   188.631
+  ],
+  [
+   74,
+   199.24
+  ],
+  [
+   75,
+   202.079
+  ]
+ ]
+}

@@ -1,0 +1,392 @@
+{
+ "title": "Notte prima degli esami",
+ "artist": "Antonello Venditti",
+ "album": "Cuore (40th Anniversary)",
+ "year": 1984,
+ "genre": "Cantautori",
+ "difficulty": 4,
+ "youtubeId": "xNqYuHLhOHg",
+ "key": "Am7/E",
+ "bpm": 81.31,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.43,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37170782,
+  "duration": 291.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bb/A – Am7/E – Am7 – Dm7 – F – Bb.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "F:2",
+     "Am7/E:1",
+     "Dm7:1"
+    ],
+    [
+     "Dm7:1",
+     "Dm7/C:1",
+     "Bb:2"
+    ],
+    [
+     "Bb/A:2",
+     "Gm7:2"
+    ],
+    [
+     "Gm7:2",
+     "C7:2"
+    ],
+    [
+     "F:2",
+     "Am7/E:2"
+    ],
+    "Dm7",
+    [
+     "Dm7/C:2",
+     "Bb:2"
+    ],
+    [
+     "Bb/A:1",
+     "Gm7:2",
+     "Gm:1"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "C7:2",
+     "C/Bb:2"
+    ],
+    [
+     "Am7:2",
+     "Am7/G:2"
+    ],
+    [
+     "F:2",
+     "Am7/E:2"
+    ],
+    [
+     "Am7/E:2",
+     "Dm7:2"
+    ],
+    [
+     "Dm7/C:2",
+     "Bb:2"
+    ],
+    [
+     "Bb/A:2",
+     "Gm:2"
+    ],
+    "C7",
+    [
+     "C/Bb:2",
+     "Am7:2"
+    ],
+    "Am7/G",
+    [
+     "F:2",
+     "Am7/E:2"
+    ],
+    [
+     "Dm7:2",
+     "Dm7/C:2"
+    ],
+    [
+     "Dm7/C:2",
+     "Bb:2"
+    ],
+    [
+     "Bb/A:2",
+     "Gm7:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "C7:2",
+     "C/Bb:2"
+    ],
+    [
+     "Am7:2",
+     "Am7/G:2"
+    ],
+    [
+     "F:2",
+     "Am7:2"
+    ],
+    [
+     "Am7:2",
+     "Dm7:2"
+    ],
+    "Dm7/C",
+    "Bb",
+    "Bb/A",
+    "Gm7",
+    [
+     "F:2",
+     "Am7/E:2"
+    ],
+    [
+     "Am7/E:2",
+     "Dm7:2"
+    ],
+    "Dm7/C",
+    [
+     "Bb:2",
+     "Bb/A:2"
+    ],
+    "Gm7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "C7:1",
+     "C/Bb:1",
+     "Am7:1",
+     "Am7/G:1"
+    ],
+    [
+     "F:2",
+     "Am7/E:2"
+    ],
+    [
+     "Am7/E:2",
+     "Dm7:2"
+    ],
+    [
+     "Dm7/C:1",
+     "Bb:1",
+     "Bb/A:1",
+     "Gm7:1"
+    ],
+    "C7",
+    [
+     "C/Bb:2",
+     "Am7:2"
+    ],
+    "Am7/G",
+    "F",
+    "Am7",
+    "Dm7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Bb:2",
+     "Bb/A:2"
+    ],
+    [
+     "Bb/A:2",
+     "Gm7:2"
+    ],
+    [
+     "C7:2",
+     "C/Bb:2"
+    ],
+    [
+     "Am7:2",
+     "Am7/G:2"
+    ],
+    [
+     "F:2",
+     "Am7/E:2"
+    ],
+    [
+     "Dm7:2",
+     "Dm7/C:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "Bb:2",
+     "Bb/A:2"
+    ],
+    [
+     "Bb/A:2",
+     "Gm7:2"
+    ],
+    [
+     "C:2",
+     "C/Bb:2"
+    ],
+    [
+     "Am7:2",
+     "Am7/G:2"
+    ],
+    [
+     "F:2",
+     "Am7/E:2"
+    ],
+    [
+     "Am7/E:2",
+     "Dm7:2"
+    ],
+    [
+     "Dm7/C:2",
+     "Bb:2"
+    ],
+    [
+     "Bb/A:2",
+     "Gm7:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    [
+     "C7:2",
+     "C/Bb:2"
+    ],
+    [
+     "Am7:2",
+     "Am7/G:2"
+    ],
+    [
+     "F:2",
+     "Am7/E:2"
+    ],
+    [
+     "Am7/E:2",
+     "Dm7:2"
+    ],
+    [
+     "Dm7/C:2",
+     "Bb:2"
+    ],
+    [
+     "Bb/A:2",
+     "Gm7:2"
+    ],
+    [
+     "C7:2",
+     "C/Bb:2"
+    ],
+    [
+     "Am7:2",
+     "Am7/G:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    [
+     "F:2",
+     "Am7/E:2"
+    ],
+    [
+     "Am7/E:2",
+     "Dm7:2"
+    ],
+    [
+     "Bb:2",
+     "Bb/A:2"
+    ],
+    [
+     "Bb/A:2",
+     "Gm7:2"
+    ],
+    [
+     "C:2",
+     "C/Bb:2"
+    ],
+    [
+     "Am7:2",
+     "Am7/G:2"
+    ],
+    [
+     "F:2",
+     "Am7/E:2"
+    ],
+    "Dm7",
+    [
+     "Dm7/C:2",
+     "Bb:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 7",
+   "bars": [
+    "Bb/A",
+    "Gm7",
+    [
+     "C7:2",
+     "C/Bb:2"
+    ],
+    [
+     "Am7:2",
+     "Am7/G:2"
+    ],
+    [
+     "F:2",
+     "Am7/E:2"
+    ],
+    [
+     "Dm7:2",
+     "Dm7/C:2"
+    ],
+    [
+     "Bb:2",
+     "Bb/A:2"
+    ],
+    [
+     "Bb/A:2",
+     "Gm7:2"
+    ],
+    "C",
+    "%",
+    "%",
+    "C/Bb",
+    "%",
+    "%",
+    [
+     "C/Bb:2",
+     "Am7:2"
+    ],
+    "%",
+    "%",
+    [
+     "Am7:2",
+     "Am7/G:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "F",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

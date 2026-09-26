@@ -1,0 +1,250 @@
+{
+ "title": "Resta vile maschio, dove vai?",
+ "artist": "Rino Gaetano",
+ "album": "...E Cantavo Le Canzoni CD1",
+ "year": 1979,
+ "genre": "Cantautori",
+ "difficulty": 3,
+ "youtubeId": "7I6Nx1aQlgQ",
+ "key": "C",
+ "bpm": 110.29,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.94,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 17970446,
+  "duration": 276.401633,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Cmaj7 – C – F – G – D – Am.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "C",
+    "%",
+    "Cmaj7",
+    "%",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "%",
+    [
+     "C:1",
+     "Cmaj7:2",
+     "F:1"
+    ],
+    "%",
+    "%",
+    [
+     "C:1",
+     "Cmaj7:2",
+     "F:1"
+    ],
+    [
+     "C:2",
+     "Cmaj7:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "Cmaj7:2",
+     "F:2"
+    ],
+    "C",
+    [
+     "C:2",
+     "Cmaj7:2"
+    ],
+    "%",
+    [
+     "Cmaj7:2",
+     "F:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    [
+     "C:1",
+     "Cmaj7:2",
+     "F:1"
+    ],
+    "C",
+    "Cmaj7",
+    "F",
+    "C",
+    "Cmaj7",
+    "F",
+    "G",
+    [
+     "G:2",
+     "E7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Am",
+    "%",
+    "D",
+    [
+     "D:2",
+     "Dm:2"
+    ],
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "C",
+    "%",
+    "%",
+    "Cmaj7",
+    "%",
+    "%",
+    "F",
+    "%",
+    "%",
+    "C",
+    "Cmaj7",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "Cmaj7",
+    "F",
+    "C",
+    "Cmaj7",
+    "F",
+    "C",
+    "Cmaj7",
+    "F",
+    "C",
+    "Cmaj7",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "Cmaj7",
+    "F",
+    "C",
+    "Cmaj7",
+    "F",
+    "C",
+    "Cmaj7",
+    "F",
+    "C",
+    "Cmaj7",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "Cmaj7",
+    "F",
+    "C",
+    "Cmaj7",
+    "F",
+    "C",
+    "Cmaj7",
+    "F",
+    "C",
+    "Cmaj7",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    [
+     "C:1",
+     "Cmaj7:2",
+     "F:1"
+    ],
+    [
+     "C:1",
+     "Cmaj7:2",
+     "F:1"
+    ],
+    "G",
+    "%",
+    "E7",
+    "%",
+    "Am",
+    "%",
+    "D",
+    "%",
+    "Dm",
+    "%",
+    "G",
+    "%",
+    "C",
+    "%",
+    "Cmaj7",
+    "%",
+    "F",
+    "%",
+    "G",
+    "%",
+    "E7",
+    "%",
+    "Am",
+    "%",
+    "D",
+    "%",
+    "Dm",
+    "%",
+    "G",
+    "%",
+    "C",
+    "%",
+    "Cmaj7",
+    "%",
+    "F",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

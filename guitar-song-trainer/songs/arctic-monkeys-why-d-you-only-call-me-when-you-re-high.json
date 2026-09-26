@@ -1,0 +1,196 @@
+{
+ "title": "Why'd You Only Call Me When You're High?",
+ "artist": "Arctic Monkeys",
+ "album": "AM",
+ "year": 2013,
+ "genre": "Rock",
+ "difficulty": 2,
+ "youtubeId": "3oK22ll4cxw",
+ "key": "D",
+ "bpm": 90.82,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.21,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 30899516,
+  "duration": 162,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – Bm – F#m – C#7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bm",
+    "%",
+    "%",
+    "%"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Bm",
+    "%",
+    "Bm",
+    "%",
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    "F#m",
+    "%",
+    "D",
+    "Bm",
+    "D",
+    "Bm",
+    "D",
+    "Bm",
+    "Bm",
+    "%",
+    "Bm",
+    "%",
+    [
+     "F#m:1",
+     "D:2",
+     "Bm:1"
+    ],
+    "F#m",
+    "D",
+    "Bm",
+    "F#m",
+    "%",
+    "D",
+    "Bm",
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    "D",
+    "Bm",
+    "Bm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "F#m:2",
+     "Bm:2"
+    ],
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    [
+     "F#m:2",
+     "Bm:2"
+    ],
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    [
+     "F#m:2",
+     "Bm:2"
+    ],
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    "C#7",
+    "%",
+    "D",
+    "F#m",
+    "D",
+    "F#m",
+    "D",
+    "F#m",
+    "D",
+    "F#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "D",
+    "F#m",
+    "D",
+    "F#m",
+    "D",
+    "F#m",
+    "D",
+    "%",
+    "F#m",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   10.835
+  ],
+  [
+   8,
+   21.434
+  ],
+  [
+   14,
+   37.186
+  ],
+  [
+   20,
+   52.784
+  ],
+  [
+   26,
+   68.64
+  ],
+  [
+   30,
+   79.365
+  ],
+  [
+   36,
+   95.655
+  ],
+  [
+   40,
+   106.225
+  ],
+  [
+   52,
+   137.594
+  ],
+  [
+   56,
+   148.165
+  ],
+  [
+   58,
+   153.556
+  ]
+ ]
+}

@@ -1,0 +1,348 @@
+{
+ "title": "Il cielo è sempre più blu",
+ "artist": "Rino Gaetano",
+ "album": "Rino Mix",
+ "year": 1975,
+ "genre": "Cantautori",
+ "difficulty": 1,
+ "youtubeId": "PybVlvwdYVw",
+ "key": "D",
+ "bpm": 72.93,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.19,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 22697180,
+  "duration": 273.133333,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – Bm – A – G.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "D",
+    "Bm",
+    "D",
+    "Bm"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "D:1",
+     "Bm:2",
+     "D:1"
+    ],
+    "%",
+    [
+     "G:2",
+     "A:1",
+     "D:1"
+    ],
+    [
+     "D:1",
+     "Bm:1",
+     "G:2"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ],
+    "Bm",
+    [
+     "G:2",
+     "A:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "D:1",
+     "Bm:2",
+     "D:1"
+    ],
+    "Bm",
+    [
+     "G:2",
+     "A:1",
+     "D:1"
+    ],
+    [
+     "D:1",
+     "Bm:1",
+     "G:2"
+    ],
+    [
+     "A:1",
+     "D:1",
+     "Bm:1",
+     "G:1"
+    ],
+    "D",
+    "Bm",
+    "D",
+    "Bm",
+    "D",
+    "Bm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "D:1",
+     "Bm:2",
+     "D:1"
+    ],
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    "Bm",
+    [
+     "G:2",
+     "A:1",
+     "D:1"
+    ],
+    [
+     "D:1",
+     "Bm:1",
+     "G:2"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ],
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ],
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ],
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ],
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ],
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ],
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ],
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ],
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ],
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ],
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ],
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ],
+    "Bm",
+    [
+     "G:2",
+     "A:1",
+     "D:1"
+    ],
+    [
+     "D:1",
+     "Bm:1",
+     "G:2"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ],
+    "Bm",
+    [
+     "G:2",
+     "A:2"
+    ]
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

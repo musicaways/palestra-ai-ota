@@ -1,0 +1,255 @@
+{
+ "title": "A te",
+ "artist": "Jovanotti",
+ "album": "Backup 1987-2012 Il Best (Deluxe Edition)",
+ "year": 2008,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "gwIBglkLJJ0",
+ "key": "F",
+ "bpm": 134.09,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.75,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37197212,
+  "duration": 265.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F – A – C – Bb – E – Eb.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "A",
+    "E",
+    "F#m",
+    "A",
+    "D",
+    "A",
+    "Bm7",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "A",
+    "E",
+    "F#m",
+    "A",
+    "D",
+    "A",
+    "Bm7",
+    "E",
+    "A",
+    "E",
+    "F#m",
+    "A",
+    "D",
+    "A",
+    "Bm7",
+    "E",
+    "A",
+    "E",
+    "F#m",
+    "A",
+    "D",
+    "A",
+    [
+     "Bm7:2",
+     "E:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    "%",
+    "A",
+    "%",
+    [
+     "Bm7:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "E:2"
+    ],
+    "Bm7",
+    "D",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Bb",
+    "F",
+    "Gm",
+    "Bb",
+    "Eb",
+    "Bb",
+    "Cm7",
+    "F",
+    "Bb",
+    "F",
+    "Gm",
+    "Bb",
+    "Eb",
+    "Bb",
+    "Cm7",
+    "F",
+    "Bb",
+    "F",
+    "Gm",
+    "Bb",
+    "Eb",
+    "Bb",
+    "Cm7",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Eb",
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    "%",
+    [
+     "Cm:2",
+     "Eb:2"
+    ],
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    "%",
+    "%",
+    "Eb",
+    "%",
+    "Bb",
+    "%",
+    "%",
+    "%",
+    "Cm",
+    "Eb",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "C",
+    "G",
+    "Am",
+    "C",
+    "F",
+    "C",
+    "Dm7",
+    "G",
+    "C",
+    "G",
+    "Am",
+    "C",
+    "F",
+    "C",
+    "Dm7",
+    "G",
+    "C",
+    "G",
+    "Am",
+    "C",
+    "F",
+    "C",
+    "Dm7",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "F",
+    [
+     "F:2",
+     "C:2"
+    ],
+    "%",
+    [
+     "Dm7:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "F",
+    "%",
+    "C",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    [
+     "Dm7:1",
+     "F:2",
+     "G:1"
+    ],
+    "F",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

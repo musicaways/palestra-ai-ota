@@ -46,6 +46,7 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
   let destroyed = false;
   let lastIdx = -2; // ultimo accordo mostrato nell'HUD (-2 = da ridisegnare)
   let lastStrumKey = '';
+  let lastNoteIdx = -1;
   let syncCheck = null; // esito del controllo di coerenza fra testo e accordi
   let lastDiagram = null;
   let ramp = false;
@@ -1661,6 +1662,16 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
     if (settings.metronome && clock.playing && bar >= 0 && beatInt >= 0) {
       const k = `${bar}:${beatInt}`;
       if (k !== lastBeatKey) { lastBeatKey = k; click(beatInt === 0); }
+    }
+    // arpeggio col manico nascosto: le note della base partono da qui (altrimenti da fretboard.onNote)
+    if (prefs.backing && clock.playing && tl.notes && stageHidden()) {
+      let lo = 0; let hi = tl.notes.length - 1; let ni = -1;
+      while (lo <= hi) { const mid = (lo + hi) >> 1; if (tl.notes[mid].t <= t) { ni = mid; lo = mid + 1; } else hi = mid - 1; }
+      if (ni !== lastNoteIdx) {
+        lastNoteIdx = ni;
+        const n = tl.notes[ni];
+        if (n && t < n.t + n.dur) pluck(n.string, n.fret > 0 ? n.fret + capo : 0, 0.3);
+      }
     }
     // base sintetica: una pennata per ogni suddivisione del pattern (l'arpeggio suona le sue note da fretboard.onNote)
     if (prefs.backing && clock.playing && bar >= 0 && cur && !tl.notes) {

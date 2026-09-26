@@ -1,0 +1,285 @@
+{
+ "title": "Nera",
+ "artist": "Irama",
+ "album": "2:55",
+ "year": 2018,
+ "genre": "Pop",
+ "difficulty": 1,
+ "youtubeId": "yoIVtR9iu5M",
+ "key": "Am",
+ "bpm": 138,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.84,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 35474108,
+  "duration": 174,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Am – F – C – G.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Am",
+    "%",
+    "F",
+    "%",
+    "C",
+    "%",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Am",
+    "F",
+    "C",
+    "G",
+    "Am",
+    "F",
+    "C",
+    "G",
+    "Am",
+    "Am",
+    "F",
+    "C",
+    "G",
+    "Am",
+    "F",
+    "C",
+    "G",
+    "Am",
+    "F",
+    "C",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Am",
+    "F",
+    "C",
+    "G",
+    [
+     "Am:2",
+     "F:2"
+    ],
+    [
+     "Am:2",
+     "F:2"
+    ],
+    "C",
+    "G",
+    [
+     "Am:2",
+     "F:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Am:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    "%",
+    "G",
+    [
+     "Am:2",
+     "F:2"
+    ],
+    "C",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "%",
+    "Am",
+    "F",
+    "C",
+    "G",
+    "Am",
+    "F",
+    "C",
+    "G",
+    "Am",
+    "F",
+    "C",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Am:2",
+     "F:2"
+    ],
+    "C",
+    "%",
+    "G",
+    [
+     "Am:2",
+     "F:2"
+    ],
+    [
+     "Am:2",
+     "F:2"
+    ],
+    "C",
+    "G",
+    [
+     "Am:2",
+     "F:2"
+    ],
+    "C",
+    "%",
+    "G",
+    "%",
+    "Am",
+    "F",
+    "C",
+    "G",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "Am:2",
+     "F:2"
+    ],
+    "C",
+    "G",
+    [
+     "Am:2",
+     "F:2"
+    ],
+    [
+     "Am:2",
+     "F:2"
+    ],
+    "C",
+    "G",
+    [
+     "Am:2",
+     "F:2"
+    ],
+    "C",
+    "%",
+    "G",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "C",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   7,
+   13.42
+  ],
+  [
+   12,
+   22.124
+  ],
+  [
+   17,
+   30.626
+  ],
+  [
+   22,
+   39.089
+  ],
+  [
+   26,
+   46.004
+  ],
+  [
+   31,
+   54.591
+  ],
+  [
+   35,
+   61.547
+  ],
+  [
+   40,
+   70.194
+  ],
+  [
+   45,
+   78.764
+  ],
+  [
+   49,
+   85.721
+  ],
+  [
+   53,
+   92.677
+  ],
+  [
+   60,
+   104.82
+  ],
+  [
+   64,
+   111.859
+  ],
+  [
+   70,
+   122.257
+  ],
+  [
+   82,
+   142.441
+  ],
+  [
+   88,
+   152.875
+  ],
+  [
+   92,
+   159.831
+  ]
+ ]
+}

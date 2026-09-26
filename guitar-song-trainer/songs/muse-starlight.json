@@ -1,0 +1,359 @@
+{
+ "title": "Starlight",
+ "artist": "Muse",
+ "album": "Supremacy",
+ "year": 2006,
+ "genre": "Rock",
+ "difficulty": 5,
+ "youtubeId": "VE8dO0hkX8s",
+ "key": "B",
+ "bpm": 121.54,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.2,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37056602,
+  "duration": 241,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G#m – B – E – C#m – D# – A.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "B",
+    "B",
+    "C#m",
+    "G#m",
+    "E",
+    "B",
+    "C#m",
+    "G#m",
+    "E",
+    "B",
+    "B",
+    "C#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "B",
+    "C#m",
+    "G#m",
+    "E",
+    "%",
+    "C#m",
+    "G#m",
+    "E",
+    "B",
+    "C#m",
+    "G#m",
+    "E",
+    "%",
+    "C#m",
+    "G#m",
+    "E",
+    "B",
+    [
+     "C#m:2",
+     "G#m:2"
+    ],
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "B:2",
+     "C#m:1",
+     "G#m:1"
+    ],
+    [
+     "G#m:1",
+     "E:1",
+     "B:2"
+    ],
+    "B",
+    [
+     "C#m:2",
+     "G#m:2"
+    ],
+    "E",
+    "B",
+    "C#m",
+    "G#m",
+    "E",
+    "B",
+    "C#m",
+    "G#m",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "C#m:2",
+     "F#:2"
+    ],
+    [
+     "D#:2",
+     "G#m:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "A",
+    [
+     "E:2",
+     "A:2"
+    ],
+    "D#",
+    "G#m",
+    "D#",
+    "E",
+    "B",
+    "G#m",
+    "D#",
+    "E",
+    "B",
+    "G#m",
+    "D#",
+    "E",
+    "B"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "G#m:2",
+     "D#:2"
+    ],
+    [
+     "E:2",
+     "F#7:2"
+    ],
+    "B",
+    "%",
+    "B",
+    "%",
+    "B",
+    "%",
+    "B",
+    [
+     "C#m:2",
+     "G#m:2"
+    ],
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "B:2",
+     "C#m:1",
+     "G#m:1"
+    ],
+    [
+     "G#m:1",
+     "E:1",
+     "B:2"
+    ],
+    "B",
+    [
+     "C#m:2",
+     "G#m:2"
+    ],
+    "E",
+    "B",
+    "C#m",
+    "G#m",
+    "E",
+    "%",
+    "C#m",
+    "G#m",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "C#m:2",
+     "F#:2"
+    ],
+    [
+     "D#:2",
+     "G#m:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "A",
+    [
+     "E:2",
+     "A:2"
+    ],
+    "D#",
+    "G#m",
+    "D#",
+    "E",
+    "B",
+    "G#m",
+    "D#",
+    "E",
+    "B",
+    "G#m",
+    "D#",
+    "E",
+    "B",
+    "G#m",
+    "D#",
+    "E",
+    "F#7",
+    "B",
+    [
+     "C#m:2",
+     "G#m:2"
+    ],
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    [
+     "B:2",
+     "C#m:1",
+     "G#m:1"
+    ],
+    [
+     "G#m:1",
+     "E:1",
+     "B:2"
+    ],
+    [
+     "B:2",
+     "C#m:2"
+    ],
+    [
+     "G#m:2",
+     "E:2"
+    ],
+    [
+     "B:2",
+     "C#m:2"
+    ],
+    "G#m",
+    [
+     "E:2",
+     "B:2"
+    ]
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   12,
+   23.915
+  ],
+  [
+   17,
+   33.75
+  ],
+  [
+   23,
+   45.573
+  ],
+  [
+   28,
+   55.444
+  ],
+  [
+   33,
+   65.292
+  ],
+  [
+   37,
+   73.191
+  ],
+  [
+   44,
+   87.26
+  ],
+  [
+   49,
+   97.389
+  ],
+  [
+   56,
+   111.243
+  ],
+  [
+   60,
+   119.11
+  ],
+  [
+   64,
+   126.977
+  ],
+  [
+   72,
+   142.287
+  ],
+  [
+   77,
+   152.159
+  ],
+  [
+   83,
+   164.021
+  ],
+  [
+   88,
+   174.02
+  ],
+  [
+   93,
+   184.147
+  ],
+  [
+   100,
+   197.97
+  ],
+  [
+   104,
+   205.79
+  ],
+  [
+   108,
+   213.5
+  ],
+  [
+   115,
+   227.323
+  ],
+  [
+   119,
+   234.869
+  ]
+ ]
+}

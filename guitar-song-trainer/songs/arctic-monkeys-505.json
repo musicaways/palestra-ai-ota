@@ -1,0 +1,193 @@
+{
+ "title": "505",
+ "artist": "Arctic Monkeys",
+ "album": "XM Radio's Finest",
+ "year": 2007,
+ "genre": "Rock",
+ "difficulty": 1,
+ "youtubeId": "sATozdNqfcY",
+ "key": "Dm",
+ "bpm": 70.06,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.38,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37081399,
+  "duration": 253,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Dm – Em.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Dm",
+    "Em"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Dm",
+    "%",
+    "Em",
+    "Dm",
+    "Em",
+    "Dm",
+    "Em",
+    "Dm",
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Dm",
+    "Em",
+    "Dm",
+    "Em",
+    "Dm",
+    "Em",
+    "Dm",
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Dm",
+    "Dm",
+    "%",
+    "Dm",
+    "%",
+    "Dm",
+    [
+     "Dm:2",
+     "Em:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Dm",
+    "Em",
+    "Dm",
+    "Dm",
+    "%",
+    "Em",
+    "Dm",
+    "Em",
+    "Dm",
+    "Em",
+    "Dm",
+    "Em",
+    "Dm",
+    "Em",
+    "Dm",
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "Dm",
+    "Dm",
+    "%",
+    "Em",
+    "%",
+    "Em",
+    "Dm",
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    "Dm",
+    "Em",
+    "%",
+    "Dm",
+    "%",
+    "Em",
+    [
+     "Dm:1",
+     "Em:1",
+     "Dm:1",
+     "Em:1"
+    ],
+    "Dm",
+    "Em",
+    "Dm",
+    "Em",
+    "Dm",
+    "Em",
+    "Dm",
+    "Em",
+    "Dm",
+    "Em",
+    "Dm",
+    "Em",
+    "Dm",
+    "Em",
+    "Dm",
+    "Em"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   2,
+   9.772
+  ],
+  [
+   6,
+   23.463
+  ],
+  [
+   12,
+   43.453
+  ],
+  [
+   19,
+   67.637
+  ],
+  [
+   24,
+   84.697
+  ],
+  [
+   29,
+   101.826
+  ],
+  [
+   43,
+   149.693
+  ],
+  [
+   48,
+   166.683
+  ],
+  [
+   54,
+   187.41
+  ],
+  [
+   57,
+   197.687
+  ]
+ ]
+}

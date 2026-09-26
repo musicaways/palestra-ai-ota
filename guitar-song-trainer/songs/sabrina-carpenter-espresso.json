@@ -1,0 +1,223 @@
+{
+ "title": "Espresso",
+ "artist": "Sabrina Carpenter",
+ "album": "Essentials",
+ "year": 2024,
+ "genre": "Pop",
+ "difficulty": 1,
+ "youtubeId": "4h0a1NCeC14",
+ "key": "Em7",
+ "bpm": 104.14,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.76,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37156763,
+  "duration": 176,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Em7 – Am7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "%",
+    "Em7",
+    "%"
+   ]
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "%",
+    "Em7",
+    "%",
+    "Em7",
+    "%",
+    "Em7",
+    "%",
+    "Em7",
+    "%",
+    [
+     "Em7:2",
+     "Am7:2"
+    ],
+    "Am7",
+    [
+     "Em7:2",
+     "Am7:2"
+    ],
+    "Am7",
+    "%",
+    [
+     "Em7:1",
+     "Am7:2"
+    ],
+    [
+     "Em7:2",
+     "Am7:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    "Em7",
+    "Am7",
+    "Em7",
+    "%",
+    "Em7",
+    "Am7",
+    "Em7",
+    "%",
+    "Em7",
+    "%",
+    "Em7",
+    "%",
+    "Em7",
+    "%",
+    "Em7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    [
+     "Em7:2",
+     "Am7:2"
+    ],
+    "Am7",
+    [
+     "Em7:2",
+     "Am7:2"
+    ],
+    "Am7",
+    [
+     "Em7:2",
+     "Am7:2"
+    ],
+    "Am7",
+    "Em7",
+    "Am7",
+    "Em7",
+    "Am7",
+    "Em7",
+    "%",
+    "Em7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "Am7",
+    "Em7",
+    "%",
+    "Em7",
+    "%",
+    "Em7",
+    "%",
+    "Em7",
+    "%",
+    "Em7",
+    "%",
+    "Em7",
+    "%",
+    "Em7",
+    "%",
+    "Em7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "%",
+    "Em7",
+    "%",
+    "%",
+    "Em7",
+    "%",
+    "Em7",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   5,
+   12.146
+  ],
+  [
+   9,
+   21.4
+  ],
+  [
+   14,
+   33.289
+  ],
+  [
+   19,
+   44.56
+  ],
+  [
+   24,
+   55.76
+  ],
+  [
+   29,
+   67.566
+  ],
+  [
+   34,
+   79.19
+  ],
+  [
+   40,
+   93.251
+  ],
+  [
+   44,
+   102.288
+  ],
+  [
+   50,
+   115.729
+  ],
+  [
+   55,
+   127.414
+  ],
+  [
+   60,
+   139.036
+  ],
+  [
+   65,
+   150.559
+  ],
+  [
+   71,
+   164.569
+  ],
+  [
+   73,
+   169.19
+  ]
+ ]
+}

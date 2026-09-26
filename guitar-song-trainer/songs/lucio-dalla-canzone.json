@@ -1,0 +1,497 @@
+{
+ "title": "Canzone",
+ "artist": "Lucio Dalla",
+ "album": "Lucio Dalla Songs",
+ "year": 1996,
+ "genre": "Cantautori",
+ "difficulty": 4,
+ "youtubeId": "VkTNnCCKnE4",
+ "key": "G7",
+ "bpm": 116.1,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.77,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34350041,
+  "duration": 272,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G7 – Dm – C/G – C – F/G – Dm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "C/G",
+    "%",
+    "F/G",
+    "%",
+    "C/G",
+    "%",
+    "F/G",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "C/G:2",
+     "F/G:2"
+    ],
+    "%",
+    [
+     "C/G:2",
+     "F/G:2"
+    ],
+    [
+     "C/G:2",
+     "F/G:2"
+    ],
+    "C/G",
+    "%",
+    "F/G",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "C/G:2",
+     "F:2"
+    ],
+    "%",
+    [
+     "C/E:1",
+     "Dm7:2",
+     "G7:1"
+    ],
+    "%",
+    [
+     "C:2",
+     "Dm:2"
+    ],
+    [
+     "Dm:2",
+     "G7:2"
+    ],
+    [
+     "C:2",
+     "Dm:2"
+    ],
+    [
+     "Dm:2",
+     "G7:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "C/G:2",
+     "F/G:2"
+    ],
+    "%",
+    [
+     "C/G:2",
+     "F/G:2"
+    ],
+    "C/G",
+    "F/G",
+    "C/G",
+    "%",
+    "F/G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "C/G:2",
+     "F:2"
+    ],
+    "%",
+    [
+     "C/E:1",
+     "Dm7:2",
+     "G7:1"
+    ],
+    "%",
+    [
+     "C:2",
+     "Dm:2"
+    ],
+    [
+     "Dm:2",
+     "G7:2"
+    ],
+    [
+     "C:2",
+     "Dm:2"
+    ],
+    [
+     "Dm:2",
+     "G7:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Cmaj7",
+    [
+     "Cmaj7:2",
+     "F/C:2"
+    ],
+    [
+     "F/C:2",
+     "G7:2"
+    ],
+    "%",
+    "Dm7",
+    [
+     "Dm7:2",
+     "G7:2"
+    ],
+    [
+     "G7:2",
+     "C:2"
+    ],
+    "%",
+    "Cmaj7",
+    [
+     "Cmaj7:2",
+     "F/C:2"
+    ],
+    [
+     "F/C:2",
+     "G7:2"
+    ],
+    "%",
+    "Dm7",
+    "G7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    [
+     "C/G:2",
+     "F/G:2"
+    ],
+    "%",
+    [
+     "C/G:2",
+     "F/G:2"
+    ],
+    [
+     "C/G:2",
+     "F/G:2"
+    ],
+    "C/G",
+    "%",
+    "F/G",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    [
+     "C/G:2",
+     "F:2"
+    ],
+    "%",
+    [
+     "C/E:1",
+     "Dm7:2",
+     "G7:1"
+    ],
+    "%",
+    [
+     "C:2",
+     "Dm:2"
+    ],
+    [
+     "Dm:2",
+     "G7:2"
+    ],
+    [
+     "C:2",
+     "Dm:2"
+    ],
+    [
+     "Dm:2",
+     "G7:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Cmaj7",
+    [
+     "Cmaj7:2",
+     "F/C:2"
+    ],
+    [
+     "F/C:2",
+     "G7:2"
+    ],
+    "%",
+    "Dm7",
+    [
+     "Dm7:2",
+     "G7:2"
+    ],
+    [
+     "G7:2",
+     "C:2"
+    ],
+    "%",
+    "Cmaj7",
+    [
+     "Cmaj7:2",
+     "F/C:2"
+    ],
+    [
+     "F/C:2",
+     "G7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 7",
+   "bars": [
+    [
+     "Dm7:2",
+     "G7:2"
+    ],
+    "C/G",
+    "%",
+    "F/G",
+    "%",
+    "C/G",
+    "%",
+    "F/G",
+    "%",
+    "C/G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 8",
+   "bars": [
+    [
+     "C/G:2",
+     "F:2"
+    ],
+    "%",
+    [
+     "C/E:1",
+     "Dm7:2",
+     "G7:1"
+    ],
+    "%",
+    [
+     "C:2",
+     "Dm:2"
+    ],
+    [
+     "Dm:2",
+     "G7:2"
+    ],
+    [
+     "C:2",
+     "Dm:2"
+    ],
+    [
+     "Dm:2",
+     "G7:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Cmaj7",
+    [
+     "Cmaj7:2",
+     "F/C:2"
+    ],
+    [
+     "F/C:2",
+     "G7:2"
+    ],
+    "%",
+    "Dm7",
+    [
+     "Dm7:2",
+     "G7:2"
+    ],
+    [
+     "G7:2",
+     "C:2"
+    ],
+    "%",
+    "Cmaj7",
+    [
+     "Cmaj7:2",
+     "F/C:2"
+    ],
+    [
+     "F/C:2",
+     "G7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 9",
+   "bars": [
+    "Dm7",
+    "G7",
+    "Dm7",
+    "G7",
+    "Dm7",
+    "G7",
+    [
+     "C:2",
+     "Dm:2"
+    ],
+    [
+     "Dm:2",
+     "G7:2"
+    ],
+    [
+     "C:2",
+     "Dm:2"
+    ],
+    [
+     "Dm:2",
+     "G7:2"
+    ],
+    [
+     "C:2",
+     "Dm:2"
+    ],
+    [
+     "Dm:2",
+     "G7:2"
+    ],
+    [
+     "C:2",
+     "Dm:2"
+    ],
+    [
+     "Dm:2",
+     "G7:2"
+    ],
+    "C",
+    "%",
+    "C",
+    "%",
+    "C",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   8,
+   17.48
+  ],
+  [
+   16,
+   33.936
+  ],
+  [
+   20,
+   42.204
+  ],
+  [
+   25,
+   52.453
+  ],
+  [
+   32,
+   66.958
+  ],
+  [
+   38,
+   79.267
+  ],
+  [
+   44,
+   91.459
+  ],
+  [
+   52,
+   107.996
+  ],
+  [
+   57,
+   118.734
+  ],
+  [
+   62,
+   128.948
+  ],
+  [
+   68,
+   141.229
+  ],
+  [
+   74,
+   153.81
+  ],
+  [
+   78,
+   162.079
+  ],
+  [
+   92,
+   191.218
+  ],
+  [
+   98,
+   203.26
+  ],
+  [
+   104,
+   215.647
+  ],
+  [
+   112,
+   232.266
+  ],
+  [
+   118,
+   244.801
+  ],
+  [
+   124,
+   257.204
+  ]
+ ]
+}

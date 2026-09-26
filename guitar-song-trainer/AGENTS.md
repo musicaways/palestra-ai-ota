@@ -77,6 +77,8 @@ js/setlists.js        scalette (localStorage), parseSongHash/songHref per #/song
 tools/autosong.py     GENERA UN BRANO: accordi (accordiespartiti) agganciati alle righe LRCLIB, BPM, sezioni, video
 tools/chordscan.py    mostra solo le sigle degli accordi di una pagina (il testo diventa "~")
 tools/checksong.mjs   controlla forme, durata e video di ogni brano
+tools/importbatch.py  IMPORTA IN SERIE: autosong in parallelo → criteri → indice → sincronia
+tools/ugsource.py     seconda fonte di accordi (Ultimate Guitar), stessa struttura di parse_chord_page
 tools/lrcwarp.mjs     SINCRONIA DI DEFAULT: ancore warp (battuta→secondo) sui tempi del canto; --write le salva se migliorano
 tools/audiosync.py    sperimentale: BPM dall'anteprima audio Deezer + parole (faster-whisper); non usato (precisione 1–2%)
 tools/tlinfo.mjs      stampa la timeline di un brano in JSON (per gli strumenti Python)
@@ -118,7 +120,16 @@ Documentato nel README (sezione "Aggiungere un brano"). Punti chiave:
 
 ### Procedura per aggiungere un brano (per l'AI)
 
-**Metodo veloce (consigliato, dalla v1.7):**
+**In serie (consigliato, dalla v1.9):** un file con una riga per brano `Artista|Titolo|Genere|Anno`, poi
+```bash
+python3 tools/importbatch.py lista.txt --workers 4
+```
+Genera ogni brano (autosong), applica i criteri di qualità, aggiorna `songs/index.json`, cancella gli scartati e
+sincronizza (lrcwarp; `--lock` per i brani ancora incoerenti). Fonti degli accordi: accordiespartiti.it e, se manca
+o si aggancia male al testo, Ultimate Guitar (`tools/ugsource.py`; `--source ap|ug` in autosong per forzarne una).
+Poi `npm test` (anche tests/catalog.test.mjs: indice coerente, nessun video doppio, nessun testo nei file).
+
+**Un brano alla volta (v1.7):**
 ```bash
 python3 tools/autosong.py --artist "Vasco Rossi" --title "Albachiara" --genre Rock --year 1979          # prova: stampa solo numeri
 python3 tools/autosong.py --artist "Vasco Rossi" --title "Albachiara" --genre Rock --year 1979 --write  # scrive brano e indice

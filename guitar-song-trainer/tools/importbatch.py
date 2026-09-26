@@ -27,14 +27,17 @@ def generate(line):
     if len(parts) > 3 and parts[3]: cmd += ['--year', parts[3]]
     try:
         out = subprocess.run(cmd, capture_output=True, text=True, timeout=180, env=dict(os.environ, AUTOSONG_NOINDEX='1'))
-        first = (out.stdout.strip().splitlines() or ['{}'])[0]
-        return json.loads(first) if first.startswith('{') else {'id': f'{slug(artist)}-{slug(title)}', 'errore': 'eccezione'}
+        first = (out.stdout.strip().splitlines() or [''])[0]
+        r = json.loads(first) if first.startswith('{') else {}
+        r.setdefault('id', f'{slug(artist)}-{slug(title)}')
+        if 'errore' not in r and 'righe_con_accordi' not in r: r['errore'] = 'nessun risultato'
+        return r
     except Exception as e:
         return {'id': f'{slug(artist)}-{slug(title)}', 'errore': str(e)[:60]}
 
 
 def verdict(r, used_videos):
-    if 'errore' in r: return r['errore']
+    if 'errore' in r or 'righe_con_accordi' not in r: return r.get('errore', 'nessun risultato')
     w, n = map(int, r['righe_con_accordi'].split('/'))
     why = []
     if w / max(1, n) < 0.7: why.append('poche righe con accordi')

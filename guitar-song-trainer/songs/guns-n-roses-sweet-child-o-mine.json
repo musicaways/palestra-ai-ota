@@ -1,0 +1,288 @@
+{
+ "title": "Sweet Child O' Mine",
+ "artist": "Guns N' Roses",
+ "album": "Essentials",
+ "year": 1987,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "qoflJn7zkFM",
+ "key": "D",
+ "bpm": 62.17,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.62,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 22260470,
+  "duration": 356.231837,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – C – A – G – Em – Am.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "D",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "D",
+    "Cadd9",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    "D",
+    "Cadd9",
+    "%",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "A:1",
+     "C:2",
+     "D:1"
+    ],
+    "%",
+    [
+     "A:1",
+     "C:2",
+     "D:1"
+    ],
+    "D",
+    "C",
+    "G",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "D",
+    "Cadd9",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    "D",
+    "Cadd9",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "A:1",
+     "C:2",
+     "D:1"
+    ],
+    "%",
+    [
+     "A:1",
+     "C:2",
+     "D:1"
+    ],
+    "D",
+    "C",
+    "G",
+    "D",
+    "D",
+    "C",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "A:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "A:1",
+     "C:2",
+     "D:1"
+    ],
+    "Em",
+    "C",
+    "Bm7",
+    "Am",
+    "Em",
+    "C",
+    "Bm7",
+    "Am",
+    "Em",
+    "C",
+    "Bm7",
+    "Am",
+    "Em",
+    "C",
+    "B",
+    "Am",
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "G",
+    "Em",
+    "G",
+    [
+     "A:1",
+     "C:2",
+     "D:1"
+    ],
+    "Em",
+    "G",
+    "%",
+    "Em",
+    [
+     "A:1",
+     "C:2",
+     "D:1"
+    ],
+    [
+     "A:1",
+     "C:2",
+     "D:1"
+    ],
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "A:1",
+     "C:2",
+     "D:1"
+    ],
+    [
+     "Em:1",
+     "G:2",
+     "A:1"
+    ],
+    "A",
+    [
+     "C:2",
+     "D:2"
+    ],
+    "Em",
+    "G",
+    "A",
+    "C",
+    "D",
+    "Em"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   11,
+   45.6
+  ],
+  [
+   16,
+   64.58
+  ],
+  [
+   20,
+   79.9
+  ],
+  [
+   27,
+   106.922
+  ],
+  [
+   31,
+   122.24
+  ],
+  [
+   36,
+   141.261
+  ],
+  [
+   47,
+   183.589
+  ],
+  [
+   51,
+   199.622
+  ],
+  [
+   74,
+   288.418
+  ],
+  [
+   78,
+   303.81
+  ],
+  [
+   83,
+   323.001
+  ],
+  [
+   86,
+   335.031
+  ]
+ ]
+}

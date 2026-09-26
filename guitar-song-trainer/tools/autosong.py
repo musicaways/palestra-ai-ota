@@ -90,10 +90,10 @@ def lrc_lines(lrc):
 def lrclib_pick(artist, title, target=None):
     q = urllib.parse.urlencode({'artist_name': artist, 'track_name': title})
     res = json.loads(fetch('https://lrclib.net/api/search?' + q)[0])
-    res = [r for r in res if r.get('syncedLyrics') and normtext(title)[:10] in normtext(r['trackName'])]
+    res = [r for r in res if r.get('syncedLyrics') and r.get('duration') and normtext(title)[:10] in normtext(r['trackName'])]
     if not res:
         res = json.loads(fetch('https://lrclib.net/api/search?' + urllib.parse.urlencode({'q': f'{artist} {title}'}))[0])
-        res = [r for r in res if r.get('syncedLyrics')]
+        res = [r for r in res if r.get('syncedLyrics') and r.get('duration')]
     if not res: return None
     if target: res.sort(key=lambda r: abs(r['duration'] - target))
     else:
@@ -439,6 +439,7 @@ def main():
     ap.add_argument('--write', action='store_true')
     ap.add_argument('--exact-bpm', action='store_true', help='usa il BPM dato (misurato), cerca solo la fase')
     ap.add_argument('--scan-bpm', action='store_true', help='ignora il BPM della fonte: cerca quello che allinea meglio le righe')
+    ap.add_argument('--source', choices=['auto', 'ap', 'ug'], default='auto', help='fonte degli accordi: accordiespartiti, Ultimate Guitar o automatica')
     a = ap.parse_args()
     if a.chords_url: urls = [a.chords_url]
     else:
@@ -462,6 +463,7 @@ def main():
         except Exception:
             pass
     page = final = items = None
+    if a.source == 'ug': urls = []
     for url in urls:
         try:
             page, final = fetch(url, tries=1)
@@ -474,7 +476,25 @@ def main():
         items = parse_chord_page(page)
         if items and any(i[0] == 'c' for i in items): break
         items = None
-    if not items: print(json.dumps({'id': a.id or f'{slug(a.artist)}-{slug(a.title)}', 'errore': 'pagina accordi non trovata'})); sys.exit(2)
+    # seconda fonte (Ultimate Guitar): usata se la prima manca o si aggancia male al testo
+    ug_cache = {}
+    def ug_items():
+        if 'v' not in ug_cache:
+            ug_cache['v'] = (None, 0)
+            if a.source != 'ap':
+                try:
+                    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+                    import ugsource
+                    for u in ugsource.search(a.chords_artist or re.split(r',| feat\.? | & ', a.artist)[0], a.chords_title or a.title)[:2]:
+                        it, cp = ugsource.chord_items(u)
+                        if it and sum(1 for x in it if x[0] == 'c') >= 3:
+                            it = [(k, [clean_chord(c) for c in v]) if k == 'c' else (k, v) for k, v in it]
+                            ug_cache['v'] = (it, cp); break
+                except Exception:
+                    pass
+        return ug_cache['v']
+    if not items and not ug_items()[0]:
+        print(json.dumps({'id': a.id or f'{slug(a.artist)}-{slug(a.title)}', 'errore': 'pagina accordi non trovata'})); sys.exit(2)
     sb = songbpm(a.artist, a.title) or {}
     if a.lrclib:
         rec = json.loads(fetch(f'https://lrclib.net/api/get/{a.lrclib}')[0])
@@ -515,7 +535,17 @@ def main():
     offset = ph
     while offset > (ts[0] if ts else 0): offset -= bar
     while offset < 0: offset += bar
-    secs, matched, plines, withch, nsung = build(items, lrc, bar, offset, a.beats, duration)
+    def quality(r): return r[3] / max(1, r[4]) + r[1] / max(1, r[2])
+    source = 'accordiespartiti.it'
+    res = build(items, lrc, bar, offset, a.beats, duration) if items else None
+    if res is None or res[3] / max(1, res[4]) < 0.8 or res[1] / max(1, res[2]) < 0.6:
+        ui, ucapo = ug_items()
+        if ui:
+            ures = build(ui, lrc, bar, offset, a.beats, duration)
+            if res is None or quality(ures) > quality(res) + 0.05:
+                res, items, source = ures, ui, 'ultimate-guitar.com'
+                page = f'capo {ucapo}' if ucapo else ''
+    secs, matched, plines, withch, nsung = res
     names = name_sections(secs, secs and secs[0]['start'] == 0 and (ts and (ts[0] - offset) / bar >= 1.5))
     names_used = {}
     for s, nm in zip(secs, names):
@@ -531,7 +561,7 @@ def main():
     diff = a.difficulty or min(5, max(1, 1 + (len(distinct) > 4) + (len(distinct) > 7) + sum(1 for c in distinct if re.search(r'^(F|Bb|B|C#|D#|G#|F#|Eb|Ab|Db|Gb)(?!5)|m7b5|dim|aug', c)) // 2))
     report = dict(id=sid, bpm=round(bpm, 2), bar=round(bar, 2), R=round(R, 2), offset=round(offset, 2), lrclib=rec['id'],
                   dur=duration, yt=yt, ytdur=ytd, righe_pagina=plines, agganciate=matched, righe_con_accordi=f'{withch}/{nsung}',
-                  sezioni=[f"{s['name']}:{len(s['bars'])}" for s in secs], accordi=distinct[:14], key=key, capo=capo, diff=diff)
+                  sezioni=[f"{s['name']}:{len(s['bars'])}" for s in secs], accordi=distinct[:14], key=key, capo=capo, diff=diff, fonte=source)
     print(json.dumps(report, ensure_ascii=False))
     if not a.write: return
     if withch < nsung * 0.6:
