@@ -174,7 +174,7 @@ Nel test e2e YouTube è bloccato di proposito (si prova il clock di riserva); il
   con autosong (accordi riga per riga) e ancorati. Dalla v1.9 importbatch applica da solo ancore e aggancio stretto:
   checksync 614/614.
 - Nuovo: Base sintetica, Dizionario accordi, Scalette, filtri e brano a caso in libreria, quiz d'ascolto.
-- 71 test unitari e **706 controlli e2e verdi** (apre ognuno dei 443 brani; desktop e telefono).
+- 73 test unitari (+ criteri di importazione) e **879 controlli e2e verdi** (apre ognuno dei 614 brani; desktop e telefono).
 
 ### Stato precedente (v1.7.0)
 
