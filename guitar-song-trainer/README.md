@@ -32,6 +32,11 @@ Funziona nel browser di **PC, tablet e telefono Android** e si può installare c
   un minuto, con il BPM che sale da solo e il record salvato per ogni combinazione.
 - **Statistiche di pratica**: tempo suonato e ultima volta su ogni brano, scheda *Recenti*.
 - Schermo sempre acceso mentre suoni e **modalità concentrazione** (solo palco e testo).
+- **Modalità ascolto** (stile Rocksmith): il microfono riconosce l'accordo che suoni; a ogni cambio il
+  manico si illumina di verde o di rosso, con precisione, serie e record.
+- **Frecce della pennata** (↓ ↑) che scorrono sulla corsia a tempo.
+- **Editor dei brani**: crea o modifica un brano dall'app (accordi scritti come testo, tap tempo,
+  ricerca del testo su LRCLIB), provalo subito ed esporta il JSON. I brani creati hanno il badge *Tuo*.
 - **Libreria** con ricerca e schede *Tutti / Preferiti / Artisti / Generi / Difficoltà*.
 - **Sincronia**: correzione fine ±0,05 s e modalità **🎯 Registra tempi** (tocchi TAP a ogni cambio
   accordo mentre il video suona: i tempi vengono salvati e si possono esportare in JSON).
@@ -141,6 +146,10 @@ js/tuner.js           accordatore (microfono, autocorrelazione)
 js/drill.js           allenamento cambi accordo
 js/stats.js           statistiche di pratica e record
 js/audio.js           metronomo e schermo sempre acceso
+js/detect.js          riconoscimento degli accordi dal microfono
+js/songtext.js        formato testuale degli accordi dell'editor
+js/usersongs.js       brani creati dall'utente
+js/editor.js          editor dei brani
 tests/                test unitari (node --test) ed end-to-end (Playwright)
 js/icons.js           icone SVG
 js/timeline.js        da sezioni/battute a tempi assoluti

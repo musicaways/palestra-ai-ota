@@ -28,6 +28,16 @@ export function addPractice(id, seconds, now = Date.now()) {
   return s;
 }
 
+// Precisione migliore in modalità ascolto (0..1).
+export function recordAccuracy(id, acc) {
+  const s = getStats(id);
+  if (acc > (s.bestAccuracy ?? 0)) {
+    s.bestAccuracy = acc;
+    save(id, s);
+  }
+  return s;
+}
+
 // Velocità più alta completata in un loop con velocità progressiva.
 export function recordRate(id, rate) {
   const s = getStats(id);

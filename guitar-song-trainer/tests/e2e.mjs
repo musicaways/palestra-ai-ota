@@ -19,7 +19,7 @@ const browser = await chromium.launch({
 
 for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['telefono', { width: 390, height: 844 }]]) {
   console.log(`\n— ${name} —`);
-  const ctx = await browser.newContext({ viewport, ignoreHTTPSErrors: true, permissions: ['microphone'] });
+  const ctx = await browser.newContext({ viewport, ignoreHTTPSErrors: true, permissions: ['microphone'], acceptDownloads: true });
   await ctx.route(/youtube\.com|ytimg\.com/, (r) => r.abort());
   const page = await ctx.newPage();
   page.on('pageerror', (e) => errors.push(`${name}: ${e.message}`));
@@ -146,6 +146,14 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   await page.click('.dlg-capo button[value="ok"]');
   await page.click('.panel-tab[data-tab="lyrics"]');
 
+  // Modalità ascolto (microfono finto di Chromium)
+  await page.click('[data-act="listen"]');
+  await page.waitForTimeout(1500);
+  check(await page.isVisible('.score-hud'), 'modalità ascolto: punteggio visibile');
+  check((await page.getAttribute('[data-act="listen"]', 'class')).includes('active'), 'modalità ascolto attiva');
+  await page.click('[data-act="listen"]');
+  check(!(await page.isVisible('.score-hud')), 'modalità ascolto si spegne');
+
   // Modalità concentrazione
   await page.click('[data-act="focus"]');
   check(!(await page.isVisible('.video-wrap')), 'modalità concentrazione nasconde il video');
@@ -175,6 +183,43 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   await shot('allenamento');
   await page.click('.drill-start');
   await page.click('.player-head a');
+  await page.waitForSelector('.library');
+  // Editor: nuovo brano → prova → libreria → modifica → esporta → elimina
+  await page.click('a[href="#/editor"]');
+  await page.waitForSelector('.editor-form');
+  await page.fill('.editor-form [name="title"]', 'Prova Editor');
+  await page.fill('.editor-form [name="artist"]', 'Test');
+  await page.fill('.editor-form [name="chords"]', '[Strofa] x2\nC G Am F\n[Ritornello]\nF % C,G C');
+  await page.fill('.editor-form [name="youtube"]', 'ciao');
+  check((await page.textContent('.ed-check')).includes('YouTube'), 'editor: link YouTube sbagliato segnalato');
+  await page.fill('.editor-form [name="youtube"]', 'https://youtu.be/OGgBYJsekX0');
+  const edOk = await page.textContent('.ed-check .ed-ok');
+  check(edOk.includes('12 battute'), `editor: riepilogo (${edOk})`);
+  await shot('editor');
+  const [download] = await Promise.all([page.waitForEvent('download'), page.click('.ed-export')]);
+  check(download.suggestedFilename() === 'test-prova-editor.json', `editor: esporta ${download.suggestedFilename()}`);
+  await page.click('.editor-form button[type="submit"]');
+  await page.waitForSelector('.player');
+  check((await page.textContent('.player-title .title')) === 'Prova Editor', 'editor: il brano si apre nel player');
+  await page.click('.panel-tab[data-tab="chords"]');
+  check(await page.locator('.sheet-bar').count() === 12, 'editor: 12 battute nel player');
+  await page.click('.player-head a[aria-label="Torna alla libreria"]');
+  await page.waitForSelector('.library');
+  await page.click('.tab[data-tab="all"]');
+  await page.fill('.search', '');
+  check(await page.locator('.user-badge').count() === 1, 'libreria: badge "Tuo" sul brano creato');
+  await page.goto(`${BASE}/#/editor/test-prova-editor`);
+  await page.waitForSelector('.ed-delete');
+  page.once('dialog', (d) => d.accept());
+  await page.click('.ed-delete');
+  await page.waitForSelector('.library');
+  check(await page.locator('.user-badge').count() === 0, 'editor: brano eliminato');
+  await page.goto(`${BASE}/#/editor/salmo-cartine-corte`);
+  await page.waitForSelector('.editor-form');
+  const txt = await page.inputValue('.editor-form [name="chords"]');
+  check(txt.includes('[Bridge]') && txt.includes('G5 % F5 %'), 'editor: apre gli accordi di un brano esistente');
+  await page.goto(BASE);
+  await page.waitForSelector('.library');
   await page.waitForSelector('.library');
   await ctx.close();
 }

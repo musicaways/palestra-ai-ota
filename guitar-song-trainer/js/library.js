@@ -26,6 +26,7 @@ export function renderLibrary(root, songs) {
         <p>Manico animato, video sincronizzato, testo karaoke. Rallenta, ripeti in loop, impara.</p>
         <div class="hero-actions">
           <a class="chip-btn primary" href="#/allenamento">${icon('drill', 16)} Allenamento cambi accordo</a>
+          <a class="chip-btn" href="#/editor">${icon('text', 16)} Crea un brano</a>
           <span class="hero-stats"></span>
         </div>
       </section>
@@ -90,6 +91,12 @@ export function renderLibrary(root, songs) {
       pr.innerHTML = `${icon('clock', 13)} ${formatDuration(st.seconds)} · ${formatAgo(st.lastPlayed)}`;
       pr.title = `Pratica totale: ${formatDuration(st.seconds)} in ${st.sessions} sessioni${st.bestRate ? ` · velocità migliore nel loop: ${Math.round(st.bestRate * 100)}%` : ''}`;
     } else pr.remove();
+    if (song.user) {
+      const ub = document.createElement('span');
+      ub.className = 'user-badge';
+      ub.textContent = song.user === 'created' ? 'Tuo' : 'Modificato';
+      a.querySelector('.thumb').append(ub);
+    }
     const kb = a.querySelector('.key-badge');
     if (song.key) kb.textContent = song.key; else kb.remove();
     const fav = a.querySelector('.fav');

@@ -1,5 +1,15 @@
 # Novità
 
+## 1.3.0 — 2026-09-26
+- Modalità ascolto: riconoscimento dell'accordo suonato dal microfono, esito verde/rosso sul manico,
+  precisione, serie e record per brano.
+- Frecce della pennata sulla corsia.
+- Editor dei brani (#/editor): formato testuale degli accordi, controllo degli errori, tap tempo,
+  ricerca su LRCLIB, prova immediata, esportazione JSON; brani dell'utente in libreria con badge.
+- Pulsante "Modifica" nel player; "Crea un brano" nella pagina iniziale.
+- Corretto: su telefono il punteggio della modalità ascolto non era visibile.
+- Test: riconoscimento accordi (segnali sintetici), editor e formato testuale, brani dell'utente, e2e esteso.
+
 ## 1.2.0 — 2026-09-26
 - Capotasto con suggerimento automatico della posizione più comoda (Cartine corte: capo 3 → forme aperte).
 - Allenamento cambi accordo: 2-4 accordi a tempo col metronomo, round da un minuto, BPM che sale, record.

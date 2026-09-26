@@ -2,6 +2,8 @@
 import { renderLibrary } from './library.js';
 import { openPlayer } from './player.js';
 import { openDrill } from './drill.js';
+import { openEditor } from './editor.js';
+import { getUserSong, mergeLibrary } from './usersongs.js';
 
 const root = document.getElementById('app');
 let index = null;
@@ -9,14 +11,17 @@ let destroyCurrent = null;
 let navToken = 0;
 
 async function loadIndex() {
-  if (index) return index;
-  const res = await fetch('songs/index.json', { cache: 'no-cache' });
-  if (!res.ok) throw new Error('Impossibile caricare la libreria');
-  index = await res.json();
-  return index;
+  if (!index) {
+    const res = await fetch('songs/index.json', { cache: 'no-cache' });
+    if (!res.ok) throw new Error('Impossibile caricare la libreria');
+    index = await res.json();
+  }
+  return mergeLibrary(index); // + brani creati o modificati dall'utente
 }
 
 async function loadSong(id) {
+  const own = getUserSong(id);
+  if (own) return own;
   const list = await loadIndex();
   const entry = list.find((s) => s.id === id);
   if (!entry) throw new Error(`Brano "${id}" non trovato`);
@@ -37,7 +42,14 @@ async function route() {
   document.body.classList.remove('in-player');
   const m = /^#\/song\/(.+)$/.exec(location.hash);
   try {
-    if (location.hash === '#/allenamento') {
+    const ed = /^#\/editor(?:\/(.+))?$/.exec(location.hash);
+    if (ed) {
+      document.body.classList.add('in-player');
+      document.title = 'Editor · Guitar Song Trainer';
+      const song = ed[1] ? await loadSong(decodeURIComponent(ed[1])) : null;
+      if (token !== navToken) return;
+      destroyCurrent = openEditor(root, song);
+    } else if (location.hash === '#/allenamento') {
       document.body.classList.add('in-player');
       document.title = 'Allenamento cambi · Guitar Song Trainer';
       destroyCurrent = openDrill(root);

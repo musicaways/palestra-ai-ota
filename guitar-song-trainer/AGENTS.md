@@ -17,6 +17,8 @@ Rocksmith, usabile su PC, tablet e telefono Android. Proprietario: `musicaways` 
 - Libreria con ricerca, preferiti, recenti, artisti, generi, difficoltà e tempo di pratica.
 - Strumenti: capotasto con suggerimento automatico, accordatore dal microfono, allenamento dei
   cambi accordo, conteggio d'attacco, metronomo, registrazione dei tempi a TAP.
+- Modalità ascolto: il microfono riconosce l'accordo suonato (chroma) e dà punteggio e serie.
+- Editor dei brani nell'app (formato testuale degli accordi), brani dell'utente salvati in locale.
 - **I brani vengono aggiunti dall'AI su richiesta dell'utente, uno alla volta** (vedi sotto).
 
 ## Regole da rispettare sempre
@@ -39,7 +41,7 @@ Rocksmith, usabile su PC, tablet e telefono Android. Proprietario: `musicaways` 
 ```
 index.html            pagina unica, carica js/app.js
 css/style.css         tema "neon stage" (variabili in :root), responsive (≤960px, ≤560px)
-js/app.js             router a hash: #/ libreria · #/song/<id> player · #/allenamento
+js/app.js             router a hash: #/ libreria · #/song/<id> player · #/allenamento · #/editor[/<id>]
 js/library.js         libreria (schede, ricerca, preferiti, statistiche sulle card)
 js/player.js          schermata di studio: orchestra clock, palco, pannelli, dialoghi, loop
 js/fretboard.js       canvas: corsia 3D (proiezione prospettica verso un punto di fuga) + manico
@@ -54,6 +56,10 @@ js/tuner.js           accordatore (autocorrelazione)
 js/drill.js           allenamento cambi accordo (usa un "brano sintetico" e lo stesso palco)
 js/stats.js           tempo di pratica, recenti, record dell'allenamento (localStorage)
 js/audio.js           click del metronomo, Wake Lock dello schermo
+js/detect.js          riconoscimento accordi: FFT, chroma, confronto con i modelli; Listener dal microfono
+js/songtext.js        formato testuale degli accordi (parse/serializza), slug, ID YouTube, tap tempo
+js/usersongs.js       brani creati/modificati dall'utente (localStorage) e fusione con la libreria
+js/editor.js          pagina #/editor e #/editor/<id>
 js/store.js           localStorage con prefisso `gst:` e impostazioni
 js/icons.js           icone SVG in linea
 songs/index.json      elenco dei brani (metadati per la libreria)
@@ -98,14 +104,16 @@ node tests/e2e.mjs http://localhost:8080   # test nel browser (serve Playwright 
 ```
 Nel test e2e YouTube è bloccato di proposito (si prova il clock di riserva); il microfono è finto.
 
-## Stato attuale (v1.2.0 — 2026-09-26)
+## Stato attuale (v1.3.0 — 2026-09-26)
 
-- Funziona tutto quanto descritto sopra; 25 test unitari e ~35 controlli e2e verdi.
+- Funziona tutto quanto descritto sopra; 34 test unitari e ~50 controlli e2e verdi (desktop + telefono).
 - **Brani in libreria**: 1 — Salmo, *Cartine corte* (RANCH, 2025). 3/4 a 95 BPM, griglia ricavata
   dai tempi del cantato (una riga ogni 3,79 s = 2 battute). Giro Gm – Gm/F – Ebmaj7 – D7sus4 → D7,
   bridge G5 F5 Eb5 C5. Capotasto suggerito: 3 (Em – Em/D – Cmaj7 – B7). **Tempi dei cambi stimati,
   non ancora verificati sul video reale.**
-- **Non verificato**: video YouTube reale e accordatore con una chitarra vera (la sandbox li blocca).
+- **Non verificato**: video YouTube reale, accordatore e modalità ascolto con una chitarra vera
+  (la sandbox li blocca; sono verificati con segnali sintetici nei test). Le soglie di `matchChord`
+  (0.62 e 0.92 del migliore) e del volume (0.012) potrebbero richiedere taratura sul campo.
 
 ## Dove vive il codice
 
@@ -136,13 +144,16 @@ Nel test e2e YouTube è bloccato di proposito (si prova il clock di riserva); il
   Test unitari ed e2e, diteggiature, accordatore, velocità progressiva, conteggio d'attacco.
   Capotasto con suggerimento, allenamento cambi accordo, statistiche di pratica e scheda Recenti,
   schermo sempre acceso, modalità concentrazione. Memoria condivisa (questo file) e pacchetto sorgenti.
+  Poi v1.3.0: modalità ascolto (riconoscimento accordi dal microfono, punteggio e serie), frecce della
+  pennata sulla corsia, editor dei brani con brani dell'utente e badge in libreria. Bug corretto: il
+  punteggio dell'ascolto era nascosto sui telefoni.
 
 ## Prossimi passi (idee in ordine di utilità)
 
 1. Spostare il progetto in un repo dedicato e pubblicarlo (Vercel o GitHub Pages).
 2. Verificare *Cartine corte* sul video reale e salvare i tempi `sync` registrati dall'utente.
 3. Aggiungere i brani che l'utente chiede, uno alla volta, con la procedura sopra.
-4. Riconoscimento degli accordi suonati dal microfono (feedback "giusto/sbagliato" stile Rocksmith).
-5. Pattern di pennata disegnati sulla corsia (frecce ↓↑ sulle linee dei battiti).
-6. Editor dei brani nell'app (disegnare sezioni e accordi, esportare il JSON).
-7. Tablature per riff e intro (note singole oltre agli accordi).
+4. Tarare la modalità ascolto con una chitarra vera (soglie, latenza del microfono).
+5. Tablature per riff e intro (note singole oltre agli accordi).
+6. Importare nell'editor gli accordi da testo incollato (formato "accordi sopra le parole").
+7. Sincronizzare i brani dell'utente fra dispositivi (oggi sono solo nel browser).

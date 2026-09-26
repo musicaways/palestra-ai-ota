@@ -28,6 +28,7 @@ export class Fretboard {
     this.particles = [];
     this.vibration = [0, 0, 0, 0, 0, 0];
     this.lastIdx = -2;
+    this.verdict = null; // { ok, at } esito dell'ultimo accordo in modalità ascolto
     this.lastFrame = performance.now();
     this._ro = new ResizeObserver(() => this.resize());
     this._ro.observe(canvas);
@@ -172,6 +173,25 @@ export class Fretboard {
       ctx.beginPath(); ctx.moveTo(p0[0], p0[1]); ctx.lineTo(p1[0], p1[1]); ctx.stroke();
     }
 
+    // frecce della pennata sulle suddivisioni della battuta
+    if (tl.strum) {
+      const pat = tl.strum.replace(/\s+/g, '');
+      const ax = laneL + (laneR - laneL) * (mirror ? 0.94 : 0.06);
+      for (const bar of tl.bars) {
+        if (bar.end < t) continue;
+        if (bar.start > t + LOOKAHEAD) break;
+        const step = (bar.end - bar.start) / pat.length;
+        for (let i = 0; i < pat.length; i++) {
+          const ch = pat[i];
+          if (ch !== 'D' && ch !== 'U') continue;
+          const d = bar.start + i * step - t;
+          if (d < 0 || d > LOOKAHEAD) continue;
+          const [px, py, sc] = P(ax, neckTop, d);
+          strumArrow(ctx, px, py - 10 * sc, 11 * sc, ch === 'D', 1 - d / LOOKAHEAD);
+        }
+      }
+    }
+
     // cornici in arrivo: piene ai cambi accordo, "fantasma" sulle battute in cui l'accordo prosegue
     const upcoming = [];
     for (let i = Math.max(0, idx); i < tl.events.length; i++) {
@@ -202,6 +222,21 @@ export class Fretboard {
     }
     if (!shapeA && cur) this.unknown(cur.name, settings, neckTop + neckH / 2);
     this.drawFingering(shapeA, shapeB, p, t, cur, settings, { X, noteX, stringY, openW });
+
+    // ---- esito in modalità ascolto ----
+    if (this.verdict) {
+      const age = (now - this.verdict.at) / 1000;
+      if (age < 0.7) {
+        const c = this.verdict.ok ? '61, 220, 132' : '255, 77, 94';
+        const a = 1 - age / 0.7;
+        ctx.strokeStyle = `rgba(${c}, ${a})`;
+        ctx.lineWidth = 4;
+        ctx.shadowColor = `rgb(${c})`;
+        ctx.shadowBlur = 24 * a;
+        ctx.strokeRect(2, neckTop - 2, w - 4, neckH + 4);
+        ctx.shadowBlur = 0;
+      } else this.verdict = null;
+    }
 
     // ---- particelle ----
     this.drawParticles(dt);
@@ -552,6 +587,17 @@ export class Fretboard {
     ctx.textBaseline = 'middle';
     ctx.fillText(`Diteggiatura di ${displayChord(name, settings.notation)} non disponibile`, w / 2, cy);
   }
+}
+
+function strumArrow(ctx, x, y, r, down, a) {
+  ctx.globalAlpha = Math.max(0, Math.min(1, a * 1.4));
+  ctx.fillStyle = down ? '#22d3ee' : '#ff4fd8';
+  ctx.beginPath();
+  if (down) { ctx.moveTo(x - r, y - r * 0.6); ctx.lineTo(x + r, y - r * 0.6); ctx.lineTo(x, y + r * 0.8); }
+  else { ctx.moveTo(x - r, y + r * 0.6); ctx.lineTo(x + r, y + r * 0.6); ctx.lineTo(x, y - r * 0.8); }
+  ctx.closePath();
+  ctx.fill();
+  ctx.globalAlpha = 1;
 }
 
 function fretRange(shape) {

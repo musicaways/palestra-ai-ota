@@ -7,7 +7,8 @@ import { Karaoke } from './karaoke.js';
 import { loadSyncedLyrics, looksLikeLrc, clearLyricsCache } from './lyrics.js';
 import { displayChord, chordColor, shapeNameWithCapo, suggestCapo } from './music.js';
 import { click, WakeLock } from './audio.js';
-import { addPractice, recordRate } from './stats.js';
+import { addPractice, recordRate, recordAccuracy, getStats } from './stats.js';
+import { Listener, matchChord } from './detect.js';
 import { icon } from './icons.js';
 import { chordDiagram } from './diagram.js';
 import { Tuner } from './tuner.js';
@@ -44,6 +45,9 @@ export async function openPlayer(root, song) {
   let practiceAcc = 0;
   let lastFrameAt = performance.now();
   const wake = new WakeLock();
+  let listener = null;
+  let judge = null; // { idx, frames, hits } valutazione dell'accordo corrente
+  let score = { hits: 0, total: 0, streak: 0, bestStreak: 0 };
 
   root.innerHTML = `
   <div class="player">
@@ -51,6 +55,7 @@ export async function openPlayer(root, song) {
       <a class="icon-btn" href="#/" aria-label="Torna alla libreria">${icon('back')}</a>
       <div class="player-title"><div class="title"></div><div class="artist"></div></div>
       <button class="icon-btn fav" aria-label="Preferito"></button>
+      <a class="icon-btn" href="#/editor/${encodeURIComponent(song.id)}" aria-label="Modifica il brano" title="Modifica il brano">${icon('text')}</a>
       <button class="icon-btn" data-act="focus" aria-label="Modalità concentrazione" title="Modalità concentrazione: nasconde video e controlli">${icon('focus')}</button>
       <button class="icon-btn" data-act="settings" aria-label="Impostazioni">${icon('settings')}</button>
     </header>
@@ -63,6 +68,7 @@ export async function openPlayer(root, song) {
         <div class="hud-block now">
           <div class="hud-label"><span class="section-name">Intro</span> <span class="capo-badge" hidden></span></div>
           <div class="hud-chord now-chord">—</div>
+          <div class="score-hud" hidden><span class="acc">—</span><span class="streak"></span><span class="hear"></span></div>
         </div>
         <div class="hud-center">
           <div class="beats"></div>
@@ -104,6 +110,7 @@ export async function openPlayer(root, song) {
           <div class="tools-row">
             <button class="chip-btn" data-act="metro" title="Click del metronomo">${icon('metronome', 16)} Click</button>
             <button class="chip-btn" data-act="countin" title="Una battuta di conteggio prima di partire">${icon('count', 16)} Conteggio</button>
+            <button class="chip-btn" data-act="listen" title="Ascolta dal microfono e controlla se suoni l'accordo giusto">${icon('mic', 16)} Ascolto</button>
             <button class="chip-btn" data-act="capo" title="Capotasto: accordi più facili">${icon('capo', 16)} <span class="capo-label">Capotasto</span></button>
             <button class="chip-btn" data-act="tuner" title="Accorda la chitarra col microfono">${icon('tuner', 16)} Accordatore</button>
             <button class="chip-btn" data-act="sync" title="Allinea accordi e testo al video">${icon('sliders', 16)} Sincronia</button>
@@ -562,9 +569,75 @@ export async function openPlayer(root, song) {
     dlg.showModal();
   }
 
+  // ---------- Modalità ascolto: l'app sente cosa suoni ----------
+  const scoreHud = $('.score-hud');
+  function paintScore() {
+    const acc = score.total ? Math.round((score.hits / score.total) * 100) : null;
+    scoreHud.querySelector('.acc').textContent = acc == null ? 'In ascolto…' : `${acc}%`;
+    scoreHud.querySelector('.streak').textContent = score.streak >= 2 ? `serie ×${score.streak}` : '';
+  }
+
+  async function toggleListen() {
+    const btn = $('[data-act="listen"]');
+    if (listener) {
+      listener.stop();
+      listener = null;
+      btn.classList.remove('active');
+      scoreHud.hidden = true;
+      if (score.total >= 8) {
+        const acc = score.hits / score.total;
+        const prev = getStats(song.id).bestAccuracy ?? 0;
+        recordAccuracy(song.id, acc);
+        toast(`Precisione ${Math.round(acc * 100)}%${acc > prev ? ' · nuovo record!' : ''} · serie migliore ×${score.bestStreak}`);
+      }
+      return;
+    }
+    const names = [...new Set(tl.events.map((e) => e.sounding ?? e.name))];
+    listener = new Listener(({ chroma, level }) => {
+      const t = clock.getTime();
+      const idx = eventIndexAt(tl, t);
+      const ev = tl.events[idx];
+      if (!ev || !clock.playing) return;
+      if (!judge || judge.idx !== idx) judge = { idx, frames: 0, hits: 0 };
+      if (t - ev.start < 0.18 || level < 0.012) return; // transizione o silenzio
+      const r = matchChord(chroma, ev.sounding ?? ev.name, names);
+      judge.frames++;
+      if (r.hit) judge.hits++;
+      scoreHud.querySelector('.hear').textContent = r.best ? `senti: ${displayChord(r.best, settings.notation)}` : '';
+    });
+    try {
+      await listener.start();
+    } catch {
+      listener = null;
+      toast('Serve il permesso del microfono');
+      return;
+    }
+    score = { hits: 0, total: 0, streak: 0, bestStreak: 0 };
+    judge = null;
+    btn.classList.add('active');
+    scoreHud.hidden = false;
+    paintScore();
+    toast('Ascolto attivo: suona insieme al brano');
+  }
+
+  // Chiamata al cambio accordo: giudica quello appena finito.
+  function judgePrevious() {
+    if (!listener || !judge) return;
+    const j = judge;
+    judge = null;
+    if (j.frames < 2) return; // non hai suonato: non conta
+    const ok = j.hits / j.frames >= 0.5;
+    score.total++;
+    if (ok) { score.hits++; score.streak++; score.bestStreak = Math.max(score.bestStreak, score.streak); }
+    else score.streak = 0;
+    fretboard.verdict = { ok, at: performance.now() };
+    paintScore();
+  }
+
   function openTuner() {
     const dlg = $('.dlg-tuner');
     clock.pause();
+    if (listener) toggleListen();
     tuner = new Tuner(dlg.querySelector('.tuner'), settings);
     dlg.onclose = () => { tuner?.stop(); tuner = null; };
     dlg.showModal();
@@ -599,6 +672,7 @@ export async function openPlayer(root, song) {
       case 'ramp': toggleRamp(); break;
       case 'countin': settings.countIn = !settings.countIn; saveSettings(settings); paintToggles(); break;
       case 'tuner': openTuner(); break;
+      case 'listen': toggleListen(); break;
       case 'capo': openCapo(); break;
       case 'focus':
         settings.focus = !settings.focus; saveSettings(settings);
@@ -747,6 +821,8 @@ export async function openPlayer(root, song) {
     const cur = tl.events[idx];
     const nxt = tl.events[idx + 1] ?? (idx < 0 ? tl.events[0] : null);
     if (idx !== lastIdx) {
+      if (lastIdx >= -1 && idx === lastIdx + 1) judgePrevious();
+      else judge = null;
       lastIdx = idx;
       hudNow.textContent = cur ? displayChord(cur.name, settings.notation) : '—';
       hudNow.style.setProperty('--c', cur ? chordColor(cur.name) : '#fff');
@@ -802,6 +878,7 @@ export async function openPlayer(root, song) {
     cancelAnimationFrame(raf);
     cancelCountIn();
     tuner?.stop();
+    listener?.stop();
     wake.off();
     addPractice(song.id, practiceAcc);
     window.removeEventListener('keydown', onKey);
