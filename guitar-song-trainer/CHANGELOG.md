@@ -1,5 +1,16 @@
 # Novità
 
+## 1.9.0 — 2026-09-26
+- **Catalogo: 614 brani di 217 artisti** (171 nuovi), tutti sincronizzati sul canto: rap e urban italiano (Salmo, Fedez,
+  Lazza, Geolier, Anna, Ghali…), Sanremo recenti, cantautori, rock, indie e classici stranieri.
+- **Sincronia per tutti**: i brani cantati liberamente (rubato) hanno ogni riga agganciata alla sua battuta; i brani rap
+  arrangiati a mano sono stati rigenerati riga per riga. Controllo di coerenza ok per 614 su 614.
+- **Seconda fonte di accordi** (Ultimate Guitar) quando la prima manca o si aggancia male: recuperati 60 brani.
+- **Pagella di fine brano** in modalità ascolto (stelle, precisione, serie, record, "Riprova"); **condividi il brano**.
+- Pagina iniziale compatta su telefono; Base anche con il manico nascosto.
+- Importazione in un comando (`tools/importbatch.py`) e test del catalogo (indice coerente, nessun video doppio).
+- Corretti: 32 campi dell'indice non allineati ai brani (video, tonalità, difficoltà); video doppi; LRCLIB senza durata.
+
 ## 1.8.0 — 2026-09-26
 - **Sincronia di default per tutti i brani**: la griglia degli accordi è agganciata ai tempi del canto lungo tutto il
   brano (campo `warp`): niente deriva anche se il BPM stimato non è perfetto o il brano è suonato senza metronomo;

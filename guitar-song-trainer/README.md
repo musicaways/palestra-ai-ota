@@ -48,7 +48,8 @@ Funziona nel browser di **PC, tablet e telefono Android** e si può installare c
 - **Base**: chitarra sintetica che suona gli accordi del brano con la sua pennata (⋯ → Base).
 - **Dizionario degli accordi** (12 note × 13 tipi) con suono; **quiz d'ascolto** in Impara.
 - **Scalette**: metti in fila i brani (⋯ → Scaletta) e suonali uno dopo l'altro; filtri per genere e decennio, brano a caso.
-- **Sincronia di default**: ogni brano è agganciato ai tempi del canto lungo tutta la canzone (niente deriva).
+- **Sincronia di default**: ogni brano è agganciato ai tempi del canto lungo tutta la canzone (niente deriva), anche rap e brani cantati liberamente.
+- **Pagella di fine brano** con le stelle in modalità ascolto.
 - **Modalità ascolto** (stile Rocksmith): il microfono riconosce l'accordo che suoni; a ogni cambio il
   manico si illumina di verde o di rosso, con precisione, serie e record.
 - **Frecce della pennata** (↓ ↑) che scorrono sulla corsia a tempo.
@@ -60,7 +61,7 @@ Funziona nel browser di **PC, tablet e telefono Android** e si può installare c
   indicatore di livello e ascolto della chitarra in cuffia (*Impostazioni → Ingresso audio*).
 - **Editor dei brani**: crea o modifica un brano dall'app (accordi scritti come testo, tap tempo,
   ricerca del testo su LRCLIB), provalo subito ed esporta il JSON. I brani creati hanno il badge *Tuo*.
-- **Libreria di 443 brani di 162 artisti** (pop, rock, cantautori, indie, rap adattato, classici stranieri) con ricerca e schede *Tutti / Preferiti / Recenti / Artisti / Generi / Difficoltà*.
+- **Libreria di 614 brani di 217 artisti** (pop, rock, cantautori, indie, rap adattato, classici stranieri) con ricerca e schede *Tutti / Preferiti / Recenti / Artisti / Generi / Difficoltà*.
 - **Sincronia**: correzione fine ±0,05 s e modalità **🎯 Registra tempi** (tocchi TAP a ogni cambio
   accordo mentre il video suona: i tempi vengono salvati e si possono esportare in JSON).
 - **Il tuo testo**: da *Sincronia → Incolla il tuo testo* puoi usare un testo tuo, anche in formato LRC;

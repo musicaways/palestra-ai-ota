@@ -165,13 +165,14 @@ node tests/e2e.mjs http://localhost:8080   # test nel browser (serve Playwright 
 ```
 Nel test e2e YouTube è bloccato di proposito (si prova il clock di riserva); il microfono è finto.
 
-## Stato attuale (v1.8.0 — 2026-09-26)
+## Stato attuale (v1.9.0 — 2026-09-26)
 
-- **443 brani di 162 artisti**, tutti con forme, durata coerente, video e testo sincronizzato; ogni brano agganciato ai
+- **614 brani di 217 artisti** (v1.9: +171 con importbatch e la seconda fonte Ultimate Guitar). In v1.8: 443 brani di 162 artisti, tutti con forme, durata coerente, video e testo sincronizzato; ogni brano agganciato ai
   tempi del canto (`warp`) dove migliora la coerenza. **checksync: 443/443 ok.** I 23 brani col canto libero (rubato:
   Caruso, Hallelujah, Certe notti…) usano l'aggancio stretto `lrcwarp --lock` (ogni riga sulla sua battuta, tempo locale
   60–160%); i 3 brani rap/arrangiati fatti a mano (Balorda nostalgia, Paracetamolo, Paraocchi) sono stati rigenerati
-  con autosong (accordi riga per riga) e ancorati.
+  con autosong (accordi riga per riga) e ancorati. Dalla v1.9 importbatch applica da solo ancore e aggancio stretto:
+  checksync 614/614.
 - Nuovo: Base sintetica, Dizionario accordi, Scalette, filtri e brano a caso in libreria, quiz d'ascolto.
 - 71 test unitari e **706 controlli e2e verdi** (apre ognuno dei 443 brani; desktop e telefono).
 
@@ -282,6 +283,10 @@ Nel test e2e YouTube è bloccato di proposito (si prova il clock di riserva); il
   a 443 brani (230 nuovi; 56 scartati dai criteri), Base sintetica, Dizionario accordi, Scalette, filtri libreria,
   quiz d'ascolto. Bug: gli strumenti non leggevano le LRC con \r\n (ora usano parseLrc dell'app). Due brani avevano
   lo stesso video di un altro (Gazzelle, Brunori): autosong ora vuole il titolo del brano nel titolo del video.
+  Poi v1.9.0: aggancio stretto per i brani rubato (23) e rigenerazione dei 3 rap arrangiati → 443/443 coerenti;
+  +171 brani (rap/urban, Sanremo, rock, cantautori, stranieri) → 614; seconda fonte Ultimate Guitar; importbatch;
+  pagella di fine brano; condivisione; home compatta su telefono. Bug: 32 campi dell'indice disallineati dai file
+  (le rigenerazioni aggiornavano solo il brano) → ora c'è tests/catalog.test.mjs; LRCLIB con durata null.
 
 ## Prossimi passi (idee in ordine di utilità)
 

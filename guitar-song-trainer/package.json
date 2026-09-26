@@ -1,6 +1,6 @@
 {
   "name": "guitar-song-trainer",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "private": true,
   "type": "module",
   "description": "Web app per imparare canzoni alla chitarra in stile Rocksmith",

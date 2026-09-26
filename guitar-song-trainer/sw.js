@@ -1,5 +1,5 @@
 // Service worker: l'app funziona anche offline (il video YouTube ovviamente no).
-const VERSION = 'gst-v13';
+const VERSION = 'gst-v14';
 const SHELL = [
   './', 'index.html', 'css/style.css', 'manifest.webmanifest', 'icons/icon.svg',
   'js/app.js', 'js/library.js', 'js/player.js', 'js/fretboard.js', 'js/sheet.js',
