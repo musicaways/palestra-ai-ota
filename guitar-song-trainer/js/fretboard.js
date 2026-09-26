@@ -183,20 +183,21 @@ export class Fretboard {
     }
 
     // frecce della pennata sulle suddivisioni della battuta
-    if (tl.strum && !tl.notes) {
-      const pat = tl.strum.replace(/\s+/g, '');
+    if (!tl.notes) {
       const ax = laneL + (laneR - laneL) * (mirror ? 0.94 : 0.06);
       for (const bar of tl.bars) {
         if (bar.end < t) continue;
         if (bar.start > t + LOOKAHEAD) break;
+        const pat = (bar.strum ?? tl.strum ?? '').replace(/\s+/g, '');
+        if (!pat) continue;
         const step = (bar.end - bar.start) / pat.length;
         for (let i = 0; i < pat.length; i++) {
           const ch = pat[i];
-          if (ch !== 'D' && ch !== 'U') continue;
+          if (ch !== 'D' && ch !== 'U' && ch !== 'P') continue;
           const d = bar.start + i * step - t;
           if (d < 0 || d > LOOKAHEAD) continue;
           const [px, py, sc] = P(ax, neckTop, d);
-          strumArrow(ctx, px, py - 10 * sc, 11 * sc, ch === 'D', 1 - d / LOOKAHEAD);
+          strumArrow(ctx, px, py - 10 * sc, 11 * sc, ch !== 'U', 1 - d / LOOKAHEAD);
         }
       }
     }

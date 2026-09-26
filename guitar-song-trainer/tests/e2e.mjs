@@ -2,6 +2,18 @@
 //   npx http-server -p 8080 . &   node tests/e2e.mjs [http://localhost:8080] [cartella-screenshot]
 // YouTube viene bloccato apposta: così si prova anche il clock interno di riserva.
 import { chromium } from 'playwright';
+import { readFileSync, writeFileSync, mkdtempSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
+import { midiForSong, wavForSong } from './fixtures.mjs';
+
+// file di prova ricavati dagli accordi di Cartine corte: parte MIDI (dalla battuta 2) e audio spostato di 1,5 s
+const cartine = JSON.parse(readFileSync(new URL('../songs/salmo-cartine-corte.json', import.meta.url)));
+const tmp = mkdtempSync(join(tmpdir(), 'gst-e2e-'));
+const midiPath = join(tmp, 'cartine-parte.mid');
+const wavPath = join(tmp, 'cartine-audio.wav');
+writeFileSync(midiPath, midiForSong(cartine, { fromBar: 1, bpm: 80 }));
+writeFileSync(wavPath, wavForSong(cartine, { delay: 1.5, seconds: 70 }));
 
 const BASE = process.argv[2] ?? 'http://localhost:8080';
 const SHOTS = process.argv[3] ?? null;
@@ -52,7 +64,8 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   if (name === 'desktop') {
     const ids = await page.evaluate(async () => (await (await fetch('songs/index.json')).json()).map((x) => x.id));
     check(ids.length >= 17, `libreria con ${ids.length} brani`);
-    for (const id of ids) {
+    // GST_QUICK=1: solo una parte del catalogo (per provare in fretta le altre funzioni)
+    for (const id of process.env.GST_QUICK ? ids.slice(0, 20) : ids) {
       await page.goto(`${BASE}/#/song/${id}`);
       await page.waitForSelector('.panel-tab[data-tab="chords"]', { timeout: 30000 });
       await page.click('.panel-tab[data-tab="chords"]');
@@ -543,6 +556,75 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   check(txt.includes('[Bridge]') && txt.includes('G5 % F5 %'), 'editor: apre gli accordi di un brano esistente');
   await page.goto(BASE);
   await page.waitForSelector('.library');
+
+  // Avvio immediato (niente attesa del video), parte MIDI, file audio con allineamento, karaoke parola per parola
+  await page.evaluate(() => Object.keys(localStorage).filter((k) => k.endsWith(':salmo-cartine-corte')).forEach((k) => localStorage.removeItem(k)));
+  await page.goto(`${BASE}/#/song/salmo-cartine-corte`);
+  const tOpen = Date.now();
+  await page.waitForSelector('.player [data-act="play"]');
+  await page.click('[data-act="play"]');
+  await page.waitForFunction(() => document.querySelector('[data-act="play"]').classList.contains('playing'), null, { timeout: 5000 }).catch(() => {});
+  const openMs = Date.now() - tOpen;
+  check(openMs < 2500, `il brano si usa subito, senza aspettare il video (${openMs} ms)`);
+  await page.click('[data-act="play"]');
+  check((await page.textContent('.video-msg')).length > 0, `messaggio sulla sorgente audio (${(await page.textContent('.video-msg')).trim().slice(0, 50)})`);
+
+  await tap('[data-act="part"]');
+  check(await page.locator('.dlg-part .part-style .seg').count() >= 6, 'stili di pennata nella finestra Parte');
+  await page.setInputFiles('.dlg-part .midi-file', midiPath);
+  await page.waitForSelector('.dlg-part .midi-info');
+  const mi = await page.textContent('.dlg-part .midi-info');
+  check(/battuta 2\b/.test(mi) && !/battito/.test(mi), `parte MIDI agganciata da sola alla battuta giusta (${mi})`);
+  check((await page.textContent('.part-label')) === 'Parte vera (MIDI)', 'la parte MIDI diventa la parte scelta');
+  check(await page.locator('.dlg-part .midi-track option').count() === 1, 'tracce del file MIDI');
+  await page.click('.dlg-part [data-midi="later"]');
+  check(/battito 2/.test(await page.textContent('.dlg-part .midi-info')), 'parte MIDI spostabile di un battito');
+  await page.click('.dlg-part [data-midi="earlier"]');
+  await page.click('.dlg-part button[value="ok"]');
+  await page.reload();
+  await page.waitForSelector('.player');
+  await page.waitForFunction(() => document.querySelector('.part-label')?.textContent === 'Parte vera (MIDI)', null, { timeout: 5000 }).catch(() => {});
+  check((await page.textContent('.part-label')) === 'Parte vera (MIDI)', 'la parte MIDI resta salvata sul dispositivo');
+  await tap('[data-act="backing"]');
+  await page.click('[data-act="play"]');
+  await page.waitForTimeout(1500);
+  await page.click('[data-act="play"]');
+  await tap('[data-act="backing"]');
+  await tap('[data-act="part"]');
+  await page.click('.dlg-part [data-midi="remove"]');
+  await page.waitForFunction(() => document.querySelector('.part-label')?.textContent === 'Ritmica', null, { timeout: 3000 }).catch(() => {});
+  check((await page.textContent('.part-label')) === 'Ritmica' && !(await page.locator('.dlg-part [data-part="midi"]').count()), 'parte MIDI rimossa');
+  await page.click('.dlg-part button[value="ok"]');
+
+  await tap('[data-act="source"]');
+  await page.waitForSelector('.dlg-source .src-list .option', { timeout: 3000 }).catch(() => {});
+  check(await page.locator('.dlg-source .src-list .option').count() >= 2, 'finestra della sorgente audio');
+  await page.setInputFiles('.dlg-source .src-file', wavPath);
+  await page.waitForFunction(() => localStorage.getItem('gst:audioAligned:salmo-cartine-corte'), null, { timeout: 30000 }).catch(() => {});
+  const aOff = await page.evaluate(() => JSON.parse(localStorage.getItem('gst:offset:salmo-cartine-corte') ?? 'null'));
+  check(aOff != null && Math.abs(aOff - 1.5) < 0.25, `file audio: accordi allineati da soli alla musica (spostamento ${aOff} s, atteso 1,5)`);
+  check(await page.evaluate(() => document.querySelector('.video-msg')?.textContent.includes('Audio:')), 'file audio: suona al posto del video');
+  if (await page.locator('dialog[open]').count()) await page.keyboard.press('Escape');
+  await tap('[data-act="source"]');
+  await page.waitForSelector('.dlg-source [data-src="forget"]', { timeout: 3000 }).catch(() => {});
+  if (await page.locator('.dlg-source [data-src="forget"]').count()) await page.click('.dlg-source [data-src="forget"]');
+  else if (await page.locator('dialog[open]').count()) await page.keyboard.press('Escape');
+
+  await page.click('.panel-tab[data-tab="lyrics"]').catch(() => {});
+  await page.waitForSelector('.k-row', { timeout: 30000 }).catch(() => {});
+  if (await page.locator('.k-row').count() > 6) {
+    await page.locator('.k-row').nth(5).click();
+    await page.click('[data-act="play"]');
+    await page.waitForTimeout(1600);
+    const words = await page.evaluate(() => ({
+      all: document.querySelectorAll('.k-row.active .kw').length,
+      on: document.querySelectorAll('.k-row.active .kw.on').length,
+    }));
+    await page.click('[data-act="play"]');
+    check(words.all > 1 && words.on >= 1 && words.on <= words.all, `karaoke parola per parola (${words.on}/${words.all} parole colorate)`);
+    await shot('karaoke-parole');
+  } else check(false, 'testo non disponibile per il karaoke parola per parola');
+  await page.goto(BASE);
   await page.waitForSelector('.library');
   await ctx.close();
 }

@@ -844,3 +844,19 @@ kbd { background: rgba(146, 132, 255, .12); border: 1px solid var(--line); borde
 .score-acc { font-family: var(--display); font-size: 56px; font-weight: 700; line-height: 1; color: #3ddc84; text-shadow: 0 0 18px rgba(61, 220, 132, .5); }
 .score-rec { color: var(--pink); font-weight: 800; margin-top: 6px; }
 .dlg-score menu { justify-content: center; }
+
+/* ---------- Karaoke parola per parola ---------- */
+.k-text .kw { transition: color .12s, text-shadow .12s; }
+.k-row.active .k-text { background: none; -webkit-text-fill-color: currentColor; color: rgba(238, 234, 255, .55); }
+.k-row.active .kw.on { color: #fff; text-shadow: 0 0 12px rgba(34, 211, 238, .45); }
+.k-row.active .kw.now {
+  --wp: 0%;
+  background: linear-gradient(90deg, #fff var(--wp), rgba(238, 234, 255, .55) var(--wp));
+  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+  text-shadow: none;
+}
+.sl-now .kw { color: rgba(255, 255, 255, .45); transition: color .12s; }
+.sl-now .kw.on { color: #fff; text-shadow: 0 0 14px rgba(34, 211, 238, .55); }
+.sl-now .kw.now { --wp: 0%; background: linear-gradient(90deg, #22d3ee var(--wp), rgba(255, 255, 255, .45) var(--wp));
+  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+.strum-slot.fine { width: 12px; font-size: 12px; }

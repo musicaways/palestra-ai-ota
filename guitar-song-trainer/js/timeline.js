@@ -47,7 +47,7 @@ export function buildTimeline(song, { offset = 0, sync = null } = {}) {
         if (barInSection++ % barsPerRow === 0) {
           rows.push({ index: rows.length, section: si, n: rowInSection++, barStart: bars.length });
         }
-        const bar = { index: bars.length, section: si, row: rows.length - 1, chords: [], held: null };
+        const bar = { index: bars.length, section: si, row: rows.length - 1, chords: [], held: null, strum: sec.strum ?? song.strum ?? null };
         bar.gridStart = t0 + bar.index * barDur;
         let beatOffset = 0;
         for (const c of parseBar(barDef, bpb)) {

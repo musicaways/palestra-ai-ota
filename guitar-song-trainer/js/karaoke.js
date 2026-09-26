@@ -3,6 +3,7 @@
 import { displayChord, chordColor } from './music.js';
 import { eventIndexAt, sectionAt } from './timeline.js';
 import { icon } from './icons.js';
+import { wordTimes, wordAt } from './wordtiming.js';
 
 const MAX_LINE_GAP = 7; // oltre questa pausa si inserisce una riga strumentale
 
@@ -49,7 +50,16 @@ export class Karaoke {
       if (placeChords(row, chords, settings)) line.classList.add('flow');
       const text = document.createElement('div');
       text.className = 'k-text';
-      text.textContent = row.instrumental ? '♪' : row.text;
+      if (row.instrumental || !row.words?.length) text.textContent = row.instrumental ? '♪' : row.text;
+      else {
+        row.words.forEach((w, k) => {
+          const sp = document.createElement('span');
+          sp.className = 'kw';
+          sp.textContent = w.w;
+          text.append(sp);
+          if (k < row.words.length - 1) text.append(' ');
+        });
+      }
       line.append(chords, text);
       const loop = document.createElement('button');
       loop.className = 'k-loop';
@@ -71,7 +81,7 @@ export class Karaoke {
     const i = rowIndexAt(this.rows, t);
     if (i !== this.cur) {
       this.rowEls[this.cur]?.classList.remove('active');
-      this.rowEls[this.cur]?.style.removeProperty('--p');
+      this.rowEls[this.cur]?.querySelectorAll('.kw').forEach((w) => { w.classList.remove('on', 'now'); w.style.removeProperty('--wp'); });
       this.rowEls.forEach((el, k) => el.classList.toggle('past', k < i));
       const el = this.rowEls[i];
       el?.classList.add('active');
@@ -80,15 +90,23 @@ export class Karaoke {
     }
     const row = this.rows[i];
     const el = this.rowEls[i];
-    if (row && el) {
-      const p = Math.max(0, Math.min(1, (t - row.start) / Math.max(0.3, row.sing)));
-      el.style.setProperty('--p', `${(p * 100).toFixed(1)}%`);
+    if (row?.words?.length && el) {
+      // parola per parola: quelle cantate accese, quella in corso si riempie
+      const { i: wi, p } = wordAt(row.words, t);
+      if (wi !== this.curWord || el !== this.curWordRow) {
+        const spans = el.querySelectorAll('.kw');
+        spans.forEach((sp, k) => { sp.classList.toggle('on', k < wi); sp.classList.toggle('now', k === wi); if (k !== wi) sp.style.removeProperty('--wp'); });
+        this.curWord = wi;
+        this.curWordRow = el;
+        this.curSpan = spans[wi] ?? null;
+      }
+      this.curSpan?.style.setProperty('--wp', `${(p * 100).toFixed(1)}%`);
     }
   }
 }
 
 function buildRows(lines, tl, lyricsOffset) {
-  const src = lines.map((l) => ({ t: l.t + lyricsOffset, text: l.text }));
+  const src = lines.map((l) => ({ t: l.t + lyricsOffset, text: l.text, words: l.words?.map((w) => ({ w: w.w, t: w.t + lyricsOffset })) }));
   const rows = [];
   const end = Math.max(tl.end, src.at(-1)?.t ?? 0);
   const firstChord = tl.events[0]?.start ?? 0;
@@ -103,9 +121,10 @@ function buildRows(lines, tl, lyricsOffset) {
       return;
     }
     const lineEnd = gap > MAX_LINE_GAP ? l.t + Math.min(gap, 5) : next;
-    // Durata stimata del cantato (per l'effetto di riempimento): ~12 caratteri al secondo.
-    const sing = Math.min(lineEnd - l.t, 0.5 + l.text.length / 12);
-    rows.push({ start: l.t, end: lineEnd, text: l.text, sing });
+    // tempi parola per parola (esatti se il testo li ha, altrimenti stimati sulle sillabe)
+    const words = wordTimes(l.text, l.t, lineEnd, l.words);
+    const sing = words.length ? words.at(-1).t1 - l.t : lineEnd - l.t;
+    rows.push({ start: l.t, end: lineEnd, text: l.text, sing, words });
     if (gap > MAX_LINE_GAP) rows.push({ start: lineEnd, end: next, instrumental: true, text: '' });
   });
   for (const row of rows) {

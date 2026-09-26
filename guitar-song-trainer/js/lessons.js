@@ -306,7 +306,7 @@ export function buildLessonTimeline(ex, bpm = ex.bpm) {
       sections: [{ name: 'Conteggio', bars: ['%'] }, { name: 'Esercizio', bars: Array.from({ length: bars }, (_, i) => ex.chords[i % ex.chords.length]) }],
     };
     const tl = buildTimeline(song);
-    if (ex.type === 'arpeggio') tl.notes = buildArpeggio(tl, (n) => getShape(n));
+    if (ex.type === 'arpeggio') tl.notes = buildArpeggio(tl, (n) => getShape(n), ex.picking ?? 'pima');
     return tl;
   }
   // note singole

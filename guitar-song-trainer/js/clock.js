@@ -30,17 +30,20 @@ export function loadYouTubeApi(timeoutMs = 10000) {
 }
 
 export class YouTubeClock {
-  static async create(element, videoId, { onStateChange } = {}) {
+  // onError: errori che arrivano DOPO il caricamento (video non incorporabile, rimosso, ecc.)
+  static async create(element, videoId, { onStateChange, onError } = {}) {
     const YT = await loadYouTubeApi();
     return new Promise((resolve, reject) => {
       const timer = setTimeout(() => reject(new Error('Il video non si è caricato')), 15000);
       const clock = new YouTubeClock();
+      let ready = false;
       clock.player = new YT.Player(element, {
         videoId,
         playerVars: { playsinline: 1, rel: 0, modestbranding: 1, controls: 1 },
         events: {
           onReady: () => {
             clearTimeout(timer);
+            ready = true;
             resolve(clock);
           },
           onStateChange: (e) => {
@@ -50,7 +53,9 @@ export class YouTubeClock {
           },
           onError: (e) => {
             clearTimeout(timer);
-            reject(new Error('Errore del video YouTube (codice ' + e.data + ')'));
+            const err = new Error(youTubeErrorText(e.data));
+            err.code = e.data;
+            if (ready) onError?.(err); else reject(err);
           },
         },
       });
@@ -101,6 +106,97 @@ export class YouTubeClock {
   }
 
   destroy() { this.player?.destroy?.(); }
+}
+
+export function youTubeErrorText(code) {
+  if (code === 101 || code === 150) return 'Il proprietario del video non permette di guardarlo fuori da YouTube';
+  if (code === 153) return 'YouTube non accetta la pagina aperta così: avvia l\'app con avvia.bat / avvia.command (indirizzo http://localhost)';
+  if (code === 100) return 'Il video non esiste più';
+  if (code === 2) return 'Video non valido';
+  if (code === 5) return 'Il browser non riesce a riprodurre il video';
+  return `Errore del video YouTube (codice ${code})`;
+}
+
+// File audio scelto dall'utente (MP3, M4A…): velocità regolabile senza cambiare l'intonazione.
+export class AudioClock {
+  constructor(src, { onStateChange } = {}) {
+    this.kind = 'audio';
+    this.audio = new Audio();
+    this.audio.preload = 'auto';
+    this.audio.preservesPitch = true;
+    this.audio.mozPreservesPitch = true;
+    this.audio.webkitPreservesPitch = true;
+    this.audio.src = src;
+    this._anchor = null;
+    this.audio.addEventListener('play', () => onStateChange?.(true));
+    this.audio.addEventListener('pause', () => onStateChange?.(false));
+    this.audio.addEventListener('ended', () => onStateChange?.(false));
+  }
+
+  static load(src, opts) {
+    const c = new AudioClock(src, opts);
+    return new Promise((resolve, reject) => {
+      c.audio.addEventListener('loadedmetadata', () => resolve(c), { once: true });
+      c.audio.addEventListener('error', () => reject(new Error('File audio non leggibile')), { once: true });
+    });
+  }
+
+  get playing() { return !this.audio.paused && !this.audio.ended; }
+  play() { this.audio.play().catch(() => {}); }
+  pause() { this.audio.pause(); }
+  toggle() { this.playing ? this.pause() : this.play(); }
+  seek(t) { this.audio.currentTime = Math.max(0, Math.min(t, this.duration() || t)); this._anchor = null; }
+  setRate(r) { this.audio.playbackRate = r; this._anchor = null; }
+  getRate() { return this.audio.playbackRate; }
+  rates() { return [0.25, 0.4, 0.5, 0.6, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95, 1, 1.1, 1.25]; }
+  duration() { return Number.isFinite(this.audio.duration) ? this.audio.duration : 0; }
+
+  // currentTime si aggiorna a scatti: si interpola come per YouTube
+  getTime() {
+    const a = this.audio.currentTime;
+    const now = performance.now();
+    if (!this.playing) { this._anchor = { a, now }; return a; }
+    if (!this._anchor || a !== this._anchor.last) {
+      const pred = this._anchor ? this._anchor.a + ((now - this._anchor.now) / 1000) * this.getRate() : a;
+      this._anchor = { a: Math.abs(pred - a) < 0.08 ? pred : a, now, last: a };
+    }
+    return this._anchor.a + ((now - this._anchor.now) / 1000) * this.getRate();
+  }
+
+  destroy() { this.audio.pause(); this.audio.removeAttribute('src'); this.audio.load(); }
+}
+
+/**
+ * Orologio che può cambiare sorgente mentre si suona (interno → YouTube → file audio) senza perdere
+ * posizione, velocità e stato di riproduzione. Così la schermata è subito utilizzabile.
+ */
+export class SwitchClock {
+  constructor(inner) { this.inner = inner; }
+  get kind() { return this.inner.kind; }
+  get playing() { return this.inner.playing; }
+  use(next) {
+    const prev = this.inner;
+    const t = prev.getTime();
+    const rate = prev.getRate();
+    const wasPlaying = prev.playing;
+    prev.pause?.();
+    this.inner = next;
+    const nearest = [...next.rates()].sort((a, b) => Math.abs(a - rate) - Math.abs(b - rate))[0] ?? 1;
+    next.setRate(nearest);
+    next.seek(t);
+    if (wasPlaying) next.play();
+    if (prev !== next) prev.destroy?.();
+  }
+  play() { this.inner.play(); }
+  pause() { this.inner.pause(); }
+  toggle() { this.inner.toggle(); }
+  seek(t) { this.inner.seek(t); }
+  setRate(r) { this.inner.setRate(r); }
+  getRate() { return this.inner.getRate(); }
+  rates() { return this.inner.rates(); }
+  duration() { return this.inner.duration(); }
+  getTime() { return this.inner.getTime(); }
+  destroy() { this.inner.destroy(); }
 }
 
 export class FreeClock {

@@ -17,7 +17,15 @@ Funziona nel browser di **PC, tablet e telefono Android** e si può installare c
   click del metronomo opzionale.
 - **Video YouTube sincronizzato** sotto il manico: pausa, ±5 s, **velocità** (25%–200%),
   **loop A-B** oppure loop di una sezione/frase con un tocco su ⟲.
-- **Testo karaoke sincronizzato**: la riga cantata si illumina man mano, con gli accordi sopra le parole
+- **Il tuo file audio al posto del video** (⋯ → Audio): MP3/M4A del brano, allineato da solo agli accordi ascoltando
+  la musica; rallenti senza cambiare intonazione. Il file resta solo sul dispositivo. Se il video YouTube è bloccato
+  l'app lo dice subito e resta utilizzabile (niente attese all'avvio).
+- **Parte vera da file MIDI** (Parte → Carica un file MIDI): le note esatte della chitarra del brano (esportate da
+  Guitar Pro, TuxGuitar, MuseScore…) si agganciano da sole alle battute e ne seguono il tempo; la Base le suona
+  con la loro durata e intensità.
+- **Pennate diverse per ogni brano e sezione** (strofa più leggera, ritornello più pieno), trascritte da Ultimate Guitar
+  quando ci sono; palm muting, stoppate, solo basso; stili di arpeggio (Travis, p-i-m-a, valzer, pinch…).
+- **Testo karaoke parola per parola**: le parole si colorano mentre vengono cantate; la riga cantata si illumina man mano, con gli accordi sopra le parole
   nel punto in cui cambiano. Il testo viene scaricato al momento da [LRCLIB](https://lrclib.net)
   (archivio pubblico di testi sincronizzati) e **non è incluso nel repository**.
 - **Scheda Accordi**: griglia delle battute (`%` = l'accordo prosegue), un tocco per saltare lì.
@@ -61,7 +69,7 @@ Funziona nel browser di **PC, tablet e telefono Android** e si può installare c
   indicatore di livello e ascolto della chitarra in cuffia (*Impostazioni → Ingresso audio*).
 - **Editor dei brani**: crea o modifica un brano dall'app (accordi scritti come testo, tap tempo,
   ricerca del testo su LRCLIB), provalo subito ed esporta il JSON. I brani creati hanno il badge *Tuo*.
-- **Libreria di 614 brani di 217 artisti** (pop, rock, cantautori, indie, rap adattato, classici stranieri) con ricerca e schede *Tutti / Preferiti / Recenti / Artisti / Generi / Difficoltà*.
+- **Libreria di 613 brani di oltre 200 artisti** (pop, rock, cantautori, indie, rap adattato, classici stranieri) con ricerca e schede *Tutti / Preferiti / Recenti / Artisti / Generi / Difficoltà*.
 - **Sincronia**: correzione fine ±0,05 s e modalità **🎯 Registra tempi** (tocchi TAP a ogni cambio
   accordo mentre il video suona: i tempi vengono salvati e si possono esportare in JSON).
 - **Il tuo testo**: da *Sincronia → Incolla il tuo testo* puoi usare un testo tuo, anche in formato LRC;
@@ -184,7 +192,11 @@ tests/                test unitari (node --test) ed end-to-end (Playwright)
 js/icons.js           icone SVG
 js/timeline.js        da sezioni/battute a tempi assoluti
 js/music.js           note, parsing accordi, diteggiature
-js/clock.js           sincronizzazione con YouTube (IFrame API) o clock interno
+js/clock.js           YouTube (IFrame API), file audio (AudioClock), clock interno; SwitchClock li scambia al volo
+js/audiofiles.js      file audio e MIDI dell'utente (IndexedDB)
+js/audioanalysis.js   cromagramma di un file audio e allineamento alla griglia
+js/midi.js            lettura dei file MIDI, aggancio alle battute, diteggiatura
+js/wordtiming.js      tempi delle singole parole per il karaoke
 songs/                libreria dei brani (JSON)
 sw.js, manifest.webmanifest, icons/   PWA
 ```

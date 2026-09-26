@@ -10,6 +10,7 @@ export const ARRANGEMENTS = [
   { id: 'arpeggio', label: 'Arpeggio', desc: 'Le note dell\'accordo una alla volta: basso e corde acute, a crome.' },
   { id: 'power', label: 'Power chord', desc: 'Fondamentale e quinta sulle corde gravi: suono rock, due dita.' },
   { id: 'easy', label: 'Facile', desc: 'Accordi semplificati, senza settime e con forme ridotte al posto del barrè.' },
+  { id: 'midi', label: 'Parte vera (MIDI)', desc: 'Le note esatte della chitarra del brano, da un file MIDI: si agganciano da sole alle battute.' },
 ];
 
 // "Ebmaj7" → "Eb", "Gm7" → "Gm", "D7sus4" → "D", "Gm/F" → "Gm", "Dm7b5" → "Dm"
@@ -37,23 +38,39 @@ export function easyShape(shape) {
   return { frets, fingers, barres: (shape.barres || []).map((b) => ({ ...b, from: Math.max(2, b.from) })).filter((b) => b.to - b.from >= 1) };
 }
 
-// Ordine delle corde per l'arpeggio: basso (corda più grave suonata) poi le corde acute a salire e scendere.
-const PATTERNS = {
-  4: [0, 2, 3, 4, 5, 4, 3, 2], // 8 crome
-  3: [0, 2, 3, 4, 3, 2], // 6 crome
-  6: [0, 2, 3, 4, 3, 2],
-  2: [0, 2, 3, 4],
+// Stili di arpeggio, dita della mano destra: p pollice (basso), q pollice sul basso alternato,
+// i indice, m medio, a anulare (le tre corde acute suonate dell'accordo, a = la più acuta).
+export const PICKINGS = {
+  broken: { label: 'Arpeggio classico', 4: 'p i m a m i m a', 3: 'p i m a m i', 2: 'p i m a' },
+  travis: { label: 'Travis (fingerpicking folk)', 4: 'p m q i p m q i', 3: 'p m q i p m', 2: 'p m q i' },
+  pima: { label: 'Ballata p-i-m-a', 4: 'p i m a p i m a', 3: 'p i m a m i', 2: 'p i m a' },
+  waltz: { label: 'Valzer', 4: 'p i m a m i m a', 3: 'p i m i a i', 2: 'p i m i' },
+  pinch: { label: 'Basso e pizzico', 4: 'p a i m q a i m', 3: 'p a i m i a', 2: 'p a q a' },
 };
 
+// Stile adatto al brano: campo "picking" del brano, altrimenti dal genere, dal metro e dal tempo.
+export function pickingFor(song) {
+  if (song?.picking && PICKINGS[song.picking]) return song.picking;
+  const g = `${song?.genre ?? ''}`.toLowerCase();
+  const bpb = song?.timeSignature?.[0] ?? 4;
+  if (bpb === 3 || bpb === 6) return 'waltz';
+  if (/folk|country|cantautor/.test(g)) return 'travis';
+  if ((song?.bpm ?? 100) < 80) return 'pima';
+  if (/rock|metal|punk/.test(g)) return 'pinch';
+  return 'broken';
+}
+
 /**
- * Note dell'arpeggio per ogni battuta.
+ * Note dell'arpeggio per ogni battuta, nello stile scelto.
  * @param tl        timeline (con ev.name = nome della forma da suonare)
  * @param shapeOf   funzione nome → diteggiatura (frets relativi al capotasto)
- * @returns [{ t, dur, string, fret, ev }]
+ * @param picking   stile (vedi PICKINGS)
+ * @returns [{ t, dur, string, fret, ev, finger }]
  */
-export function buildArpeggio(tl, shapeOf) {
+export function buildArpeggio(tl, shapeOf, picking = 'broken') {
   const notes = [];
-  const pat = PATTERNS[tl.bpb] ?? PATTERNS[4];
+  const style = PICKINGS[picking] ?? PICKINGS.broken;
+  const pat = (style[tl.bpb] ?? style[4]).split(' ');
   for (const bar of tl.bars) {
     const step = (bar.end - bar.start) / pat.length;
     for (let k = 0; k < pat.length; k++) {
@@ -65,12 +82,13 @@ export function buildArpeggio(tl, shapeOf) {
       if (!shape) continue;
       const played = shape.frets.map((f, s) => (f === null ? null : s)).filter((s) => s !== null);
       if (!played.length) continue;
-      // posizione 0 = basso; le altre scelgono fra le corde acute suonate
-      const upper = played.slice(1);
-      let s;
-      if (pat[k] === 0 || !upper.length) s = played[0];
-      else s = upper[Math.min(upper.length - 1, pat[k] - 2 + Math.max(0, upper.length - 4))];
-      notes.push({ t, dur: step, string: s, fret: shape.frets[s], ev: evIdx });
+      const bass = played[0];
+      const alt = played.find((s) => s > bass && s <= 3 && s !== bass) ?? played[Math.min(1, played.length - 1)];
+      const treble = played.filter((s) => s >= 2).slice(-3); // i m a
+      const pickT = (n) => treble[Math.max(0, treble.length - n)] ?? played.at(-1);
+      const s = { p: bass, q: alt, i: pickT(3), m: pickT(2), a: pickT(1) }[pat[k]];
+      if (s == null) continue;
+      notes.push({ t, dur: step, string: s, fret: shape.frets[s], ev: evIdx, finger: pat[k] });
     }
   }
   return notes;

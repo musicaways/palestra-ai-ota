@@ -2,6 +2,7 @@
 // viene scaricato al momento da LRCLIB (https://lrclib.net), archivio pubblico e gratuito,
 // oppure incollato dall'utente. Resta solo nella cache locale del dispositivo.
 import { store } from './store.js';
+import { parseEnhanced } from './wordtiming.js';
 
 const API = 'https://lrclib.net/api';
 
@@ -13,15 +14,18 @@ export function parseLrc(text) {
     if (off) { offsetMs = Number(off[1]); continue; }
     const tags = [...raw.matchAll(/\[(\d+):(\d+(?:[.:]\d+)?)\]/g)];
     if (!tags.length) continue;
-    const content = raw.replace(/\[[^\]]*\]/g, '').trim();
+    const body = raw.replace(/\[[^\]]*\]/g, '');
+    // formato "esteso": tempi per parola <mm:ss.xx>parola
+    const words = parseEnhanced(body);
+    const content = body.replace(/<\d+:\d+(?:\.\d+)?>/g, '').replace(/\s+/g, ' ').trim();
     for (const m of tags) {
       const t = Number(m[1]) * 60 + Number(m[2].replace(':', '.'));
-      lines.push({ t, text: content });
+      lines.push(words.length && tags.length === 1 ? { t, text: content, words } : { t, text: content });
     }
   }
   lines.sort((a, b) => a.t - b.t);
   // Nel formato LRC un offset positivo anticipa il testo.
-  if (offsetMs) lines.forEach((l) => { l.t -= offsetMs / 1000; });
+  if (offsetMs) lines.forEach((l) => { l.t -= offsetMs / 1000; l.words?.forEach((w) => { w.t -= offsetMs / 1000; }); });
   return lines;
 }
 

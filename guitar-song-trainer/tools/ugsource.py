@@ -1,15 +1,21 @@
 # Seconda fonte di accordi: Ultimate Guitar (pagine "Chords"). Restituisce la stessa struttura di
 # parse_chord_page di autosong: [('c', [accordi]) | ('l', riga normalizzata) | ('h', intestazione)].
 # Il testo serve solo in memoria per l'allineamento con LRCLIB: non viene stampato né salvato.
-import html, json, re, urllib.parse, urllib.request, unicodedata
+import html, json, re, time, urllib.error, urllib.parse, urllib.request, unicodedata
 
 UA = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36'}
 
 
-def _get(url):
-    req = urllib.request.Request(url, headers=UA)
-    with urllib.request.urlopen(req, timeout=25) as r:
-        return r.read().decode('utf-8', 'ignore')
+def _get(url, tries=5):
+    # il sito limita le richieste (429): si aspetta sempre di più e si riprova
+    for k in range(tries):
+        try:
+            req = urllib.request.Request(url, headers=UA)
+            with urllib.request.urlopen(req, timeout=25) as r:
+                return r.read().decode('utf-8', 'ignore')
+        except urllib.error.HTTPError as e:
+            if e.code != 429 or k == tries - 1: raise
+            time.sleep(int(e.headers.get('Retry-After') or 0) or 15 * (k + 1))
 
 
 def _store(page):

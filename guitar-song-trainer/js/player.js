@@ -1,12 +1,17 @@
 // Schermata di studio di un brano: palco con manico 3D, video, trasporto, testo karaoke.
-import { YouTubeClock, FreeClock } from './clock.js';
+import { YouTubeClock, FreeClock, AudioClock, SwitchClock } from './clock.js';
+import { saveAudio, getAudio, removeAudio, saveMidi, getMidi, removeMidi } from './audiofiles.js';
+import { parseMidi, guessGuitarTrack, fingerNotes, alignMidi, placeMidi, programName } from './midi.js';
+import { youtubeId as parseYouTubeId } from './songtext.js';
+import { wordTimes, wordAt } from './wordtiming.js';
+import { chromaFrames, alignToAudio, decodeToMono } from './audioanalysis.js';
 import { buildTimeline, eventIndexAt, beatAt } from './timeline.js';
 import { Fretboard } from './fretboard.js';
 import { Sheet } from './sheet.js';
 import { Karaoke } from './karaoke.js';
 import { loadSyncedLyrics, looksLikeLrc, clearLyricsCache } from './lyrics.js';
 import { displayChord, chordColor, shapeNameWithCapo, suggestCapo, transposeChord, suggestTranspose } from './music.js';
-import { ARRANGEMENTS, arrangeName, buildArpeggio, shapeForArrangement } from './arrangement.js';
+import { ARRANGEMENTS, arrangeName, buildArpeggio, shapeForArrangement, pickingFor, PICKINGS } from './arrangement.js';
 import { click, WakeLock, strumChord, pluck } from './audio.js';
 import { addPractice, recordRate, recordAccuracy, getStats } from './stats.js';
 import { Listener, matchChord } from './detect.js';
@@ -25,6 +30,7 @@ const fmt = (t) => {
   if (!isFinite(t) || t < 0) t = 0;
   return `${Math.floor(t / 60)}:${String(Math.floor(t % 60)).padStart(2, '0')}`;
 };
+const esc = (x) => String(x ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const signed = (x) => `${x >= 0 ? '+' : '−'}${Math.abs(x).toFixed(2)} s`;
 
 export async function openPlayer(root, song, { setlist: setlistId = null, songInfo = () => null } = {}) {
@@ -59,6 +65,7 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
     ...store.get(key('prefs'), {}),
   };
   const savePrefs = () => store.set(key('prefs'), prefs);
+  let midi = null; // { name, tracks, bpm } parte MIDI caricata dall'utente
   let study = { on: false, learned: [], ...store.get(key('study'), {}) }; // studio guidato sezione per sezione
   study.on = false;
   let ampIn = null; // chitarra che passa dall'amplificatore simulato
@@ -153,6 +160,7 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
             <button class="tool" data-act="countin" title="Una battuta di conteggio prima di partire">${icon('count', 18)}<span>Conteggio</span></button>
             <button class="tool" data-act="capo" title="Tonalità e capotasto: trasponi o usa forme più facili">${icon('capo', 18)}<span class="capo-label">Tonalità</span></button>
             <button class="tool" data-act="part" title="Parte di chitarra: ritmica, arpeggio, power chord, facile">${icon('guitar', 18)}<span class="part-label">Ritmica</span></button>
+            <button class="tool" data-act="source" title="Sorgente audio: video YouTube, un altro video o un tuo file audio">${icon('mic', 18)}<span>Audio</span></button>
             <button class="tool" data-act="setlist" title="Aggiungi il brano a una scaletta">${icon('grid', 18)}<span>Scaletta</span></button>
             <button class="tool" data-act="backing" title="Base: la chitarra sintetica suona gli accordi con la pennata del brano">${icon('guitar', 18)}<span>Base</span></button>
             <button class="tool" data-act="study" title="Studio guidato: sezione per sezione, dal lento al veloce">${icon('study', 18)}<span>Studio</span></button>
@@ -220,6 +228,7 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
         <div class="sync-auto">
           <button type="button" class="chip-btn primary" data-sync="tap">${icon('target', 16)} Tocca quando inizia a cantare</button>
           <button type="button" class="chip-btn" data-sync="listen">${icon('mic', 16)} Allinea ascoltando il video</button>
+          <button type="button" class="chip-btn primary" data-sync="audiofile" hidden>${icon('target', 16)} Allinea al file audio (automatico)</button>
           <button type="button" class="chip-btn" data-sync="fix" hidden>Correggi automaticamente</button>
         </div>
         <div class="sync-line">
@@ -278,6 +287,8 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
       <p class="hint">Più modi di suonare lo stesso brano, ricavati dai suoi accordi. Non sono trascrizioni dei riff originali:
       sono arrangiamenti per studiare il brano a livelli diversi.</p>
       <div class="option-list part-list"></div>
+      <div class="part-style"></div>
+      <div class="part-midi"></div>
       <menu><button value="ok" class="chip-btn primary">Fatto</button></menu></form></dialog>
 
     <dialog class="dlg dlg-view"><form method="dialog"><h3>Vista</h3>
@@ -340,6 +351,15 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
       <div class="score-rec" hidden>Nuovo record personale!</div>
       <menu><button type="button" class="chip-btn" data-score="again">${icon('loop', 16)} Riprova</button><button value="ok" class="chip-btn primary">Chiudi</button></menu></form></dialog>
 
+    <dialog class="dlg dlg-source"><form method="dialog"><h3>Sorgente audio</h3>
+      <p class="hint">Da dove arriva la musica mentre suoni. Con un tuo file audio (MP3, M4A…) la sincronia si calcola
+      ascoltando proprio quel file, e puoi rallentare senza cambiare l'intonazione. Il file resta solo su questo dispositivo.</p>
+      <div class="option-list src-list"></div>
+      <label class="src-file-line chip-btn primary">${icon('mic', 16)} Scegli un file audio…<input type="file" accept="audio/*" class="src-file" hidden></label>
+      <div class="tr-actions"><input class="sl-new src-link" placeholder="Incolla il link di un altro video YouTube"><button type="button" class="chip-btn" data-src="link">Usa questo video</button></div>
+      <p class="hint src-status"></p>
+      <menu><button value="ok" class="chip-btn primary">Fatto</button></menu></form></dialog>
+
     <dialog class="dlg dlg-help"><form method="dialog"><h3>Guida rapida</h3>
       <ol class="help-list">
         <li><b>Accorda</b> la chitarra con l'<b>Accordatore</b> (col microfono o col cavo Rocksmith).</li>
@@ -394,7 +414,6 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
   // ---------- Palco, testo e griglia ----------
   const fretboard = new Fretboard($('.fretboard'));
   fretboard.customShapes = song.shapes ?? null;
-  fretboard.onNote = (n) => { if (prefs.backing && clock?.playing) pluck(n.string, n.fret > 0 ? n.fret + capo : 0, 0.3); };
   const handlers = { onSeek: (t) => seek(t), onLoop: (a, b, label) => setLoop(a, b, label) };
   const sheet = new Sheet(chordsBody, handlers);
   const karaoke = new Karaoke(lyricsBody, handlers);
@@ -445,11 +464,13 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
       ev.sounding = playedName(ev.name);
       ev.name = capo ? shapeNameWithCapo(ev.sounding, capo) : ev.sounding;
     });
+    if (prefs.strum) { tl.strum = prefs.strum; tl.bars.forEach((b) => { b.strum = prefs.strum; }); }
     fretboard.capo = capo;
     fretboard.arrangement = prefs.arrangement;
     fretboard.customShapes = customShapes();
     fretboard.lastNote = -1;
-    if (prefs.arrangement === 'arpeggio') tl.notes = buildArpeggio(tl, (n) => shapeForArrangement(n, 'rhythm', customShapes()));
+    if (prefs.arrangement === 'midi' && midi) tl.notes = midiNotes();
+    if (prefs.arrangement === 'arpeggio') tl.notes = buildArpeggio(tl, (n) => shapeForArrangement(n, 'rhythm', customShapes()), prefs.picking ?? pickingFor(song));
     const tags = [];
     if (prefs.transpose) tags.push(`${prefs.transpose > 0 ? '+' : '−'}${Math.abs(prefs.transpose)} st`);
     if (capo) tags.push(`capo ${capo}`);
@@ -470,13 +491,21 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
       d.className = 'beat' + (i === 0 ? ' downbeat' : '');
       return d;
     }));
-    strumEl.replaceChildren();
-    for (const ch of (tl.strum ?? '').replace(/\s+/g, '')) {
+    paintStrumSlots(tl.notes ? '' : tl.strum ?? '');
+  }
+
+  // Pattern della pennata nell'HUD: cambia con la sezione (strofa, ritornello…)
+  let hudPattern = null;
+  function paintStrumSlots(pattern) {
+    const pat = (pattern ?? '').replace(/\s+/g, '');
+    if (pat === hudPattern) return;
+    hudPattern = pat;
+    strumEl.replaceChildren(...[...pat].map((ch) => {
       const s = document.createElement('span');
-      s.className = 'strum-slot';
-      s.textContent = ch === 'D' ? '↓' : ch === 'U' ? '↑' : ch === 'X' ? '✕' : '·';
-      strumEl.append(s);
-    }
+      s.className = 'strum-slot' + (pat.length > 8 ? ' fine' : '');
+      s.textContent = { D: '↓', U: '↑', X: '✕', P: '⇣', B: '●' }[ch] ?? '·';
+      return s;
+    }));
   }
 
   async function loadLyrics() {
@@ -495,23 +524,61 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
   };
   rebuild();
   loadLyrics();
-  try {
-    if (!song.youtubeId) throw new Error('Nessun video associato al brano');
-    clock = await YouTubeClock.create($('.video'), song.youtubeId, { onStateChange: onState });
-  } catch (err) {
-    if (destroyed) return () => {};
-    clock = new FreeClock(Math.max(tl.end, 150) + 4, { onStateChange: onState });
+  // Si parte subito con l'orologio interno: la schermata è utilizzabile da subito; la sorgente audio
+  // (file dell'utente o video YouTube) si aggancia appena è pronta, senza perdere posizione e velocità.
+  const freeClock = () => new FreeClock(Math.max(tl.end, 150) + 4, { onStateChange: onState });
+  clock = new SwitchClock(freeClock());
+  function showVideoMsg(text, { actions = true } = {}) {
     videoMsg.hidden = false;
-    videoMsg.innerHTML = `<div>${icon('guitar', 40)}</div><p></p>`;
-    videoMsg.querySelector('p').textContent = `${err.message}. Puoi comunque esercitarti: accordi, testo e metronomo funzionano anche senza video.`;
-    $('.video').remove();
+    videoMsg.innerHTML = `<div>${icon('guitar', 36)}</div><p></p>${actions ? `<div class="tr-actions vm-actions">
+      <button type="button" class="chip-btn primary" data-act="source">${icon('mic', 14)} Scegli la sorgente audio</button></div>` : ''}`;
+    videoMsg.querySelector('p').textContent = text;
   }
-  if (destroyed) { clock.destroy(); return () => {}; }
+  function videoFailed(err) {
+    if (destroyed) return;
+    if (clock.kind === 'youtube') clock.use(freeClock());
+    $('.video')?.replaceChildren();
+    showVideoMsg(`${err.message}. Puoi usare un tuo file audio o un altro video; intanto accordi, testo, metronomo e Base funzionano.`);
+  }
+  let sourceToken = 0;
+  async function attachSource() {
+    const token = ++sourceToken;
+    const own = prefs.source !== 'youtube' ? await getAudio(song.id) : null;
+    if (destroyed || token !== sourceToken) return;
+    if (own?.blob && prefs.source !== 'none') {
+      try {
+        const a = await AudioClock.load(URL.createObjectURL(own.blob), { onStateChange: onState });
+        if (destroyed || token !== sourceToken) { a.destroy(); return; }
+        clock.use(a);
+        $('.video')?.replaceChildren();
+        showVideoMsg(`Audio: ${own.name}`, { actions: false });
+        videoMsg.classList.add('audio-mode');
+        return;
+      } catch (err) { showVideoMsg(err.message); }
+    }
+    const vid = prefs.youtubeId || song.youtubeId;
+    if (prefs.source === 'none' || !vid) { showVideoMsg(vid ? 'Senza audio: metronomo e Base' : 'Nessun video associato al brano'); return; }
+    let box = $('.video');
+    if (!box) { box = document.createElement('div'); box.className = 'video'; $('.video-wrap').prepend(box); }
+    const target = document.createElement('div');
+    box.replaceChildren(target);
+    videoMsg.classList.remove('audio-mode');
+    showVideoMsg('Caricamento del video…', { actions: false });
+    try {
+      const yt = await YouTubeClock.create(target, vid, { onStateChange: onState, onError: videoFailed });
+      if (destroyed || token !== sourceToken) { yt.destroy(); return; }
+      clock.use(yt);
+      videoMsg.hidden = true;
+    } catch (err) {
+      if (token === sourceToken) videoFailed(err);
+    }
+  }
+  attachSource();
 
   const speedBox = $('.speed-pills');
-  // poche velocità a portata di dito; con − e + si passa a quelle intermedie disponibili
-  const allRates = [...new Set(clock.rates())].filter((r) => r >= 0.25 && r <= 1.5).sort((x, y) => x - y);
-  const rates = [0.5, 0.75, 1, 1.25].filter((r) => allRates.some((x) => Math.abs(x - r) < 0.001));
+  // poche velocità a portata di dito; con − e + si passa a quelle intermedie della sorgente attuale
+  const allRates = () => [...new Set(clock.rates())].filter((r) => r >= 0.25 && r <= 1.5).sort((x, y) => x - y);
+  const rates = [0.5, 0.75, 1, 1.25];
   const fmtRate = (r) => `${String(Math.round(r * 100) / 100).replace('.', ',')}×`;
   function paintSpeed() {
     if (destroyed) return; // può arrivare da un timer dopo l'uscita dal brano
@@ -538,10 +605,11 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
   root.querySelectorAll('[data-speedstep]').forEach((b) => b.addEventListener('click', () => {
     const cur = clock.getRate();
     const dir = Number(b.dataset.speedstep);
-    const next = dir > 0 ? allRates.find((r) => r > cur + 0.001) : [...allRates].reverse().find((r) => r < cur - 0.001);
+    const list = allRates();
+    const next = dir > 0 ? list.find((r) => r > cur + 0.001) : [...list].reverse().find((r) => r < cur - 0.001);
     if (next) { setSpeed(next, false); toast(`Velocità ${fmtRate(next)}`); }
   }));
-  if (prefs.rate !== 1 && allRates.includes(prefs.rate)) clock.setRate(prefs.rate);
+  if (prefs.rate !== 1 && allRates().includes(prefs.rate)) clock.setRate(prefs.rate);
   setTimeout(paintSpeed, 150);
   paintSpeed();
   drawScrubSections();
@@ -732,7 +800,7 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
   }
 
   function sortedRates() {
-    return [...new Set(clock.rates())].filter((r) => r >= 0.5 && r <= 1).sort((a, b) => a - b);
+    return allRates().filter((r) => r >= 0.5 && r <= 1);
   }
 
   function onLoopWrap() {
@@ -855,14 +923,138 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
     dlg.showModal();
   }
 
+  const STRUM_PRESETS = [
+    { id: null, label: 'Del brano', p: null },
+    { id: 'ballata', label: 'Ballata', p: 'D---D-DU' },
+    { id: 'pop', label: 'Pop', p: 'D-DU-UDU' },
+    { id: 'rock', label: 'Rock (crome)', p: 'DDDDDDDD' },
+    { id: 'palm', label: 'Palm muting', p: 'PPPPPPPP' },
+    { id: 'reggae', label: 'Levare', p: '--X---X-' },
+    { id: 'funk', label: 'Stoppate', p: 'D-XUD-XU' },
+    { id: 'lenta', label: 'Una per battito', p: 'D-D-D-D-' },
+  ];
+  // ---------- Parte vera da file MIDI ----------
+  function midiTrackIndex() {
+    const i = prefs.midi?.track;
+    return midi && i != null && midi.tracks[i] ? i : midi ? guessGuitarTrack(midi.tracks) : -1;
+  }
+  function midiNotes() {
+    const trk = midi.tracks[midiTrackIndex()];
+    if (!trk) return null;
+    const placed = placeMidi(trk.notes, tl, { shift: prefs.midi?.shift ?? 0, scale: prefs.midi?.scale ?? 1, transpose: prefs.transpose });
+    const notes = fingerNotes(placed, { capo });
+    return notes.length ? notes : null;
+  }
+  // Aggancio automatico: tutte le tracce insieme danno l'armonia, confrontata con gli accordi della griglia.
+  function autoAlignMidi(announce) {
+    if (!midi) return;
+    const all = midi.tracks.flatMap((x) => x.notes);
+    const r = alignMidi(all, tl, { transpose: prefs.transpose });
+    prefs.midi = { ...prefs.midi, shift: r.shift, scale: r.scale, score: r.score, confidence: r.confidence };
+    savePrefs();
+    rebuild();
+    lastIdx = -2;
+    if (announce) toast(r.confidence >= 0.4 ? `Parte agganciata alle battute (affidabilità ${Math.round(r.confidence * 100)}%)` : 'Aggancio incerto: controlla con ◀ ▶ nella finestra Parte');
+  }
+  async function loadMidiFile(file) {
+    try {
+      const parsed = parseMidi(await file.arrayBuffer());
+      if (!parsed.tracks.length) throw new Error('nessuna nota');
+      await saveMidi(song.id, file);
+      midi = { name: file.name, ...parsed };
+      prefs.midi = { track: guessGuitarTrack(parsed.tracks) };
+      prefs.arrangement = 'midi';
+      autoAlignMidi(true);
+    } catch (err) {
+      toast(`File MIDI non leggibile: ${err.message}`);
+    }
+  }
+  function paintMidiBlock(box) {
+    if (!midi) {
+      box.innerHTML = `<div class="dlg-sub">Parte vera del brano</div>
+        <p class="hint">Per imparare il brano nota per nota carica un file MIDI con la chitarra (per esempio esportato da Guitar Pro,
+        TuxGuitar, MuseScore o Songsterr). Le note si agganciano da sole alle battute del brano e ne seguono il tempo.</p>
+        <label class="chip-btn primary">${icon('guitar', 16)} Carica un file MIDI…<input type="file" accept=".mid,.midi,audio/midi,audio/x-midi" class="midi-file" hidden></label>`;
+      return;
+    }
+    const cur = midiTrackIndex();
+    const m = prefs.midi ?? {};
+    const sh = m.shift ?? 0;
+    const at = `battuta ${Math.floor(sh / tl.bpb) + 1}${((sh % tl.bpb) + tl.bpb) % tl.bpb ? `, battito ${(((sh % tl.bpb) + tl.bpb) % tl.bpb) + 1}` : ''}`;
+    box.innerHTML = `<div class="dlg-sub">Parte vera: ${esc(midi.name)}</div>
+      <label class="field">Traccia <select class="midi-track">${midi.tracks.map((t, i) =>
+        `<option value="${i}"${i === cur ? ' selected' : ''}>${esc(t.name || `Traccia ${i + 1}`)} · ${esc(programName(t.program))} · ${t.notes.length} note</option>`).join('')}</select></label>
+      <p class="hint midi-info">Il file inizia alla ${at}${m.scale && m.scale !== 1 ? ` (tempo ${m.scale > 1 ? 'dimezzato' : 'doppio'} nel file)` : ''}${m.confidence != null ? ` · aggancio ${Math.round(m.confidence * 100)}%` : ''}.</p>
+      <div class="cd-row"><button type="button" class="seg" data-midi="earlier" title="Un battito prima">◀ battito</button>
+        <button type="button" class="seg" data-midi="later" title="Un battito dopo">battito ▶</button>
+        <button type="button" class="seg" data-midi="align">Aggancia di nuovo</button>
+        <button type="button" class="seg" data-midi="remove">Rimuovi</button>
+        <label class="seg">Altro file…<input type="file" accept=".mid,.midi,audio/midi,audio/x-midi" class="midi-file" hidden></label></div>`;
+  }
+  getMidi(song.id).then(async (rec) => {
+    if (!rec?.blob || destroyed) return;
+    try {
+      midi = { name: rec.name, ...parseMidi(await rec.blob.arrayBuffer()) };
+      if (prefs.arrangement === 'midi') { rebuild(); lastIdx = -2; }
+    } catch { /* file rovinato: si ignora */ }
+  });
+
   function openPart() {
     const dlg = $('.dlg-part');
     const paint = () => {
-      dlg.querySelector('.part-list').innerHTML = ARRANGEMENTS.map((a) =>
+      dlg.querySelector('.part-list').innerHTML = ARRANGEMENTS.filter((a) => a.id !== 'midi' || midi).map((a) =>
         `<button type="button" class="option${a.id === prefs.arrangement ? ' active' : ''}" data-part="${a.id}"><b>${a.label}</b><span>${a.desc}</span></button>`).join('');
+      // stile: dita per l'arpeggio, pennata per le altre parti
+      const style = dlg.querySelector('.part-style');
+      paintMidiBlock(dlg.querySelector('.part-midi'));
+      if (prefs.arrangement === 'midi') {
+        style.innerHTML = '';
+      } else if (prefs.arrangement === 'arpeggio') {
+        const cur = prefs.picking ?? pickingFor(song);
+        style.innerHTML = `<div class="dlg-sub">Stile dell'arpeggio</div><div class="cd-row">${Object.entries(PICKINGS).map(([id, p]) =>
+          `<button type="button" class="seg${id === cur ? ' active' : ''}" data-pick="${id}">${p.label}</button>`).join('')}</div>`;
+      } else {
+        const src = song.strumSource === 'ultimate-guitar' ? 'trascritta per questo brano' : 'stimata dal tempo e dal genere';
+        style.innerHTML = `<div class="dlg-sub">Pennata</div><p class="hint">Del brano: ${src}${tl.bars.some((b) => b.strum && b.strum !== tl.strum) ? ', cambia fra strofa e ritornello' : ''}.</p>
+          <div class="cd-row">${STRUM_PRESETS.map((x) => `<button type="button" class="seg${(prefs.strum ?? null) === x.p ? ' active' : ''}" data-strum="${x.id ?? ''}">${x.label}</button>`).join('')}</div>`;
+      }
     };
     paint();
-    dlg.onclick = (e) => {
+    dlg.onchange = async (e) => {
+      if (e.target.matches('.midi-file') && e.target.files[0]) {
+        await loadMidiFile(e.target.files[0]);
+        e.target.value = '';
+        paint();
+      } else if (e.target.matches('.midi-track')) {
+        prefs.midi = { ...prefs.midi, track: Number(e.target.value) };
+        autoAlignMidi(false);
+        paint();
+      }
+    };
+    dlg.onclick = async (e) => {
+      const mact = e.target.closest('[data-midi]')?.dataset.midi;
+      if (mact === 'remove') {
+        await removeMidi(song.id);
+        midi = null;
+        delete prefs.midi;
+        if (prefs.arrangement === 'midi') prefs.arrangement = 'rhythm';
+        savePrefs(); rebuild(); lastIdx = -2; paint();
+        return;
+      }
+      if (mact === 'align') { autoAlignMidi(true); paint(); return; }
+      if (mact === 'earlier' || mact === 'later') {
+        prefs.midi = { ...prefs.midi, shift: (prefs.midi?.shift ?? 0) + (mact === 'later' ? 1 : -1) };
+        savePrefs(); rebuild(); lastIdx = -2; paint();
+        return;
+      }
+      const pk = e.target.closest('[data-pick]')?.dataset.pick;
+      const st = e.target.closest('[data-strum]');
+      if (pk || st) {
+        if (pk) prefs.picking = pk;
+        if (st) prefs.strum = STRUM_PRESETS.find((x) => (x.id ?? '') === st.dataset.strum)?.p ?? null;
+        savePrefs(); rebuild(); lastIdx = -2; paint();
+        return;
+      }
       const b = e.target.closest('[data-part]');
       if (!b) return;
       prefs.arrangement = b.dataset.part;
@@ -919,7 +1111,6 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
 
   // ---------- Stampa degli accordi (senza testo) ----------
   function printSheet() {
-    const esc = (x) => String(x ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
     const names = [...new Set(tl.events.map((e) => e.name))];
     const rows = tl.sections.map((sec) => {
       const bars = tl.bars.filter((b) => b.start >= sec.start - 1e-6 && b.start < sec.end - 1e-6);
@@ -1111,6 +1302,7 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
       case 'view': openView(); break;
       case 'study': toggleStudy(); break;
       case 'setlist': openSetlists(); break;
+      case 'source': e.preventDefault(); openSource(); break;
       case 'backing':
         prefs.backing = !prefs.backing; savePrefs();
         $('[data-act="backing"]').classList.toggle('active', prefs.backing);
@@ -1294,6 +1486,47 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
     dlg.showModal();
   }
 
+  // ---------- Sorgente audio ----------
+  async function openSource() {
+    root.querySelectorAll('dialog[open]').forEach((d) => d.close());
+    const dlg = $('.dlg-source');
+    const own = await getAudio(song.id);
+    const cur = clock.kind;
+    const opts = [
+      { id: 'youtube', label: 'Video YouTube', desc: prefs.youtubeId ? 'Il video che hai scelto tu' : 'Il video associato al brano', on: cur === 'youtube' || (!own && prefs.source !== 'none') },
+      ...(own ? [{ id: 'file', label: `Il tuo file: ${own.name}`, desc: 'Sincronia calcolata sull\'audio, velocità senza cambiare intonazione', on: cur === 'audio' }] : []),
+      { id: 'none', label: 'Nessuna musica', desc: 'Solo metronomo e Base (chitarra sintetica)', on: prefs.source === 'none' },
+    ];
+    dlg.querySelector('.src-list').innerHTML = opts.map((o) =>
+      `<button type="button" class="option${o.on ? ' active' : ''}" data-srcopt="${o.id}"><b></b><span>${o.desc}</span></button>`).join('');
+    dlg.querySelectorAll('[data-srcopt] b').forEach((b, i) => { b.textContent = opts[i].label; });
+    const status = dlg.querySelector('.src-status');
+    status.textContent = own ? 'Per togliere il file: scegli un\'altra sorgente e tocca "Dimentica il file".' : '';
+    if (own) status.insertAdjacentHTML('beforeend', ' <button type="button" class="chip-btn" data-src="forget">Dimentica il file</button>');
+    dlg.onclick = async (e) => {
+      const o = e.target.closest('[data-srcopt]')?.dataset.srcopt;
+      const act = e.target.closest('[data-src]')?.dataset.src;
+      if (o) { prefs.source = o === 'file' ? 'file' : o; savePrefs(); dlg.close(); attachSource(); }
+      if (act === 'link') {
+        const id = parseYouTubeId(dlg.querySelector('.src-link').value);
+        if (!id) { toast('Link YouTube non valido'); return; }
+        prefs.youtubeId = id; prefs.source = 'youtube'; savePrefs(); dlg.close(); attachSource();
+        toast('Video cambiato: usa Sincronia → Tocca quando inizia a cantare se non combacia');
+      }
+      if (act === 'forget') { await removeAudio(song.id); if (prefs.source === 'file') prefs.source = 'youtube'; savePrefs(); dlg.close(); attachSource(); }
+    };
+    dlg.querySelector('.src-file').onchange = async (e) => {
+      const f = e.target.files?.[0];
+      if (!f) return;
+      await saveAudio(song.id, f);
+      prefs.source = 'file'; savePrefs();
+      dlg.close();
+      await attachSource();
+      alignAudioFile(); // allineamento automatico appena scelto il file
+    };
+    dlg.showModal();
+  }
+
   // ---------- Scalette ----------
   function openSetlists() {
     const dlg = $('.dlg-setlist');
@@ -1355,6 +1588,8 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
   // ---------- Riga del testo sul palco ----------
   const stageLyric = $('.stage-lyric');
   let stageIdx = -2;
+  let stageWords = null;
+  let stageSpans = [];
   function paintStageLyric(t) {
     const lines = synced?.lines;
     if (!settings.stageLyrics || !lines?.length) { stageLyric.hidden = true; stageIdx = -2; return; }
@@ -1365,16 +1600,38 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
       const mid = (lo + hi) >> 1;
       if (lines[mid].t + lyricsOffset <= t) { i = mid; lo = mid + 1; } else hi = mid - 1;
     }
-    if (i === stageIdx) return;
-    stageIdx = i;
-    const now = lines[i]?.text ?? '';
-    const next = lines.slice(i + 1).find((l) => l.text)?.text ?? '';
-    stageLyric.hidden = !now && !next;
-    stageLyric.querySelector('.sl-now').textContent = now || '♪';
-    stageLyric.querySelector('.sl-next').textContent = next;
-    stageLyric.classList.remove('in');
-    void stageLyric.offsetWidth;
-    stageLyric.classList.add('in');
+    if (i !== stageIdx) {
+      stageIdx = i;
+      const now = lines[i]?.text ?? '';
+      const next = lines.slice(i + 1).find((l) => l.text)?.text ?? '';
+      stageLyric.hidden = !now && !next;
+      const box = stageLyric.querySelector('.sl-now');
+      box.replaceChildren();
+      stageWords = null;
+      if (now) {
+        const start = lines[i].t + lyricsOffset;
+        const end = (lines[i + 1]?.t ?? lines[i].t + 5) + lyricsOffset;
+        stageWords = wordTimes(now, start, Math.min(end, start + 12), lines[i].words?.map((w) => ({ w: w.w, t: w.t + lyricsOffset })));
+        stageWords.forEach((w, k) => {
+          const sp = document.createElement('span');
+          sp.className = 'kw';
+          sp.textContent = w.w;
+          box.append(sp);
+          if (k < stageWords.length - 1) box.append(' ');
+        });
+        stageSpans = [...box.querySelectorAll('.kw')];
+      } else box.textContent = '♪';
+      stageLyric.querySelector('.sl-next').textContent = next;
+      stageLyric.classList.remove('in');
+      void stageLyric.offsetWidth;
+      stageLyric.classList.add('in');
+    }
+    if (stageWords) {
+      const { i: wi, p } = wordAt(stageWords, t);
+      stageSpans.forEach((sp, k) => { sp.classList.toggle('on', k < wi); sp.classList.toggle('now', k === wi); });
+      stageSpans[wi]?.style.setProperty('--wp', `${(p * 100).toFixed(1)}%`);
+    }
+    return;
   }
 
   // ---------- Riprendi da dove eri rimasto ----------
@@ -1465,8 +1722,26 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
     else toast('Non abbastanza sicuro: alza il volume e riprova, oppure usa il tocco');
   }
 
+  // Allineamento automatico sul file audio dell'utente: si analizza la musica vera, niente microfono.
+  async function alignAudioFile() {
+    const own = await getAudio(song.id);
+    if (!own?.blob) { toast('Scegli prima un file audio (⋯ → Audio)'); return; }
+    toast('Analizzo l\'audio…');
+    try {
+      const { samples, sampleRate } = await decodeToMono(own.blob);
+      const frames = chromaFrames(samples, sampleRate, { hop: 0.15, size: 4096 });
+      const r = alignToAudio(frames, tl, { range: 25 });
+      if (r.confidence < 0.25) { toast('Non sono sicuro dell\'allineamento: prova il tocco in Sincronia'); return; }
+      applyShift(r.shift, `Allineato al file audio (affidabilità ${Math.round(r.confidence * 100)}%)`);
+      store.set(key('audioAligned'), { name: own.name, shift: r.shift, drift: r.drift, at: Date.now() });
+    } catch (err) {
+      toast(`Analisi non riuscita: ${err.message}`);
+    }
+  }
+
   function openSync() {
     const dlg = $('.dlg-sync');
+    dlg.querySelector('[data-sync="audiofile"]').hidden = clock.kind !== 'audio';
     const paint = () => {
       dlg.querySelector('.out-chords').textContent = signed(offset);
       dlg.querySelector('.out-lyrics').textContent = signed(lyricsOffset);
@@ -1507,6 +1782,7 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
       if (act === 'paste') { dlg.close(); openLyrics(); }
       if (act === 'tap') { dlg.close(); startTapAlign(); }
       if (act === 'listen') { dlg.close(); listenAlign(); }
+      if (act === 'audiofile') { dlg.close(); alignAudioFile(); }
       if (act === 'fix' && syncCheck) {
         // le righe partono dopo il battere → gli accordi vanno spostati avanti (solo gli accordi)
         offset = Math.round((offset + syncCheck.shift) * 100) / 100;
@@ -1654,6 +1930,7 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
     const beatInt = Math.floor(beat);
     const dots = beatsEl.children;
     for (let i = 0; i < dots.length; i++) dots[i].classList.toggle('on', bar >= 0 && i === beatInt);
+    if (bar >= 0 && tl.bars[bar]) paintStrumSlots(tl.notes ? '' : tl.bars[bar].strum ?? tl.strum ?? '');
     const slots = strumEl.children;
     if (slots.length) {
       const pos = bar >= 0 ? Math.floor((beat / tl.bpb) * slots.length) : -1;
@@ -1663,26 +1940,39 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
       const k = `${bar}:${beatInt}`;
       if (k !== lastBeatKey) { lastBeatKey = k; click(beatInt === 0); }
     }
-    // arpeggio col manico nascosto: le note della base partono da qui (altrimenti da fretboard.onNote)
-    if (prefs.backing && clock.playing && tl.notes && stageHidden()) {
+    // note singole della base (arpeggio o parte MIDI): suonano tutte quelle iniziate dall'ultimo frame,
+    // quindi anche gli accordi della parte MIDI (più note insieme) e le note fitte
+    if (prefs.backing && clock.playing && tl.notes) {
       let lo = 0; let hi = tl.notes.length - 1; let ni = -1;
       while (lo <= hi) { const mid = (lo + hi) >> 1; if (tl.notes[mid].t <= t) { ni = mid; lo = mid + 1; } else hi = mid - 1; }
       if (ni !== lastNoteIdx) {
+        const from = ni > lastNoteIdx && lastNoteIdx >= 0 ? lastNoteIdx + 1 : ni;
         lastNoteIdx = ni;
-        const n = tl.notes[ni];
-        if (n && t < n.t + n.dur) pluck(n.string, n.fret > 0 ? n.fret + capo : 0, 0.3);
+        for (let k = Math.max(0, from); k <= ni; k++) {
+          const n = tl.notes[k];
+          // dopo un salto (seek) non si recuperano le note vecchie
+          if (t - n.t > 0.15) continue;
+          const vol = prefs.arrangement === 'midi' ? 0.12 + 0.28 * ((n.vel ?? 90) / 127) : 0.3;
+          pluck(n.string, n.fret > 0 ? n.fret + capo : 0, vol, prefs.arrangement === 'midi' ? n.dur / (clock.getRate?.() || 1) : null);
+        }
       }
-    }
+    } else lastNoteIdx = -1;
     // base sintetica: una pennata per ogni suddivisione del pattern (l'arpeggio suona le sue note da fretboard.onNote)
     if (prefs.backing && clock.playing && bar >= 0 && cur && !tl.notes) {
-      const pat = (tl.strum || (tl.bpb === 3 ? 'D-DUDU' : 'D-DU-UDU')).replace(/\s+/g, '');
+      const pat = (tl.bars[bar]?.strum || tl.strum || (tl.bpb === 3 ? 'D-DUDU' : 'D-DU-UDU')).replace(/\s+/g, '');
       const pos = Math.floor((beat / tl.bpb) * pat.length);
       const k = `${bar}:${pos}`;
       if (k !== lastStrumKey) {
         lastStrumKey = k;
         const ch = pat[pos];
         const sh = fretboard.shape(cur.name);
-        if (sh && (ch === 'D' || ch === 'U' || ch === 'X')) strumChord(sh.frets, { up: ch === 'U', mute: ch === 'X' });
+        if (sh && 'DUXPB'.includes(ch)) {
+          // accenti: primo battito più forte, controtempi più leggeri
+          const perBeat = pat.length / tl.bpb;
+          const onBeat = pos % perBeat === 0;
+          const accent = pos === 0 ? 1.18 : onBeat ? 1.02 : 0.85;
+          strumChord(sh.frets, { kind: ch, accent });
+        }
       }
     }
 

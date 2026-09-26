@@ -50,7 +50,14 @@ js/player.js          schermata di studio: orchestra clock, palco, pannelli, dia
 js/fretboard.js       canvas: corsia 3D (proiezione prospettica verso un punto di fuga) + manico
 js/timeline.js        brano → timeline in secondi (battute, eventi accordo, righe, sezioni)
 js/music.js           note, parsing accordi, diteggiature, trasposizione, suggerimento capotasto
-js/clock.js           YouTubeClock (IFrame API, tempo interpolato) e FreeClock (riserva)
+js/clock.js           YouTubeClock (IFrame API, tempo interpolato, onError), AudioClock (file dell'utente, velocità senza
+                      cambiare intonazione), FreeClock (riserva) e SwitchClock (il player ne usa uno solo e lo scambia
+                      al volo mantenendo tempo, velocità e play: l'avvio non aspetta mai il video)
+js/audiofiles.js      file audio e MIDI dell'utente in IndexedDB (gst-audio; chiavi <id> e midi:<id>)
+js/audioanalysis.js   cromagramma di un file audio (chromaFrames), allineamento alla griglia (alignToAudio), decodeToMono
+js/midi.js            file MIDI: parseMidi (tempi in s e in battiti), guessGuitarTrack, alignMidi (spostamento in battiti
+                      sugli accordi della griglia), placeMidi (note sui tempi veri del brano), fingerNotes (corda/tasto, capo)
+js/wordtiming.js      tempi delle parole per il karaoke (sillabe o tag LRC estesi <mm:ss.xx>)
 js/karaoke.js         righe LRC + accordi posizionati per tempo, riempimento progressivo
 js/lyrics.js          download da LRCLIB, cache locale, parsing LRC
 js/sheet.js           griglia accordi per battuta
@@ -83,6 +90,11 @@ tools/lrcwarp.mjs     SINCRONIA DI DEFAULT: ancore warp (battuta→secondo) sui 
 tools/audiosync.py    sperimentale: BPM dall'anteprima audio Deezer + parole (faster-whisper); non usato (precisione 1–2%)
 tools/tlinfo.mjs      stampa la timeline di un brano in JSON (per gli strumenti Python)
 tools/checklyrics.py  verifica che ogni brano abbia il testo sincronizzato su LRCLIB (stampa solo numeri)
+tools/videocheck.mjs  prova nel browser che i video si possano incorporare; --fix sostituisce i bloccati (errore 150/101/5)
+                      con un video della stessa durata del testo (±8 s) e non già usato; --skip, --pages
+tools/strumpass.py    pennata per brano e per sezione: Ultimate Guitar (tab_view.strummings) o stima da genere/tempo con
+                      varianti; --solo-stime riprova UG solo dove c'è una stima; strumSource 'utente' non si tocca
+tests/fixtures.mjs    per l'e2e: parte MIDI e WAV sintetici ricavati dagli accordi di un brano (niente testo)
 tools/checksync.mjs   coerenza griglia/testo per ogni brano; con --fix corregge l'offset se affidabile
 tools/lrcgrid.py      analisi dei SOLI tempi LRCLIB: BPM ottimale, offset, blocchi e ritornelli
 avvia.bat / avvia.sh / avvia.command   avvio locale con doppio clic (Node.js o Python)
@@ -111,7 +123,8 @@ Documentato nel README (sezione "Aggiungere un brano"). Punti chiave:
 - `bpm`, `timeSignature`, `offset` (secondo del video in cui inizia la prima battuta).
 - `patterns` (giri riutilizzabili) + `sections` (`pattern` + `repeat`, oppure `bars`).
 - Una battuta: `"Gm"`, `["D7sus4", "D7"]`, `["F5:3", "C5:1"]`, `"%"` = l'accordo prosegue.
-- `strum`: pennata su 8 crome (o 6 in 3/4): `D` giù, `U` su, `-` pausa, `X` stoppata.
+- `strum`: pennata su 8 crome (o 6 in 3/4, 16 con le semicrome): `D` giù, `U` su, `-` pausa, `X` stoppata,
+  `P` palm muting, `B` solo basso. Anche per sezione (`sections[i].strum`); `strumSource`: ultimate-guitar | stima | utente.
 - `lyricsSource`: `{ "lrclibId": 123, "offset": 0 }` oppure ricerca per artista/titolo.
 - `sync`: tempi registrati di ogni cambio accordo (dall'app, "Registra tempi" → "Esporta JSON").
 - `shapes`: diteggiature personalizzate; `capo`: capotasto consigliato di default.
@@ -165,7 +178,29 @@ node tests/e2e.mjs http://localhost:8080   # test nel browser (serve Playwright 
 ```
 Nel test e2e YouTube è bloccato di proposito (si prova il clock di riserva); il microfono è finto.
 
-## Stato attuale (v1.9.0 — 2026-09-26)
+## Stato attuale (v2.0.0 — 2026-09-26)
+
+Richieste dell'utente (dopo aver provato l'app in locale con Codex): avvio lento, video YouTube mai accessibili,
+pennate e arpeggi tutti uguali, la Base non rispetta il brano, karaoke parola per parola.
+- **Avvio**: da 10–24 s a ~0,2 s. Cause: `openPlayer` aspettava YouTube (timeout 10+15 s) e il CSS di Google Fonts
+  bloccava il disegno. Ora SwitchClock parte con FreeClock e aggancia la sorgente quando è pronta; font non bloccante.
+- **Video**: videocheck su tutti i brani; ~90 video bloccati (quasi tutti errore 150, video ufficiali delle etichette)
+  sostituiti con versioni incorporabili della stessa durata. Restano senza alternativa: Ringo Starr, Marmellata #25,
+  Nel blu dipinto di blu, Demons, Com'è profondo il mare, Morirò da re, Al di là dell'amore, Pezzo di me, Roxanne,
+  Esseri umani, Il campione → per questi l'app propone il file audio. Tolto un brano doppio (blanco-mi-fai-impazzire).
+- **Sorgente audio alternativa**: file dell'utente (IndexedDB) con allineamento automatico sul cromagramma. Valutati e
+  scartati: Spotify (serve Premium + OAuth, niente velocità), Deezer (SDK dismesso, anteprime di 30 s).
+- **Pennate**: per brano e per sezione; UG dove c'è la trascrizione (limita le richieste: 429 → attese), altrimenti
+  stima con varianti per stile. Base con accenti, palm muting, stoppate. Stili di arpeggio (PICKINGS) e scelta nella
+  finestra Parte. **Parte vera da file MIDI** agganciata in battiti alla griglia (segue warp e rubato).
+- **Karaoke parola per parola** nel pannello e sotto il manico.
+- 83 test unitari; e2e con i nuovi controlli (avvio, MIDI, file audio allineato, parole colorate).
+  `GST_QUICK=1 node tests/e2e.mjs` apre solo 20 brani del catalogo.
+- **Codice anche nel repo dedicato** `musicaways/guitar-song-trainer` (app nella radice), branch
+  `claude/guitar-learning-app-iy0h24`. Il lavoro fatto in locale con Codex non era stato caricato: va unito lì.
+- Non si può avviare l'app sul PC dell'utente da qui: si usa `avvia.bat`/`avvia.sh` (vedi INSTALLAZIONE.md).
+
+## Stato v1.9.0
 
 - **614 brani di 217 artisti** (v1.9: +171 con importbatch e la seconda fonte Ultimate Guitar). In v1.8: 443 brani di 162 artisti, tutti con forme, durata coerente, video e testo sincronizzato; ogni brano agganciato ai
   tempi del canto (`warp`) dove migliora la coerenza. **checksync: 443/443 ok.** I 23 brani col canto libero (rubato:
@@ -218,7 +253,8 @@ Nel test e2e YouTube è bloccato di proposito (si prova il clock di riserva); il
 - Temporaneamente nella cartella `guitar-song-trainer/` del repo `musicaways/palestra-ai-ota`,
   branch `claude/guitar-learning-app-iy0h24`, PR #2 (in bozza, **da non unire**: quel repo è il
   canale OTA di un'altra app, Palestra AI; non toccare `version.json` né le sue release).
-- **Da fare**: spostarlo in un repository dedicato (l'integrazione non ha potuto crearlo: 403).
+- **Repo dedicato**: `musicaways/guitar-song-trainer` (creato dall'utente), branch `claude/guitar-learning-app-iy0h24`
+  con l'app nella radice. Da lì in avanti conviene lavorare in quel repo.
 - **Vercel**: il team è `musicaways-projects`; il connettore non ha il permesso di creare progetti
   (403). L'utente deve creare il progetto (Root Directory `guitar-song-trainer`, preset *Other*,
   nessuna build) oppure dare i permessi. `vercel.json` è già pronto.
@@ -245,6 +281,12 @@ Nel test e2e YouTube è bloccato di proposito (si prova il clock di riserva); il
   Wonderwall 84,5 vs 87). I tempi LRCLIB seguono la registrazione riga per riga su tutto il brano, quindi correggono
   la deriva. Si provano BPM alternativi solo entro ±8% della fonte: tempi che allineano le righe ma non sono quelli
   della musica (es. Certe notti a 120) sono stati scartati.
+- **Avvio senza attese**: nessun `await` su risorse esterne prima che il player sia usabile (SwitchClock).
+- **Sorgente audio = file dell'utente** quando YouTube non va: nessun servizio di streaming permette di sincronizzare
+  e rallentare il brano intero dentro una web app senza abbonamento/OAuth.
+- **Parte MIDI agganciata in battiti, non in secondi**: i MIDI trovati in rete hanno un tempo fisso, le registrazioni
+  no; così le note seguono la griglia (warp) del brano. Fra picchi pari (giro ripetuto) si sceglie la copertura
+  maggiore e lo spostamento più piccolo; lo stesso criterio per l'allineamento del file audio.
 - **Interfaccia sobria**: niente etichette permanenti per stati rari (sincronia → pallino), strumenti rari dietro ⋯.
 - Il suggerimento del capotasto penalizza barrè, estensioni ampie e tasti alti (`shapeDifficulty`).
 
@@ -288,7 +330,14 @@ Nel test e2e YouTube è bloccato di proposito (si prova il clock di riserva); il
   pagella di fine brano; condivisione; home compatta su telefono. Bug: 32 campi dell'indice disallineati dai file
   (le rigenerazioni aggiornavano solo il brano) → ora c'è tests/catalog.test.mjs; LRCLIB con durata null.
 
+  Poi v2.0.0 (dopo le prove dell'utente con Codex): avvio immediato, video bloccati sostituiti, file audio con
+  allineamento automatico, parte MIDI vera, pennate per brano/sezione, stili di arpeggio, karaoke parola per parola.
+  Bug: un video bloccato dopo il caricamento non veniva segnalato (onError); `pkill -f` negli strumenti uccide la shell.
+
 ## Prossimi passi (idee in ordine di utilità)
+
+0. Unire nel repo dedicato il lavoro fatto in locale con Codex; provare sul PC il file audio e un MIDI vero.
+0b. Per gli 11 brani senza video incorporabile cercare a mano un'alternativa (`node tools/videocheck.mjs <id> --fix`).
 
 1. Spostare il progetto in un repo dedicato e pubblicarlo (Vercel o GitHub Pages).
 2. Verificare *Cartine corte* sul video reale e salvare i tempi `sync` registrati dall'utente.

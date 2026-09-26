@@ -1,5 +1,18 @@
 # Novità
 
+## 2.0.0 — 2026-09-26
+- **Avvio immediato**: il brano si usa subito (prima si aspettava il video fino a 25 s e il carattere del titolo);
+  il video si aggancia quando è pronto.
+- **Video bloccati**: controllati tutti i video del catalogo nel browser; quelli che YouTube non lascia incorporare
+  (errore 150/101) sono stati sostituiti con una versione incorporabile della stessa durata. Se un video non va,
+  l'app lo dice e propone un'altra sorgente.
+- **Il tuo file audio** come sorgente (⋯ → Audio), con **allineamento automatico** ascoltando la musica e rallentamento
+  senza cambiare intonazione; oppure un altro link YouTube.
+- **Parte vera da file MIDI**: note esatte, agganciate da sole alle battute del brano, suonate dalla Base.
+- **Pennate per brano e per sezione** (trascritte da Ultimate Guitar dove ci sono, altrimenti stimate da genere e
+  tempo), con accenti, palm muting, stoppate; **stili di arpeggio** diversi; scelta dello stile nella finestra Parte.
+- **Karaoke parola per parola** nel testo e sotto il manico (anche con i tempi per parola dei testi LRC estesi).
+
 ## 1.9.0 — 2026-09-26
 - **Catalogo: 614 brani di 217 artisti** (171 nuovi), tutti sincronizzati sul canto: rap e urban italiano (Salmo, Fedez,
   Lazza, Geolier, Anna, Ghali…), Sanremo recenti, cantautori, rock, indie e classici stranieri.
