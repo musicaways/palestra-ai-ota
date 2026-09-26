@@ -1,9 +1,9 @@
 // Service worker: l'app funziona anche offline (il video YouTube ovviamente no).
-const VERSION = 'gst-v1';
+const VERSION = 'gst-v2';
 const SHELL = [
   './', 'index.html', 'css/style.css', 'manifest.webmanifest', 'icons/icon.svg',
   'js/app.js', 'js/library.js', 'js/player.js', 'js/fretboard.js', 'js/sheet.js',
-  'js/timeline.js', 'js/music.js', 'js/clock.js', 'js/store.js',
+  'js/timeline.js', 'js/music.js', 'js/clock.js', 'js/store.js', 'js/icons.js', 'js/lyrics.js', 'js/karaoke.js',
 ];
 
 self.addEventListener('install', (e) => {

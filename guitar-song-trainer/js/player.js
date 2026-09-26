@@ -1,112 +1,117 @@
-// Schermata di studio di un brano: manico animato, video, controlli, spartito.
+// Schermata di studio di un brano: palco con manico 3D, video, trasporto, testo karaoke.
 import { YouTubeClock, FreeClock } from './clock.js';
 import { buildTimeline, eventIndexAt, beatAt } from './timeline.js';
 import { Fretboard } from './fretboard.js';
 import { Sheet } from './sheet.js';
+import { Karaoke } from './karaoke.js';
+import { loadSyncedLyrics, looksLikeLrc, clearLyricsCache } from './lyrics.js';
 import { displayChord, chordColor } from './music.js';
+import { icon } from './icons.js';
 import { store, loadSettings, saveSettings, getFavorites, toggleFavorite } from './store.js';
 
 const fmt = (t) => {
   if (!isFinite(t) || t < 0) t = 0;
-  const m = Math.floor(t / 60);
-  const s = Math.floor(t % 60);
-  return `${m}:${String(s).padStart(2, '0')}`;
+  return `${Math.floor(t / 60)}:${String(Math.floor(t % 60)).padStart(2, '0')}`;
 };
+const signed = (x) => `${x >= 0 ? '+' : '−'}${Math.abs(x).toFixed(2)} s`;
 
 export async function openPlayer(root, song) {
   const settings = loadSettings();
   const key = (k) => `${k}:${song.id}`;
   let offset = store.get(key('offset'), 0);
+  let lyricsOffset = store.get(key('lyricsOffset'), song.lyricsSource?.offset ?? 0);
   let sync = store.get(key('sync'), null) ?? song.sync ?? null;
-  let lyrics = store.get(key('lyrics'), []);
+  let plainLyrics = store.get(key('lyrics'), []);
+  let synced = null; // { lines, source }
+  let panelTab = store.get('panelTab', 'lyrics');
   let tl = buildTimeline(song, { offset, sync });
   let loop = { on: false, a: null, b: null, label: '' };
   let clock = null;
   let raf = 0;
   let lastSeekAt = 0;
   let lastBeatKey = '';
-  let recorder = null; // modalità sincronizzazione
+  let recorder = null;
   let destroyed = false;
 
   root.innerHTML = `
   <div class="player">
     <header class="player-head">
-      <a class="icon-btn" href="#/" aria-label="Torna alla libreria">←</a>
-      <div class="player-title">
-        <div class="title"></div>
-        <div class="artist"></div>
-      </div>
+      <a class="icon-btn" href="#/" aria-label="Torna alla libreria">${icon('back')}</a>
+      <div class="player-title"><div class="title"></div><div class="artist"></div></div>
       <button class="icon-btn fav" aria-label="Preferito"></button>
-      <button class="icon-btn" data-act="settings" aria-label="Impostazioni">⚙</button>
+      <button class="icon-btn" data-act="settings" aria-label="Impostazioni">${icon('settings')}</button>
     </header>
 
     <section class="stage">
+      <canvas class="fretboard" aria-label="Manico della chitarra"></canvas>
       <div class="hud">
-        <div class="hud-now">
-          <div class="hud-label">Adesso</div>
-          <div class="hud-chord now"></div>
+        <div class="hud-block now">
+          <div class="hud-label section-name">Intro</div>
+          <div class="hud-chord now-chord">—</div>
         </div>
-        <div class="hud-next">
-          <div class="hud-label">Prossimo <span class="countdown"></span></div>
-          <div class="hud-chord next"></div>
-        </div>
-        <div class="hud-rhythm">
-          <div class="hud-label"><span class="section-name"></span></div>
+        <div class="hud-center">
           <div class="beats"></div>
           <div class="strum"></div>
         </div>
+        <div class="hud-block next">
+          <div class="hud-label">Prossimo <span class="countdown"></span></div>
+          <div class="hud-chord next-chord">—</div>
+        </div>
       </div>
-      <canvas class="fretboard" aria-label="Manico della chitarra"></canvas>
     </section>
 
     <div class="player-main">
       <div class="left-col">
         <div class="video-wrap"><div class="video"></div><div class="video-msg" hidden></div></div>
-        <div class="scrubber" title="Posizione nel brano">
-          <div class="scrub-sections"></div>
-          <div class="scrub-loop" hidden></div>
-          <div class="scrub-head"></div>
+        <div class="transport card">
+          <div class="scrubber" title="Posizione nel brano">
+            <div class="scrub-sections"></div>
+            <div class="scrub-loop" hidden></div>
+            <div class="scrub-fill"></div>
+            <div class="scrub-head"></div>
+          </div>
+          <div class="time-row"><span class="t-cur">0:00</span><span class="loop-label"></span><span class="t-tot">0:00</span></div>
+          <div class="transport-row">
+            <div class="speed-pills" role="group" aria-label="Velocità"></div>
+            <div class="play-group">
+              <button class="round" data-act="back" title="Indietro 5 s (←)">${icon('rewind')}</button>
+              <button class="round big" data-act="play" title="Play / Pausa (spazio)">${icon('play', 26)}</button>
+              <button class="round" data-act="fwd" title="Avanti 5 s (→)">${icon('forward')}</button>
+            </div>
+            <div class="loop-group" role="group" aria-label="Loop">
+              <button class="seg" data-act="loopA" title="Inizio loop qui ([)">A</button>
+              <button class="seg" data-act="loopB" title="Fine loop qui (])">B</button>
+              <button class="seg" data-act="loopToggle" title="Loop on/off (L)">${icon('loop', 16)}</button>
+              <button class="seg" data-act="loopClear" title="Cancella loop">${icon('close', 16)}</button>
+            </div>
+          </div>
+          <div class="tools-row">
+            <button class="chip-btn" data-act="metro" title="Click del metronomo">${icon('metronome', 16)} Click</button>
+            <button class="chip-btn" data-act="sync" title="Allinea accordi e testo al video">${icon('sliders', 16)} Sincronia</button>
+            <button class="chip-btn" data-act="record" title="Registra i cambi accordo toccando a tempo">${icon('target', 16)} Registra tempi</button>
+            <button class="chip-btn" data-act="info" title="Informazioni sul brano">${icon('info', 16)} Info</button>
+          </div>
         </div>
-        <div class="time-row"><span class="t-cur">0:00</span><span class="loop-label"></span><span class="t-tot">0:00</span></div>
-        <div class="controls">
-          <button class="ctl" data-act="back" title="Indietro 5 s (←)">⏪</button>
-          <button class="ctl primary" data-act="play" title="Play / Pausa (spazio)">▶</button>
-          <button class="ctl" data-act="fwd" title="Avanti 5 s (→)">⏩</button>
-          <label class="ctl-group" title="Velocità">
-            <span>Velocità</span>
-            <select class="speed"></select>
-          </label>
-        </div>
-        <div class="controls">
-          <button class="ctl" data-act="loopA" title="Inizio loop qui ([)">A</button>
-          <button class="ctl" data-act="loopB" title="Fine loop qui (])">B</button>
-          <button class="ctl" data-act="loopToggle" title="Loop on/off (L)">⟲ Loop</button>
-          <button class="ctl" data-act="loopClear" title="Cancella loop">✕</button>
-        </div>
-        <div class="controls">
-          <span class="ctl-group" title="Sposta gli accordi rispetto al video">
-            <span>Sincronia</span>
-            <button class="ctl small" data-act="offMinus">−</button>
-            <output class="offset"></output>
-            <button class="ctl small" data-act="offPlus">+</button>
-          </span>
-          <button class="ctl" data-act="metro" title="Click del metronomo">🥁 Click</button>
-          <button class="ctl" data-act="sync" title="Registra i cambi accordo toccando a tempo">🎯 Registra tempi</button>
-          <button class="ctl" data-act="lyrics" title="Incolla il tuo testo">✎ Testo</button>
-        </div>
-        <details class="song-info"><summary>Info brano</summary><div class="song-info-body"></div></details>
       </div>
-      <aside class="sheet" aria-label="Accordi e testo"></aside>
+      <aside class="panel card">
+        <div class="panel-tabs" role="tablist">
+          <button class="panel-tab" data-tab="lyrics">${icon('mic', 16)} Testo</button>
+          <button class="panel-tab" data-tab="chords">${icon('grid', 16)} Accordi</button>
+          <span class="panel-source"></span>
+        </div>
+        <div class="panel-body lyrics-body"></div>
+        <div class="panel-body chords-body"></div>
+      </aside>
     </div>
 
     <div class="recorder" hidden>
       <div class="rec-info"></div>
       <button class="rec-tap">TAP</button>
       <div class="rec-actions">
-        <button class="ctl" data-rec="undo">Annulla ultimo</button>
-        <button class="ctl" data-rec="restart">Ricomincia</button>
-        <button class="ctl" data-rec="export">Esporta JSON</button>
-        <button class="ctl primary" data-rec="done">Fine</button>
+        <button class="chip-btn" data-rec="undo">Annulla ultimo</button>
+        <button class="chip-btn" data-rec="restart">Ricomincia</button>
+        <button class="chip-btn" data-rec="export">Esporta JSON</button>
+        <button class="chip-btn primary" data-rec="done">Fine</button>
       </div>
     </div>
 
@@ -117,83 +122,113 @@ export async function openPlayer(root, song) {
           <select name="notation"><option value="intl">Internazionale (C D E)</option><option value="it">Italiana (Do Re Mi)</option></select></label>
         <label class="check"><input type="checkbox" name="leftHanded"> Chitarra mancina (manico specchiato)</label>
         <label class="check"><input type="checkbox" name="highStringOnTop"> Mi cantino in alto (come le tablature)</label>
-        <label class="check"><input type="checkbox" name="showNoteNames"> Mostra il nome delle note invece delle dita</label>
-        <label class="check"><input type="checkbox" name="autoScroll"> Scorrimento automatico dello spartito</label>
-        <p class="hint">Scorciatoie: spazio = play/pausa · ← → = ±5 s · [ ] = punti A/B · L = loop · T = tap (in registrazione)</p>
-        <menu><button value="ok" class="ctl primary">Chiudi</button></menu>
+        <label class="check"><input type="checkbox" name="showNoteNames"> Nome delle note al posto delle dita</label>
+        <label class="check"><input type="checkbox" name="autoScroll"> Scorrimento automatico del testo</label>
+        <p class="hint">Scorciatoie: spazio play/pausa · ← → ±5 s · [ ] punti A/B · L loop · T tap in registrazione</p>
+        <menu><button value="ok" class="chip-btn primary">Chiudi</button></menu>
+      </form>
+    </dialog>
+
+    <dialog class="dlg dlg-sync">
+      <form method="dialog">
+        <h3>Sincronia</h3>
+        <div class="sync-line">
+          <div><b>Accordi</b><span class="hint">se arrivano in ritardo premi −, se sono in anticipo +</span></div>
+          <div class="stepper"><button type="button" class="round" data-step="chords:-0.05">−</button><output class="out-chords"></output><button type="button" class="round" data-step="chords:0.05">+</button></div>
+        </div>
+        <div class="sync-line">
+          <div><b>Testo</b><span class="hint">sposta il testo karaoke rispetto al video</span></div>
+          <div class="stepper"><button type="button" class="round" data-step="lyrics:-0.1">−</button><output class="out-lyrics"></output><button type="button" class="round" data-step="lyrics:0.1">+</button></div>
+        </div>
+        <p class="hint">Per un allineamento perfetto degli accordi usa <b>Registra tempi</b>: tocchi TAP a ogni cambio mentre il video suona.</p>
+        <div class="sync-actions">
+          <button type="button" class="chip-btn" data-sync="paste">${icon('text', 16)} Incolla il tuo testo</button>
+          <button type="button" class="chip-btn" data-sync="reload">Riscarica testo</button>
+          <button type="button" class="chip-btn" data-sync="resetTimes">Azzera tempi registrati</button>
+        </div>
+        <menu><button value="ok" class="chip-btn primary">Fatto</button></menu>
       </form>
     </dialog>
 
     <dialog class="dlg dlg-lyrics">
       <form method="dialog">
         <h3>Il tuo testo</h3>
-        <p class="hint">Incolla qui il testo del brano. Separa le strofe con una <b>riga vuota</b>: ogni blocco viene
-        mostrato sotto una riga di accordi, nell'ordine. Il testo resta salvato solo su questo dispositivo.</p>
+        <p class="hint">Incolla il testo. Se è in formato <b>LRC</b> (righe come <code>[00:12.34] …</code>) diventa karaoke
+        sincronizzato. Altrimenti separa i blocchi con una riga vuota: ogni blocco va sotto una riga di accordi.
+        Resta salvato solo su questo dispositivo. Lascia vuoto per tornare al testo scaricato.</p>
         <textarea name="text" rows="14" spellcheck="false"></textarea>
         <menu>
-          <button value="cancel" class="ctl">Annulla</button>
-          <button value="save" class="ctl primary">Salva</button>
+          <button value="cancel" class="chip-btn">Annulla</button>
+          <button value="save" class="chip-btn primary">Salva</button>
         </menu>
       </form>
     </dialog>
+
+    <dialog class="dlg dlg-info"><form method="dialog"><h3></h3><div class="info-body"></div>
+      <menu><button value="ok" class="chip-btn primary">Chiudi</button></menu></form></dialog>
   </div>`;
 
   const $ = (s) => root.querySelector(s);
-  const hudNow = $('.hud-chord.now');
-  const hudNext = $('.hud-chord.next');
+  const hudNow = $('.now-chord');
+  const hudNext = $('.next-chord');
   const countdown = $('.countdown');
   const beatsEl = $('.beats');
   const strumEl = $('.strum');
   const sectionName = $('.section-name');
   const playBtn = $('[data-act="play"]');
-  const speedSel = $('.speed');
   const tCur = $('.t-cur');
   const tTot = $('.t-tot');
   const scrub = $('.scrubber');
   const scrubHead = $('.scrub-head');
+  const scrubFill = $('.scrub-fill');
   const scrubLoop = $('.scrub-loop');
   const loopLabel = $('.loop-label');
-  const offsetOut = $('.offset');
   const videoMsg = $('.video-msg');
+  const lyricsBody = $('.lyrics-body');
+  const chordsBody = $('.chords-body');
+  const panelSource = $('.panel-source');
 
   $('.player-title .title').textContent = song.title;
   $('.player-title .artist').textContent = song.artist;
   document.title = `${song.title} · ${song.artist}`;
 
   const favBtn = $('.player-head .fav');
-  const paintFav = (on) => { favBtn.textContent = on ? '★' : '☆'; favBtn.classList.toggle('on', on); };
+  const paintFav = (on) => { favBtn.innerHTML = icon(on ? 'starFill' : 'star'); favBtn.classList.toggle('on', on); };
   paintFav(getFavorites().has(song.id));
   favBtn.addEventListener('click', () => paintFav(toggleFavorite(song.id)));
 
-  const info = $('.song-info-body');
-  const infoRows = [
-    ['Album', song.album], ['Anno', song.year], ['Genere', song.genre], ['Tonalità', song.key],
-    ['BPM', song.bpm], ['Tempo', song.timeSignature?.join('/')], ['Capotasto', song.capo ? `${song.capo}° tasto` : 'nessuno'],
-    ['Accordatura', song.tuning ?? 'Standard (E A D G B E)'],
-  ];
-  const dl = document.createElement('dl');
-  for (const [k, v] of infoRows) {
-    if (v == null || v === '') continue;
-    const dt = document.createElement('dt'); dt.textContent = k;
-    const dd = document.createElement('dd'); dd.textContent = v;
-    dl.append(dt, dd);
-  }
-  info.append(dl);
-  for (const note of [song.notes, song.syncNote].filter(Boolean)) {
-    const p = document.createElement('p'); p.className = 'hint'; p.textContent = note; info.append(p);
-  }
-
-  // ---------- Manico e spartito ----------
+  // ---------- Palco, testo e griglia ----------
   const fretboard = new Fretboard($('.fretboard'));
   fretboard.customShapes = song.shapes ?? null;
-  const sheet = new Sheet($('.sheet'), {
-    onSeek: (t) => seek(t - 0.05),
-    onLoop: (a, b, label) => setLoop(a, b, label),
-  });
+  const handlers = { onSeek: (t) => seek(t), onLoop: (a, b, label) => setLoop(a, b, label) };
+  const sheet = new Sheet(chordsBody, handlers);
+  const karaoke = new Karaoke(lyricsBody, handlers);
+
+  function renderPanel() {
+    root.querySelectorAll('.panel-tab').forEach((b) => b.classList.toggle('active', b.dataset.tab === panelTab));
+    lyricsBody.hidden = panelTab !== 'lyrics';
+    chordsBody.hidden = panelTab !== 'chords';
+    if (synced?.lines.length) {
+      karaoke.render(synced.lines, tl, settings, lyricsOffset);
+      panelSource.textContent = synced.source === 'LRCLIB' ? 'testo: LRCLIB' : 'testo: tuo';
+    } else {
+      lyricsBody.innerHTML = `<div class="panel-empty">${synced === null ? 'Caricamento del testo…' : 'Testo sincronizzato non disponibile.<br>Puoi incollarne uno da <b>Sincronia → Incolla il tuo testo</b>, oppure usare la scheda Accordi.'}</div>`;
+      panelSource.textContent = '';
+    }
+    sheet.render(tl, settings, plainLyrics);
+  }
+
+  root.querySelectorAll('.panel-tab').forEach((b) => b.addEventListener('click', () => {
+    panelTab = b.dataset.tab;
+    store.set('panelTab', panelTab);
+    renderPanel();
+    karaoke.cur = -2;
+    sheet.curBar = -2;
+  }));
 
   function rebuild() {
     tl = buildTimeline(song, { offset, sync });
-    sheet.render(tl, song, settings, lyrics);
+    renderPanel();
     drawScrubSections();
     paintLoop();
     beatsEl.replaceChildren(...Array.from({ length: tl.bpb }, (_, i) => {
@@ -201,14 +236,8 @@ export async function openPlayer(root, song) {
       d.className = 'beat' + (i === 0 ? ' downbeat' : '');
       return d;
     }));
-    drawStrum();
-  }
-
-  function drawStrum() {
     strumEl.replaceChildren();
-    const pat = tl.strum;
-    if (!pat) return;
-    for (const ch of pat.replace(/\s+/g, '')) {
+    for (const ch of (tl.strum ?? '').replace(/\s+/g, '')) {
       const s = document.createElement('span');
       s.className = 'strum-slot';
       s.textContent = ch === 'D' ? '↓' : ch === 'U' ? '↑' : ch === 'X' ? '✕' : '·';
@@ -216,36 +245,56 @@ export async function openPlayer(root, song) {
     }
   }
 
+  async function loadLyrics() {
+    synced = null;
+    const res = await loadSyncedLyrics(song);
+    if (destroyed) return;
+    synced = res ?? { lines: [], source: null };
+    renderPanel();
+  }
+
   // ---------- Orologio: YouTube o interno ----------
-  const onState = (playing) => { playBtn.textContent = playing ? '⏸' : '▶'; };
+  const onState = (playing) => {
+    playBtn.innerHTML = icon(playing ? 'pause' : 'play', 26);
+    playBtn.classList.toggle('playing', playing);
+  };
+  rebuild();
+  loadLyrics();
   try {
     if (!song.youtubeId) throw new Error('Nessun video associato al brano');
     clock = await YouTubeClock.create($('.video'), song.youtubeId, { onStateChange: onState });
   } catch (err) {
     if (destroyed) return () => {};
-    clock = new FreeClock(tl.end + 4, { onStateChange: onState });
+    clock = new FreeClock(Math.max(tl.end, 150) + 4, { onStateChange: onState });
     videoMsg.hidden = false;
-    videoMsg.textContent = `${err.message}. Puoi comunque esercitarti: accordi e metronomo funzionano senza video.`;
+    videoMsg.innerHTML = `<div>${icon('guitar', 40)}</div><p></p>`;
+    videoMsg.querySelector('p').textContent = `${err.message}. Puoi comunque esercitarti: accordi, testo e metronomo funzionano anche senza video.`;
     $('.video').remove();
   }
   if (destroyed) { clock.destroy(); return () => {}; }
 
-  for (const r of clock.rates()) {
-    const o = document.createElement('option');
-    o.value = r;
-    o.textContent = `${Math.round(r * 100)}%`;
-    if (r === 1) o.selected = true;
-    speedSel.append(o);
+  const speedBox = $('.speed-pills');
+  const rates = clock.rates().filter((r) => r >= 0.5 && r <= 1.25);
+  function paintSpeed() {
+    const cur = clock.getRate();
+    speedBox.querySelectorAll('button').forEach((b) => b.classList.toggle('active', Math.abs(Number(b.dataset.rate) - cur) < 0.001));
   }
-  speedSel.addEventListener('change', () => clock.setRate(Number(speedSel.value)));
-
-  rebuild();
+  for (const r of rates) {
+    const b = document.createElement('button');
+    b.className = 'seg';
+    b.dataset.rate = r;
+    b.textContent = `${Math.round(r * 100)}%`;
+    b.addEventListener('click', () => { clock.setRate(r); setTimeout(paintSpeed, 150); });
+    speedBox.append(b);
+  }
+  paintSpeed();
+  drawScrubSections();
 
   // ---------- Loop ----------
   function setLoop(a, b, label = '') {
-    loop = { on: true, a, b, label };
+    loop = { on: true, a: Math.max(0, a), b, label };
     paintLoop();
-    seek(a);
+    seek(loop.a);
     clock.play();
   }
 
@@ -262,24 +311,23 @@ export async function openPlayer(root, song) {
     $('[data-act="loopA"]').classList.toggle('active', loop.a != null);
     $('[data-act="loopB"]').classList.toggle('active', loop.b != null);
     loopLabel.textContent = valid
-      ? `⟲ ${loop.label || `${fmt(loop.a)} – ${fmt(loop.b)}`}${loop.on ? '' : ' (pausa)'}`
-      : loop.a != null ? `A = ${fmt(loop.a)}` : '';
+      ? `Loop ${loop.label || `${fmt(loop.a)}–${fmt(loop.b)}`}${loop.on ? '' : ' (off)'}`
+      : loop.a != null ? `A ${fmt(loop.a)}` : '';
   }
 
   function totalDuration() {
-    return Math.max(clock?.duration() || 0, tl.end + 2);
+    return Math.max(clock?.duration() || 0, tl.end + 1);
   }
 
   function drawScrubSections() {
     const dur = totalDuration();
-    const box = $('.scrub-sections');
-    box.replaceChildren(...tl.sections.map((s, i) => {
+    $('.scrub-sections').replaceChildren(...tl.sections.map((s, i) => {
       const d = document.createElement('div');
-      d.className = 'scrub-sec';
+      d.className = 'scrub-sec' + (i % 2 ? ' alt' : '');
       d.style.left = `${(s.start / dur) * 100}%`;
       d.style.width = `${((s.end - s.start) / dur) * 100}%`;
-      d.style.opacity = i % 2 ? 0.55 : 0.8;
       d.title = s.name;
+      d.textContent = s.name;
       return d;
     }));
   }
@@ -320,8 +368,7 @@ export async function openPlayer(root, song) {
     recorder = { times: [] };
     recEl.hidden = false;
     paintRecorder();
-    const first = tl.events[0];
-    seek(Math.max(0, (first?.start ?? 0) - 4));
+    seek(Math.max(0, (tl.events[0]?.start ?? 0) - 4));
     clock.play();
   }
 
@@ -330,19 +377,15 @@ export async function openPlayer(root, song) {
     const i = recorder.times.length;
     const ev = tl.events[i];
     recInfo.innerHTML = ev
-      ? `Tocca <b>TAP</b> (o premi <kbd>T</kbd>) esattamente quando arriva <b class="rec-chord"></b>
-         <span class="muted">— cambio ${i + 1} di ${tl.events.length}, sezione “${tl.sections[ev.section].name}”</span>`
-      : 'Hai registrato tutti i cambi! Premi <b>Fine</b> per salvarli, oppure <b>Esporta JSON</b>.';
+      ? `Tocca <b>TAP</b> (o <kbd>T</kbd>) quando arriva <b class="rec-chord"></b>
+         <span class="muted">· cambio ${i + 1}/${tl.events.length} · ${tl.sections[ev.section].name}</span>`
+      : 'Tutti i cambi registrati! Premi <b>Fine</b> per salvarli o <b>Esporta JSON</b>.';
     const c = recInfo.querySelector('.rec-chord');
-    if (c) {
-      c.textContent = displayChord(ev.name, settings.notation);
-      c.style.color = chordColor(ev.name);
-    }
+    if (c) { c.textContent = displayChord(ev.name, settings.notation); c.style.color = chordColor(ev.name); }
   }
 
   function tap() {
     if (!recorder || recorder.times.length >= tl.events.length) return;
-    // I tempi si salvano senza l'offset, che resta una correzione separata.
     recorder.times.push(Number((clock.getTime() - offset).toFixed(3)));
     applyRecorded();
     paintRecorder();
@@ -356,19 +399,18 @@ export async function openPlayer(root, song) {
   function exportJson() {
     const times = recorder?.times.length ? recorder.times : sync;
     const out = { ...song, sync: times ?? undefined };
-    delete out.lyrics;
+    delete out.file;
     const blob = new Blob([JSON.stringify(out, null, 2)], { type: 'application/json' });
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
     a.download = `${song.id}.json`;
     a.click();
     setTimeout(() => URL.revokeObjectURL(a.href), 2000);
-    navigator.clipboard?.writeText(JSON.stringify({ id: song.id, sync: times }, null, 0)).catch(() => {});
+    navigator.clipboard?.writeText(JSON.stringify({ id: song.id, sync: times })).catch(() => {});
   }
 
   recEl.addEventListener('click', (e) => {
     const act = e.target.closest('[data-rec]')?.dataset.rec;
-    if (e.target.closest('.rec-tap')) return tap();
     if (act === 'undo') { recorder.times.pop(); applyRecorded(); paintRecorder(); }
     if (act === 'restart') { recorder.times = []; applyRecorded(); startRecorder(); }
     if (act === 'export') exportJson();
@@ -379,17 +421,9 @@ export async function openPlayer(root, song) {
     }
   });
   $('.rec-tap').addEventListener('pointerdown', (e) => { e.preventDefault(); tap(); });
-  $('.rec-tap').addEventListener('click', (e) => e.stopPropagation());
 
   // ---------- Pulsanti ----------
-  function paintOffset() {
-    offsetOut.textContent = `${offset >= 0 ? '+' : ''}${offset.toFixed(2)} s`;
-  }
-  paintOffset();
-
-  function paintToggles() {
-    $('[data-act="metro"]').classList.toggle('active', settings.metronome);
-  }
+  const paintToggles = () => $('[data-act="metro"]').classList.toggle('active', settings.metronome);
   paintToggles();
 
   $('.player').addEventListener('click', (e) => {
@@ -406,12 +440,10 @@ export async function openPlayer(root, song) {
         loop.b = t; loop.on = true; loop.label = ''; paintLoop(); seek(loop.a); break;
       case 'loopToggle': if (loop.a != null && loop.b != null) { loop.on = !loop.on; paintLoop(); } break;
       case 'loopClear': loop = { on: false, a: null, b: null, label: '' }; paintLoop(); break;
-      case 'offMinus': case 'offPlus':
-        offset = Math.round((offset + (act === 'offPlus' ? 0.05 : -0.05)) * 100) / 100;
-        store.set(key('offset'), offset); paintOffset(); rebuild(); break;
       case 'metro': settings.metronome = !settings.metronome; saveSettings(settings); paintToggles(); break;
-      case 'sync': startRecorder(); break;
-      case 'lyrics': openLyrics(); break;
+      case 'sync': openSync(); break;
+      case 'record': startRecorder(); break;
+      case 'info': openInfo(); break;
       case 'settings': openSettings(); break;
     }
   });
@@ -419,13 +451,45 @@ export async function openPlayer(root, song) {
   function openSettings() {
     const dlg = $('.dlg-settings');
     const f = dlg.querySelector('form');
+    const keys = ['leftHanded', 'highStringOnTop', 'showNoteNames', 'autoScroll'];
     f.notation.value = settings.notation;
-    for (const k of ['leftHanded', 'highStringOnTop', 'showNoteNames', 'autoScroll']) f[k].checked = settings[k];
+    for (const k of keys) f[k].checked = settings[k];
     f.onchange = () => {
       settings.notation = f.notation.value;
-      for (const k of ['leftHanded', 'highStringOnTop', 'showNoteNames', 'autoScroll']) settings[k] = f[k].checked;
+      for (const k of keys) settings[k] = f[k].checked;
       saveSettings(settings);
       rebuild();
+      lastIdx = -2;
+    };
+    dlg.showModal();
+  }
+
+  function openSync() {
+    const dlg = $('.dlg-sync');
+    const paint = () => {
+      dlg.querySelector('.out-chords').textContent = signed(offset);
+      dlg.querySelector('.out-lyrics').textContent = signed(lyricsOffset);
+    };
+    paint();
+    dlg.onclick = async (e) => {
+      const step = e.target.closest('[data-step]')?.dataset.step;
+      if (step) {
+        const [what, v] = step.split(':');
+        if (what === 'chords') {
+          offset = Math.round((offset + Number(v)) * 100) / 100;
+          store.set(key('offset'), offset);
+          rebuild();
+        } else {
+          lyricsOffset = Math.round((lyricsOffset + Number(v)) * 100) / 100;
+          store.set(key('lyricsOffset'), lyricsOffset);
+          renderPanel();
+        }
+        paint();
+      }
+      const act = e.target.closest('[data-sync]')?.dataset.sync;
+      if (act === 'paste') { dlg.close(); openLyrics(); }
+      if (act === 'reload') { clearLyricsCache(song); dlg.close(); loadLyrics(); }
+      if (act === 'resetTimes') { store.remove(key('sync')); sync = song.sync ?? null; rebuild(); dlg.close(); }
     };
     dlg.showModal();
   }
@@ -433,13 +497,47 @@ export async function openPlayer(root, song) {
   function openLyrics() {
     const dlg = $('.dlg-lyrics');
     const f = dlg.querySelector('form');
-    f.text.value = lyrics.join('\n\n');
+    f.text.value = store.get(key('lrc'), null) ?? plainLyrics.join('\n\n');
     dlg.onclose = () => {
       if (dlg.returnValue !== 'save') return;
-      lyrics = f.text.value.replace(/\r/g, '').split(/\n\s*\n/).map((b) => b.trim()).filter(Boolean);
-      store.set(key('lyrics'), lyrics);
+      const text = f.text.value.trim();
+      store.remove(key('lrc'));
+      plainLyrics = [];
+      if (looksLikeLrc(text)) store.set(key('lrc'), text);
+      else if (text) plainLyrics = text.replace(/\r/g, '').split(/\n\s*\n/).map((b) => b.trim()).filter(Boolean);
+      store.set(key('lyrics'), plainLyrics);
+      if (plainLyrics.length) panelTab = 'chords';
+      loadLyrics();
       rebuild();
     };
+    dlg.showModal();
+  }
+
+  function openInfo() {
+    const dlg = $('.dlg-info');
+    dlg.querySelector('h3').textContent = `${song.title} · ${song.artist}`;
+    const body = dlg.querySelector('.info-body');
+    body.replaceChildren();
+    const dl = document.createElement('dl');
+    const rows = [
+      ['Album', song.album], ['Anno', song.year], ['Genere', song.genre], ['Tonalità', song.key], ['BPM', song.bpm],
+      ['Tempo', song.timeSignature?.join('/')], ['Capotasto', song.capo ? `${song.capo}° tasto` : 'nessuno'],
+      ['Accordatura', song.tuning ?? 'Standard (E A D G B E)'],
+    ];
+    for (const [k, v] of rows) {
+      if (v == null || v === '') continue;
+      const dt = document.createElement('dt'); dt.textContent = k;
+      const dd = document.createElement('dd'); dd.textContent = v;
+      dl.append(dt, dd);
+    }
+    body.append(dl);
+    for (const note of [song.notes, song.syncNote].filter(Boolean)) {
+      const p = document.createElement('p'); p.className = 'hint'; p.textContent = note; body.append(p);
+    }
+    const credit = document.createElement('p');
+    credit.className = 'hint';
+    credit.innerHTML = 'Testo sincronizzato fornito da <a href="https://lrclib.net" target="_blank" rel="noopener">LRCLIB</a>, scaricato al momento e non incluso nell\'app.';
+    body.append(credit);
     dlg.showModal();
   }
 
@@ -467,54 +565,50 @@ export async function openPlayer(root, song) {
     const t = clock.getTime();
     const dur = totalDuration();
 
-    if (loop.on && loop.a != null && loop.b != null && t >= loop.b && performance.now() - lastSeekAt > 300) {
-      seek(loop.a);
-    }
+    if (loop.on && loop.a != null && loop.b != null && t >= loop.b && performance.now() - lastSeekAt > 300) seek(loop.a);
 
     const idx = eventIndexAt(tl, t);
     const { bar, beat } = beatAt(tl, t);
-    fretboard.render(t, tl, idx, settings, clock.getRate());
-    sheet.update(bar, settings);
+    fretboard.render(t, tl, idx, settings, clock.playing);
+    if (panelTab === 'lyrics' && synced?.lines.length) karaoke.update(t, settings);
+    else sheet.update(bar, settings);
 
+    const cur = tl.events[idx];
+    const nxt = tl.events[idx + 1] ?? (idx < 0 ? tl.events[0] : null);
     if (idx !== lastIdx) {
       lastIdx = idx;
-      const cur = tl.events[idx];
-      const nxt = tl.events[idx + 1] ?? (idx < 0 ? tl.events[0] : null);
       hudNow.textContent = cur ? displayChord(cur.name, settings.notation) : '—';
-      hudNow.style.color = cur ? chordColor(cur.name) : '';
+      hudNow.style.setProperty('--c', cur ? chordColor(cur.name) : '#fff');
       hudNext.textContent = nxt ? displayChord(nxt.name, settings.notation) : 'Fine';
-      hudNext.style.color = nxt ? chordColor(nxt.name) : '';
-      sectionName.textContent = cur ? tl.sections[cur.section].name : 'Intro';
+      hudNext.style.setProperty('--c', nxt ? chordColor(nxt.name) : '#fff');
+      sectionName.textContent = cur ? tl.sections[cur.section].name : tl.sections[0]?.name ?? '';
       hudNow.classList.remove('bump');
       void hudNow.offsetWidth;
       hudNow.classList.add('bump');
     }
-
-    const nxt = tl.events[idx + 1] ?? (idx < 0 ? tl.events[0] : null);
     if (nxt) {
-      const beatsLeft = Math.ceil((nxt.start - t) / (bar >= 0 ? (tl.bars[bar].end - tl.bars[bar].start) / tl.bpb : tl.beatDur) - 0.001);
-      countdown.textContent = beatsLeft <= tl.bpb * 2 ? `tra ${beatsLeft} ${beatsLeft === 1 ? 'battito' : 'battiti'}` : '';
-      countdown.classList.toggle('soon', beatsLeft <= 1);
+      const bd = bar >= 0 && tl.bars[bar] ? (tl.bars[bar].end - tl.bars[bar].start) / tl.bpb : tl.beatDur;
+      const left = Math.ceil((nxt.start - t) / bd - 0.001);
+      countdown.textContent = left <= tl.bpb * 2 ? `tra ${left}` : '';
+      countdown.classList.toggle('soon', left <= 1);
     } else countdown.textContent = '';
 
     const beatInt = Math.floor(beat);
-    const beatDots = beatsEl.children;
-    for (let i = 0; i < beatDots.length; i++) beatDots[i].classList.toggle('on', bar >= 0 && i === beatInt);
+    const dots = beatsEl.children;
+    for (let i = 0; i < dots.length; i++) dots[i].classList.toggle('on', bar >= 0 && i === beatInt);
     const slots = strumEl.children;
     if (slots.length) {
-      const pos = bar >= 0 ? Math.floor(((beat / tl.bpb) * slots.length)) : -1;
+      const pos = bar >= 0 ? Math.floor((beat / tl.bpb) * slots.length) : -1;
       for (let i = 0; i < slots.length; i++) slots[i].classList.toggle('on', i === pos);
     }
-
-    if (settings.metronome && clock.playing && bar >= 0) {
+    if (settings.metronome && clock.playing && bar >= 0 && beatInt >= 0) {
       const k = `${bar}:${beatInt}`;
-      if (k !== lastBeatKey) {
-        lastBeatKey = k;
-        click(beatInt === 0);
-      }
+      if (k !== lastBeatKey) { lastBeatKey = k; click(beatInt === 0); }
     }
 
-    scrubHead.style.left = `${Math.min(100, (t / dur) * 100)}%`;
+    const pct = `${Math.min(100, (t / dur) * 100)}%`;
+    scrubHead.style.left = pct;
+    scrubFill.style.width = pct;
     const text = fmt(t);
     if (text !== lastTimeText) {
       lastTimeText = text;

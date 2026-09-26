@@ -1,278 +1,422 @@
-// Disegno su canvas: "autostrada" degli accordi in arrivo + manico con la diteggiatura animata.
+// Palco in stile Rocksmith su canvas 2D con prospettiva:
+// - in basso il manico visto di fronte (dove si suona "adesso");
+// - dietro, una corsia in profondità da cui arrivano le cornici degli accordi con le gemme
+//   colorate sulle corde e sui tasti giusti, che si posano sul manico nel momento del cambio.
 import { getShape, displayChord, chordColor, STRING_COLORS, noteName, fretNote } from './music.js';
-import { beatAt } from './timeline.js';
+import { beatsBetween } from './timeline.js';
 
 const INLAYS = [3, 5, 7, 9, 15, 17, 19, 21];
 const DOUBLE_INLAYS = [12, 24];
-const LOOKAHEAD_SEC = 6;
+const LOOKAHEAD = 4.2; // secondi visibili sulla corsia
+const FAR_SCALE = 0.3; // scala della cornice più lontana
 
 const ease = (x) => (x < 0.5 ? 2 * x * x : 1 - Math.pow(-2 * x + 2, 2) / 2);
 const clamp = (x, a, b) => Math.max(a, Math.min(b, x));
+
+function alpha(color, a) {
+  // hsl(h s% l%) → hsl(h s% l% / a)
+  return color.startsWith('hsl(') ? color.replace(')', ` / ${a})`) : color;
+}
 
 export class Fretboard {
   constructor(canvas) {
     this.canvas = canvas;
     this.ctx = canvas.getContext('2d');
-    this.camStart = 0; // primo tasto visibile (animato)
+    this.camStart = 0;
     this.customShapes = null;
+    this.particles = [];
+    this.vibration = [0, 0, 0, 0, 0, 0];
+    this.lastIdx = -2;
+    this.lastFrame = performance.now();
     this._ro = new ResizeObserver(() => this.resize());
     this._ro.observe(canvas);
     this.resize();
   }
 
   resize() {
-    const dpr = window.devicePixelRatio || 1;
+    const dpr = Math.min(2, window.devicePixelRatio || 1);
     const r = this.canvas.getBoundingClientRect();
     this.w = Math.max(1, r.width);
     this.h = Math.max(1, r.height);
     this.canvas.width = Math.round(this.w * dpr);
     this.canvas.height = Math.round(this.h * dpr);
     this.ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    this.bg = null;
   }
 
   destroy() { this._ro.disconnect(); }
 
   shape(name) { return name ? getShape(name, this.customShapes) : null; }
 
-  render(t, tl, idx, settings, rate = 1) {
+  render(t, tl, idx, settings, playing) {
+    const now = performance.now();
+    const dt = Math.min(0.05, (now - this.lastFrame) / 1000);
+    this.lastFrame = now;
     const { ctx, w, h } = this;
-    ctx.clearRect(0, 0, w, h);
-    const hwH = Math.round(clamp(h * 0.3, 44, 84));
-    this.drawHighway(t, tl, idx, settings, 0, hwH, rate);
-    this.drawNeck(t, tl, idx, settings, hwH + 6, h - hwH - 6);
-  }
 
-  // ---------- Autostrada: blocchi accordo che scorrono verso la linea "adesso" ----------
-  drawHighway(t, tl, idx, settings, y, hh, rate) {
-    const { ctx, w } = this;
-    const nowX = Math.round(w * 0.16);
-    const window = LOOKAHEAD_SEC * Math.max(0.5, Math.min(1, rate));
-    const pps = (w - nowX) / window;
+    // ---- geometria ----
+    const narrow = w < 560;
+    const span = narrow ? 6 : w < 900 ? 9 : 12;
+    const neckH = clamp(h * 0.36, 92, 150);
+    const numH = 18;
+    const neckBottom = h - numH;
+    const neckTop = neckBottom - neckH;
+    const openW = 30;
+    const left = openW + 10;
+    const right = 12;
+    const fretW = (w - left - right) / span;
     const mirror = settings.leftHanded;
     const X = (x) => (mirror ? w - x : x);
-
-    const bg = ctx.createLinearGradient(0, y, 0, y + hh);
-    bg.addColorStop(0, '#12161f');
-    bg.addColorStop(1, '#1b2130');
-    ctx.fillStyle = bg;
-    ctx.fillRect(0, y, w, hh);
-
-    // Battute e battiti
-    const tStart = t - nowX / pps;
-    const tEnd = t + window;
-    for (const bar of tl.bars) {
-      if (bar.end < tStart) continue;
-      if (bar.start > tEnd) break;
-      const bd = (bar.end - bar.start) / tl.bpb;
-      for (let b = 0; b < tl.bpb; b++) {
-        const bt = bar.start + b * bd;
-        const x = nowX + (bt - t) * pps;
-        if (x < 0 || x > w) continue;
-        ctx.strokeStyle = b === 0 ? 'rgba(255,255,255,0.35)' : 'rgba(255,255,255,0.10)';
-        ctx.lineWidth = b === 0 ? 2 : 1;
-        ctx.beginPath();
-        ctx.moveTo(X(x), y + (b === 0 ? 0 : hh * 0.72));
-        ctx.lineTo(X(x), y + hh);
-        ctx.stroke();
-      }
-    }
-
-    // Blocchi accordo
-    const pad = 6;
-    for (let i = Math.max(0, idx - 1); i < tl.events.length; i++) {
-      const ev = tl.events[i];
-      if (ev.start > tEnd) break;
-      let x0 = nowX + (ev.start - t) * pps;
-      let x1 = nowX + (ev.end - t) * pps;
-      if (x1 < 0) continue;
-      const active = i === idx;
-      const color = chordColor(ev.name);
-      const bx0 = Math.max(x0, active ? nowX : x0) + 2;
-      const bx1 = x1 - 2;
-      if (bx1 - bx0 < 2) continue;
-      ctx.globalAlpha = active ? 1 : 0.85;
-      ctx.fillStyle = color;
-      roundRect(ctx, mirror ? w - bx1 : bx0, y + pad, bx1 - bx0, hh * 0.62 - pad, 7);
-      ctx.fill();
-      ctx.globalAlpha = 1;
-      // Bordo d'attacco: il momento esatto del cambio accordo
-      if (x0 >= nowX - 1) {
-        ctx.fillStyle = '#fff';
-        ctx.fillRect(X(x0 + 1) - 1.5, y + pad, 3, hh * 0.62 - pad);
-      }
-      const label = displayChord(ev.name, settings.notation);
-      ctx.font = `700 ${Math.round(hh * 0.28)}px system-ui, sans-serif`;
-      ctx.fillStyle = '#0b0d12';
-      ctx.textBaseline = 'middle';
-      const tw = ctx.measureText(label).width;
-      if (bx1 - bx0 > tw + 10) {
-        ctx.textAlign = 'left';
-        const lx = mirror ? w - bx1 + 8 : bx0 + 8;
-        ctx.fillText(label, lx, y + pad + (hh * 0.62 - pad) / 2);
-      }
-    }
-
-    // Linea "adesso"
-    const pulse = this.beatPulse(t, tl);
-    ctx.fillStyle = `rgba(255,255,255,${0.55 + 0.45 * pulse})`;
-    ctx.fillRect(X(nowX) - 2, y, 4, hh);
-    ctx.shadowColor = '#fff';
-    ctx.shadowBlur = 10 * pulse;
-    ctx.fillRect(X(nowX) - 1, y, 2, hh);
-    ctx.shadowBlur = 0;
-  }
-
-  beatPulse(t, tl) {
-    const { beat } = beatAt(tl, t);
-    if (!(beat >= 0)) return 0;
-    const frac = beat - Math.floor(beat);
-    return Math.max(0, 1 - frac * 3);
-  }
-
-  // ---------- Manico ----------
-  drawNeck(t, tl, idx, settings, y, nh) {
-    const { ctx, w } = this;
     const cur = tl.events[idx] ?? null;
     const next = tl.events[idx + 1] ?? (idx < 0 ? tl.events[0] : null);
     const shapeA = this.shape(cur?.name);
     const shapeB = this.shape(next?.name);
 
-    // Transizione nell'ultimo battito prima del cambio
-    let p = 0;
-    if (next && cur) {
-      const bd = (cur.end - cur.start) / Math.max(1, cur.beats);
-      const morph = Math.min(bd, 0.6);
-      p = ease(clamp((t - (next.start - morph)) / morph, 0, 1));
-    }
-
-    // Finestra dei tasti da mostrare (la "telecamera" segue la diteggiatura)
-    const span = w < 520 ? 6 : w < 860 ? 9 : 12;
     const target = this.cameraTarget([shapeA, shapeB], span);
-    this.camStart += (target - this.camStart) * 0.08;
-    if (Math.abs(target - this.camStart) < 0.01) this.camStart = target;
+    this.camStart += (target - this.camStart) * Math.min(1, dt * 5);
+    if (Math.abs(target - this.camStart) < 0.005) this.camStart = target;
     const f0 = this.camStart;
-
-    const openW = 30;
-    const left = openW + 8;
-    const right = 10;
-    const topPad = 8;
-    const bottomPad = 20;
-    const neckTop = y + topPad;
-    const neckH = nh - topPad - bottomPad;
-    const fretW = (w - left - right) / span;
-    const mirror = settings.leftHanded;
-    const X = (x) => (mirror ? w - x : x);
-    const fretX = (f) => left + (f - f0) * fretW; // linea del tasto f (f=0: capotasto)
+    const fretX = (f) => left + (f - f0) * fretW;
     const noteX = (f) => (f === 0 ? openW / 2 + 2 : fretX(f - 0.5));
     const stringY = (s) => {
       const k = settings.highStringOnTop ? 5 - s : s;
-      return neckTop + neckH * (0.08 + (0.84 * k) / 5);
+      return neckTop + neckH * (0.13 + (0.74 * k) / 5);
+    };
+    const yTop = Math.min(stringY(0), stringY(5));
+    const yBot = Math.max(stringY(0), stringY(5));
+
+    const vpX = w / 2;
+    const vpY = -h * 0.04;
+    const kz = (1 / FAR_SCALE - 1) / LOOKAHEAD;
+    const P = (x, y, d) => {
+      const s = 1 / (1 + kz * d);
+      return [vpX + (x - vpX) * s, vpY + (y - vpY) * s, s];
     };
 
-    // Legno del manico
+    // ---- effetti al cambio accordo ----
+    if (idx !== this.lastIdx) {
+      if (cur && shapeA && playing && t - cur.start < 0.25) {
+        for (let s = 0; s < 6; s++) {
+          const f = shapeA.frets[s];
+          if (f === null) continue;
+          this.vibration[s] = 1;
+          this.burst(X(noteX(f)), stringY(s), STRING_COLORS[s], f === 0 ? 4 : 10);
+        }
+      }
+      this.lastIdx = idx;
+    }
+    this.vibration = this.vibration.map((v) => Math.max(0, v - dt * 2.2));
+
+    // ---- sfondo ----
+    this.drawBackground(vpX, neckTop);
+
+    // ---- corsia ----
+    const laneL = X(fretX(Math.floor(f0)));
+    const laneR = X(fretX(Math.floor(f0) + span + 1));
     ctx.save();
     ctx.beginPath();
-    ctx.rect(mirror ? right : left, neckTop, w - left - right, neckH);
+    ctx.rect(0, 0, w, neckTop);
     ctx.clip();
-    const wood = ctx.createLinearGradient(0, neckTop, 0, neckTop + neckH);
-    wood.addColorStop(0, '#2a1d14');
-    wood.addColorStop(0.5, '#3a281b');
-    wood.addColorStop(1, '#241810');
-    ctx.fillStyle = wood;
-    ctx.fillRect(0, neckTop, w, neckH);
 
-    const firstFret = Math.floor(f0);
-    for (let f = firstFret; f <= firstFret + span + 1; f++) {
+    // zona evidenziata sui tasti del prossimo accordo
+    const zoneShape = shapeB ?? shapeA;
+    if (zoneShape) {
+      const [lo, hi] = fretRange(zoneShape);
+      const c = chordColor((shapeB ? next : cur).name);
+      const a0 = P(X(fretX(lo - 1)), neckTop, 0);
+      const a1 = P(X(fretX(hi)), neckTop, 0);
+      const b0 = P(X(fretX(lo - 1)), neckTop, LOOKAHEAD);
+      const b1 = P(X(fretX(hi)), neckTop, LOOKAHEAD);
+      const g = ctx.createLinearGradient(0, a0[1], 0, b0[1]);
+      g.addColorStop(0, alpha(c, 0.22));
+      g.addColorStop(1, alpha(c, 0));
+      ctx.fillStyle = g;
+      ctx.beginPath();
+      ctx.moveTo(a0[0], a0[1]); ctx.lineTo(a1[0], a1[1]); ctx.lineTo(b1[0], b1[1]); ctx.lineTo(b0[0], b0[1]);
+      ctx.closePath();
+      ctx.fill();
+    }
+
+    // linee dei tasti che si perdono all'orizzonte
+    for (let f = Math.floor(f0); f <= Math.floor(f0) + span + 1; f++) {
+      const a = P(X(fretX(f)), neckTop, 0);
+      const b = P(X(fretX(f)), neckTop, LOOKAHEAD);
+      const g = ctx.createLinearGradient(0, a[1], 0, b[1]);
+      g.addColorStop(0, 'rgba(140,160,255,0.35)');
+      g.addColorStop(1, 'rgba(140,160,255,0)');
+      ctx.strokeStyle = g;
+      ctx.lineWidth = f === 0 ? 2 : 1;
+      ctx.beginPath(); ctx.moveTo(a[0], a[1]); ctx.lineTo(b[0], b[1]); ctx.stroke();
+    }
+
+    // griglia ritmica: battiti che scorrono verso il manico
+    for (const b of beatsBetween(tl, t, t + LOOKAHEAD)) {
+      const d = b.t - t;
+      const p0 = P(laneL, neckTop, d);
+      const p1 = P(laneR, neckTop, d);
+      const fade = 1 - d / LOOKAHEAD;
+      ctx.strokeStyle = b.downbeat ? `rgba(255,255,255,${0.55 * fade})` : `rgba(160,170,255,${0.22 * fade})`;
+      ctx.lineWidth = (b.downbeat ? 3 : 1.2) * p0[2];
+      ctx.beginPath(); ctx.moveTo(p0[0], p0[1]); ctx.lineTo(p1[0], p1[1]); ctx.stroke();
+    }
+
+    // cornici in arrivo: piene ai cambi accordo, "fantasma" sulle battute in cui l'accordo prosegue
+    const upcoming = [];
+    for (let i = Math.max(0, idx); i < tl.events.length; i++) {
+      const ev = tl.events[i];
+      const d = ev.start - t;
+      if (d > LOOKAHEAD) break;
+      if (d > 0) upcoming.push({ ev, d, ghost: false });
+    }
+    for (const bar of tl.bars) {
+      if (bar.start > t + LOOKAHEAD) break;
+      if (bar.start <= t || bar.chords.length || !bar.held) continue;
+      upcoming.push({ ev: bar.held, d: bar.start - t, ghost: true });
+    }
+    upcoming.sort((a, b) => b.d - a.d);
+    const geo = { P, X, noteX, fretX, stringY, yTop, yBot };
+    for (const u of upcoming) this.drawChordFrame(u.ev, u.d, settings, geo, u.ghost);
+    ctx.restore();
+
+    // ---- manico ----
+    this.drawNeck({ X, fretX, stringY, neckTop, neckBottom, neckH, left, right, f0, span, mirror, openW, t });
+
+    // ---- diteggiatura corrente con transizione verso la successiva ----
+    let p = 0;
+    if (next && cur) {
+      const bd = (cur.end - cur.start) / Math.max(1, cur.beats);
+      const morph = Math.min(bd, 0.55);
+      p = ease(clamp((t - (next.start - morph)) / morph, 0, 1));
+    }
+    if (!shapeA && cur) this.unknown(cur.name, settings, neckTop + neckH / 2);
+    this.drawFingering(shapeA, shapeB, p, t, cur, settings, { X, noteX, stringY, openW });
+
+    // ---- particelle ----
+    this.drawParticles(dt);
+  }
+
+  drawBackground(vpX, horizon) {
+    const { ctx, w, h } = this;
+    if (!this.bg || this.bg.w !== w || this.bg.h !== h) {
+      const g = ctx.createLinearGradient(0, 0, 0, h);
+      g.addColorStop(0, '#05040c');
+      g.addColorStop(0.55, '#0c0a1d');
+      g.addColorStop(1, '#07060f');
+      const r = ctx.createRadialGradient(vpX, 0, 10, vpX, 0, Math.max(w, h) * 0.7);
+      r.addColorStop(0, 'rgba(124, 92, 255, 0.28)');
+      r.addColorStop(0.5, 'rgba(34, 211, 238, 0.06)');
+      r.addColorStop(1, 'rgba(0,0,0,0)');
+      this.bg = { w, h, g, r };
+    }
+    ctx.fillStyle = this.bg.g;
+    ctx.fillRect(0, 0, w, h);
+    ctx.fillStyle = this.bg.r;
+    ctx.fillRect(0, 0, w, horizon);
+  }
+
+  drawChordFrame(ev, d, settings, geo, ghost = false) {
+    const { ctx } = this;
+    const { P, X, noteX, fretX, stringY, yTop, yBot } = geo;
+    const shape = this.shape(ev.name);
+    const color = chordColor(ev.name);
+    const fadeIn = clamp((LOOKAHEAD - d) / 0.7, 0, 1);
+    const [lo, hi] = shape ? fretRange(shape) : [1, 4];
+    let xa = X(fretX(lo - 1) + 3);
+    let xb = X(fretX(hi) - 3);
+    if (xa > xb) [xa, xb] = [xb, xa];
+    const a = P(xa, yTop - 16, d);
+    const b = P(xb, yBot + 16, d);
+    const s = a[2];
+
+    if (ghost) {
+      ctx.globalAlpha = fadeIn * 0.55;
+      ctx.setLineDash([6 * s, 6 * s]);
+      ctx.lineWidth = Math.max(1, 2 * s);
+      ctx.strokeStyle = color;
+      roundRect(ctx, a[0], a[1], b[0] - a[0], b[1] - a[1], 10 * s);
+      ctx.stroke();
+      ctx.setLineDash([]);
+      ctx.globalAlpha = 1;
+      return;
+    }
+    ctx.globalAlpha = fadeIn;
+    ctx.fillStyle = alpha(color, 0.12);
+    roundRect(ctx, a[0], a[1], b[0] - a[0], b[1] - a[1], 10 * s);
+    ctx.fill();
+    ctx.lineWidth = Math.max(1, 3 * s);
+    ctx.strokeStyle = color;
+    if (d < 1.4) { ctx.shadowColor = color; ctx.shadowBlur = 16 * s; }
+    ctx.stroke();
+    ctx.shadowBlur = 0;
+
+    if (shape) {
+      for (let st = 0; st < 6; st++) {
+        const f = shape.frets[st];
+        if (f === null) continue;
+        const y = stringY(st);
+        if (f === 0) {
+          const l = P(xa + 6, y, d);
+          const r = P(xb - 6, y, d);
+          ctx.strokeStyle = STRING_COLORS[st];
+          ctx.lineWidth = Math.max(1, 4 * s);
+          ctx.beginPath(); ctx.moveTo(l[0], l[1]); ctx.lineTo(r[0], r[1]); ctx.stroke();
+        } else {
+          const g = P(X(noteX(f)), y, d);
+          gem(ctx, g[0], g[1], 11 * s, STRING_COLORS[st]);
+        }
+      }
+    }
+    const fs = Math.round(11 + 16 * s);
+    ctx.font = `700 ${fs}px Rajdhani, system-ui, sans-serif`;
+    ctx.textAlign = 'left';
+    ctx.textBaseline = 'bottom';
+    ctx.fillStyle = color;
+    ctx.fillText(displayChord(ev.name, settings.notation), a[0] + 2, a[1] - 3 * s);
+    ctx.globalAlpha = 1;
+  }
+
+  drawNeck(g) {
+    const { ctx, w } = this;
+    const { X, fretX, stringY, neckTop, neckBottom, neckH, left, right, f0, span, mirror, openW, t } = g;
+    const x0 = mirror ? right : left - 4;
+    const x1 = mirror ? w - left + 4 : w - right;
+
+    // corpo del manico
+    const body = ctx.createLinearGradient(0, neckTop, 0, neckBottom);
+    body.addColorStop(0, '#171325');
+    body.addColorStop(0.5, '#1f1a31');
+    body.addColorStop(1, '#120f1d');
+    ctx.fillStyle = body;
+    ctx.fillRect(x0, neckTop, x1 - x0, neckH);
+    // bordi al neon
+    ctx.shadowColor = '#22d3ee';
+    ctx.shadowBlur = 12;
+    ctx.fillStyle = '#22d3ee';
+    ctx.fillRect(x0, neckTop - 1, x1 - x0, 2);
+    ctx.shadowColor = '#7c5cff';
+    ctx.fillStyle = '#7c5cff';
+    ctx.fillRect(x0, neckBottom - 1, x1 - x0, 2);
+    ctx.shadowBlur = 0;
+
+    ctx.save();
+    ctx.beginPath();
+    ctx.rect(x0, neckTop, x1 - x0, neckH);
+    ctx.clip();
+    const first = Math.floor(f0);
+    for (let f = first; f <= first + span + 1; f++) {
       if (f < 0) continue;
       const cx = X(fretX(f - 0.5));
-      if (INLAYS.includes(f)) dot(ctx, cx, neckTop + neckH / 2, 5, 'rgba(230,220,200,0.35)');
+      if (INLAYS.includes(f)) inlay(ctx, cx, neckTop + neckH / 2);
       if (DOUBLE_INLAYS.includes(f)) {
-        dot(ctx, cx, neckTop + neckH * 0.3, 5, 'rgba(230,220,200,0.35)');
-        dot(ctx, cx, neckTop + neckH * 0.7, 5, 'rgba(230,220,200,0.35)');
+        inlay(ctx, cx, neckTop + neckH * 0.3);
+        inlay(ctx, cx, neckTop + neckH * 0.7);
       }
       const fx = X(fretX(f));
-      ctx.fillStyle = f === 0 ? '#efe6d2' : '#9aa0a8';
-      ctx.fillRect(fx - (f === 0 ? 3 : 1), neckTop, f === 0 ? 6 : 2, neckH);
+      if (f === 0) {
+        ctx.fillStyle = '#f1ecff';
+        ctx.fillRect(fx - 3, neckTop, 6, neckH);
+      } else {
+        const m = ctx.createLinearGradient(fx - 2, 0, fx + 2, 0);
+        m.addColorStop(0, '#5b6070');
+        m.addColorStop(0.5, '#d9dde6');
+        m.addColorStop(1, '#5b6070');
+        ctx.fillStyle = m;
+        ctx.fillRect(fx - 1.5, neckTop, 3, neckH);
+      }
     }
     ctx.restore();
 
-    // Numeri dei tasti
-    ctx.font = '600 11px system-ui, sans-serif';
+    // corde (vibrano quando l'accordo viene suonato)
+    for (let s = 0; s < 6; s++) {
+      const y = stringY(s);
+      const thick = 1.2 + (5 - s) * 0.35;
+      const v = this.vibration[s];
+      ctx.strokeStyle = STRING_COLORS[s];
+      ctx.lineWidth = thick;
+      ctx.shadowColor = STRING_COLORS[s];
+      ctx.shadowBlur = 4 + 10 * v;
+      ctx.beginPath();
+      const sx = mirror ? 0 : left - 6;
+      const ex = mirror ? w - left + 6 : w;
+      if (v > 0.02) {
+        const amp = v * 2.6;
+        for (let x = sx; x <= ex; x += 8) {
+          const yy = y + Math.sin(x * 0.09 + t * 70 + s) * amp * Math.sin(((x - sx) / (ex - sx)) * Math.PI);
+          x === sx ? ctx.moveTo(x, yy) : ctx.lineTo(x, yy);
+        }
+      } else {
+        ctx.moveTo(sx, y);
+        ctx.lineTo(ex, y);
+      }
+      ctx.stroke();
+    }
+    ctx.shadowBlur = 0;
+
+    // numeri dei tasti
+    ctx.font = '600 12px Rajdhani, system-ui, sans-serif';
     ctx.textAlign = 'center';
     ctx.textBaseline = 'top';
-    for (let f = Math.max(1, firstFret); f <= firstFret + span + 1; f++) {
+    for (let f = Math.max(1, first); f <= first + span + 1; f++) {
       const cx = fretX(f - 0.5);
       if (cx < left || cx > w - right) continue;
-      ctx.fillStyle = INLAYS.includes(f) || DOUBLE_INLAYS.includes(f) ? '#e6e9ef' : '#7d8594';
-      ctx.fillText(String(f), X(cx), neckTop + neckH + 4);
+      const mark = INLAYS.includes(f) || DOUBLE_INLAYS.includes(f);
+      ctx.fillStyle = mark ? '#e9e6ff' : '#6f6a8a';
+      ctx.fillText(String(f), X(cx), neckBottom + 3);
     }
+    // colonna delle corde a vuoto
+    ctx.fillStyle = 'rgba(255,255,255,0.03)';
+    ctx.fillRect(mirror ? w - openW : 0, neckTop, openW, neckH);
+  }
 
-    // Corde
-    for (let s = 0; s < 6; s++) {
-      const sy = stringY(s);
-      ctx.fillStyle = STRING_COLORS[s];
-      ctx.globalAlpha = 0.9;
-      ctx.fillRect(mirror ? 0 : left - 4, sy - (1 + (5 - s) * 0.25), w - left + 4, 2 + (5 - s) * 0.5);
-      ctx.globalAlpha = 1;
-    }
-
-    if (!shapeA && !shapeB) {
-      if (cur && !shapeA) this.unknown(cur.name, settings, y + nh / 2);
-      return;
-    }
-
-    // Anteprima dell'accordo successivo (fantasma)
+  drawFingering(shapeA, shapeB, p, t, cur, settings, geo) {
+    const { X, noteX, stringY, openW } = geo;
+    const { ctx } = this;
+    // anteprima tratteggiata del prossimo accordo
     if (shapeB && p < 1) {
-      ctx.globalAlpha = 0.35 * (1 - p);
+      ctx.globalAlpha = 0.45 * (1 - p);
       for (let s = 0; s < 6; s++) {
         const f = shapeB.frets[s];
         if (f === null || f === 0) continue;
-        ring(ctx, X(noteX(f)), stringY(s), 11, STRING_COLORS[s]);
+        ring(ctx, X(noteX(f)), stringY(s), 12, STRING_COLORS[s]);
       }
       ctx.globalAlpha = 1;
     }
-
-    // Barré
-    const drawBarres = (shape, alpha) => {
-      if (!shape || alpha <= 0) return;
-      ctx.globalAlpha = alpha * 0.55;
+    const barres = (shape, a) => {
+      if (!shape || a <= 0.01) return;
+      ctx.globalAlpha = a * 0.5;
+      ctx.fillStyle = '#e9e6ff';
       for (const b of shape.barres) {
         const bx = X(noteX(b.fret));
         const y1 = stringY(b.from);
         const y2 = stringY(b.to);
-        ctx.fillStyle = '#f5f7fb';
-        roundRect(ctx, bx - 7, Math.min(y1, y2) - 7, 14, Math.abs(y2 - y1) + 14, 7);
+        roundRect(ctx, bx - 8, Math.min(y1, y2) - 8, 16, Math.abs(y2 - y1) + 16, 8);
         ctx.fill();
       }
       ctx.globalAlpha = 1;
     };
-    drawBarres(shapeA, 1 - p);
-    drawBarres(shapeB, p);
+    barres(shapeA, 1 - p);
+    barres(shapeB, p);
 
-    // Dita: interpolazione fra la posizione attuale e quella successiva
-    const flash = cur ? Math.max(0, 1 - (t - cur.start) / 0.25) : 0;
+    const flash = cur ? Math.max(0, 1 - (t - cur.start) / 0.3) : 0;
     for (let s = 0; s < 6; s++) {
       const a = shapeA?.frets[s];
       const b = shapeB?.frets[s];
       const aOn = a != null && a > 0;
       const bOn = b != null && b > 0;
-      const sy = stringY(s);
+      const y = stringY(s);
       if (aOn && bOn) {
         const x = noteX(a) + (noteX(b) - noteX(a)) * p;
-        const finger = p < 0.5 ? shapeA.fingers[s] : shapeB.fingers[s];
-        const fret = p < 0.5 ? a : b;
-        this.fingerDot(X(x), sy, s, finger, fret, settings, 1, flash);
+        this.fingerGem(X(x), y, s, p < 0.5 ? shapeA.fingers[s] : shapeB.fingers[s], p < 0.5 ? a : b, settings, 1, flash);
       } else {
-        if (aOn) this.fingerDot(X(noteX(a)), sy, s, shapeA.fingers[s], a, settings, 1 - p, flash);
-        if (bOn) this.fingerDot(X(noteX(b)), sy, s, shapeB.fingers[s], b, settings, p, 0);
+        if (aOn) this.fingerGem(X(noteX(a)), y, s, shapeA.fingers[s], a, settings, 1 - p, flash);
+        if (bOn) this.fingerGem(X(noteX(b)), y, s, shapeB.fingers[s], b, settings, p, 0);
       }
-      // Indicatori a vuoto / non suonare
-      const markerFor = (shape) => (shape ? (shape.frets[s] === null ? 'x' : shape.frets[s] === 0 ? 'o' : null) : null);
-      const mA = markerFor(shapeA);
-      const mB = markerFor(shapeB);
+      const marker = (shape) => (shape ? (shape.frets[s] === null ? 'x' : shape.frets[s] === 0 ? 'o' : null) : null);
       const mx = X(openW / 2 + 2);
-      if (mA) this.marker(mx, sy, mA, s, 1 - p);
-      if (mB) this.marker(mx, sy, mB, s, p);
+      const mA = marker(shapeA);
+      const mB = marker(shapeB);
+      if (mA) this.marker(mx, y, mA, s, 1 - p);
+      if (mB) this.marker(mx, y, mB, s, p);
     }
   }
 
@@ -285,84 +429,136 @@ export class Fretboard {
     return Math.max(0, Math.min(lo - 1, hi - span + 1));
   }
 
-  fingerDot(x, y, s, finger, fret, settings, alpha, flash) {
-    if (alpha <= 0.01) return;
+  fingerGem(x, y, s, finger, fret, settings, a, flash) {
+    if (a <= 0.01) return;
     const { ctx } = this;
-    ctx.globalAlpha = alpha;
-    const r = 11;
+    ctx.globalAlpha = a;
+    const r = 12 + 3 * flash;
     ctx.shadowColor = STRING_COLORS[s];
-    ctx.shadowBlur = 8 + 18 * flash;
-    dot(ctx, x, y, r + 2 * flash, STRING_COLORS[s]);
+    ctx.shadowBlur = 14 + 22 * flash;
+    gem(ctx, x, y, r, STRING_COLORS[s]);
     ctx.shadowBlur = 0;
-    ctx.lineWidth = 2;
-    ctx.strokeStyle = 'rgba(255,255,255,0.9)';
-    ctx.beginPath();
-    ctx.arc(x, y, r + 2 * flash, 0, Math.PI * 2);
-    ctx.stroke();
     const label = settings.showNoteNames ? noteName(fretNote(s, fret), settings.notation) : finger ? String(finger) : '';
     if (label) {
-      ctx.fillStyle = '#0b0d12';
-      ctx.font = `800 ${label.length > 2 ? 9 : 12}px system-ui, sans-serif`;
+      ctx.fillStyle = '#0b0914';
+      ctx.font = `800 ${label.length > 2 ? 10 : 14}px Rajdhani, system-ui, sans-serif`;
       ctx.textAlign = 'center';
       ctx.textBaseline = 'middle';
-      ctx.fillText(label, x, y + 0.5);
+      ctx.fillText(label, x, y + 1);
     }
     ctx.globalAlpha = 1;
   }
 
-  marker(x, y, kind, s, alpha) {
-    if (alpha <= 0.01) return;
+  marker(x, y, kind, s, a) {
+    if (a <= 0.01) return;
     const { ctx } = this;
-    ctx.globalAlpha = alpha;
+    ctx.globalAlpha = a;
     ctx.lineWidth = 2.5;
     if (kind === 'o') {
       ctx.strokeStyle = STRING_COLORS[s];
-      ctx.beginPath();
-      ctx.arc(x, y, 7, 0, Math.PI * 2);
-      ctx.stroke();
+      ctx.shadowColor = STRING_COLORS[s];
+      ctx.shadowBlur = 8;
+      ctx.beginPath(); ctx.arc(x, y, 7, 0, Math.PI * 2); ctx.stroke();
+      ctx.shadowBlur = 0;
     } else {
-      ctx.strokeStyle = '#8a92a3';
+      ctx.strokeStyle = '#6f6a8a';
       ctx.beginPath();
-      ctx.moveTo(x - 5, y - 5);
-      ctx.lineTo(x + 5, y + 5);
-      ctx.moveTo(x + 5, y - 5);
-      ctx.lineTo(x - 5, y + 5);
+      ctx.moveTo(x - 5, y - 5); ctx.lineTo(x + 5, y + 5);
+      ctx.moveTo(x + 5, y - 5); ctx.lineTo(x - 5, y + 5);
       ctx.stroke();
     }
     ctx.globalAlpha = 1;
+  }
+
+  burst(x, y, color, n) {
+    this.particles.push({ x, y, color, ring: true, life: 0.45, age: 0 });
+    for (let i = 0; i < n; i++) {
+      const ang = -Math.PI / 2 + (Math.random() - 0.5) * Math.PI * 1.4;
+      const sp = 60 + Math.random() * 160;
+      this.particles.push({ x, y, vx: Math.cos(ang) * sp, vy: Math.sin(ang) * sp, color, life: 0.35 + Math.random() * 0.35, age: 0 });
+    }
+    if (this.particles.length > 400) this.particles.splice(0, this.particles.length - 400);
+  }
+
+  drawParticles(dt) {
+    const { ctx } = this;
+    ctx.globalCompositeOperation = 'lighter';
+    for (const p of this.particles) {
+      p.age += dt;
+      const k = 1 - p.age / p.life;
+      if (k <= 0) continue;
+      if (p.ring) {
+        ctx.strokeStyle = p.color;
+        ctx.globalAlpha = k * 0.8;
+        ctx.lineWidth = 3 * k;
+        ctx.beginPath(); ctx.arc(p.x, p.y, 12 + (1 - k) * 30, 0, Math.PI * 2); ctx.stroke();
+      } else {
+        p.x += p.vx * dt;
+        p.y += p.vy * dt;
+        p.vy += 420 * dt;
+        ctx.globalAlpha = k;
+        ctx.fillStyle = p.color;
+        ctx.beginPath(); ctx.arc(p.x, p.y, 2.2 * k + 0.6, 0, Math.PI * 2); ctx.fill();
+      }
+    }
+    ctx.globalAlpha = 1;
+    ctx.globalCompositeOperation = 'source-over';
+    this.particles = this.particles.filter((p) => p.age < p.life);
   }
 
   unknown(name, settings, cy) {
     const { ctx, w } = this;
-    ctx.fillStyle = 'rgba(0,0,0,0.55)';
-    ctx.fillRect(w / 2 - 120, cy - 16, 240, 32);
-    ctx.fillStyle = '#fff';
-    ctx.font = '600 13px system-ui, sans-serif';
+    ctx.fillStyle = 'rgba(5,4,12,0.8)';
+    roundRect(ctx, w / 2 - 150, cy - 17, 300, 34, 17);
+    ctx.fill();
+    ctx.fillStyle = '#e9e6ff';
+    ctx.font = '600 14px Inter, system-ui, sans-serif';
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
     ctx.fillText(`Diteggiatura di ${displayChord(name, settings.notation)} non disponibile`, w / 2, cy);
   }
 }
 
-function dot(ctx, x, y, r, color) {
-  ctx.fillStyle = color;
-  ctx.beginPath();
-  ctx.arc(x, y, r, 0, Math.PI * 2);
-  ctx.fill();
+function fretRange(shape) {
+  const fr = shape.frets.filter((f) => f != null && f > 0);
+  if (!fr.length) return [1, 3];
+  const lo = Math.min(...fr);
+  const hi = Math.max(...fr);
+  return [lo, Math.max(hi, lo + 1)];
+}
+
+function gem(ctx, x, y, r, color) {
+  const g = ctx.createRadialGradient(x - r * 0.35, y - r * 0.4, r * 0.1, x, y, r);
+  g.addColorStop(0, '#ffffff');
+  g.addColorStop(0.35, color);
+  g.addColorStop(1, color);
+  ctx.fillStyle = g;
+  ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); ctx.fill();
+  ctx.lineWidth = Math.max(1, r * 0.15);
+  ctx.strokeStyle = 'rgba(255,255,255,0.85)';
+  ctx.stroke();
+}
+
+function inlay(ctx, x, y) {
+  ctx.fillStyle = 'rgba(160, 140, 255, 0.28)';
+  ctx.shadowColor = '#7c5cff';
+  ctx.shadowBlur = 8;
+  ctx.beginPath(); ctx.arc(x, y, 5, 0, Math.PI * 2); ctx.fill();
+  ctx.shadowBlur = 0;
 }
 
 function ring(ctx, x, y, r, color) {
   ctx.strokeStyle = color;
   ctx.lineWidth = 2;
-  ctx.setLineDash([3, 3]);
-  ctx.beginPath();
-  ctx.arc(x, y, r, 0, Math.PI * 2);
-  ctx.stroke();
+  ctx.setLineDash([4, 4]);
+  ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); ctx.stroke();
   ctx.setLineDash([]);
 }
 
 function roundRect(ctx, x, y, w, h, r) {
-  const rr = Math.min(r, w / 2, h / 2);
+  if (w < 0) { x += w; w = -w; }
+  if (h < 0) { y += h; h = -h; }
+  const rr = Math.max(0, Math.min(r, w / 2, h / 2));
   ctx.beginPath();
   ctx.moveTo(x + rr, y);
   ctx.arcTo(x + w, y, x + w, y + h, rr);

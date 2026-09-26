@@ -6,22 +6,26 @@ Funziona nel browser di **PC, tablet e telefono Android** e si può installare c
 
 ## Cosa fa
 
-- **Manico animato** in alto: diteggiatura dell'accordo corrente (colori per corda, numero del dito,
-  barrè, corde a vuoto `O` e da non suonare `✕`). Nell'ultimo battito le dita **scivolano verso
-  l'accordo successivo**, che è già visibile in trasparenza.
-- **"Autostrada" degli accordi**: i blocchi arrivano da destra verso la linea bianca (il momento del
-  cambio); la lunghezza del blocco è la durata dell'accordo, le linee verticali sono battute e battiti.
+- **Palco in stile Rocksmith**: corsia in prospettiva da cui arrivano verso di te le cornici degli
+  accordi, con le gemme colorate su corde e tasti giusti; le cornici tratteggiate segnano le battute
+  in cui l'accordo prosegue, le linee sulla corsia sono battute e battiti.
+- **Manico al neon**: diteggiatura corrente (colori per corda, numero del dito, barrè, corde a vuoto
+  `O` e da non suonare `✕`), corde che vibrano e scintille a ogni cambio; nell'ultimo battito le dita
+  **scivolano verso l'accordo successivo**, già visibile tratteggiato.
 - **Ritmo**: indicatore dei battiti (il primo della battuta è arancione), pattern di pennata
   suggerito (↓ ↑) che si illumina a tempo, conto alla rovescia "prossimo accordo tra N battiti",
   click del metronomo opzionale.
 - **Video YouTube sincronizzato** sotto il manico: pausa, ±5 s, **velocità** (25%–200%),
   **loop A-B** oppure loop di una sezione/frase con un tocco su ⟲.
-- **Spartito a scorrimento**: accordi per battuta e testo, con la battuta corrente evidenziata;
-  un tocco su una battuta ci salta sopra.
+- **Testo karaoke sincronizzato**: la riga cantata si illumina man mano, con gli accordi sopra le parole
+  nel punto in cui cambiano. Il testo viene scaricato al momento da [LRCLIB](https://lrclib.net)
+  (archivio pubblico di testi sincronizzati) e **non è incluso nel repository**.
+- **Scheda Accordi**: griglia delle battute (`%` = l'accordo prosegue), un tocco per saltare lì.
 - **Libreria** con ricerca e schede *Tutti / Preferiti / Artisti / Generi / Difficoltà*.
 - **Sincronia**: correzione fine ±0,05 s e modalità **🎯 Registra tempi** (tocchi TAP a ogni cambio
   accordo mentre il video suona: i tempi vengono salvati e si possono esportare in JSON).
-- **Il tuo testo**: con ✎ *Testo* incolli il testo del brano; resta salvato solo sul tuo dispositivo.
+- **Il tuo testo**: da *Sincronia → Incolla il tuo testo* puoi usare un testo tuo, anche in formato LRC;
+  resta salvato solo sul tuo dispositivo.
 - Notazione internazionale (C D E) o italiana (Do Re Mi), modalità mancini, nomi delle note sul manico.
 - Funziona anche offline (tranne il video) e anche se YouTube non è raggiungibile (clock interno).
 
@@ -67,6 +71,7 @@ Una volta sola: *Settings → Pages → Source: GitHub Actions*. L'app sarà su
     { "name": "Strofa", "pattern": "giro", "repeat": 4 },
     { "name": "Bridge", "bars": [["G5"], ["F5:3", "C5:1"]] }   // "Accordo:battiti"
   ],
+  "lyricsSource": { "lrclibId": 21128462, "offset": 0 },  // testo karaoke da LRCLIB (id o ricerca per titolo)
   "sync": [0.41, 2.93, 5.46],      // opzionale: tempi registrati di ogni cambio accordo
   "shapes": {                      // opzionale: diteggiature personalizzate (Mi grave → Mi cantino)
     "Gm": { "frets": [null, null, 5, 3, 3, 3], "fingers": [0, 0, 3, 1, 1, 1] }
@@ -75,10 +80,12 @@ Una volta sola: *Settings → Pages → Source: GitHub Actions*. L'app sarà su
 ```
 
 - Più accordi in una battuta si dividono i battiti in parti uguali, oppure con `"Accordo:battiti"`.
+- `"%"` come battuta significa "l'accordo precedente prosegue".
+- Senza `lrclibId` l'app cerca il testo su LRCLIB per artista e titolo.
 - Ogni ripetizione del pattern è una riga dello spartito (`barsPerRow` per spezzarla).
 - Le diteggiature di accordi maggiori, minori, 7, m7, maj7, sus2, sus4, 7sus4, 5, dim, aug e degli
   accordi con basso (`/`) sono generate automaticamente; `shapes` serve solo per forme diverse.
-- Il testo delle canzoni non è incluso nel repository (diritti d'autore): lo incolli dall'app.
+- Il testo delle canzoni non è incluso nel repository (diritti d'autore): arriva da LRCLIB o lo incolli dall'app.
 
 ### Allineare gli accordi al video
 
@@ -96,8 +103,11 @@ css/style.css         stile (tema scuro, responsive)
 js/app.js             avvio e navigazione
 js/library.js         libreria, ricerca, preferiti
 js/player.js          schermata di studio: controlli, loop, registrazione tempi
-js/fretboard.js       canvas: autostrada accordi + manico animato
-js/sheet.js           spartito a scorrimento
+js/fretboard.js       canvas: corsia 3D + manico animato
+js/karaoke.js         testo karaoke sincronizzato con gli accordi
+js/lyrics.js          download da LRCLIB e parsing LRC
+js/sheet.js           griglia degli accordi
+js/icons.js           icone SVG
 js/timeline.js        da sezioni/battute a tempi assoluti
 js/music.js           note, parsing accordi, diteggiature
 js/clock.js           sincronizzazione con YouTube (IFrame API) o clock interno

@@ -1,9 +1,10 @@
 // Libreria brani: ricerca, preferiti, raggruppamento per artista / genere.
 import { getFavorites, toggleFavorite, store } from './store.js';
+import { icon } from './icons.js';
 
 const TABS = [
   { id: 'all', label: 'Tutti' },
-  { id: 'favorites', label: '★ Preferiti' },
+  { id: 'favorites', label: 'Preferiti' },
   { id: 'artist', label: 'Artisti' },
   { id: 'genre', label: 'Generi' },
   { id: 'difficulty', label: 'Difficoltà' },
@@ -17,8 +18,15 @@ export function renderLibrary(root, songs) {
 
   root.innerHTML = `
     <div class="library">
+      <section class="hero">
+        <div class="hero-kicker">${icon('guitar', 16)} Guitar Song Trainer</div>
+        <h1>Scegli un brano,<br><span>suonalo a tempo.</span></h1>
+        <p>Manico animato, video sincronizzato, testo karaoke. Rallenta, ripeti in loop, impara.</p>
+      </section>
       <div class="library-head">
-        <input type="search" class="search" placeholder="Cerca titolo, artista, genere…" aria-label="Cerca">
+        <label class="search-wrap">${icon('search', 18)}
+          <input type="search" class="search" placeholder="Cerca titolo, artista, genere…" aria-label="Cerca">
+        </label>
         <nav class="tabs" role="tablist"></nav>
       </div>
       <div class="library-body"></div>
@@ -49,27 +57,31 @@ export function renderLibrary(root, songs) {
     const a = document.createElement('a');
     a.className = 'song-card';
     a.href = `#/song/${encodeURIComponent(song.id)}`;
-    const thumb = song.youtubeId ? `https://i.ytimg.com/vi/${song.youtubeId}/mqdefault.jpg` : '';
+    const thumb = song.youtubeId ? `https://i.ytimg.com/vi/${song.youtubeId}/hqdefault.jpg` : '';
+    const level = Number(song.difficulty) || 0;
     a.innerHTML = `
-      <div class="thumb">${thumb ? `<img loading="lazy" alt="" src="${thumb}">` : ''}</div>
+      <div class="thumb">${thumb ? `<img loading="lazy" alt="" src="${thumb}" onerror="this.remove()">` : ''}<div class="thumb-shade"></div>
+        <span class="play-badge">${icon('play', 22)}</span>
+        <span class="key-badge"></span>
+      </div>
       <div class="meta">
         <div class="title"></div>
         <div class="artist"></div>
-        <div class="tags"></div>
+        <div class="meta-row">
+          <span class="genre"></span>
+          <span class="level" title="Difficoltà: ${DIFFICULTY[level] ?? '—'}">${[1, 2, 3, 4, 5].map((i) => `<i class="${i <= level ? 'on' : ''}"></i>`).join('')}
+            <em>${DIFFICULTY[level] ?? ''}</em></span>
+        </div>
       </div>
       <button class="fav" aria-label="Preferito"></button>`;
     a.querySelector('.title').textContent = song.title;
     a.querySelector('.artist').textContent = song.artist;
-    const tags = a.querySelector('.tags');
-    for (const text of [song.genre, song.key && `Tonalità ${song.key}`, DIFFICULTY[song.difficulty]].filter(Boolean)) {
-      const s = document.createElement('span');
-      s.className = 'tag';
-      s.textContent = text;
-      tags.append(s);
-    }
+    a.querySelector('.genre').textContent = song.genre ?? '';
+    const kb = a.querySelector('.key-badge');
+    if (song.key) kb.textContent = song.key; else kb.remove();
     const fav = a.querySelector('.fav');
     const paint = (on) => {
-      fav.textContent = on ? '★' : '☆';
+      fav.innerHTML = icon(on ? 'starFill' : 'star', 18);
       fav.classList.toggle('on', on);
     };
     paint(favs.has(song.id));
@@ -117,7 +129,7 @@ export function renderLibrary(root, songs) {
       const p = document.createElement('p');
       p.className = 'empty';
       p.textContent = tab === 'favorites'
-        ? 'Nessun preferito: tocca la stella ☆ su un brano per aggiungerlo.'
+        ? 'Nessun preferito: tocca la stella su un brano per aggiungerlo.'
         : 'Nessun brano trovato.';
       body.append(p);
       return;

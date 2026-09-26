@@ -1,11 +1,16 @@
 // Trasforma la descrizione di un brano (sezioni, battute, accordi) in una timeline
 // con tempi assoluti in secondi, allineata al video.
 
+const HOLD = new Set(['%', '-', '']);
+
+// Una battuta: "Gm" | ["D7sus4", "D7"] | ["F5:3", "C5:1"] | "%" (continua l'accordo precedente)
 function parseBar(barDef, beatsPerBar) {
-  const items = (Array.isArray(barDef) ? barDef : [barDef]).map((it) => {
+  const raw = Array.isArray(barDef) ? barDef : [barDef];
+  if (raw.length === 1 && HOLD.has(String(raw[0]).trim())) return [];
+  const items = raw.map((it) => {
     if (typeof it === 'object' && it) return { name: it.chord ?? it.name, beats: it.beats ?? null };
     const [name, beats] = String(it).split(':');
-    return { name, beats: beats ? Number(beats) : null };
+    return { name: name.trim(), beats: beats ? Number(beats) : null };
   });
   const fixed = items.reduce((s, it) => s + (it.beats ?? 0), 0);
   const free = items.filter((it) => it.beats == null).length;
@@ -14,43 +19,52 @@ function parseBar(barDef, beatsPerBar) {
 }
 
 /**
- * @param song   oggetto brano (vedi songs/README.md)
+ * @param song   oggetto brano (vedi README)
  * @param opts.offset  correzione di sincronia in secondi (+ = accordi più tardi)
  * @param opts.sync    tempi registrati (secondi) per ogni cambio accordo, anche parziali
  */
 export function buildTimeline(song, { offset = 0, sync = null } = {}) {
   const bpb = song.timeSignature?.[0] ?? 4;
   const beatDur = 60 / song.bpm;
+  const barDur = bpb * beatDur;
   const t0 = (song.offset ?? 0) + offset;
   const bars = [];
   const events = [];
   const rows = [];
   const sections = [];
+  let held = null;
 
   song.sections.forEach((sec, si) => {
     const pattern = sec.bars ?? song.patterns?.[sec.pattern];
     if (!pattern) throw new Error(`Sezione "${sec.name}": nessuna battuta definita`);
     const reps = sec.repeat ?? 1;
-    const barsPerRow = sec.barsPerRow ?? pattern.length;
+    const barsPerRow = sec.barsPerRow ?? song.barsPerRow ?? pattern.length;
     const secInfo = { name: sec.name, index: si, barStart: bars.length, rowStart: rows.length };
     let rowInSection = 0;
+    let barInSection = 0;
     for (let r = 0; r < reps; r++) {
-      pattern.forEach((barDef, bi) => {
-        if (bi % barsPerRow === 0) {
+      for (const barDef of pattern) {
+        if (barInSection++ % barsPerRow === 0) {
           rows.push({ index: rows.length, section: si, n: rowInSection++, barStart: bars.length });
         }
-        const bar = { index: bars.length, section: si, row: rows.length - 1, chords: [] };
+        const bar = { index: bars.length, section: si, row: rows.length - 1, chords: [], held: null };
+        bar.gridStart = t0 + bar.index * barDur;
         let beatOffset = 0;
         for (const c of parseBar(barDef, bpb)) {
           if (c.beats <= 0) continue;
           const ev = { index: events.length, name: c.name, bar: bar.index, section: si, beatOffset, beats: c.beats };
-          ev.gridStart = t0 + (bar.index * bpb + beatOffset) * beatDur;
+          ev.gridStart = bar.gridStart + beatOffset * beatDur;
           events.push(ev);
           bar.chords.push(ev);
           beatOffset += c.beats;
+          held = ev;
+        }
+        if (!bar.chords.length) {
+          bar.held = held;
+          if (held) held.beats += bpb;
         }
         bars.push(bar);
-      });
+      }
     }
     secInfo.barEnd = bars.length;
     secInfo.rowEnd = rows.length;
@@ -59,25 +73,38 @@ export function buildTimeline(song, { offset = 0, sync = null } = {}) {
   rows.forEach((row, i) => {
     row.barEnd = i + 1 < rows.length ? rows[i + 1].barStart : bars.length;
   });
+  const gridEnd = t0 + bars.length * barDur;
 
-  // Tempi: griglia regolare dal BPM, sostituita dai tempi registrati quando presenti.
+  // Tempi reali: la griglia regolare del BPM viene "deformata" in modo continuo
+  // per passare dai tempi registrati (tap) quando ci sono.
   const synced = Array.isArray(sync) ? sync.filter((x) => typeof x === 'number') : [];
-  const last = Math.min(synced.length, events.length) - 1;
-  const drift = last >= 0 ? synced[last] + offset - events[last].gridStart : 0;
-  events.forEach((ev, i) => {
-    ev.start = i <= last ? synced[i] + offset : ev.gridStart + drift;
-  });
-  // Garantisce tempi crescenti anche con registrazioni imprecise.
-  for (let i = 1; i < events.length; i++) {
-    if (events[i].start <= events[i - 1].start) events[i].start = events[i - 1].start + 0.05;
+  const anchors = events.slice(0, synced.length).map((ev, i) => [ev.gridStart, synced[i] + offset]);
+  for (let i = 1; i < anchors.length; i++) {
+    if (anchors[i][1] <= anchors[i - 1][1]) anchors[i][1] = anchors[i - 1][1] + 0.05;
   }
-  events.forEach((ev, i) => {
-    ev.end = i + 1 < events.length ? events[i + 1].start : ev.start + ev.beats * beatDur * (last >= 0 ? localRatio(events, i, beatDur) : 1);
-  });
+  const warp = (g) => {
+    if (!anchors.length) return g;
+    if (g <= anchors[0][0]) return g + (anchors[0][1] - anchors[0][0]);
+    const last = anchors[anchors.length - 1];
+    if (g >= last[0]) return g + (last[1] - last[0]);
+    let lo = 0;
+    let hi = anchors.length - 1;
+    while (hi - lo > 1) {
+      const mid = (lo + hi) >> 1;
+      if (anchors[mid][0] <= g) lo = mid; else hi = mid;
+    }
+    const [g0, r0] = anchors[lo];
+    const [g1, r1] = anchors[hi];
+    return r0 + ((g - g0) / (g1 - g0)) * (r1 - r0);
+  };
+
+  events.forEach((ev) => { ev.start = warp(ev.gridStart); });
   bars.forEach((bar, i) => {
-    bar.start = bar.chords[0]?.start ?? (i ? bars[i - 1].end : t0);
-    const next = bars[i + 1];
-    bar.end = next ? next.chords[0]?.start ?? bar.start + bpb * beatDur : bar.chords.at(-1).end;
+    bar.start = warp(bar.gridStart);
+    bar.end = warp(i + 1 < bars.length ? bars[i + 1].gridStart : gridEnd);
+  });
+  events.forEach((ev, i) => {
+    ev.end = i + 1 < events.length ? events[i + 1].start : bars.at(-1).end;
   });
   const span = (a, b) => ({ start: bars[a]?.start ?? 0, end: bars[b - 1]?.end ?? 0 });
   rows.forEach((row) => Object.assign(row, span(row.barStart, row.barEnd)));
@@ -95,13 +122,6 @@ export function buildTimeline(song, { offset = 0, sync = null } = {}) {
   };
 }
 
-// Rapporto fra durata reale e durata teorica dell'evento precedente (per stimare l'ultimo).
-function localRatio(events, i, beatDur) {
-  const prev = events[i - 1];
-  if (!prev) return 1;
-  return Math.max(0.5, Math.min(2, (prev.end - prev.start) / (prev.beats * beatDur)));
-}
-
 function lastIndexAtOrBefore(list, t) {
   let lo = 0;
   let hi = list.length - 1;
@@ -115,17 +135,34 @@ function lastIndexAtOrBefore(list, t) {
 
 export const eventIndexAt = (tl, t) => lastIndexAtOrBefore(tl.events, t);
 export const barIndexAt = (tl, t) => lastIndexAtOrBefore(tl.bars, t);
+export const sectionAt = (tl, t) => lastIndexAtOrBefore(tl.sections, t);
 
 // Posizione ritmica: indice della battuta e battito (con decimali) al tempo t.
 export function beatAt(tl, t) {
   const bi = barIndexAt(tl, t);
-  if (bi < 0) {
+  if (bi < 0 || t >= tl.end) {
     const first = tl.bars[0];
-    const beatsBefore = first ? (first.start - t) / tl.beatDur : 0;
-    return { bar: -1, beat: -beatsBefore, beatDur: tl.beatDur };
+    const beatsBefore = first && bi < 0 ? (first.start - t) / tl.beatDur : 0;
+    return { bar: bi < 0 ? -1 : bi, beat: bi < 0 ? -beatsBefore : NaN, beatDur: tl.beatDur };
   }
   const bar = tl.bars[bi];
   const len = bar.end - bar.start;
   const beatDur = len > 0 ? len / tl.bpb : tl.beatDur;
   return { bar: bi, beat: (t - bar.start) / beatDur, beatDur };
+}
+
+// Tempi di tutti i battiti fra a e b (per disegnare la griglia ritmica).
+export function beatsBetween(tl, a, b) {
+  const out = [];
+  let i = Math.max(0, barIndexAt(tl, a));
+  for (; i < tl.bars.length; i++) {
+    const bar = tl.bars[i];
+    if (bar.start > b) break;
+    const bd = (bar.end - bar.start) / tl.bpb;
+    for (let k = 0; k < tl.bpb; k++) {
+      const t = bar.start + k * bd;
+      if (t >= a && t <= b) out.push({ t, downbeat: k === 0 });
+    }
+  }
+  return out;
 }

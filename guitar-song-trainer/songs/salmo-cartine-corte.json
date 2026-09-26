@@ -8,25 +8,30 @@
   "youtubeId": "OGgBYJsekX0",
   "key": "Sol minore (Gm)",
   "bpm": 95,
-  "timeSignature": [4, 4],
+  "timeSignature": [3, 4],
   "capo": 0,
   "tuning": "Standard (E A D G B E)",
-  "offset": 0.4,
-  "strum": "D-DU-UDU",
-  "notes": "Arrangiamento per chitarra ritmica: il giro Gm – Gm/F – Ebmaj7 – D7sus4 – D7 accompagna quasi tutto il brano; nel bridge si passa ai power chord (G5 F5 Eb5 C5). Gm si suona col barrè al 3° tasto; se è ancora difficile, prova la versione ridotta sulle 4 corde acute (x x 5 3 3 3). La ritmica suggerita (↓ · ↓↑ · ↑↓↑) è un punto di partenza: il pezzo originale è rap su base, quindi segui il groove del video.",
-  "syncNote": "Tempi calcolati dal BPM (95) e struttura stimata: se gli accordi risultano in anticipo o in ritardo usa i pulsanti Sincronia −/+; per un allineamento perfetto usa “Registra tempi” e tocca TAP a ogni cambio accordo.",
+  "offset": 0.87,
+  "strum": "D-DUDU",
+  "lyricsSource": { "lrclibId": 21128462, "offset": 0 },
+  "barsPerRow": 4,
+  "notes": "Arrangiamento per chitarra ritmica. Il giro Gm – Gm/F – Ebmaj7 – D7sus4 → D7 accompagna quasi tutto il brano, un accordo ogni due battute (una riga rappata); nel bridge si passa ai power chord G5 F5 Eb5 C5. Gm si suona col barrè al 3° tasto; se è ancora difficile, prova la versione ridotta sulle 4 corde acute (x x 5 3 3 3). Il pezzo ha un'andatura in 3 (95 BPM): la pennata suggerita è ↓ · ↓↑ ↓↑.",
+  "syncNote": "Griglia ritmica ricavata dai tempi del cantato (una riga ogni 3,79 s = 2 battute di 3/4 a 95 BPM). La posizione esatta dei cambi è stimata: se gli accordi sono in anticipo o in ritardo usa Sincronia, per un allineamento perfetto Registra tempi.",
   "patterns": {
-    "giro": [["Gm"], ["Gm/F"], ["Ebmaj7"], ["D7sus4", "D7"]],
-    "bridge": [["G5"], ["F5"], ["Eb5"], ["C5"]],
-    "finale": [["Gm"], ["Gm/F"], ["Ebmaj7"], ["D7sus4", "D7"], ["Gm"]]
+    "giro": ["Gm", "%", "Gm/F", "%", "Ebmaj7", "%", "D7sus4", "D7"],
+    "attacco": ["Ebmaj7", "%", "D7sus4", "D7"],
+    "bridge": ["G5", "%", "F5", "%", "Eb5", "%", "C5", "%"],
+    "chiusura": ["Gm", "%", "%"]
   },
   "sections": [
-    { "name": "Intro", "pattern": "giro", "repeat": 1 },
-    { "name": "Strofa 1", "pattern": "giro", "repeat": 4 },
+    { "name": "Intro", "pattern": "attacco" },
+    { "name": "Strofa 1", "pattern": "giro" },
     { "name": "Ritornello", "pattern": "giro", "repeat": 2 },
-    { "name": "Strofa 2", "pattern": "giro", "repeat": 4 },
+    { "name": "Strofa 2", "pattern": "giro" },
     { "name": "Ritornello", "pattern": "giro", "repeat": 2 },
-    { "name": "Bridge", "pattern": "bridge", "repeat": 1 },
-    { "name": "Ritornello finale", "pattern": "finale", "repeat": 1 }
+    { "name": "Strofa 3", "pattern": "giro" },
+    { "name": "Ritornello finale", "pattern": "giro" },
+    { "name": "Bridge", "pattern": "bridge" },
+    { "name": "Chiusura", "pattern": "chiusura" }
   ]
 }
