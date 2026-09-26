@@ -78,7 +78,12 @@ export function buildTimeline(song, { offset = 0, sync = null } = {}) {
   // Tempi reali: la griglia regolare del BPM viene "deformata" in modo continuo
   // per passare dai tempi registrati (tap) quando ci sono.
   const synced = Array.isArray(sync) ? sync.filter((x) => typeof x === 'number') : [];
-  const anchors = events.slice(0, synced.length).map((ev, i) => [ev.gridStart, synced[i] + offset]);
+  let anchors = events.slice(0, synced.length).map((ev, i) => [ev.gridStart, synced[i] + offset]);
+  // Senza tempi registrati: ancore del brano (battuta → secondo), ricavate dai tempi del canto,
+  // che tengono la griglia agganciata alla registrazione anche se il tempo varia.
+  if (!anchors.length && Array.isArray(song.warp)) {
+    anchors = song.warp.filter((a) => Array.isArray(a) && a.length === 2).map(([b, t]) => [t0 + b * barDur, t + offset]);
+  }
   for (let i = 1; i < anchors.length; i++) {
     if (anchors[i][1] <= anchors[i - 1][1]) anchors[i][1] = anchors[i - 1][1] + 0.05;
   }

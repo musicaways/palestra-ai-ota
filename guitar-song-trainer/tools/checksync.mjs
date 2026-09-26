@@ -4,11 +4,13 @@
 //       node tools/checksync.mjs --fix    (aggiorna "offset" nei file dei brani da verificare)
 import { readFile, writeFile } from 'node:fs/promises';
 import { buildTimeline } from '../js/timeline.js';
+import { parseLrc } from '../js/lyrics.js';
 import { lyricGridCheck } from '../js/syncmath.js';
 
 const FIX = process.argv.includes('--fix');
 const dir = new URL('../songs/', import.meta.url);
-const index = JSON.parse(await readFile(new URL('index.json', dir)));
+const only = process.argv.slice(2).filter((a) => !a.startsWith('--'));
+const index = JSON.parse(await readFile(new URL('index.json', dir))).filter((e) => !only.length || only.includes(e.id));
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function lrcTimes(id) {
@@ -17,10 +19,8 @@ async function lrcTimes(id) {
       const res = await fetch(`https://lrclib.net/api/get/${id}`);
       if (res.ok) {
         const d = await res.json();
-        return (d.syncedLyrics ?? '').split('\n')
-          .map((l) => /^\[(\d+):(\d+(?:\.\d+)?)\](.*)$/.exec(l))
-          .filter((m) => m && m[3].trim())
-          .map((m) => Number(m[1]) * 60 + Number(m[2]));
+        // stesso parser dell'app (gestisce \r\n, [offset:], più tempi per riga)
+        return parseLrc(d.syncedLyrics ?? '').filter((l) => l.text).map((l) => l.t);
       }
     } catch { /* riprova */ }
     await sleep(2000 * (i + 1));

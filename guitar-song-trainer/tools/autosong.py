@@ -410,6 +410,21 @@ def chord_names(secs):
                 if c != '%': out.append(c)
     return out
 
+def split_long(secs, limit=48, size=16):
+    """Sezioni troppo lunghe divise in parti da 16 battute (per la riga delle sezioni e lo Studio guidato)."""
+    out = []
+    for sec in secs:
+        b = sec['bars']
+        if len(b) <= limit: out.append(sec); continue
+        n = (len(b) + size - 1) // size
+        for i in range(n):
+            part = b[i * size:(i + 1) * size]
+            if i == n - 1 and len(part) < 6 and out: out[-1]['bars'] += part; continue
+            name = f"Parte {len(out) + 1}" if sec['name'].startswith('Strofa') else f"{sec['name']} ({i + 1})"
+            out.append({'name': name, 'bars': part, 'barsPerRow': 4})
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--artist', required=True); ap.add_argument('--title', required=True)
@@ -419,6 +434,8 @@ def main():
     ap.add_argument('--album'); ap.add_argument('--lrclib', type=int); ap.add_argument('--id')
     ap.add_argument('--difficulty', type=int); ap.add_argument('--notes', default='')
     ap.add_argument('--write', action='store_true')
+    ap.add_argument('--exact-bpm', action='store_true', help='usa il BPM dato (misurato), cerca solo la fase')
+    ap.add_argument('--scan-bpm', action='store_true', help='ignora il BPM della fonte: cerca quello che allinea meglio le righe')
     a = ap.parse_args()
     if a.chords_url: urls = [a.chords_url]
     else:
@@ -466,20 +483,30 @@ def main():
     yt, ytd = (a.yt, None) if a.yt else youtube(a.artist, a.title, duration)
     ts = [t for t, x in lrc if x]
     bpm0 = a.bpm or sb.get('bpm')
+    if bpm0 and a.scan_bpm:
+        # ricerca vicina al BPM della fonte (±8%, anche metà e doppio): corregge le stime imprecise
+        # senza inventare tempi che allineano le righe ma non sono quelli della musica
+        grid = [bpm0 * m * (1 + k / 1000) for m in (0.5, 1, 2) for k in range(-80, 81, 2)]
+        grid = [b for b in grid if 1.5 <= 60 / b * a.beats <= 4.4]
+        bpm0 = max((phase_fit(ts, 60 / b * a.beats)[0], b) for b in grid)[1]
+        a.exact_bpm = True
     if not bpm0:
         # senza fonte: il periodo che allinea meglio le righe (battute fra 1,8 e 3,4 s)
         best = max((phase_fit(ts, 60 / b * a.beats)[0], b) for b in [x / 2 for x in range(140, 360)] if 1.8 <= 60 / b * a.beats <= 3.4)
         bpm0 = best[1]
     # BPM della fonte, oppure metà/doppio: si sceglie la battuta fra 1,6 e 4,2 s che allinea meglio le righe
     cands = []
-    for mul in (0.5, 1, 2):
+    for mul in ((1,) if a.exact_bpm else (0.5, 1, 2)):
         b = bpm0 * mul
         bar = 60 / b * a.beats
         if 1.5 <= bar <= 4.4:
-            r, bb, ph = best_grid(ts, b, a.beats)
+            r, bb, ph = best_grid(ts, b, a.beats) if not a.exact_bpm else (*phase_fit(ts, bar)[:1], b, phase_fit(ts, bar)[1])
             cands.append((r * (1.0 if mul == 1 else 0.9), bb, ph))
     if not cands:
-        r, bb, ph = best_grid(ts, bpm0, a.beats); cands = [(r, bb, ph)]
+        if a.exact_bpm:
+            r, ph = phase_fit(ts, 60 / bpm0 * a.beats); cands = [(r, bpm0, ph)]
+        else:
+            r, bb, ph = best_grid(ts, bpm0, a.beats); cands = [(r, bb, ph)]
     R, bpm, ph = max(cands)
     bar = 60 / bpm * a.beats
     offset = ph
@@ -516,7 +543,7 @@ def main():
         'notes': notes,
         'syncNote': "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; "
                     "accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
-        'sections': [{'name': s['name'], 'bars': s['bars'], **({'barsPerRow': 4} if len(s['bars']) > 4 else {})} for s in secs],
+        'sections': split_long([{'name': s['name'], 'bars': s['bars'], **({'barsPerRow': 4} if len(s['bars']) > 4 else {})} for s in secs]),
     }
     if data['year'] is None: del data['year']
     path = os.path.join(ROOT, 'songs', sid + '.json')

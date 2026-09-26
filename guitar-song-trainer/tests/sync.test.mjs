@@ -64,3 +64,31 @@ test('allineamento con un tocco', () => {
   assert.equal(tapAlignShift(12.34, 11.9), 0.44);
   assert.equal(tapAlignShift(8, 9.5), -1.5);
 });
+
+test('ancore sul canto: la griglia segue un brano che rallenta', async () => {
+  const { computeWarp, lyricGridCheck } = await import('../js/syncmath.js');
+  const { buildTimeline } = await import('../js/timeline.js');
+  // brano a 100 BPM sulla carta, ma registrato a 98 (battuta 2,449 s invece di 2,4): le righe cadono sul battere vero
+  const song = { bpm: 100, timeSignature: [4, 4], offset: 1, sections: [{ name: 'A', bars: Array(80).fill('C') }] };
+  const realBar = 240 / 98;
+  const lines = Array.from({ length: 40 }, (_, i) => 1 + (i * 2) * realBar + 0.02 * Math.sin(i));
+  const before = lyricGridCheck(lines, buildTimeline(song));
+  const w = computeWarp(song, lines);
+  assert.ok(w.anchors.length >= 4, 'ancore trovate');
+  const after = lyricGridCheck(lines, buildTimeline({ ...song, warp: w.anchors }));
+  assert.ok(after.coherence > 0.9 && after.coherence > before.coherence + 0.2, `coerenza ${before.coherence.toFixed(2)} → ${after.coherence.toFixed(2)}`);
+  // la battuta 60 cade dove la registrazione la mette davvero
+  const tl = buildTimeline({ ...song, warp: w.anchors });
+  assert.ok(Math.abs(tl.bars[60].start - (1 + 60 * realBar)) < 0.25);
+});
+
+test('le correzioni dell\'utente valgono anche con le ancore', async () => {
+  const { buildTimeline } = await import('../js/timeline.js');
+  const song = { bpm: 120, timeSignature: [4, 4], offset: 0, sections: [{ name: 'A', bars: ['C', 'G', 'Am', 'F'] }], warp: [[0, 0.5], [3, 6.6]] };
+  const a = buildTimeline(song);
+  const b = buildTimeline(song, { offset: 0.3 });
+  assert.ok(Math.abs(a.bars[0].start - 0.5) < 1e-9);
+  assert.ok(Math.abs(b.bars[2].start - a.bars[2].start - 0.3) < 1e-9, 'offset dell\'utente');
+  const c = buildTimeline(song, { sync: [1, 3, 5, 7] });
+  assert.ok(Math.abs(c.events[1].start - 3) < 1e-9, 'i tempi registrati dall\'utente vincono');
+});
