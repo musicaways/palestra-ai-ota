@@ -1,0 +1,265 @@
+{
+ "title": "Albachiara",
+ "artist": "Vasco Rossi",
+ "album": "Le Canzoni d'Amore di Vasco Rossi",
+ "year": 1979,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "Er2tKUSv1CY",
+ "key": "C",
+ "bpm": 145.95,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.14,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37243104,
+  "duration": 247.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – Am – D – G7 – G – F.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Fmaj7",
+    "%",
+    "%",
+    "C",
+    "%",
+    "%",
+    "G7",
+    "%",
+    "%",
+    "Fmaj7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "C",
+    "G",
+    "Am",
+    [
+     "Am:2",
+     "C:2"
+    ],
+    "%",
+    "F",
+    "C",
+    "D",
+    "G7",
+    "C",
+    "G",
+    "Am",
+    [
+     "Am:2",
+     "C:2"
+    ],
+    "%",
+    "F",
+    "C",
+    "D",
+    "G7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "C:1",
+     "G:2",
+     "Am:1"
+    ],
+    "C",
+    "%",
+    "%",
+    "%",
+    "F",
+    [
+     "C:2",
+     "D:2"
+    ],
+    "G7",
+    "C",
+    "%",
+    "G",
+    "%",
+    "Am",
+    "%",
+    "C",
+    "%",
+    "F",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strumentale",
+   "bars": [
+    "C",
+    "G",
+    "Am",
+    [
+     "Am:2",
+     "C:2"
+    ],
+    "%",
+    [
+     "F:2",
+     "C:2"
+    ],
+    "D",
+    [
+     "D:2",
+     "G7:2"
+    ],
+    "%",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "Am",
+    [
+     "Am:2",
+     "C:2"
+    ],
+    "%",
+    "F",
+    "C",
+    "D",
+    "G7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "C:1",
+     "G:2",
+     "Am:1"
+    ],
+    "C",
+    "%",
+    "%",
+    "F",
+    "C",
+    "D",
+    "G7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "C:1",
+     "G:2",
+     "Am:1"
+    ],
+    "%",
+    "%",
+    "C",
+    "%",
+    "D",
+    [
+     "D:2",
+     "G7:2"
+    ],
+    "%",
+    "C",
+    "G",
+    "Am",
+    "C",
+    "F",
+    "%",
+    "C",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    [
+     "C:2",
+     "G:2"
+    ],
+    "Am",
+    [
+     "Am:2",
+     "C:2"
+    ],
+    "%",
+    "F",
+    "C",
+    "D",
+    "G7",
+    "C",
+    "%",
+    "G",
+    "%",
+    "Am",
+    "%",
+    "C",
+    "%",
+    "F",
+    "%",
+    "C",
+    "%",
+    "D",
+    "%",
+    "G7",
+    "%",
+    "D",
+    "%",
+    "G7",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "Am",
+    "%",
+    "C",
+    "%",
+    "F",
+    "%",
+    "C",
+    "%",
+    "D",
+    "%",
+    "G7",
+    "%",
+    "D",
+    "%",
+    "G7",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "Am",
+    "%",
+    "C",
+    "%",
+    "F",
+    "%",
+    "C",
+    "%",
+    "D",
+    "%",
+    "G7"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

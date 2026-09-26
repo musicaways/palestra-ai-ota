@@ -394,5 +394,17 @@
     "difficulty": 3,
     "key": "Fm",
     "youtubeId": "bz0qaxRGrdM"
+  },
+  {
+    "id": "vasco-rossi-albachiara",
+    "file": "vasco-rossi-albachiara.json",
+    "title": "Albachiara",
+    "artist": "Vasco Rossi",
+    "album": "Le Canzoni d'Amore di Vasco Rossi",
+    "genre": "Rock",
+    "year": 1979,
+    "difficulty": 3,
+    "key": "C",
+    "youtubeId": "Er2tKUSv1CY"
   }
 ]
