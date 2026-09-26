@@ -1,0 +1,249 @@
+{
+ "title": "Portami via",
+ "artist": "Fabrizio Moro",
+ "album": "Portami via",
+ "year": 2017,
+ "genre": "Pop / Rock",
+ "difficulty": 4,
+ "youtubeId": "ZlPRMXQER0Q",
+ "key": "Eb",
+ "bpm": 129.36,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.1,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 2127219,
+  "duration": 194,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Eb – F – Bb – Gm – Gm7 – F6.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Gm7",
+    "Eb",
+    "Bb",
+    "Gm7",
+    "Eb",
+    "Bb",
+    "Gm7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Gm",
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "Gm",
+    [
+     "Gm:2",
+     "Eb:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Gm",
+    "Eb",
+    "Bb",
+    "%",
+    "%",
+    "F",
+    "%",
+    "%",
+    "Eb",
+    "%",
+    "F",
+    "%",
+    "Bb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "F",
+    "%",
+    "%",
+    "Gm",
+    [
+     "Gm:2",
+     "Eb:2"
+    ],
+    "%",
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Gm",
+    "Eb",
+    "Bb",
+    "%",
+    "%",
+    "Bb",
+    "%",
+    "%",
+    "Gm",
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "F",
+    "%",
+    "%",
+    "Eb",
+    "%",
+    "F",
+    "%",
+    "Bb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "F6",
+    [
+     "F6:2",
+     "Eb:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Eb",
+    "%",
+    "F",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "F:2",
+     "Eb:2"
+    ],
+    "F",
+    "%",
+    "%",
+    "Bb",
+    "%",
+    "%",
+    "%",
+    "F",
+    "%",
+    "%",
+    "Gm7",
+    "%",
+    [
+     "Gm7:2",
+     "Eb:2"
+    ],
+    "%",
+    "%",
+    "Bb",
+    "%",
+    "F",
+    "%",
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   7,
+   13.904
+  ],
+  [
+   12,
+   23.379
+  ],
+  [
+   18,
+   34.729
+  ],
+  [
+   23,
+   44.046
+  ],
+  [
+   29,
+   55.091
+  ],
+  [
+   35,
+   66.05
+  ],
+  [
+   40,
+   75.21
+  ],
+  [
+   45,
+   84.369
+  ],
+  [
+   51,
+   95.67
+  ],
+  [
+   56,
+   104.989
+  ],
+  [
+   62,
+   116.121
+  ],
+  [
+   68,
+   127.252
+  ],
+  [
+   75,
+   140.339
+  ],
+  [
+   80,
+   149.426
+  ],
+  [
+   85,
+   158.892
+  ],
+  [
+   87,
+   162.851
+  ]
+ ]
+}

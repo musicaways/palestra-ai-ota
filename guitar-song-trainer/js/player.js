@@ -332,6 +332,13 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
       <div class="tr-actions"><input class="sl-new" placeholder="Nuova scaletta…" maxlength="40"><button type="button" class="chip-btn" data-sl="new">Crea</button></div>
       <menu><button value="ok" class="chip-btn primary">Fatto</button></menu></form></dialog>
 
+    <dialog class="dlg dlg-score"><form method="dialog"><h3>Fine del brano</h3>
+      <div class="score-stars"></div>
+      <div class="score-acc"></div>
+      <div class="hint score-detail"></div>
+      <div class="score-rec" hidden>Nuovo record personale!</div>
+      <menu><button type="button" class="chip-btn" data-score="again">${icon('loop', 16)} Riprova</button><button value="ok" class="chip-btn primary">Chiudi</button></menu></form></dialog>
+
     <dialog class="dlg dlg-help"><form method="dialog"><h3>Guida rapida</h3>
       <ol class="help-list">
         <li><b>Accorda</b> la chitarra con l'<b>Accordatore</b> (col microfono o col cavo Rocksmith).</li>
@@ -954,7 +961,7 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
     scoreHud.querySelector('.streak').textContent = score.streak >= 2 ? `serie ×${score.streak}` : '';
   }
 
-  async function toggleListen() {
+  async function toggleListen({ summary = false } = {}) {
     const btn = $('[data-act="listen"]');
     if (listener) {
       listener.stop();
@@ -965,7 +972,8 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
         const acc = score.hits / score.total;
         const prev = getStats(song.id).bestAccuracy ?? 0;
         recordAccuracy(song.id, acc);
-        toast(`Precisione ${Math.round(acc * 100)}%${acc > prev ? ' · nuovo record!' : ''} · serie migliore ×${score.bestStreak}`);
+        if (summary) showScore(acc, acc > prev);
+        else toast(`Precisione ${Math.round(acc * 100)}%${acc > prev ? ' · nuovo record!' : ''} · serie migliore ×${score.bestStreak}`);
       }
       return;
     }
@@ -995,6 +1003,21 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
     scoreHud.hidden = false;
     paintScore();
     toast(listener.rocksmith ? 'Ascolto dal cavo Rocksmith: suona insieme al brano' : 'Ascolto attivo: suona insieme al brano');
+  }
+
+  // Pagella di fine brano (stile Rocksmith): stelle, precisione, serie migliore.
+  const starsFor = (acc) => (acc >= 0.9 ? 5 : acc >= 0.75 ? 4 : acc >= 0.6 ? 3 : acc >= 0.4 ? 2 : 1);
+  function showScore(acc, record) {
+    const dlg = $('.dlg-score');
+    const n = starsFor(acc);
+    dlg.querySelector('.score-stars').innerHTML = Array.from({ length: 5 }, (_, i) => icon(i < n ? 'starFill' : 'star', 34)).join('');
+    dlg.querySelector('.score-acc').textContent = `${Math.round(acc * 100)}%`;
+    dlg.querySelector('.score-detail').textContent = `${score.hits} accordi giusti su ${score.total} · serie migliore ×${score.bestStreak}${record ? ' · nuovo record!' : ''}`;
+    dlg.querySelector('.score-rec').hidden = !record;
+    dlg.onclick = (e) => {
+      if (e.target.closest('[data-score="again"]')) { dlg.close(); seek(0); toggleListen().then(() => clock.play()); }
+    };
+    dlg.showModal();
   }
 
   // Chiamata al cambio accordo: giudica quello appena finito.
@@ -1538,6 +1561,18 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
     for (const note of [song.notes, song.syncNote].filter(Boolean)) {
       const p = document.createElement('p'); p.className = 'hint'; p.textContent = note; body.append(p);
     }
+    const share = document.createElement('button');
+    share.type = 'button';
+    share.className = 'chip-btn';
+    share.textContent = '🔗 Condividi il brano';
+    share.addEventListener('click', async () => {
+      const url = location.href.split('?')[0];
+      try {
+        if (navigator.share) await navigator.share({ title: `${song.title} · ${song.artist}`, text: 'Impara a suonarla con Guitar Song Trainer', url });
+        else { await navigator.clipboard.writeText(url); toast('Link copiato'); }
+      } catch { /* annullato */ }
+    });
+    body.append(share);
     const credit = document.createElement('p');
     credit.className = 'hint';
     credit.innerHTML = 'Testo sincronizzato fornito da <a href="https://lrclib.net" target="_blank" rel="noopener">LRCLIB</a>, scaricato al momento e non incluso nell\'app.';
@@ -1643,6 +1678,8 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
     paintStageLyric(t);
     paintSection(t);
     if (playlist) checkSetlistEnd(t);
+    // fine del brano con l'ascolto attivo: pagella
+    if (listener && clock.playing && t >= tl.end - 0.3 && !loop.on) toggleListen({ summary: true });
 
     const pct = `${Math.min(100, (t / dur) * 100)}%`;
     scrubHead.style.left = pct;

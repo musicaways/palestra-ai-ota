@@ -1,0 +1,170 @@
+{
+ "title": "Thunder",
+ "artist": "Imagine Dragons",
+ "album": "Love Game",
+ "year": 2017,
+ "genre": "Pop / Rock",
+ "difficulty": 2,
+ "youtubeId": "4AqjqOqNrjw",
+ "key": "C",
+ "bpm": 84.02,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.14,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37011100,
+  "duration": 187,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – F – Am – G – Em – Dm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "C",
+    "%",
+    "F",
+    "%",
+    "C",
+    "%",
+    "F",
+    "%",
+    "%",
+    "Am",
+    "F",
+    "%",
+    "C",
+    "%",
+    "Am",
+    "F",
+    "C",
+    "%",
+    "C",
+    "%",
+    "F",
+    "%",
+    "C",
+    "%",
+    "F",
+    "%",
+    "C",
+    "%",
+    "Am",
+    "%",
+    "C",
+    "%",
+    "Am",
+    "F",
+    [
+     "Em:1",
+     "G:2",
+     "Dm:1"
+    ],
+    "Em",
+    "G",
+    "Dm",
+    "G4",
+    "G",
+    "Em",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "C",
+    "%",
+    "C",
+    "%",
+    "Am",
+    "F",
+    "C",
+    "%",
+    "Am",
+    "F",
+    "C",
+    "%",
+    [
+     "Am:2",
+     "F:2"
+    ],
+    "%",
+    "C",
+    "%",
+    [
+     "Am:2",
+     "F:2"
+    ],
+    "C",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   0,
+   0.407
+  ],
+  [
+   4,
+   11.686
+  ],
+  [
+   8,
+   22.857
+  ],
+  [
+   12,
+   34.19
+  ],
+  [
+   17,
+   48.531
+  ],
+  [
+   21,
+   60.207
+  ],
+  [
+   25,
+   71.633
+  ],
+  [
+   30,
+   85.736
+  ],
+  [
+   42,
+   119.95
+  ],
+  [
+   47,
+   134.294
+  ],
+  [
+   51,
+   145.834
+  ],
+  [
+   56,
+   160.12
+  ],
+  [
+   59,
+   168.856
+  ]
+ ]
+}

@@ -1,0 +1,303 @@
+{
+ "title": "Tex",
+ "artist": "Litfiba",
+ "album": "Viva Litfiba 2",
+ "year": 1987,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "Wb0EhYU-NfI",
+ "key": "Gm",
+ "bpm": 96.94,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.62,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34160220,
+  "duration": 215,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Gm – D – F – Dm – Cm – Eb.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Gm",
+    "Gm",
+    "Cm",
+    "Gm",
+    "Gm",
+    "Dm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Gm:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "F:2"
+    ],
+    [
+     "Gm:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "F:2"
+    ],
+    [
+     "Gm:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "F:2"
+    ],
+    "Gm",
+    [
+     "Gm:2",
+     "D:2"
+    ],
+    "%",
+    "F",
+    [
+     "F:2",
+     "Gm:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "F",
+    "Gm",
+    "F",
+    "Bb",
+    "Gm",
+    "%",
+    "F",
+    "Gm",
+    "Dm",
+    "Gm",
+    "Dm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    [
+     "Gm:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "F:2"
+    ],
+    [
+     "Gm:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "F:2"
+    ],
+    [
+     "Gm:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "F:2"
+    ],
+    [
+     "Gm:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "F:2"
+    ],
+    "Gm",
+    "%",
+    "F",
+    "Bb",
+    "Gm",
+    "%",
+    "F",
+    "Eb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    [
+     "Cm:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Eb:2"
+    ],
+    [
+     "Cm:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Eb:2"
+    ],
+    [
+     "Cm:2",
+     "D:2"
+    ],
+    "Eb",
+    [
+     "Cm:2",
+     "D:2"
+    ],
+    "Gm",
+    "Gm",
+    "Dm",
+    [
+     "Dm:2",
+     "F:2"
+    ],
+    "%",
+    "Gm",
+    "F",
+    "Bb",
+    "Gm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "%",
+    "F",
+    "Eb",
+    [
+     "Cm:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Eb:2"
+    ],
+    [
+     "Cm:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Eb:2"
+    ],
+    [
+     "Cm:2",
+     "D:2"
+    ],
+    [
+     "Eb:1",
+     "Cm:1",
+     "D:1",
+     "Gm:1"
+    ],
+    "Gm",
+    "Dm",
+    "Gm",
+    "Dm",
+    "Gm",
+    "Dm",
+    "Gm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "Dm",
+    "Gm",
+    "Dm",
+    "Gm",
+    "Dm",
+    "Gm",
+    "Dm",
+    "Gm",
+    [
+     "Dm:2",
+     "Gm:2"
+    ],
+    "Dm"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   6,
+   15.445
+  ],
+  [
+   10,
+   25.348
+  ],
+  [
+   18,
+   45.155
+  ],
+  [
+   22,
+   55.058
+  ],
+  [
+   29,
+   72.6
+  ],
+  [
+   35,
+   87.523
+  ],
+  [
+   39,
+   97.426
+  ],
+  [
+   43,
+   107.15
+  ],
+  [
+   47,
+   117.053
+  ],
+  [
+   62,
+   153.997
+  ],
+  [
+   66,
+   164.032
+  ],
+  [
+   80,
+   198.561
+  ],
+  [
+   84,
+   208.772
+  ]
+ ]
+}

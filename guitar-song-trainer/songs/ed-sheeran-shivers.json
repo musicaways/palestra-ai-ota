@@ -1,0 +1,179 @@
+{
+ "title": "Shivers",
+ "artist": "Ed Sheeran",
+ "album": "Ed Sheeran compilation",
+ "year": 2021,
+ "genre": "Pop",
+ "difficulty": 1,
+ "youtubeId": "10tfUwITgdU",
+ "key": "A",
+ "bpm": 74.18,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 3.19,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 12900665,
+  "duration": 208,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – G – Bm – D.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bm",
+    "G",
+    "D"
+   ]
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "Bm",
+    "G",
+    "D",
+    "A",
+    "Bm",
+    "G",
+    "D",
+    "A",
+    "Bm",
+    "G",
+    "%",
+    "A",
+    "%",
+    "Bm",
+    "G",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "A",
+    "%",
+    "G",
+    "D",
+    "A",
+    "Bm",
+    "G",
+    "D",
+    "A",
+    "Bm",
+    "G",
+    "D",
+    "A",
+    "Bm",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "A",
+    "%",
+    "Bm",
+    "G",
+    "D",
+    "A",
+    "%",
+    "G",
+    "D",
+    "A",
+    "Bm",
+    "%",
+    "A",
+    "%",
+    "Bm",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "%",
+    "A",
+    "%",
+    "Bm",
+    "G",
+    "D",
+    "A",
+    "%",
+    "G",
+    "D",
+    "A",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   3,
+   12.514
+  ],
+  [
+   7,
+   25.86
+  ],
+  [
+   11,
+   38.9
+  ],
+  [
+   16,
+   54.504
+  ],
+  [
+   21,
+   71.235
+  ],
+  [
+   26,
+   87.506
+  ],
+  [
+   31,
+   103.821
+  ],
+  [
+   36,
+   119.485
+  ],
+  [
+   41,
+   135.65
+  ],
+  [
+   45,
+   149.55
+  ],
+  [
+   50,
+   166.275
+  ],
+  [
+   55,
+   183.35
+  ],
+  [
+   59,
+   197.255
+  ],
+  [
+   61,
+   203.725
+  ]
+ ]
+}

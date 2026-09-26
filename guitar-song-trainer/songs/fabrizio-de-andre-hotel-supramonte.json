@@ -1,0 +1,206 @@
+{
+ "title": "Hotel Supramonte",
+ "artist": "Fabrizio De André",
+ "album": "Concerti",
+ "year": 1981,
+ "genre": "Cantautori",
+ "difficulty": 2,
+ "youtubeId": "9DLqR3WHGNI",
+ "key": "D",
+ "bpm": 66.65,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.31,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 24512900,
+  "duration": 271.16,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – Bm – A – G – Em.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "D",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    "Em",
+    [
+     "Em:2",
+     "D:2"
+    ],
+    "%",
+    "Bm",
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    "%",
+    "Bm",
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "D",
+    "A",
+    "G",
+    "D",
+    "A",
+    "D",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "Em",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    "Bm",
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    "%",
+    "Bm",
+    "%",
+    "%",
+    "D",
+    "A",
+    "G",
+    "D",
+    "A",
+    "D",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "Em",
+    [
+     "Em:2",
+     "D:2"
+    ],
+    "%",
+    "Bm",
+    "%",
+    "%",
+    "Bm",
+    "%",
+    "%",
+    "D",
+    "A",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "D",
+    "%",
+    "%",
+    "A",
+    "%",
+    "%",
+    "D",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   0,
+   0.567
+  ],
+  [
+   6,
+   21.807
+  ],
+  [
+   12,
+   43.195
+  ],
+  [
+   18,
+   65.018
+  ],
+  [
+   23,
+   83.105
+  ],
+  [
+   29,
+   104.742
+  ],
+  [
+   35,
+   126.355
+  ],
+  [
+   41,
+   148
+  ],
+  [
+   46,
+   166.222
+  ],
+  [
+   52,
+   187.827
+  ],
+  [
+   58,
+   209.405
+  ],
+  [
+   64,
+   230.425
+  ],
+  [
+   67,
+   241.228
+  ]
+ ]
+}

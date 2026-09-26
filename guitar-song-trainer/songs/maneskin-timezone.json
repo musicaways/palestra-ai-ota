@@ -1,0 +1,242 @@
+{
+ "title": "Timezone",
+ "artist": "Måneskin",
+ "album": "Rush! [HD]",
+ "year": 2023,
+ "genre": "Rock",
+ "difficulty": 2,
+ "youtubeId": "86un37Ap97s",
+ "key": "C#m",
+ "bpm": 120.66,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.89,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34437409,
+  "duration": 180,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C#m – E – G# – A.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "E",
+    "G#",
+    "C#m",
+    "A",
+    "E",
+    "%",
+    "G#",
+    "%",
+    "E",
+    [
+     "E:2",
+     "G#:2"
+    ],
+    [
+     "G#:2",
+     "C#m:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "E",
+    "%",
+    "C#m",
+    [
+     "C#m:2",
+     "A:2"
+    ],
+    "%",
+    "G#",
+    "C#m",
+    "A",
+    "E",
+    "G#",
+    "C#m",
+    "A",
+    "E",
+    "G#",
+    "C#m",
+    [
+     "C#m:2",
+     "A:2"
+    ],
+    "%",
+    "E",
+    "%",
+    "C#m",
+    "A",
+    "E",
+    "G#",
+    "C#m",
+    [
+     "C#m:2",
+     "A:2"
+    ],
+    "%",
+    "E",
+    [
+     "E:2",
+     "G#:2"
+    ],
+    [
+     "G#:2",
+     "C#m:2"
+    ],
+    "%",
+    "G#",
+    "%",
+    "C#m",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "G#",
+    "%",
+    "A",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    "G#",
+    "C#m",
+    "A",
+    "E",
+    "G#",
+    "C#m",
+    "A",
+    "E",
+    "G#",
+    "C#m",
+    [
+     "C#m:2",
+     "A:2"
+    ],
+    "%",
+    "E",
+    "%",
+    "C#m",
+    "A",
+    "E",
+    "G#",
+    [
+     "C#m:2",
+     "A:2"
+    ],
+    "E",
+    "%",
+    "G#",
+    "%",
+    "C#m",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "E",
+    "%",
+    "C#m",
+    "A",
+    "E",
+    "G#",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   9.81
+  ],
+  [
+   12,
+   25.55
+  ],
+  [
+   17,
+   35.602
+  ],
+  [
+   22,
+   45.778
+  ],
+  [
+   26,
+   53.735
+  ],
+  [
+   31,
+   63.68
+  ],
+  [
+   38,
+   77.5
+  ],
+  [
+   42,
+   85.264
+  ],
+  [
+   46,
+   93.286
+  ],
+  [
+   51,
+   103.242
+  ],
+  [
+   56,
+   113.59
+  ],
+  [
+   60,
+   121.546
+  ],
+  [
+   65,
+   131.41
+  ],
+  [
+   69,
+   139.11
+  ],
+  [
+   80,
+   160.906
+  ],
+  [
+   84,
+   168.862
+  ],
+  [
+   86,
+   172.924
+  ]
+ ]
+}

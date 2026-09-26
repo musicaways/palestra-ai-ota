@@ -1,0 +1,255 @@
+{
+ "title": "Beautiful Things",
+ "artist": "Benson Boone",
+ "album": "Music",
+ "year": 2024,
+ "genre": "Pop",
+ "difficulty": 3,
+ "youtubeId": "qKOMEWKrvb4",
+ "key": "Eb",
+ "bpm": 72.5,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.44,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36843628,
+  "duration": 179,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Eb – Bb – F – Gm – D7 – Cm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Eb",
+    "Bb"
+   ]
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "Gm:2"
+    ],
+    "Eb",
+    "Bb",
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "Gm:2"
+    ],
+    "Eb",
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    [
+     "F:1",
+     "D7:2",
+     "Gm:1"
+    ],
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    "F",
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    [
+     "Gm:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "Eb:2"
+    ],
+    "Cm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "F",
+    "%",
+    [
+     "Eb:1",
+     "Bb:1",
+     "F:1",
+     "Gm:1"
+    ],
+    "%",
+    [
+     "Eb:1",
+     "Bb:2",
+     "F:1"
+    ],
+    [
+     "Gm:2",
+     "Eb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "Eb",
+    [
+     "Bb:2",
+     "Gm:2"
+    ],
+    [
+     "F:2",
+     "Eb:2"
+    ],
+    [
+     "Bb:2",
+     "Gm:2"
+    ],
+    [
+     "F:2",
+     "Eb:2"
+    ],
+    "%",
+    "%",
+    "Bb",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "Gm:2"
+    ],
+    "Eb",
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    [
+     "F:1",
+     "Gm:1"
+    ],
+    "Eb",
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "Gm:2"
+    ],
+    [
+     "F:2",
+     "Eb:2"
+    ],
+    [
+     "Bb:2",
+     "Gm:2"
+    ],
+    [
+     "F:2",
+     "Eb:2"
+    ],
+    "%",
+    "%",
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "Eb",
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   2,
+   6.699
+  ],
+  [
+   6,
+   19.971
+  ],
+  [
+   10,
+   33.579
+  ],
+  [
+   15,
+   50.581
+  ],
+  [
+   20,
+   66.999
+  ],
+  [
+   25,
+   83.55
+  ],
+  [
+   30,
+   100.38
+  ],
+  [
+   35,
+   116.01
+  ],
+  [
+   40,
+   132.459
+  ],
+  [
+   45,
+   149.01
+  ],
+  [
+   50,
+   166.01
+  ],
+  [
+   52,
+   172.95
+  ]
+ ]
+}

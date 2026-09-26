@@ -1,0 +1,410 @@
+{
+ "title": "Hello",
+ "artist": "Adele",
+ "album": "Hello",
+ "year": 2015,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "T1tl66trXTQ",
+ "key": "Eb",
+ "bpm": 78.91,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.43,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 7136713,
+  "duration": 296,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Eb – Db – Fm – Ab – Cm – Fm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa",
+   "bars": [
+    "Fm"
+   ]
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "Fm:2",
+     "Ab:2"
+    ],
+    [
+     "Eb:2",
+     "Db:2"
+    ],
+    "Eb",
+    "Db",
+    [
+     "Fm:2",
+     "Ab:2"
+    ],
+    [
+     "Eb:2",
+     "Db:2"
+    ],
+    "Fm",
+    "Ab",
+    [
+     "Fm:2",
+     "Ab:2"
+    ],
+    [
+     "Eb:2",
+     "Db:2"
+    ],
+    "Fm",
+    "Ab",
+    [
+     "Fm:2",
+     "Ab:2"
+    ],
+    [
+     "Eb:2",
+     "Db:2"
+    ],
+    "Eb",
+    "Db",
+    [
+     "Fm:2",
+     "Eb:2"
+    ],
+    [
+     "Cm:2",
+     "Db:2"
+    ],
+    [
+     "Fm7:2",
+     "Eb:2"
+    ],
+    [
+     "Eb:2",
+     "Db:2"
+    ],
+    [
+     "Fm:2",
+     "Db:2"
+    ],
+    [
+     "Ab:2",
+     "Eb:2"
+    ],
+    [
+     "Fm:2",
+     "Db:2"
+    ],
+    [
+     "Ab:2",
+     "Eb:2"
+    ],
+    "Ab",
+    "Eb",
+    [
+     "Fm:2",
+     "Db:2"
+    ],
+    [
+     "Ab:2",
+     "Eb:2"
+    ],
+    [
+     "Fm:2",
+     "Db:2"
+    ],
+    [
+     "Ab:2",
+     "Eb:2"
+    ],
+    [
+     "Fm:2",
+     "Db:2"
+    ],
+    [
+     "Ab:2",
+     "Eb:2"
+    ],
+    [
+     "Fm:2",
+     "Db:2"
+    ],
+    [
+     "Ab:2",
+     "Eb:2"
+    ],
+    "Fm",
+    "%",
+    "Db",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello (1)",
+   "bars": [
+    [
+     "Fm:2",
+     "Ab:2"
+    ],
+    [
+     "Eb:2",
+     "Db:2"
+    ],
+    "Eb",
+    "Db",
+    [
+     "Fm:2",
+     "Ab:2"
+    ],
+    [
+     "Eb:2",
+     "Db:2"
+    ],
+    "Fm",
+    "Ab",
+    [
+     "Fm:2",
+     "Eb:2"
+    ],
+    [
+     "Cm:2",
+     "Db:2"
+    ],
+    [
+     "Fm:2",
+     "Eb:2"
+    ],
+    [
+     "Eb:2",
+     "Db:2"
+    ],
+    [
+     "Fm:2",
+     "Db:2"
+    ],
+    [
+     "Ab:2",
+     "Eb:2"
+    ],
+    [
+     "Fm:2",
+     "Db:2"
+    ],
+    [
+     "Ab:2",
+     "Eb:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello (2)",
+   "bars": [
+    "Ab",
+    "Eb",
+    [
+     "Fm:2",
+     "Db:2"
+    ],
+    [
+     "Ab:2",
+     "Eb:2"
+    ],
+    [
+     "Fm:2",
+     "Db:2"
+    ],
+    [
+     "Ab:2",
+     "Eb:2"
+    ],
+    [
+     "Fm:2",
+     "Db:2"
+    ],
+    [
+     "Ab:2",
+     "Eb:2"
+    ],
+    [
+     "Fm:2",
+     "Db:2"
+    ],
+    [
+     "Ab:2",
+     "Eb:2"
+    ],
+    "Fm",
+    "Db",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello (3)",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "Fm:2",
+     "Db:2"
+    ],
+    [
+     "Ab:2",
+     "Eb:2"
+    ],
+    [
+     "Fm:2",
+     "Db:2"
+    ],
+    [
+     "Ab:2",
+     "Eb:2"
+    ],
+    "Ab",
+    "Eb",
+    [
+     "Fm:2",
+     "Db:2"
+    ],
+    [
+     "Ab:2",
+     "Eb:2"
+    ],
+    [
+     "Fm:2",
+     "Db:2"
+    ],
+    [
+     "Ab:2",
+     "Eb:2"
+    ],
+    [
+     "Fm:2",
+     "Db:2"
+    ],
+    [
+     "Ab:2",
+     "Eb:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello (4)",
+   "bars": [
+    [
+     "Fm:2",
+     "Db:2"
+    ],
+    [
+     "Ab:2",
+     "Eb:2"
+    ],
+    "Fm",
+    "%",
+    "%",
+    "%",
+    "Db",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   1,
+   5.694
+  ],
+  [
+   5,
+   17.86
+  ],
+  [
+   9,
+   29.847
+  ],
+  [
+   13,
+   42.013
+  ],
+  [
+   17,
+   54.237
+  ],
+  [
+   23,
+   72.486
+  ],
+  [
+   29,
+   90.454
+  ],
+  [
+   35,
+   108.964
+  ],
+  [
+   39,
+   120.869
+  ],
+  [
+   45,
+   139.181
+  ],
+  [
+   49,
+   151.347
+  ],
+  [
+   53,
+   163.513
+  ],
+  [
+   59,
+   181.574
+  ],
+  [
+   63,
+   193.743
+  ],
+  [
+   68,
+   209.557
+  ],
+  [
+   73,
+   224.764
+  ],
+  [
+   79,
+   242.811
+  ],
+  [
+   83,
+   254.316
+  ],
+  [
+   87,
+   266.47
+  ],
+  [
+   89,
+   273.226
+  ]
+ ]
+}

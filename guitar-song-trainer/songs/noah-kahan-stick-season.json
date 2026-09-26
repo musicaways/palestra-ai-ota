@@ -1,0 +1,145 @@
+{
+ "title": "Stick Season",
+ "artist": "Noah Kahan",
+ "album": "Car Compilation",
+ "year": 2022,
+ "genre": "Folk",
+ "difficulty": 1,
+ "youtubeId": "-UOAl1VxTko",
+ "key": "E",
+ "bpm": 58.79,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.54,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37539133,
+  "duration": 182,
+  "offset": 0
+ },
+ "notes": "Accordi principali: E – A – D – F#m.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "A"
+   ]
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "A",
+    "%",
+    "F#m",
+    "%",
+    "%",
+    "%",
+    "F#m",
+    "%",
+    "%",
+    "E",
+    "%",
+    "D",
+    "A",
+    "E",
+    "F#m",
+    [
+     "D:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "A:2"
+    ],
+    "%",
+    "E",
+    "%",
+    "%",
+    "%",
+    "E",
+    "%",
+    "D",
+    "A",
+    "E",
+    "F#m",
+    [
+     "D:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "A:2"
+    ],
+    "E",
+    "F#m",
+    "D",
+    "%",
+    "E",
+    "%",
+    "D",
+    "A",
+    "E",
+    "F#m",
+    [
+     "D:2",
+     "E:2"
+    ],
+    "A",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   1,
+   3.905
+  ],
+  [
+   5,
+   20.638
+  ],
+  [
+   9,
+   37.53
+  ],
+  [
+   13,
+   53.873
+  ],
+  [
+   18,
+   74.17
+  ],
+  [
+   22,
+   90.53
+  ],
+  [
+   27,
+   110.782
+  ],
+  [
+   31,
+   125.94
+  ],
+  [
+   36,
+   147.375
+  ],
+  [
+   41,
+   167.922
+  ],
+  [
+   42,
+   172.062
+  ]
+ ]
+}

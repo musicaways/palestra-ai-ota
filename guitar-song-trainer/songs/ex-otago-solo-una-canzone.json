@@ -1,0 +1,260 @@
+{
+ "title": "Solo una canzone",
+ "artist": "Ex-Otago",
+ "album": "Ex-Otago",
+ "year": 2019,
+ "genre": "Indie / Pop",
+ "difficulty": 4,
+ "youtubeId": "NdGIFWS_Vow",
+ "key": "E",
+ "bpm": 80.19,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.1,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36766722,
+  "duration": 227,
+  "offset": 0
+ },
+ "notes": "Accordi principali: E – F#m7 – A – Dadd9 – D – Gadd9.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Parte 1",
+   "bars": [
+    "Gadd9",
+    "F#m7",
+    "D",
+    "A",
+    "Gadd9",
+    "F#m7",
+    "D",
+    "E",
+    "F#m7",
+    "Dadd9",
+    "%",
+    "E",
+    "F#m7",
+    "Dadd9",
+    "%",
+    [
+     "A:1",
+     "E:2",
+     "F#m7:1"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "E",
+    "Dadd9",
+    [
+     "A:1",
+     "E:2",
+     "F#m7:1"
+    ],
+    "E",
+    "Dadd9",
+    "A",
+    "Gadd9",
+    "%",
+    "D",
+    "A",
+    "%",
+    "F#m7",
+    "D",
+    "E",
+    "F#m7",
+    "Dadd9"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    "E",
+    "F#m7",
+    "D",
+    "%",
+    [
+     "A:1",
+     "E:2",
+     "F#m7:1"
+    ],
+    "E",
+    [
+     "E:2",
+     "Dadd9:2"
+    ],
+    "%",
+    [
+     "A:1",
+     "E:2",
+     "F#m7:1"
+    ],
+    "E",
+    [
+     "E:2",
+     "Dadd9:2"
+    ],
+    "%",
+    [
+     "A:1",
+     "E:2",
+     "F#m7:1"
+    ],
+    "E",
+    [
+     "E:2",
+     "Dadd9:2"
+    ],
+    "%",
+    [
+     "A:1",
+     "E:2",
+     "F#m7:1"
+    ],
+    "E",
+    [
+     "E:2",
+     "Dadd9:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "A",
+    "Em7",
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    "%",
+    "A",
+    "E",
+    "F#m7",
+    "E",
+    "Dadd9"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "A:1",
+     "E:2",
+     "F#m7:1"
+    ],
+    "E",
+    [
+     "E:2",
+     "Dadd9:2"
+    ],
+    "%",
+    [
+     "A:1",
+     "E:2",
+     "F#m7:1"
+    ],
+    "E",
+    [
+     "E:2",
+     "Dadd9:2"
+    ],
+    "%",
+    [
+     "A:1",
+     "E:2",
+     "F#m7:1"
+    ],
+    "E",
+    "%",
+    [
+     "E:2",
+     "Dadd9:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   0,
+   2.46
+  ],
+  [
+   5,
+   17.084
+  ],
+  [
+   9,
+   28.853
+  ],
+  [
+   14,
+   44.597
+  ],
+  [
+   18,
+   56.569
+  ],
+  [
+   23,
+   70.843
+  ],
+  [
+   29,
+   88.25
+  ],
+  [
+   34,
+   103.551
+  ],
+  [
+   38,
+   115.866
+  ],
+  [
+   42,
+   128.187
+  ],
+  [
+   46,
+   140.158
+  ],
+  [
+   50,
+   152.13
+  ],
+  [
+   54,
+   164.313
+  ],
+  [
+   63,
+   190.85
+  ],
+  [
+   67,
+   202.822
+  ],
+  [
+   71,
+   214.793
+  ]
+ ]
+}

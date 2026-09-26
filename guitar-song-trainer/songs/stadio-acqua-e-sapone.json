@@ -1,0 +1,208 @@
+{
+ "title": "Acqua e sapone",
+ "artist": "Stadio",
+ "album": "Stadio",
+ "year": 1983,
+ "genre": "Pop / Rock",
+ "difficulty": 4,
+ "youtubeId": "j6bl_WP_kjM",
+ "key": "Gm",
+ "bpm": 83.94,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.8,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 35839485,
+  "duration": 273.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Gm – Eb – D7 – Cm7 – Cm – Bb.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Gm7",
+    "%",
+    "%",
+    "%",
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "Cm",
+    "%",
+    "%",
+    "%",
+    "D7",
+    "%",
+    "%",
+    "%",
+    "Gm7",
+    "%",
+    "%",
+    "%",
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "Cm",
+    "%",
+    "%",
+    "%",
+    "D7",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Gm",
+    [
+     "Cm7:2",
+     "D7:2"
+    ],
+    "Gm",
+    [
+     "Cm7:2",
+     "D7:2"
+    ],
+    "Gm",
+    "Cm7",
+    "Gm",
+    "Cm",
+    "D7",
+    "Gm7",
+    "Eb",
+    "Cm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Gm",
+    [
+     "Cm7:2",
+     "D7:2"
+    ],
+    "Gm",
+    [
+     "Cm7:2",
+     "D7:2"
+    ],
+    "Gm",
+    "Cm7",
+    "Gm",
+    "Cm7",
+    [
+     "Eb:1",
+     "Bb:1",
+     "F#dim:1",
+     "Gm:1"
+    ],
+    "Eb",
+    "Bb",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    "Gm",
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    [
+     "Gm:1",
+     "Eb:1",
+     "Cm:1"
+    ],
+    "Gm",
+    "Eb",
+    "Cm",
+    "D7",
+    "Gm7",
+    "Eb",
+    "Cm",
+    "D7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Gm",
+    [
+     "Cm7:2",
+     "D7:2"
+    ],
+    "Gm",
+    [
+     "Cm7:2",
+     "D7:2"
+    ],
+    "Gm",
+    "Cm7",
+    [
+     "Gm:2",
+     "Cm7:2"
+    ],
+    "D7",
+    "Eb",
+    "Bb",
+    "%",
+    "Gm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    "Gm",
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    "Gm",
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    "Gm",
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    "Gm",
+    "Eb",
+    "Cm",
+    "D7",
+    "Gm",
+    "Eb",
+    "Cm",
+    "D7",
+    "Gm7",
+    "Eb"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

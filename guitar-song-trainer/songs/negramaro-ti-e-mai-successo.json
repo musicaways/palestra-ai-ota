@@ -1,0 +1,334 @@
+{
+ "title": "Ti è mai successo?",
+ "artist": "Negramaro",
+ "album": "Unplugged Tour Setlist",
+ "year": 2017,
+ "genre": "Pop / Rock",
+ "difficulty": 4,
+ "youtubeId": "iBt9lALNPvc",
+ "key": "D",
+ "bpm": 122.34,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.58,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 18966248,
+  "duration": 286.368,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – A – Bm – Em7 – Em – F#m.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "D",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "D",
+    "%",
+    "%",
+    "%",
+    "F#m",
+    "%",
+    "%",
+    "%",
+    "Bm",
+    "%",
+    "%",
+    "%",
+    "Em7",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "D",
+    "%",
+    "%",
+    "%",
+    "F#m",
+    "%",
+    "%",
+    "%",
+    "Bm",
+    "%",
+    "%",
+    "%",
+    "Em7",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "D",
+    [
+     "D:2",
+     "Em:2"
+    ],
+    "%",
+    "A7",
+    "%",
+    "%",
+    "%",
+    "Bm",
+    "%",
+    "Em",
+    "%",
+    "A",
+    "%",
+    "Bm",
+    "%",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "%",
+    [
+     "A:2",
+     "D:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "D",
+    "%",
+    "%",
+    "%",
+    "F#m7",
+    "%",
+    "%",
+    "%",
+    "Bm",
+    "%",
+    "%",
+    "%",
+    "Em",
+    "%",
+    "D",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "D",
+    [
+     "D:2",
+     "Em:2"
+    ],
+    "%",
+    "A",
+    "%",
+    "Bm",
+    "%",
+    "A",
+    "Bm",
+    "Em",
+    "%",
+    "A",
+    "%",
+    "Bm",
+    "%",
+    "A",
+    "%",
+    [
+     "A:2",
+     "D:2"
+    ],
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "Em7",
+    [
+     "Em7:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "D",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "D",
+    "%",
+    "%",
+    "%",
+    "F#m7",
+    "%",
+    "%",
+    "%",
+    "D",
+    "%",
+    "%",
+    "%",
+    "Em7",
+    "%",
+    "D",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   13,
+   26.637
+  ],
+  [
+   17,
+   34.52
+  ],
+  [
+   21,
+   42.38
+  ],
+  [
+   27,
+   54.63
+  ],
+  [
+   31,
+   62.52
+  ],
+  [
+   37,
+   74.427
+  ],
+  [
+   41,
+   82.453
+  ],
+  [
+   48,
+   95.98
+  ],
+  [
+   54,
+   107.52
+  ],
+  [
+   58,
+   115.317
+  ],
+  [
+   65,
+   129
+  ],
+  [
+   70,
+   138.76
+  ],
+  [
+   76,
+   150.53
+  ],
+  [
+   82,
+   162.437
+  ],
+  [
+   94,
+   185.981
+  ],
+  [
+   99,
+   195.79
+  ],
+  [
+   105,
+   207.534
+  ],
+  [
+   114,
+   225.19
+  ],
+  [
+   122,
+   240.828
+  ],
+  [
+   127,
+   250.693
+  ],
+  [
+   133,
+   262.493
+  ],
+  [
+   139,
+   274.3
+  ],
+  [
+   141,
+   278.223
+  ]
+ ]
+}

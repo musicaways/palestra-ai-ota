@@ -1,0 +1,198 @@
+{
+ "title": "Anna e Marco",
+ "artist": "Lucio Dalla",
+ "album": "Ciao Italia! 2",
+ "year": 1979,
+ "genre": "Cantautori",
+ "difficulty": 4,
+ "youtubeId": "TO8H-YtE-H8",
+ "key": "F",
+ "bpm": 67.37,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.72,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 35224701,
+  "duration": 223,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F – Bb – Eb – Cm7 – Eb6 – F4.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bb",
+    "Cm7"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Bb:2",
+     "Cm7:2"
+    ],
+    "%",
+    "Eb",
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    "%",
+    "Eb6",
+    "F4",
+    "F",
+    "Bb",
+    "Bb",
+    "Cm7",
+    "Eb",
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    "%",
+    "Eb6",
+    "%",
+    "F",
+    "Bb",
+    "%",
+    "%",
+    "F",
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    [
+     "Cm7:2",
+     "F:2"
+    ],
+    "Eb",
+    "Eb",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Bb",
+    "%",
+    "Eb",
+    "Bb",
+    "%",
+    "Eb6",
+    "F",
+    "Bb",
+    "%",
+    "Eb",
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    "%",
+    "Eb6",
+    "F",
+    "Bb",
+    "%",
+    "F",
+    "%",
+    [
+     "F:2",
+     "Cm7:2"
+    ],
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    [
+     "Cm7:2",
+     "F:2"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Bb",
+    "Cm7",
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   2,
+   7.8
+  ],
+  [
+   7,
+   26.24
+  ],
+  [
+   11,
+   40.98
+  ],
+  [
+   15,
+   55.297
+  ],
+  [
+   20,
+   73.042
+  ],
+  [
+   25,
+   91.14
+  ],
+  [
+   29,
+   105.39
+  ],
+  [
+   33,
+   119.64
+  ],
+  [
+   37,
+   133.618
+  ],
+  [
+   42,
+   150.948
+  ],
+  [
+   47,
+   168.632
+  ],
+  [
+   52,
+   186.633
+  ],
+  [
+   55,
+   197.882
+  ]
+ ]
+}

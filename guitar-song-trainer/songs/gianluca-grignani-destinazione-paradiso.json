@@ -1,0 +1,203 @@
+{
+ "title": "Destinazione paradiso",
+ "artist": "Gianluca Grignani",
+ "album": "Succo Di Vita: Very Best Of",
+ "year": 1995,
+ "genre": "Pop / Rock",
+ "difficulty": 5,
+ "youtubeId": "SvnvdP4G9hU",
+ "key": "B",
+ "bpm": 68.91,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.25,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37206326,
+  "duration": 229,
+  "offset": 0
+ },
+ "notes": "Accordi principali: B – F# – G#m – D#m – A#m – B6.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "F#",
+    "B",
+    "F#",
+    "B",
+    "%",
+    "%",
+    "F#",
+    "%",
+    "B",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "F#",
+    "B",
+    "%",
+    [
+     "F#:2",
+     "B:2"
+    ],
+    "F#",
+    "B",
+    "G#m",
+    "B",
+    "G#m",
+    "B",
+    [
+     "F#:2",
+     "B:2"
+    ],
+    [
+     "F#:2",
+     "B:2"
+    ],
+    "F#",
+    "B",
+    "F#",
+    "B"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "G#m",
+    "B",
+    "G#m",
+    "B",
+    "F#",
+    "G#m",
+    [
+     "A#m:2",
+     "B:2"
+    ],
+    "%",
+    "G#m",
+    "B",
+    [
+     "G#m:2",
+     "B:2"
+    ],
+    [
+     "Bmaj7:2",
+     "B6:2"
+    ],
+    "F#",
+    "B",
+    "F#",
+    "B"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "D#m",
+    "B",
+    "F#",
+    "B",
+    "F#",
+    "B",
+    "F#",
+    "B",
+    "D#m",
+    "B",
+    "F#",
+    "B",
+    "F#",
+    "G#m",
+    [
+     "A#m:2",
+     "B:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "D#m",
+    "B",
+    "F#",
+    "B",
+    "F#",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   0,
+   1.21
+  ],
+  [
+   6,
+   22.107
+  ],
+  [
+   12,
+   43.059
+  ],
+  [
+   16,
+   56.346
+  ],
+  [
+   21,
+   74.404
+  ],
+  [
+   26,
+   92.34
+  ],
+  [
+   30,
+   106.271
+  ],
+  [
+   36,
+   127.031
+  ],
+  [
+   41,
+   143.864
+  ],
+  [
+   46,
+   161.278
+  ],
+  [
+   51,
+   178.788
+  ],
+  [
+   56,
+   196.184
+  ],
+  [
+   60,
+   210.063
+  ],
+  [
+   62,
+   217.081
+  ]
+ ]
+}

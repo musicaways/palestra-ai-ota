@@ -1,0 +1,192 @@
+{
+ "title": "Mi fai impazzire",
+ "artist": "Blanco",
+ "album": "PRIMAVERA 2022 HITS ITALIA",
+ "year": 2021,
+ "genre": "Pop",
+ "difficulty": 2,
+ "youtubeId": "vBx5MmoR1L8",
+ "key": "C#m",
+ "bpm": 84.93,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.23,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 23848463,
+  "duration": 220,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C#m – B – E – B6.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Parte 1",
+   "bars": [
+    [
+     "C#m:2",
+     "B:2"
+    ],
+    "E",
+    "%",
+    "C#m",
+    "B",
+    "E",
+    "%",
+    "C#m",
+    "B",
+    "%",
+    "%",
+    "C#m",
+    "B",
+    "E",
+    "%",
+    "C#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "B",
+    "E",
+    "%",
+    "C#m",
+    "B",
+    "E",
+    "%",
+    "C#m",
+    "B",
+    "%",
+    "%",
+    "C#m",
+    "B",
+    "%",
+    "%",
+    [
+     "C#m:2",
+     "B:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "E",
+    "%",
+    "C#m",
+    "B6",
+    "E",
+    "%",
+    "%",
+    "C#m",
+    "B",
+    "E",
+    "%",
+    "C#m",
+    "B",
+    "%",
+    "%",
+    "C#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "B",
+    "%",
+    "%",
+    "C#m",
+    "B6",
+    "E",
+    "%",
+    "C#m",
+    "B6",
+    "E",
+    "%",
+    "C#m",
+    "B",
+    "%",
+    "%",
+    "C#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "B",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   0,
+   2.432
+  ],
+  [
+   4,
+   13.736
+  ],
+  [
+   9,
+   27.582
+  ],
+  [
+   13,
+   38.816
+  ],
+  [
+   18,
+   52.914
+  ],
+  [
+   22,
+   64.354
+  ],
+  [
+   27,
+   78.483
+  ],
+  [
+   39,
+   112.502
+  ],
+  [
+   45,
+   129.192
+  ],
+  [
+   49,
+   140.493
+  ],
+  [
+   54,
+   154.638
+  ],
+  [
+   58,
+   166.008
+  ]
+ ]
+}

@@ -8,7 +8,7 @@
     "genre": "Rap / Hip-hop",
     "year": 2025,
     "difficulty": 2,
-    "key": "Gm",
+    "key": "Sol minore (Gm)",
     "youtubeId": "OGgBYJsekX0"
   },
   {
@@ -20,7 +20,7 @@
     "genre": "Pop",
     "year": 2020,
     "difficulty": 3,
-    "key": "B",
+    "key": "Si maggiore (B)",
     "youtubeId": "wppn2Via-Tk"
   },
   {
@@ -32,7 +32,7 @@
     "genre": "Pop / Rap",
     "year": 2021,
     "difficulty": 3,
-    "key": "Eb",
+    "key": "Mi bemolle maggiore (Eb)",
     "youtubeId": "XE6lV6xseQ4"
   },
   {
@@ -44,7 +44,7 @@
     "genre": "Pop / Indie",
     "year": 2020,
     "difficulty": 1,
-    "key": "G",
+    "key": "Sol maggiore (G)",
     "youtubeId": "J3n4CrZxu3g"
   },
   {
@@ -56,7 +56,7 @@
     "genre": "Pop / Indie",
     "year": 2019,
     "difficulty": 2,
-    "key": "Am",
+    "key": "La minore (Am)",
     "youtubeId": "to8uZT8j8UI"
   },
   {
@@ -80,7 +80,7 @@
     "genre": "Pop",
     "year": 2024,
     "difficulty": 2,
-    "key": "Bb",
+    "key": "Si bemolle maggiore (Bb)",
     "youtubeId": "nVa0GPeuVk4"
   },
   {
@@ -92,7 +92,7 @@
     "genre": "Pop / Cantautori",
     "year": 2017,
     "difficulty": 2,
-    "key": "Am → A",
+    "key": "La minore → La maggiore",
     "youtubeId": "e3tqZtXsQH4"
   },
   {
@@ -104,7 +104,7 @@
     "genre": "Pop / Cantautori",
     "year": 2005,
     "difficulty": 1,
-    "key": "D",
+    "key": "Re maggiore (D)",
     "youtubeId": "2FBmxK1ttEE"
   },
   {
@@ -116,7 +116,7 @@
     "genre": "Cantautori",
     "year": 1975,
     "difficulty": 1,
-    "key": "D",
+    "key": "Re maggiore (D)",
     "youtubeId": "rfaihaFlcSg"
   },
   {
@@ -128,7 +128,7 @@
     "genre": "Cantautori",
     "year": 1978,
     "difficulty": 1,
-    "key": "A",
+    "key": "La maggiore (A)",
     "youtubeId": "laIH5AQqeH0"
   },
   {
@@ -140,7 +140,7 @@
     "genre": "Pop / Rap",
     "year": 2021,
     "difficulty": 3,
-    "key": "Gm",
+    "key": "Sol minore (Gm)",
     "youtubeId": "F92zPP2FbwE"
   },
   {
@@ -152,7 +152,7 @@
     "genre": "Pop / Rap",
     "year": 2014,
     "difficulty": 1,
-    "key": "C",
+    "key": "Do maggiore (C)",
     "youtubeId": "EEgCVNuGiTk"
   },
   {
@@ -164,7 +164,7 @@
     "genre": "Rap / Hip-hop",
     "year": 2018,
     "difficulty": 1,
-    "key": "Bbm",
+    "key": "Si bemolle minore (Bbm)",
     "youtubeId": "HbfFG15Xd9U"
   },
   {
@@ -176,7 +176,7 @@
     "genre": "Pop / Cantautori",
     "year": 2018,
     "difficulty": 2,
-    "key": "Fm",
+    "key": "Fa minore (Fm)",
     "youtubeId": "QdaO4l7a3c4"
   },
   {
@@ -188,7 +188,7 @@
     "genre": "Rock",
     "year": 2021,
     "difficulty": 3,
-    "key": "Dm",
+    "key": "Re minore (Dm)",
     "youtubeId": "4o7_y6G3afk"
   },
   {
@@ -212,7 +212,7 @@
     "genre": "Pop / Rap",
     "year": 2021,
     "difficulty": 3,
-    "key": "C#m",
+    "key": "Do diesis minore (C#m)",
     "youtubeId": "FJNOkLCIg5Y"
   },
   {
@@ -236,7 +236,7 @@
     "genre": "Pop",
     "year": 2021,
     "difficulty": 3,
-    "key": "F#m",
+    "key": "Fa diesis minore (F#m) / La maggiore",
     "youtubeId": "EA58w_cxAAg"
   },
   {
@@ -248,7 +248,7 @@
     "genre": "Pop / Indie",
     "year": 2022,
     "difficulty": 2,
-    "key": "D",
+    "key": "Re maggiore (D)",
     "youtubeId": "4GXDFtuG9Xo"
   },
   {
@@ -260,7 +260,7 @@
     "genre": "Pop / Indie",
     "year": 2020,
     "difficulty": 2,
-    "key": "A",
+    "key": "La maggiore (A)",
     "youtubeId": "-FVvVMNuIXU"
   },
   {
@@ -272,7 +272,7 @@
     "genre": "Pop / Indie",
     "year": 2020,
     "difficulty": 2,
-    "key": "E",
+    "key": "Mi maggiore (E)",
     "youtubeId": "PXtcYTK-bQY"
   },
   {
@@ -284,7 +284,7 @@
     "genre": "Pop",
     "year": 2025,
     "difficulty": 2,
-    "key": "E",
+    "key": "Mi maggiore (E)",
     "youtubeId": "pyLzJu1ggIU"
   },
   {
@@ -296,7 +296,7 @@
     "genre": "Pop / Cantautori",
     "year": 2018,
     "difficulty": 2,
-    "key": "D",
+    "key": "Re maggiore (D)",
     "youtubeId": "y1YypOI5t-o"
   },
   {
@@ -308,7 +308,7 @@
     "genre": "Cantautori",
     "year": 1981,
     "difficulty": 3,
-    "key": "C",
+    "key": "Do maggiore (C)",
     "youtubeId": "5uPbsQnMTBQ"
   },
   {
@@ -320,7 +320,7 @@
     "genre": "Cantautori",
     "year": 1977,
     "difficulty": 1,
-    "key": "C",
+    "key": "Do maggiore (C)",
     "youtubeId": "eQWh1eh0Bhs"
   },
   {
@@ -332,7 +332,7 @@
     "genre": "Cantautori",
     "year": 1976,
     "difficulty": 2,
-    "key": "D",
+    "key": "Re maggiore (D)",
     "youtubeId": "tg1yM929yp8"
   },
   {
@@ -344,7 +344,7 @@
     "genre": "Cantautori",
     "year": 1976,
     "difficulty": 2,
-    "key": "Db",
+    "key": "Re bemolle maggiore (Db)",
     "youtubeId": "QIBBlRDgJfQ"
   },
   {
@@ -356,7 +356,7 @@
     "genre": "Pop / Rap",
     "year": 2013,
     "difficulty": 3,
-    "key": "F#m",
+    "key": "Fa diesis minore (F#m)",
     "youtubeId": "a6h45y3Cp0k"
   },
   {
@@ -368,7 +368,7 @@
     "genre": "Pop / Rap",
     "year": 2020,
     "difficulty": 2,
-    "key": "G",
+    "key": "Sol maggiore (G) / Mi minore",
     "youtubeId": "bDAWn_q90dM"
   },
   {
@@ -380,7 +380,7 @@
     "genre": "Pop",
     "year": 2021,
     "difficulty": 1,
-    "key": "D",
+    "key": "Re maggiore (D)",
     "youtubeId": "l6N-Yq9Fw4U"
   },
   {
@@ -392,7 +392,7 @@
     "genre": "Rap / Hip-hop",
     "year": 2018,
     "difficulty": 3,
-    "key": "Fm",
+    "key": "Fa minore (Fm)",
     "youtubeId": "bz0qaxRGrdM"
   },
   {
@@ -1425,7 +1425,7 @@
     "year": 2023,
     "difficulty": 5,
     "key": "F",
-    "youtubeId": "IpF9WqUS2S0"
+    "youtubeId": "hDMNob_yv9s"
   },
   {
     "id": "ultimo-ti-dedico-il-silenzio",
@@ -3513,7 +3513,7 @@
     "year": 2019,
     "difficulty": 4,
     "key": "Bb",
-    "youtubeId": "8wlxTdDol70"
+    "youtubeId": "aSrdUCJ4WeQ"
   },
   {
     "id": "gazzelle-destri",
@@ -3561,7 +3561,7 @@
     "year": 2017,
     "difficulty": 4,
     "key": "Dm7",
-    "youtubeId": "zO802boBh_M"
+    "youtubeId": "Awn3ocXEUXk"
   },
   {
     "id": "brunori-sas-al-di-la-dell-amore",
@@ -5314,5 +5314,1337 @@
     "difficulty": 4,
     "key": "Cm",
     "youtubeId": "k4H4G28NYIc"
+  },
+  {
+    "id": "salmo-kumite",
+    "file": "salmo-kumite.json",
+    "title": "Kumite",
+    "artist": "Salmo",
+    "album": "Unknown",
+    "genre": "Rap / Hip-hop",
+    "year": 2021,
+    "difficulty": 2,
+    "key": "Eb",
+    "youtubeId": "sosw_tG_t0g"
+  },
+  {
+    "id": "salmo-1984",
+    "file": "salmo-1984.json",
+    "title": "1984",
+    "artist": "Salmo",
+    "album": "Hellvisback",
+    "genre": "Rap / Hip-hop",
+    "year": 2016,
+    "difficulty": 1,
+    "key": "Gm",
+    "youtubeId": "tyU_n_5tQww"
+  },
+  {
+    "id": "fedez-prima-di-ogni-cosa",
+    "file": "fedez-prima-di-ogni-cosa.json",
+    "title": "Prima di ogni cosa",
+    "artist": "Fedez",
+    "album": "Hot Tracks Italia",
+    "genre": "Pop / Rap",
+    "year": 2019,
+    "difficulty": 3,
+    "key": "C",
+    "youtubeId": "_epCqy-7GOA"
+  },
+  {
+    "id": "fedez-bimbi-per-strada",
+    "file": "fedez-bimbi-per-strada.json",
+    "title": "Bimbi per strada",
+    "artist": "Fedez",
+    "album": "BIMBI PER STRADA (CHILDREN)",
+    "genre": "Pop / Rap",
+    "year": 2021,
+    "difficulty": 4,
+    "key": "Bbm",
+    "youtubeId": "DAeIptt4w_k"
+  },
+  {
+    "id": "j-ax-maria-salvador",
+    "file": "j-ax-maria-salvador.json",
+    "title": "Maria Salvador",
+    "artist": "J-Ax",
+    "album": "J-Ax & Friends [Disco 2]",
+    "genre": "Rap / Hip-hop",
+    "year": 2015,
+    "difficulty": 4,
+    "key": "Cm",
+    "youtubeId": "RfhG6FmD248"
+  },
+  {
+    "id": "marracash-crazy-love",
+    "file": "marracash-crazy-love.json",
+    "title": "Crazy Love",
+    "artist": "Marracash",
+    "album": "Noi, loro, gli altri (Deluxe Edition)",
+    "genre": "Rap / Hip-hop",
+    "year": 2015,
+    "difficulty": 1,
+    "key": "Dm",
+    "youtubeId": "v3DoL3c0PA4"
+  },
+  {
+    "id": "lazza-morto-mai",
+    "file": "lazza-morto-mai.json",
+    "title": "Morto mai",
+    "artist": "Lazza",
+    "album": "Morto mai",
+    "genre": "Rap / Hip-hop",
+    "year": 2022,
+    "difficulty": 2,
+    "key": "Gm",
+    "youtubeId": "8uZ2vS_7i8Y"
+  },
+  {
+    "id": "ghali-paprika",
+    "file": "ghali-paprika.json",
+    "title": "Paprika",
+    "artist": "Ghali",
+    "album": "Radio Italia Summer Hits 2024",
+    "genre": "Rap / Hip-hop",
+    "year": 2019,
+    "difficulty": 3,
+    "key": "G",
+    "youtubeId": "J-nVDbmzf-w"
+  },
+  {
+    "id": "ghali-casa-mia",
+    "file": "ghali-casa-mia.json",
+    "title": "Casa mia",
+    "artist": "Ghali",
+    "album": "Ghali",
+    "genre": "Rap / Hip-hop",
+    "year": 2024,
+    "difficulty": 3,
+    "key": "G",
+    "youtubeId": "UONisMPGufA"
+  },
+  {
+    "id": "rkomi-insuperabile",
+    "file": "rkomi-insuperabile.json",
+    "title": "Insuperabile",
+    "artist": "Rkomi",
+    "album": "Sanremo Compilation 2022",
+    "genre": "Rap / Hip-hop",
+    "year": 2022,
+    "difficulty": 3,
+    "key": "Em",
+    "youtubeId": "6f9x0csLoCs"
+  },
+  {
+    "id": "madame-voce",
+    "file": "madame-voce.json",
+    "title": "Voce",
+    "artist": "Madame",
+    "album": "Top 100 Italia 26.03",
+    "genre": "Rap / Hip-hop",
+    "year": 2021,
+    "difficulty": 5,
+    "key": "Fm",
+    "youtubeId": "cFAtUbi7a8w"
+  },
+  {
+    "id": "ultimo-altrove",
+    "file": "ultimo-altrove.json",
+    "title": "Altrove",
+    "artist": "Ultimo",
+    "album": "Ultimo Channel Videos",
+    "genre": "Pop",
+    "year": 2024,
+    "difficulty": 4,
+    "key": "C",
+    "youtubeId": "IpF9WqUS2S0"
+  },
+  {
+    "id": "ultimo-tutto-questo-sei-tu",
+    "file": "ultimo-tutto-questo-sei-tu.json",
+    "title": "Tutto questo sei tu",
+    "artist": "Ultimo",
+    "album": "Top 100 Italia - Classifica Del 04.03.2020",
+    "genre": "Pop",
+    "year": 2021,
+    "difficulty": 3,
+    "key": "G",
+    "youtubeId": "3ldPnEdB8cs"
+  },
+  {
+    "id": "ultimo-vieni-nel-mio-cuore",
+    "file": "ultimo-vieni-nel-mio-cuore.json",
+    "title": "Vieni nel mio cuore",
+    "artist": "Ultimo",
+    "album": "Ultimo",
+    "genre": "Pop",
+    "year": 2022,
+    "difficulty": 5,
+    "key": "Ebm",
+    "youtubeId": "DoG5sIjFvHs"
+  },
+  {
+    "id": "geolier-chiagne",
+    "file": "geolier-chiagne.json",
+    "title": "Chiagne",
+    "artist": "Geolier",
+    "album": "CHIAGNE",
+    "genre": "Rap / Hip-hop",
+    "year": 2023,
+    "difficulty": 1,
+    "key": "F#m",
+    "youtubeId": "xMV8C7olJK0"
+  },
+  {
+    "id": "anna-desolee",
+    "file": "anna-desolee.json",
+    "title": "Désolée",
+    "artist": "Anna",
+    "album": "Vangelo",
+    "genre": "Rap / Hip-hop",
+    "year": 2024,
+    "difficulty": 4,
+    "key": "Cm",
+    "youtubeId": "g_VAB_86eTk"
+  },
+  {
+    "id": "olly-a-squarciagola",
+    "file": "olly-a-squarciagola.json",
+    "title": "A squarciagola",
+    "artist": "Olly",
+    "album": "JVLI",
+    "genre": "Pop",
+    "year": 2024,
+    "difficulty": 1,
+    "key": "G",
+    "youtubeId": "lZsh_wGCaQ8"
+  },
+  {
+    "id": "olly-scarabocchi",
+    "file": "olly-scarabocchi.json",
+    "title": "Scarabocchi",
+    "artist": "Olly",
+    "album": "Juli",
+    "genre": "Pop",
+    "year": 2024,
+    "difficulty": 3,
+    "key": "Dm7",
+    "youtubeId": "Fi73wR_jqc8"
+  },
+  {
+    "id": "achille-lauro-c-est-la-vie",
+    "file": "achille-lauro-c-est-la-vie.json",
+    "title": "C'est la vie",
+    "artist": "Achille Lauro",
+    "album": "Top 100 Italia - Classifica Del 01.07.2019",
+    "genre": "Rock / Pop",
+    "year": 2021,
+    "difficulty": 3,
+    "key": "G",
+    "youtubeId": "G18fYwPhy-Q"
+  },
+  {
+    "id": "achille-lauro-me-ne-frego",
+    "file": "achille-lauro-me-ne-frego.json",
+    "title": "Me ne frego",
+    "artist": "Achille Lauro",
+    "album": "A TUTTO POP! 1990-2020",
+    "genre": "Rock / Pop",
+    "year": 2020,
+    "difficulty": 5,
+    "key": "A",
+    "youtubeId": "2lttOzC_mtk"
+  },
+  {
+    "id": "achille-lauro-incoscienti-giovani",
+    "file": "achille-lauro-incoscienti-giovani.json",
+    "title": "Incoscienti giovani",
+    "artist": "Achille Lauro",
+    "album": "This is Achille Lauro",
+    "genre": "Rock / Pop",
+    "year": 2025,
+    "difficulty": 5,
+    "key": "Bb",
+    "youtubeId": "9nvovtrK_eI"
+  },
+  {
+    "id": "blanco-mi-fai-impazzire",
+    "file": "blanco-mi-fai-impazzire.json",
+    "title": "Mi fai impazzire",
+    "artist": "Blanco",
+    "album": "PRIMAVERA 2022 HITS ITALIA",
+    "genre": "Pop",
+    "year": 2021,
+    "difficulty": 2,
+    "key": "C#m",
+    "youtubeId": "vBx5MmoR1L8"
+  },
+  {
+    "id": "mahmood-dorado",
+    "file": "mahmood-dorado.json",
+    "title": "Dorado",
+    "artist": "Mahmood",
+    "album": "Dorado - Single",
+    "genre": "Pop",
+    "year": 2019,
+    "difficulty": 4,
+    "key": "F#m",
+    "youtubeId": "ErRvGyRcznI"
+  },
+  {
+    "id": "marco-mengoni-esseri-umani",
+    "file": "marco-mengoni-esseri-umani.json",
+    "title": "Esseri umani",
+    "artist": "Marco Mengoni",
+    "album": "Parole in circolo",
+    "genre": "Pop",
+    "year": 2015,
+    "difficulty": 4,
+    "key": "A",
+    "youtubeId": "U-4OrzSBfm8"
+  },
+  {
+    "id": "marco-mengoni-ti-ho-voluto-bene-veramente",
+    "file": "marco-mengoni-ti-ho-voluto-bene-veramente.json",
+    "title": "Ti ho voluto bene veramente",
+    "artist": "Marco Mengoni",
+    "album": "Ti ho voluto bene veramente  (single)",
+    "genre": "Pop",
+    "year": 2015,
+    "difficulty": 5,
+    "key": "E",
+    "youtubeId": "5RGckRWkebA"
+  },
+  {
+    "id": "marco-mengoni-pronto-a-correre",
+    "file": "marco-mengoni-pronto-a-correre.json",
+    "title": "Pronto a correre",
+    "artist": "Marco Mengoni",
+    "album": "#PRONTOACORRERE Il Viaggio",
+    "genre": "Pop",
+    "year": 2013,
+    "difficulty": 3,
+    "key": "G",
+    "youtubeId": "AXZftVvo3c8"
+  },
+  {
+    "id": "elodie-tribale",
+    "file": "elodie-tribale.json",
+    "title": "Tribale",
+    "artist": "Elodie",
+    "album": "Para jugar a las Sirenas",
+    "genre": "Pop",
+    "year": 2023,
+    "difficulty": 4,
+    "key": "F#m",
+    "youtubeId": "dZrvGR8BjV8"
+  },
+  {
+    "id": "annalisa-bellissima",
+    "file": "annalisa-bellissima.json",
+    "title": "Bellissima",
+    "artist": "Annalisa",
+    "album": "Fyp Italia 2023",
+    "genre": "Pop",
+    "year": 2022,
+    "difficulty": 3,
+    "key": "F",
+    "youtubeId": "lbYkmHcgQ3I"
+  },
+  {
+    "id": "annalisa-il-mondo-prima-di-te",
+    "file": "annalisa-il-mondo-prima-di-te.json",
+    "title": "Il mondo prima di te",
+    "artist": "Annalisa",
+    "album": "Il mondo prima di te",
+    "genre": "Pop",
+    "year": 2018,
+    "difficulty": 2,
+    "key": "F#m",
+    "youtubeId": "m88mXYPfkQg"
+  },
+  {
+    "id": "angelina-mango-che-t-o-dico-a-fa",
+    "file": "angelina-mango-che-t-o-dico-a-fa.json",
+    "title": "Che t'o dico a fa'",
+    "artist": "Angelina Mango",
+    "album": "che t'o dico a fa'",
+    "genre": "Pop",
+    "year": 2023,
+    "difficulty": 5,
+    "key": "F#7",
+    "youtubeId": "cHqS0XR8pns"
+  },
+  {
+    "id": "the-kolors-un-ragazzo-una-ragazza",
+    "file": "the-kolors-un-ragazzo-una-ragazza.json",
+    "title": "Un ragazzo una ragazza",
+    "artist": "The Kolors",
+    "album": "Tu con chi fai l’amore",
+    "genre": "Pop",
+    "year": 2024,
+    "difficulty": 5,
+    "key": "Bmaj7",
+    "youtubeId": "OrjUo3VUcho"
+  },
+  {
+    "id": "irama-tu-no",
+    "file": "irama-tu-no.json",
+    "title": "Tu no",
+    "artist": "Irama",
+    "album": "Single",
+    "genre": "Pop",
+    "year": 2024,
+    "difficulty": 3,
+    "key": "D",
+    "youtubeId": "Y6VMxKnlvo8"
+  },
+  {
+    "id": "irama-ovunque-sarai",
+    "file": "irama-ovunque-sarai.json",
+    "title": "Ovunque sarai",
+    "artist": "Irama",
+    "album": "null",
+    "genre": "Pop",
+    "year": 2022,
+    "difficulty": 4,
+    "key": "C",
+    "youtubeId": "K4cPTgkYG9c"
+  },
+  {
+    "id": "diodato-fai-rumore",
+    "file": "diodato-fai-rumore.json",
+    "title": "Fai rumore",
+    "artist": "Diodato",
+    "album": "Pop Italiano",
+    "genre": "Cantautori",
+    "year": 2020,
+    "difficulty": 5,
+    "key": "Gb",
+    "youtubeId": "0tyhPbv3-bM"
+  },
+  {
+    "id": "diodato-che-vita-meravigliosa",
+    "file": "diodato-che-vita-meravigliosa.json",
+    "title": "Che vita meravigliosa",
+    "artist": "Diodato",
+    "album": "Che vita meravigliosa  (single)",
+    "genre": "Cantautori",
+    "year": 2021,
+    "difficulty": 5,
+    "key": "C#",
+    "youtubeId": "rLr5V8-JrJw"
+  },
+  {
+    "id": "ermal-meta-vietato-morire",
+    "file": "ermal-meta-vietato-morire.json",
+    "title": "Vietato morire",
+    "artist": "Ermal Meta",
+    "album": "Vietato morire",
+    "genre": "Pop / Rock",
+    "year": 2017,
+    "difficulty": 3,
+    "key": "Am",
+    "youtubeId": "4WMejmcT9ZY"
+  },
+  {
+    "id": "ermal-meta-non-mi-avete-fatto-niente",
+    "file": "ermal-meta-non-mi-avete-fatto-niente.json",
+    "title": "Non mi avete fatto niente",
+    "artist": "Ermal Meta",
+    "album": "Fabrizio Moro",
+    "genre": "Pop / Rock",
+    "year": 2018,
+    "difficulty": 5,
+    "key": "F#",
+    "youtubeId": "6iQxpFnWPAs"
+  },
+  {
+    "id": "fabrizio-moro-portami-via",
+    "file": "fabrizio-moro-portami-via.json",
+    "title": "Portami via",
+    "artist": "Fabrizio Moro",
+    "album": "Portami via",
+    "genre": "Pop / Rock",
+    "year": 2017,
+    "difficulty": 4,
+    "key": "Eb",
+    "youtubeId": "ZlPRMXQER0Q"
+  },
+  {
+    "id": "fabrizio-moro-pensa",
+    "file": "fabrizio-moro-pensa.json",
+    "title": "Pensa",
+    "artist": "Fabrizio Moro",
+    "album": "Mix - Italian",
+    "genre": "Pop / Rock",
+    "year": 2007,
+    "difficulty": 3,
+    "key": "Am",
+    "youtubeId": "Y9no1WcVRWw"
+  },
+  {
+    "id": "francesca-michielin-nessun-grado-di-separazione",
+    "file": "francesca-michielin-nessun-grado-di-separazione.json",
+    "title": "Nessun grado di separazione",
+    "artist": "Francesca Michielin",
+    "album": "Sanremo - le canzoni più famose",
+    "genre": "Pop",
+    "year": 2016,
+    "difficulty": 4,
+    "key": "G",
+    "youtubeId": "NXE-aTIIG30"
+  },
+  {
+    "id": "levante-tikibombom",
+    "file": "levante-tikibombom.json",
+    "title": "Tikibombom",
+    "artist": "Levante",
+    "album": "Singles 2020",
+    "genre": "Indie",
+    "year": 2020,
+    "difficulty": 2,
+    "key": "D",
+    "youtubeId": "UqRtuB-NUGU"
+  },
+  {
+    "id": "coma-cose-fiamme-negli-occhi",
+    "file": "coma-cose-fiamme-negli-occhi.json",
+    "title": "Fiamme negli occhi",
+    "artist": "Coma_Cose",
+    "album": "Sanremo Compilation 2021",
+    "genre": "Indie / Pop",
+    "year": 2021,
+    "difficulty": 1,
+    "key": "D",
+    "youtubeId": "MJhkALvLs0s"
+  },
+  {
+    "id": "coma-cose-l-addio",
+    "file": "coma-cose-l-addio.json",
+    "title": "L'addio",
+    "artist": "Coma_Cose",
+    "album": "I Singoli di Sanremo 2023 In HI-Res",
+    "genre": "Indie / Pop",
+    "year": 2023,
+    "difficulty": 4,
+    "key": "A",
+    "youtubeId": "gG7czSry4LY"
+  },
+  {
+    "id": "lo-stato-sociale-una-vita-in-vacanza",
+    "file": "lo-stato-sociale-una-vita-in-vacanza.json",
+    "title": "Una vita in vacanza",
+    "artist": "Lo Stato Sociale",
+    "album": "Sanremo 2018",
+    "genre": "Indie / Pop",
+    "year": 2018,
+    "difficulty": 5,
+    "key": "F",
+    "youtubeId": "aY-DrPJgzZk"
+  },
+  {
+    "id": "ex-otago-solo-una-canzone",
+    "file": "ex-otago-solo-una-canzone.json",
+    "title": "Solo una canzone",
+    "artist": "Ex-Otago",
+    "album": "Ex-Otago",
+    "genre": "Indie / Pop",
+    "year": 2019,
+    "difficulty": 4,
+    "key": "E",
+    "youtubeId": "NdGIFWS_Vow"
+  },
+  {
+    "id": "maneskin-supermodel",
+    "file": "maneskin-supermodel.json",
+    "title": "Supermodel",
+    "artist": "Maneskin",
+    "album": "Rush! [HD]",
+    "genre": "Rock",
+    "year": 2022,
+    "difficulty": 1,
+    "key": "Am",
+    "youtubeId": "D9qKWkJ4ZgE"
+  },
+  {
+    "id": "maneskin-i-wanna-be-your-slave",
+    "file": "maneskin-i-wanna-be-your-slave.json",
+    "title": "I Wanna Be Your Slave",
+    "artist": "Måneskin",
+    "album": "NRJ L'ANNÉE DES HITS 2021",
+    "genre": "Rock",
+    "year": 2021,
+    "difficulty": 3,
+    "key": "A",
+    "youtubeId": "yOb9Xaug35M"
+  },
+  {
+    "id": "maneskin-timezone",
+    "file": "maneskin-timezone.json",
+    "title": "Timezone",
+    "artist": "Måneskin",
+    "album": "Rush! [HD]",
+    "genre": "Rock",
+    "year": 2023,
+    "difficulty": 2,
+    "key": "C#m",
+    "youtubeId": "86un37Ap97s"
+  },
+  {
+    "id": "maneskin-gossip",
+    "file": "maneskin-gossip.json",
+    "title": "Gossip",
+    "artist": "Måneskin",
+    "album": "Rush! [HD]",
+    "genre": "Rock",
+    "year": 2023,
+    "difficulty": 1,
+    "key": "Am",
+    "youtubeId": "7mW4FUe_ySc"
+  },
+  {
+    "id": "negramaro-sei-tu-la-mia-citta",
+    "file": "negramaro-sei-tu-la-mia-citta.json",
+    "title": "Sei tu la mia città",
+    "artist": "Negramaro",
+    "album": "Sei Tu La Mia Città",
+    "genre": "Pop / Rock",
+    "year": 2008,
+    "difficulty": 3,
+    "key": "A",
+    "youtubeId": "hKGO6euiybY"
+  },
+  {
+    "id": "negramaro-l-immenso",
+    "file": "negramaro-l-immenso.json",
+    "title": "L'immenso",
+    "artist": "Negramaro",
+    "album": "N20 – Tour 2023 Setlist",
+    "genre": "Pop / Rock",
+    "year": 2008,
+    "difficulty": 5,
+    "key": "A",
+    "youtubeId": "wtfyDVdfbBU"
+  },
+  {
+    "id": "negramaro-ti-e-mai-successo",
+    "file": "negramaro-ti-e-mai-successo.json",
+    "title": "Ti è mai successo?",
+    "artist": "Negramaro",
+    "album": "Unplugged Tour Setlist",
+    "genre": "Pop / Rock",
+    "year": 2017,
+    "difficulty": 4,
+    "key": "D",
+    "youtubeId": "iBt9lALNPvc"
+  },
+  {
+    "id": "vasco-rossi-eh-gia",
+    "file": "vasco-rossi-eh-gia.json",
+    "title": "Eh... già",
+    "artist": "Vasco Rossi",
+    "album": "Eh...Già",
+    "genre": "Rock",
+    "year": 2011,
+    "difficulty": 4,
+    "key": "C",
+    "youtubeId": "g2NSvf6Ko7A"
+  },
+  {
+    "id": "vasco-rossi-liberi-liberi",
+    "file": "vasco-rossi-liberi-liberi.json",
+    "title": "Liberi liberi",
+    "artist": "Vasco Rossi",
+    "album": "IL SUPERVISSUTO",
+    "genre": "Rock",
+    "year": 1989,
+    "difficulty": 3,
+    "key": "G",
+    "youtubeId": "RHvSCTKyfZI"
+  },
+  {
+    "id": "vasco-rossi-toffee",
+    "file": "vasco-rossi-toffee.json",
+    "title": "Toffee",
+    "artist": "Vasco Rossi",
+    "album": "Ciao Italia",
+    "genre": "Rock",
+    "year": 1998,
+    "difficulty": 1,
+    "key": "A",
+    "youtubeId": "hNoErPtZLWQ"
+  },
+  {
+    "id": "ligabue-certe-donne-brillano",
+    "file": "ligabue-certe-donne-brillano.json",
+    "title": "Certe donne brillano",
+    "artist": "Ligabue",
+    "album": "Start",
+    "genre": "Rock",
+    "year": 2005,
+    "difficulty": 2,
+    "key": "G",
+    "youtubeId": "9myRB67Z01I"
+  },
+  {
+    "id": "litfiba-tex",
+    "file": "litfiba-tex.json",
+    "title": "Tex",
+    "artist": "Litfiba",
+    "album": "Viva Litfiba 2",
+    "genre": "Rock",
+    "year": 1987,
+    "difficulty": 3,
+    "key": "Gm",
+    "youtubeId": "Wb0EhYU-NfI"
+  },
+  {
+    "id": "litfiba-spirito",
+    "file": "litfiba-spirito.json",
+    "title": "Spirito",
+    "artist": "Litfiba",
+    "album": "Vol.10 CD 1",
+    "genre": "Rock",
+    "year": 1994,
+    "difficulty": 1,
+    "key": "G",
+    "youtubeId": "Z8zwuCQ8fQE"
+  },
+  {
+    "id": "pino-daniele-yes-i-know-my-way",
+    "file": "pino-daniele-yes-i-know-my-way.json",
+    "title": "Yes I Know My Way",
+    "artist": "Pino Daniele",
+    "album": "Vai mo' (2021 Remaster)",
+    "genre": "Cantautori",
+    "year": 1981,
+    "difficulty": 5,
+    "key": "Bb7",
+    "youtubeId": "kA87R1AznFk"
+  },
+  {
+    "id": "edoardo-bennato-un-giorno-credi",
+    "file": "edoardo-bennato-un-giorno-credi.json",
+    "title": "Un giorno credi",
+    "artist": "Edoardo Bennato",
+    "album": "Non Farti Cadere le Braccia",
+    "genre": "Rock",
+    "year": 1973,
+    "difficulty": 5,
+    "key": "B",
+    "youtubeId": "aNxZgGMyBQs"
+  },
+  {
+    "id": "edoardo-bennato-il-rock-di-capitan-uncino",
+    "file": "edoardo-bennato-il-rock-di-capitan-uncino.json",
+    "title": "Il rock di Capitan Uncino",
+    "artist": "Edoardo Bennato",
+    "album": "Edoardo Bennato",
+    "genre": "Rock",
+    "year": 1980,
+    "difficulty": 1,
+    "key": "A7",
+    "youtubeId": "m8T5NEY8fYc"
+  },
+  {
+    "id": "lucio-dalla-anna-e-marco",
+    "file": "lucio-dalla-anna-e-marco.json",
+    "title": "Anna e Marco",
+    "artist": "Lucio Dalla",
+    "album": "Ciao Italia! 2",
+    "genre": "Cantautori",
+    "year": 1979,
+    "difficulty": 4,
+    "key": "F",
+    "youtubeId": "TO8H-YtE-H8"
+  },
+  {
+    "id": "francesco-guccini-autogrill",
+    "file": "francesco-guccini-autogrill.json",
+    "title": "Autogrill",
+    "artist": "Francesco Guccini",
+    "album": "Fra la via Emilia e il west (cd1)",
+    "genre": "Cantautori",
+    "year": 1983,
+    "difficulty": 3,
+    "key": "F",
+    "youtubeId": "nl8whwz6EJA"
+  },
+  {
+    "id": "francesco-guccini-eskimo",
+    "file": "francesco-guccini-eskimo.json",
+    "title": "Eskimo",
+    "artist": "Francesco Guccini",
+    "album": "80's Music Grandi Successi",
+    "genre": "Cantautori",
+    "year": 1978,
+    "difficulty": 3,
+    "key": "G",
+    "youtubeId": "bM70x0Q3ijQ"
+  },
+  {
+    "id": "fabrizio-de-andre-hotel-supramonte",
+    "file": "fabrizio-de-andre-hotel-supramonte.json",
+    "title": "Hotel Supramonte",
+    "artist": "Fabrizio De André",
+    "album": "Concerti",
+    "genre": "Cantautori",
+    "year": 1981,
+    "difficulty": 2,
+    "key": "D",
+    "youtubeId": "9DLqR3WHGNI"
+  },
+  {
+    "id": "gino-paoli-il-cielo-in-una-stanza",
+    "file": "gino-paoli-il-cielo-in-una-stanza.json",
+    "title": "Il cielo in una stanza",
+    "artist": "Gino Paoli",
+    "album": "best of gino paoli",
+    "genre": "Cantautori",
+    "year": 1960,
+    "difficulty": 2,
+    "key": "Gm7",
+    "youtubeId": "jU43Dc9KZbE"
+  },
+  {
+    "id": "sergio-endrigo-io-che-amo-solo-te",
+    "file": "sergio-endrigo-io-che-amo-solo-te.json",
+    "title": "Io che amo solo te",
+    "artist": "Sergio Endrigo",
+    "album": "Bella Italia (Disco 1)",
+    "genre": "Cantautori",
+    "year": 1962,
+    "difficulty": 4,
+    "key": "G",
+    "youtubeId": "wS4OXIFB6x8"
+  },
+  {
+    "id": "bruno-lauzi-ritornerai",
+    "file": "bruno-lauzi-ritornerai.json",
+    "title": "Ritornerai",
+    "artist": "Bruno Lauzi",
+    "album": "Ciao Italia! 2",
+    "genre": "Cantautori",
+    "year": 1963,
+    "difficulty": 2,
+    "key": "Amaj7",
+    "youtubeId": "DYvfCLMGw9g"
+  },
+  {
+    "id": "enzo-jannacci-vengo-anch-io-no-tu-no",
+    "file": "enzo-jannacci-vengo-anch-io-no-tu-no.json",
+    "title": "Vengo anch'io. No, tu no",
+    "artist": "Enzo Jannacci",
+    "album": "Così ride Enzo Jannacci",
+    "genre": "Cantautori",
+    "year": 1967,
+    "difficulty": 5,
+    "key": "F#m",
+    "youtubeId": "YCK5_v5ELx8"
+  },
+  {
+    "id": "stadio-acqua-e-sapone",
+    "file": "stadio-acqua-e-sapone.json",
+    "title": "Acqua e sapone",
+    "artist": "Stadio",
+    "album": "Stadio",
+    "genre": "Pop / Rock",
+    "year": 1983,
+    "difficulty": 4,
+    "key": "Gm",
+    "youtubeId": "j6bl_WP_kjM"
+  },
+  {
+    "id": "raf-self-control",
+    "file": "raf-self-control.json",
+    "title": "Self Control",
+    "artist": "Raf",
+    "album": "HOT PARTY 80 CLASSICS",
+    "genre": "Pop",
+    "year": 1984,
+    "difficulty": 2,
+    "key": "Em",
+    "youtubeId": "4UZ7E0cn50w"
+  },
+  {
+    "id": "luca-carboni-ci-vuole-un-fisico-bestiale",
+    "file": "luca-carboni-ci-vuole-un-fisico-bestiale.json",
+    "title": "Ci vuole un fisico bestiale",
+    "artist": "Luca Carboni",
+    "album": "Il Tempo Dell' Amore",
+    "genre": "Pop",
+    "year": 1991,
+    "difficulty": 4,
+    "key": "D",
+    "youtubeId": "9tFHD1zivVY"
+  },
+  {
+    "id": "luca-carboni-mare-mare",
+    "file": "luca-carboni-mare-mare.json",
+    "title": "Mare mare",
+    "artist": "Luca Carboni",
+    "album": "Radio Italia Estate",
+    "genre": "Pop",
+    "year": 1992,
+    "difficulty": 4,
+    "key": "Am7",
+    "youtubeId": "gPo0HvevMUk"
+  },
+  {
+    "id": "gianluca-grignani-la-mia-storia-tra-le-dita",
+    "file": "gianluca-grignani-la-mia-storia-tra-le-dita.json",
+    "title": "La mia storia tra le dita",
+    "artist": "Gianluca Grignani",
+    "album": "mix manu",
+    "genre": "Pop / Rock",
+    "year": 1994,
+    "difficulty": 4,
+    "key": "G",
+    "youtubeId": "gBvGUON0kDA"
+  },
+  {
+    "id": "gianluca-grignani-destinazione-paradiso",
+    "file": "gianluca-grignani-destinazione-paradiso.json",
+    "title": "Destinazione paradiso",
+    "artist": "Gianluca Grignani",
+    "album": "Succo Di Vita: Very Best Of",
+    "genre": "Pop / Rock",
+    "year": 1995,
+    "difficulty": 5,
+    "key": "B",
+    "youtubeId": "SvnvdP4G9hU"
+  },
+  {
+    "id": "irene-grandi-la-tua-ragazza-sempre",
+    "file": "irene-grandi-la-tua-ragazza-sempre.json",
+    "title": "La tua ragazza sempre",
+    "artist": "Irene Grandi",
+    "album": "Irene Grandi",
+    "genre": "Pop",
+    "year": 2000,
+    "difficulty": 5,
+    "key": "C#m7",
+    "youtubeId": "CYUCMMwEnsc"
+  },
+  {
+    "id": "paola-turci-bambini",
+    "file": "paola-turci-bambini.json",
+    "title": "Bambini",
+    "artist": "Paola Turci",
+    "album": "Volo Così 1986-1996",
+    "genre": "Pop",
+    "year": 1989,
+    "difficulty": 3,
+    "key": "D",
+    "youtubeId": "a_T953clT-Q"
+  },
+  {
+    "id": "marlene-kuntz-la-canzone-che-scrivo-per-te",
+    "file": "marlene-kuntz-la-canzone-che-scrivo-per-te.json",
+    "title": "La canzone che scrivo per te",
+    "artist": "Marlene Kuntz",
+    "album": "Che Cosa Vedi",
+    "genre": "Rock",
+    "year": 2000,
+    "difficulty": 2,
+    "key": "D",
+    "youtubeId": "DMrYez93pEQ"
+  },
+  {
+    "id": "tre-allegri-ragazzi-morti-occhi-bassi",
+    "file": "tre-allegri-ragazzi-morti-occhi-bassi.json",
+    "title": "Occhi bassi",
+    "artist": "Tre Allegri Ragazzi Morti",
+    "album": "Mostri e normali",
+    "genre": "Rock",
+    "year": 2004,
+    "difficulty": 2,
+    "key": "Bb",
+    "youtubeId": "6KzbD91GjnA"
+  },
+  {
+    "id": "zero-assoluto-svegliarsi-la-mattina",
+    "file": "zero-assoluto-svegliarsi-la-mattina.json",
+    "title": "Svegliarsi la mattina",
+    "artist": "Zero Assoluto",
+    "album": "Je T'aime Volume 6",
+    "genre": "Pop",
+    "year": 2005,
+    "difficulty": 3,
+    "key": "Bm",
+    "youtubeId": "fie_xPWXqGc"
+  },
+  {
+    "id": "finley-diventerai-una-star",
+    "file": "finley-diventerai-una-star.json",
+    "title": "Diventerai una star",
+    "artist": "Finley",
+    "album": "Tutto è possibile",
+    "genre": "Rock",
+    "year": 2006,
+    "difficulty": 4,
+    "key": "B",
+    "youtubeId": "FyTpkk9bu2s"
+  },
+  {
+    "id": "tiromancino-per-me-e-importante",
+    "file": "tiromancino-per-me-e-importante.json",
+    "title": "Per me è importante",
+    "artist": "Tiromancino",
+    "album": "[Unknown Album]",
+    "genre": "Pop",
+    "year": 2002,
+    "difficulty": 4,
+    "key": "Cmaj7",
+    "youtubeId": "CNDWI4b9lVU"
+  },
+  {
+    "id": "baustelle-la-guerra-e-finita",
+    "file": "baustelle-la-guerra-e-finita.json",
+    "title": "La guerra è finita",
+    "artist": "Baustelle",
+    "album": "Baustelle",
+    "genre": "Indie",
+    "year": 2005,
+    "difficulty": 5,
+    "key": "E",
+    "youtubeId": "cvLWN6SvXTE"
+  },
+  {
+    "id": "motta-prima-o-poi-ci-passera",
+    "file": "motta-prima-o-poi-ci-passera.json",
+    "title": "Prima o poi ci passerà",
+    "artist": "Motta",
+    "album": "La Fine Dei Vent'anni",
+    "genre": "Indie",
+    "year": 2016,
+    "difficulty": 3,
+    "key": "D",
+    "youtubeId": "VZvVig_6Imk"
+  },
+  {
+    "id": "ed-sheeran-shivers",
+    "file": "ed-sheeran-shivers.json",
+    "title": "Shivers",
+    "artist": "Ed Sheeran",
+    "album": "Ed Sheeran compilation",
+    "genre": "Pop",
+    "year": 2021,
+    "difficulty": 1,
+    "key": "A",
+    "youtubeId": "10tfUwITgdU"
+  },
+  {
+    "id": "ed-sheeran-the-a-team",
+    "file": "ed-sheeran-the-a-team.json",
+    "title": "The A Team",
+    "artist": "Ed Sheeran",
+    "album": "That Hits",
+    "genre": "Pop",
+    "year": 2011,
+    "difficulty": 3,
+    "key": "A",
+    "youtubeId": "yJojXtTLFOU"
+  },
+  {
+    "id": "coldplay-a-sky-full-of-stars",
+    "file": "coldplay-a-sky-full-of-stars.json",
+    "title": "A Sky Full of Stars",
+    "artist": "Coldplay",
+    "album": "A Sky Full Of Stars (Single)",
+    "genre": "Pop / Rock",
+    "year": 2014,
+    "difficulty": 5,
+    "key": "Ebm7",
+    "youtubeId": "vopFU4t55v0"
+  },
+  {
+    "id": "coldplay-hymn-for-the-weekend",
+    "file": "coldplay-hymn-for-the-weekend.json",
+    "title": "Hymn for the Weekend",
+    "artist": "Coldplay",
+    "album": "Wow! The Tens",
+    "genre": "Pop / Rock",
+    "year": 2015,
+    "difficulty": 5,
+    "key": "Bb",
+    "youtubeId": "1As2xAHBh4k"
+  },
+  {
+    "id": "imagine-dragons-radioactive",
+    "file": "imagine-dragons-radioactive.json",
+    "title": "Radioactive",
+    "artist": "Imagine Dragons",
+    "album": "NRJ 200% Hits 2013, Volume 2",
+    "genre": "Pop / Rock",
+    "year": 2012,
+    "difficulty": 2,
+    "key": "Bm",
+    "youtubeId": "U04jEUbUaoo"
+  },
+  {
+    "id": "imagine-dragons-thunder",
+    "file": "imagine-dragons-thunder.json",
+    "title": "Thunder",
+    "artist": "Imagine Dragons",
+    "album": "Love Game",
+    "genre": "Pop / Rock",
+    "year": 2017,
+    "difficulty": 2,
+    "key": "C",
+    "youtubeId": "4AqjqOqNrjw"
+  },
+  {
+    "id": "hozier-too-sweet",
+    "file": "hozier-too-sweet.json",
+    "title": "Too Sweet",
+    "artist": "Hozier",
+    "album": "The Dome | Charts & Hits 2024",
+    "genre": "Rock",
+    "year": 2024,
+    "difficulty": 5,
+    "key": "D5",
+    "youtubeId": "TgBww5kmgmg"
+  },
+  {
+    "id": "noah-kahan-stick-season",
+    "file": "noah-kahan-stick-season.json",
+    "title": "Stick Season",
+    "artist": "Noah Kahan",
+    "album": "Car Compilation",
+    "genre": "Folk",
+    "year": 2022,
+    "difficulty": 1,
+    "key": "E",
+    "youtubeId": "-UOAl1VxTko"
+  },
+  {
+    "id": "teddy-swims-lose-control",
+    "file": "teddy-swims-lose-control.json",
+    "title": "Lose Control",
+    "artist": "Teddy Swims",
+    "album": "ChartsFEB26",
+    "genre": "Pop",
+    "year": 2023,
+    "difficulty": 3,
+    "key": "A",
+    "youtubeId": "QvvhiIevsX8"
+  },
+  {
+    "id": "benson-boone-beautiful-things",
+    "file": "benson-boone-beautiful-things.json",
+    "title": "Beautiful Things",
+    "artist": "Benson Boone",
+    "album": "Music",
+    "genre": "Pop",
+    "year": 2024,
+    "difficulty": 3,
+    "key": "Eb",
+    "youtubeId": "qKOMEWKrvb4"
+  },
+  {
+    "id": "dua-lipa-houdini",
+    "file": "dua-lipa-houdini.json",
+    "title": "Houdini",
+    "artist": "Dua Lipa",
+    "album": "Houdini",
+    "genre": "Pop",
+    "year": 2023,
+    "difficulty": 1,
+    "key": "Bb",
+    "youtubeId": "Jq-Mrc5WCtQ"
+  },
+  {
+    "id": "the-weeknd-blinding-lights",
+    "file": "the-weeknd-blinding-lights.json",
+    "title": "Blinding Lights",
+    "artist": "The Weeknd",
+    "album": "The Com-Bil-ation",
+    "genre": "Pop",
+    "year": 2019,
+    "difficulty": 4,
+    "key": "Fm",
+    "youtubeId": "BwX8OS4cegU"
+  },
+  {
+    "id": "bruno-mars-when-i-was-your-man",
+    "file": "bruno-mars-when-i-was-your-man.json",
+    "title": "When I Was Your Man",
+    "artist": "Bruno Mars",
+    "album": "Now That's What I Call Fall In Love",
+    "genre": "Pop",
+    "year": 2012,
+    "difficulty": 4,
+    "key": "C",
+    "youtubeId": "vx6RbJk2fhM"
+  },
+  {
+    "id": "bruno-mars-just-the-way-you-are",
+    "file": "bruno-mars-just-the-way-you-are.json",
+    "title": "Just the Way You Are",
+    "artist": "Bruno Mars",
+    "album": "Billboard Top 100 Hits Of 2010",
+    "genre": "Pop",
+    "year": 2010,
+    "difficulty": 2,
+    "key": "F",
+    "youtubeId": "E-UJTGXof6Q"
+  },
+  {
+    "id": "adele-hello",
+    "file": "adele-hello.json",
+    "title": "Hello",
+    "artist": "Adele",
+    "album": "Hello",
+    "genre": "Pop",
+    "year": 2015,
+    "difficulty": 4,
+    "key": "Eb",
+    "youtubeId": "T1tl66trXTQ"
+  },
+  {
+    "id": "adele-make-you-feel-my-love",
+    "file": "adele-make-you-feel-my-love.json",
+    "title": "Make You Feel My Love",
+    "artist": "Adele",
+    "album": "Adele compilation",
+    "genre": "Pop",
+    "year": 2008,
+    "difficulty": 5,
+    "key": "Bb",
+    "youtubeId": "9cIAy89XpkI"
+  },
+  {
+    "id": "amy-winehouse-valerie",
+    "file": "amy-winehouse-valerie.json",
+    "title": "Valerie",
+    "artist": "Amy Winehouse",
+    "album": "Back To Black + Instrumentals",
+    "genre": "Soul",
+    "year": 2007,
+    "difficulty": 5,
+    "key": "Eb",
+    "youtubeId": "_naArkkHMMs"
+  },
+  {
+    "id": "oasis-morning-glory",
+    "file": "oasis-morning-glory.json",
+    "title": "Morning Glory",
+    "artist": "Oasis",
+    "album": "Alternative World",
+    "genre": "Rock",
+    "year": 1995,
+    "difficulty": 4,
+    "key": "Eb",
+    "youtubeId": "HVNO8KySdT4"
+  },
+  {
+    "id": "pink-floyd-comfortably-numb",
+    "file": "pink-floyd-comfortably-numb.json",
+    "title": "Comfortably Numb",
+    "artist": "Pink Floyd",
+    "album": "The Wall Live Earl's Court Disc 2",
+    "genre": "Rock",
+    "year": 1979,
+    "difficulty": 2,
+    "key": "A",
+    "youtubeId": "P_4uEaZQ2Kg"
+  },
+  {
+    "id": "metallica-enter-sandman",
+    "file": "metallica-enter-sandman.json",
+    "title": "Enter Sandman",
+    "artist": "Metallica",
+    "album": "The Essential Hit's",
+    "genre": "Metal",
+    "year": 1991,
+    "difficulty": 1,
+    "key": "F#5",
+    "youtubeId": "CD-E-LDc384"
+  },
+  {
+    "id": "metallica-the-unforgiven",
+    "file": "metallica-the-unforgiven.json",
+    "title": "The Unforgiven",
+    "artist": "Metallica",
+    "album": "The Very Best '98",
+    "genre": "Metal",
+    "year": 1991,
+    "difficulty": 2,
+    "key": "Am",
+    "youtubeId": "rfcVoyDgLdA"
+  },
+  {
+    "id": "nirvana-the-man-who-sold-the-world",
+    "file": "nirvana-the-man-who-sold-the-world.json",
+    "title": "The Man Who Sold the World",
+    "artist": "Nirvana",
+    "album": "Metal Covers",
+    "genre": "Rock",
+    "year": 1994,
+    "difficulty": 3,
+    "key": "E",
+    "youtubeId": "kTbl6OzH3W0"
+  },
+  {
+    "id": "oasis-slide-away",
+    "file": "oasis-slide-away.json",
+    "title": "Slide Away",
+    "artist": "Oasis",
+    "album": "The Essentials",
+    "genre": "Rock",
+    "year": 1994,
+    "difficulty": 5,
+    "key": "G",
+    "youtubeId": "3GCSUSwcDwg"
+  },
+  {
+    "id": "david-bowie-space-oddity",
+    "file": "david-bowie-space-oddity.json",
+    "title": "Space Oddity",
+    "artist": "David Bowie",
+    "album": "Unknown album",
+    "genre": "Rock",
+    "year": 1969,
+    "difficulty": 4,
+    "key": "C",
+    "youtubeId": "9_M3uw29U1U"
+  },
+  {
+    "id": "lou-reed-perfect-day",
+    "file": "lou-reed-perfect-day.json",
+    "title": "Perfect Day",
+    "artist": "Lou Reed",
+    "album": "Transformer [RM 2002]",
+    "genre": "Rock",
+    "year": 1972,
+    "difficulty": 5,
+    "key": "Ab",
+    "youtubeId": "fIzOEG9ExPk"
+  },
+  {
+    "id": "cat-stevens-wild-world",
+    "file": "cat-stevens-wild-world.json",
+    "title": "Wild World",
+    "artist": "Cat Stevens",
+    "album": "1971 Top 100",
+    "genre": "Folk",
+    "year": 1970,
+    "difficulty": 3,
+    "key": "G",
+    "youtubeId": "WJMi9D8Jc-U"
+  },
+  {
+    "id": "kansas-dust-in-the-wind",
+    "file": "kansas-dust-in-the-wind.json",
+    "title": "Dust in the Wind",
+    "artist": "Kansas",
+    "album": "TOP 40 HITDOSSIER - One Hit Wonders",
+    "genre": "Rock",
+    "year": 1977,
+    "difficulty": 3,
+    "key": "Am",
+    "youtubeId": "12DeNdF0KPA"
   }
 ]

@@ -1,0 +1,308 @@
+{
+ "title": "Prima o poi ci passerà",
+ "artist": "Motta",
+ "album": "La Fine Dei Vent'anni",
+ "year": 2016,
+ "genre": "Indie",
+ "difficulty": 3,
+ "youtubeId": "VZvVig_6Imk",
+ "key": "D",
+ "bpm": 132.8,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.13,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 29296295,
+  "duration": 238,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – F#m – Bm – E – F6 – A.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "%",
+    "%",
+    "F6",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%",
+    "F6"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "F6",
+    "A",
+    "%",
+    "%",
+    "F6",
+    "A",
+    "%",
+    "%",
+    "F6",
+    "A",
+    "%",
+    "F6",
+    "%",
+    [
+     "F6:2",
+     "A:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Bm",
+    "D",
+    "F#m",
+    "E",
+    "Bm",
+    "D",
+    "F#m",
+    "E",
+    "Bm",
+    "D",
+    "F#m",
+    "E",
+    "Bm",
+    "D",
+    "F#m",
+    "E",
+    [
+     "E:2",
+     "Bm:2"
+    ],
+    "%",
+    [
+     "D:2",
+     "F#m:2"
+    ],
+    "E",
+    "Bm",
+    "D",
+    "F#m",
+    "E",
+    "F6",
+    "A",
+    "%",
+    "%",
+    "F6",
+    "%",
+    "A",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "F6",
+    "A",
+    "%",
+    "F6",
+    "%",
+    "A",
+    "%",
+    "%",
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    "F#m",
+    "E",
+    "Bm",
+    "D",
+    "F#m",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "Bm",
+    "D",
+    "F#m",
+    "E",
+    "Bm",
+    "D",
+    "F#m",
+    "E",
+    "Bm",
+    "D",
+    "F#m",
+    "E",
+    "Bm",
+    "D",
+    "F#m",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "Bm",
+    "D",
+    "F#m",
+    "E",
+    "Bm",
+    "D",
+    "F#m",
+    "E",
+    "Bm",
+    "D",
+    "F#m",
+    "E",
+    "Bm",
+    "D",
+    "F#m",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "Bm",
+    "D",
+    "F#m",
+    "E",
+    "Bm",
+    "D",
+    "F#m",
+    [
+     "E:2",
+     "Bm:2"
+    ],
+    "D",
+    "D",
+    "F#m",
+    "D",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 8",
+   "bars": [
+    "%",
+    "%",
+    [
+     "D:2",
+     "F#m:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   9,
+   16.423
+  ],
+  [
+   17,
+   30.979
+  ],
+  [
+   25,
+   45.446
+  ],
+  [
+   30,
+   54.482
+  ],
+  [
+   34,
+   61.63
+  ],
+  [
+   40,
+   72.647
+  ],
+  [
+   44,
+   79.879
+  ],
+  [
+   48,
+   87.104
+  ],
+  [
+   58,
+   105.041
+  ],
+  [
+   62,
+   112.202
+  ],
+  [
+   67,
+   121.382
+  ],
+  [
+   72,
+   130.376
+  ],
+  [
+   77,
+   139.196
+  ],
+  [
+   83,
+   150.27
+  ],
+  [
+   87,
+   157.604
+  ],
+  [
+   93,
+   168.529
+  ],
+  [
+   99,
+   179.082
+  ],
+  [
+   107,
+   193.54
+  ],
+  [
+   111,
+   200.722
+  ],
+  [
+   117,
+   211.849
+  ]
+ ]
+}

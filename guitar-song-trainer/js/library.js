@@ -28,7 +28,7 @@ export function renderLibrary(root, songs) {
   let filt = { genre: null, decade: null, ...store.get('libFilter', {}) };
 
   root.innerHTML = `
-    <div class="library">
+    <div class="library home">
       <section class="hero">
         <div class="hero-kicker">${icon('guitar', 16)} Guitar Song Trainer</div>
         <h1>Scegli un brano,<br><span>suonalo a tempo.</span></h1>

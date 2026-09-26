@@ -1,0 +1,287 @@
+{
+ "title": "Bambini",
+ "artist": "Paola Turci",
+ "album": "Volo Così 1986-1996",
+ "year": 1989,
+ "genre": "Pop",
+ "difficulty": 3,
+ "youtubeId": "a_T953clT-Q",
+ "key": "D",
+ "bpm": 61.07,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 3.5,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 21194337,
+  "duration": 249.051429,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – E – F#m – A – C#m.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "D",
+    "E",
+    "A"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "D:1",
+     "E:2",
+     "F#m:1"
+    ],
+    [
+     "D:1",
+     "E:2",
+     "A:1"
+    ],
+    [
+     "D:2",
+     "E:2"
+    ],
+    [
+     "F#m:1",
+     "D:1",
+     "E:1",
+     "A:1"
+    ],
+    [
+     "D:2",
+     "C#m:2"
+    ],
+    [
+     "D:1",
+     "E:2",
+     "A:1"
+    ],
+    [
+     "D:2",
+     "F#m:2"
+    ],
+    [
+     "D:1",
+     "E:2",
+     "A:1"
+    ],
+    [
+     "D:1",
+     "E:2",
+     "F#m:1"
+    ],
+    [
+     "D:1",
+     "E:2",
+     "A:1"
+    ],
+    [
+     "D:1",
+     "E:2",
+     "F#m:1"
+    ],
+    [
+     "D:1",
+     "E:2",
+     "A:1"
+    ],
+    "F#m",
+    "D",
+    "A",
+    "E",
+    "F#m",
+    "D",
+    [
+     "A:2",
+     "C#m:2"
+    ],
+    [
+     "C#m:2",
+     "E:2"
+    ],
+    [
+     "F#m:1",
+     "F#m:1"
+    ],
+    "D",
+    "E",
+    "A",
+    "D",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "D:1",
+     "E:2",
+     "F#m:1"
+    ],
+    [
+     "D:1",
+     "E:2",
+     "A:1"
+    ],
+    [
+     "D:1",
+     "E:2",
+     "F#m:1"
+    ],
+    [
+     "D:1",
+     "E:2",
+     "A:1"
+    ],
+    [
+     "D:1",
+     "C#m:2",
+     "D:1"
+    ],
+    [
+     "E:2",
+     "A:2"
+    ],
+    [
+     "D:2",
+     "F#m:2"
+    ],
+    [
+     "D:1",
+     "E:2",
+     "A:1"
+    ],
+    [
+     "D:1",
+     "E:2",
+     "F#m:1"
+    ],
+    [
+     "D:1",
+     "E:2",
+     "F#m:1"
+    ],
+    [
+     "D:1",
+     "E:1",
+     "A:1",
+     "D:1"
+    ],
+    [
+     "E:1",
+     "F#m:1",
+     "D:1",
+     "E:1"
+    ],
+    "%",
+    "F#m",
+    "D",
+    "A",
+    "E",
+    "F#m",
+    "D",
+    [
+     "A:2",
+     "C#m:2"
+    ],
+    [
+     "C#m:2",
+     "E:2"
+    ],
+    "F#m",
+    "F#m",
+    [
+     "D:1",
+     "E:2",
+     "F#m:1"
+    ],
+    [
+     "D:1",
+     "E:2",
+     "A:1"
+    ],
+    [
+     "D:2",
+     "E:2"
+    ],
+    [
+     "F#m:1",
+     "D:1",
+     "E:1",
+     "A:1"
+    ],
+    "D",
+    "E",
+    "A",
+    "D",
+    "E",
+    "A",
+    "D"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   3,
+   15.9
+  ],
+  [
+   7,
+   30.67
+  ],
+  [
+   12,
+   50.35
+  ],
+  [
+   17,
+   70.6
+  ],
+  [
+   21,
+   86.35
+  ],
+  [
+   29,
+   117.789
+  ],
+  [
+   34,
+   136.78
+  ],
+  [
+   38,
+   152.17
+  ],
+  [
+   42,
+   167.96
+  ],
+  [
+   46,
+   184.4
+  ],
+  [
+   50,
+   200.12
+  ],
+  [
+   54,
+   215.84
+  ],
+  [
+   55,
+   220.23
+  ]
+ ]
+}

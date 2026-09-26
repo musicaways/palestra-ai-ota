@@ -1,0 +1,156 @@
+{
+ "title": "Il cielo in una stanza",
+ "artist": "Gino Paoli",
+ "album": "best of gino paoli",
+ "year": 1960,
+ "genre": "Cantautori",
+ "difficulty": 2,
+ "youtubeId": "jU43Dc9KZbE",
+ "key": "Gm7",
+ "bpm": 93.59,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.71,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36947052,
+  "duration": 171.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Gm7 – C7 – F – Dm – C7sus4.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F",
+    "Dm",
+    "F",
+    "%",
+    "Dm",
+    "%",
+    "Gm7",
+    [
+     "Gm7:2",
+     "C7:2"
+    ],
+    [
+     "C7:2",
+     "F:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Gm7",
+    "C7",
+    "F",
+    "Dm",
+    "Gm7",
+    "%",
+    "C7",
+    "%",
+    "Gm7",
+    [
+     "Gm7:2",
+     "C7:2"
+    ],
+    [
+     "C7:2",
+     "F:2"
+    ],
+    "%",
+    "F",
+    "%",
+    "Dm",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Gm7",
+    "C7",
+    "F",
+    "Dm",
+    "Gm7",
+    [
+     "Gm7:2",
+     "C7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Gm7:1",
+     "C7:2",
+     "F:1"
+    ],
+    "Dm",
+    "Gm7",
+    "C7",
+    "F",
+    "Dm",
+    "Gm7",
+    "C7",
+    "F",
+    "Dm",
+    "Gm7",
+    "C7",
+    "Dm",
+    "Gm7",
+    "C7",
+    [
+     "F:2",
+     "Dm:2"
+    ],
+    "Gm7",
+    "%",
+    "C7",
+    "%",
+    "Gm7",
+    [
+     "Gm7:2",
+     "C7:2"
+    ],
+    "%",
+    [
+     "C7:2",
+     "F:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "Dm",
+    "Gm7",
+    "C7",
+    "%",
+    "F",
+    [
+     "F:2",
+     "C7sus4:2"
+    ],
+    "%",
+    "F",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

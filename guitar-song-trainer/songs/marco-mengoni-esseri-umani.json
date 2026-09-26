@@ -1,0 +1,325 @@
+{
+ "title": "Esseri umani",
+ "artist": "Marco Mengoni",
+ "album": "Parole in circolo",
+ "year": 2015,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "U-4OrzSBfm8",
+ "key": "A",
+ "bpm": 92.08,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.24,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 35750382,
+  "duration": 297,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – D – G – Em7 – Em – Bm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "D",
+    "%",
+    "A",
+    "%",
+    "Em7",
+    "%",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%",
+    [
+     "Em7:2",
+     "G:2"
+    ],
+    "%",
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%",
+    "Em7",
+    "G",
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "Em7:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%",
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "Bm:2",
+     "Em:2"
+    ],
+    [
+     "G:2",
+     "A:2"
+    ],
+    "D",
+    "A",
+    [
+     "A:2",
+     "Em7:2"
+    ],
+    "%",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    [
+     "Em7:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%",
+    "Em7",
+    "G",
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "Em7:2",
+     "G:2"
+    ],
+    "%",
+    [
+     "Bm7:2",
+     "Em:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "G:2",
+     "A:2"
+    ],
+    "D",
+    "A",
+    "Em7",
+    "G",
+    "Bm",
+    "Em7",
+    [
+     "Em7:2",
+     "G:2"
+    ],
+    "%",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%",
+    "Gadd9",
+    "%",
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%",
+    "Gadd9",
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "Em7:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%",
+    [
+     "Bm7:2",
+     "Em:2"
+    ],
+    [
+     "G:2",
+     "A:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "Em7:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "%",
+    [
+     "D:1",
+     "A:1",
+     "Em7:1",
+     "G:1"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "D",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   7,
+   20.507
+  ],
+  [
+   12,
+   33.417
+  ],
+  [
+   16,
+   43.79
+  ],
+  [
+   20,
+   54.139
+  ],
+  [
+   27,
+   72.537
+  ],
+  [
+   32,
+   85.571
+  ],
+  [
+   37,
+   98.7
+  ],
+  [
+   42,
+   111.809
+  ],
+  [
+   51,
+   135.387
+  ],
+  [
+   56,
+   148.423
+  ],
+  [
+   61,
+   161.161
+  ],
+  [
+   66,
+   174.017
+  ],
+  [
+   71,
+   186.999
+  ],
+  [
+   75,
+   197.475
+  ]
+ ]
+}

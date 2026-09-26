@@ -1,0 +1,236 @@
+{
+ "title": "Vieni nel mio cuore",
+ "artist": "Ultimo",
+ "album": "Ultimo",
+ "year": 2022,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "DoG5sIjFvHs",
+ "key": "Ebm",
+ "bpm": 127.03,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.36,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36606125,
+  "duration": 173,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Ebm – Ab – Gb – Fm – Db – Bbm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Ebm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Ebm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Ebm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Ebm",
+    "%",
+    "%",
+    "%",
+    "Ebm",
+    "%",
+    "%",
+    "Ab",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Ebm",
+    "%",
+    "%",
+    "Ebm",
+    "%",
+    "%",
+    "%",
+    "Ebm",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "%",
+    "%",
+    "Ebm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Ebm",
+    "%",
+    "%",
+    "%",
+    "Ebm",
+    "%",
+    "%",
+    "Ab",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "Ebm",
+    "%",
+    "%",
+    "Ebm",
+    "%",
+    [
+     "Gb:2",
+     "Db:2"
+    ],
+    "Fm",
+    [
+     "Bbm:2",
+     "Ab:2"
+    ],
+    [
+     "Ab:2",
+     "Gb:2"
+    ],
+    [
+     "Db:2",
+     "Fm:2"
+    ],
+    "F7",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Ebm",
+    "%",
+    "%",
+    "%",
+    "Ebm",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "Ab",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   0,
+   0.351
+  ],
+  [
+   11,
+   21.112
+  ],
+  [
+   16,
+   30.553
+  ],
+  [
+   20,
+   38.11
+  ],
+  [
+   25,
+   47.43
+  ],
+  [
+   29,
+   55.191
+  ],
+  [
+   33,
+   62.848
+  ],
+  [
+   38,
+   72.195
+  ],
+  [
+   43,
+   81.485
+  ],
+  [
+   47,
+   89.029
+  ],
+  [
+   52,
+   98.611
+  ],
+  [
+   57,
+   108.062
+  ],
+  [
+   62,
+   117.67
+  ],
+  [
+   66,
+   125.371
+  ],
+  [
+   73,
+   138.441
+  ],
+  [
+   77,
+   145.829
+  ],
+  [
+   81,
+   153.309
+  ],
+  [
+   86,
+   162.755
+  ]
+ ]
+}

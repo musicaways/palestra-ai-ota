@@ -1,0 +1,202 @@
+{
+ "title": "Un ragazzo una ragazza",
+ "artist": "The Kolors",
+ "album": "Tu con chi fai l’amore",
+ "year": 2024,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "OrjUo3VUcho",
+ "key": "Bmaj7",
+ "bpm": 124.54,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.66,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34631578,
+  "duration": 217.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bmaj7 – D#m – G#m7 – B – C# – G#m.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "D#m",
+    "%",
+    "%"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "D#m",
+    "%",
+    "B",
+    "G#m7",
+    "D#m",
+    "%",
+    "B",
+    "G#m7",
+    "D#m",
+    "%",
+    "%",
+    "%",
+    "D#m",
+    "%",
+    "%",
+    "%",
+    [
+     "Bmaj7:2",
+     "C#:2"
+    ],
+    "Bmaj7",
+    "C#"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "Bmaj7:2",
+     "C#:2"
+    ],
+    "C#",
+    [
+     "A#m7:2",
+     "Bmaj7:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "B",
+    "G#m",
+    "%",
+    "%",
+    "Bmaj7",
+    "G#m7",
+    "D#m",
+    "C#",
+    "Bmaj7",
+    "G#m7",
+    "%",
+    "%",
+    "Bmaj7",
+    "G#m7",
+    "%",
+    "D#m",
+    "%",
+    "B",
+    "G#m7",
+    "D#m",
+    "%",
+    "B",
+    "G#m7",
+    "D#m",
+    "%",
+    "%",
+    "%",
+    "D#m",
+    "%",
+    "%",
+    "%",
+    [
+     "Bmaj7:2",
+     "C#:2"
+    ],
+    "Bmaj7",
+    "C#"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "Bmaj7:2",
+     "C#:2"
+    ],
+    "C#",
+    [
+     "A#m7:2",
+     "Bmaj7:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "B",
+    "G#m",
+    "%",
+    "%",
+    "Bmaj7",
+    "G#m7",
+    "D#m",
+    "C#",
+    "Bmaj7",
+    "G#m7",
+    "%",
+    "%",
+    "Bmaj7",
+    "G#m7",
+    "%",
+    [
+     "D#m:2",
+     "B:2"
+    ],
+    [
+     "B:2",
+     "A#m7:2"
+    ],
+    "B",
+    "%",
+    [
+     "B:2",
+     "G#m:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "D#m",
+    "%",
+    "%",
+    "%",
+    "%",
+    "B",
+    "G#5",
+    "%",
+    "%",
+    "Bmaj7",
+    "G#m7",
+    "D#m",
+    "%",
+    "C#6",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "%",
+    "%",
+    "Bmaj7",
+    "G#m7",
+    "%",
+    "D#m",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

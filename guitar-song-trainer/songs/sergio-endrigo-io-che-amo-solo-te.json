@@ -1,0 +1,174 @@
+{
+ "title": "Io che amo solo te",
+ "artist": "Sergio Endrigo",
+ "album": "Bella Italia (Disco 1)",
+ "year": 1962,
+ "genre": "Cantautori",
+ "difficulty": 4,
+ "youtubeId": "wS4OXIFB6x8",
+ "key": "G",
+ "bpm": 84.68,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.74,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37124475,
+  "duration": 229.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – Am7 – Am – D7 – Bm – F6.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G",
+    "Am7",
+    "Bm",
+    "F6",
+    "E7",
+    "G",
+    "G",
+    [
+     "Am7:2",
+     "Bm:2"
+    ],
+    [
+     "Bm:2",
+     "F6:2"
+    ],
+    "E7",
+    "Am",
+    [
+     "Am:2",
+     "Am7:2"
+    ],
+    "%",
+    [
+     "Am7:2",
+     "D7:2"
+    ],
+    "%",
+    "G",
+    "Em",
+    "Am",
+    "D7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "G",
+    "%",
+    "Am",
+    [
+     "Am:2",
+     "D7:2"
+    ],
+    "%",
+    [
+     "G:2",
+     "Am7:1",
+     "Bm:1"
+    ],
+    [
+     "Bm:1",
+     "F6:1",
+     "E7:2"
+    ],
+    "Am",
+    [
+     "Am:2",
+     "Am7:2"
+    ],
+    "%",
+    [
+     "Am7:2",
+     "D7:2"
+    ],
+    "%",
+    "G",
+    "Em",
+    "Am",
+    "D7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "G",
+    "%",
+    [
+     "D7:2",
+     "G:2"
+    ],
+    "Am7",
+    "Bm",
+    "F6",
+    "E7",
+    "Am",
+    "Am7",
+    "D7",
+    "Am7",
+    "Bm",
+    "G",
+    "Em",
+    "Am",
+    "D7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "D7",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "D7:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

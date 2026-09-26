@@ -1,0 +1,178 @@
+{
+ "title": "Tu no",
+ "artist": "Irama",
+ "album": "Single",
+ "year": 2024,
+ "genre": "Pop",
+ "difficulty": 3,
+ "youtubeId": "Y6VMxKnlvo8",
+ "key": "D",
+ "bpm": 60.37,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.04,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 35919722,
+  "duration": 215,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – G – Bm7 – A – Gadd9 – F#m7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "D"
+   ]
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "%",
+    "%",
+    "D",
+    "A",
+    "Bm7",
+    "Gadd9",
+    [
+     "A:2",
+     "Bm7:2"
+    ],
+    "%",
+    "G",
+    "A",
+    "%",
+    "Bm7",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "D",
+    "G",
+    "D",
+    "%",
+    "A",
+    "Bm7",
+    "Gadd9",
+    "A",
+    "D",
+    "Bm7",
+    "Gadd9",
+    [
+     "A:2",
+     "Bm7:2"
+    ],
+    "F#m7",
+    "Gadd9",
+    "A",
+    "Bm7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "G",
+    "D",
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bm7",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "G",
+    "D",
+    "G",
+    "D",
+    "G",
+    "%",
+    "D",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   1,
+   6.498
+  ],
+  [
+   5,
+   22.184
+  ],
+  [
+   10,
+   41.896
+  ],
+  [
+   16,
+   65.638
+  ],
+  [
+   21,
+   85.475
+  ],
+  [
+   26,
+   104.9
+  ],
+  [
+   31,
+   124.939
+  ],
+  [
+   40,
+   160.825
+  ],
+  [
+   44,
+   176.731
+  ],
+  [
+   48,
+   193.262
+  ],
+  [
+   50,
+   201.72
+  ]
+ ]
+}

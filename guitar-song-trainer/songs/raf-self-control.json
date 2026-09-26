@@ -1,0 +1,239 @@
+{
+ "title": "Self Control",
+ "artist": "Raf",
+ "album": "HOT PARTY 80 CLASSICS",
+ "year": 1984,
+ "genre": "Pop",
+ "difficulty": 2,
+ "youtubeId": "4UZ7E0cn50w",
+ "key": "Em",
+ "bpm": 105.29,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.99,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36937267,
+  "duration": 238,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Em – Bm – D – G – Am7 – C.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Em",
+    "Bm",
+    "Em",
+    "Bm",
+    "Em",
+    "Bm",
+    "Em",
+    "Bm",
+    "Em",
+    "Bm",
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Em",
+    "Bm",
+    "Em",
+    "Bm",
+    "D",
+    "Am7",
+    "C",
+    "G",
+    "Em",
+    "Bm",
+    "Em",
+    "Bm",
+    "D",
+    "Am7",
+    "C",
+    "G",
+    "Em",
+    "Bm",
+    "Em",
+    "Bm",
+    "D",
+    "Am7",
+    "C",
+    "G",
+    "Em",
+    "Bm",
+    "Em",
+    "Bm",
+    "D",
+    "Am7",
+    "C",
+    "G",
+    "Em",
+    "Bm",
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Bm",
+    "D",
+    "Am7",
+    "G",
+    "%",
+    [
+     "Em:2",
+     "Bm:2"
+    ],
+    [
+     "Bm:2",
+     "Em:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Bm",
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    "%",
+    "Am7",
+    "G",
+    "%",
+    "Em",
+    "Bm",
+    "Em",
+    "Bm",
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Em",
+    "Bm",
+    "Em",
+    "Bm",
+    "D",
+    "Am7",
+    "C",
+    "G",
+    "Em",
+    "Bm",
+    "Em",
+    "Bm",
+    "D",
+    "Am7",
+    "C",
+    "G",
+    "Em",
+    "Bm",
+    "Em",
+    "Bm",
+    "D",
+    "Am7",
+    "%",
+    "G",
+    "Em",
+    "Bm",
+    "Em",
+    "Bm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "Em",
+    "Bm",
+    "Em",
+    "Bm",
+    "Em",
+    "Bm",
+    "Em",
+    "Bm"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   11,
+   27.361
+  ],
+  [
+   17,
+   40.641
+  ],
+  [
+   23,
+   54.317
+  ],
+  [
+   29,
+   68.242
+  ],
+  [
+   35,
+   81.919
+  ],
+  [
+   41,
+   95.369
+  ],
+  [
+   48,
+   110.702
+  ],
+  [
+   54,
+   124.111
+  ],
+  [
+   65,
+   149.185
+  ],
+  [
+   74,
+   170.1
+  ],
+  [
+   80,
+   183.8
+  ],
+  [
+   85,
+   195.5
+  ],
+  [
+   92,
+   211.961
+  ],
+  [
+   96,
+   220.81
+  ],
+  [
+   102,
+   234.409
+  ]
+ ]
+}

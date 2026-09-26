@@ -1,0 +1,311 @@
+{
+ "title": "Bimbi per strada",
+ "artist": "Fedez",
+ "album": "BIMBI PER STRADA (CHILDREN)",
+ "year": 2021,
+ "genre": "Pop / Rap",
+ "difficulty": 4,
+ "youtubeId": "DAeIptt4w_k",
+ "key": "Bbm",
+ "bpm": 133.83,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.76,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36493040,
+  "duration": 201,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bbm – Fm – Db – Dbmaj7 – Fm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Db",
+    "Bbm",
+    "Fm",
+    "Db"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Db",
+    "Bbm",
+    "Fm",
+    "%",
+    "Db",
+    "Bbm",
+    "Fm",
+    "%",
+    "Db",
+    "Fm",
+    "%",
+    "Db",
+    "Bbm",
+    "Fm",
+    "%",
+    "%",
+    [
+     "Db:2",
+     "Bbm:2"
+    ],
+    [
+     "Bbm:2",
+     "Fm:2"
+    ],
+    "Db",
+    "%",
+    "Bbm",
+    "Fm",
+    "Db",
+    "%",
+    "Fm",
+    "%",
+    "%",
+    "Db",
+    "Bbm",
+    "Fm",
+    "%",
+    "Dbmaj7",
+    [
+     "Dbmaj7:2",
+     "Bbm:2"
+    ],
+    [
+     "Bbm:2",
+     "Fm7:2"
+    ],
+    "%",
+    "Dbmaj7",
+    [
+     "Dbmaj7:2",
+     "Bbm:2"
+    ],
+    "%",
+    [
+     "Bbm:2",
+     "Fm:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Fm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Db",
+    "%",
+    "Bbm",
+    "Fm",
+    "%",
+    "Db",
+    "Bbm",
+    "Fm",
+    "%",
+    "%",
+    [
+     "Db:2",
+     "Bbm:2"
+    ],
+    [
+     "Bbm:2",
+     "Fm:2"
+    ],
+    "Db",
+    "%",
+    "Bbm",
+    "Fm",
+    "Db",
+    "%",
+    "Fm",
+    "%",
+    "%",
+    "Db",
+    "Bbm",
+    "Fm",
+    "%",
+    "Dbmaj7",
+    [
+     "Dbmaj7:2",
+     "Bbm:2"
+    ],
+    [
+     "Bbm:2",
+     "Fm7:2"
+    ],
+    "%",
+    "Dbmaj7",
+    [
+     "Dbmaj7:2",
+     "Bbm:2"
+    ],
+    [
+     "Bbm:2",
+     "Fm:2"
+    ],
+    "%",
+    "Dbmaj7",
+    [
+     "Dbmaj7:2",
+     "Bbm:2"
+    ],
+    [
+     "Bbm:2",
+     "Fm7:2"
+    ],
+    "%",
+    "Dbmaj7",
+    [
+     "Dbmaj7:2",
+     "Bbm:2"
+    ],
+    "%",
+    [
+     "Bbm:2",
+     "Fm:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Dbmaj7:2",
+     "Bbm:2"
+    ],
+    [
+     "Bbm:2",
+     "Fm7:2"
+    ],
+    "Dbmaj7",
+    "%",
+    "Bbm",
+    "Fm",
+    "Dbmaj7",
+    "%",
+    "Fm7",
+    "%",
+    "%",
+    "Db",
+    "Bbm",
+    "Fm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   7.907
+  ],
+  [
+   8,
+   15.017
+  ],
+  [
+   13,
+   24.043
+  ],
+  [
+   17,
+   31.237
+  ],
+  [
+   22,
+   40.347
+  ],
+  [
+   28,
+   51.13
+  ],
+  [
+   33,
+   60.097
+  ],
+  [
+   39,
+   70.827
+  ],
+  [
+   44,
+   79.677
+  ],
+  [
+   49,
+   88.52
+  ],
+  [
+   53,
+   95.677
+  ],
+  [
+   57,
+   102.85
+  ],
+  [
+   62,
+   111.983
+  ],
+  [
+   66,
+   119.19
+  ],
+  [
+   71,
+   128.157
+  ],
+  [
+   75,
+   135.343
+  ],
+  [
+   79,
+   142.503
+  ],
+  [
+   83,
+   149.677
+  ],
+  [
+   87,
+   156.85
+  ],
+  [
+   92,
+   165.807
+  ],
+  [
+   98,
+   176.48
+  ],
+  [
+   103,
+   185.447
+  ],
+  [
+   107,
+   192.62
+  ]
+ ]
+}

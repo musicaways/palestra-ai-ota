@@ -1,0 +1,172 @@
+{
+ "title": "Ovunque sarai",
+ "artist": "Irama",
+ "album": "null",
+ "year": 2022,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "K4cPTgkYG9c",
+ "key": "C",
+ "bpm": 82.0,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.22,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 19675114,
+  "duration": 201.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – Em – G – F – Fm – G4.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "C",
+    "Em"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "C",
+    "Em",
+    [
+     "C:2",
+     "Em:2"
+    ],
+    "F",
+    "G",
+    [
+     "Dm:2",
+     "G4:2"
+    ],
+    [
+     "G4:2",
+     "G:2"
+    ],
+    "%",
+    "C",
+    "Em",
+    [
+     "F:2",
+     "G4:2"
+    ],
+    "%",
+    "%",
+    "Dm7",
+    [
+     "Dm7:2",
+     "G:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "C",
+    "Em",
+    [
+     "F:2",
+     "Fm:2"
+    ],
+    [
+     "Fm:2",
+     "C:2"
+    ],
+    "Em",
+    "Am",
+    [
+     "F:1",
+     "Fm:2",
+     "C:1"
+    ],
+    "Em",
+    "Am",
+    "G",
+    "%",
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "Em",
+    [
+     "C:2",
+     "Em:2"
+    ],
+    "F",
+    "%",
+    "G4",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "Em",
+    "F",
+    "G",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Dm7",
+    "G",
+    "C",
+    "Em",
+    [
+     "F:2",
+     "Fm:2"
+    ],
+    [
+     "Fm:2",
+     "C:2"
+    ],
+    "Em",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "Am",
+    "%",
+    "G",
+    "%",
+    "C",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

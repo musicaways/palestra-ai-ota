@@ -1,0 +1,233 @@
+{
+ "title": "Non mi avete fatto niente",
+ "artist": "Ermal Meta",
+ "album": "Fabrizio Moro",
+ "year": 2018,
+ "genre": "Pop / Rock",
+ "difficulty": 5,
+ "youtubeId": "6iQxpFnWPAs",
+ "key": "F#",
+ "bpm": 89.66,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.78,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34721899,
+  "duration": 209,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F# – D#m – C# – Bmaj7 – B – D#m7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "D#m",
+    "%"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "D#m",
+    [
+     "B:2",
+     "F#:2"
+    ],
+    "%",
+    "D#m",
+    "%",
+    [
+     "B:2",
+     "F#:2"
+    ],
+    "%",
+    "D#m",
+    "%",
+    [
+     "C#:2",
+     "F#:2"
+    ],
+    "%",
+    "D#m",
+    "%",
+    [
+     "C#:2",
+     "F#:2"
+    ],
+    "%",
+    "%",
+    "D#m",
+    "C#",
+    "F#",
+    "D#m",
+    "F#",
+    "C#",
+    "%",
+    "D#m",
+    "%",
+    "D#m",
+    "F#",
+    "%",
+    "D#m",
+    "%",
+    [
+     "C#:2",
+     "F#:2"
+    ],
+    "%",
+    "%",
+    "D#m",
+    "C#",
+    "F#",
+    "D#m",
+    [
+     "C#:2",
+     "F#:2"
+    ],
+    "C#",
+    "%",
+    "B",
+    "D#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "F#",
+    [
+     "F#:2",
+     "C#:2"
+    ],
+    "%",
+    "D#m",
+    [
+     "C#:2",
+     "F#:2"
+    ],
+    "%",
+    "%",
+    "D#m",
+    [
+     "F#:2",
+     "Bmaj7:1"
+    ],
+    "D#m7",
+    "%",
+    "F#",
+    "%",
+    [
+     "F#:2",
+     "Bmaj7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Bmaj7:1",
+     "D#m:2",
+     "F#:1"
+    ],
+    "C#",
+    "C#",
+    "Bmaj7",
+    "D#m",
+    "F#",
+    "C#",
+    "Bmaj7",
+    "D#m",
+    "F#",
+    "C#",
+    "Bmaj7",
+    "D#m",
+    "F#",
+    "C#",
+    "Bmaj7",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   2,
+   7.47
+  ],
+  [
+   6,
+   18.03
+  ],
+  [
+   10,
+   28.62
+  ],
+  [
+   14,
+   39.29
+  ],
+  [
+   18,
+   49.953
+  ],
+  [
+   22,
+   60.583
+  ],
+  [
+   27,
+   73.967
+  ],
+  [
+   31,
+   84.613
+  ],
+  [
+   35,
+   95.306
+  ],
+  [
+   39,
+   106.014
+  ],
+  [
+   44,
+   119.357
+  ],
+  [
+   48,
+   130.006
+  ],
+  [
+   54,
+   146.044
+  ],
+  [
+   59,
+   159.451
+  ],
+  [
+   63,
+   170.123
+  ],
+  [
+   69,
+   186.896
+  ],
+  [
+   74,
+   200.28
+  ]
+ ]
+}

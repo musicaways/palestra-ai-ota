@@ -1,0 +1,228 @@
+{
+ "title": "Eh... già",
+ "artist": "Vasco Rossi",
+ "album": "Eh...Già",
+ "year": 2011,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "g2NSvf6Ko7A",
+ "key": "C",
+ "bpm": 92.34,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.6,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 35993897,
+  "duration": 224,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – G – F – Am – Bm7 – D.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bm7",
+    "C",
+    "Bm7",
+    "D"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Bm7",
+    "C",
+    "%",
+    [
+     "Bm7:2",
+     "C:2"
+    ],
+    "Bm7",
+    "C",
+    "Bm7",
+    "C",
+    "Am7",
+    "%",
+    "D",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Em",
+    "C",
+    "D",
+    "Em",
+    "F",
+    "G",
+    "%",
+    "C",
+    "Am",
+    "F",
+    "G",
+    "C",
+    "Am",
+    "F",
+    "%",
+    "G",
+    "%",
+    "C",
+    "Am",
+    "F",
+    "G",
+    "C",
+    "Am",
+    [
+     "Am:2",
+     "F:2"
+    ],
+    "%",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Bm7",
+    "C",
+    "%",
+    "Bm7",
+    "C",
+    "C",
+    "Bm7",
+    [
+     "Bm7:2",
+     "C:2"
+    ],
+    "%",
+    "Am7",
+    "D",
+    "%",
+    [
+     "Em:2",
+     "F:2"
+    ],
+    "G",
+    "G",
+    "%",
+    "%",
+    "C",
+    "Am",
+    "F",
+    "G",
+    "C",
+    "Am",
+    "F",
+    "G",
+    "%",
+    "Am",
+    "F",
+    "%",
+    [
+     "G:2",
+     "C:2"
+    ],
+    "Am",
+    "F",
+    "%",
+    [
+     "G:2",
+     "C:2"
+    ],
+    "Am",
+    "F",
+    "%",
+    [
+     "G:2",
+     "C:2"
+    ],
+    "Am",
+    "F",
+    "G",
+    "%",
+    "C",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   12.04
+  ],
+  [
+   8,
+   22.436
+  ],
+  [
+   12,
+   32.547
+  ],
+  [
+   16,
+   42.944
+  ],
+  [
+   21,
+   56.308
+  ],
+  [
+   25,
+   66.789
+  ],
+  [
+   29,
+   77.289
+  ],
+  [
+   34,
+   90.147
+  ],
+  [
+   45,
+   118.816
+  ],
+  [
+   52,
+   137.013
+  ],
+  [
+   56,
+   147.406
+  ],
+  [
+   61,
+   160.148
+  ],
+  [
+   67,
+   175.896
+  ],
+  [
+   72,
+   188.591
+  ],
+  [
+   76,
+   198.841
+  ],
+  [
+   81,
+   212.029
+  ],
+  [
+   82,
+   214.869
+  ]
+ ]
+}

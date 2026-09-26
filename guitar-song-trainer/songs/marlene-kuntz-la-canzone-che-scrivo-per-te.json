@@ -1,0 +1,333 @@
+{
+ "title": "La canzone che scrivo per te",
+ "artist": "Marlene Kuntz",
+ "album": "Che Cosa Vedi",
+ "year": 2000,
+ "genre": "Rock",
+ "difficulty": 2,
+ "youtubeId": "DMrYez93pEQ",
+ "key": "D",
+ "bpm": 83.29,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.41,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 2955083,
+  "duration": 248,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – C – G – Em – Bm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G",
+    "%",
+    "%",
+    "Em",
+    "%",
+    "%",
+    "C",
+    "%",
+    "%",
+    "D",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    "G",
+    [
+     "C:2",
+     "D:2"
+    ],
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    "Em",
+    "G",
+    "C",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "C",
+    "D",
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    "C",
+    "D",
+    "C",
+    "D",
+    "G",
+    [
+     "C:2",
+     "D:2"
+    ],
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    "Bm",
+    "%",
+    [
+     "C:2",
+     "D:2"
+    ],
+    "Em",
+    "G",
+    "C",
+    "D",
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Em",
+    "C",
+    "C",
+    "D",
+    "G",
+    [
+     "C:2",
+     "D:2"
+    ],
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "%",
+    "%",
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    "C",
+    "%",
+    [
+     "C:2",
+     "D:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   12,
+   35.02
+  ],
+  [
+   16,
+   46.587
+  ],
+  [
+   20,
+   58.164
+  ],
+  [
+   24,
+   69.69
+  ],
+  [
+   28,
+   81.16
+  ],
+  [
+   33,
+   95.567
+  ],
+  [
+   40,
+   115.738
+  ],
+  [
+   44,
+   127.41
+  ],
+  [
+   48,
+   138.936
+  ],
+  [
+   53,
+   153.103
+  ],
+  [
+   58,
+   168.132
+  ],
+  [
+   64,
+   185.421
+  ],
+  [
+   70,
+   202.71
+  ],
+  [
+   74,
+   214.03
+  ],
+  [
+   79,
+   227.833
+  ],
+  [
+   81,
+   233.596
+  ]
+ ]
+}

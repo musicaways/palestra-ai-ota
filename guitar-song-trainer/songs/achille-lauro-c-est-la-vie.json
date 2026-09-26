@@ -1,0 +1,234 @@
+{
+ "title": "C'est la vie",
+ "artist": "Achille Lauro",
+ "album": "Top 100 Italia - Classifica Del 01.07.2019",
+ "year": 2021,
+ "genre": "Rock / Pop",
+ "difficulty": 3,
+ "youtubeId": "G18fYwPhy-Q",
+ "key": "G",
+ "bpm": 73.39,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.08,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37336118,
+  "duration": 193,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – Bm – A – D – F#m – F#.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Parte 1",
+   "bars": [
+    "Bm",
+    "F#m",
+    "G",
+    [
+     "Em:2",
+     "F#m:2"
+    ],
+    "Bm",
+    "F#m",
+    "G",
+    [
+     "Em:2",
+     "F#m:2"
+    ],
+    "G",
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    "F#",
+    "%",
+    [
+     "G:1",
+     "A:2",
+     "Bm:1"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "%",
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    "F#",
+    "Bm",
+    "F#m",
+    "G",
+    [
+     "Em:2",
+     "F#m:2"
+    ],
+    "Bm",
+    "F#m",
+    "G",
+    [
+     "Em:2",
+     "F#m:2"
+    ],
+    "G",
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    "F#"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    [
+     "G:1",
+     "A:2",
+     "Bm:1"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    "F#",
+    "G",
+    "A",
+    "Em",
+    "F#",
+    "%",
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    "F#"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    [
+     "G:1",
+     "A:2",
+     "Bm:1"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    "F#",
+    "%",
+    "Bm",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   0,
+   1.219
+  ],
+  [
+   4,
+   14.28
+  ],
+  [
+   8,
+   27.251
+  ],
+  [
+   13,
+   43.151
+  ],
+  [
+   18,
+   59.541
+  ],
+  [
+   24,
+   79.85
+  ],
+  [
+   29,
+   96.16
+  ],
+  [
+   33,
+   109.01
+  ],
+  [
+   37,
+   121.64
+  ],
+  [
+   42,
+   138.38
+  ],
+  [
+   46,
+   151.77
+  ],
+  [
+   50,
+   164.93
+  ],
+  [
+   55,
+   180.761
+  ]
+ ]
+}

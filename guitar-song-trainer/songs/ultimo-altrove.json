@@ -1,0 +1,214 @@
+{
+ "title": "Altrove",
+ "artist": "Ultimo",
+ "album": "Ultimo Channel Videos",
+ "year": 2024,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "IpF9WqUS2S0",
+ "key": "C",
+ "bpm": 127.35,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.16,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36698202,
+  "duration": 212.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – G – Dm7 – Fadd9 – Fmaj7 – Am.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "C",
+    "Dm7",
+    "Fmaj7",
+    "Am"
+   ]
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "C",
+    "Dm7",
+    "Fmaj7",
+    "Am",
+    "G",
+    [
+     "C:2",
+     "Dm7:2"
+    ],
+    [
+     "Dm7:2",
+     "Fmaj7:2"
+    ],
+    "Am",
+    "%",
+    "G",
+    "%",
+    "C",
+    "Dm",
+    "Fmaj7",
+    "Am",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    [
+     "C:2",
+     "Dm:2"
+    ],
+    [
+     "Dm:2",
+     "Fmaj7:2"
+    ],
+    "Am",
+    "%",
+    "G",
+    "Fadd9",
+    "%",
+    "C",
+    "G",
+    "Dm7",
+    "Fadd9",
+    "C",
+    "G",
+    "Dm7",
+    "Fadd9",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "Am7",
+    "Fadd9",
+    "C",
+    "G",
+    "Am7",
+    "Fadd9",
+    "C",
+    "%",
+    "%",
+    "%",
+    [
+     "C:2",
+     "Dm7:2"
+    ],
+    [
+     "Dm7:2",
+     "Fmaj7:2"
+    ],
+    "Am",
+    "G",
+    [
+     "C:2",
+     "Dm7:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    [
+     "Dm7:2",
+     "Fmaj7:2"
+    ],
+    "Am",
+    "%",
+    "G",
+    "Fadd9",
+    "%",
+    "C",
+    "G",
+    "Dm7",
+    "Fadd9",
+    "C",
+    "G",
+    "Dm7",
+    "Fadd9",
+    "C",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "Am7",
+    "Fadd9",
+    "C",
+    "G",
+    "Am7",
+    "Fadd9",
+    "C",
+    "G",
+    "%",
+    "Dm7",
+    "F",
+    "C",
+    "G",
+    "Dm7",
+    "F",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    [
+     "G:2",
+     "Fmaj7:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "C",
+    "G",
+    "Dm7",
+    "Fadd9",
+    "C",
+    "G",
+    "Dm7",
+    "Fadd9",
+    "C",
+    "%",
+    "Am7",
+    "Fadd9"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 8",
+   "bars": [
+    "C",
+    "G",
+    "Am7",
+    "Fadd9",
+    "C",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

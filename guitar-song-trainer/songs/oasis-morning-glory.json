@@ -1,0 +1,296 @@
+{
+ "title": "Morning Glory",
+ "artist": "Oasis",
+ "album": "Alternative World",
+ "year": 1995,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "HVNO8KySdT4",
+ "key": "Eb",
+ "bpm": 137.01,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.5,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37108770,
+  "duration": 302.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Eb – Fm – Db – Bb7 – C – Bb.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Fm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Fm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Fm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Fm",
+    "Eb",
+    "Fm",
+    "Eb",
+    "Fm",
+    "Eb",
+    "Bb7",
+    "Db"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Fm",
+    "Eb",
+    "Fm",
+    "Eb",
+    "Fm",
+    "Eb",
+    "Bb7",
+    "Db"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Eb",
+    "Db",
+    "Eb",
+    "Db",
+    "Eb",
+    "Db",
+    "Eb",
+    "%",
+    "C",
+    [
+     "C:2",
+     "Fm:2"
+    ],
+    [
+     "Fm:2",
+     "Eb:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Bb7",
+    "Db",
+    "Fm",
+    "Eb",
+    "Bb7",
+    "Db",
+    "Fm",
+    "Eb",
+    "Bb",
+    "Db",
+    "Fm",
+    "Eb",
+    [
+     "Bb7:2",
+     "Db:2"
+    ],
+    [
+     "Db:2",
+     "Fm:2"
+    ],
+    "Fm",
+    "%",
+    "Eb",
+    "%",
+    "Fm",
+    "%",
+    "Eb",
+    "%",
+    "Fm",
+    "%",
+    "Eb",
+    "%",
+    "Fm",
+    "%",
+    "Eb",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Fm",
+    "Eb",
+    "Fm",
+    "Eb",
+    "Fm",
+    "Eb",
+    "Bb7",
+    "Db"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "Fm",
+    "Eb",
+    "Fm",
+    "Eb",
+    "Fm",
+    "Eb",
+    "Bb7",
+    "Db"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Eb",
+    "Db",
+    "Eb",
+    "Db",
+    "Eb",
+    "Db",
+    "Eb",
+    "%",
+    "C",
+    [
+     "C:2",
+     "Fm:2"
+    ],
+    [
+     "Fm:2",
+     "Eb:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 9",
+   "bars": [
+    "Bb7",
+    "Db",
+    "Fm",
+    "Eb",
+    "Bb7",
+    "Db",
+    "Fm",
+    "Eb",
+    "Bb7",
+    "Db",
+    "Fm",
+    "Eb",
+    "Bb7",
+    "Db",
+    "Fm",
+    "Eb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 10",
+   "bars": [
+    "Bb7",
+    "Db",
+    "Fm",
+    "Eb",
+    [
+     "Bb7:2",
+     "Db:2"
+    ],
+    "Fm",
+    "Fm",
+    "Eb",
+    "Bb7",
+    "Db",
+    "%",
+    "%",
+    "Eb",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 11",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "Eb:2",
+     "Db:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 12",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

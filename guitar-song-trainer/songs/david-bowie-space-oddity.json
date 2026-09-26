@@ -1,0 +1,318 @@
+{
+ "title": "Space Oddity",
+ "artist": "David Bowie",
+ "album": "Unknown album",
+ "year": 1969,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "9_M3uw29U1U",
+ "key": "C",
+ "bpm": 82.69,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.95,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37494041,
+  "duration": 315,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – F – G – A – Em7 – Fmaj7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Fmaj7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Em",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "C",
+    "Em",
+    "C",
+    "Em",
+    "Am",
+    "%",
+    "%",
+    "C",
+    "Em",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Em",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "E7",
+    "F",
+    "%",
+    [
+     "Fm:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    "Fm",
+    "C",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "C:2",
+     "E7:2"
+    ],
+    "F",
+    "%",
+    [
+     "Fm:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    "Fm",
+    "C",
+    "F",
+    "Em7",
+    "%",
+    "%",
+    "Fmaj7",
+    "Em7",
+    "G",
+    "F",
+    "C",
+    "F",
+    "G",
+    "A",
+    "C",
+    "F",
+    "G",
+    "A",
+    "Fmaj7",
+    "Em7",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "C:2",
+     "E7:2"
+    ],
+    "F",
+    "%",
+    [
+     "Fm:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    "Fm",
+    "C",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "G:2",
+     "E7:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "Cadd9",
+    "G",
+    "Em7",
+    "%",
+    "Fmaj7",
+    [
+     "Fmaj7:2",
+     "Em7:2"
+    ],
+    "%",
+    "G",
+    "F",
+    "C",
+    "F",
+    "G",
+    "A",
+    "C",
+    "F",
+    "G",
+    "A",
+    "Fmaj7",
+    "Em7",
+    "A",
+    "C",
+    "Dadd9",
+    "E",
+    "C",
+    "F",
+    "G",
+    "A",
+    "C",
+    "F",
+    "G",
+    "A",
+    "Fmaj7",
+    "Em7"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   10,
+   30.71
+  ],
+  [
+   12,
+   37.75
+  ],
+  [
+   15,
+   44.99
+  ],
+  [
+   17,
+   51.64
+  ],
+  [
+   20,
+   59.26
+  ],
+  [
+   22,
+   66.16
+  ],
+  [
+   28,
+   83.4
+  ],
+  [
+   30,
+   88.73
+  ],
+  [
+   32,
+   93.57
+  ],
+  [
+   34,
+   100.88
+  ],
+  [
+   37,
+   108.66
+  ],
+  [
+   40,
+   118.21
+  ],
+  [
+   42,
+   125.27
+  ],
+  [
+   45,
+   132.73
+  ],
+  [
+   48,
+   140
+  ],
+  [
+   50,
+   147.28
+  ],
+  [
+   63,
+   183.65
+  ],
+  [
+   66,
+   193.3
+  ],
+  [
+   68,
+   200.25
+  ],
+  [
+   71,
+   208.01
+  ],
+  [
+   72,
+   211.07
+  ],
+  [
+   73,
+   214.72
+  ],
+  [
+   75,
+   218.27
+  ],
+  [
+   76,
+   221.78
+  ],
+  [
+   77,
+   224.69
+  ],
+  [
+   79,
+   232.6
+  ],
+  [
+   82,
+   239.54
+  ]
+ ]
+}

@@ -1,0 +1,139 @@
+{
+ "title": "Pronto a correre",
+ "artist": "Marco Mengoni",
+ "album": "#PRONTOACORRERE Il Viaggio",
+ "year": 2013,
+ "genre": "Pop",
+ "difficulty": 3,
+ "youtubeId": "AXZftVvo3c8",
+ "key": "G",
+ "bpm": 69.98,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.31,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 35329452,
+  "duration": 229.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – C – F – Am – Fmaj7 – Em.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Fmaj7",
+    [
+     "Fmaj7:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "C:2"
+    ],
+    "%"
+   ]
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "C",
+    "%",
+    "Em",
+    "F",
+    "Am",
+    [
+     "G:2",
+     "Em7:2"
+    ],
+    [
+     "Em7:2",
+     "F:2"
+    ],
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "%",
+    "Em",
+    "F",
+    "G",
+    "%",
+    "Am",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "C",
+    "G",
+    "Am",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "Am",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "C",
+    "G",
+    "Am",
+    "F",
+    "C",
+    "G",
+    "Am",
+    "F",
+    "%",
+    "%",
+    "%",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "C",
+    "G",
+    "Am",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "C",
+    "%",
+    "G",
+    [
+     "G:2",
+     "Am:2"
+    ],
+    "%",
+    "F",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

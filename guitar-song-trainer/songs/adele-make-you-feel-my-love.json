@@ -1,0 +1,126 @@
+{
+ "title": "Make You Feel My Love",
+ "artist": "Adele",
+ "album": "Adele compilation",
+ "year": 2008,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "9cIAy89XpkI",
+ "key": "Bb",
+ "bpm": 77.09,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.87,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 12899688,
+  "duration": 212.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bb – Eb – C7 – Ebm – Ab – F7sus4.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Ab",
+    "%",
+    "%",
+    "%",
+    "Eb",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "%",
+    "Ab",
+    "Eb",
+    "Ebm",
+    "Bb",
+    "C7",
+    "Bb",
+    "%",
+    "%",
+    "Ab",
+    "Eb",
+    "Ebm",
+    "Bb",
+    "C7",
+    "Bb",
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "Eb",
+    "Bb",
+    "C7",
+    "F",
+    "%",
+    "%",
+    "Ab",
+    "Eb",
+    "Ebm",
+    "Bb",
+    [
+     "C7:1",
+     "Bb:1"
+    ],
+    "Ebm",
+    "Bb",
+    "C7",
+    "%",
+    "Bb",
+    "Ebm",
+    "Bb",
+    "C7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Eb",
+    "Bb",
+    "Eb",
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    "Eb",
+    "Bb",
+    [
+     "Cm7:2",
+     "F7sus4:2"
+    ],
+    [
+     "F7sus4:2",
+     "F:2"
+    ],
+    "%",
+    "%",
+    "Ab",
+    "Eb",
+    "Ebm",
+    "Bb",
+    "C7",
+    "Bb",
+    "C7",
+    "C7",
+    "Bb",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

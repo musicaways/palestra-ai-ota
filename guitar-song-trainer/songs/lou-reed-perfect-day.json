@@ -1,0 +1,161 @@
+{
+ "title": "Perfect Day",
+ "artist": "Lou Reed",
+ "album": "Transformer [RM 2002]",
+ "year": 1972,
+ "genre": "Rock",
+ "difficulty": 5,
+ "youtubeId": "fIzOEG9ExPk",
+ "key": "Ab",
+ "bpm": 70.9,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.17,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37020360,
+  "duration": 226.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Ab – Eb – F – Gb – Gm – Dm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F",
+    "Bbm",
+    "F",
+    "Ab",
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    "%",
+    "Gb",
+    [
+     "Gb:2",
+     "Ebm:2"
+    ],
+    "%",
+    "Ab",
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    "%",
+    "Gb",
+    [
+     "Gb:2",
+     "Ebm:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    "%",
+    "%",
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Gm:1",
+     "F:2",
+     "Eb:1"
+    ],
+    "Gm",
+    "F",
+    "Eb",
+    "Ab",
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    "%",
+    "Gb",
+    [
+     "Gb:2",
+     "Ebm:2"
+    ],
+    "%",
+    "Ab",
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    "%",
+    "Gb",
+    "Ebm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Bb",
+    "Eb",
+    "%",
+    "%",
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Gm:1",
+     "F:2",
+     "Eb:1"
+    ],
+    [
+     "Gm:1",
+     "F:2",
+     "Eb:1"
+    ],
+    "Gm",
+    "F",
+    "Eb",
+    "Gm",
+    "F",
+    "Dm",
+    "Ab",
+    "Eb",
+    "Dm",
+    "Ab",
+    "Eb",
+    "Dm",
+    "Ab",
+    "Eb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Dm",
+    "%",
+    "%",
+    "%",
+    "Ab",
+    "%",
+    "%",
+    "%",
+    "Eb",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

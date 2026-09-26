@@ -1,0 +1,355 @@
+{
+ "title": "Slide Away",
+ "artist": "Oasis",
+ "album": "The Essentials",
+ "year": 1994,
+ "genre": "Rock",
+ "difficulty": 5,
+ "youtubeId": "3GCSUSwcDwg",
+ "key": "G",
+ "bpm": 95.53,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.48,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36840622,
+  "duration": 392,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – Fmaj7 – F – F7 – C – G7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "Fmaj7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "G",
+    [
+     "G:2",
+     "F:2"
+    ],
+    "G",
+    [
+     "G:2",
+     "F:2"
+    ],
+    "G",
+    [
+     "G:2",
+     "F:2"
+    ],
+    "G",
+    [
+     "G:2",
+     "F:2"
+    ],
+    "G",
+    [
+     "G:2",
+     "F7:2"
+    ],
+    "G",
+    [
+     "G:2",
+     "F7:2"
+    ],
+    "G",
+    [
+     "G:2",
+     "F7:2"
+    ],
+    "G",
+    [
+     "G:2",
+     "F:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "G",
+    "F",
+    "G",
+    [
+     "G:2",
+     "G7:2"
+    ],
+    "%",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "%",
+    "Fadd9",
+    "%",
+    "Am7",
+    "G",
+    "Dm7",
+    "Fmaj7",
+    "%",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "Am7",
+    "G",
+    "Fmaj7",
+    "Am",
+    "G",
+    "Fmaj7",
+    "G",
+    "Fmaj7",
+    "G",
+    "Fmaj7",
+    "G",
+    "Fmaj7",
+    "G",
+    "G7",
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "G",
+    "Fmaj7",
+    "G",
+    "Fmaj7",
+    "G",
+    "Fmaj7",
+    "G",
+    "Fmaj7",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "G",
+    [
+     "G:2",
+     "Fmaj7:2"
+    ],
+    "G",
+    [
+     "G:2",
+     "F7:2"
+    ],
+    "G",
+    [
+     "G:2",
+     "F7:2"
+    ],
+    "G",
+    [
+     "G:2",
+     "F:2"
+    ],
+    "G",
+    "F",
+    "G",
+    [
+     "G:2",
+     "G7:2"
+    ],
+    "%",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "%",
+    "Fadd9"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "%",
+    "Am7",
+    "G",
+    "Dm7",
+    "Fmaj7",
+    "C",
+    "G",
+    "F",
+    "Fmaj7",
+    "%",
+    "Fmaj7",
+    "%",
+    "Fmaj7",
+    "%",
+    "Fmaj7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 8",
+   "bars": [
+    "Fmaj7",
+    "%",
+    "Fmaj7",
+    "%",
+    "Fmaj7",
+    "%",
+    "Fmaj7",
+    "%",
+    "Fmaj7",
+    "%",
+    "Fmaj7",
+    "%",
+    "Fmaj7",
+    "%",
+    "Fmaj7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 9",
+   "bars": [
+    "Fmaj7",
+    "%",
+    "Fmaj7",
+    "%",
+    "Fmaj7",
+    "%",
+    "Fmaj7",
+    "%",
+    "Fmaj7",
+    "%",
+    "Fmaj7",
+    "%",
+    "Fmaj7",
+    "%",
+    "Fmaj7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 10",
+   "bars": [
+    "Fmaj7",
+    "%",
+    "Fmaj7",
+    "%",
+    "Fmaj7",
+    "%",
+    "Fmaj7",
+    "%",
+    "Fmaj7",
+    "%",
+    "Fmaj7",
+    "%",
+    "Fmaj7",
+    "%",
+    "Fmaj7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 11",
+   "bars": [
+    "Fmaj7",
+    "%",
+    "Fmaj7",
+    "%",
+    "Fmaj7",
+    "%",
+    "Fmaj7",
+    "%",
+    "Fmaj7",
+    "%",
+    "Fmaj7"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   8,
+   22.511
+  ],
+  [
+   12,
+   32.761
+  ],
+  [
+   18,
+   47.97
+  ],
+  [
+   24,
+   62.969
+  ],
+  [
+   29,
+   75.278
+  ],
+  [
+   33,
+   85.119
+  ],
+  [
+   38,
+   97.578
+  ],
+  [
+   43,
+   110.385
+  ],
+  [
+   65,
+   166.021
+  ],
+  [
+   71,
+   181.169
+  ],
+  [
+   79,
+   201.289
+  ],
+  [
+   84,
+   213.411
+  ],
+  [
+   88,
+   223.595
+  ]
+ ]
+}

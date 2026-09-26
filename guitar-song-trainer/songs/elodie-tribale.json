@@ -1,0 +1,141 @@
+{
+ "title": "Tribale",
+ "artist": "Elodie",
+ "album": "Para jugar a las Sirenas",
+ "year": 2023,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "dZrvGR8BjV8",
+ "key": "F#m",
+ "bpm": 68.3,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.58,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 35230188,
+  "duration": 163,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Em7 – F#m – Gmaj7 – Bm – G – Em.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa",
+   "bars": [
+    "G",
+    "%",
+    "G",
+    "%",
+    "%",
+    "F#m",
+    "Em7",
+    "F#m7",
+    "Em7",
+    "Gmaj7",
+    "Bm",
+    "Gmaj7",
+    "Em7",
+    "F#m",
+    "%",
+    "G",
+    "F#m",
+    [
+     "Bm:2",
+     "Em7:2"
+    ],
+    [
+     "Gmaj7:2",
+     "F#m7:2"
+    ],
+    "Em7",
+    "Gmaj7",
+    "Em",
+    "F#m",
+    "Em7",
+    "Gmaj7",
+    "Bm",
+    "Gmaj7",
+    "Em7",
+    "F#m",
+    "%",
+    "G",
+    "F#m",
+    [
+     "Bm:1",
+     "Em:2",
+     "A:1"
+    ],
+    [
+     "F#m:2",
+     "Bm:2"
+    ],
+    [
+     "Em:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    "Bm",
+    "Gmaj7",
+    "Em7",
+    "F#m",
+    "%",
+    [
+     "Bm:2",
+     "Em7:2"
+    ],
+    "Gmaj7",
+    "F#m",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   0,
+   1.706
+  ],
+  [
+   4,
+   15.448
+  ],
+  [
+   8,
+   29.538
+  ],
+  [
+   12,
+   44.17
+  ],
+  [
+   18,
+   64.788
+  ],
+  [
+   23,
+   82.096
+  ],
+  [
+   27,
+   96.54
+  ],
+  [
+   32,
+   114.602
+  ],
+  [
+   40,
+   142.317
+  ],
+  [
+   44,
+   156.364
+  ]
+ ]
+}

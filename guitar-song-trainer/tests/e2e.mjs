@@ -395,6 +395,11 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   await page.click('.cam [data-cam="close"]');
   check(await page.isHidden('.cam'), 'fotocamera chiusa');
 
+  // Info: condivisione del brano
+  await tap('[data-act="info"]');
+  check((await page.textContent('.dlg-info')).includes('Condividi il brano') && (await page.textContent('.dlg-info')).includes('Sincronia'), 'info: sincronia e condivisione');
+  await page.click('.dlg-info button[value="ok"]');
+
   // Base sintetica e scaletta
   await tap('[data-act="backing"]');
   check(await page.locator('[data-act="backing"].active').count() === 1, 'base sintetica attiva');

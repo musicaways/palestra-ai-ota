@@ -1,0 +1,255 @@
+{
+ "title": "Tutto questo sei tu",
+ "artist": "Ultimo",
+ "album": "Top 100 Italia - Classifica Del 04.03.2020",
+ "year": 2021,
+ "genre": "Pop",
+ "difficulty": 3,
+ "youtubeId": "3ldPnEdB8cs",
+ "key": "G",
+ "bpm": 81.29,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.69,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37021026,
+  "duration": 245,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – D – A – Bm – A4 – Ebmaj7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Parte 1",
+   "bars": [
+    "D",
+    "%",
+    "%",
+    "D",
+    "G",
+    "%",
+    [
+     "Bm:1",
+     "A:2",
+     "G:1"
+    ],
+    "D",
+    "A",
+    [
+     "Bm:1",
+     "A:2",
+     "G:1"
+    ],
+    "D",
+    "A",
+    "D",
+    "G",
+    "%",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "G",
+    "%",
+    [
+     "A:1",
+     "Bm:1",
+     "A:1",
+     "G:1"
+    ],
+    "D",
+    "A",
+    [
+     "Bm:1",
+     "A:2",
+     "G:1"
+    ],
+    [
+     "D:2",
+     "A4:2"
+    ],
+    [
+     "A4:2",
+     "A:2"
+    ],
+    "D",
+    "%",
+    "G",
+    "Bm",
+    "A",
+    "G",
+    "D",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "G",
+    "Bm",
+    "G",
+    "%",
+    "D",
+    "G",
+    "D",
+    "%",
+    "G",
+    "%",
+    "%",
+    [
+     "A:1",
+     "Bm:1",
+     "A:1",
+     "G:1"
+    ],
+    "D",
+    "A",
+    [
+     "Bm:1",
+     "A:2",
+     "G:1"
+    ],
+    "A4"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    [
+     "A4:2",
+     "A:2"
+    ],
+    "D",
+    "G",
+    "%",
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    "G",
+    "%",
+    "D",
+    "G",
+    "%",
+    "Bm",
+    "G",
+    "%",
+    "Ebmaj7",
+    "F",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "Ebmaj7",
+    [
+     "F:2",
+     "G:2"
+    ],
+    "G",
+    "D",
+    "G",
+    "%",
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    "G",
+    "%",
+    "D",
+    "G",
+    "%",
+    "Bm",
+    "G",
+    "%",
+    "D",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   0,
+   2.553
+  ],
+  [
+   6,
+   20.416
+  ],
+  [
+   10,
+   32.148
+  ],
+  [
+   15,
+   46.987
+  ],
+  [
+   19,
+   58.797
+  ],
+  [
+   24,
+   73.758
+  ],
+  [
+   30,
+   91.473
+  ],
+  [
+   34,
+   103.24
+  ],
+  [
+   40,
+   120.887
+  ],
+  [
+   47,
+   141.245
+  ],
+  [
+   52,
+   156.007
+  ],
+  [
+   58,
+   173.674
+  ],
+  [
+   62,
+   185.58
+  ],
+  [
+   67,
+   200.558
+  ],
+  [
+   73,
+   218.236
+  ],
+  [
+   77,
+   230
+  ],
+  [
+   79,
+   235.95
+  ]
+ ]
+}

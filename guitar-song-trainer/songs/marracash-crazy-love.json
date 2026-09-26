@@ -1,0 +1,243 @@
+{
+ "title": "Crazy Love",
+ "artist": "Marracash",
+ "album": "Noi, loro, gli altri (Deluxe Edition)",
+ "year": 2015,
+ "genre": "Rap / Hip-hop",
+ "difficulty": 1,
+ "youtubeId": "v3DoL3c0PA4",
+ "key": "Dm",
+ "bpm": 123.25,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.49,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 24094937,
+  "duration": 192.731429,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Dm – Em – Am.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Dm",
+    "%",
+    "Am",
+    "%",
+    "Em",
+    "%",
+    "Dm",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "Dm",
+    "Am",
+    "%",
+    "%",
+    "Em",
+    "%",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "Em",
+    "%",
+    "%",
+    "%",
+    "Dm",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    "Am",
+    "%",
+    "Em",
+    "%",
+    "Dm",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "Em",
+    "%",
+    "%",
+    "%",
+    "Dm",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "Am",
+    "%",
+    "Em",
+    "%",
+    "%",
+    "%",
+    "Dm",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "Em",
+    "%",
+    "Dm",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "Am",
+    "%",
+    "Em",
+    "%",
+    "%",
+    "%",
+    "Dm",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "Em",
+    "%",
+    "Dm",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "Am",
+    "%",
+    "Em",
+    "%",
+    "%",
+    "%",
+    "Dm",
+    "%",
+    "Am",
+    "%",
+    "Em",
+    "%",
+    "%",
+    "%",
+    "Dm",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "%",
+    "Am",
+    "%",
+    "%",
+    "Em",
+    "%",
+    "Dm",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   8,
+   16.02
+  ],
+  [
+   12,
+   23.865
+  ],
+  [
+   16,
+   31.79
+  ],
+  [
+   22,
+   43.094
+  ],
+  [
+   27,
+   52.816
+  ],
+  [
+   32,
+   62.646
+  ],
+  [
+   38,
+   74.665
+  ],
+  [
+   44,
+   86.321
+  ],
+  [
+   49,
+   96.057
+  ],
+  [
+   53,
+   103.842
+  ],
+  [
+   58,
+   113.559
+  ],
+  [
+   64,
+   124.983
+  ],
+  [
+   69,
+   134.719
+  ],
+  [
+   74,
+   144.82
+  ],
+  [
+   80,
+   156.57
+  ],
+  [
+   84,
+   163.874
+  ],
+  [
+   89,
+   173.61
+  ],
+  [
+   94,
+   183.238
+  ]
+ ]
+}

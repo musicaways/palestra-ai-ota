@@ -1,0 +1,265 @@
+{
+ "title": "L'immenso",
+ "artist": "Negramaro",
+ "album": "N20 – Tour 2023 Setlist",
+ "year": 2008,
+ "genre": "Pop / Rock",
+ "difficulty": 5,
+ "youtubeId": "wtfyDVdfbBU",
+ "key": "A",
+ "bpm": 94.07,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.47,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36637579,
+  "duration": 215,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – B – C#m – G#7 – E – F#m7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "A",
+    "G#7",
+    "C#m",
+    "A",
+    "G#7",
+    "C#m",
+    "A",
+    "G#7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "G#7",
+    [
+     "C#m:2",
+     "A:2"
+    ],
+    "G#7",
+    [
+     "C#m:2",
+     "A:2"
+    ],
+    [
+     "G#7:2",
+     "C#m:2"
+    ],
+    "A",
+    "G#7",
+    "C#m",
+    "E",
+    "B6",
+    "B"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "F#m7",
+    "%",
+    "Amaj7",
+    "%",
+    "B",
+    [
+     "A:2",
+     "G#7:2"
+    ],
+    "C#m",
+    "A",
+    [
+     "G#7:2",
+     "C#m:2"
+    ],
+    "A",
+    [
+     "G#7:2",
+     "C#m:2"
+    ],
+    "A",
+    [
+     "G#7:2",
+     "C#m:2"
+    ],
+    "E",
+    "B6",
+    "B"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "F#m7",
+    "%",
+    "Amaj7",
+    "%",
+    "B",
+    "E",
+    "B6",
+    "B",
+    "F#m7",
+    "%",
+    "Amaj7",
+    "%",
+    [
+     "B:2",
+     "Cm:2"
+    ],
+    "A",
+    [
+     "B:2",
+     "C#m:2"
+    ],
+    [
+     "A:1",
+     "B:1",
+     "C#m:1",
+     "A:1"
+    ],
+    "A",
+    [
+     "B:2",
+     "C#m:2"
+    ],
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "B",
+    [
+     "C#m:2",
+     "A:2"
+    ],
+    "B",
+    "E",
+    "B6",
+    "B"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "F#m7",
+    "%",
+    "A",
+    "%",
+    "B",
+    "E",
+    "%",
+    "%",
+    "B",
+    "F#m7",
+    "A",
+    "%",
+    [
+     "B:2",
+     "Cm:2"
+    ],
+    "A",
+    [
+     "B:2",
+     "C#m:2"
+    ],
+    [
+     "A:1",
+     "B:1",
+     "C#m:1",
+     "A:1"
+    ],
+    "A",
+    [
+     "B:2",
+     "C#m:2"
+    ],
+    "A",
+    "B",
+    "C#m",
+    [
+     "C#m:2",
+     "A:2"
+    ],
+    "%",
+    "B"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   8,
+   22.24
+  ],
+  [
+   13,
+   34.522
+  ],
+  [
+   19,
+   49.778
+  ],
+  [
+   23,
+   60.028
+  ],
+  [
+   29,
+   75.27
+  ],
+  [
+   35,
+   90.805
+  ],
+  [
+   39,
+   101.152
+  ],
+  [
+   43,
+   111.357
+  ],
+  [
+   47,
+   121.92
+  ],
+  [
+   51,
+   131.768
+  ],
+  [
+   60,
+   154.663
+  ],
+  [
+   66,
+   169.885
+  ],
+  [
+   70,
+   179.818
+  ],
+  [
+   75,
+   192.846
+  ],
+  [
+   79,
+   203.404
+  ]
+ ]
+}

@@ -1,0 +1,309 @@
+{
+ "title": "Maria Salvador",
+ "artist": "J-Ax",
+ "album": "J-Ax & Friends [Disco 2]",
+ "year": 2015,
+ "genre": "Rap / Hip-hop",
+ "difficulty": 4,
+ "youtubeId": "RfhG6FmD248",
+ "key": "Cm",
+ "bpm": 96.91,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.27,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 33507604,
+  "duration": 223,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Cm – Bb – Ab – Eb – Fm – Gm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Cm",
+    "Ab",
+    "Eb"
+   ]
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "Bb",
+    "%",
+    "Cm",
+    "%",
+    "Cm",
+    [
+     "Fm:2",
+     "Gm:2"
+    ],
+    "Cm",
+    [
+     "Fm:1",
+     "Eb:2",
+     "Bb:1"
+    ],
+    "Cm",
+    [
+     "Fm:2",
+     "Bb:2"
+    ],
+    "Cm",
+    [
+     "Ab:2",
+     "Bb:2"
+    ],
+    "Cm",
+    [
+     "Ab:2",
+     "Bb:2"
+    ],
+    "Cm",
+    [
+     "Ab:2",
+     "Bb:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "Cm",
+    [
+     "Ab:2",
+     "Bb:2"
+    ],
+    [
+     "Cm:2",
+     "Ab:2"
+    ],
+    "%",
+    "%",
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    "Cm",
+    "Ab",
+    "Eb",
+    "Bb",
+    "Cm",
+    "%",
+    "Cm",
+    [
+     "Fm:2",
+     "Gm:2"
+    ],
+    "Cm",
+    [
+     "Fm:2",
+     "Gm:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "Cm",
+    [
+     "Fm:2",
+     "Gm:2"
+    ],
+    "Cm",
+    [
+     "Ab:2",
+     "Bb:2"
+    ],
+    "Cm",
+    [
+     "Ab:1",
+     "Bb:2",
+     "Cm:1"
+    ],
+    "%",
+    [
+     "Ab:2",
+     "Bb:2"
+    ],
+    "%",
+    "%",
+    [
+     "Cm:2",
+     "Ab:2"
+    ],
+    "%",
+    "%",
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    "Cm",
+    "Ab"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "Eb",
+    "Bb",
+    "Cm",
+    "%",
+    "Cm",
+    [
+     "Fm:2",
+     "Gm:2"
+    ],
+    "Cm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Cm",
+    "Ab"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "Bb",
+    "%",
+    "Cm",
+    "Ab",
+    "Eb",
+    "Bb",
+    [
+     "Cm:2",
+     "Ab:2"
+    ],
+    "%",
+    "%",
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    "Cm",
+    "Ab",
+    "Eb",
+    "Bb",
+    [
+     "Cm:2",
+     "Ab:2"
+    ],
+    "Eb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "Bb",
+    "%",
+    [
+     "Cm:2",
+     "Ab:2"
+    ],
+    "Eb",
+    "%",
+    "Bb",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   3,
+   9.05
+  ],
+  [
+   7,
+   18.683
+  ],
+  [
+   11,
+   28.537
+  ],
+  [
+   15,
+   38.18
+  ],
+  [
+   19,
+   48.087
+  ],
+  [
+   23,
+   58.47
+  ],
+  [
+   28,
+   70.627
+  ],
+  [
+   33,
+   82.96
+  ],
+  [
+   37,
+   92.97
+  ],
+  [
+   42,
+   105.447
+  ],
+  [
+   46,
+   115.37
+  ],
+  [
+   51,
+   127.65
+  ],
+  [
+   56,
+   139.86
+  ],
+  [
+   61,
+   152.243
+  ],
+  [
+   66,
+   164.563
+  ],
+  [
+   71,
+   176.993
+  ],
+  [
+   75,
+   187.117
+  ],
+  [
+   80,
+   199.533
+  ],
+  [
+   85,
+   211.983
+  ],
+  [
+   86,
+   214.486
+  ]
+ ]
+}

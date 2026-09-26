@@ -1,0 +1,195 @@
+{
+ "title": "Gossip",
+ "artist": "Måneskin",
+ "album": "Rush! [HD]",
+ "year": 2023,
+ "genre": "Rock",
+ "difficulty": 1,
+ "youtubeId": "7mW4FUe_ySc",
+ "key": "Am",
+ "bpm": 130.33,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.23,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34437406,
+  "duration": 168,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Dm – Am.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Dm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Am",
+    "Dm",
+    "%",
+    "Am",
+    "Dm",
+    "%",
+    "%",
+    "Am",
+    "Dm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Dm",
+    "%",
+    "Am",
+    "Dm",
+    "%",
+    "Am",
+    "Dm",
+    "Dm",
+    "%",
+    "Am",
+    "Dm",
+    "%",
+    "%",
+    "Am",
+    "Dm",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Am:2",
+     "Dm:2"
+    ],
+    "%",
+    "Am",
+    "%",
+    "Dm",
+    "%",
+    "Am",
+    "Dm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Dm",
+    "%",
+    "%",
+    "Am",
+    "Dm",
+    "Am",
+    "Dm",
+    "%",
+    "Am",
+    "%",
+    "Dm",
+    "%",
+    "%",
+    "Am",
+    "Dm",
+    "Dm",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Am"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   17,
+   31.624
+  ],
+  [
+   21,
+   38.651
+  ],
+  [
+   25,
+   45.947
+  ],
+  [
+   30,
+   55.187
+  ],
+  [
+   34,
+   62.59
+  ],
+  [
+   39,
+   71.933
+  ],
+  [
+   44,
+   81.347
+  ],
+  [
+   55,
+   101.603
+  ],
+  [
+   60,
+   110.767
+  ],
+  [
+   64,
+   118.133
+  ],
+  [
+   68,
+   125.827
+  ],
+  [
+   73,
+   135.034
+  ],
+  [
+   81,
+   149.779
+  ]
+ ]
+}

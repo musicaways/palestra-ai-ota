@@ -1,0 +1,249 @@
+{
+ "title": "Un giorno credi",
+ "artist": "Edoardo Bennato",
+ "album": "Non Farti Cadere le Braccia",
+ "year": 1973,
+ "genre": "Rock",
+ "difficulty": 5,
+ "youtubeId": "aNxZgGMyBQs",
+ "key": "B",
+ "bpm": 63.95,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 3.5,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 21863897,
+  "duration": 221.753469,
+  "offset": 0
+ },
+ "notes": "Accordi principali: B – E – Ddim – F#7 – F#m – B7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "E",
+    "B",
+    "Ddim"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "E:2",
+     "B:2"
+    ],
+    [
+     "Ddim:2",
+     "F#m:2"
+    ],
+    [
+     "B:2",
+     "C#m:2"
+    ],
+    [
+     "F#7:2",
+     "B7:2"
+    ],
+    [
+     "E:2",
+     "B:2"
+    ],
+    [
+     "Ddim:2",
+     "F#m:2"
+    ],
+    [
+     "F#7:2",
+     "B7:2"
+    ],
+    [
+     "Ddim:2",
+     "F#m:2"
+    ],
+    [
+     "B:2",
+     "C#m:2"
+    ],
+    [
+     "E:2",
+     "B:2"
+    ],
+    [
+     "Ddim:2",
+     "F#m:2"
+    ],
+    [
+     "F#7:2",
+     "B7:2"
+    ],
+    [
+     "E:2",
+     "B:2"
+    ],
+    [
+     "B:2",
+     "C#m:2"
+    ],
+    [
+     "F#7:2",
+     "B7:2"
+    ],
+    "E",
+    "B"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "E:2",
+     "B:2"
+    ],
+    [
+     "Ddim:2",
+     "F#m:2"
+    ],
+    [
+     "F#7:2",
+     "B:2"
+    ],
+    [
+     "E:2",
+     "B:2"
+    ],
+    [
+     "B:2",
+     "C#m:2"
+    ],
+    [
+     "F#7:2",
+     "B:2"
+    ],
+    "E",
+    "B",
+    "Ddim",
+    "F#m",
+    "B",
+    "C#m",
+    "F#7",
+    "B7",
+    "E",
+    "B",
+    "Ddim",
+    "F#m",
+    "B",
+    "C#m",
+    "F#7",
+    "B7",
+    "E",
+    "B",
+    "Ddim",
+    "F#m",
+    "B",
+    "C#m",
+    "F#7",
+    "B7",
+    "E",
+    "B",
+    "Ddim",
+    "F#m",
+    "B",
+    "C#m",
+    "F#7",
+    "B7",
+    "E"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   3,
+   15.21
+  ],
+  [
+   4,
+   18.45
+  ],
+  [
+   5,
+   21.88
+  ],
+  [
+   6,
+   25.23
+  ],
+  [
+   7,
+   30.8
+  ],
+  [
+   8,
+   33.36
+  ],
+  [
+   9,
+   37.52
+  ],
+  [
+   10,
+   40.48
+  ],
+  [
+   11,
+   45.29
+  ],
+  [
+   12,
+   48.12
+  ],
+  [
+   13,
+   52.62
+  ],
+  [
+   14,
+   55.19
+  ],
+  [
+   15,
+   60.03
+  ],
+  [
+   16,
+   62.63
+  ],
+  [
+   17,
+   67.2
+  ],
+  [
+   20,
+   79.72
+  ],
+  [
+   22,
+   84.61
+  ],
+  [
+   23,
+   89.52
+  ],
+  [
+   24,
+   91.88
+  ],
+  [
+   25,
+   96.73
+  ]
+ ]
+}

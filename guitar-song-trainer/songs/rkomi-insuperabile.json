@@ -1,0 +1,189 @@
+{
+ "title": "Insuperabile",
+ "artist": "Rkomi",
+ "album": "Sanremo Compilation 2022",
+ "year": 2022,
+ "genre": "Rap / Hip-hop",
+ "difficulty": 3,
+ "youtubeId": "6f9x0csLoCs",
+ "key": "Em",
+ "bpm": 77.76,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.08,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34603788,
+  "duration": 173.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – Em – A5 – G6 – Bm – G.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Em",
+    "%",
+    "%"
+   ]
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "Em",
+    "%",
+    "%",
+    "Bm",
+    "Em",
+    "%",
+    "%",
+    "%",
+    "Bm",
+    "Em",
+    [
+     "Am:2",
+     "Bm:2"
+    ],
+    [
+     "E5:2",
+     "G5:2"
+    ],
+    "C5",
+    "A5",
+    [
+     "Em:2",
+     "G:2"
+    ],
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    [
+     "A5:2",
+     "Em:2"
+    ],
+    [
+     "G6:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "A5:2"
+    ],
+    "Em",
+    "%",
+    "%",
+    [
+     "G6:2",
+     "Bm:2"
+    ],
+    "Em",
+    [
+     "Am:2",
+     "Bm:2"
+    ],
+    [
+     "E5:2",
+     "G5:2"
+    ],
+    "C5",
+    "A5",
+    [
+     "Em:2",
+     "G:2"
+    ],
+    "C",
+    [
+     "A5:2",
+     "Em:2"
+    ],
+    [
+     "G6:1",
+     "C:1",
+     "A5:1",
+     "Em:1"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    [
+     "G6:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "A5:2"
+    ],
+    [
+     "G6:1",
+     "C:2",
+     "A5:1"
+    ],
+    [
+     "G6:1",
+     "C:2",
+     "A5:1"
+    ],
+    "Em",
+    "Am",
+    "Em",
+    [
+     "G6:2",
+     "Am:2"
+    ],
+    "C",
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "C:2",
+     "A5:2"
+    ],
+    [
+     "Em:2",
+     "G:2"
+    ],
+    "C",
+    [
+     "A5:2",
+     "Em:2"
+    ],
+    [
+     "G6:1",
+     "C:1",
+     "A5:1",
+     "Em:1"
+    ],
+    [
+     "G6:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "A5:2"
+    ],
+    [
+     "G6:1",
+     "C:2",
+     "A5:1"
+    ],
+    "G6",
+    "C",
+    "A5"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

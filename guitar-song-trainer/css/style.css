@@ -821,3 +821,26 @@ kbd { background: rgba(146, 132, 255, .12); border: 1px solid var(--line); borde
 .quiz-opt.right { border-color: #3ddc84; background: rgba(61, 220, 132, .15); }
 .quiz-opt.wrong { border-color: #ff4d5e; background: rgba(255, 77, 94, .15); }
 .quiz-next { justify-self: start; }
+
+/* ---------- Telefono: pagina iniziale compatta ---------- */
+@media (max-width: 560px) {
+  .library.home .hero { padding: 14px 0 6px; }
+  .library.home .hero h1 { font-size: 26px; line-height: 1.05; margin: 6px 0; }
+  .library.home .hero p { display: none; }
+  .library.home .hero-kicker { display: none; }
+  .library.home .hero-actions { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; gap: 8px; margin-top: 10px; padding-bottom: 4px;
+    mask-image: linear-gradient(90deg, #000 88%, transparent); -webkit-mask-image: linear-gradient(90deg, #000 88%, transparent); }
+  .library.home .hero-actions::-webkit-scrollbar { display: none; }
+  .library.home .hero-actions > * { flex: none; }
+  .library.home .hero-stats { display: none; }
+  .library-head { gap: 8px; }
+  .sort-wrap { font-size: 0; gap: 0; }
+  .sort { height: 38px; }
+}
+
+/* ---------- Pagella di fine brano ---------- */
+.dlg-score form { text-align: center; }
+.score-stars { display: flex; justify-content: center; gap: 6px; color: #ffd23f; margin: 6px 0; filter: drop-shadow(0 0 10px rgba(255, 210, 63, .5)); }
+.score-acc { font-family: var(--display); font-size: 56px; font-weight: 700; line-height: 1; color: #3ddc84; text-shadow: 0 0 18px rgba(61, 220, 132, .5); }
+.score-rec { color: var(--pink); font-weight: 800; margin-top: 6px; }
+.dlg-score menu { justify-content: center; }

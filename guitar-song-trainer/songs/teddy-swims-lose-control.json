@@ -1,0 +1,197 @@
+{
+ "title": "Lose Control",
+ "artist": "Teddy Swims",
+ "album": "ChartsFEB26",
+ "year": 2023,
+ "genre": "Pop",
+ "difficulty": 3,
+ "youtubeId": "QvvhiIevsX8",
+ "key": "A",
+ "bpm": 79.78,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.54,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37516943,
+  "duration": 211,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – C#7 – F#m – D – Dmaj7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "F#m"
+   ]
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "F#m",
+    "A",
+    "%",
+    "D",
+    "%",
+    "%",
+    "F#m",
+    "A",
+    "%",
+    "D",
+    "%",
+    "C#7",
+    "F#m",
+    "A",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    "C#7",
+    "A",
+    "%",
+    "D",
+    "%",
+    "%",
+    [
+     "C#7:2",
+     "F#m:2"
+    ],
+    "%",
+    "A",
+    "D",
+    "%",
+    "C#7",
+    "%",
+    "%",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "D",
+    "%",
+    "C#7",
+    "F#m",
+    "A",
+    "%",
+    "%",
+    "%",
+    "%",
+    "C#7",
+    "A",
+    "%",
+    "D",
+    "%",
+    "%",
+    [
+     "C#7:2",
+     "F#m:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "A",
+    "D",
+    "%",
+    "C#7",
+    "A",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "F#m",
+    "A",
+    "D",
+    "%",
+    "%",
+    "C#7",
+    "A",
+    "%",
+    "Dmaj7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "C#7",
+    "F#m"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   1,
+   5.437
+  ],
+  [
+   5,
+   17.47
+  ],
+  [
+   11,
+   35.603
+  ],
+  [
+   17,
+   53.85
+  ],
+  [
+   23,
+   71.763
+  ],
+  [
+   28,
+   87.189
+  ],
+  [
+   33,
+   102.48
+  ],
+  [
+   37,
+   113.84
+  ],
+  [
+   43,
+   131.877
+  ],
+  [
+   47,
+   143.643
+  ],
+  [
+   55,
+   167.648
+  ],
+  [
+   59,
+   179.681
+  ],
+  [
+   63,
+   192.239
+  ],
+  [
+   68,
+   207.28
+  ]
+ ]
+}

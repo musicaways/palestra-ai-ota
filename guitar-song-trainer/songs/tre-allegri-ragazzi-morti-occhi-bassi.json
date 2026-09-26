@@ -1,0 +1,250 @@
+{
+ "title": "Occhi bassi",
+ "artist": "Tre Allegri Ragazzi Morti",
+ "album": "Mostri e normali",
+ "year": 2004,
+ "genre": "Rock",
+ "difficulty": 2,
+ "youtubeId": "6KzbD91GjnA",
+ "key": "Bb",
+ "bpm": 60.16,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.63,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 3800118,
+  "duration": 185,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bb – G7 – F – C7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bb",
+    "G7",
+    "F",
+    "Bb"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Bb:1",
+     "G7:2",
+     "F:1"
+    ],
+    [
+     "Bb:1",
+     "G7:2",
+     "F:1"
+    ],
+    [
+     "Bb:2",
+     "G7:1",
+     "F:1"
+    ],
+    [
+     "F:1",
+     "Bb:1",
+     "G7:2"
+    ],
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    [
+     "F:1",
+     "Bb:1",
+     "G7:1",
+     "Bb:1"
+    ],
+    "Bb",
+    [
+     "G7:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "G7:2"
+    ],
+    "Bb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Bb:1",
+     "G7:2",
+     "F:1"
+    ],
+    [
+     "Bb:1",
+     "G7:2",
+     "F:1"
+    ],
+    [
+     "Bb:2",
+     "G7:1",
+     "F:1"
+    ],
+    [
+     "F:1",
+     "Bb:1",
+     "G7:2"
+    ],
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:1",
+     "G7:2",
+     "Bb:1"
+    ],
+    [
+     "F:1",
+     "Bb:1",
+     "G7:1",
+     "Bb:1"
+    ],
+    [
+     "F:1",
+     "Bb:1",
+     "G7:1",
+     "Bb:1"
+    ],
+    "%",
+    "%",
+    [
+     "Bb:2",
+     "G7:2"
+    ],
+    [
+     "Bb:2",
+     "C7:2"
+    ],
+    "F",
+    "Bb",
+    "G7",
+    "Bb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "%",
+    [
+     "Bb:2",
+     "G7:2"
+    ],
+    [
+     "Bb:2",
+     "C7:2"
+    ],
+    [
+     "Bb:1",
+     "G7:2",
+     "F:1"
+    ],
+    [
+     "Bb:1",
+     "G7:2",
+     "F:1"
+    ],
+    [
+     "Bb:2",
+     "G7:1",
+     "F:1"
+    ],
+    [
+     "F:1",
+     "Bb:1",
+     "G7:2"
+    ],
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    [
+     "F:1",
+     "Bb:1",
+     "G7:1",
+     "Bb:1"
+    ],
+    [
+     "Bb:2",
+     "G7:2"
+    ],
+    "Bb",
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    "G7",
+    [
+     "Bb:2",
+     "F:2"
+    ]
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   16.771
+  ],
+  [
+   8,
+   32.729
+  ],
+  [
+   16,
+   64.831
+  ],
+  [
+   20,
+   80.591
+  ],
+  [
+   24,
+   96.209
+  ],
+  [
+   32,
+   128.102
+  ],
+  [
+   36,
+   144.309
+  ],
+  [
+   40,
+   160.809
+  ],
+  [
+   42,
+   168.787
+  ]
+ ]
+}

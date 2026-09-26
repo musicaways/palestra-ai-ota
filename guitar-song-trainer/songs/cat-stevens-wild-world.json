@@ -1,0 +1,278 @@
+{
+ "title": "Wild World",
+ "artist": "Cat Stevens",
+ "album": "1971 Top 100",
+ "year": 1970,
+ "genre": "Folk",
+ "difficulty": 3,
+ "youtubeId": "WJMi9D8Jc-U",
+ "key": "G",
+ "bpm": 73.96,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.87,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37475900,
+  "duration": 199,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – F – C – Am – D – Cmaj7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Am",
+    "D",
+    "G",
+    "Am"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Am:1",
+     "D:2",
+     "G:1"
+    ],
+    [
+     "Cmaj7:2",
+     "F:2"
+    ],
+    [
+     "Dm:2",
+     "E:2"
+    ],
+    "%",
+    [
+     "Am:1",
+     "D:2",
+     "G:1"
+    ],
+    [
+     "Cmaj7:2",
+     "F:2"
+    ],
+    "Dm",
+    "%",
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "F:2"
+    ],
+    [
+     "G:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "F:2"
+    ],
+    "G",
+    "F",
+    [
+     "Am:1",
+     "D:2",
+     "G:1"
+    ],
+    [
+     "Cmaj7:2",
+     "F:2"
+    ],
+    [
+     "Dm:2",
+     "E:2"
+    ],
+    "%",
+    [
+     "Am:1",
+     "D:2",
+     "G:1"
+    ],
+    [
+     "Cmaj7:2",
+     "F:2"
+    ],
+    "Dm",
+    "%",
+    "%",
+    [
+     "C:1",
+     "G:2",
+     "F:1"
+    ],
+    [
+     "G:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "F:2"
+    ],
+    "G",
+    "%",
+    [
+     "G:2",
+     "F:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Am:1",
+     "D:1",
+     "G:1",
+     "Cmaj7:1"
+    ],
+    [
+     "Am:1",
+     "D:2",
+     "G:1"
+    ],
+    [
+     "Cmaj7:2",
+     "F:2"
+    ],
+    "Dm",
+    "%",
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "F:2"
+    ],
+    [
+     "G:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "F:2"
+    ],
+    "G",
+    "F",
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "F:2"
+    ],
+    [
+     "G:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "F:2"
+    ],
+    "G",
+    [
+     "G:2",
+     "F:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   14.88
+  ],
+  [
+   8,
+   27.855
+  ],
+  [
+   12,
+   40.54
+  ],
+  [
+   18,
+   60.38
+  ],
+  [
+   23,
+   76.905
+  ],
+  [
+   28,
+   92.98
+  ],
+  [
+   32,
+   105.96
+  ],
+  [
+   39,
+   128.605
+  ],
+  [
+   44,
+   144.52
+  ],
+  [
+   48,
+   157.54
+  ],
+  [
+   52,
+   170.52
+  ],
+  [
+   58,
+   189.54
+  ]
+ ]
+}

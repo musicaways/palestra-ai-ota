@@ -1,0 +1,178 @@
+{
+ "title": "Ritornerai",
+ "artist": "Bruno Lauzi",
+ "album": "Ciao Italia! 2",
+ "year": 1963,
+ "genre": "Cantautori",
+ "difficulty": 2,
+ "youtubeId": "DYvfCLMGw9g",
+ "key": "Amaj7",
+ "bpm": 101.2,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.53,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 35332186,
+  "duration": 166,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Amaj7 – E7 – Dmaj7 – B7 – Dm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "%",
+    "Amaj7",
+    "%",
+    "Amaj7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "%",
+    "%",
+    "Amaj7",
+    "%",
+    "%",
+    "%",
+    "Amaj7",
+    "%",
+    "%",
+    "%",
+    "Amaj7",
+    "%",
+    "%",
+    "%",
+    "Amaj7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    "%",
+    "Dmaj7",
+    "%",
+    "B7",
+    "%",
+    "Dm",
+    "E7",
+    "%",
+    "%",
+    "Amaj7",
+    "%",
+    "%",
+    "E7",
+    "Amaj7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "%",
+    "Amaj7",
+    "%",
+    "%",
+    "%",
+    "Amaj7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "Amaj7",
+    "%",
+    "%",
+    "%",
+    "Amaj7",
+    "Amaj7",
+    "Amaj7",
+    "Amaj7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   5,
+   14.154
+  ],
+  [
+   9,
+   23.016
+  ],
+  [
+   15,
+   36.978
+  ],
+  [
+   21,
+   51.394
+  ],
+  [
+   25,
+   60.956
+  ],
+  [
+   31,
+   74.922
+  ],
+  [
+   35,
+   84.274
+  ],
+  [
+   39,
+   93.907
+  ],
+  [
+   45,
+   108.078
+  ],
+  [
+   55,
+   131.852
+  ],
+  [
+   61,
+   146.337
+  ],
+  [
+   67,
+   160.653
+  ]
+ ]
+}

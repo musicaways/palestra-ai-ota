@@ -1,0 +1,322 @@
+{
+ "title": "Too Sweet",
+ "artist": "Hozier",
+ "album": "The Dome | Charts & Hits 2024",
+ "year": 2024,
+ "genre": "Rock",
+ "difficulty": 5,
+ "youtubeId": "TgBww5kmgmg",
+ "key": "D5",
+ "bpm": 112.48,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.29,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37011986,
+  "duration": 251,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D5 – Gm – D7 – Bb5 – F5 – Bb.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F5",
+    "G5",
+    "A5",
+    "Bb5",
+    "C5",
+    "D5",
+    "Eb5",
+    "F5"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    [
+     "F5:2",
+     "G5:2"
+    ],
+    [
+     "A5:2",
+     "Bb5:2"
+    ],
+    [
+     "C5:2",
+     "D5:2"
+    ],
+    [
+     "D5:2",
+     "Eb5:2"
+    ],
+    "F5",
+    "D5",
+    "Gm",
+    "%",
+    "%",
+    "%",
+    "Cm7",
+    "Ebmaj7",
+    "Bb",
+    "%",
+    "Gm",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    "%",
+    [
+     "Cm7:2",
+     "Eb:2"
+    ],
+    "F",
+    "%",
+    "D7",
+    "Gm",
+    "A5",
+    "Bb5",
+    [
+     "C5:2",
+     "D5:2"
+    ],
+    [
+     "D5:2",
+     "Eb5:2"
+    ],
+    "Bb5",
+    "%",
+    "D5",
+    "Gm",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "F",
+    "D7",
+    "Bb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "G5:1",
+     "A5:2",
+     "Bb5:1"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    [
+     "C5:2",
+     "D5:2"
+    ],
+    [
+     "D5:2",
+     "Eb5:2"
+    ],
+    "%",
+    [
+     "F5:2",
+     "D5:2"
+    ],
+    "Gm",
+    "%",
+    "%",
+    "%",
+    "Cm7",
+    "Ebmaj7",
+    "Bb",
+    "%",
+    "Gm",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "Cm7",
+    "Eb",
+    "F",
+    "D7",
+    "Gm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bb",
+    "%",
+    "D7",
+    "Gm",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "%",
+    "F",
+    "D7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 8",
+   "bars": [
+    "%",
+    "%",
+    "D7",
+    "Gm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bb",
+    "%",
+    "%",
+    "D7",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   8,
+   19.125
+  ],
+  [
+   12,
+   27.575
+  ],
+  [
+   18,
+   39.648
+  ],
+  [
+   24,
+   52.277
+  ],
+  [
+   29,
+   62.997
+  ],
+  [
+   35,
+   75.8
+  ],
+  [
+   41,
+   88.59
+  ],
+  [
+   45,
+   97.053
+  ],
+  [
+   51,
+   109.855
+  ],
+  [
+   55,
+   118.475
+  ],
+  [
+   62,
+   133.585
+  ],
+  [
+   66,
+   142.203
+  ],
+  [
+   70,
+   150.655
+  ],
+  [
+   74,
+   159.272
+  ],
+  [
+   79,
+   169.765
+  ],
+  [
+   83,
+   178.445
+  ],
+  [
+   89,
+   191.155
+  ],
+  [
+   93,
+   199.69
+  ],
+  [
+   97,
+   208.107
+  ],
+  [
+   101,
+   216.35
+  ],
+  [
+   105,
+   225.306
+  ],
+  [
+   110,
+   235.975
+  ],
+  [
+   112,
+   240.38
+  ]
+ ]
+}
