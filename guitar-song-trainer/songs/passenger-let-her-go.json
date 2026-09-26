@@ -1,0 +1,302 @@
+{
+ "title": "Let Her Go",
+ "artist": "Passenger",
+ "album": "Billboard Top 100 Hits Of 2014",
+ "year": 2012,
+ "genre": "Folk / Pop",
+ "difficulty": 2,
+ "youtubeId": "8umGN3KiGY4",
+ "key": "D",
+ "bpm": 75.27,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.22,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36985223,
+  "duration": 253.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – C – G – Em – Cmaj7 – Bm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Cmaj7",
+    "D",
+    "Em",
+    "D",
+    "Cmaj7",
+    "D",
+    "Em",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "D:1",
+     "C:2",
+     "G:1"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "Em:1",
+     "Cmaj7:1",
+     "D:1",
+     "Bm:1"
+    ],
+    "Em",
+    "Cmaj7",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Em:2",
+     "C:2"
+    ],
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "Em:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "Em:2",
+     "C:2"
+    ],
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "Em:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "Em:2",
+     "Cmaj7:2"
+    ],
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "Em:2",
+     "Cmaj7:2"
+    ],
+    [
+     "Cmaj7:2",
+     "D:2"
+    ],
+    [
+     "Em:2",
+     "Cmaj7:2"
+    ],
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "Em:2",
+     "Cmaj7:2"
+    ],
+    [
+     "Cmaj7:2",
+     "D:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "Em",
+    [
+     "C:2",
+     "D:2"
+    ],
+    "Em",
+    "%",
+    [
+     "Em:2",
+     "C:2"
+    ],
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "Bm:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    "C",
+    "D",
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

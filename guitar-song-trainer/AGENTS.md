@@ -147,9 +147,17 @@ node tests/e2e.mjs http://localhost:8080   # test nel browser (serve Playwright 
 ```
 Nel test e2e YouTube è bloccato di proposito (si prova il clock di riserva); il microfono è finto.
 
-## Stato attuale (v1.6.0 — 2026-09-26)
+## Stato attuale (v1.7.0 — 2026-09-26)
 
-- Funziona tutto quanto descritto sopra; 51 test unitari e 222 controlli e2e verdi (desktop + telefono,
+- **213 brani di 101 artisti** (34 fatti a mano fino alla v1.6 + 179 generati con `tools/autosong.py`, fra cui
+  Vasco, Ligabue, Battisti, De André, De Gregori, Dalla, 883, Jovanotti, Cremonini, PTN, Måneskin, Ultimo, Coez,
+  Calcutta, Gazzelle, Thegiornalisti, e classici stranieri: Oasis, Beatles, Nirvana, Coldplay, Ed Sheeran, Pink Floyd…).
+  35 candidati scartati dai criteri di qualità (pagina accordi assente o diversa dalla versione del testo, video di
+  durata diversa): elenco nel diario. Tutti i brani: forme presenti, durata coerente con il testo, video.
+- Nuove sezioni: **Impara** (29 lezioni), **Registrazioni**, **Progressi**; nel player **Studio guidato**, **Ampli**,
+  **Video**, riga delle sezioni e velocità compatta.
+- 64 test unitari e 271 controlli e2e verdi (prima dell'ampliamento del catalogo; vedi diario per l'ultimo giro).
+- Precedente (v1.6.0): 51 test unitari e 222 controlli e2e verdi (desktop + telefono,
   incluso: ogni brano si apre con tutte le diteggiature, nessuno scorrimento orizzontale, nessuna
   sovrapposizione fra componenti in tutte e cinque le viste, comandi compatti).
 - **33 brani**, tutti con testo sincronizzato disponibile (verificato con tools/checklyrics.py).
@@ -227,12 +235,25 @@ Nel test e2e YouTube è bloccato di proposito (si prova il clock di riserva); il
   parti di chitarra (arpeggio, power chord, facile), trasposizione e "senza capotasto", preferenze
   per brano, stampa accordi, comandi compatti a scomparsa (l'utente li trovava troppo ingombranti),
   schermata ad altezza fissa senza sovrapposizioni. Bug corretto: errore TDZ su `lastIdx`.
+  Poi v1.7.0: catalogo a 213 brani con il generatore autosong (aggancio accordi↔righe LRCLIB), sezione Impara,
+  ampli ed effetti in Web Audio, video con la fotocamera e Registrazioni, Studio guidato, Progressi; su telefono
+  velocità compatta (0,5× 0,75× 1× 1,25× più − e +) e sezioni in chip scorrevoli. Scartati per qualità: La donna
+  cannone, 4/3/1943, Notte prima degli esami, Azzurro, Il ragazzo della via Gluck, Meravigliosa creatura, Hanno ucciso
+  l'Uomo Ragno, A te, Solo 3 minuti, Parlami d'amore Mariù, Sere nere, Frosinone, Marlena, Irene (PTN), Sfiorivano
+  le viole, Menomale che ci sei, Vieni a ballare in Puglia, Sei fantastica, Supereroi, Ciny, Crudelia, Hey Jude,
+  Creep, Karma Police, Good Riddance, Boulevard of Broken Dreams, Viva la Vida, Losing My Religion, No Woman No Cry,
+  Hallelujah (Cohen), 505, Born in the U.S.A., Crazy Little Thing Called Love, Highway to Hell, Riptide.
+  Si possono riprovare con `--chords-url` (pagina precisa) o `--lrclib`/`--yt` espliciti.
 
 ## Prossimi passi (idee in ordine di utilità)
 
 1. Spostare il progetto in un repo dedicato e pubblicarlo (Vercel o GitHub Pages).
 2. Verificare *Cartine corte* sul video reale e salvare i tempi `sync` registrati dall'utente.
-3. Aggiungere i brani che l'utente chiede, uno alla volta, con la procedura sopra.
+3. Aggiungere i brani che l'utente chiede con `tools/autosong.py` (anche in serie: un file "artista|titolo|genere|anno"
+   e un ciclo; vedi diario v1.7). Riprovare gli scartati con pagine accordi scelte a mano.
+3b. Community: account, profilo con i Progressi, pubblicazione delle Registrazioni (serve un backend: per ora tutto locale).
+3c. Altri strumenti in Impara (basso, ukulele, pianoforte): `INSTRUMENTS` e `instrument` delle lezioni sono già pronti.
+3d. Effetti "firmati" per brano: campo `tone` nel JSON del brano (preset di `amp.js`), oggi dedotto dal genere.
 4. Tarare la modalità ascolto con una chitarra vera (soglie, latenza del microfono; col cavo
    Rocksmith il segnale è pulito e forse si possono alzare le soglie).
 4b. Verificare sul video reale offset e strutture dei 17 brani e salvare i tempi `sync`.

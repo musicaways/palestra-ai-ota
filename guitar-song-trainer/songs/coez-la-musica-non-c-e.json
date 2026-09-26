@@ -31,7 +31,7 @@
    ]
   },
   {
-   "name": "Strofa 2",
+   "name": "Parte 2",
    "bars": [
     "F",
     "C",
@@ -87,7 +87,13 @@
      "F:1",
      "C:1",
      "Em:2"
-    ],
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
     "F",
     "C",
     "G",
@@ -134,7 +140,13 @@
      "F:1",
      "C:1",
      "Em:2"
-    ],
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
     "Am",
     "G",
     "F",
@@ -189,7 +201,13 @@
     [
      "G:2",
      "F:2"
-    ],
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
     [
      "Am:2",
      "G:1",

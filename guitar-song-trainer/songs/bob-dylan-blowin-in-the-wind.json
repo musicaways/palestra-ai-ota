@@ -1,0 +1,181 @@
+{
+ "title": "Blowin' in the Wind",
+ "artist": "Bob Dylan",
+ "album": "Freewheelin' Bob Dylan/Times They Are A-Changin'/Another Side of Bob Dylan",
+ "year": 1963,
+ "genre": "Folk",
+ "difficulty": 2,
+ "youtubeId": "uGRdor6CUBQ",
+ "key": "A",
+ "bpm": 85.99,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.73,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37459738,
+  "duration": 169.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – E – B – C#m.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa",
+   "bars": [
+    "E"
+   ]
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "E:1",
+     "A:2",
+     "E:1"
+    ],
+    "A",
+    "E",
+    "A",
+    "E",
+    "A",
+    "B",
+    [
+     "E:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    "A",
+    "B",
+    [
+     "A:2",
+     "B:2"
+    ],
+    [
+     "E:2",
+     "C#m:2"
+    ],
+    "A",
+    [
+     "A:2",
+     "B:2"
+    ],
+    "%",
+    [
+     "B:2",
+     "E:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "E:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    "A",
+    "E",
+    "A",
+    "E",
+    "A",
+    "B",
+    [
+     "E:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    "A",
+    "B",
+    [
+     "A:2",
+     "B:2"
+    ],
+    [
+     "E:2",
+     "C#m:2"
+    ],
+    "A",
+    [
+     "A:2",
+     "B:2"
+    ],
+    "%",
+    [
+     "B:2",
+     "E:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "E:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    "A",
+    "E",
+    "A",
+    "E",
+    "A",
+    "B",
+    [
+     "E:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    "A",
+    "B",
+    [
+     "A:2",
+     "B:2"
+    ],
+    [
+     "E:2",
+     "C#m:2"
+    ],
+    "A",
+    "%",
+    [
+     "A:2",
+     "B:2"
+    ],
+    "%",
+    "%",
+    [
+     "B:2",
+     "C#m:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

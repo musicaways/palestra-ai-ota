@@ -1,0 +1,234 @@
+{
+ "title": "Baciami ancora",
+ "artist": "Jovanotti",
+ "album": "Baciami ancora - EP",
+ "year": 2010,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "jsCCnpcGEWI",
+ "key": "Eb",
+ "bpm": 110.13,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.51,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37021807,
+  "duration": 281.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Eb – C – F – Ab – Bb – Cm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Eb",
+    "%"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Eb",
+    "%",
+    "Bb",
+    "%",
+    "Fm",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "Eb",
+    "%",
+    "Bb",
+    "Fm",
+    "%",
+    "%",
+    [
+     "Ab:2",
+     "Bb:2"
+    ],
+    "Eb",
+    "Bb",
+    "%",
+    "Fm",
+    "Ab",
+    "Bb",
+    "Ab",
+    "Eb",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "F7",
+    "%",
+    "Bb7",
+    "Eb",
+    "%",
+    "Cm",
+    "Ab",
+    "Bb",
+    "%",
+    "Eb",
+    "%",
+    "Cm",
+    "Ab",
+    "%",
+    "G7",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "Em7",
+    "%",
+    "Dm7",
+    "%",
+    [
+     "F:2",
+     "G:2"
+    ],
+    "C",
+    "%",
+    "Em7",
+    "Dm7",
+    "%",
+    [
+     "F:2",
+     "G:2"
+    ],
+    "F",
+    "%",
+    "C",
+    "D7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "G7",
+    "C",
+    "%",
+    "Am",
+    "F",
+    "G",
+    "%",
+    "C",
+    "%",
+    "Am",
+    "F",
+    "%",
+    [
+     "Fm7:2",
+     "Bb7:2"
+    ],
+    "Eb",
+    "%",
+    "Cm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "Ab",
+    "%",
+    "Bb",
+    "%",
+    "%",
+    "%",
+    "F7",
+    "%",
+    "Bb7",
+    "%",
+    "Eb",
+    "Cm",
+    "Ab",
+    "%",
+    "Bb7",
+    "Eb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 8",
+   "bars": [
+    "%",
+    "Cm",
+    "Ab",
+    "%",
+    "G7",
+    "C",
+    "%",
+    "Am",
+    "F",
+    "%",
+    "G7",
+    "C",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 9",
+   "bars": [
+    "%",
+    "%",
+    [
+     "C:2",
+     "Am:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "F",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 10",
+   "bars": [
+    "%",
+    [
+     "F:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

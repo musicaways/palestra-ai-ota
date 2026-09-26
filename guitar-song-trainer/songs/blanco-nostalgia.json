@@ -1,0 +1,107 @@
+{
+ "title": "Nostalgia",
+ "artist": "Blanco",
+ "album": "Innamorato",
+ "year": 2021,
+ "genre": "Pop",
+ "difficulty": 2,
+ "youtubeId": "aTlqIk0QmSM",
+ "key": "G",
+ "bpm": 65.19,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.66,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34684177,
+  "duration": 183.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – Am – Dm7 – Em – C – Cmaj7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Am:2",
+     "Dm7:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "Cmaj7:2",
+     "Em:2"
+    ],
+    "Am",
+    "Dm",
+    "G",
+    "%",
+    "Am",
+    "Dm7",
+    "G",
+    "%",
+    "Am",
+    "Dm7",
+    "G",
+    "C",
+    "Am",
+    "Dm7",
+    "G",
+    "%",
+    "Am",
+    "Dm7",
+    "G",
+    "%",
+    "Am",
+    [
+     "Dm7:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "C:2"
+    ],
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Am",
+    "Dm7",
+    "G",
+    "%",
+    "Am",
+    "Dm7",
+    "G",
+    [
+     "C:2",
+     "Em:2"
+    ],
+    "Am",
+    "Dm7",
+    "G",
+    "%",
+    "Am",
+    "Dm7",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

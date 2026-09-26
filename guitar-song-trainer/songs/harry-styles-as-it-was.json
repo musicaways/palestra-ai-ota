@@ -1,0 +1,129 @@
+{
+ "title": "As It Was",
+ "artist": "Harry Styles",
+ "album": "Titres likés",
+ "year": 2022,
+ "genre": "Pop",
+ "difficulty": 2,
+ "youtubeId": "H5v3kku4y6Q",
+ "key": "Bm",
+ "bpm": 86.89,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.5,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36975922,
+  "duration": 167.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bm – E – A – D – D6.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Bm",
+    [
+     "Bm:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "A:2"
+    ],
+    "%"
+   ]
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "D6",
+    "Bm",
+    "E",
+    "A",
+    "D6",
+    "Bm",
+    "E",
+    "A",
+    "%",
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "Bm:2",
+     "E:2"
+    ],
+    "A",
+    "D",
+    "Bm",
+    "E",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "D",
+    "Bm",
+    "E",
+    "A",
+    "D6",
+    "Bm",
+    "E",
+    "A",
+    "D6",
+    "Bm",
+    "E",
+    "A",
+    "D",
+    "Bm",
+    "E",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "D",
+    "Bm",
+    "E",
+    "A",
+    "D",
+    "Bm",
+    "E",
+    "A",
+    "D6",
+    "Bm",
+    "E",
+    "A",
+    "%",
+    "Bm",
+    "E",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "D",
+    "Bm",
+    "E",
+    "%",
+    "%",
+    "A",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

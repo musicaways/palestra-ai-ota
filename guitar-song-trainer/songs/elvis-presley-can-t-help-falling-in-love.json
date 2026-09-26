@@ -1,0 +1,181 @@
+{
+ "title": "Can't Help Falling in Love",
+ "artist": "Elvis Presley",
+ "album": "We'll Make You Happy  cd1",
+ "year": 1961,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "MqazV4hbu8E",
+ "key": "F#m",
+ "bpm": 99.18,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.36,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37456771,
+  "duration": 186.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F#m – C#7 – A7 – G6 – D – Bm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G6",
+    "%"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "G6",
+    "%",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G6",
+    "%",
+    "A7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "F#m:2",
+     "C#7:2"
+    ],
+    "F#m",
+    "C#7",
+    [
+     "F#m:2",
+     "C#7:2"
+    ],
+    "F#m",
+    [
+     "B7:2",
+     "Em:2"
+    ],
+    "A7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "D",
+    "F#m",
+    "Bm",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    [
+     "F#m:2",
+     "C#7:2"
+    ],
+    "F#m",
+    "C#7",
+    [
+     "F#m:2",
+     "C#7:2"
+    ],
+    "F#m",
+    [
+     "B7:2",
+     "Em:2"
+    ],
+    "A7",
+    "D",
+    "F#m",
+    "Bm",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

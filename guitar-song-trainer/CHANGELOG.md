@@ -1,7 +1,7 @@
 # Novità
 
 ## 1.7.0 — 2026-09-26
-- **Catalogo ampliato** con un generatore automatico (`tools/autosong.py`): gli accordi di una pagina pubblica vengono
+- **Catalogo: 213 brani di 101 artisti** (179 nuovi) con un generatore automatico (`tools/autosong.py`): gli accordi di una pagina pubblica vengono
   agganciati riga per riga ai tempi del canto di LRCLIB (il testo resta solo in memoria), con BPM, sezioni e video.
 - **Impara**: 29 lezioni con esercizi animati (scale con la forma in trasparenza, tecniche con etichette H/P/slide/bend,
   ritmi, accordi), suono della nota, BPM regolabile; predisposta per basso, ukulele e pianoforte.

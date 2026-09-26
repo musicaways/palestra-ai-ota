@@ -1,0 +1,203 @@
+{
+ "title": "Love of My Life",
+ "artist": "Queen",
+ "album": "Cry Argentina Cd1",
+ "year": 1975,
+ "genre": "Rock",
+ "difficulty": 5,
+ "youtubeId": "v4HZPHqt3mo",
+ "key": "F",
+ "bpm": 78.87,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.53,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37162260,
+  "duration": 219.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F – Dm – Am – Gm – Bb – C7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G7sus4",
+    "%",
+    "%",
+    "%",
+    "G7",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "C",
+    "Am",
+    [
+     "Dm:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "G7:2"
+    ],
+    [
+     "C:2",
+     "C7sus4:2"
+    ],
+    [
+     "C7sus4:2",
+     "F:2"
+    ],
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Bb:2",
+     "Am:2"
+    ],
+    [
+     "Dm:2",
+     "Gm:2"
+    ],
+    [
+     "C7:2",
+     "F:2"
+    ],
+    "F",
+    [
+     "F:2",
+     "Gm7:2"
+    ],
+    [
+     "Gm7:2",
+     "F:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "C",
+    "Am",
+    [
+     "Dm:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "G7:2"
+    ],
+    [
+     "C:2",
+     "C7sus4:2"
+    ],
+    [
+     "C7sus4:2",
+     "F:2"
+    ],
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Bb:1",
+     "Am:1",
+     "Dm:1",
+     "Gm7:1"
+    ],
+    "C7",
+    "F",
+    "%",
+    "F",
+    "%",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Dm",
+    "Am",
+    [
+     "Bb:2",
+     "F:1"
+    ],
+    [
+     "F:1",
+     "A7:2"
+    ],
+    "Dm",
+    "Am",
+    "F#dim",
+    "Gm",
+    "F",
+    "C7",
+    "Gm",
+    "F",
+    "C7",
+    "Gm",
+    "F",
+    "C7",
+    "Gm",
+    "F",
+    "C7",
+    "Gm",
+    "F",
+    "C7",
+    "Gm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Bb:1",
+     "Am:1",
+     "Dm:1",
+     "Gm7:1"
+    ],
+    "C7sus4",
+    "F",
+    "Dm",
+    "Am",
+    "Gm7",
+    "%",
+    "Bbm",
+    "%",
+    "F",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

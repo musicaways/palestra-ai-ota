@@ -38,7 +38,7 @@
    "barsPerRow": 4
   },
   {
-   "name": "Strofa 1",
+   "name": "Parte 2",
    "bars": [
     "D",
     "%",
@@ -55,7 +55,13 @@
     "G",
     "%",
     "D",
-    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
     "Bm",
     "%",
     "A",
@@ -71,7 +77,13 @@
     "D",
     "%",
     "Bm7",
-    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
     "G",
     "%",
     "D",
@@ -87,7 +99,13 @@
     "Bm7",
     "A",
     "G",
-    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
     "A4",
     "A",
     "Bm",

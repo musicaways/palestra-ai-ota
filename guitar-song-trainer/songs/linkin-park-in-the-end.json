@@ -1,0 +1,168 @@
+{
+ "title": "In the End",
+ "artist": "Linkin Park",
+ "album": "Hybrid Theory",
+ "year": 2000,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "-mZURD3LAW0",
+ "key": "Db",
+ "bpm": 106.01,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.1,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 38523685,
+  "duration": 216.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Db – Ebm – Bmaj7 – Gb – B.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Ebm",
+    "Db",
+    "Bmaj7",
+    "Db",
+    "Ebm",
+    "Db",
+    "Bmaj7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "Ebm",
+    "Db",
+    "Bmaj7",
+    "Db",
+    "Ebm",
+    "Db",
+    "Bmaj7",
+    "Db",
+    "Ebm",
+    "Db",
+    "Bmaj7",
+    "Db",
+    "Ebm",
+    "Db",
+    "Bmaj7",
+    "Db"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "Ebm",
+    "Gb",
+    "Db",
+    "B",
+    "Ebm",
+    "Gb",
+    "Db",
+    "B",
+    "Ebm",
+    "Db",
+    "Bmaj7",
+    "Db",
+    "%",
+    "Db",
+    "Bmaj7",
+    "Db"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "Ebm",
+    "Db",
+    "Bmaj7",
+    "Db",
+    "Ebm",
+    "Db",
+    "Bmaj7",
+    "Db",
+    "Ebm",
+    "Gb",
+    "Db",
+    "B",
+    "Ebm",
+    "Gb",
+    "Db",
+    [
+     "Db:2",
+     "B:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Ebm",
+    "Db",
+    "Bmaj7",
+    "Db",
+    "Ebm",
+    "%",
+    "Db",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Ebm",
+    "Gb",
+    "Db",
+    "B",
+    "Ebm",
+    "%",
+    "Gb",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Ebm",
+    "Gb",
+    "Db",
+    "B",
+    "Ebm",
+    "Gb",
+    "Db",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "B",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

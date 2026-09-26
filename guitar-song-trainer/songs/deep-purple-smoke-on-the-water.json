@@ -1,0 +1,198 @@
+{
+ "title": "Smoke on the Water",
+ "artist": "Deep Purple",
+ "album": "Machine Head (Remastered)",
+ "year": 1972,
+ "genre": "Rock",
+ "difficulty": 2,
+ "youtubeId": "7MibW8t5DbI",
+ "key": "G5",
+ "bpm": 57.35,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.51,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 19224196,
+  "duration": 340.793469,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G5 – F5 – C – Ab – C5.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G5",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "G5",
+    [
+     "F5:2",
+     "G5:2"
+    ],
+    "%",
+    [
+     "F5:2",
+     "G5:2"
+    ],
+    "%",
+    [
+     "F5:2",
+     "G5:2"
+    ],
+    "%",
+    [
+     "F5:2",
+     "G5:2"
+    ],
+    [
+     "C:1",
+     "Ab:2",
+     "G5:1"
+    ],
+    "%",
+    "C",
+    [
+     "C:2",
+     "Ab:2"
+    ],
+    "%",
+    [
+     "Ab:2",
+     "G5:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "G5",
+    [
+     "F5:2",
+     "G5:2"
+    ],
+    "%",
+    [
+     "F5:2",
+     "G5:2"
+    ],
+    "%",
+    [
+     "F5:2",
+     "G5:2"
+    ],
+    "%",
+    [
+     "F5:2",
+     "G5:2"
+    ],
+    [
+     "C:1",
+     "Ab:2",
+     "G5:1"
+    ],
+    "%",
+    [
+     "C:1",
+     "Ab:2",
+     "G5:1"
+    ],
+    "G5",
+    "C5",
+    "G5",
+    "C5",
+    "G5",
+    "G5",
+    "C5",
+    "G5",
+    "C5",
+    "G5",
+    "C5",
+    "F5",
+    "G5",
+    "G5",
+    "C5",
+    "G5",
+    "C5",
+    "G5"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "G5",
+    [
+     "F5:2",
+     "G5:2"
+    ],
+    "%",
+    [
+     "F5:2",
+     "G5:2"
+    ],
+    "%",
+    [
+     "F5:2",
+     "G5:2"
+    ],
+    "%",
+    [
+     "F5:2",
+     "G5:2"
+    ],
+    [
+     "C:1",
+     "Ab:2",
+     "G5:1"
+    ],
+    "%",
+    "C",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "C:2",
+     "Ab:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "Ab:2",
+     "G5:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

@@ -1,0 +1,260 @@
+{
+ "title": "Where Did You Sleep Last Night",
+ "artist": "Nirvana",
+ "album": "MTV Unplugged in New York",
+ "year": 1994,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "CISzg6yi8YE",
+ "key": "Bb",
+ "bpm": 107.99,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.08,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36921110,
+  "duration": 294.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bb – Eb – Gb – Ab – Eb4.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Eb4",
+    "Ab",
+    "Gb",
+    "Bb",
+    "Eb",
+    "Eb",
+    "Ab",
+    "Gb",
+    "Bb",
+    "Eb",
+    [
+     "Eb:1",
+     "Ab:2",
+     "Gb:1"
+    ],
+    "%",
+    "Bb",
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "%",
+    [
+     "Ab:2",
+     "Gb:2"
+    ],
+    "Bb",
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bb",
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    [
+     "Ab:2",
+     "Gb:2"
+    ],
+    "Bb",
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bb",
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bb",
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bb",
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "%",
+    [
+     "Ab:2",
+     "Gb:2"
+    ],
+    "Bb",
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bb",
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "%",
+    "%",
+    [
+     "Ab:2",
+     "Gb:2"
+    ],
+    "Bb",
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bb",
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "%",
+    "%",
+    [
+     "Ab:2",
+     "Gb:2"
+    ],
+    "Bb",
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bb",
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    "%",
+    "%",
+    [
+     "Ab:2",
+     "Gb:2"
+    ],
+    "Bb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Eb4",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

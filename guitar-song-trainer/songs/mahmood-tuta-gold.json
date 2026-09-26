@@ -1,0 +1,218 @@
+{
+ "title": "Tuta gold",
+ "artist": "Mahmood",
+ "album": "2:59",
+ "year": 2024,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "yr_Rwgdh59w",
+ "key": "G",
+ "bpm": 123.21,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.16,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36726897,
+  "duration": 178.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – Dm – Am – G6 – D4 – F.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Dm",
+    "D4"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    [
+     "Dm:2",
+     "D4:2"
+    ],
+    [
+     "D4:2",
+     "Dm:2"
+    ],
+    [
+     "G:2",
+     "G6:2"
+    ],
+    [
+     "G6:2",
+     "G:2"
+    ],
+    "Am",
+    "%",
+    "%",
+    "%",
+    [
+     "Dm:2",
+     "D4:2"
+    ],
+    [
+     "D4:2",
+     "Dm:2"
+    ],
+    [
+     "G:2",
+     "G6:2"
+    ],
+    [
+     "G6:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    [
+     "Dm:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Am:2"
+    ],
+    [
+     "Dm:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Am:2"
+    ],
+    "%",
+    "%",
+    "C6",
+    [
+     "Dm:2",
+     "G:2"
+    ],
+    "Am",
+    "%",
+    "%",
+    "Am",
+    "Dm",
+    "F",
+    "G",
+    "Dm",
+    "%",
+    "F",
+    "G",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "G:2",
+     "G6:2"
+    ],
+    [
+     "G6:2",
+     "G:2"
+    ],
+    "Am",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "Dm",
+    "%",
+    "G",
+    [
+     "G:2",
+     "Am:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "Dm:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Am:2"
+    ],
+    [
+     "Dm:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Am:2"
+    ],
+    "%",
+    "%",
+    "C6",
+    [
+     "Dm:2",
+     "G:2"
+    ],
+    "Am",
+    "%",
+    "%",
+    "Am",
+    "Dm",
+    "F",
+    "G",
+    "Dm",
+    "%",
+    "F",
+    "G",
+    "Am",
+    "Dm",
+    "Fmaj7",
+    "G",
+    "Am",
+    "Dm",
+    [
+     "Fmaj7:2",
+     "G:2"
+    ],
+    "%",
+    "Am",
+    "Dm",
+    "Fmaj7",
+    "G",
+    "Dm",
+    "%",
+    "Fmaj7",
+    "G",
+    "Am",
+    "Dm",
+    "F",
+    "G",
+    [
+     "G:2",
+     "Am:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

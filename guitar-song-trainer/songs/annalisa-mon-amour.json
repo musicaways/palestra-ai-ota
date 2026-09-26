@@ -1,0 +1,198 @@
+{
+ "title": "Mon amour",
+ "artist": "Annalisa",
+ "album": "Ho visto lei che bacia lui - Mon Amour",
+ "year": 2023,
+ "genre": "Pop",
+ "difficulty": 3,
+ "youtubeId": "RzyD08-w-tk",
+ "key": "Cm",
+ "bpm": 124.04,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.81,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37070798,
+  "duration": 203.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Cm – Fm7 – Abmaj7 – Bb – Cm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Cm"
+   ]
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    [
+     "Cm:2",
+     "Cm7:2"
+    ],
+    [
+     "Cm:2",
+     "Cm7:2"
+    ],
+    "Fm7",
+    "%",
+    "%",
+    "%",
+    [
+     "Cm:2",
+     "Cm7:2"
+    ],
+    "%",
+    "Cm",
+    "%",
+    "Fm7",
+    "%",
+    "Abmaj7",
+    "Bb",
+    "Cm",
+    "Cm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    "%",
+    "Fm7",
+    "%",
+    "Abmaj7",
+    "Bb",
+    "Cm",
+    "%",
+    "%",
+    "%",
+    "Fm7",
+    "%",
+    "Abmaj7",
+    "Bb",
+    "Cm",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "Fm7",
+    "%",
+    "Cm",
+    "%",
+    "Fm7",
+    "%",
+    "Abmaj7",
+    "Bb",
+    "Cm",
+    "%",
+    [
+     "Cm:2",
+     "Cm7:2"
+    ],
+    [
+     "Cm:2",
+     "Cm7:2"
+    ],
+    "Fm7",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "%",
+    [
+     "Cm:1",
+     "Cm7:2",
+     "Cm:1"
+    ],
+    "Cm",
+    "%",
+    "%",
+    "Fm7",
+    "%",
+    "Abmaj7",
+    "Bb",
+    "Cm",
+    "%",
+    "%",
+    "%",
+    "Fm7",
+    "%",
+    "Abmaj7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "Bb",
+    "Cm",
+    "%",
+    "%",
+    "Fm7",
+    "Cm",
+    "%",
+    "Fm7",
+    "%",
+    "%",
+    "Abmaj7",
+    "%",
+    "Cm",
+    "Cm",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "Fm7",
+    "%",
+    "Abmaj7",
+    "Bb",
+    "Cm",
+    "%",
+    "%",
+    "%",
+    "Fm7",
+    "%",
+    "Abmaj7",
+    "Bb",
+    "Cm",
+    "%",
+    "%",
+    "Fm7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 8",
+   "bars": [
+    "%",
+    "Abmaj7",
+    "Bb",
+    "Cm",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

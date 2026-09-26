@@ -25,7 +25,7 @@
  "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
  "sections": [
   {
-   "name": "Strofa",
+   "name": "Parte 1",
    "bars": [
     "Eb",
     "%",
@@ -42,7 +42,13 @@
     "Cm7",
     "%",
     "Ab",
-    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
     "Bb",
     "%",
     "Ab",
@@ -58,7 +64,13 @@
     "Eb",
     "%",
     "Cm7",
-    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
     "Eb",
     "Bb",
     "Ab",
@@ -74,7 +86,13 @@
     "Bb",
     "%",
     "Ab",
-    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
     "Bb",
     "%",
     "Ab",

@@ -1,0 +1,146 @@
+{
+ "title": "Tango",
+ "artist": "Tananai",
+ "album": "3:30",
+ "year": 2023,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "Lz2ch3GMX4M",
+ "key": "G#m7",
+ "bpm": 94.38,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.87,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34694131,
+  "duration": 209.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G#m7 – C# – C#7 – D#m – F# – F#maj7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Parte 1",
+   "bars": [
+    "Bmaj7",
+    "%",
+    "C#",
+    "F#",
+    "D#m",
+    [
+     "D#m:2",
+     "C#:2"
+    ],
+    "Bmaj7",
+    "%",
+    "C#6",
+    "F#",
+    "%",
+    "D#m",
+    "G#m7",
+    "C#",
+    "%",
+    "D#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "A#m",
+    "%",
+    "G#m7",
+    "%",
+    "C#7",
+    "F#maj7",
+    "%",
+    "A#m7",
+    "G#m7",
+    "%",
+    "C#7",
+    "F#maj7",
+    "%",
+    "G#m",
+    "%",
+    "C#"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    "Bmaj7",
+    "%",
+    "C#6",
+    [
+     "C#7:2",
+     "F#:2"
+    ],
+    "%",
+    "D#m",
+    "C#",
+    "Bmaj7",
+    "C#",
+    "F#",
+    "%",
+    "D#m",
+    "G#m7",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "D#m",
+    "%",
+    "%",
+    "G#m7",
+    "%",
+    "C#7",
+    "F#maj7",
+    "%",
+    "A#m7",
+    "G#m7",
+    "%",
+    "C#7",
+    "F#maj7",
+    "%",
+    "G#m7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "C#7",
+    "%",
+    "F#",
+    "A#5",
+    "%",
+    "G#m7",
+    "%",
+    "C#7",
+    "F#",
+    "%",
+    "G#m7",
+    "%",
+    "C#",
+    "F#",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

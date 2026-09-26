@@ -163,7 +163,7 @@
    "barsPerRow": 4
   },
   {
-   "name": "Strofa 2",
+   "name": "Parte 3",
    "bars": [
     [
      "F5:2",
@@ -231,7 +231,13 @@
     [
      "F5:2",
      "Bb2:2"
-    ],
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
     [
      "Bb2:2",
      "Ab5:2"
@@ -280,7 +286,13 @@
     "F5",
     "%",
     "Bb2",
-    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
     "Ab5",
     "%",
     "Db5",

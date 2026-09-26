@@ -1,0 +1,252 @@
+{
+ "title": "Hurt",
+ "artist": "Johnny Cash",
+ "album": "Arrow Rock 500 Editie 2015",
+ "year": 2002,
+ "genre": "Country",
+ "difficulty": 2,
+ "youtubeId": "HNefxXjfrr0",
+ "key": "D",
+ "bpm": 90.87,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.47,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 26710864,
+  "duration": 218.440454,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – C – Am – Fadd9 – G – Am7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Am",
+    "C",
+    "D",
+    "Am"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Am:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Am:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Am:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Am:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Am:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Am:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Am:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "Am7:2",
+     "Fadd9:2"
+    ],
+    [
+     "Fadd9:2",
+     "C:2"
+    ],
+    "G",
+    "%",
+    [
+     "Am7:2",
+     "Fadd9:2"
+    ],
+    [
+     "Fadd9:2",
+     "C:2"
+    ],
+    "G",
+    "%",
+    "Am7",
+    "Fadd9",
+    "G",
+    "%",
+    "Am7",
+    "Fadd9",
+    [
+     "G:1",
+     "Am:1",
+     "C:1",
+     "D:1"
+    ],
+    "C",
+    "D",
+    "Am",
+    "C",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Am:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Am:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Am:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Am:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Am:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Am:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Am:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "Am7:2",
+     "Fadd9:2"
+    ],
+    [
+     "Fadd9:2",
+     "C:2"
+    ],
+    "G",
+    "%",
+    "Am7",
+    "Fadd9",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "G",
+    "Am7",
+    "Fadd9",
+    "G",
+    "%",
+    "Am7",
+    "Fadd9",
+    "G",
+    "%",
+    "Am7",
+    "Fadd9",
+    "G",
+    "%",
+    "Am7",
+    "Fadd9",
+    "G",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

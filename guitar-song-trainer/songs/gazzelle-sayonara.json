@@ -132,7 +132,7 @@
    "barsPerRow": 4
   },
   {
-   "name": "Ritornello",
+   "name": "Ritornello (1)",
    "bars": [
     "B",
     "F#",
@@ -149,7 +149,13 @@
     "B",
     "F#",
     "C#",
-    "G#m",
+    "G#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello (2)",
+   "bars": [
     "B",
     "F#",
     "C#",
@@ -165,7 +171,13 @@
     "%",
     "F#",
     "C#",
-    "G#m",
+    "G#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello (3)",
+   "bars": [
     "B",
     "F#",
     "%",
@@ -181,7 +193,13 @@
     "B",
     "F#",
     "C#",
-    "G#m",
+    "G#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello (4)",
+   "bars": [
     "B",
     "F#",
     "C#",

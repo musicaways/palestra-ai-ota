@@ -34,7 +34,7 @@
    ]
   },
   {
-   "name": "Strofa 1",
+   "name": "Parte 2",
    "bars": [
     [
      "A:2",
@@ -99,7 +99,13 @@
     [
      "D:2",
      "E:2"
-    ],
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
     [
      "A:1",
      "E:2",
@@ -162,7 +168,13 @@
     [
      "A:2",
      "E:2"
-    ],
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
     [
      "D:2",
      "E:2"
@@ -211,7 +223,7 @@
    "barsPerRow": 4
   },
   {
-   "name": "Strofa 2",
+   "name": "Parte 5",
    "bars": [
     [
      "A:2",
@@ -272,7 +284,13 @@
      "E:2",
      "D:2"
     ],
-    "E",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
     [
      "A:1",
      "E:2",
@@ -337,7 +355,13 @@
     [
      "A:2",
      "E:2"
-    ],
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
     [
      "D:2",
      "E:2"
@@ -380,7 +404,13 @@
     "%",
     "%",
     "%",
-    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 8",
+   "bars": [
     "%",
     "%",
     "%",

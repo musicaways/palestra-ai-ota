@@ -102,7 +102,7 @@
    "barsPerRow": 4
   },
   {
-   "name": "Strumentale",
+   "name": "Strofa 3",
    "bars": [
     "C",
     "G",
@@ -140,7 +140,7 @@
    "barsPerRow": 4
   },
   {
-   "name": "Strofa 3",
+   "name": "Strofa 4",
    "bars": [
     [
      "C:1",
@@ -158,7 +158,7 @@
    "barsPerRow": 4
   },
   {
-   "name": "Strofa 4",
+   "name": "Strofa 5",
    "bars": [
     [
      "C:1",
@@ -187,7 +187,7 @@
    "barsPerRow": 4
   },
   {
-   "name": "Strofa 5",
+   "name": "Parte 7",
    "bars": [
     [
      "C:2",
@@ -210,7 +210,13 @@
     "Am",
     "%",
     "C",
-    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 8",
+   "bars": [
     "F",
     "%",
     "C",
@@ -226,7 +232,13 @@
     "C",
     "%",
     "G",
-    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 9",
+   "bars": [
     "Am",
     "%",
     "C",
@@ -242,7 +254,13 @@
     "D",
     "%",
     "G7",
-    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 10",
+   "bars": [
     "C",
     "%",
     "G",

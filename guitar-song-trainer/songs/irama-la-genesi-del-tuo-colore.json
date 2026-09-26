@@ -1,0 +1,218 @@
+{
+ "title": "La genesi del tuo colore",
+ "artist": "Irama",
+ "album": "Ho visto lei che bacia lui - Mon Amour",
+ "year": 2021,
+ "genre": "Pop",
+ "difficulty": 3,
+ "youtubeId": "p7H-hWbDcIs",
+ "key": "E",
+ "bpm": 124.28,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.45,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37371841,
+  "duration": 229.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: E – D – F#m – A – Bm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "D",
+    "E",
+    "F#m",
+    "A",
+    "%",
+    "%",
+    "%",
+    "%",
+    "D",
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "D",
+    "E",
+    "F#m",
+    "A",
+    [
+     "D:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    "%",
+    "%",
+    "E",
+    "%",
+    "%",
+    [
+     "E:2",
+     "D:2"
+    ],
+    "E",
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    "E",
+    "F#m",
+    "A",
+    "D",
+    "E",
+    "A",
+    "F#m",
+    "D",
+    "E",
+    "A",
+    "F#m",
+    "D",
+    "E",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "F#m",
+    "D",
+    "E",
+    "F#m",
+    "A",
+    "D",
+    "E",
+    "F#m",
+    [
+     "A:2",
+     "D:2"
+    ],
+    "E",
+    "%",
+    "%",
+    "D",
+    "E",
+    "%",
+    "F#m",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "D:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    "A",
+    "D",
+    "E",
+    "A",
+    "F#m",
+    "D",
+    "E",
+    "A",
+    "F#m",
+    "D",
+    "E",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "F#m",
+    "D",
+    "E",
+    "A",
+    "F#m",
+    "D",
+    "E",
+    "A",
+    "F#m",
+    "D",
+    "E",
+    "%",
+    "A",
+    "Bm",
+    "%",
+    "%",
+    "%",
+    [
+     "D:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    "A",
+    "D",
+    "E",
+    "A",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "D",
+    "E",
+    "A",
+    "F#m",
+    "D",
+    "E",
+    "%",
+    "%",
+    "D",
+    "E",
+    "%",
+    "%",
+    "D",
+    "E",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

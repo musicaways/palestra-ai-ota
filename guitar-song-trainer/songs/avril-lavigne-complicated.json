@@ -1,0 +1,295 @@
+{
+ "title": "Complicated",
+ "artist": "Avril Lavigne",
+ "album": "NOW 100 Hits∶ Car Songs",
+ "year": 2002,
+ "genre": "Pop / Rock",
+ "difficulty": 3,
+ "youtubeId": "-3JYuiu4nv4",
+ "key": "C",
+ "bpm": 159.9,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.12,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37527119,
+  "duration": 245.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – Bb – Dm – F – Bbadd9 – Dm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Dm"
+   ]
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "F",
+    "%",
+    "%",
+    "Dm",
+    "%",
+    "%",
+    "Bbadd9",
+    "C",
+    "%",
+    "%",
+    "F",
+    "%",
+    "Dm",
+    "%",
+    "Bbadd9",
+    [
+     "Bbadd9:2",
+     "C:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "%",
+    "Bb",
+    "C",
+    "Dm",
+    "%",
+    "Bb",
+    "C",
+    "%",
+    "%",
+    "Dm",
+    "Bb",
+    "F",
+    "C",
+    "Dm",
+    "Bb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    [
+     "F:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    [
+     "Dm:2",
+     "Bb:2"
+    ],
+    "F",
+    "C",
+    "Bb",
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "F",
+    "%",
+    "Dm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "%",
+    "Bbadd9",
+    "C",
+    "%",
+    "%",
+    "F",
+    "%",
+    "Dm",
+    "%",
+    "Bbadd9",
+    [
+     "Bbadd9:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "Bb",
+    "C",
+    "Dm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "%",
+    "Bb",
+    "C",
+    "%",
+    "%",
+    "Dm",
+    "Bb",
+    "F",
+    "C",
+    "Dm",
+    "Bb",
+    [
+     "F:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    [
+     "Dm:2",
+     "Bb:2"
+    ],
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 8",
+   "bars": [
+    "C",
+    "Bb",
+    "F",
+    "Dm7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "F",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 9",
+   "bars": [
+    "Dm",
+    "%",
+    "Bbadd9",
+    [
+     "Bbadd9:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "Bb",
+    "C",
+    "Dm",
+    "%",
+    "Bb",
+    "C",
+    "%",
+    "%",
+    "Dm",
+    "Bb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 10",
+   "bars": [
+    "F",
+    "C",
+    "Dm",
+    "Bb",
+    [
+     "F:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    [
+     "Dm:2",
+     "Bb:2"
+    ],
+    "F",
+    [
+     "F:2",
+     "C:2"
+    ],
+    "%",
+    "Bb",
+    "%",
+    "%",
+    "%",
+    "Dm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 11",
+   "bars": [
+    "Bb",
+    "F",
+    [
+     "C:2",
+     "Dm:2"
+    ],
+    [
+     "Dm:2",
+     "Bb:2"
+    ],
+    "F",
+    "C",
+    "%",
+    "Dm",
+    "Bb",
+    "F",
+    "C",
+    "Bbadd9",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

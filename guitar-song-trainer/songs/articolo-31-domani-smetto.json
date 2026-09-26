@@ -1,0 +1,219 @@
+{
+ "title": "Domani smetto",
+ "artist": "Articolo 31",
+ "album": "Festivalbar 2002: Compilation Blu",
+ "year": 2002,
+ "genre": "Rap / Hip-hop",
+ "difficulty": 2,
+ "youtubeId": "pp9d_ENd1dQ",
+ "key": "F",
+ "bpm": 97.24,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.43,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37301290,
+  "duration": 157.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F – C – Dm – Bb.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Dm"
+   ]
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Dm:2",
+     "C:2"
+    ],
+    [
+     "Dm:2",
+     "C:2"
+    ],
+    [
+     "Dm:2",
+     "C:2"
+    ],
+    [
+     "Dm:2",
+     "C:2"
+    ],
+    "%",
+    "F",
+    [
+     "Dm:2",
+     "C:2"
+    ],
+    "F",
+    [
+     "Dm:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "F",
+    [
+     "Dm:2",
+     "C:2"
+    ],
+    "F",
+    "%",
+    [
+     "Dm:2",
+     "C:2"
+    ],
+    "F",
+    [
+     "Dm:2",
+     "C:2"
+    ],
+    "F",
+    [
+     "C:1",
+     "F:2",
+     "Bb:1"
+    ],
+    [
+     "Dm:1",
+     "C:2",
+     "F:1"
+    ],
+    [
+     "Bb:1",
+     "Dm:2",
+     "C:1"
+    ],
+    "F",
+    "F",
+    [
+     "Dm:2",
+     "C:2"
+    ],
+    "F",
+    [
+     "Dm:2",
+     "C:2"
+    ],
+    [
+     "C:1",
+     "F:2",
+     "Bb:1"
+    ],
+    [
+     "Dm:1",
+     "C:2",
+     "F:1"
+    ],
+    [
+     "F:1",
+     "Bb:2",
+     "F:1"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    [
+     "Bb:2",
+     "Dm:2"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    [
+     "Bb:1",
+     "Dm:2",
+     "C:1"
+    ],
+    "F",
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    [
+     "Dm:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    "F",
+    [
+     "Dm:2",
+     "C:2"
+    ],
+    "F",
+    [
+     "Dm:2",
+     "C:2"
+    ],
+    "F",
+    [
+     "C:1",
+     "F:2",
+     "Bb:1"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    [
+     "F:1",
+     "Bb:2",
+     "F:1"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    [
+     "Bb:2",
+     "Dm:2"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    [
+     "Bb:2",
+     "Dm:2"
+    ],
+    [
+     "Dm:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

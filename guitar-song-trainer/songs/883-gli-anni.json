@@ -1,0 +1,338 @@
+{
+ "title": "Gli anni",
+ "artist": "883",
+ "album": "Tutto Max",
+ "year": 1995,
+ "genre": "Pop",
+ "difficulty": 2,
+ "youtubeId": "4l3ZAmP-vtw",
+ "key": "D",
+ "bpm": 136.08,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.51,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 33394028,
+  "duration": 277.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – C – Em – G – Am.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa",
+   "bars": [
+    "G",
+    "Em",
+    "C",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "%",
+    "D",
+    [
+     "Em:2",
+     "C:2"
+    ],
+    "G",
+    [
+     "D:2",
+     "Em:2"
+    ],
+    "C",
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "C",
+    [
+     "D:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "D:2"
+    ],
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "Em:2",
+     "D:2"
+    ],
+    "C",
+    [
+     "D:2",
+     "G:2"
+    ],
+    "D",
+    "Am",
+    "C",
+    "D",
+    "C",
+    "D",
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    "D",
+    "Am",
+    "C",
+    "D",
+    "C",
+    "D",
+    "C",
+    [
+     "C:2",
+     "D:2"
+    ],
+    "%",
+    "Em",
+    "%",
+    "D",
+    [
+     "D:2",
+     "C:2"
+    ],
+    "%",
+    "Em",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "D",
+    "Em",
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "Em",
+    "C",
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "C",
+    [
+     "D:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "D:2"
+    ],
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "Em:2",
+     "D:2"
+    ],
+    "C",
+    [
+     "D:2",
+     "G:2"
+    ],
+    "D",
+    "Am",
+    "C",
+    "D",
+    "C",
+    "D",
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    "D",
+    "Am",
+    "C",
+    "D",
+    "C",
+    "D",
+    "C",
+    [
+     "C:2",
+     "D:2"
+    ],
+    "%",
+    "Em",
+    "%",
+    "D",
+    [
+     "D:2",
+     "C:2"
+    ],
+    "%",
+    "Em",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "D",
+    "Em",
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "Em",
+    "C",
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "C",
+    "Em",
+    "D",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello (1)",
+   "bars": [
+    [
+     "Em:2",
+     "D:2"
+    ],
+    "C",
+    [
+     "D:2",
+     "G:2"
+    ],
+    "D",
+    "Am",
+    "C",
+    "D",
+    "C",
+    "D",
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    "D",
+    "Am",
+    "C",
+    "D",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello (2)",
+   "bars": [
+    "D",
+    "C",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "C:2",
+     "D:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello (3)",
+   "bars": [
+    "%",
+    "%",
+    "Em",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "D",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello (4)",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    [
+     "D:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

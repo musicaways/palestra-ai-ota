@@ -1,0 +1,357 @@
+{
+ "title": "Wild Horses",
+ "artist": "The Rolling Stones",
+ "album": "Jump Back  - Best Of",
+ "year": 1971,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "UFLJFl7ws_0",
+ "key": "G",
+ "bpm": 135.71,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.98,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37157649,
+  "duration": 344.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – C – D – Bm – F – Am.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro (1)",
+   "bars": [
+    "G",
+    "%",
+    "Am7",
+    "%",
+    "G",
+    "%",
+    "Am7",
+    "%",
+    "G",
+    "%",
+    "Bm",
+    "G",
+    "%",
+    [
+     "G:2",
+     "Bm:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Intro (2)",
+   "bars": [
+    "G",
+    "%",
+    "%",
+    "%",
+    "C",
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "D",
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Bm:2"
+    ],
+    "%",
+    "G",
+    "%",
+    "Bm",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Intro (3)",
+   "bars": [
+    "G",
+    "%",
+    "Am",
+    "%",
+    "C",
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "D",
+    "%",
+    "Am7",
+    "%",
+    "C",
+    "D",
+    "G",
+    "F",
+    "C",
+    [
+     "C:2",
+     "Bm:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "C",
+    "D",
+    "G",
+    "F",
+    "%",
+    [
+     "F:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "Bm",
+    "G",
+    "Bm",
+    "G",
+    "%",
+    "%",
+    "%",
+    "C",
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "D",
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Bm:2"
+    ],
+    "%",
+    "G",
+    [
+     "G:2",
+     "Bm:2"
+    ],
+    "%",
+    "G",
+    "%",
+    "Am",
+    "%",
+    "C",
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "D",
+    "%",
+    "Am",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "D",
+    "G",
+    "F",
+    "C",
+    [
+     "C:2",
+     "Bm:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "C",
+    "D",
+    "G",
+    "F",
+    "C",
+    "F",
+    "%",
+    "C",
+    "%",
+    "F",
+    "%",
+    "C",
+    "%",
+    "D",
+    "%",
+    "G",
+    "%",
+    "F",
+    "Bm",
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Bm:2"
+    ],
+    "%",
+    "G",
+    "%",
+    "Am",
+    "%",
+    "C",
+    "D",
+    "G",
+    "D",
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Bm:2"
+    ],
+    "%",
+    "G",
+    [
+     "G:2",
+     "Bm:2"
+    ],
+    "%",
+    "G",
+    "%",
+    "Am",
+    "%",
+    "C",
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "D",
+    "%",
+    "Am",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "D",
+    "G",
+    "F",
+    "C",
+    "Bm",
+    "Am7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "C",
+    "D",
+    "G",
+    "F",
+    "C",
+    "Bm",
+    "%",
+    "G",
+    "%",
+    "Bm",
+    "%",
+    "G",
+    "%",
+    "Am",
+    "%",
+    "C",
+    "%",
+    "D",
+    "%",
+    "G",
+    "%",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Am",
+    [
+     "C:2",
+     "D:2"
+    ],
+    "G",
+    "F",
+    "C",
+    "Bm",
+    "Am7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "D",
+    "G",
+    "F",
+    "%",
+    "%",
+    "C",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

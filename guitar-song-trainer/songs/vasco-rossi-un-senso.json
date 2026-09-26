@@ -34,7 +34,7 @@
    ]
   },
   {
-   "name": "Strofa 1",
+   "name": "Parte 2",
    "bars": [
     "G",
     "Em7",
@@ -75,7 +75,13 @@
     [
      "F:2",
      "G:2"
-    ],
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
     "G",
     [
      "Em7:2",
@@ -115,7 +121,13 @@
     [
      "F:2",
      "G:2"
-    ],
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
     "G",
     [
      "Em7:2",

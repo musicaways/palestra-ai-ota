@@ -1,0 +1,244 @@
+{
+ "title": "Meraviglioso",
+ "artist": "Negramaro",
+ "album": "Una Storia Semplice (Spanish Version / Deluxe Edition)",
+ "year": 2008,
+ "genre": "Pop / Rock",
+ "difficulty": 5,
+ "youtubeId": "7qV6ZlYB80M",
+ "key": "F#7",
+ "bpm": 90.22,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.9,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36093443,
+  "duration": 242.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: B – F#7 – A6 – F# – Bm – C#m.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bm",
+    "%",
+    "A6",
+    "%",
+    "Gmaj7",
+    "%",
+    "Bm",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Bm",
+    "%",
+    "%",
+    "A6",
+    [
+     "Gmaj7:2",
+     "F#7:2"
+    ],
+    "%",
+    "G",
+    "F#7",
+    "Bm",
+    "A6",
+    "G",
+    "F#7",
+    "B"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "F#7:2",
+     "B:2"
+    ],
+    [
+     "B:2",
+     "Bmaj7:2"
+    ],
+    [
+     "B6:2",
+     "F#:2"
+    ],
+    [
+     "F#7:2",
+     "B:2"
+    ],
+    [
+     "F#7:2",
+     "B:2"
+    ],
+    "C#m",
+    "%",
+    [
+     "F#7:2",
+     "B:2"
+    ],
+    [
+     "A6:2",
+     "G#:2"
+    ],
+    [
+     "A6:2",
+     "G#:2"
+    ],
+    "C#m7",
+    "%",
+    "F#7",
+    [
+     "C#m:2",
+     "F#7:2"
+    ],
+    [
+     "F#7:2",
+     "D#:2"
+    ],
+    [
+     "D#:2",
+     "F#:2"
+    ],
+    [
+     "F#7:2",
+     "B:2"
+    ],
+    [
+     "B:2",
+     "Bmaj7:2"
+    ],
+    [
+     "B6:2",
+     "C#m7:2"
+    ],
+    [
+     "F#7:2",
+     "B:2"
+    ],
+    "%",
+    [
+     "Em:2",
+     "B:2"
+    ],
+    [
+     "C#m:2",
+     "F#:2"
+    ],
+    "Bm",
+    "%",
+    [
+     "A6:2",
+     "G#m7:2"
+    ],
+    [
+     "G#m7:2",
+     "G6:2"
+    ],
+    "F#7",
+    "Bm",
+    [
+     "A6:1",
+     "G#m7:1",
+     "G6:1",
+     "F#7:1"
+    ],
+    "B",
+    "F#",
+    "G#m7",
+    "C#m",
+    "B",
+    "C#m7",
+    [
+     "C#m7:2",
+     "F#:2"
+    ],
+    [
+     "F#:2",
+     "B:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "A6:2",
+     "G#:2"
+    ],
+    [
+     "A6:2",
+     "G#:2"
+    ],
+    "C#m",
+    "%",
+    [
+     "C#m7:2",
+     "F#7:2"
+    ],
+    [
+     "C#m7:2",
+     "F#7:2"
+    ],
+    "D#",
+    "F#",
+    [
+     "F#7:2",
+     "B:2"
+    ],
+    [
+     "B:2",
+     "Bmaj7:2"
+    ],
+    [
+     "B6:2",
+     "C#m7:2"
+    ],
+    [
+     "B6:2",
+     "C#m:2"
+    ],
+    "%",
+    [
+     "Em:2",
+     "B:2"
+    ],
+    [
+     "C#m:2",
+     "F#:2"
+    ],
+    "Bm",
+    "A6",
+    "Gmaj7",
+    "F#",
+    "Bm",
+    "A6",
+    "Gmaj7",
+    "F#",
+    "B",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

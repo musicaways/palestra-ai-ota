@@ -1,0 +1,395 @@
+{
+ "title": "Una canzone d'amore",
+ "artist": "883",
+ "album": "46M plays",
+ "year": 1995,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "arzD_tTRdOM",
+ "key": "F",
+ "bpm": 82.87,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.48,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 35150283,
+  "duration": 332.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F – Eb – Bb – Gm7 – F4 – Gm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bb",
+    "Gm7",
+    "F",
+    "Eb",
+    "F",
+    "Bb",
+    "Gm7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    [
+     "Bb:2",
+     "Gm7:1",
+     "F:1"
+    ],
+    [
+     "F:1",
+     "Eb:1",
+     "F:2"
+    ],
+    "%",
+    [
+     "Bb:2",
+     "Gm7:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Bb:1",
+     "Gm7:1",
+     "F:1",
+     "Bb:1"
+    ],
+    "%",
+    "%",
+    [
+     "Gm7:2",
+     "F:2"
+    ],
+    [
+     "Bb:1",
+     "Gm7:1",
+     "F:1",
+     "Eb:1"
+    ],
+    "%",
+    [
+     "Bb:2",
+     "Gm7:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Bb:1",
+     "Gm7:2",
+     "F:1"
+    ],
+    [
+     "Bb:1",
+     "Eb:1",
+     "Gm:1",
+     "Gm7:1"
+    ],
+    [
+     "Bb:1",
+     "Eb:1",
+     "Gm:1",
+     "Gm7:1"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    [
+     "Eb:2",
+     "F4:2"
+    ],
+    [
+     "F:1",
+     "Bb:2",
+     "F:1"
+    ],
+    [
+     "Eb:2",
+     "F4:2"
+    ],
+    [
+     "Eb:2",
+     "F4:2"
+    ],
+    [
+     "F:1",
+     "Eb:2"
+    ],
+    "%",
+    [
+     "Eb:2",
+     "F4:2"
+    ],
+    [
+     "F:2",
+     "Gm:2"
+    ],
+    [
+     "F:2",
+     "Eb:2"
+    ],
+    [
+     "F:2",
+     "Gm:2"
+    ],
+    [
+     "F:1",
+     "Eb:2",
+     "F:1"
+    ],
+    [
+     "F:2",
+     "Gm:2"
+    ],
+    [
+     "Bb:2",
+     "Gm7:1",
+     "F:1"
+    ],
+    [
+     "F:1",
+     "Eb:1",
+     "F:2"
+    ],
+    "%",
+    [
+     "Bb:2",
+     "Gm7:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Bb:1",
+     "Gm7:2",
+     "F:1"
+    ],
+    "%",
+    [
+     "Bb:2",
+     "Eb:1",
+     "Gm:1"
+    ],
+    [
+     "Gm:1",
+     "Gm7:1",
+     "F:2"
+    ],
+    [
+     "Bb:1",
+     "Gm7:1",
+     "F:1",
+     "Eb:1"
+    ],
+    "%",
+    [
+     "Bb:2",
+     "Gm7:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Bb:1",
+     "Gm7:2",
+     "F:1"
+    ],
+    [
+     "Bb:1",
+     "Eb:1",
+     "Gm:1",
+     "Gm7:1"
+    ],
+    [
+     "Bb:1",
+     "Eb:1",
+     "Gm:1",
+     "Gm7:1"
+    ],
+    [
+     "Eb:2",
+     "F4:2"
+    ],
+    [
+     "F:1",
+     "Bb:2",
+     "F:1"
+    ],
+    [
+     "Eb:2",
+     "F4:2"
+    ],
+    [
+     "Eb:2",
+     "F4:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    [
+     "F:1",
+     "Eb:2"
+    ],
+    "%",
+    [
+     "Eb:2",
+     "F4:2"
+    ],
+    [
+     "F:2",
+     "Gm:2"
+    ],
+    [
+     "F:2",
+     "Eb:2"
+    ],
+    [
+     "F:2",
+     "Gm:2"
+    ],
+    [
+     "F:1",
+     "Eb:2",
+     "F:1"
+    ],
+    [
+     "F:2",
+     "Gm:2"
+    ],
+    "%",
+    "Eb",
+    "%",
+    "F",
+    "Eb",
+    "%",
+    "F",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    [
+     "Eb:2",
+     "F4:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "Eb:2",
+     "F4:2"
+    ],
+    [
+     "F:2",
+     "G4:2"
+    ],
+    "%",
+    "%",
+    [
+     "F:2",
+     "G4:2"
+    ],
+    [
+     "G:2",
+     "Am:2"
+    ],
+    [
+     "Eb:2",
+     "F4:2"
+    ],
+    [
+     "F:1",
+     "Bb:2",
+     "F:1"
+    ],
+    [
+     "Eb:2",
+     "F4:2"
+    ],
+    [
+     "Eb:2",
+     "F4:2"
+    ],
+    [
+     "F:1",
+     "Eb:2"
+    ],
+    "%",
+    [
+     "Eb:2",
+     "F4:2"
+    ],
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "F",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 8",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

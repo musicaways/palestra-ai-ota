@@ -1,0 +1,150 @@
+{
+ "title": "Someone You Loved",
+ "artist": "Lewis Capaldi",
+ "album": "1,3 M x ditonton",
+ "year": 2018,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "zABLecsR5UE",
+ "key": "Gb",
+ "bpm": 110.02,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.46,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36841726,
+  "duration": 186.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Gb – Db – Ab – Bbm – Ebm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Db",
+    "Ab",
+    "Bbm",
+    "Gb",
+    "Bbm",
+    "%",
+    "Gb",
+    "%",
+    "Db",
+    [
+     "Db:2",
+     "Ab:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Db",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%",
+    "Bbm",
+    "%",
+    "Db",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%",
+    "Gb",
+    "%",
+    "%",
+    "Bbm",
+    "%",
+    "Gb",
+    "%",
+    "Db",
+    [
+     "Db:2",
+     "Ab:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Db",
+    "%",
+    "Gb",
+    "%",
+    "Db",
+    "Ab",
+    "Bbm",
+    "%",
+    "Db",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%",
+    "Gb",
+    "%",
+    "%",
+    "Ebm",
+    [
+     "Ebm:2",
+     "Bbm:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Ebm",
+    "Bbm",
+    "%",
+    "%",
+    "Db",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%",
+    "Gb",
+    "%",
+    "Db",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%",
+    "Gb",
+    "%",
+    "%",
+    "%",
+    [
+     "Gb:2",
+     "Db:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

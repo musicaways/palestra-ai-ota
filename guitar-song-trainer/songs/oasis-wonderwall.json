@@ -1,0 +1,250 @@
+{
+ "title": "Wonderwall",
+ "artist": "Oasis",
+ "album": "VH1 100 Greatest Songs of the 90s",
+ "year": 1995,
+ "genre": "Rock",
+ "difficulty": 1,
+ "youtubeId": "8LaTzWMbShY",
+ "key": "Em7",
+ "bpm": 85.31,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.22,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34599533,
+  "duration": 259.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Em7 – G – Cadd9 – D4.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Em7",
+    "G",
+    "D4",
+    "%",
+    "Em7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "D4",
+    "%",
+    "D4",
+    "%",
+    "Em7",
+    "G",
+    [
+     "G:2",
+     "D4:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Em7",
+    "G",
+    "Em7",
+    "G",
+    "Em7",
+    "G",
+    "D4",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Cadd9:2",
+     "D4:2"
+    ],
+    [
+     "D4:2",
+     "Em7:2"
+    ],
+    "Cadd9",
+    "D4",
+    "Em7",
+    "Cadd9",
+    "%",
+    "D4",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Cadd9:2",
+     "Em7:2"
+    ],
+    [
+     "Em7:2",
+     "G:2"
+    ],
+    [
+     "Em7:2",
+     "Cadd9:2"
+    ],
+    [
+     "Em7:2",
+     "G:2"
+    ],
+    [
+     "Em7:2",
+     "Cadd9:2"
+    ],
+    [
+     "Em7:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D4",
+    "D4",
+    "%",
+    "Em7",
+    "G",
+    "Em7",
+    "G",
+    "D4",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "Cadd9:2",
+     "D4:2"
+    ],
+    [
+     "D4:2",
+     "Em7:2"
+    ],
+    "Cadd9",
+    "D4",
+    "Em7",
+    "Cadd9",
+    "%",
+    "D4",
+    "%",
+    "%",
+    "Em7",
+    [
+     "Cadd9:2",
+     "Em7:2"
+    ],
+    "G",
+    [
+     "Em7:2",
+     "Cadd9:2"
+    ],
+    [
+     "Em7:2",
+     "G:2"
+    ],
+    [
+     "Em7:2",
+     "Cadd9:2"
+    ],
+    "Em7",
+    [
+     "G:2",
+     "Em7:2"
+    ],
+    [
+     "Cadd9:1",
+     "Em7:2",
+     "G:1"
+    ],
+    "Em7",
+    [
+     "Cadd9:2",
+     "Em7:2"
+    ],
+    "G",
+    [
+     "Em7:2",
+     "Cadd9:2"
+    ],
+    [
+     "Em7:2",
+     "G:2"
+    ],
+    [
+     "Em7:2",
+     "Cadd9:2"
+    ],
+    "Em7",
+    [
+     "G:2",
+     "Em7:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    [
+     "Cadd9:1",
+     "Em7:2",
+     "G:1"
+    ],
+    [
+     "Em7:1",
+     "Cadd9:1",
+     "Em7:1",
+     "G:1"
+    ],
+    [
+     "Em7:2",
+     "Cadd9:2"
+    ],
+    [
+     "Em7:2",
+     "G:2"
+    ],
+    "Em7",
+    "Cadd9",
+    "Em7",
+    "G",
+    "Em7",
+    "Cadd9",
+    "Em7",
+    "G",
+    "Em7",
+    "Cadd9",
+    "Em7",
+    "G"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

@@ -39,7 +39,7 @@
    "barsPerRow": 4
   },
   {
-   "name": "Strofa",
+   "name": "Parte 2",
    "bars": [
     [
      "F#m:2",
@@ -59,7 +59,13 @@
     "A",
     "D",
     "%",
-    "F#m",
+    "F#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
     "A",
     "D",
     "%",
@@ -75,7 +81,13 @@
     "A",
     "%",
     "D",
-    "F#m",
+    "F#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
     "A",
     "%",
     "D",
@@ -94,7 +106,13 @@
     [
      "E:2",
      "F#m:2"
-    ],
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
     "A",
     "%",
     "D",
@@ -116,7 +134,13 @@
     "A",
     "D",
     "%",
-    "F#m",
+    "F#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
     "A",
     "%",
     "D",
@@ -135,7 +159,13 @@
     "E",
     "%",
     "C#7",
-    "F#m",
+    "F#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
     "A",
     "%",
     "Dadd9",
@@ -151,7 +181,13 @@
     "A",
     "Dadd9",
     "%",
-    "F#m7",
+    "F#m7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 8",
+   "bars": [
     "%",
     "E4",
     "%",

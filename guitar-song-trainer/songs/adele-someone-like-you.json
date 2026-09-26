@@ -1,0 +1,233 @@
+{
+ "title": "Someone Like You",
+ "artist": "Adele",
+ "album": "21",
+ "year": 2011,
+ "genre": "Pop",
+ "difficulty": 3,
+ "youtubeId": "hLQl3WQQoQ0",
+ "key": "D",
+ "bpm": 67.41,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.19,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 7137504,
+  "duration": 285.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – F#m – E – A – Eadd9 – F#m7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F#m",
+    "D",
+    "A",
+    "F#m"
+   ]
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "%",
+    "%",
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    "F#m",
+    "D",
+    "%",
+    "%",
+    "F#m",
+    "D",
+    [
+     "Eadd9:2",
+     "F#m7:2"
+    ],
+    "D",
+    [
+     "Eadd9:2",
+     "F#m7:2"
+    ],
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    [
+     "A:1",
+     "E:1",
+     "F#m:1",
+     "D:1"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    "E",
+    "F#m",
+    "D",
+    "%",
+    "%",
+    "F#m",
+    "D",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "F#m",
+    "D",
+    [
+     "Eadd9:2",
+     "F#m7:2"
+    ],
+    "D",
+    [
+     "Eadd9:2",
+     "F#m7:2"
+    ],
+    "D",
+    "%",
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    "%",
+    "%",
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

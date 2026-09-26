@@ -1,0 +1,181 @@
+{
+ "title": "Cenere",
+ "artist": "Lazza",
+ "album": "mix manu",
+ "year": 2023,
+ "genre": "Rap / Hip-hop",
+ "difficulty": 3,
+ "youtubeId": "Rt5tJI-q2kE",
+ "key": "Am",
+ "bpm": 120.3,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.1,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 33889924,
+  "duration": 208.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Am – Dm – Bbadd9 – C6 – Gm – Am7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Am",
+    "%",
+    [
+     "Am:2",
+     "Bbadd9:2"
+    ],
+    "%",
+    "%",
+    "C6",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Dm",
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    "%",
+    "Bbadd9",
+    "%",
+    "C6",
+    "%",
+    "%",
+    "Dm",
+    "%",
+    "Am",
+    "%",
+    "Bbadd9",
+    "%",
+    "C6",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "Dm",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "Bbadd9",
+    "%",
+    "C6",
+    "%",
+    "%",
+    "%",
+    "Dm",
+    "%",
+    "Am",
+    "%",
+    "Bbadd9"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "C6",
+    "%",
+    "Dm",
+    "%",
+    "Am",
+    "%",
+    "Bbadd9",
+    "%",
+    "C6",
+    "%",
+    "%",
+    "Dm",
+    "%",
+    "%",
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "%",
+    "Bbadd9",
+    "%",
+    "C6",
+    "%",
+    "Dm",
+    "%",
+    "Am",
+    "%",
+    "Bbadd9",
+    "%",
+    "C6",
+    "%",
+    "Gm",
+    "Am",
+    "Dm",
+    "Am",
+    "Bbmaj7",
+    "Gm",
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Dm",
+    "%",
+    "%",
+    "Am7",
+    "%",
+    "Bbadd9",
+    "%",
+    "C6",
+    "%",
+    "Dm",
+    "%",
+    "Am",
+    "%",
+    "Bbadd9",
+    "%",
+    [
+     "Bbadd9:2",
+     "C6:2"
+    ],
+    "%",
+    [
+     "C6:2",
+     "Dm:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

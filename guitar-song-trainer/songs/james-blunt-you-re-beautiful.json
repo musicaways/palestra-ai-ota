@@ -1,0 +1,213 @@
+{
+ "title": "You're Beautiful",
+ "artist": "James Blunt",
+ "album": "100 Most Relaxing Songs Ever",
+ "year": 2004,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "xbxR2Eq1QAs",
+ "key": "Bb",
+ "bpm": 81.96,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.2,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36974223,
+  "duration": 210.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bb – Eb – Abadd9 – Cm7 – Ab – Cm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Eb",
+    "Bb",
+    "Cm7",
+    "Abadd9",
+    "Eb",
+    "Bb",
+    "Cm7",
+    "Abadd9",
+    "Eb",
+    "Bb",
+    "Cm7",
+    "Abadd9"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Eb",
+    "%",
+    "Abadd9",
+    "%",
+    "Eb",
+    "Bb",
+    "Cm7",
+    "%",
+    [
+     "Abadd9:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    [
+     "Abadd9:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    "%",
+    "%",
+    [
+     "Ab:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "Cm7:2"
+    ],
+    "Ab",
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "Cm7:2"
+    ],
+    "Abadd9"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Eb",
+    "%",
+    "Cm7",
+    "%",
+    "%",
+    "%",
+    "Cm7",
+    [
+     "Cm7:2",
+     "Abadd9:2"
+    ],
+    "%",
+    [
+     "Abadd9:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    [
+     "Abadd9:1",
+     "Bb:2",
+     "Eb:1"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Ab:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "Cm7:2"
+    ],
+    [
+     "Ab:1",
+     "Bb:2",
+     "Eb:1"
+    ],
+    "Ab",
+    "Cm",
+    "Fm",
+    "Bb",
+    "Ab"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "Abadd9:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    [
+     "Abadd9:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "Ab",
+    [
+     "Ab:2",
+     "Bb:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    [
+     "Ab:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "Cm7:2"
+    ],
+    "Ab",
+    [
+     "Ab:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

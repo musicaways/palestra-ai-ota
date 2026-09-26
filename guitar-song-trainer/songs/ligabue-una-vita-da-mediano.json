@@ -39,7 +39,7 @@
    "barsPerRow": 4
   },
   {
-   "name": "Strofa 1",
+   "name": "Parte 2",
    "bars": [
     "G",
     "%",
@@ -56,7 +56,13 @@
     "Am",
     "%",
     "C",
-    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
     "%",
     "D",
     "%",
@@ -72,7 +78,13 @@
     "Am",
     "%",
     "C",
-    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
     "G",
     "%",
     "D",

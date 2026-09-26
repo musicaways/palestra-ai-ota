@@ -86,7 +86,7 @@
    "barsPerRow": 4
   },
   {
-   "name": "Strofa 3",
+   "name": "Parte 4",
    "bars": [
     "Bb",
     "%",
@@ -103,7 +103,13 @@
     "%",
     "F",
     "%",
-    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
     "%",
     "F",
     "%",
@@ -128,7 +134,13 @@
     "%",
     "F",
     "%",
-    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
     "%",
     "F",
     "%",

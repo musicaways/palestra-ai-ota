@@ -1,0 +1,237 @@
+{
+ "title": "Happier Than Ever",
+ "artist": "Billie Eilish",
+ "album": "Girl Power 2022",
+ "year": 2021,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "YEbz2Qt3vec",
+ "key": "Am",
+ "bpm": 101.07,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.27,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37000433,
+  "duration": 299.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Am – C – Fm – F – E – E7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G",
+    "G7"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "C",
+    "E7",
+    "E7",
+    "%",
+    "Am",
+    "%",
+    "Dm",
+    [
+     "Dm:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "C",
+    "E7",
+    "Am",
+    "%",
+    "Dm",
+    [
+     "Dm:2",
+     "G:2"
+    ],
+    "%",
+    [
+     "G:2",
+     "C:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "E7",
+    "%",
+    "Am",
+    "%",
+    "Fm",
+    "%",
+    "C",
+    "%",
+    "E7",
+    "%",
+    "Am",
+    "%",
+    "Fm",
+    "%",
+    "E",
+    "%",
+    "Am",
+    [
+     "Am:2",
+     "Am7:2"
+    ],
+    [
+     "Am7:2",
+     "D:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Dm",
+    "G7",
+    "C",
+    "%",
+    "E7",
+    "%",
+    "Am",
+    "%",
+    [
+     "Dm:1",
+     "G:2",
+     "C:1"
+    ],
+    "C",
+    "Em",
+    "Am",
+    "Fm",
+    "C",
+    "Em",
+    "Am",
+    "Fm",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "C:2",
+     "E5:2"
+    ],
+    [
+     "E5:2",
+     "Am:2"
+    ],
+    "Fm",
+    "C",
+    "E5",
+    "Am",
+    "Fm",
+    "C",
+    "E5",
+    [
+     "Am:2",
+     "Fm:2"
+    ],
+    "C",
+    "E5",
+    "Am",
+    "F",
+    "C",
+    "E",
+    "Am",
+    "F",
+    "Fm",
+    "C",
+    [
+     "Am:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "Fm:2"
+    ],
+    "C",
+    "E",
+    [
+     "Am:2",
+     "F:2"
+    ],
+    "C",
+    "%",
+    "Am",
+    "F",
+    [
+     "Fm:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "E:2"
+    ],
+    "Am",
+    "Fm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "C",
+    "E",
+    "Am",
+    "F",
+    "C",
+    "E",
+    [
+     "Am:1",
+     "Fm:1",
+     "C:1",
+     "E:1"
+    ],
+    "Am",
+    "F",
+    "Fm",
+    "C",
+    "E",
+    "Am",
+    "F",
+    "Fm",
+    "Am",
+    "F",
+    "Fm",
+    "C",
+    "E",
+    "Am",
+    "F",
+    "Fm",
+    "Am",
+    "F",
+    "Fm",
+    "C",
+    "E",
+    "Am",
+    "F",
+    "Fm"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}
