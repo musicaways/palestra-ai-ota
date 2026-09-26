@@ -157,8 +157,10 @@ Nel test e2e YouTube è bloccato di proposito (si prova il clock di riserva); il
 ## Stato attuale (v1.8.0 — 2026-09-26)
 
 - **443 brani di 162 artisti**, tutti con forme, durata coerente, video e testo sincronizzato; ogni brano agganciato ai
-  tempi del canto (`warp`) dove migliora la coerenza. checksync: 417/443 ok; i restanti hanno righe che partono fuori
-  dal battere (anacrusi, rap): la griglia resta a tempo, il tocco in Sincronia rifinisce.
+  tempi del canto (`warp`) dove migliora la coerenza. **checksync: 443/443 ok.** I 23 brani col canto libero (rubato:
+  Caruso, Hallelujah, Certe notti…) usano l'aggancio stretto `lrcwarp --lock` (ogni riga sulla sua battuta, tempo locale
+  60–160%); i 3 brani rap/arrangiati fatti a mano (Balorda nostalgia, Paracetamolo, Paraocchi) sono stati rigenerati
+  con autosong (accordi riga per riga) e ancorati.
 - Nuovo: Base sintetica, Dizionario accordi, Scalette, filtri e brano a caso in libreria, quiz d'ascolto.
 - 71 test unitari e **706 controlli e2e verdi** (apre ognuno dei 443 brani; desktop e telefono).
 

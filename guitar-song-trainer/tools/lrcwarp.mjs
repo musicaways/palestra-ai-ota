@@ -3,11 +3,12 @@
 // perfetto o se il brano è suonato senza metronomo; per il rap (righe fuori dal battere) si aggancia al battito.
 // Usa SOLO i timestamp: il testo non viene mai stampato né salvato.
 //
-// Uso: node tools/lrcwarp.mjs [id ...] [--write]
+// Uso: node tools/lrcwarp.mjs [id ...] [--write] [--lock]
+//   --lock  ogni riga sulla sua battuta (per brani con accordi riga per riga e canto libero, rubato)
 import { readFile, writeFile } from 'node:fs/promises';
 import { buildTimeline } from '../js/timeline.js';
 import { parseLrc } from '../js/lyrics.js';
-import { lyricGridCheck, computeWarp } from '../js/syncmath.js';
+import { lyricGridCheck, computeWarp, computeLineLock } from '../js/syncmath.js';
 
 const WRITE = process.argv.includes('--write');
 const only = process.argv.slice(2).filter((a) => !a.startsWith('--'));
@@ -40,7 +41,8 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     const lines = await lrcTimes(lid);
     if (!lines) { console.log(`?    ${e.id}: testo non raggiungibile`); continue; }
     const before = lyricGridCheck(lines, buildTimeline({ ...song, warp: undefined }));
-    const w = computeWarp(song, lines);
+    const LOCK = process.argv.includes('--lock');
+    const w = LOCK ? (() => { const a = computeLineLock(song, lines); return a ? { anchors: a, R: 1, unit: 'riga' } : null; })() : computeWarp(song, lines);
     let after = before;
     if (w?.anchors?.length) after = lyricGridCheck(lines, buildTimeline({ ...song, warp: w.anchors }));
     const tag = !w?.anchors ? 'NO  ' : !w.anchors.length ? 'OK  ' : 'WARP';

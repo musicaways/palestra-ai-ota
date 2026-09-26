@@ -4,242 +4,139 @@
  "album": "Blu celeste",
  "year": 2021,
  "genre": "Pop / Rock",
- "difficulty": 2,
+ "difficulty": 3,
  "youtubeId": "R3tkPQWlHEI",
- "key": "La maggiore (A)",
- "bpm": 144.31,
+ "key": "A",
+ "bpm": 72.14,
  "timeSignature": [
   4,
   4
  ],
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
- "offset": 0.95,
+ "offset": 2.6,
  "strum": "D-DU-UDU",
  "lyricsSource": {
   "lrclibId": 28803092,
   "duration": 189,
   "offset": 0
  },
- "notes": "Chitarra energica in La: A – Dadd9 – E – F#m. Nel ritornello il Re è una settima maggiore (Dmaj7; nell'originale Dmaj9).",
- "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. L'app controlla da sola che testo e accordi siano coerenti; per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "notes": "Accordi principali: A – E – F#m – Dadd9 – C#m7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
  "sections": [
   {
    "name": "Strofa 1",
    "bars": [
     "A",
     "%",
-    "Dadd9",
-    "%",
-    "A",
-    "%",
-    "E",
-    "%",
-    "F#m",
-    "%",
-    "A",
     "%",
     "Dadd9",
-    "%",
+    "A",
+    "E",
+    "F#m",
+    "Dadd9",
+    "A",
+    "E",
+    "F#m",
     "A",
     "%",
     "E",
-    "%",
     "F#m",
-    "%"
-   ],
-   "barsPerRow": 8
-  },
-  {
-   "name": "Ritornello",
-   "bars": [
-    "Dmaj7",
-    "%",
     "A",
     "%",
     "E",
+    "F#m",
+    "Dadd9",
+    "A",
+    "E",
+    "F#m",
+    "Dadd9",
+    "A",
+    "E",
+    "F#m",
+    "A",
     "%",
+    "E",
+    "F#m",
+    "A",
+    "%",
+    "E",
     "F#m",
     "%",
-    "Dmaj7",
     "%",
-    "A",
+    "%",
+    "%",
     "%"
    ],
-   "barsPerRow": 8
+   "barsPerRow": 4
   },
   {
    "name": "Strofa 2",
    "bars": [
-    "A",
-    "%",
-    "Dadd9",
-    "%",
-    "A",
-    "%",
-    "E",
-    "%",
-    "F#m",
-    "%",
-    "A",
-    "%",
-    "Dadd9",
-    "%",
+    [
+     "C#m7:2",
+     "Dadd9:2"
+    ],
     "A",
     "%",
     "E",
     "%",
-    "F#m",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
     "%"
    ],
-   "barsPerRow": 8
-  },
-  {
-   "name": "Ritornello",
-   "bars": [
-    "Dmaj7",
-    "%",
-    "A",
-    "%",
-    "E",
-    "%",
-    "F#m",
-    "%",
-    "Dmaj7",
-    "%",
-    "A",
-    "%"
-   ],
-   "barsPerRow": 8
-  },
-  {
-   "name": "Ponte",
-   "bars": [
-    "C#m7",
-    "%",
-    "Dadd9",
-    "%",
-    "A",
-    "%",
-    "E",
-    "%"
-   ]
-  },
-  {
-   "name": "Ritornello finale",
-   "bars": [
-    "Dmaj7",
-    "%",
-    "A",
-    "%",
-    "E",
-    "%",
-    "F#m",
-    "%",
-    "Dmaj7",
-    "%",
-    "A",
-    "%",
-    "E",
-    "%",
-    "F#m",
-    "%",
-    "Dmaj7",
-    "%",
-    "A",
-    "%",
-    "E",
-    "%",
-    "F#m",
-    "%",
-    "Dmaj7",
-    "%",
-    "A",
-    "%",
-    "E",
-    "%",
-    "F#m",
-    "%"
-   ],
-   "barsPerRow": 8
-  },
-  {
-   "name": "Outro",
-   "bars": [
-    "Dmaj7",
-    "%",
-    "A",
-    "%",
-    "E",
-    "%",
-    "F#m",
-    "%",
-    "A",
-    "%"
-   ],
-   "barsPerRow": 8
+   "barsPerRow": 4
   }
  ],
  "warp": [
   [
-   0.5,
-   1.768
+   1,
+   5.849
   ],
   [
    5,
-   9.284
+   19.181
   ],
   [
    9,
-   15.936
+   32.704
   ],
   [
-   13.25,
-   23.015
+   13,
+   45.884
   ],
   [
-   19.25,
-   33.046
+   17,
+   58.9
   ],
   [
-   26.75,
-   45.504
+   22,
+   76.467
   ],
   [
-   31,
-   52.628
+   27,
+   92.913
   ],
   [
-   36.75,
-   62.202
+   33,
+   112.551
   ],
   [
-   42.25,
-   71.373
+   40,
+   135.199
   ],
   [
-   47.25,
-   79.665
-  ],
-  [
-   51.5,
-   86.737
-  ],
-  [
-   59,
-   99.21
-  ],
-  [
-   63.25,
-   106.278
-  ],
-  [
-   80.5,
-   135
-  ],
-  [
-   84.5,
-   141.706
+   43,
+   145.034
   ]
  ]
 }

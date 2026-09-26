@@ -4,24 +4,25 @@
  "album": "Tutta vita",
  "year": 2025,
  "genre": "Pop",
- "difficulty": 3,
+ "difficulty": 5,
  "youtubeId": "guIQwWgjATY",
- "key": "Re bemolle maggiore (Db) / Si bemolle minore",
- "bpm": 111.15,
+ "key": "Ab",
+ "bpm": 109.75,
  "timeSignature": [
   4,
   4
  ],
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
- "offset": 1.92,
+ "offset": 0.35,
  "strum": "D-DU-UDU",
  "lyricsSource": {
   "lrclibId": 33612427,
+  "duration": 198,
   "offset": 0
  },
- "notes": "Scritta con JVLI, vincitrice di Sanremo 2025. Tonalità con molti bemolle: il capotasto suggerito trasforma gli accordi in forme aperte.",
- "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. Se gli accordi sono in anticipo o in ritardo usa Sincronia; per l'allineamento perfetto Registra tempi.",
+ "notes": "Accordi principali: Ab – Db – Gb – Bbm7 – Bbm – Ebm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
  "sections": [
   {
    "name": "Intro",
@@ -33,138 +34,206 @@
    ]
   },
   {
-   "name": "Strofa 1",
+   "name": "Parte 2",
    "bars": [
     "Dbmaj7",
-    "Gb",
-    "Ebm7",
-    "Ab",
-    "Dbmaj7",
-    "Gb",
-    "Ebm7",
-    "Ab",
-    "Dbmaj7",
-    "Gb",
-    "Ebm7",
-    "Ab"
-   ],
-   "barsPerRow": 4
-  },
-  {
-   "name": "Pre-ritornello",
-   "bars": [
-    "Ebm7",
-    "Db/F",
+    "%",
+    "%",
+    "%",
     "Gb",
     "%",
-    "Ebm7",
-    "Db/F",
-    "Ab",
-    "%"
-   ]
-  },
-  {
-   "name": "Ritornello",
-   "bars": [
-    "Db",
-    "Bbm7",
-    "Ebm7",
-    "Ab",
-    "Db",
-    "Bbm7",
-    "Ebm7",
-    "Ab",
-    "Db",
-    "Bbm7",
-    "Ebm7",
-    "Ab"
+    "Gbmaj7",
+    "Gbm",
+    "Dbmaj7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Gbm"
    ],
    "barsPerRow": 4
   },
   {
-   "name": "Strofa 2",
+   "name": "Parte 3",
    "bars": [
-    "Dbmaj7",
-    "Gb",
-    "Ebm7",
-    "Ab",
-    "Dbmaj7",
-    "Gb",
-    "Ebm7",
-    "Ab",
-    "Dbmaj7",
-    "Gb",
-    "Ebm7",
-    "Ab"
-   ],
-   "barsPerRow": 4
-  },
-  {
-   "name": "Pre-ritornello",
-   "bars": [
-    "Ebm7",
-    "Db/F",
-    "Gb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Db",
+    "%",
+    "Bbm7",
     "%",
     "Ebm7",
-    "Db/F",
+    "%",
     "Ab",
-    "%"
-   ]
-  },
-  {
-   "name": "Ritornello",
-   "bars": [
+    "%",
     "Db",
-    "Bbm7",
-    "Ebm7",
-    "Ab",
-    "Db",
-    "Bbm7",
-    "Ebm7",
-    "Ab",
-    "Db",
-    "Bbm7",
-    "Ebm7",
-    "Ab",
-    "Db",
-    "Bbm7",
-    "Ebm7",
-    "Ab"
+    "%",
+    "Bbm7"
    ],
    "barsPerRow": 4
   },
   {
-   "name": "Ponte",
+   "name": "Parte 4",
    "bars": [
+    "%",
+    "Ebm7",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%",
+    "%",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "%",
+    "Gbadd9",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%",
+    "Bbm7",
+    "%",
+    "Ebm7",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "%",
+    "Ebm7",
+    "%",
+    "Ab",
+    "%",
     "Bbm",
     "Gb",
     "Db",
     "Ab",
     "Bbm",
-    "Gb",
-    "Db",
-    "Ab"
+    [
+     "Bbm:2",
+     "Gb:2"
+    ],
+    "%",
+    "Db"
    ],
    "barsPerRow": 4
   },
   {
-   "name": "Ritornello finale",
+   "name": "Finale",
    "bars": [
-    "Db",
+    [
+     "Ab:2",
+     "Gb:2"
+    ],
+    [
+     "Gb:2",
+     "Ab:2"
+    ],
     "Bbm7",
-    "Ebm7",
+    "%",
+    "Gb",
     "Ab",
     "Db",
-    "Bbm7",
-    "Ebm7",
-    "Ab",
-    "Db",
-    "Bbm7",
-    "Ebm7",
-    "Ab"
+    "%",
+    "%",
+    "%"
    ],
    "barsPerRow": 4
   }
+ ],
+ "warp": [
+  [
+   4,
+   9.126
+  ],
+  [
+   8,
+   17.874
+  ],
+  [
+   12,
+   26.489
+  ],
+  [
+   18,
+   39.61
+  ],
+  [
+   23,
+   50.644
+  ],
+  [
+   29,
+   63.981
+  ],
+  [
+   33,
+   72.87
+  ],
+  [
+   39,
+   85.416
+  ],
+  [
+   44,
+   96.293
+  ],
+  [
+   48,
+   105.03
+  ],
+  [
+   53,
+   115.964
+  ],
+  [
+   59,
+   129.467
+  ],
+  [
+   65,
+   142.793
+  ],
+  [
+   70,
+   153.727
+  ],
+  [
+   76,
+   166.556
+  ],
+  [
+   81,
+   177.484
+  ],
+  [
+   87,
+   190.517
+  ]
  ]
 }

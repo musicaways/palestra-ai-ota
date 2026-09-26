@@ -92,3 +92,21 @@ test('le correzioni dell\'utente valgono anche con le ancore', async () => {
   const c = buildTimeline(song, { sync: [1, 3, 5, 7] });
   assert.ok(Math.abs(c.events[1].start - 3) < 1e-9, 'i tempi registrati dall\'utente vincono');
 });
+
+test('aggancio stretto: ogni riga sulla sua battuta anche col canto libero', async () => {
+  const { computeLineLock, lyricGridCheck } = await import('../js/syncmath.js');
+  const { buildTimeline } = await import('../js/timeline.js');
+  const song = { bpm: 90, timeSignature: [4, 4], offset: 0.5, sections: [{ name: 'A', bars: Array(60).fill('C') }] };
+  const bar = 240 / 90;
+  // righe ogni 2 battute ma "rubato": ±30% di battuta a caso (deterministico)
+  const lines = Array.from({ length: 28 }, (_, i) => 0.5 + i * 2 * bar + Math.sin(i * 1.7) * 0.3 * bar);
+  const before = lyricGridCheck(lines, buildTimeline(song)).coherence;
+  const a = computeLineLock(song, lines);
+  const after = lyricGridCheck(lines, buildTimeline({ ...song, warp: a })).coherence;
+  assert.ok(after > 0.95 && after > before, `${before.toFixed(2)} → ${after.toFixed(2)}`);
+  // il tempo locale resta plausibile
+  for (let i = 1; i < a.length; i++) {
+    const r = (a[i][1] - a[i - 1][1]) / ((a[i][0] - a[i - 1][0]) * bar);
+    assert.ok(r >= 0.6 && r <= 1.6);
+  }
+});

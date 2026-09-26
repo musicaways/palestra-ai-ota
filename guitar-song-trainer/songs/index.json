@@ -67,8 +67,8 @@
     "album": "Tutta vita",
     "genre": "Pop",
     "year": 2025,
-    "difficulty": 3,
-    "key": "Db",
+    "difficulty": 5,
+    "key": "Ab",
     "youtubeId": "guIQwWgjATY"
   },
   {
@@ -199,8 +199,8 @@
     "album": "Evergreen",
     "genre": "Indie",
     "year": 2018,
-    "difficulty": 2,
-    "key": "D",
+    "difficulty": 3,
+    "key": "Bm",
     "youtubeId": "UW1DjnCBcSY"
   },
   {
@@ -223,7 +223,7 @@
     "album": "Blu celeste",
     "genre": "Pop / Rock",
     "year": 2021,
-    "difficulty": 2,
+    "difficulty": 3,
     "key": "A",
     "youtubeId": "R3tkPQWlHEI"
   },

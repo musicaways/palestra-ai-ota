@@ -148,3 +148,27 @@ export function computeWarp(song, lines) {
   return { anchors, R, spread, unit: useBar ? 'battuta' : 'battito' };
 }
 
+
+/**
+ * Aggancio stretto: ogni riga cantata sulla battuta a cui il generatore l'ha assegnata (brani con accordi riga per riga).
+ * Si scartano le ancore che darebbero un tempo locale fuori dal 60–160% di quello nominale.
+ */
+export function computeLineLock(song, lines) {
+  const tl = buildTimeline({ ...song, warp: undefined, sync: undefined });
+  const bar = tl.beatDur * tl.bpb;
+  const t0 = song.offset ?? 0;
+  const nb = tl.bars.length;
+  const anchors = [];
+  for (const t of lines) {
+    const k = Math.round((t - t0) / bar);
+    if (k < 0 || k >= nb) continue;
+    if (anchors.length && k <= anchors.at(-1)[0]) continue;
+    if (anchors.length) {
+      const [pk, pt] = anchors.at(-1);
+      const ratio = (t - pt) / ((k - pk) * bar);
+      if (ratio < 0.6 || ratio > 1.6) continue;
+    }
+    anchors.push([k, Math.round(t * 1000) / 1000]);
+  }
+  return anchors.length >= 6 ? anchors : null;
+}

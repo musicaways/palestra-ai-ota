@@ -3,7 +3,8 @@
 ## 1.8.0 — 2026-09-26
 - **Sincronia di default per tutti i brani**: la griglia degli accordi è agganciata ai tempi del canto lungo tutto il
   brano (campo `warp`): niente deriva anche se il BPM stimato non è perfetto o il brano è suonato senza metronomo;
-  per il rap l'aggancio è al battito. Coerenza testo/accordi ok per 417 brani su 443 (prima 183 su 213).
+  per il rap l'aggancio è al battito. Coerenza testo/accordi ok per **tutti i 443 brani** (prima 183 su 213): per i brani cantati
+  liberamente ogni riga è agganciata alla sua battuta; i brani rap arrangiati sono stati rigenerati riga per riga.
 - **Catalogo: 443 brani di 162 artisti** (230 nuovi).
 - **Base**: una chitarra sintetica suona gli accordi con la pennata del brano (o le note dell'arpeggio).
 - **Dizionario degli accordi** con suono; **quiz d'ascolto** in Impara; nuove lezioni (pentatonica 2ª posizione,
