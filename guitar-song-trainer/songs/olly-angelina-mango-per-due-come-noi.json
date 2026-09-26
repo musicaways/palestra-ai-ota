@@ -1,0 +1,165 @@
+{
+ "title": "Per due come noi",
+ "artist": "Olly, Angelina Mango",
+ "album": "Tutta vita",
+ "year": 2024,
+ "genre": "Pop",
+ "difficulty": 2,
+ "youtubeId": "nVa0GPeuVk4",
+ "key": "Si bemolle maggiore (Bb)",
+ "bpm": 98.03,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 3,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.93,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34668773,
+  "offset": 0
+ },
+ "notes": "Con JVLI. Col capotasto al 3° tasto (come nella versione per chitarra più diffusa) diventa G – Em7 – Cadd9 – D: tutti accordi aperti.",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. Se gli accordi sono in anticipo o in ritardo usa Sincronia; per l'allineamento perfetto Registra tempi.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Bb",
+    "Gm7",
+    "Ebadd9",
+    "%",
+    "Bb",
+    "Gm7",
+    "Ebadd9",
+    "%",
+    "Bb",
+    "Gm7",
+    "Ebadd9",
+    "%",
+    "Bb",
+    "Gm7",
+    "Ebadd9",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Pre-ritornello",
+   "bars": [
+    "Bb",
+    "Gm7",
+    "Cm7",
+    "Fsus4",
+    "Ebadd9",
+    "%",
+    "F",
+    "%"
+   ]
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "F",
+    "Bb",
+    "Gm7",
+    "Ebadd9",
+    "F",
+    "Bb",
+    "Gm7",
+    "Ebadd9",
+    "F",
+    "Bb",
+    "Gm7",
+    "Ebadd9"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Bb",
+    "Gm7",
+    "Ebadd9",
+    "%",
+    "Bb",
+    "Gm7",
+    "Ebadd9",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Pre-ritornello",
+   "bars": [
+    "Bb",
+    "Gm7",
+    "Cm7",
+    "Fsus4",
+    "Ebadd9",
+    "%",
+    "F",
+    "%"
+   ]
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "F",
+    "Bb",
+    "Gm7",
+    "Ebadd9",
+    "F",
+    "Bb",
+    "Gm7",
+    "Ebadd9",
+    "F",
+    "Bb",
+    "Gm7",
+    "Ebadd9",
+    "F",
+    "Bb",
+    "Gm7",
+    "Ebadd9"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ponte",
+   "bars": [
+    "Eb",
+    "Fsus4",
+    "Bb",
+    "Gm",
+    "Cm7",
+    "%",
+    "F",
+    "%"
+   ]
+  },
+  {
+   "name": "Ritornello finale",
+   "bars": [
+    "F",
+    "Bb",
+    "Gm7",
+    "Ebadd9",
+    "F",
+    "Bb",
+    "Gm7",
+    "Ebadd9"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Outro",
+   "bars": [
+    "Bb",
+    "F/A",
+    "Gm7",
+    "Ebadd9"
+   ]
+  }
+ ]
+}

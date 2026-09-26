@@ -1,5 +1,16 @@
 # Novità
 
+## 1.4.0 — 2026-09-26
+- Ingresso audio: cavo USB Rocksmith (Real Tone Cable) riconosciuto da solo, scelta del dispositivo,
+  guadagno, indicatore di livello, ascolto della chitarra in cuffia. Usato da accordatore e modalità ascolto.
+- 16 nuovi brani: Blanco, MACE/Blanco/Salmo, Pinguini Tattici Nucleari (2), Olly (2), Cesare Cremonini (2),
+  Rino Gaetano (2), Fedez con Francesca Michielin (2), Salmo, Ultimo, Måneskin, Calcutta.
+- Accordi di sesta (6) e add9 nelle diteggiature e nel riconoscimento.
+- Suggerimento del capotasto più prudente (non propone capotasti alti per brani già facili).
+- Libreria: i duetti compaiono sotto ogni artista.
+- Avvio locale con doppio clic (avvia.bat / avvia.command / avvia.sh) e guida INSTALLAZIONE.md.
+- tools/lrcgrid.py: analisi dei tempi LRCLIB per costruire nuovi brani.
+
 ## 1.3.0 — 2026-09-26
 - Modalità ascolto: riconoscimento dell'accordo suonato dal microfono, esito verde/rosso sul manico,
   precisione, serie e record per brano.

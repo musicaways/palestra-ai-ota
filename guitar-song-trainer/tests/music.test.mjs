@@ -56,3 +56,12 @@ test('il barrè di Gm viene riconosciuto', () => {
   const b = getShape('Gm').barres.find((x) => x.finger === 1);
   assert.deepEqual({ fret: b.fret, from: b.from, to: b.to }, { fret: 3, from: 0, to: 5 });
 });
+
+test('accordi di sesta e add9', () => {
+  const cases = { F6: ['F', 'A', 'C', 'D'], A6: ['A', 'C#', 'E', 'F#'], C6: ['C', 'E', 'G', 'A'], Ebadd9: ['Eb', 'G', 'Bb', 'F'], Dbadd9: ['Db', 'F', 'Ab', 'Eb'], Cadd9: ['C', 'E', 'G', 'D'], Eadd9: ['E', 'G#', 'B', 'F#'] };
+  for (const [name, notes] of Object.entries(cases)) {
+    const shape = getShape(name);
+    assert.ok(shape, name);
+    assert.deepEqual(notesOf(shape), set(...notes), name);
+  }
+});

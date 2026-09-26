@@ -1,0 +1,147 @@
+{
+ "title": "Magnifico",
+ "artist": "Fedez, Francesca Michielin",
+ "album": "Pop-Hoolista",
+ "year": 2014,
+ "genre": "Pop / Rap",
+ "difficulty": 1,
+ "youtubeId": "EEgCVNuGiTk",
+ "key": "Do maggiore (C)",
+ "bpm": 91.29,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.6,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 23848990,
+  "offset": 0
+ },
+ "notes": "Strofe rap su C – Fmaj7, ritornello C – Dm – F – Am – F – C – G. Tutti accordi aperti. Video: versione con testo (da verificare).",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. Se gli accordi sono in anticipo o in ritardo usa Sincronia; per l'allineamento perfetto Registra tempi.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "C",
+    "Fmaj7",
+    "C",
+    "Fmaj7"
+   ],
+   "barsPerRow": 2
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "C",
+    "Fmaj7",
+    "C",
+    "Fmaj7",
+    "C",
+    "Fmaj7",
+    "C",
+    "Fmaj7",
+    "C",
+    "Fmaj7",
+    "C",
+    "Fmaj7",
+    "C",
+    "Fmaj7",
+    "C",
+    "Fmaj7"
+   ],
+   "barsPerRow": 2
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "Dm",
+    "F",
+    "Am",
+    "F",
+    "C",
+    "G",
+    "%"
+   ]
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "C",
+    "Fmaj7",
+    "C",
+    "Fmaj7",
+    "C",
+    "Fmaj7",
+    "C",
+    "Fmaj7",
+    "C",
+    "Fmaj7",
+    "C",
+    "Fmaj7",
+    "C",
+    "Fmaj7",
+    "C",
+    "Fmaj7"
+   ],
+   "barsPerRow": 2
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "Dm",
+    "F",
+    "Am",
+    "F",
+    "C",
+    "G",
+    "%"
+   ]
+  },
+  {
+   "name": "Ponte",
+   "bars": [
+    "Am",
+    "Fmaj7",
+    "Am",
+    "Fmaj7",
+    "Am",
+    "Fmaj7",
+    "Am",
+    "Fmaj7"
+   ],
+   "barsPerRow": 2
+  },
+  {
+   "name": "Ritornello finale",
+   "bars": [
+    "C",
+    "Dm",
+    "F",
+    "Am",
+    "F",
+    "C",
+    "G",
+    "%"
+   ]
+  },
+  {
+   "name": "Outro",
+   "bars": [
+    "C",
+    "Fmaj7",
+    "Am",
+    "F",
+    "C",
+    "G",
+    "C",
+    "%"
+   ]
+  }
+ ]
+}

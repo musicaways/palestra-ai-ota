@@ -1,0 +1,187 @@
+{
+ "title": "Coraline",
+ "artist": "Måneskin",
+ "album": "Teatro d'ira - Vol. I",
+ "year": 2021,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "4o7_y6G3afk",
+ "key": "Re minore (Dm)",
+ "bpm": 80.47,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.74,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34773062,
+  "offset": 0
+ },
+ "notes": "Ballata che esplode nel finale: power chord (A5, G5) e Bbmaj7. Video da verificare.",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. Se gli accordi sono in anticipo o in ritardo usa Sincronia; per l'allineamento perfetto Registra tempi.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Dm",
+    "Gm",
+    "C/E",
+    "F",
+    "C/E",
+    "Dm",
+    "Dm",
+    "Gm",
+    "C/E",
+    "F",
+    "C/E",
+    "Dm"
+   ],
+   "barsPerRow": 6
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Gm",
+    "C/E",
+    "F",
+    "C/E",
+    "Dm",
+    "Gm",
+    "C/E",
+    "F",
+    "C/E",
+    "Dm"
+   ],
+   "barsPerRow": 5
+  },
+  {
+   "name": "Ponte",
+   "bars": [
+    "Bb",
+    "C",
+    "F",
+    "C/E",
+    "Dm",
+    "C",
+    "Bb",
+    "C"
+   ]
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Dm",
+    "Gm",
+    "C/E",
+    "F",
+    "C/E",
+    "Dm",
+    "Dm",
+    "Gm",
+    "C/E",
+    "F",
+    "C/E",
+    "Dm"
+   ],
+   "barsPerRow": 6
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Gm",
+    "C/E",
+    "F",
+    "C/E",
+    "Dm",
+    "Gm",
+    "C/E",
+    "F",
+    "C/E",
+    "Dm"
+   ],
+   "barsPerRow": 5
+  },
+  {
+   "name": "Ponte 2",
+   "bars": [
+    "Dm",
+    "Dm/A",
+    "Bbmaj7",
+    "G5",
+    "Dm",
+    "Dm/A",
+    "Bbmaj7",
+    "G5"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Sezione centrale",
+   "bars": [
+    "Dm",
+    "Dm/A",
+    "Bbmaj7",
+    "G5",
+    "A5",
+    "%",
+    "Dm",
+    "Dm/A",
+    "Bbmaj7",
+    "G5",
+    "A5",
+    "%"
+   ],
+   "barsPerRow": 6
+  },
+  {
+   "name": "Ponte 3",
+   "bars": [
+    "Dm",
+    "C",
+    "Am",
+    "Bb",
+    "Dm",
+    "C",
+    "Am",
+    "Bb",
+    "Dm",
+    "C",
+    "Am",
+    "Bb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "Dm",
+    "A5",
+    "Bbmaj7",
+    "G5",
+    "Dm",
+    "A5",
+    "Bbmaj7",
+    "G5",
+    "Dm",
+    "A5",
+    "Bbmaj7",
+    "G5",
+    "Dm",
+    "A5",
+    "Bbmaj7",
+    "G5"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Chiusura",
+   "bars": [
+    "Dm",
+    "%"
+   ]
+  }
+ ]
+}

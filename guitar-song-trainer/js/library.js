@@ -120,12 +120,15 @@ export function renderLibrary(root, songs) {
     return g;
   }
 
+  // keyFn può restituire più chiavi (duetti: il brano compare sotto ogni artista)
   function grouped(list, keyFn, favs, labelFn = (k) => k) {
     const groups = new Map();
     for (const s of list) {
-      const k = keyFn(s) ?? 'Altro';
-      if (!groups.has(k)) groups.set(k, []);
-      groups.get(k).push(s);
+      const keys = [keyFn(s) ?? 'Altro'].flat();
+      for (const k of keys) {
+        if (!groups.has(k)) groups.set(k, []);
+        groups.get(k).push(s);
+      }
     }
     const frag = document.createDocumentFragment();
     [...groups.keys()].sort((a, b) => String(a).localeCompare(String(b), 'it')).forEach((k) => {
@@ -162,11 +165,19 @@ export function renderLibrary(root, songs) {
       body.append(p);
       return;
     }
-    if (tab === 'artist') body.append(grouped(list, (s) => s.artist, favs));
+    if (tab === 'artist') body.append(grouped(list, (s) => splitArtists(s.artist), favs));
     else if (tab === 'genre') body.append(grouped(list, (s) => s.genre, favs));
     else if (tab === 'difficulty') body.append(grouped(list, (s) => s.difficulty, favs, (k) => DIFFICULTY[k] ?? k));
     else body.append(grid(list, favs));
   }
 
   draw();
+}
+
+// "MACE, Blanco, Salmo" / "Fedez feat. Francesca Michielin" → artisti singoli
+export function splitArtists(artist) {
+  return String(artist ?? '')
+    .split(/\s*(?:,|&|\bfeat\.?|\bft\.?|\be\b|\bcon\b|\bx\b)\s*/i)
+    .map((a) => a.trim())
+    .filter(Boolean);
 }

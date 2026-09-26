@@ -1,0 +1,170 @@
+{
+ "title": "Balorda nostalgia",
+ "artist": "Olly",
+ "album": "Tutta vita",
+ "year": 2025,
+ "genre": "Pop",
+ "difficulty": 3,
+ "youtubeId": "guIQwWgjATY",
+ "key": "Re bemolle maggiore (Db) / Si bemolle minore",
+ "bpm": 111.15,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.92,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 33612427,
+  "offset": 0
+ },
+ "notes": "Scritta con JVLI, vincitrice di Sanremo 2025. Tonalità con molti bemolle: il capotasto suggerito trasforma gli accordi in forme aperte.",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. Se gli accordi sono in anticipo o in ritardo usa Sincronia; per l'allineamento perfetto Registra tempi.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bbm",
+    "Gb",
+    "Db",
+    "Ab"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Dbmaj7",
+    "Gb",
+    "Ebm7",
+    "Ab",
+    "Dbmaj7",
+    "Gb",
+    "Ebm7",
+    "Ab",
+    "Dbmaj7",
+    "Gb",
+    "Ebm7",
+    "Ab"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Pre-ritornello",
+   "bars": [
+    "Ebm7",
+    "Db/F",
+    "Gb",
+    "%",
+    "Ebm7",
+    "Db/F",
+    "Ab",
+    "%"
+   ]
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Db",
+    "Bbm7",
+    "Ebm7",
+    "Ab",
+    "Db",
+    "Bbm7",
+    "Ebm7",
+    "Ab",
+    "Db",
+    "Bbm7",
+    "Ebm7",
+    "Ab"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Dbmaj7",
+    "Gb",
+    "Ebm7",
+    "Ab",
+    "Dbmaj7",
+    "Gb",
+    "Ebm7",
+    "Ab",
+    "Dbmaj7",
+    "Gb",
+    "Ebm7",
+    "Ab"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Pre-ritornello",
+   "bars": [
+    "Ebm7",
+    "Db/F",
+    "Gb",
+    "%",
+    "Ebm7",
+    "Db/F",
+    "Ab",
+    "%"
+   ]
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Db",
+    "Bbm7",
+    "Ebm7",
+    "Ab",
+    "Db",
+    "Bbm7",
+    "Ebm7",
+    "Ab",
+    "Db",
+    "Bbm7",
+    "Ebm7",
+    "Ab",
+    "Db",
+    "Bbm7",
+    "Ebm7",
+    "Ab"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ponte",
+   "bars": [
+    "Bbm",
+    "Gb",
+    "Db",
+    "Ab",
+    "Bbm",
+    "Gb",
+    "Db",
+    "Ab"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello finale",
+   "bars": [
+    "Db",
+    "Bbm7",
+    "Ebm7",
+    "Ab",
+    "Db",
+    "Bbm7",
+    "Ebm7",
+    "Ab",
+    "Db",
+    "Bbm7",
+    "Ebm7",
+    "Ab"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

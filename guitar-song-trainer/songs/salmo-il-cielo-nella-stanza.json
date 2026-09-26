@@ -1,0 +1,168 @@
+{
+ "title": "Il cielo nella stanza",
+ "artist": "Salmo, NSTASIA",
+ "album": "Playlist",
+ "year": 2018,
+ "genre": "Rap / Hip-hop",
+ "difficulty": 1,
+ "youtubeId": "HbfFG15Xd9U",
+ "key": "Si bemolle minore (Bbm)",
+ "bpm": 130.2,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 1,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.48,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 23209957,
+  "offset": 0
+ },
+ "notes": "Si suona col capotasto al 1° tasto: forme Am – C – Am – G nelle strofe, C – Em – F – Am – G nel ritornello. Accordi facilissimi.",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. Se gli accordi sono in anticipo o in ritardo usa Sincronia; per l'allineamento perfetto Registra tempi.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bbm",
+    "Db",
+    "Bbm",
+    "Ab",
+    "Bbm",
+    "Db",
+    "Bbm",
+    "Ab"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Bbm",
+    "Db",
+    "Bbm",
+    "Ab",
+    "Bbm",
+    "Db",
+    "Bbm",
+    "Ab",
+    "Bbm",
+    "Db",
+    "Bbm",
+    "Ab",
+    "Bbm",
+    "Db",
+    "Bbm",
+    "Ab",
+    "Bbm",
+    "Db",
+    "Bbm",
+    "Ab",
+    "Bbm",
+    "Db",
+    "Bbm",
+    "Ab",
+    "Bbm",
+    "Db",
+    "Bbm",
+    "Ab"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Db",
+    "Fm",
+    "Db",
+    "Fm",
+    "Gb",
+    "Bbm",
+    "Db",
+    "Ab",
+    "Db",
+    "Fm",
+    "Db",
+    "Fm"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Bbm",
+    "Db",
+    "Bbm",
+    "Ab",
+    "Bbm",
+    "Db",
+    "Bbm",
+    "Ab",
+    "Bbm",
+    "Db",
+    "Bbm",
+    "Ab",
+    "Bbm",
+    "Db",
+    "Bbm",
+    "Ab",
+    "Bbm",
+    "Db",
+    "Bbm",
+    "Ab",
+    "Bbm",
+    "Db",
+    "Bbm",
+    "Ab"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Db",
+    "Fm",
+    "Db",
+    "Fm",
+    "Gb",
+    "Bbm",
+    "Db",
+    "Ab",
+    "Db",
+    "Fm",
+    "Db",
+    "Fm"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Ponte",
+   "bars": [
+    "Bbm",
+    "Db",
+    "Bbm",
+    "Ab",
+    "Gb",
+    "Fm",
+    "Bbm",
+    "%"
+   ]
+  },
+  {
+   "name": "Outro",
+   "bars": [
+    "Db",
+    "Fm",
+    "Gb",
+    "Bbm",
+    "Db",
+    "Fm",
+    "Gb",
+    "Bbm"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

@@ -35,6 +35,8 @@ Funziona nel browser di **PC, tablet e telefono Android** e si può installare c
 - **Modalità ascolto** (stile Rocksmith): il microfono riconosce l'accordo che suoni; a ogni cambio il
   manico si illumina di verde o di rosso, con precisione, serie e record.
 - **Frecce della pennata** (↓ ↑) che scorrono sulla corsia a tempo.
+- **Cavo USB Rocksmith** (Real Tone Cable) o qualsiasi scheda audio: riconosciuto da solo, con guadagno,
+  indicatore di livello e ascolto della chitarra in cuffia (*Impostazioni → Ingresso audio*).
 - **Editor dei brani**: crea o modifica un brano dall'app (accordi scritti come testo, tap tempo,
   ricerca del testo su LRCLIB), provalo subito ed esporta il JSON. I brani creati hanno il badge *Tuo*.
 - **Libreria** con ricerca e schede *Tutti / Preferiti / Artisti / Generi / Difficoltà*.
@@ -47,6 +49,11 @@ Funziona nel browser di **PC, tablet e telefono Android** e si può installare c
 
 Scorciatoie da tastiera: `spazio` play/pausa · `←` `→` ±5 s · `[` `]` punti A/B · `L` loop ·
 `T` tap in registrazione.
+
+## Installazione in locale
+
+Guida passo passo in [`INSTALLAZIONE.md`](INSTALLAZIONE.md): estrai lo zip e fai doppio clic su
+`avvia.bat` (Windows), `avvia.command` (macOS) o `./avvia.sh` (Linux).
 
 ## Riprendere il progetto con un altro assistente AI
 

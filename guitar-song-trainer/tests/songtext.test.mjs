@@ -44,3 +44,13 @@ test('utilità', () => {
   assert.equal(tapTempo([0, 500, 1000, 1500, 2000]), 120);
   assert.equal(tapTempo([0, 500]), null);
 });
+
+test('artisti di duetti e featuring separati', async () => {
+  globalThis.localStorage ??= { getItem: () => null, setItem() {}, removeItem() {} };
+  const { splitArtists } = await import('../js/library.js');
+  assert.deepEqual(splitArtists('MACE, Blanco, Salmo'), ['MACE', 'Blanco', 'Salmo']);
+  assert.deepEqual(splitArtists('Fedez feat. Francesca Michielin'), ['Fedez', 'Francesca Michielin']);
+  assert.deepEqual(splitArtists('Olly & JVLI'), ['Olly', 'JVLI']);
+  assert.deepEqual(splitArtists('Pinguini Tattici Nucleari'), ['Pinguini Tattici Nucleari']);
+  assert.deepEqual(splitArtists('Salmo, NSTASIA'), ['Salmo', 'NSTASIA']);
+});

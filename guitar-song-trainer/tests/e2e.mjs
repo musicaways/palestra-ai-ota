@@ -39,8 +39,29 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   check(await page.locator('.group-title').count() >= 1, 'raggruppamento per artista');
   await shot('libreria');
 
+  // Tutti i brani della libreria si aprono senza errori
+  if (name === 'desktop') {
+    const ids = await page.evaluate(async () => (await (await fetch('songs/index.json')).json()).map((x) => x.id));
+    check(ids.length >= 17, `libreria con ${ids.length} brani`);
+    for (const id of ids) {
+      await page.goto(`${BASE}/#/song/${id}`);
+      await page.waitForSelector('.panel-tab[data-tab="chords"]', { timeout: 30000 });
+      await page.click('.panel-tab[data-tab="chords"]');
+      const bars = await page.locator('.sheet-bar').count();
+      const missing = await page.evaluate(() => document.querySelectorAll('.diagram-missing').length);
+      await page.click('.panel-tab[data-tab="shapes"]');
+      const noShape = await page.locator('.diagram-missing').count();
+      check(bars > 30 && noShape === 0, `${id}: ${bars} battute, diteggiature complete`);
+      await page.click('.panel-tab[data-tab="lyrics"]');
+    }
+    await page.goto(BASE);
+    await page.waitForSelector('.song-card');
+    await page.fill('.search', 'salmo');
+    await page.click('.tab[data-tab="artist"]');
+  }
+
   // Player
-  await page.locator('.song-card').first().click();
+  await page.locator('.song-card', { hasText: 'Cartine corte' }).first().click();
   await page.waitForSelector('.player');
   await page.waitForFunction(() => document.querySelector('.k-row')
     || (document.querySelector('.panel-empty') && !document.querySelector('.panel-empty').textContent.includes('Caricamento')), null, { timeout: 30000 });
@@ -130,6 +151,18 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   await page.click('[data-act="settings"]');
   await page.selectOption('.dlg-settings select[name="notation"]', 'intl');
   await page.click('.dlg-settings button[value="ok"]');
+
+  // Ingresso audio (microfono finto; il cavo Rocksmith viene scelto da solo se collegato)
+  await page.click('[data-act="settings"]');
+  await page.click('.dlg-settings [data-act="input"]');
+  await page.waitForSelector('.dlg-input .in-device');
+  await page.waitForTimeout(1200);
+  check(await page.locator('.dlg-input .in-device option').count() >= 1, 'ingresso audio: elenco dei dispositivi');
+  check((await page.textContent('.dlg-input .in-detected')).length > 0, `ingresso audio: ${await page.textContent('.dlg-input .in-detected')}`);
+  // il microfono finto di Chromium emette un bip al secondo: si aspetta il primo
+  const heard = await page.waitForFunction(() => (parseFloat(document.querySelector('.in-meter-fill').style.width) || 0) > 1, null, { timeout: 4000 }).then(() => true, () => false);
+  check(heard, 'ingresso audio: l\'indicatore di livello si muove');
+  await page.click('.dlg-input button[value="ok"]');
 
   // Capotasto: suggerito 3 → le forme diventano Em, Em/D, Cmaj7…
   await page.click('[data-act="capo"]');

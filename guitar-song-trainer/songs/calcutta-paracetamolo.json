@@ -1,0 +1,179 @@
+{
+ "title": "Paracetamolo",
+ "artist": "Calcutta",
+ "album": "Evergreen",
+ "year": 2018,
+ "genre": "Indie",
+ "difficulty": 2,
+ "youtubeId": "UW1DjnCBcSY",
+ "key": "Re maggiore (D) / Si minore",
+ "bpm": 143.56,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.25,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 2956134,
+  "offset": 0
+ },
+ "notes": "D – Bm – F#m – A7, due battute per accordo. F#m ha il barrè: in alternativa prova la versione ridotta (xx4222).",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. Se gli accordi sono in anticipo o in ritardo usa Sincronia; per l'allineamento perfetto Registra tempi.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "D",
+    "%",
+    "Bm",
+    "%",
+    "F#m",
+    "%",
+    "A7",
+    "%",
+    "D",
+    "%",
+    "Bm",
+    "%",
+    "F#m",
+    "%",
+    "A7",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    "%",
+    "Bm",
+    "%",
+    "F#m",
+    "%",
+    "D",
+    "%",
+    "Bm",
+    "%",
+    "F#m",
+    "%"
+   ],
+   "barsPerRow": 6
+  },
+  {
+   "name": "Ponte",
+   "bars": [
+    "Em7",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%",
+    "A7",
+    "%"
+   ]
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "D",
+    "%",
+    "Bm",
+    "%",
+    "F#m",
+    "%",
+    "A7",
+    "%",
+    "D",
+    "%",
+    "Bm",
+    "%",
+    "F#m",
+    "%",
+    "A7",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    "%",
+    "Bm",
+    "%",
+    "F#m",
+    "%",
+    "D",
+    "%",
+    "Bm",
+    "%",
+    "F#m",
+    "%"
+   ],
+   "barsPerRow": 6
+  },
+  {
+   "name": "Ponte",
+   "bars": [
+    "Em7",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%",
+    "A7",
+    "%"
+   ]
+  },
+  {
+   "name": "Ritornello finale",
+   "bars": [
+    "D",
+    "%",
+    "Bm",
+    "%",
+    "F#m",
+    "%",
+    "D",
+    "%",
+    "Bm",
+    "%",
+    "F#m",
+    "%",
+    "D",
+    "%",
+    "Bm",
+    "%",
+    "F#m",
+    "%",
+    "D",
+    "%",
+    "Bm",
+    "%",
+    "F#m",
+    "%"
+   ],
+   "barsPerRow": 6
+  },
+  {
+   "name": "Outro",
+   "bars": [
+    "D",
+    "%",
+    "Bm",
+    "%",
+    "F#m",
+    "%",
+    "D",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 8
+  }
+ ]
+}

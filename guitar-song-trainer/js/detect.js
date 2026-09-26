@@ -5,7 +5,7 @@ import { GuitarInput } from './input.js';
 
 const INTERVALS = {
   maj: [0, 4, 7], m: [0, 3, 7], '7': [0, 4, 7, 10], m7: [0, 3, 7, 10], maj7: [0, 4, 7, 11],
-  sus4: [0, 5, 7], sus2: [0, 2, 7], '7sus4': [0, 5, 7, 10], '5': [0, 7], dim: [0, 3, 6], aug: [0, 4, 8],
+  sus4: [0, 5, 7], sus2: [0, 2, 7], '7sus4': [0, 5, 7, 10], '5': [0, 7], dim: [0, 3, 6], aug: [0, 4, 8], '6': [0, 4, 7, 9], add9: [0, 2, 4, 7],
 };
 
 // Classi di nota di un accordo (null se non riconosciuto).

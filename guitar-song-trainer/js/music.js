@@ -36,6 +36,7 @@ const QUALITY_ALIASES = {
   '5': '5',
   dim: 'dim', '°': 'dim',
   aug: 'aug', '+': 'aug',
+  '6': '6', add9: 'add9', add2: 'add9',
 };
 
 export function parseChord(name) {
@@ -74,6 +75,8 @@ const EXPLICIT = {
   C: { frets: [n, 3, 2, 0, 1, 0], fingers: [0, 3, 2, 0, 1, 0] },
   C7: { frets: [n, 3, 2, 3, 1, 0], fingers: [0, 3, 2, 4, 1, 0] },
   Cmaj7: { frets: [n, 3, 2, 0, 0, 0], fingers: [0, 3, 2, 0, 0, 0] },
+  Cadd9: { frets: [n, 3, 2, 0, 3, 0], fingers: [0, 2, 1, 0, 3, 0] },
+  Gadd9: { frets: [3, 0, 0, 2, 0, 3], fingers: [2, 0, 0, 1, 0, 3] },
   D: { frets: [n, n, 0, 2, 3, 2], fingers: [0, 0, 0, 1, 3, 2] },
   Dm: { frets: [n, n, 0, 2, 3, 1], fingers: [0, 0, 0, 2, 3, 1] },
   D7: { frets: [n, n, 0, 2, 1, 2], fingers: [0, 0, 0, 2, 1, 3] },
@@ -111,6 +114,8 @@ const E_SHAPES = {
   '7sus4': { off: [0, 2, 0, 2, 0, 0], fingers: [1, 3, 1, 4, 1, 1] },
   '5': { off: [0, 2, 2, n, n, n], fingers: [1, 3, 4, 0, 0, 0] },
   aug: { off: [0, 3, 2, 1, 1, 0], fingers: [1, 4, 3, 2, 2, 1] },
+  '6': { off: [0, 2, 2, 1, 2, 0], fingers: [1, 3, 3, 2, 4, 1] },
+  add9: { off: [0, 2, 4, 1, 0, 0], fingers: [1, 2, 4, 3, 1, 1] },
 };
 const A_SHAPES = {
   maj: { off: [n, 0, 2, 2, 2, 0], fingers: [0, 1, 3, 3, 3, 1] },
@@ -123,6 +128,8 @@ const A_SHAPES = {
   '7sus4': { off: [n, 0, 2, 0, 3, 0], fingers: [0, 1, 3, 1, 4, 1] },
   '5': { off: [n, 0, 2, 2, n, n], fingers: [0, 1, 3, 4, 0, 0] },
   dim: { off: [n, 0, 1, 2, 1, n], fingers: [0, 1, 2, 4, 3, 0] },
+  '6': { off: [n, 0, 2, 2, 2, 2], fingers: [0, 1, 3, 3, 3, 3] },
+  add9: { off: [n, 0, 2, 4, 2, 0], fingers: [0, 1, 2, 4, 3, 1] },
 };
 
 function fromShape(shape, rootFret) {
@@ -244,7 +251,7 @@ export function suggestCapo(chordNames, custom) {
   let best = { capo: 0, score: Infinity };
   const scores = [];
   for (let c = 0; c <= 7; c++) {
-    const score = names.reduce((s, n) => s + shapeDifficulty(getShape(shapeNameWithCapo(n, c), c ? null : custom)), 0) + c * 0.15;
+    const score = names.reduce((s, n) => s + shapeDifficulty(getShape(shapeNameWithCapo(n, c), c ? null : custom)), 0) + c * 0.7 * Math.max(1, names.length / 4); // un capotasto alto conviene solo se aiuta davvero
     scores.push({ capo: c, score });
     if (score < best.score - 1e-9) best = { capo: c, score };
   }

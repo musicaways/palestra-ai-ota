@@ -19,6 +19,7 @@ Rocksmith, usabile su PC, tablet e telefono Android. Proprietario: `musicaways` 
   cambi accordo, conteggio d'attacco, metronomo, registrazione dei tempi a TAP.
 - Modalità ascolto: il microfono riconosce l'accordo suonato (chroma) e dà punteggio e serie.
 - Editor dei brani nell'app (formato testuale degli accordi), brani dell'utente salvati in locale.
+- Ingresso audio: microfono o **cavo USB Rocksmith (Real Tone Cable)**, riconosciuto da solo; guadagno e monitor in cuffia.
 - **I brani vengono aggiunti dall'AI su richiesta dell'utente, uno alla volta** (vedi sotto).
 
 ## Regole da rispettare sempre
@@ -60,6 +61,10 @@ js/detect.js          riconoscimento accordi: FFT, chroma, confronto con i model
 js/songtext.js        formato testuale degli accordi (parse/serializza), slug, ID YouTube, tap tempo
 js/usersongs.js       brani creati/modificati dall'utente (localStorage) e fusione con la libreria
 js/editor.js          pagina #/editor e #/editor/<id>
+js/input.js           ingresso audio condiviso (GuitarInput): dispositivo, cavo Rocksmith, guadagno, monitor
+tools/lrcgrid.py      analisi dei SOLI tempi LRCLIB: BPM ottimale, offset, blocchi e ritornelli
+avvia.bat / avvia.sh / avvia.command   avvio locale con doppio clic (Node.js o Python)
+INSTALLAZIONE.md      guida per l'utente: scaricare, avviare, collegare la chitarra
 js/store.js           localStorage con prefisso `gst:` e impostazioni
 js/icons.js           icone SVG in linea
 songs/index.json      elenco dei brani (metadati per la libreria)
@@ -89,8 +94,10 @@ Documentato nel README (sezione "Aggiungere un brano"). Punti chiave:
 1. Trova il video ufficiale su YouTube (ID dopo `watch?v=`).
 2. Ricava tonalità, BPM, metro e giro di accordi da fonti di accordi pubbliche (solo accordi, niente testo).
 3. Cerca il brano su LRCLIB: `https://lrclib.net/api/search?artist_name=…&track_name=…` e scegli
-   l'id la cui durata coincide col video. Usa **solo i timestamp** (mai il testo) per stimare
-   griglia e sezioni: gli intervalli fra le righe cantate rivelano la durata delle battute.
+   l'id della versione album (durata simile al video). Poi `python3 tools/lrcgrid.py <id> <bpm> <battiti>`:
+   usa **solo i timestamp** e dà BPM ottimale, `offset` e i blocchi cantati in battute (con i ritornelli
+   riconosciuti). Costruisci le sezioni su quei numeri di battute.
+   Regola pratica: un accordo per battuta se la battuta dura ≥ 2,2 s, altrimenti due battute per accordo.
 4. Scrivi `songs/<artista>-<titolo>.json` e aggiungi la voce in `songs/index.json`.
 5. Verifica con `npm test` (il test della timeline costruisce tutti i brani dell'indice) e aprendo
    il brano nel browser. Segnala all'utente che i tempi sono stimati finché non registra i TAP.
@@ -104,10 +111,19 @@ node tests/e2e.mjs http://localhost:8080   # test nel browser (serve Playwright 
 ```
 Nel test e2e YouTube è bloccato di proposito (si prova il clock di riserva); il microfono è finto.
 
-## Stato attuale (v1.3.0 — 2026-09-26)
+## Stato attuale (v1.4.0 — 2026-09-26)
 
-- Funziona tutto quanto descritto sopra; 34 test unitari e ~50 controlli e2e verdi (desktop + telefono).
-- **Brani in libreria**: 1 — Salmo, *Cartine corte* (RANCH, 2025). 3/4 a 95 BPM, griglia ricavata
+- Funziona tutto quanto descritto sopra; 38 test unitari e 110 controlli e2e verdi (desktop + telefono,
+  incluso: ogni brano della libreria si apre con tutte le diteggiature).
+- **Brani in libreria: 17.** Salmo (Cartine corte, Il cielo nella stanza), MACE/Blanco/Salmo (La canzone
+  nostra), Blanco (Notti in bianco), Pinguini Tattici Nucleari (Ringo Starr, Pastello bianco), Olly
+  (Balorda nostalgia, Per due come noi), Cesare Cremonini (Poetica, Marmellata #25), Rino Gaetano
+  (Ma il cielo è sempre più blu, Gianna), Fedez con Francesca Michielin (Chiamami per nome, Magnifico),
+  Ultimo (Pianeti), Måneskin (Coraline), Calcutta (Paracetamolo). Tutti: griglia da `tools/lrcgrid.py`,
+  accordi da fonti pubbliche (accordiespartiti.it, mbutozone.it, accordiindieesimili), BPM da
+  songbpm/tunebat. **Strutture e tempi stimati**; video di Magnifico e Coraline da verificare.
+  Scartati per dati poco affidabili: Brividi (Mahmood & Blanco), Soldi (Mahmood).
+- Primo brano: Salmo, *Cartine corte* (RANCH, 2025). 3/4 a 95 BPM, griglia ricavata
   dai tempi del cantato (una riga ogni 3,79 s = 2 battute). Giro Gm – Gm/F – Ebmaj7 – D7sus4 → D7,
   bridge G5 F5 Eb5 C5. Capotasto suggerito: 3 (Em – Em/D – Cmaj7 – B7). **Tempi dei cambi stimati,
   non ancora verificati sul video reale.**
@@ -147,13 +163,19 @@ Nel test e2e YouTube è bloccato di proposito (si prova il clock di riserva); il
   Poi v1.3.0: modalità ascolto (riconoscimento accordi dal microfono, punteggio e serie), frecce della
   pennata sulla corsia, editor dei brani con brani dell'utente e badge in libreria. Bug corretto: il
   punteggio dell'ascolto era nascosto sui telefoni.
+  Poi v1.4.0: cavo USB Rocksmith e scelta dell'ingresso audio, 16 nuovi brani, accordi 6 e add9,
+  suggerimento del capotasto più prudente, duetti raggruppati sotto ogni artista, avvio con doppio
+  clic e guida INSTALLAZIONE.md, strumento tools/lrcgrid.py.
 
 ## Prossimi passi (idee in ordine di utilità)
 
 1. Spostare il progetto in un repo dedicato e pubblicarlo (Vercel o GitHub Pages).
 2. Verificare *Cartine corte* sul video reale e salvare i tempi `sync` registrati dall'utente.
 3. Aggiungere i brani che l'utente chiede, uno alla volta, con la procedura sopra.
-4. Tarare la modalità ascolto con una chitarra vera (soglie, latenza del microfono).
+4. Tarare la modalità ascolto con una chitarra vera (soglie, latenza del microfono; col cavo
+   Rocksmith il segnale è pulito e forse si possono alzare le soglie).
+4b. Verificare sul video reale offset e strutture dei 17 brani e salvare i tempi `sync`.
+4c. Miniature dei brani offline (oggi arrivano da YouTube) e ordinamento per popolarità.
 5. Tablature per riff e intro (note singole oltre agli accordi).
 6. Importare nell'editor gli accordi da testo incollato (formato "accordi sopra le parole").
 7. Sincronizzare i brani dell'utente fra dispositivi (oggi sono solo nel browser).

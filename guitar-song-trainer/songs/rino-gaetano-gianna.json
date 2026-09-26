@@ -1,0 +1,177 @@
+{
+ "title": "Gianna",
+ "artist": "Rino Gaetano",
+ "album": "Nuntereggae più",
+ "year": 1978,
+ "genre": "Cantautori",
+ "difficulty": 1,
+ "youtubeId": "laIH5AQqeH0",
+ "key": "La maggiore (A)",
+ "bpm": 106.37,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.93,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37127275,
+  "offset": 0
+ },
+ "notes": "Tre accordi per tutto il brano: A – D – E. Ottimo per allenare i cambi e la pennata.",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. Se gli accordi sono in anticipo o in ritardo usa Sincronia; per l'allineamento perfetto Registra tempi.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "A",
+    "D",
+    "E",
+    "%",
+    "A",
+    "D",
+    "E",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "A",
+    "D",
+    "E",
+    "%",
+    "A",
+    "D",
+    "E",
+    "%",
+    "A",
+    "D",
+    "E",
+    "%",
+    "A",
+    "D",
+    "E",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "A",
+    "D",
+    "E",
+    "A",
+    "D",
+    "E",
+    "A",
+    "%"
+   ]
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "A",
+    "D",
+    "E",
+    "%",
+    "A",
+    "D",
+    "E",
+    "%",
+    "A",
+    "D",
+    "E",
+    "%",
+    "A",
+    "D",
+    "E",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "A",
+    "D",
+    "E",
+    "A",
+    "D",
+    "E",
+    "A",
+    "%"
+   ]
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "A",
+    "D",
+    "E",
+    "%",
+    "A",
+    "D",
+    "E",
+    "%",
+    "A",
+    "D",
+    "E",
+    "%",
+    "A",
+    "D",
+    "E",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello finale",
+   "bars": [
+    "A",
+    "D",
+    "E",
+    "A",
+    "D",
+    "E",
+    "A",
+    "%",
+    "A",
+    "D",
+    "E",
+    "A",
+    "D",
+    "E",
+    "A",
+    "%",
+    "A",
+    "D",
+    "E",
+    "A",
+    "D",
+    "E",
+    "A",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Outro",
+   "bars": [
+    "A",
+    "D",
+    "E",
+    "%",
+    "A",
+    "D",
+    "E",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}
