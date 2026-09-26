@@ -5,7 +5,7 @@
  "year": 1970,
  "genre": "Rock",
  "difficulty": 4,
- "youtubeId": "CGj85pVzRJs",
+ "youtubeId": "5AnNkJ_VK9E",
  "key": "C",
  "bpm": 73.6,
  "timeSignature": [
@@ -14,11 +14,11 @@
  ],
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
- "offset": 0.0,
- "strum": "D-DU-UDU",
+ "offset": 0,
+ "strum": "P-P-D-DU",
  "lyricsSource": {
   "lrclibId": 37014528,
-  "duration": 243.0,
+  "duration": 243,
   "offset": 0
  },
  "notes": "Accordi principali: C – G – F – Am – Fmaj7 – F6.",
@@ -31,7 +31,8 @@
     "G",
     "Am",
     "G"
-   ]
+   ],
+   "strum": "D---D---"
   },
   {
    "name": "Strofa 1",
@@ -195,5 +196,6 @@
    ],
    "barsPerRow": 4
   }
- ]
+ ],
+ "strumSource": "stima"
 }

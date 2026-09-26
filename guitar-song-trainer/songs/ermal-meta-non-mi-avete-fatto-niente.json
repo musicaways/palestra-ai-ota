@@ -29,7 +29,8 @@
    "bars": [
     "D#m",
     "%"
-   ]
+   ],
+   "strum": "D---D-DU"
   },
   {
    "name": "Strofa 1",
@@ -229,5 +230,6 @@
    74,
    200.28
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

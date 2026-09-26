@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.89,
- "strum": "D-DU-UDU",
+ "strum": "D--UD-DU",
  "lyricsSource": {
   "lrclibId": 37292182,
   "duration": 261,
@@ -48,7 +48,8 @@
     "Bm7",
     "A4"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D---"
   },
   {
    "name": "Strofa 1",
@@ -97,7 +98,8 @@
     ],
     "A"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
   },
   {
    "name": "Strofa 2",
@@ -181,7 +183,8 @@
     ],
     "A"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
   },
   {
    "name": "Strofa 4",
@@ -268,7 +271,8 @@
     ],
     "A"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
   },
   {
    "name": "Strofa 7",
@@ -298,7 +302,8 @@
     "Gadd9",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
   }
  ],
  "warp": [
@@ -394,5 +399,6 @@
    142,
    248.55
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

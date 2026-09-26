@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 1.85,
- "strum": "D-DU-UDU",
+ "strum": "D-DUXUDU",
  "lyricsSource": {
   "lrclibId": 27964647,
   "duration": 269,
@@ -90,7 +90,8 @@
     ],
     "Bbm7"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-------"
   },
   {
    "name": "Strofa 1",
@@ -356,5 +357,6 @@
    122,
    235.764
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

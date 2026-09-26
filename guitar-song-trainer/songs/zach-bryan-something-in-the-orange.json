@@ -58,7 +58,8 @@
     "Em7",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
   },
   {
    "name": "Strofa 1",
@@ -120,7 +121,8 @@
     "Em7",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Ritornello",
@@ -148,7 +150,8 @@
     "Em",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Strofa 2",
@@ -252,5 +255,6 @@
    106,
    216.175
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

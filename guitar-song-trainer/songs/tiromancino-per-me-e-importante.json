@@ -45,7 +45,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
   },
   {
    "name": "Strofa 1",
@@ -243,7 +244,8 @@
     "Cmaj7",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
   }
  ],
  "warp": [
@@ -319,5 +321,6 @@
    142,
    247.306
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

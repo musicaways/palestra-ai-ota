@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.25,
- "strum": "D-DU-UDU",
+ "strum": "D-D-D-DUD-D-D-DU",
  "lyricsSource": {
   "lrclibId": 2956134,
   "duration": 178,
@@ -226,5 +226,6 @@
    47,
    157.254
   ]
- ]
+ ],
+ "strumSource": "ultimate-guitar"
 }

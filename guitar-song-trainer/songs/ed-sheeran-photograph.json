@@ -38,7 +38,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
   },
   {
    "name": "Strofa 1",
@@ -104,7 +105,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Ritornello",
@@ -126,7 +128,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Ritornello",
@@ -156,7 +159,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Strofa 2",
@@ -260,5 +264,6 @@
    111,
    248.01
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

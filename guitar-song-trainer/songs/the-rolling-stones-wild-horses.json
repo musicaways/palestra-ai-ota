@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.98,
- "strum": "D-DU-UDU",
+ "strum": "PPPPPPPP",
  "lyricsSource": {
   "lrclibId": 37157649,
   "duration": 344,
@@ -47,7 +47,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
   },
   {
    "name": "Intro (2)",
@@ -81,7 +82,8 @@
     "Bm",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
   },
   {
    "name": "Intro (3)",
@@ -116,7 +118,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
   },
   {
    "name": "Strofa 1",
@@ -201,7 +204,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
   },
   {
    "name": "Strofa 2",
@@ -289,7 +293,8 @@
     "Bm",
     "Am7"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
   },
   {
    "name": "Strofa 3",
@@ -351,7 +356,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
   }
  ],
  "warp": [
@@ -467,5 +473,6 @@
    185,
    328.279
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

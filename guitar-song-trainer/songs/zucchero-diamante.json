@@ -5,7 +5,7 @@
  "year": 1989,
  "genre": "Rock / Blues",
  "difficulty": 4,
- "youtubeId": "7CfB-jFxWuQ",
+ "youtubeId": "80pf0Y-QE8g",
  "key": "Bb",
  "bpm": 55.4,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 2.57,
- "strum": "D-DU-UDU",
+ "strum": "D-DUUDD-",
  "lyricsSource": {
   "lrclibId": 37224011,
   "duration": 350,
@@ -229,5 +229,6 @@
    76,
    331.73
   ]
- ]
+ ],
+ "strumSource": "ultimate-guitar"
 }

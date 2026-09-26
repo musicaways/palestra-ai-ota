@@ -5,7 +5,7 @@
  "year": 1991,
  "genre": "Rock",
  "difficulty": 3,
- "youtubeId": "k04tX2fvh0o",
+ "youtubeId": "UcCNj3q79Ic",
  "key": "D",
  "bpm": 66.22,
  "timeSignature": [
@@ -36,7 +36,8 @@
     "G5",
     "D"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
   },
   {
    "name": "Strofa 1",
@@ -367,5 +368,6 @@
    86,
    314.147
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

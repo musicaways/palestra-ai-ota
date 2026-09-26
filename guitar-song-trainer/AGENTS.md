@@ -184,7 +184,7 @@ Richieste dell'utente (dopo aver provato l'app in locale con Codex): avvio lento
 pennate e arpeggi tutti uguali, la Base non rispetta il brano, karaoke parola per parola.
 - **Avvio**: da 10–24 s a ~0,2 s. Cause: `openPlayer` aspettava YouTube (timeout 10+15 s) e il CSS di Google Fonts
   bloccava il disegno. Ora SwitchClock parte con FreeClock e aggancia la sorgente quando è pronta; font non bloccante.
-- **Video**: videocheck su tutti i brani; ~90 video bloccati (quasi tutti errore 150, video ufficiali delle etichette)
+- **Video**: videocheck su tutti i brani; 106 video bloccati (quasi tutti errore 150, video ufficiali delle etichette)
   sostituiti con versioni incorporabili della stessa durata. Restano senza alternativa: Ringo Starr, Marmellata #25,
   Nel blu dipinto di blu, Demons, Com'è profondo il mare, Morirò da re, Al di là dell'amore, Pezzo di me, Roxanne,
   Esseri umani, Il campione → per questi l'app propone il file audio. Tolto un brano doppio (blanco-mi-fai-impazzire).

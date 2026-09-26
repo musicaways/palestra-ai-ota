@@ -5,7 +5,7 @@
  "year": 2021,
  "genre": "Pop",
  "difficulty": 3,
- "youtubeId": "EA58w_cxAAg",
+ "youtubeId": "d_HZbLc7xsU",
  "key": "Fa diesis minore (F#m) / La maggiore",
  "bpm": 112.92,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.28,
- "strum": "D-DU-UDU",
+ "strum": "D-DUXUDU",
  "lyricsSource": {
   "lrclibId": 21361371,
   "duration": 207,
@@ -31,7 +31,8 @@
     "A",
     "Dmaj7",
     "C#m7"
-   ]
+   ],
+   "strum": "D-------"
   },
   {
    "name": "Strofa 1",
@@ -67,7 +68,8 @@
     "Dmaj7",
     "C#m7"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Strofa 2",
@@ -111,7 +113,8 @@
     "Dmaj7",
     "C#m7"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Ponte",
@@ -133,7 +136,8 @@
     "Dmaj7",
     "C#m7"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
   },
   {
    "name": "Ritornello finale",
@@ -155,7 +159,8 @@
     "Dmaj7",
     "C#m7"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Outro",
@@ -167,7 +172,8 @@
     "Dmaj7",
     "C#m7"
    ],
-   "barsPerRow": 2
+   "barsPerRow": 2,
+   "strum": "D-------"
   }
  ],
  "warp": [
@@ -247,5 +253,6 @@
    93,
    197.901
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

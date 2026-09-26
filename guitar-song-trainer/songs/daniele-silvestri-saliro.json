@@ -5,7 +5,7 @@
  "year": 2002,
  "genre": "Cantautori",
  "difficulty": 5,
- "youtubeId": "SH_xyi_EdMc",
+ "youtubeId": "k--3k72YffE",
  "key": "B7",
  "bpm": 126.12,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.61,
- "strum": "D-DU-UDU",
+ "strum": "D--UDUDU",
  "lyricsSource": {
   "lrclibId": 36928917,
   "duration": 237,
@@ -36,7 +36,8 @@
     "G",
     "C"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-------"
   },
   {
    "name": "Strofa 1",
@@ -372,5 +373,6 @@
    123,
    234.662
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

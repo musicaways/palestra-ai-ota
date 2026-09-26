@@ -5,7 +5,7 @@
  "year": 1991,
  "genre": "Rock",
  "difficulty": 5,
- "youtubeId": "pkcJEvMcnEg",
+ "youtubeId": "LYfnBsaTVEo",
  "key": "B5",
  "bpm": 123.31,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.88,
- "strum": "D-DU-UDU",
+ "strum": "PPPPDDDD",
  "lyricsSource": {
   "lrclibId": 36996897,
   "duration": 257,
@@ -31,7 +31,8 @@
     "Gm",
     "Cm",
     "Ab"
-   ]
+   ],
+   "strum": "DDDDDDDD"
   },
   {
    "name": "Strofa 1",
@@ -651,5 +652,6 @@
    124,
    242.15
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

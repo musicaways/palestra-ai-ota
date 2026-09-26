@@ -5,7 +5,7 @@
  "year": 1973,
  "genre": "Cantautori",
  "difficulty": 3,
- "youtubeId": "kseKsFaLAwQ",
+ "youtubeId": "-q8q121MVE4",
  "key": "G",
  "bpm": 114.1,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.95,
- "strum": "D-DU-UDU",
+ "strum": "D--UDUDU",
  "lyricsSource": {
   "lrclibId": 36976475,
   "duration": 226,
@@ -103,7 +103,8 @@
     "Bm",
     "C"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Strofa 3",
@@ -176,7 +177,8 @@
     "G",
     "Em"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Ritornello",
@@ -198,7 +200,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   }
  ],
  "warp": [
@@ -258,5 +261,6 @@
    98,
    206.89
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

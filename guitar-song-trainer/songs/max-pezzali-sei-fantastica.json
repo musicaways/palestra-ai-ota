@@ -29,7 +29,8 @@
    "bars": [
     "G",
     "C"
-   ]
+   ],
+   "strum": "D---D-DU"
   },
   {
    "name": "Parte 2",
@@ -252,5 +253,6 @@
    55,
    164.998
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

@@ -30,7 +30,8 @@
     "C#m",
     "F#m7",
     "A"
-   ]
+   ],
+   "strum": "D---D-DU"
   },
   {
    "name": "Parte 2",
@@ -434,5 +435,6 @@
    90,
    227.75
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

@@ -5,7 +5,7 @@
  "year": 2019,
  "genre": "Pop",
  "difficulty": 3,
- "youtubeId": "C6sDLa9XO3U",
+ "youtubeId": "gKhkeuogQmQ",
  "key": "C",
  "bpm": 105.15,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.21,
- "strum": "D-DU-UDU",
+ "strum": "D--UD-DU",
  "lyricsSource": {
   "lrclibId": 36936093,
   "duration": 248,
@@ -83,7 +83,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
   },
   {
    "name": "Strofa 3",
@@ -128,7 +129,8 @@
     ],
     "G"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
   },
   {
    "name": "Ritornello",
@@ -155,7 +157,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
   },
   {
    "name": "Ritornello",
@@ -172,7 +175,8 @@
     ],
     "G"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
   },
   {
    "name": "Strofa 4",
@@ -214,7 +218,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D---"
   }
  ],
  "warp": [
@@ -306,5 +311,6 @@
    100,
    228.615
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

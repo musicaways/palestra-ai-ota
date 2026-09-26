@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 1.47,
- "strum": "D-DU-UDU",
+ "strum": "D-DUXUDU",
  "lyricsSource": {
   "lrclibId": 36637579,
   "duration": 215,
@@ -36,7 +36,8 @@
     "A",
     "G#7"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-------"
   },
   {
    "name": "Strofa 1",
@@ -135,7 +136,8 @@
     ],
     "A"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
   },
   {
    "name": "Strofa 3",
@@ -197,7 +199,8 @@
     "%",
     "B"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
   }
  ],
  "warp": [
@@ -261,5 +264,6 @@
    79,
    203.404
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

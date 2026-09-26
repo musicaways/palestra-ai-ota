@@ -5,7 +5,7 @@
  "year": 1975,
  "genre": "Cantautori",
  "difficulty": 1,
- "youtubeId": "rfaihaFlcSg",
+ "youtubeId": "4QkNXFIO2A8",
  "key": "Re maggiore (D)",
  "bpm": 145.67,
  "timeSignature": [
@@ -357,5 +357,6 @@
    160,
    264.105
   ]
- ]
+ ],
+ "strumSource": "ultimate-guitar"
 }

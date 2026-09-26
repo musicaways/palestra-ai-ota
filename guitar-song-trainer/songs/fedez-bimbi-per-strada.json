@@ -5,7 +5,7 @@
  "year": 2021,
  "genre": "Pop / Rap",
  "difficulty": 4,
- "youtubeId": "DAeIptt4w_k",
+ "youtubeId": "OzQNkcxbIdo",
  "key": "Bbm",
  "bpm": 133.83,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.76,
- "strum": "D-DU-UDU",
+ "strum": "D--D--D-",
  "lyricsSource": {
   "lrclibId": 36493040,
   "duration": 201,
@@ -31,7 +31,8 @@
     "Bbm",
     "Fm",
     "Db"
-   ]
+   ],
+   "strum": "D-------"
   },
   {
    "name": "Strofa 1",
@@ -307,5 +308,6 @@
    107,
    192.62
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

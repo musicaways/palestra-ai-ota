@@ -30,7 +30,8 @@
     "Db",
     "Eb7",
     "Ab"
-   ]
+   ],
+   "strum": "D---D-DU"
   },
   {
    "name": "Strofa 1",
@@ -124,7 +125,8 @@
     "Ab",
     "Fm"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Ritornello",
@@ -199,7 +201,8 @@
     "Eb",
     "Db"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Strofa 2",
@@ -295,5 +298,6 @@
    62,
    218.822
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

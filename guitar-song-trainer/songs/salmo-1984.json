@@ -5,7 +5,7 @@
  "year": 2016,
  "genre": "Rap / Hip-hop",
  "difficulty": 1,
- "youtubeId": "tyU_n_5tQww",
+ "youtubeId": "ZWkV9859sew",
  "key": "Gm",
  "bpm": 89.74,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 2.4,
- "strum": "D-DU-UDU",
+ "strum": "D---D-DU",
  "lyricsSource": {
   "lrclibId": 10392003,
   "duration": 258,
@@ -238,5 +238,6 @@
    91,
    246.14
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

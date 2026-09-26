@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 1.73,
- "strum": "D-DU-UDU",
+ "strum": "B-DU-UDU",
  "lyricsSource": {
   "lrclibId": 37459738,
   "duration": 169,
@@ -74,7 +74,8 @@
     ],
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
   },
   {
    "name": "Ritornello",
@@ -123,7 +124,8 @@
     ],
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
   },
   {
    "name": "Ritornello",
@@ -175,7 +177,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
   }
  ],
  "warp": [
@@ -227,5 +230,6 @@
    52,
    146.69
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

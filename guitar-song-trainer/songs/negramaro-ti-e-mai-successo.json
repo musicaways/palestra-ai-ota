@@ -5,7 +5,7 @@
  "year": 2017,
  "genre": "Pop / Rock",
  "difficulty": 4,
- "youtubeId": "iBt9lALNPvc",
+ "youtubeId": "rGuoMpSO1bY",
  "key": "D",
  "bpm": 122.34,
  "timeSignature": [
@@ -41,7 +41,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
   },
   {
    "name": "Parte 2",
@@ -330,5 +331,6 @@
    141,
    278.223
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

@@ -31,7 +31,8 @@
     "G7",
     "F",
     "Bb"
-   ]
+   ],
+   "strum": "D---D-DU"
   },
   {
    "name": "Strofa 1",
@@ -246,5 +247,6 @@
    42,
    168.787
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

@@ -5,7 +5,7 @@
  "year": 1984,
  "genre": "Cantautori",
  "difficulty": 4,
- "youtubeId": "xNqYuHLhOHg",
+ "youtubeId": "V5hhhqyUOiQ",
  "key": "Am7/E",
  "bpm": 81.31,
  "timeSignature": [
@@ -15,10 +15,10 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.43,
- "strum": "D-DU-UDU",
+ "strum": "B-D-B-DU",
  "lyricsSource": {
   "lrclibId": 37170782,
-  "duration": 291.0,
+  "duration": 291,
   "offset": 0
  },
  "notes": "Accordi principali: Bb/A – Am7/E – Am7 – Dm7 – F – Bb.",
@@ -112,7 +112,8 @@
      "Gm7:2"
     ]
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
   },
   {
    "name": "Strofa 2",
@@ -187,7 +188,8 @@
     "Am7",
     "Dm7"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
   },
   {
    "name": "Strofa 3",
@@ -388,5 +390,6 @@
    ],
    "barsPerRow": 4
   }
- ]
+ ],
+ "strumSource": "stima"
 }

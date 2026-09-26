@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 3.51,
- "strum": "D-DU-UDU",
+ "strum": "D-D-D-DU",
  "lyricsSource": {
   "lrclibId": 37006007,
   "duration": 245,
@@ -113,7 +113,8 @@
     "A#m",
     "F#"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Ritornello",
@@ -223,7 +224,8 @@
     "F#",
     "G#"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   }
  ],
  "warp": [
@@ -275,5 +277,6 @@
    62,
    237.4
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

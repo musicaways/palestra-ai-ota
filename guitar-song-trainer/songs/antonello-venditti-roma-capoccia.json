@@ -46,7 +46,8 @@
     "C#m",
     "F#m"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
   },
   {
    "name": "Parte 2",
@@ -272,5 +273,6 @@
    94,
    248.479
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

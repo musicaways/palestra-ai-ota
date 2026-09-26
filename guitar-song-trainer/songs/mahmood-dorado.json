@@ -5,7 +5,7 @@
  "year": 2019,
  "genre": "Pop",
  "difficulty": 4,
- "youtubeId": "ErRvGyRcznI",
+ "youtubeId": "vuz0OdYtaT8",
  "key": "F#m",
  "bpm": 98.44,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.88,
- "strum": "D-DU-UDU",
+ "strum": "D-DUXUDU",
  "lyricsSource": {
   "lrclibId": 35899999,
   "duration": 178,
@@ -29,7 +29,8 @@
    "bars": [
     "F#m",
     "%"
-   ]
+   ],
+   "strum": "D-------"
   },
   {
    "name": "Strofa 1",
@@ -232,5 +233,6 @@
    69,
    169.23
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

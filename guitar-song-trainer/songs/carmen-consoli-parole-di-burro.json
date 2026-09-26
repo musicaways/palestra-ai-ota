@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 1.57,
- "strum": "D-DU-UDU",
+ "strum": "PPPPPPPP",
  "lyricsSource": {
   "lrclibId": 33877446,
   "duration": 243.0,
@@ -44,7 +44,8 @@
     "%",
     "G#m7"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
   },
   {
    "name": "Strofa 1",
@@ -145,7 +146,8 @@
     "F#m7",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
   },
   {
    "name": "Ritornello",
@@ -158,7 +160,8 @@
     "F#m7",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
   },
   {
    "name": "Strofa 5",
@@ -243,5 +246,6 @@
    ],
    "barsPerRow": 4
   }
- ]
+ ],
+ "strumSource": "stima"
 }

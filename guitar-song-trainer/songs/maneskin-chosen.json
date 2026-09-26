@@ -5,7 +5,7 @@
  "year": 2017,
  "genre": "Rock",
  "difficulty": 4,
- "youtubeId": "d22ueuFfGak",
+ "youtubeId": "U2TIuyyJqgI",
  "key": "Bm",
  "bpm": 110.3,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 2.15,
- "strum": "D-DU-UDU",
+ "strum": "P-P-D-DU",
  "lyricsSource": {
   "lrclibId": 34495402,
   "duration": 160,
@@ -97,7 +97,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Strofa 3",
@@ -185,7 +186,8 @@
     "C#7",
     "F#m"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   }
  ],
  "warp": [
@@ -357,5 +359,6 @@
    71,
    156.78
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

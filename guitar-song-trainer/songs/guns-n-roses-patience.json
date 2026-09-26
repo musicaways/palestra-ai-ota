@@ -5,7 +5,7 @@
  "year": 1988,
  "genre": "Rock",
  "difficulty": 4,
- "youtubeId": "ErvgV4P6Fzc",
+ "youtubeId": "2v0X5DXJZPM",
  "key": "F#",
  "bpm": 60.84,
  "timeSignature": [
@@ -84,7 +84,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
   },
   {
    "name": "Ritornello",
@@ -156,7 +157,8 @@
     ],
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
   },
   {
    "name": "Strofa 2",
@@ -237,5 +239,6 @@
    84,
    333.06
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

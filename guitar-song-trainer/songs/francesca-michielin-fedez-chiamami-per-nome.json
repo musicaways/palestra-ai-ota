@@ -5,7 +5,7 @@
  "year": 2021,
  "genre": "Pop / Rap",
  "difficulty": 3,
- "youtubeId": "F92zPP2FbwE",
+ "youtubeId": "6jvQS47IEXI",
  "key": "Sol minore (Gm)",
  "bpm": 90.55,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 1.69,
- "strum": "D-DU-UDU",
+ "strum": "B--D-UD-",
  "lyricsSource": {
   "lrclibId": 9955609,
   "offset": 0
@@ -30,7 +30,8 @@
     "Ebmaj7",
     "Bb",
     "F"
-   ]
+   ],
+   "strum": "B-------"
   },
   {
    "name": "Strofa 1",
@@ -79,7 +80,8 @@
     "Bb",
     "F"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUXUDU"
   },
   {
    "name": "Strofa 2",
@@ -124,7 +126,8 @@
     "Bb",
     "F"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUXUDU"
   },
   {
    "name": "Ponte",
@@ -135,7 +138,8 @@
     "Dm",
     "Gm",
     "%"
-   ]
+   ],
+   "strum": "D--D--D-"
   },
   {
    "name": "Ritornello finale",
@@ -153,7 +157,8 @@
     "Bb",
     "F"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUXUDU"
   },
   {
    "name": "Outro",
@@ -162,7 +167,8 @@
     "F",
     "Gm",
     "%"
-   ]
+   ],
+   "strum": "B-------"
   }
  ],
  "warp": [
@@ -238,5 +244,6 @@
    80,
    213.411
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

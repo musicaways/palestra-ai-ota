@@ -5,7 +5,7 @@
  "year": 1992,
  "genre": "Rock",
  "difficulty": 3,
- "youtubeId": "mGgMZpGYiy8",
+ "youtubeId": "X2FbOVWPp9g",
  "key": "D",
  "bpm": 67.88,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 1.2,
- "strum": "D-DU-UDU",
+ "strum": "P-P-D-DU",
  "lyricsSource": {
   "lrclibId": 37469847,
   "duration": 215,
@@ -36,7 +36,8 @@
     "D",
     "A"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D---"
   },
   {
    "name": "Strofa 1",
@@ -244,5 +245,6 @@
    49,
    174.406
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

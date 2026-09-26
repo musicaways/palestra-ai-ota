@@ -5,7 +5,7 @@
  "year": 2024,
  "genre": "Pop",
  "difficulty": 2,
- "youtubeId": "nVa0GPeuVk4",
+ "youtubeId": "M021mR-97yU",
  "key": "Si bemolle maggiore (Bb)",
  "bpm": 98.03,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 3,
  "tuning": "Standard (E A D G B E)",
  "offset": 1.93,
- "strum": "D-DU-UDU",
+ "strum": "D--UD-DU",
  "lyricsSource": {
   "lrclibId": 34668773,
   "offset": 0
@@ -74,7 +74,8 @@
     "Gm7",
     "Ebadd9"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
   },
   {
    "name": "Strofa 2",
@@ -123,7 +124,8 @@
     "Gm7",
     "Ebadd9"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
   },
   {
    "name": "Ponte",
@@ -136,7 +138,8 @@
     "%",
     "F",
     "%"
-   ]
+   ],
+   "strum": "D-D-D-DU"
   },
   {
    "name": "Ritornello finale",
@@ -150,7 +153,8 @@
     "Gm7",
     "Ebadd9"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
   },
   {
    "name": "Outro",
@@ -159,7 +163,8 @@
     "F/A",
     "Gm7",
     "Ebadd9"
-   ]
+   ],
+   "strum": "D---D---"
   }
  ],
  "warp": [
@@ -235,5 +240,6 @@
    82,
    203.188
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

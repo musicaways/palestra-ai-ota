@@ -5,7 +5,7 @@
  "year": 1993,
  "genre": "Rock",
  "difficulty": 5,
- "youtubeId": "UI7lFaF_owk",
+ "youtubeId": "DeK8IeGHA88",
  "key": "D",
  "bpm": 65.17,
  "timeSignature": [
@@ -18,7 +18,7 @@
  "strum": "D-DU-UDU",
  "lyricsSource": {
   "lrclibId": 34600797,
-  "duration": 331.0,
+  "duration": 331,
   "offset": 0
  },
  "notes": "Accordi principali: D – A – F#m7 – G – E – Bm7.",
@@ -159,5 +159,6 @@
    ],
    "barsPerRow": 4
   }
- ]
+ ],
+ "strumSource": "stima"
 }

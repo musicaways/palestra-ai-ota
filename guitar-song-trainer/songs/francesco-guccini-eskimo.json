@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 3.16,
- "strum": "D-DU-UDU",
+ "strum": "B---D-DU",
  "lyricsSource": {
   "lrclibId": 36443760,
   "duration": 457,
@@ -110,7 +110,8 @@
     "F",
     "G"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
   },
   {
    "name": "Ritornello (1)",
@@ -189,7 +190,8 @@
      "C:1"
     ]
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
   },
   {
    "name": "Ritornello (2)",
@@ -259,7 +261,8 @@
     ],
     "F"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
   },
   {
    "name": "Ritornello (3)",
@@ -325,7 +328,8 @@
      "E:1"
     ]
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
   },
   {
    "name": "Ritornello (4)",
@@ -399,7 +403,8 @@
      "C:1"
     ]
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
   },
   {
    "name": "Ritornello (5)",
@@ -473,7 +478,8 @@
      "C:1"
     ]
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
   },
   {
    "name": "Ritornello (6)",
@@ -543,7 +549,8 @@
      "C:1"
     ]
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
   },
   {
    "name": "Ritornello (7)",
@@ -564,7 +571,8 @@
     "C",
     "F"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
   }
  ],
  "warp": [
@@ -680,5 +688,6 @@
    119,
    441.318
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

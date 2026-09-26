@@ -5,7 +5,7 @@
  "year": 2020,
  "genre": "Pop",
  "difficulty": 2,
- "youtubeId": "ChJ57Av10Mw",
+ "youtubeId": "F4iklmYMgN8",
  "key": "F",
  "bpm": 120.39,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 1.24,
- "strum": "D-DU-UDU",
+ "strum": "B-DUXUDU",
  "lyricsSource": {
   "lrclibId": 36936821,
   "duration": 244,
@@ -31,7 +31,8 @@
     "%",
     "%",
     "%"
-   ]
+   ],
+   "strum": "B---D---"
   },
   {
    "name": "Strofa 1",
@@ -81,7 +82,8 @@
     "F",
     "C"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Ritornello",
@@ -101,7 +103,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Strofa 2",
@@ -138,7 +141,8 @@
     "F",
     "C"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Strofa 3",
@@ -182,7 +186,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
   },
   {
    "name": "Ritornello",
@@ -197,7 +202,8 @@
     "F",
     "C"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Strofa 4",
@@ -239,7 +245,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "B---D---"
   }
  ],
  "warp": [
@@ -327,5 +334,6 @@
    112,
    226.645
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

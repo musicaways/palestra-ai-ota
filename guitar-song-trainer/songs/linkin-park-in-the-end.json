@@ -36,7 +36,8 @@
     "Bmaj7",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
   },
   {
    "name": "Parte 2",
@@ -134,7 +135,8 @@
     "Gb",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
   },
   {
    "name": "Ritornello",
@@ -162,7 +164,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
   }
  ],
  "warp": [
@@ -218,5 +221,6 @@
    79,
    180.186
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

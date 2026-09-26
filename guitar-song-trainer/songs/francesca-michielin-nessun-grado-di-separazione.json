@@ -5,7 +5,7 @@
  "year": 2016,
  "genre": "Pop",
  "difficulty": 4,
- "youtubeId": "NXE-aTIIG30",
+ "youtubeId": "vpRFRc1fVQ4",
  "key": "G",
  "bpm": 151.5,
  "timeSignature": [
@@ -18,7 +18,7 @@
  "strum": "D-DU-UDU",
  "lyricsSource": {
   "lrclibId": 22696154,
-  "duration": 220.0,
+  "duration": 220,
   "offset": 0
  },
  "notes": "Accordi principali: G – C – Dm7 – Am – Dm – Fmaj7.",
@@ -31,7 +31,8 @@
     "%",
     "%",
     "%"
-   ]
+   ],
+   "strum": "D---D-DU"
   },
   {
    "name": "Strofa 1",
@@ -107,7 +108,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Strofa 4",
@@ -176,7 +178,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Strofa 6",
@@ -229,7 +232,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Strofa 7",
@@ -270,5 +274,6 @@
    ],
    "barsPerRow": 4
   }
- ]
+ ],
+ "strumSource": "stima"
 }

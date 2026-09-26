@@ -5,7 +5,7 @@
  "year": 1973,
  "genre": "Rock",
  "difficulty": 5,
- "youtubeId": "kR4zpS-ky9o",
+ "youtubeId": "JojwHc1MKag",
  "key": "Fm",
  "bpm": 78.1,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.6,
- "strum": "D-DU-UDU",
+ "strum": "P-P-D-DU",
  "lyricsSource": {
   "lrclibId": 36889421,
   "duration": 265,
@@ -40,7 +40,8 @@
     "Bbm",
     "Fm"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D---"
   },
   {
    "name": "Strofa 1",
@@ -112,7 +113,8 @@
     "Fm",
     "Bbm"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Strofa 2",
@@ -272,7 +274,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   }
  ],
  "warp": [
@@ -328,5 +331,6 @@
    79,
    243.313
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

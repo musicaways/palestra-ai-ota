@@ -5,7 +5,7 @@
  "year": 2019,
  "genre": "Pop / Indie",
  "difficulty": 3,
- "youtubeId": "2J4G4NJHnt8",
+ "youtubeId": "51bAdPASVuQ",
  "key": "Am",
  "bpm": 159.96,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 1.22,
- "strum": "D-DU-UDU",
+ "strum": "D--UXUDU",
  "lyricsSource": {
   "lrclibId": 37093318,
   "duration": 232,
@@ -36,7 +36,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D---"
   },
   {
    "name": "Parte 2",
@@ -336,5 +337,6 @@
    133,
    200.773
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

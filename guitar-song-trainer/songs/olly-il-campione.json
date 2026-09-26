@@ -33,7 +33,8 @@
     "F#m",
     "Asus2"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
   },
   {
    "name": "Strofa 1",
@@ -113,7 +114,8 @@
     "E",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Strofa 2",
@@ -204,7 +206,8 @@
      "E:1"
     ]
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Strofa 3",
@@ -315,5 +318,6 @@
    88,
    230.75
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

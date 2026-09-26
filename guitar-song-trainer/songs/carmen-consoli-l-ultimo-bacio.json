@@ -5,7 +5,7 @@
  "year": 2001,
  "genre": "Rock / Cantautori",
  "difficulty": 3,
- "youtubeId": "BdvhfJ5FgPY",
+ "youtubeId": "DeLSZo4n6KE",
  "key": "C",
  "bpm": 132.41,
  "timeSignature": [
@@ -15,10 +15,10 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.72,
- "strum": "D-DU-UDU",
+ "strum": "PPPPDDDD",
  "lyricsSource": {
   "lrclibId": 33901164,
-  "duration": 203.0,
+  "duration": 203,
   "offset": 0
  },
  "notes": "Accordi principali: C – Am – Dm7 – E7 – D – C6.",
@@ -36,7 +36,8 @@
     "C6",
     "D"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
   },
   {
    "name": "Strofa 1",
@@ -227,5 +228,6 @@
    ],
    "barsPerRow": 4
   }
- ]
+ ],
+ "strumSource": "stima"
 }

@@ -30,7 +30,8 @@
     "Eb",
     "F",
     "Bb"
-   ]
+   ],
+   "strum": "D-------"
   },
   {
    "name": "Strofa 1",
@@ -78,7 +79,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUXUDU"
   },
   {
    "name": "Strofa 2",
@@ -157,7 +159,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUXUDU"
   }
  ],
  "warp": [
@@ -209,5 +212,6 @@
    61,
    200.113
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

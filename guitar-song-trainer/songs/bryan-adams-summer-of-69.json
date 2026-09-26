@@ -5,7 +5,7 @@
  "year": 1984,
  "genre": "Rock",
  "difficulty": 3,
- "youtubeId": "nCBASt507WA",
+ "youtubeId": "yGwwbkMJTGU",
  "key": "A",
  "bpm": 69.81,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 1.11,
- "strum": "D-DU-UDU",
+ "strum": "D-D-D-DU",
  "lyricsSource": {
   "lrclibId": 37003738,
   "duration": 218,
@@ -67,7 +67,8 @@
     ],
     "A"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Strofa 2",
@@ -172,7 +173,8 @@
     "A",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Finale",
@@ -190,7 +192,8 @@
     "A",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D---"
   }
  ],
  "warp": [
@@ -246,5 +249,6 @@
    57,
    196.54
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

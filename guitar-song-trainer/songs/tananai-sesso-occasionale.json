@@ -5,7 +5,7 @@
  "year": 2022,
  "genre": "Pop",
  "difficulty": 2,
- "youtubeId": "2HMPD8o8J3A",
+ "youtubeId": "LPFFJemosvo",
  "key": "Am",
  "bpm": 65.33,
  "timeSignature": [
@@ -14,11 +14,11 @@
  ],
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
- "offset": 3.0,
- "strum": "D-DU-UDU",
+ "offset": 3,
+ "strum": "D---D-DU",
  "lyricsSource": {
   "lrclibId": 36937323,
-  "duration": 196.0,
+  "duration": 196,
   "offset": 0
  },
  "notes": "Accordi principali: Am – Dm7 – Cmaj7 – G – C.",
@@ -157,5 +157,6 @@
    ],
    "barsPerRow": 4
   }
- ]
+ ],
+ "strumSource": "stima"
 }

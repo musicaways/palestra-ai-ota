@@ -5,7 +5,7 @@
  "year": 2024,
  "genre": "Rap / Hip-hop",
  "difficulty": 4,
- "youtubeId": "g_VAB_86eTk",
+ "youtubeId": "Hlce_NL8ZxY",
  "key": "Cm",
  "bpm": 104.38,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 1.89,
- "strum": "D-DU-UDU",
+ "strum": "D--D-UD-",
  "lyricsSource": {
   "lrclibId": 33387641,
   "duration": 159,
@@ -272,5 +272,6 @@
    66,
    153.86
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

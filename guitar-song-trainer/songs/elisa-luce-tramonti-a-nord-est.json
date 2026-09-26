@@ -5,7 +5,7 @@
  "year": 2001,
  "genre": "Pop",
  "difficulty": 3,
- "youtubeId": "tPwqOWK6EFw",
+ "youtubeId": "1YhdeUA4L5M",
  "key": "F",
  "bpm": 87.11,
  "timeSignature": [
@@ -39,7 +39,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
   },
   {
    "name": "Strofa 1",
@@ -249,5 +250,6 @@
    95,
    261.941
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

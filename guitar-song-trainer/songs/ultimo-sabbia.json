@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.92,
- "strum": "D-DU-UDU",
+ "strum": "B-DUXUDU",
  "lyricsSource": {
   "lrclibId": 36179012,
   "duration": 197,
@@ -36,7 +36,8 @@
     "Fm",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "B---D---"
   },
   {
    "name": "Parte 2",
@@ -270,5 +271,6 @@
    110,
    181.753
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

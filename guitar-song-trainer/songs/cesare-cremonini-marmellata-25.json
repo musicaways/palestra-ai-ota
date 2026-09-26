@@ -43,7 +43,8 @@
     "G",
     "G"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
   },
   {
    "name": "Strofa 1",
@@ -96,7 +97,8 @@
     "G",
     "%"
    ],
-   "barsPerRow": 8
+   "barsPerRow": 8,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Intermezzo",
@@ -161,7 +163,8 @@
     "G",
     "%"
    ],
-   "barsPerRow": 8
+   "barsPerRow": 8,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Ponte",
@@ -175,7 +178,8 @@
     "G",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-D-D-DU"
   },
   {
    "name": "Ritornello finale",
@@ -197,7 +201,8 @@
     "G",
     "%"
    ],
-   "barsPerRow": 8
+   "barsPerRow": 8,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Outro",
@@ -211,7 +216,9 @@
     "G",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
   }
- ]
+ ],
+ "strumSource": "stima"
 }

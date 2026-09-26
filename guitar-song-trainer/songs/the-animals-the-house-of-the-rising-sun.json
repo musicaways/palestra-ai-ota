@@ -31,7 +31,8 @@
     "C",
     "D",
     "F"
-   ]
+   ],
+   "strum": "D---D-DU"
   },
   {
    "name": "Strofa 1",
@@ -340,5 +341,6 @@
    76,
    232.659
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

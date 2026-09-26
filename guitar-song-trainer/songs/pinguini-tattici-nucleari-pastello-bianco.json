@@ -5,7 +5,7 @@
  "year": 2019,
  "genre": "Pop / Indie",
  "difficulty": 2,
- "youtubeId": "to8uZT8j8UI",
+ "youtubeId": "TqS0whbHsUk",
  "key": "La minore (Am)",
  "bpm": 139.5,
  "timeSignature": [
@@ -34,7 +34,8 @@
     "%",
     "Dm7",
     "%"
-   ]
+   ],
+   "strum": "D-------"
   },
   {
    "name": "Strofa 1",
@@ -106,7 +107,8 @@
     "G",
     "%"
    ],
-   "barsPerRow": 8
+   "barsPerRow": 8,
+   "strum": "D-DUXUDU"
   },
   {
    "name": "Strofa 2",
@@ -170,7 +172,8 @@
     "G",
     "%"
    ],
-   "barsPerRow": 8
+   "barsPerRow": 8,
+   "strum": "D-DUXUDU"
   },
   {
    "name": "Ponte",
@@ -192,7 +195,8 @@
     "F",
     "%"
    ],
-   "barsPerRow": 8
+   "barsPerRow": 8,
+   "strum": "D-D-D-DU"
   },
   {
    "name": "Ritornello finale",
@@ -216,7 +220,8 @@
     "G",
     "%"
    ],
-   "barsPerRow": 8
+   "barsPerRow": 8,
+   "strum": "D-DUXUDU"
   }
  ],
  "warp": [
@@ -288,5 +293,6 @@
    124,
    213.883
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

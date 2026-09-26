@@ -5,7 +5,7 @@
  "year": 1989,
  "genre": "Rock",
  "difficulty": 3,
- "youtubeId": "RHvSCTKyfZI",
+ "youtubeId": "yauVOsBMCJ0",
  "key": "G",
  "bpm": 66.04,
  "timeSignature": [
@@ -36,7 +36,8 @@
     "G",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
   },
   {
    "name": "Strofa 1",
@@ -237,5 +238,6 @@
    74,
    272.318
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

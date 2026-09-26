@@ -5,7 +5,7 @@
  "year": 2024,
  "genre": "Pop",
  "difficulty": 3,
- "youtubeId": "Fi73wR_jqc8",
+ "youtubeId": "M1QDoRv4zmk",
  "key": "Dm7",
  "bpm": 127.26,
  "timeSignature": [
@@ -18,7 +18,7 @@
  "strum": "D-DU-UDU",
  "lyricsSource": {
   "lrclibId": 18311181,
-  "duration": 181.0,
+  "duration": 181,
   "offset": 0
  },
  "notes": "Accordi principali: Bbadd9 – Dm7 – F – C4 – Gm7.",
@@ -192,5 +192,6 @@
    ],
    "barsPerRow": 4
   }
- ]
+ ],
+ "strumSource": "stima"
 }

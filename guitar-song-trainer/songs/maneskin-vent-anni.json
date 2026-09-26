@@ -5,7 +5,7 @@
  "year": 2020,
  "genre": "Rock",
  "difficulty": 3,
- "youtubeId": "XD77aMyCv0Q",
+ "youtubeId": "mHKJV4tuvgM",
  "key": "C",
  "bpm": 123.15,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.49,
- "strum": "D-DU-UDU",
+ "strum": "D-PPD-PP",
  "lyricsSource": {
   "lrclibId": 34490477,
   "duration": 254,
@@ -36,7 +36,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-------"
   },
   {
    "name": "Strofa 1",
@@ -303,5 +304,6 @@
    124,
    242.907
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

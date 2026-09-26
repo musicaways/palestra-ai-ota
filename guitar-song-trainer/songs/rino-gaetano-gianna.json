@@ -5,7 +5,7 @@
  "year": 1978,
  "genre": "Cantautori",
  "difficulty": 1,
- "youtubeId": "laIH5AQqeH0",
+ "youtubeId": "Vk7ClgGq2bU",
  "key": "La maggiore (A)",
  "bpm": 106.37,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 1.93,
- "strum": "D-DU-UDU",
+ "strum": "D-D---DUD-D---DU",
  "lyricsSource": {
   "lrclibId": 37127275,
   "offset": 0
@@ -243,5 +243,6 @@
    98,
    222.463
   ]
- ]
+ ],
+ "strumSource": "ultimate-guitar"
 }

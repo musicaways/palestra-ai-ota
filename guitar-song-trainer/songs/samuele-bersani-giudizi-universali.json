@@ -5,7 +5,7 @@
  "year": 1997,
  "genre": "Cantautori",
  "difficulty": 4,
- "youtubeId": "JJd05xURxTQ",
+ "youtubeId": "s6NRYlNvlIA",
  "key": "B",
  "bpm": 148.06,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.96,
- "strum": "D-DU-UDU",
+ "strum": "B-DU-UDU",
  "lyricsSource": {
   "lrclibId": 35159915,
   "duration": 235,
@@ -34,7 +34,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "B---D---"
   },
   {
    "name": "Strofa 1",
@@ -64,7 +65,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Strofa 2",
@@ -199,7 +201,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Strofa 7",
@@ -352,5 +355,6 @@
    132,
    214.979
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

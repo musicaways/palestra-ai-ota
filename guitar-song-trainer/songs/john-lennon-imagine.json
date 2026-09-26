@@ -37,7 +37,8 @@
     "%",
     "Cmaj7"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
   },
   {
    "name": "Strofa 1",
@@ -195,7 +196,8 @@
      "E7:2"
     ]
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Strofa 3",
@@ -314,7 +316,8 @@
      "E7:2"
     ]
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Finale",
@@ -334,7 +337,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
   }
  ],
  "warp": [
@@ -406,5 +410,6 @@
    112,
    172.971
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

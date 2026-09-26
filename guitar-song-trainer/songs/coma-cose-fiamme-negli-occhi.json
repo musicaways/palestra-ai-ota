@@ -5,7 +5,7 @@
  "year": 2021,
  "genre": "Indie / Pop",
  "difficulty": 1,
- "youtubeId": "MJhkALvLs0s",
+ "youtubeId": "aiIBXKeslss",
  "key": "D",
  "bpm": 130.2,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.11,
- "strum": "D-DU-UDU",
+ "strum": "D-DUXUDU",
  "lyricsSource": {
   "lrclibId": 5400065,
   "duration": 206,
@@ -98,7 +98,8 @@
     ],
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Strofa 3",
@@ -181,7 +182,8 @@
     "D",
     "G"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Strofa 5",
@@ -235,7 +237,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   }
  ],
  "warp": [
@@ -315,5 +318,6 @@
    108,
    199.307
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 2.56,
- "strum": "D-DU-UDU",
+ "strum": "D-D-D-DU",
  "lyricsSource": {
   "lrclibId": 9272382,
   "duration": 208,
@@ -84,7 +84,8 @@
      "D:1"
     ]
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Strofa 2",
@@ -181,7 +182,8 @@
     "D",
     "G"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
   },
   {
    "name": "Finale",
@@ -196,7 +198,8 @@
     "G",
     "D"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D---"
   }
  ],
  "warp": [
@@ -260,5 +263,6 @@
    75,
    206.49
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

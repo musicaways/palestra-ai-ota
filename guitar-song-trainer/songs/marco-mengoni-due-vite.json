@@ -5,7 +5,7 @@
  "year": 2023,
  "genre": "Pop",
  "difficulty": 4,
- "youtubeId": "_iS4STWKSvk",
+ "youtubeId": "LsgrUv-GtUE",
  "key": "A",
  "bpm": 119.43,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 1.78,
- "strum": "D-DU-UDU",
+ "strum": "B-DUXUDU",
  "lyricsSource": {
   "lrclibId": 36575700,
   "duration": 226,
@@ -175,7 +175,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "B---D---"
   }
  ],
  "warp": [
@@ -283,5 +284,6 @@
    105,
    213.457
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

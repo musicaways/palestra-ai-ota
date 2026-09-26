@@ -5,7 +5,7 @@
  "year": 2018,
  "genre": "Rap / Hip-hop",
  "difficulty": 4,
- "youtubeId": "Ty6flqZhcfs",
+ "youtubeId": "55h8T64AoX8",
  "key": "G#7",
  "bpm": 129.04,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 1.41,
- "strum": "D-DU-UDU",
+ "strum": "P-PP-PP-",
  "lyricsSource": {
   "lrclibId": 34638691,
   "duration": 221,
@@ -298,5 +298,6 @@
    79,
    148.52
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

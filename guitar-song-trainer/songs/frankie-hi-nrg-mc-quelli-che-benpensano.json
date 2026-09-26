@@ -5,7 +5,7 @@
  "year": 1997,
  "genre": "Rap / Hip-hop",
  "difficulty": 2,
- "youtubeId": "vrpJB7ucC5Y",
+ "youtubeId": "6lVv4IYmGyw",
  "key": "D",
  "bpm": 89.11,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 2.34,
- "strum": "D-DU-UDU",
+ "strum": "B--D-UD-",
  "lyricsSource": {
   "lrclibId": 34600684,
   "duration": 254,
@@ -39,7 +39,8 @@
     "D",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "B-------"
   },
   {
    "name": "Parte 2",
@@ -390,5 +391,6 @@
    89,
    242.04
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

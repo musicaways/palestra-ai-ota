@@ -5,7 +5,7 @@
  "year": 2018,
  "genre": "Rap / Hip-hop",
  "difficulty": 1,
- "youtubeId": "HbfFG15Xd9U",
+ "youtubeId": "xJoa1tNRngI",
  "key": "Si bemolle minore (Bbm)",
  "bpm": 130.2,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 1,
  "tuning": "Standard (E A D G B E)",
  "offset": 1.48,
- "strum": "D-DU-UDU",
+ "strum": "D--D--D-",
  "lyricsSource": {
   "lrclibId": 23209957,
   "offset": 0
@@ -35,7 +35,8 @@
     "Bbm",
     "Ab"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-------"
   },
   {
    "name": "Strofa 1",
@@ -87,7 +88,8 @@
     "Db",
     "Fm"
    ],
-   "barsPerRow": 8
+   "barsPerRow": 8,
+   "strum": "D--D-UDU"
   },
   {
    "name": "Strofa 2",
@@ -135,7 +137,8 @@
     "Db",
     "Fm"
    ],
-   "barsPerRow": 8
+   "barsPerRow": 8,
+   "strum": "D--D-UDU"
   },
   {
    "name": "Ponte",
@@ -148,7 +151,8 @@
     "Fm",
     "Bbm",
     "%"
-   ]
+   ],
+   "strum": "D---D---"
   },
   {
    "name": "Outro",
@@ -162,7 +166,8 @@
     "Gb",
     "Bbm"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-------"
   }
  ],
  "warp": [
@@ -234,5 +239,6 @@
    97,
    180.357
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

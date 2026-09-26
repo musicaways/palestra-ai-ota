@@ -5,7 +5,7 @@
  "year": 2022,
  "genre": "Pop",
  "difficulty": 2,
- "youtubeId": "H5v3kku4y6Q",
+ "youtubeId": "Y5BOyU29tUw",
  "key": "Bm",
  "bpm": 86.89,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 2.5,
- "strum": "D-DU-UDU",
+ "strum": "D--UD-DU",
  "lyricsSource": {
   "lrclibId": 36975922,
   "duration": 167,
@@ -179,5 +179,6 @@
    54,
    151.684
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

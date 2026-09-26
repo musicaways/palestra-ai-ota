@@ -5,7 +5,7 @@
  "year": 2005,
  "genre": "Pop / Rock",
  "difficulty": 2,
- "youtubeId": "QJGjZdjXaq8",
+ "youtubeId": "CktGHJldG4s",
  "key": "Em",
  "bpm": 89.94,
  "timeSignature": [
@@ -15,10 +15,10 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 2.58,
- "strum": "D-DU-UDU",
+ "strum": "D--UD-DU",
  "lyricsSource": {
   "lrclibId": 37199000,
-  "duration": 201.0,
+  "duration": 201,
   "offset": 0
  },
  "notes": "Accordi principali: Em – D – Am – B – G.",
@@ -116,5 +116,6 @@
    ],
    "barsPerRow": 4
   }
- ]
+ ],
+ "strumSource": "stima"
 }

@@ -5,7 +5,7 @@
  "year": 2021,
  "genre": "Pop / Rap",
  "difficulty": 3,
- "youtubeId": "XE6lV6xseQ4",
+ "youtubeId": "BGDXEx4zZR8",
  "key": "Mi bemolle maggiore (Eb)",
  "bpm": 133.1,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.65,
- "strum": "D-DU-UDU",
+ "strum": "DUUDUUDUUDUD",
  "lyricsSource": {
   "lrclibId": 9270494,
   "offset": 0
@@ -265,5 +265,6 @@
    110,
    199.145
   ]
- ]
+ ],
+ "strumSource": "ultimate-guitar"
 }

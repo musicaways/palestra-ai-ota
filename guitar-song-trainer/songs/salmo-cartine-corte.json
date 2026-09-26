@@ -1,37 +1,99 @@
 {
-  "title": "Cartine corte",
-  "artist": "Salmo",
-  "album": "RANCH",
-  "year": 2025,
-  "genre": "Rap / Hip-hop",
-  "difficulty": 2,
-  "youtubeId": "OGgBYJsekX0",
-  "key": "Sol minore (Gm)",
-  "bpm": 95,
-  "timeSignature": [3, 4],
-  "capo": 0,
-  "tuning": "Standard (E A D G B E)",
-  "offset": 0.87,
-  "strum": "D-DUDU",
-  "lyricsSource": { "lrclibId": 21128462, "offset": 0 },
-  "barsPerRow": 4,
-  "notes": "Arrangiamento per chitarra ritmica. Il giro Gm – Gm/F – Ebmaj7 – D7sus4 → D7 accompagna quasi tutto il brano, un accordo ogni due battute (una riga rappata); nel bridge si passa ai power chord G5 F5 Eb5 C5. Gm si suona col barrè al 3° tasto; se è ancora difficile, prova la versione ridotta sulle 4 corde acute (x x 5 3 3 3). Il pezzo ha un'andatura in 3 (95 BPM): la pennata suggerita è ↓ · ↓↑ ↓↑.",
-  "syncNote": "Griglia ritmica ricavata dai tempi del cantato (una riga ogni 3,79 s = 2 battute di 3/4 a 95 BPM). La posizione esatta dei cambi è stimata: se gli accordi sono in anticipo o in ritardo usa Sincronia, per un allineamento perfetto Registra tempi.",
-  "patterns": {
-    "giro": ["Gm", "%", "Gm/F", "%", "Ebmaj7", "%", "D7sus4", "D7"],
-    "attacco": ["Ebmaj7", "%", "D7sus4", "D7"],
-    "bridge": ["G5", "%", "F5", "%", "Eb5", "%", "C5", "%"],
-    "chiusura": ["Gm", "%", "%"]
-  },
-  "sections": [
-    { "name": "Intro", "pattern": "attacco" },
-    { "name": "Strofa 1", "pattern": "giro" },
-    { "name": "Ritornello", "pattern": "giro", "repeat": 2 },
-    { "name": "Strofa 2", "pattern": "giro" },
-    { "name": "Ritornello", "pattern": "giro", "repeat": 2 },
-    { "name": "Strofa 3", "pattern": "giro" },
-    { "name": "Ritornello finale", "pattern": "giro" },
-    { "name": "Bridge", "pattern": "bridge" },
-    { "name": "Chiusura", "pattern": "chiusura" }
+ "title": "Cartine corte",
+ "artist": "Salmo",
+ "album": "RANCH",
+ "year": 2025,
+ "genre": "Rap / Hip-hop",
+ "difficulty": 2,
+ "youtubeId": "8EbB8tPCzBA",
+ "key": "Sol minore (Gm)",
+ "bpm": 95,
+ "timeSignature": [
+  3,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.87,
+ "strum": "D-DUDU",
+ "lyricsSource": {
+  "lrclibId": 21128462,
+  "offset": 0
+ },
+ "barsPerRow": 4,
+ "notes": "Arrangiamento per chitarra ritmica. Il giro Gm – Gm/F – Ebmaj7 – D7sus4 → D7 accompagna quasi tutto il brano, un accordo ogni due battute (una riga rappata); nel bridge si passa ai power chord G5 F5 Eb5 C5. Gm si suona col barrè al 3° tasto; se è ancora difficile, prova la versione ridotta sulle 4 corde acute (x x 5 3 3 3). Il pezzo ha un'andatura in 3 (95 BPM): la pennata suggerita è ↓ · ↓↑ ↓↑.",
+ "syncNote": "Griglia ritmica ricavata dai tempi del cantato (una riga ogni 3,79 s = 2 battute di 3/4 a 95 BPM). La posizione esatta dei cambi è stimata: se gli accordi sono in anticipo o in ritardo usa Sincronia, per un allineamento perfetto Registra tempi.",
+ "patterns": {
+  "giro": [
+   "Gm",
+   "%",
+   "Gm/F",
+   "%",
+   "Ebmaj7",
+   "%",
+   "D7sus4",
+   "D7"
+  ],
+  "attacco": [
+   "Ebmaj7",
+   "%",
+   "D7sus4",
+   "D7"
+  ],
+  "bridge": [
+   "G5",
+   "%",
+   "F5",
+   "%",
+   "Eb5",
+   "%",
+   "C5",
+   "%"
+  ],
+  "chiusura": [
+   "Gm",
+   "%",
+   "%"
   ]
+ },
+ "sections": [
+  {
+   "name": "Intro",
+   "pattern": "attacco"
+  },
+  {
+   "name": "Strofa 1",
+   "pattern": "giro"
+  },
+  {
+   "name": "Ritornello",
+   "pattern": "giro",
+   "repeat": 2
+  },
+  {
+   "name": "Strofa 2",
+   "pattern": "giro"
+  },
+  {
+   "name": "Ritornello",
+   "pattern": "giro",
+   "repeat": 2
+  },
+  {
+   "name": "Strofa 3",
+   "pattern": "giro"
+  },
+  {
+   "name": "Ritornello finale",
+   "pattern": "giro"
+  },
+  {
+   "name": "Bridge",
+   "pattern": "bridge"
+  },
+  {
+   "name": "Chiusura",
+   "pattern": "chiusura"
+  }
+ ]
 }

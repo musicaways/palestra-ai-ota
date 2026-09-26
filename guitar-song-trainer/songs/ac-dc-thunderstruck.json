@@ -5,7 +5,7 @@
  "year": 1990,
  "genre": "Rock",
  "difficulty": 1,
- "youtubeId": "v2AC41dglnM",
+ "youtubeId": "asZsqhSBJZ8",
  "key": "A5",
  "bpm": 131.24,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 1.25,
- "strum": "D-DU-UDU",
+ "strum": "PPPP-PPU",
  "lyricsSource": {
   "lrclibId": 28903740,
   "duration": 293,
@@ -29,7 +29,8 @@
    "bars": [
     "B5",
     "A5"
-   ]
+   ],
+   "strum": "D-D-D-D-"
   },
   {
    "name": "Strofa 1",
@@ -67,7 +68,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
   },
   {
    "name": "Ritornello (2)",
@@ -89,7 +91,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
   },
   {
    "name": "Ritornello (3)",
@@ -143,7 +146,8 @@
     ],
     "B5"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
   },
   {
    "name": "Ritornello (4)",
@@ -170,7 +174,8 @@
     "A5",
     "E5"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
   },
   {
    "name": "Pre-ritornello",
@@ -245,7 +250,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
   },
   {
    "name": "Ritornello",
@@ -279,7 +285,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
   },
   {
    "name": "Strofa 2",
@@ -521,5 +528,6 @@
    151,
    277.704
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

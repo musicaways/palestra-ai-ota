@@ -5,7 +5,7 @@
  "year": 1994,
  "genre": "Rock",
  "difficulty": 2,
- "youtubeId": "BxrLVldZtmg",
+ "youtubeId": "G8KskAHnLs0",
  "key": "Em",
  "bpm": 85.63,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 1.5,
- "strum": "D-DU-UDU",
+ "strum": "D-D-D-DU",
  "lyricsSource": {
   "lrclibId": 37493025,
   "duration": 307,
@@ -45,7 +45,8 @@
     "%",
     "Em"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D---"
   },
   {
    "name": "Strofa 1",
@@ -242,5 +243,6 @@
    72,
    203.57
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

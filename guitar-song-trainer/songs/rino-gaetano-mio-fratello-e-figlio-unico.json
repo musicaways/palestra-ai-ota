@@ -5,7 +5,7 @@
  "year": 1976,
  "genre": "Cantautori",
  "difficulty": 2,
- "youtubeId": "tg1yM929yp8",
+ "youtubeId": "ZgaGPuLDBG4",
  "key": "Re maggiore (D)",
  "bpm": 128.85,
  "timeSignature": [
@@ -35,7 +35,8 @@
     "%",
     "A7",
     "%"
-   ]
+   ],
+   "strum": "D---D-DU"
   },
   {
    "name": "Strofa 1",
@@ -99,7 +100,8 @@
     "A7",
     "%"
    ],
-   "barsPerRow": 8
+   "barsPerRow": 8,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Strofa 2",
@@ -157,7 +159,9 @@
     "D",
     "%"
    ],
-   "barsPerRow": 8
+   "barsPerRow": 8,
+   "strum": "D-DUDUDU"
   }
- ]
+ ],
+ "strumSource": "stima"
 }

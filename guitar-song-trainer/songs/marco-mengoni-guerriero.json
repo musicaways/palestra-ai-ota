@@ -29,7 +29,8 @@
    "bars": [
     "C#m",
     "E"
-   ]
+   ],
+   "strum": "D---D-DU"
   },
   {
    "name": "Parte 2",
@@ -309,5 +310,6 @@
    108,
    193.988
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

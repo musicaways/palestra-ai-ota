@@ -5,7 +5,7 @@
  "year": 1975,
  "genre": "Cantautori",
  "difficulty": 2,
- "youtubeId": "3jz65hkXipE",
+ "youtubeId": "IRMXmwmPYOc",
  "key": "C",
  "bpm": 82.08,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.82,
- "strum": "D-DU-UDU",
+ "strum": "D-DU-UDUD-DU-UDU",
  "lyricsSource": {
   "lrclibId": 37205076,
   "duration": 239,
@@ -277,5 +277,6 @@
    67,
    196.964
   ]
- ]
+ ],
+ "strumSource": "ultimate-guitar"
 }

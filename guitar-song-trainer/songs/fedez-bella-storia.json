@@ -5,7 +5,7 @@
  "year": 2020,
  "genre": "Pop / Rap",
  "difficulty": 2,
- "youtubeId": "bDAWn_q90dM",
+ "youtubeId": "tq-icKSzn7Q",
  "key": "Sol maggiore (G) / Mi minore",
  "bpm": 97.81,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 1.74,
- "strum": "D-DU-UDU",
+ "strum": "D--D--D-",
  "lyricsSource": {
   "lrclibId": 6430406,
   "duration": 176,
@@ -61,7 +61,8 @@
     "Em",
     "D6"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D--D-UDU"
   },
   {
    "name": "Strofa 2",
@@ -100,7 +101,8 @@
     "Em",
     "D6"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D--D-UDU"
   },
   {
    "name": "Ponte",
@@ -109,7 +111,8 @@
     "G",
     "D",
     "Am"
-   ]
+   ],
+   "strum": "D---D---"
   },
   {
    "name": "Ritornello finale",
@@ -127,7 +130,8 @@
     "Em",
     "D6"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D--D-UDU"
   },
   {
    "name": "Outro",
@@ -145,7 +149,8 @@
     "Am",
     "%"
    ],
-   "barsPerRow": 6
+   "barsPerRow": 6,
+   "strum": "D-------"
   }
  ],
  "warp": [
@@ -209,5 +214,6 @@
    64,
    158.857
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

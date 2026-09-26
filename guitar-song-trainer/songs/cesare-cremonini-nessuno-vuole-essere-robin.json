@@ -5,7 +5,7 @@
  "year": 2018,
  "genre": "Pop / Cantautori",
  "difficulty": 2,
- "youtubeId": "y1YypOI5t-o",
+ "youtubeId": "6Z9l7aQNtw8",
  "key": "Re maggiore (D)",
  "bpm": 137.39,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 1.72,
- "strum": "D-DU-UDU",
+ "strum": "B-DU-UDU",
  "lyricsSource": {
   "lrclibId": 34696453,
   "duration": 275,
@@ -42,7 +42,8 @@
     "Gmaj7",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "B---D---"
   },
   {
    "name": "Strofa 1",
@@ -106,7 +107,8 @@
     "D",
     "%"
    ],
-   "barsPerRow": 8
+   "barsPerRow": 8,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Intermezzo",
@@ -176,7 +178,8 @@
     "D",
     "%"
    ],
-   "barsPerRow": 8
+   "barsPerRow": 8,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Ponte",
@@ -192,7 +195,8 @@
     "D",
     "%"
    ],
-   "barsPerRow": 8
+   "barsPerRow": 8,
+   "strum": "D-DU-UDU"
   },
   {
    "name": "Ritornello finale",
@@ -218,7 +222,8 @@
     "D",
     "%"
    ],
-   "barsPerRow": 8
+   "barsPerRow": 8,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Outro",
@@ -233,7 +238,8 @@
     "%",
     "D"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "B---D---"
   }
  ],
  "warp": [
@@ -333,5 +339,6 @@
    147,
    258.107
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

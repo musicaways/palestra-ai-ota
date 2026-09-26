@@ -42,7 +42,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
   },
   {
    "name": "Strofa 1",
@@ -214,5 +215,6 @@
    73,
    192.312
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

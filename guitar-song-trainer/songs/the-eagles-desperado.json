@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 1.85,
- "strum": "D-DU-UDU",
+ "strum": "PPPPPPPP",
  "lyricsSource": {
   "lrclibId": 37245109,
   "duration": 217,
@@ -116,7 +116,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
   },
   {
    "name": "Strofa 4",
@@ -188,7 +189,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
   },
   {
    "name": "Strofa 7",
@@ -228,7 +230,8 @@
     "G",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
   }
  ],
  "warp": [
@@ -300,5 +303,6 @@
    100,
    204.896
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

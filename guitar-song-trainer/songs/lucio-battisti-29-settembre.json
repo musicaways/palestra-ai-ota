@@ -5,7 +5,7 @@
  "year": 1967,
  "genre": "Cantautori",
  "difficulty": 2,
- "youtubeId": "hKVpwbTE3fw",
+ "youtubeId": "Fs0dKV02mCY",
  "key": "Eb",
  "bpm": 87.4,
  "timeSignature": [
@@ -15,10 +15,10 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.15,
- "strum": "D-DU-UDU",
+ "strum": "DDDDDDDD",
  "lyricsSource": {
   "lrclibId": 37214967,
-  "duration": 210.0,
+  "duration": 210,
   "offset": 0
  },
  "notes": "Accordi principali: Eb – Ab – Bb.",
@@ -31,7 +31,8 @@
     "%",
     "%",
     "%"
-   ]
+   ],
+   "strum": "D-DUDUD-DUDUD-DU"
   },
   {
    "name": "Strofa 1",
@@ -142,5 +143,6 @@
    ],
    "barsPerRow": 4
   }
- ]
+ ],
+ "strumSource": "ultimate-guitar"
 }

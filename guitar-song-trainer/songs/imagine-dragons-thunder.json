@@ -5,7 +5,7 @@
  "year": 2017,
  "genre": "Pop / Rock",
  "difficulty": 2,
- "youtubeId": "4AqjqOqNrjw",
+ "youtubeId": "X6LTzDuuAvo",
  "key": "C",
  "bpm": 84.02,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.14,
- "strum": "D-DU-UDU",
+ "strum": "D--UD-DU",
  "lyricsSource": {
   "lrclibId": 37011100,
   "duration": 187,
@@ -166,5 +166,6 @@
    59,
    168.856
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

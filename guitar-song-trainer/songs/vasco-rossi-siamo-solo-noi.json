@@ -5,7 +5,7 @@
  "year": 1981,
  "genre": "Rock",
  "difficulty": 2,
- "youtubeId": "5tKdHz4hq-8",
+ "youtubeId": "8NE_Xij7JP8",
  "key": "D",
  "bpm": 75.2,
  "timeSignature": [
@@ -39,7 +39,8 @@
     "%",
     "D"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
   },
   {
    "name": "Strofa 1",
@@ -130,7 +131,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
   },
   {
    "name": "Ritornello",
@@ -176,7 +178,8 @@
     ],
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
   },
   {
    "name": "Strofa 2",
@@ -234,5 +237,6 @@
    ],
    "barsPerRow": 4
   }
- ]
+ ],
+ "strumSource": "stima"
 }

@@ -176,7 +176,8 @@
     ],
     "Bb"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
   },
   {
    "name": "Strofa 4",
@@ -333,7 +334,8 @@
     ],
     "Bb"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
   },
   {
    "name": "Ritornello",
@@ -371,7 +373,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
   },
   {
    "name": "Parte 8",
@@ -527,5 +530,6 @@
    102,
    261.286
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

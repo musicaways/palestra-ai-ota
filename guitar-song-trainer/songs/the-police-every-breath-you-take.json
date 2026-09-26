@@ -5,7 +5,7 @@
  "year": 1983,
  "genre": "Rock",
  "difficulty": 5,
- "youtubeId": "iOT_zuDHvVk",
+ "youtubeId": "hl3c6j0mwNc",
  "key": "Ab",
  "bpm": 117.41,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 1.33,
- "strum": "D-DU-UDU",
+ "strum": "PPPPPPPP",
  "lyricsSource": {
   "lrclibId": 37496396,
   "duration": 254,
@@ -35,7 +35,8 @@
     "Ab",
     "Fm"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
   },
   {
    "name": "Strofa 1",
@@ -286,5 +287,6 @@
    118,
    241.718
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

@@ -5,7 +5,7 @@
  "year": 2021,
  "genre": "Pop / Rap",
  "difficulty": 3,
- "youtubeId": "FJNOkLCIg5Y",
+ "youtubeId": "sWuFSGghclg",
  "key": "Do diesis minore (C#m)",
  "bpm": 170.15,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.83,
- "strum": "D-DU-UDU",
+ "strum": "D--D-UD-",
  "lyricsSource": {
   "lrclibId": 5286193,
   "duration": 220,
@@ -44,7 +44,8 @@
     "B/D#",
     "%"
    ],
-   "barsPerRow": 8
+   "barsPerRow": 8,
+   "strum": "D--D-UDU"
   },
   {
    "name": "Strofa 1",
@@ -104,7 +105,8 @@
     "B/D#",
     "%"
    ],
-   "barsPerRow": 8
+   "barsPerRow": 8,
+   "strum": "D--D-UDU"
   },
   {
    "name": "Strofa 2",
@@ -156,7 +158,8 @@
     "B/D#",
     "%"
    ],
-   "barsPerRow": 8
+   "barsPerRow": 8,
+   "strum": "D--D-UDU"
   },
   {
    "name": "Ponte",
@@ -178,7 +181,8 @@
     "B/D#",
     "%"
    ],
-   "barsPerRow": 8
+   "barsPerRow": 8,
+   "strum": "D--D--D-"
   },
   {
    "name": "Outro",
@@ -220,7 +224,8 @@
     "B6",
     "%"
    ],
-   "barsPerRow": 8
+   "barsPerRow": 8,
+   "strum": "D-------"
   }
  ],
  "warp": [
@@ -328,5 +333,6 @@
    132,
    187.022
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

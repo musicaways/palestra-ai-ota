@@ -31,7 +31,8 @@
     "%",
     "Abmaj7",
     "%"
-   ]
+   ],
+   "strum": "D---D-DU"
   },
   {
    "name": "Strofa 1",
@@ -97,7 +98,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Strofa 3",
@@ -189,7 +191,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Strofa 6",
@@ -295,5 +298,6 @@
    117,
    220.694
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

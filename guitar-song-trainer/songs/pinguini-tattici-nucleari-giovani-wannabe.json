@@ -5,7 +5,7 @@
  "year": 2022,
  "genre": "Pop / Indie",
  "difficulty": 2,
- "youtubeId": "4GXDFtuG9Xo",
+ "youtubeId": "Sei4JC1q-V0",
  "key": "Re maggiore (D)",
  "bpm": 125.86,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.65,
- "strum": "D-DU-UDU",
+ "strum": "D--UXUDU",
  "lyricsSource": {
   "lrclibId": 34247454,
   "duration": 251,
@@ -35,7 +35,8 @@
     "%",
     "G",
     "%"
-   ]
+   ],
+   "strum": "D---D---"
   },
   {
    "name": "Strofa 1",
@@ -79,7 +80,8 @@
     "G",
     "%"
    ],
-   "barsPerRow": 8
+   "barsPerRow": 8,
+   "strum": "DDDDDDDU"
   },
   {
    "name": "Strofa 2",
@@ -123,7 +125,8 @@
     "G",
     "%"
    ],
-   "barsPerRow": 8
+   "barsPerRow": 8,
+   "strum": "DDDDDDDU"
   },
   {
    "name": "Ponte",
@@ -145,7 +148,8 @@
     "A",
     "%"
    ],
-   "barsPerRow": 8
+   "barsPerRow": 8,
+   "strum": "D-DU-UDU"
   },
   {
    "name": "Ritornello finale",
@@ -175,7 +179,8 @@
     "G",
     "%"
    ],
-   "barsPerRow": 8
+   "barsPerRow": 8,
+   "strum": "DDDDDDDU"
   },
   {
    "name": "Outro",
@@ -201,7 +206,8 @@
     "Em7",
     "%"
    ],
-   "barsPerRow": 8
+   "barsPerRow": 8,
+   "strum": "D---D---"
   }
  ],
  "warp": [
@@ -281,5 +287,6 @@
    108,
    208.05
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

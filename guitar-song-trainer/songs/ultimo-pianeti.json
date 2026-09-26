@@ -15,7 +15,7 @@
  "capo": 1,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.05,
- "strum": "D-D-DUDU",
+ "strum": "DUUUUUUU",
  "lyricsSource": {
   "lrclibId": 24643618,
   "offset": 0
@@ -56,7 +56,8 @@
     "Dbadd9",
     "Ab",
     "Eb7/G"
-   ]
+   ],
+   "strum": "DDDDDDDD"
   },
   {
    "name": "Strofa 2",
@@ -87,7 +88,8 @@
     "Dbadd9",
     "Ab",
     "Eb7/G"
-   ]
+   ],
+   "strum": "DDDDDDDD"
   },
   {
    "name": "Strofa 3",
@@ -132,7 +134,8 @@
     "Ab",
     "Eb7/G"
    ],
-   "barsPerRow": 8
+   "barsPerRow": 8,
+   "strum": "DDDDDDDD"
   },
   {
    "name": "Outro",
@@ -203,5 +206,6 @@
    69,
    207.723
   ]
- ]
+ ],
+ "strumSource": "ultimate-guitar"
 }

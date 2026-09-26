@@ -5,7 +5,7 @@
  "year": 2020,
  "genre": "Pop / Indie",
  "difficulty": 5,
- "youtubeId": "gYJUPA26MyI",
+ "youtubeId": "uU9GNU55Z5g",
  "key": "F#",
  "bpm": 67.53,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 2.49,
- "strum": "D-DU-UDU",
+ "strum": "D--UXUDU",
  "lyricsSource": {
   "lrclibId": 23209799,
   "duration": 179.121633,
@@ -185,7 +185,8 @@
      "B:2"
     ]
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D---"
   }
  ],
  "warp": [
@@ -237,5 +238,6 @@
    49,
    176.682
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

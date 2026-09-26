@@ -5,7 +5,7 @@
  "year": 2021,
  "genre": "Rap / Hip-hop",
  "difficulty": 2,
- "youtubeId": "sosw_tG_t0g",
+ "youtubeId": "qUloxCy-D2A",
  "key": "Eb",
  "bpm": 76.4,
  "timeSignature": [
@@ -15,10 +15,10 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.45,
- "strum": "D-DU-UDU",
+ "strum": "P-PP-PP-",
  "lyricsSource": {
   "lrclibId": 36855330,
-  "duration": 171.0,
+  "duration": 171,
   "offset": 0
  },
  "notes": "Accordi principali: Eb – F – Gm – Bb.",
@@ -31,7 +31,8 @@
     "F",
     "Gm",
     "F"
-   ]
+   ],
+   "strum": "P-------"
   },
   {
    "name": "Parte 2",
@@ -141,5 +142,6 @@
    ],
    "barsPerRow": 4
   }
- ]
+ ],
+ "strumSource": "stima"
 }

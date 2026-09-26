@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.1,
- "strum": "D-DU-UDU",
+ "strum": "B--D-UD-",
  "lyricsSource": {
   "lrclibId": 33889924,
   "duration": 208,
@@ -73,7 +73,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUXUDU"
   },
   {
    "name": "Parte 3",
@@ -175,7 +176,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUXUDU"
   }
  ],
  "warp": [
@@ -271,5 +273,6 @@
    98,
    195.715
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

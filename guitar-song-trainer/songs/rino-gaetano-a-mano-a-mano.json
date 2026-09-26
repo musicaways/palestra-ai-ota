@@ -5,7 +5,7 @@
  "year": 1981,
  "genre": "Cantautori",
  "difficulty": 3,
- "youtubeId": "5uPbsQnMTBQ",
+ "youtubeId": "xjJ5U4LWXf4",
  "key": "Do maggiore (C)",
  "bpm": 175.9,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.63,
- "strum": "D-DU-UDU",
+ "strum": "DUDU",
  "lyricsSource": {
   "lrclibId": 21082209,
   "duration": 213,
@@ -228,5 +228,6 @@
    ],
    "barsPerRow": 8
   }
- ]
+ ],
+ "strumSource": "ultimate-guitar"
 }

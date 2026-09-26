@@ -36,7 +36,8 @@
     "Aadd9",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
   },
   {
    "name": "Strofa",
@@ -215,5 +216,6 @@
    51,
    179.429
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

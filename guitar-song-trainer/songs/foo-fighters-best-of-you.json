@@ -5,7 +5,7 @@
  "year": 2005,
  "genre": "Rock",
  "difficulty": 4,
- "youtubeId": "h_L4Rixya64",
+ "youtubeId": "xvN0Y9-ML3s",
  "key": "C#m7",
  "bpm": 65.11,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 2.51,
- "strum": "D-DU-UDU",
+ "strum": "D--UD-DU",
  "lyricsSource": {
   "lrclibId": 37172139,
   "duration": 255,
@@ -191,5 +191,6 @@
    64,
    238.722
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

@@ -5,7 +5,7 @@
  "year": 2017,
  "genre": "Pop / Cantautori",
  "difficulty": 2,
- "youtubeId": "e3tqZtXsQH4",
+ "youtubeId": "O_wjE3L2uGo",
  "key": "La minore → La maggiore",
  "bpm": 139.28,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 1.22,
- "strum": "D--D-U",
+ "strum": "D--D-UD-UD--D-UD-U",
  "lyricsSource": {
   "lrclibId": 35563125,
   "offset": 0
@@ -173,5 +173,6 @@
    ],
    "barsPerRow": 2
   }
- ]
+ ],
+ "strumSource": "ultimate-guitar"
 }

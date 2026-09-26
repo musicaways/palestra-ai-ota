@@ -5,7 +5,7 @@
  "year": 2023,
  "genre": "Pop / Indie",
  "difficulty": 4,
- "youtubeId": "-x39tplurzI",
+ "youtubeId": "I0ytkGQoWK0",
  "key": "G",
  "bpm": 77.19,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 3.04,
- "strum": "D-DU-UDU",
+ "strum": "D--UXUDU",
  "lyricsSource": {
   "lrclibId": 36519136,
   "duration": 201,
@@ -297,5 +297,6 @@
    53,
    168.218
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

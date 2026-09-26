@@ -5,7 +5,7 @@
  "year": 2000,
  "genre": "Rock",
  "difficulty": 2,
- "youtubeId": "DMrYez93pEQ",
+ "youtubeId": "42cK0558ra4",
  "key": "D",
  "bpm": 83.29,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.41,
- "strum": "D-DU-UDU",
+ "strum": "D-D-D-DU",
  "lyricsSource": {
   "lrclibId": 2955083,
   "duration": 248,
@@ -40,7 +40,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D---"
   },
   {
    "name": "Strofa 1",
@@ -146,7 +147,8 @@
     "C",
     "D"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Strofa 2",
@@ -209,7 +211,8 @@
     "D",
     "Em"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Strofa 3",
@@ -261,7 +264,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D---"
   }
  ],
  "warp": [
@@ -329,5 +333,6 @@
    81,
    233.596
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

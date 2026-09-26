@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 1.61,
- "strum": "D-DU-UDU",
+ "strum": "D-D-D-DU",
  "lyricsSource": {
   "lrclibId": 28599519,
   "duration": 239,
@@ -168,5 +168,6 @@
    74,
    218.07
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

@@ -5,7 +5,7 @@
  "year": 1970,
  "genre": "Rock",
  "difficulty": 1,
- "youtubeId": "g4flAZEgtjs",
+ "youtubeId": "bwGU5snGmks",
  "key": "C",
  "bpm": 57.58,
  "timeSignature": [
@@ -30,7 +30,8 @@
     "Am",
     "F",
     "C"
-   ]
+   ],
+   "strum": "D---D-DU"
   },
   {
    "name": "Strofa",
@@ -90,5 +91,6 @@
    ],
    "barsPerRow": 4
   }
- ]
+ ],
+ "strumSource": "stima"
 }

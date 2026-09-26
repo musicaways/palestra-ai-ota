@@ -43,7 +43,8 @@
     "D#m7",
     "Bmaj7"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
   },
   {
    "name": "Strofa 1",
@@ -394,5 +395,6 @@
    109,
    280.161
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

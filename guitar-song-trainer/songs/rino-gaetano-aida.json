@@ -5,7 +5,7 @@
  "year": 1977,
  "genre": "Cantautori",
  "difficulty": 1,
- "youtubeId": "eQWh1eh0Bhs",
+ "youtubeId": "4I-0nnza8WE",
  "key": "Do maggiore (C)",
  "bpm": 72.56,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 1.75,
- "strum": "D-DU-UDU",
+ "strum": "D-UD-UD-UD-UD-UD",
  "lyricsSource": {
   "lrclibId": 19891451,
   "duration": 262,
@@ -187,5 +187,6 @@
    61,
    203.71
   ]
- ]
+ ],
+ "strumSource": "ultimate-guitar"
 }

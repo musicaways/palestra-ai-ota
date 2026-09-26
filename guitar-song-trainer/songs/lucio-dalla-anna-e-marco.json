@@ -5,7 +5,7 @@
  "year": 1979,
  "genre": "Cantautori",
  "difficulty": 4,
- "youtubeId": "TO8H-YtE-H8",
+ "youtubeId": "YjYHkxY0xXw",
  "key": "F",
  "bpm": 67.37,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 1.72,
- "strum": "D-DU-UDU",
+ "strum": "B-D-B-DU",
  "lyricsSource": {
   "lrclibId": 35224701,
   "duration": 223,
@@ -29,7 +29,8 @@
    "bars": [
     "Bb",
     "Cm7"
-   ]
+   ],
+   "strum": "B---B---"
   },
   {
    "name": "Strofa 1",
@@ -194,5 +195,6 @@
    55,
    197.882
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

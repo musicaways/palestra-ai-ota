@@ -31,7 +31,8 @@
     "Dm7",
     "Fmaj7",
     "Am"
-   ]
+   ],
+   "strum": "D---D-DU"
   },
   {
    "name": "Parte 2",
@@ -210,5 +211,6 @@
    ],
    "barsPerRow": 4
   }
- ]
+ ],
+ "strumSource": "stima"
 }

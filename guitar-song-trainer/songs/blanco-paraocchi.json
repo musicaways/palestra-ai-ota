@@ -5,7 +5,7 @@
  "year": 2021,
  "genre": "Pop / Rock",
  "difficulty": 3,
- "youtubeId": "R3tkPQWlHEI",
+ "youtubeId": "R47fvSkbRho",
  "key": "A",
  "bpm": 72.14,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 2.6,
- "strum": "D-DU-UDU",
+ "strum": "D-D-DUDU",
  "lyricsSource": {
   "lrclibId": 28803092,
   "duration": 189,
@@ -138,5 +138,6 @@
    43,
    145.034
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

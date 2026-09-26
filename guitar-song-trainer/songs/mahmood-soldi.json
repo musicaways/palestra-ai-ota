@@ -5,7 +5,7 @@
  "year": 2019,
  "genre": "Pop",
  "difficulty": 5,
- "youtubeId": "Pz168-XMNIk",
+ "youtubeId": "605MwrNvb0I",
  "key": "D#m",
  "bpm": 96.89,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.33,
- "strum": "D-DU-UDU",
+ "strum": "D--UD-DU",
  "lyricsSource": {
   "lrclibId": 36977214,
   "duration": 195,
@@ -29,7 +29,8 @@
    "bars": [
     "B",
     "A#m"
-   ]
+   ],
+   "strum": "D---D---"
   },
   {
    "name": "Parte 2",
@@ -460,5 +461,6 @@
    76,
    188.37
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

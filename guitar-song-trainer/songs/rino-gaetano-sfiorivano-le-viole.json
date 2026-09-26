@@ -5,7 +5,7 @@
  "year": 1976,
  "genre": "Cantautori",
  "difficulty": 2,
- "youtubeId": "Ao7dU-KCjJs",
+ "youtubeId": "IYSSrL3dWH4",
  "key": "Gmaj7",
  "bpm": 81.99,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 1.33,
- "strum": "D-DU-UDU",
+ "strum": "D---D-DU",
  "lyricsSource": {
   "lrclibId": 18565358,
   "duration": 298.266122,
@@ -33,7 +33,8 @@
     "A6",
     "Gmaj7"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-------"
   },
   {
    "name": "Strofa 1",
@@ -286,5 +287,6 @@
    82,
    241.056
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

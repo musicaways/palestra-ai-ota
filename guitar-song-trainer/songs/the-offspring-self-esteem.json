@@ -40,7 +40,8 @@
     "A5",
     "F5"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
   },
   {
    "name": "Strofa 1",
@@ -238,7 +239,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
   },
   {
    "name": "Strofa 3",
@@ -387,7 +389,8 @@
     "G5",
     "A5"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
   }
  ],
  "warp": [
@@ -463,5 +466,6 @@
    111,
    253.471
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

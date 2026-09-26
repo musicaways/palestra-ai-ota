@@ -5,7 +5,7 @@
  "year": 1994,
  "genre": "Rock",
  "difficulty": 5,
- "youtubeId": "h3BLi9h-Ygw",
+ "youtubeId": "6ZWdG-KAJ50",
  "key": "A",
  "bpm": 134.5,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.62,
- "strum": "D-DU-UDU",
+ "strum": "D-PPD-PP",
  "lyricsSource": {
   "lrclibId": 37401541,
   "duration": 278,
@@ -115,7 +115,8 @@
     ],
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
   },
   {
    "name": "Strofa 3",
@@ -155,7 +156,8 @@
     "F",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
   },
   {
    "name": "Strofa 4",
@@ -355,7 +357,8 @@
      "F:2"
     ]
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-------"
   }
  ],
  "warp": [
@@ -547,5 +550,6 @@
    152,
    271.88
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

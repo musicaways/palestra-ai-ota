@@ -5,7 +5,7 @@
  "year": 1987,
  "genre": "Rock",
  "difficulty": 4,
- "youtubeId": "e3-5YC_oHjE",
+ "youtubeId": "f02f0hCy56s",
  "key": "Db",
  "bpm": 100.73,
  "timeSignature": [
@@ -18,7 +18,7 @@
  "strum": "D-DU-UDU",
  "lyricsSource": {
   "lrclibId": 37516073,
-  "duration": 278.0,
+  "duration": 278,
   "offset": 0
  },
  "notes": "Accordi principali: Db – Gbadd9 – Db4 – Ab – Gb.",
@@ -39,7 +39,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
   },
   {
    "name": "Strofa 1",
@@ -177,5 +178,6 @@
    ],
    "barsPerRow": 4
   }
- ]
+ ],
+ "strumSource": "stima"
 }

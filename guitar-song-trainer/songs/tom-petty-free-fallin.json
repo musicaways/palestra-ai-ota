@@ -31,7 +31,8 @@
     "Bb",
     "Bb",
     "F"
-   ]
+   ],
+   "strum": "D---D-DU"
   },
   {
    "name": "Strofa",
@@ -235,7 +236,8 @@
      "C4:2"
     ]
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
   },
   {
    "name": "Ritornello",
@@ -314,7 +316,8 @@
     ],
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
   },
   {
    "name": "Ritornello",
@@ -384,7 +387,8 @@
      "C4:2"
     ]
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
   }
  ],
  "warp": [
@@ -456,5 +460,6 @@
    85,
    240.623
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

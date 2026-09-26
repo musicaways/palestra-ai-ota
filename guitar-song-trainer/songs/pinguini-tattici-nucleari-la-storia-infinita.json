@@ -5,7 +5,7 @@
  "year": 2020,
  "genre": "Pop / Indie",
  "difficulty": 2,
- "youtubeId": "PXtcYTK-bQY",
+ "youtubeId": "G5skN8QYAMU",
  "key": "Mi maggiore (E)",
  "bpm": 89.9,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 1.89,
- "strum": "D-DU-UDU",
+ "strum": "D-D-D-DUD-D-D-DU",
  "lyricsSource": {
   "lrclibId": 10689961,
   "duration": 208,
@@ -221,5 +221,6 @@
    73,
    197.569
   ]
- ]
+ ],
+ "strumSource": "ultimate-guitar"
 }

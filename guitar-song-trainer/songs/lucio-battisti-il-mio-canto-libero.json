@@ -5,7 +5,7 @@
  "year": 1972,
  "genre": "Cantautori",
  "difficulty": 5,
- "youtubeId": "UtUHEsPfjjE",
+ "youtubeId": "recLWjMPYFw",
  "key": "A",
  "bpm": 119.65,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.74,
- "strum": "D-DU-UDU",
+ "strum": "D--D--D--D-U",
  "lyricsSource": {
   "lrclibId": 33638678,
   "duration": 309,
@@ -371,5 +371,6 @@
    145,
    291.71
   ]
- ]
+ ],
+ "strumSource": "ultimate-guitar"
 }

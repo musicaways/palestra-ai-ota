@@ -5,7 +5,7 @@
  "year": 2019,
  "genre": "Rap / Hip-hop",
  "difficulty": 3,
- "youtubeId": "U547ORZ3Oys",
+ "youtubeId": "bHa8z6ZOhfI",
  "key": "Cm7",
  "bpm": 82.44,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 2.79,
- "strum": "D-DU-UDU",
+ "strum": "D--D--D-",
  "lyricsSource": {
   "lrclibId": 33471893,
   "duration": 173,
@@ -72,7 +72,8 @@
      "F:1"
     ]
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D--D-UDU"
   },
   {
    "name": "Ritornello",
@@ -132,7 +133,8 @@
      "F:1"
     ]
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D--D-UDU"
   },
   {
    "name": "Ritornello",
@@ -174,7 +176,8 @@
      "F:1"
     ]
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D--D-UDU"
   },
   {
    "name": "Ritornello",
@@ -230,7 +233,8 @@
      "F:1"
     ]
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D--D-UDU"
   },
   {
    "name": "Ritornello",
@@ -276,7 +280,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D--D-UDU"
   }
  ],
  "warp": [
@@ -328,5 +333,6 @@
    50,
    148.304
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

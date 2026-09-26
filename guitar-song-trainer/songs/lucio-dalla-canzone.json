@@ -5,7 +5,7 @@
  "year": 1996,
  "genre": "Cantautori",
  "difficulty": 4,
- "youtubeId": "VkTNnCCKnE4",
+ "youtubeId": "ooqk6Khz-NU",
  "key": "G7",
  "bpm": 116.1,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.77,
- "strum": "D-DU-UDU",
+ "strum": "B-DU-UDU",
  "lyricsSource": {
   "lrclibId": 34350041,
   "duration": 272,
@@ -36,7 +36,8 @@
     "F/G",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "B---D---"
   },
   {
    "name": "Strofa 1",
@@ -183,7 +184,8 @@
     "Dm7",
     "G7"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Strofa 5",
@@ -275,7 +277,8 @@
     ],
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Strofa 7",
@@ -363,7 +366,8 @@
     ],
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Strofa 9",
@@ -493,5 +497,6 @@
    124,
    257.204
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

@@ -33,7 +33,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-------"
   },
   {
    "name": "Parte 2",
@@ -229,5 +230,6 @@
    76,
    183.826
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

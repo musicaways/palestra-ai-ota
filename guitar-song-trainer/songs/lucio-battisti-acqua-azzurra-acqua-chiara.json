@@ -5,7 +5,7 @@
  "year": 1969,
  "genre": "Cantautori",
  "difficulty": 5,
- "youtubeId": "Q6JW3KKeGKQ",
+ "youtubeId": "SMa58Ml-y7g",
  "key": "A",
  "bpm": 92.15,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 2.4,
- "strum": "D-DU-UDU",
+ "strum": "D--UDUDU",
  "lyricsSource": {
   "lrclibId": 37503567,
   "duration": 215,
@@ -38,7 +38,8 @@
     "G",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-------"
   },
   {
    "name": "Strofa 1",
@@ -225,7 +226,8 @@
     "A",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-------"
   }
  ],
  "warp": [
@@ -285,5 +287,6 @@
    74,
    194.701
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

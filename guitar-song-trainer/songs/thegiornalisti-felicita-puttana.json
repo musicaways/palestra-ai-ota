@@ -36,7 +36,8 @@
     "Em",
     "Am"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-------"
   },
   {
    "name": "Parte 2",
@@ -213,5 +214,6 @@
    79,
    205.21
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

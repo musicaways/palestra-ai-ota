@@ -35,7 +35,8 @@
     "Gbmaj7",
     "Fm"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
   },
   {
    "name": "Strofa 1",
@@ -245,5 +246,6 @@
    104,
    255.13
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

@@ -35,7 +35,8 @@
     "%",
     "A"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-------"
   },
   {
    "name": "Parte 2",
@@ -147,7 +148,8 @@
     "G",
     "A"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUXUDU"
   },
   {
    "name": "Ritornello",
@@ -164,7 +166,8 @@
     ],
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUXUDU"
   },
   {
    "name": "Finale",
@@ -176,7 +179,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-------"
   }
  ],
  "warp": [
@@ -252,5 +256,6 @@
    91,
    203.824
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

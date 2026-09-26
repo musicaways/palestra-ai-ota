@@ -5,7 +5,7 @@
  "year": 2019,
  "genre": "Pop / Indie",
  "difficulty": 5,
- "youtubeId": "yAD9xi3dVBU",
+ "youtubeId": "08RhHjMFCWQ",
  "key": "C",
  "bpm": 70.29,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.21,
- "strum": "D-DU-UDU",
+ "strum": "D-DUXUDU",
  "lyricsSource": {
   "lrclibId": 17754779,
   "duration": 263.44,
@@ -281,5 +281,6 @@
    72,
    246.454
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

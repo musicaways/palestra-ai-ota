@@ -34,7 +34,8 @@
     "Dm7",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
   },
   {
    "name": "Parte 2",
@@ -303,5 +304,6 @@
    96,
    293.162
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

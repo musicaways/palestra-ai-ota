@@ -5,7 +5,7 @@
  "year": 1984,
  "genre": "Folk",
  "difficulty": 2,
- "youtubeId": "ttEMYvpoR-k",
+ "youtubeId": "bVP52dC3jks",
  "key": "F",
  "bpm": 104.91,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.76,
- "strum": "D-DU-UDU",
+ "strum": "D--UDUDU",
  "lyricsSource": {
   "lrclibId": 37193186,
   "duration": 278,
@@ -29,7 +29,8 @@
    "bars": [
     "C",
     "Am"
-   ]
+   ],
+   "strum": "D-------"
   },
   {
    "name": "Strofa 1",
@@ -86,7 +87,8 @@
     "C",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Strofa 3",
@@ -160,7 +162,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Strofa 5",
@@ -268,7 +271,8 @@
     "%",
     "%"
    ],
-   "barsPerRow": 4
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
   },
   {
    "name": "Strofa 8",
@@ -432,5 +436,6 @@
    115,
    263.05
   ]
- ]
+ ],
+ "strumSource": "stima"
 }

@@ -5,7 +5,7 @@
  "year": 2021,
  "genre": "Rap / Hip-hop",
  "difficulty": 5,
- "youtubeId": "cFAtUbi7a8w",
+ "youtubeId": "s-MJ3P6rwc4",
  "key": "Fm",
  "bpm": 109.33,
  "timeSignature": [
@@ -15,7 +15,7 @@
  "capo": 0,
  "tuning": "Standard (E A D G B E)",
  "offset": 1.57,
- "strum": "D-DU-UDU",
+ "strum": "D--D-UD-",
  "lyricsSource": {
   "lrclibId": 36963823,
   "duration": 211,
@@ -30,7 +30,8 @@
     "Fm",
     "Cm",
     "Ab"
-   ]
+   ],
+   "strum": "D-------"
   },
   {
    "name": "Parte 2",
@@ -259,5 +260,6 @@
    93,
    205.56
   ]
- ]
+ ],
+ "strumSource": "stima"
 }
