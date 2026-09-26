@@ -24,6 +24,7 @@ export class Fretboard {
     this.ctx = canvas.getContext('2d');
     this.camStart = 0;
     this.customShapes = null;
+    this.capo = 0;
     this.particles = [];
     this.vibration = [0, 0, 0, 0, 0, 0];
     this.lastIdx = -2;
@@ -46,7 +47,18 @@ export class Fretboard {
 
   destroy() { this._ro.disconnect(); }
 
-  shape(name) { return name ? getShape(name, this.customShapes) : null; }
+  // Con il capotasto la forma resta la stessa ma si sposta in su di "capo" tasti.
+  shape(name) {
+    if (!name) return null;
+    const base = getShape(name, this.capo ? null : this.customShapes);
+    if (!base || !this.capo) return base;
+    const c = this.capo;
+    return {
+      frets: base.frets.map((f) => (f === null || f === 0 ? f : f + c)),
+      fingers: base.fingers,
+      barres: base.barres.map((b) => ({ ...b, fret: b.fret + c })),
+    };
+  }
 
   render(t, tl, idx, settings, playing) {
     const now = performance.now();
@@ -179,7 +191,7 @@ export class Fretboard {
     ctx.restore();
 
     // ---- manico ----
-    this.drawNeck({ X, fretX, stringY, neckTop, neckBottom, neckH, left, right, f0, span, mirror, openW, t });
+    this.drawNeck({ X, fretX, stringY, neckTop, neckBottom, neckH, left, right, f0, span, mirror, openW, t, fretW });
 
     // ---- diteggiatura corrente con transizione verso la successiva ----
     let p = 0;
@@ -277,7 +289,7 @@ export class Fretboard {
 
   drawNeck(g) {
     const { ctx, w } = this;
-    const { X, fretX, stringY, neckTop, neckBottom, neckH, left, right, f0, span, mirror, openW, t } = g;
+    const { X, fretX, stringY, neckTop, neckBottom, neckH, left, right, f0, span, mirror, openW, t, fretW } = g;
     const x0 = mirror ? right : left - 4;
     const x1 = mirror ? w - left + 4 : w - right;
 
@@ -351,6 +363,29 @@ export class Fretboard {
       ctx.stroke();
     }
     ctx.shadowBlur = 0;
+
+    // capotasto
+    if (this.capo > 0) {
+      const cx = X(fretX(this.capo) - fretW * 0.18);
+      const g2 = ctx.createLinearGradient(cx - 7, 0, cx + 7, 0);
+      g2.addColorStop(0, '#2b2740');
+      g2.addColorStop(0.5, '#6d6890');
+      g2.addColorStop(1, '#2b2740');
+      ctx.fillStyle = g2;
+      ctx.shadowColor = '#000';
+      ctx.shadowBlur = 8;
+      ctx.fillRect(cx - 7, neckTop - 6, 14, neckH + 12);
+      ctx.shadowBlur = 0;
+      ctx.save();
+      ctx.translate(cx, neckTop + neckH / 2);
+      ctx.rotate(-Math.PI / 2);
+      ctx.fillStyle = '#e9e6ff';
+      ctx.font = '700 10px Rajdhani, system-ui, sans-serif';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText('CAPO', 0, 0);
+      ctx.restore();
+    }
 
     // numeri dei tasti
     ctx.font = '600 12px Rajdhani, system-ui, sans-serif';

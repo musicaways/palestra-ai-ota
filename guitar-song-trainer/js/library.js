@@ -1,10 +1,12 @@
 // Libreria brani: ricerca, preferiti, raggruppamento per artista / genere.
 import { getFavorites, toggleFavorite, store } from './store.js';
 import { icon } from './icons.js';
+import { getAllStats, formatDuration, formatAgo } from './stats.js';
 
 const TABS = [
   { id: 'all', label: 'Tutti' },
   { id: 'favorites', label: 'Preferiti' },
+  { id: 'recent', label: 'Recenti' },
   { id: 'artist', label: 'Artisti' },
   { id: 'genre', label: 'Generi' },
   { id: 'difficulty', label: 'Difficoltà' },
@@ -22,6 +24,10 @@ export function renderLibrary(root, songs) {
         <div class="hero-kicker">${icon('guitar', 16)} Guitar Song Trainer</div>
         <h1>Scegli un brano,<br><span>suonalo a tempo.</span></h1>
         <p>Manico animato, video sincronizzato, testo karaoke. Rallenta, ripeti in loop, impara.</p>
+        <div class="hero-actions">
+          <a class="chip-btn primary" href="#/allenamento">${icon('drill', 16)} Allenamento cambi accordo</a>
+          <span class="hero-stats"></span>
+        </div>
       </section>
       <div class="library-head">
         <label class="search-wrap">${icon('search', 18)}
@@ -69,6 +75,7 @@ export function renderLibrary(root, songs) {
         <div class="artist"></div>
         <div class="meta-row">
           <span class="genre"></span>
+          <span class="practice"></span>
           <span class="level" title="Difficoltà: ${DIFFICULTY[level] ?? '—'}">${[1, 2, 3, 4, 5].map((i) => `<i class="${i <= level ? 'on' : ''}"></i>`).join('')}
             <em>${DIFFICULTY[level] ?? ''}</em></span>
         </div>
@@ -77,6 +84,12 @@ export function renderLibrary(root, songs) {
     a.querySelector('.title').textContent = song.title;
     a.querySelector('.artist').textContent = song.artist;
     a.querySelector('.genre').textContent = song.genre ?? '';
+    const st = stats[song.id];
+    const pr = a.querySelector('.practice');
+    if (st?.seconds) {
+      pr.innerHTML = `${icon('clock', 13)} ${formatDuration(st.seconds)} · ${formatAgo(st.lastPlayed)}`;
+      pr.title = `Pratica totale: ${formatDuration(st.seconds)} in ${st.sessions} sessioni${st.bestRate ? ` · velocità migliore nel loop: ${Math.round(st.bestRate * 100)}%` : ''}`;
+    } else pr.remove();
     const kb = a.querySelector('.key-badge');
     if (song.key) kb.textContent = song.key; else kb.remove();
     const fav = a.querySelector('.fav');
@@ -117,7 +130,12 @@ export function renderLibrary(root, songs) {
     return frag;
   }
 
+  let stats = {};
+
   function draw() {
+    stats = getAllStats();
+    const total = Object.values(stats).reduce((x, v) => x + (v.seconds || 0), 0);
+    root.querySelector('.hero-stats').textContent = total ? `Hai suonato ${formatDuration(total)} in tutto` : '';
     tabsEl.querySelectorAll('.tab').forEach((b) => b.classList.toggle('active', b.dataset.tab === tab));
     const favs = getFavorites();
     let list = songs.filter((s) =>
@@ -125,12 +143,15 @@ export function renderLibrary(root, songs) {
     list = [...list].sort((a, b) => a.title.localeCompare(b.title, 'it'));
     body.replaceChildren();
     if (tab === 'favorites') list = list.filter((s) => favs.has(s.id));
+    if (tab === 'recent') {
+      list = list.filter((s) => stats[s.id]?.lastPlayed).sort((a, b) => stats[b.id].lastPlayed - stats[a.id].lastPlayed);
+    }
     if (!list.length) {
       const p = document.createElement('p');
       p.className = 'empty';
       p.textContent = tab === 'favorites'
         ? 'Nessun preferito: tocca la stella su un brano per aggiungerlo.'
-        : 'Nessun brano trovato.';
+        : tab === 'recent' ? 'Non hai ancora suonato nessun brano.' : 'Nessun brano trovato.';
       body.append(p);
       return;
     }

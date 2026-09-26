@@ -89,6 +89,13 @@ const EXPLICIT = {
   Ebmaj7: { frets: [n, n, 1, 3, 3, 3], fingers: [0, 0, 1, 3, 3, 3] },
   Fmaj7: { frets: [n, n, 3, 2, 1, 0], fingers: [0, 0, 3, 2, 1, 0] },
   E7: { frets: [0, 2, 0, 1, 0, 0], fingers: [0, 2, 0, 1, 0, 0] },
+  'Em/D': { frets: [n, n, 0, 0, 0, 0], fingers: [0, 0, 0, 0, 0, 0] },
+  B7: { frets: [n, 2, 1, 2, 0, 2], fingers: [0, 2, 1, 3, 0, 4] },
+  Em7: { frets: [0, 2, 0, 0, 0, 0], fingers: [0, 2, 0, 0, 0, 0] },
+  Am: { frets: [n, 0, 2, 2, 1, 0], fingers: [0, 0, 2, 3, 1, 0] },
+  Em: { frets: [0, 2, 2, 0, 0, 0], fingers: [0, 2, 3, 0, 0, 0] },
+  A: { frets: [n, 0, 2, 2, 2, 0], fingers: [0, 0, 1, 2, 3, 0] },
+  E: { frets: [0, 2, 2, 1, 0, 0], fingers: [0, 2, 3, 1, 0, 0] },
   A7: { frets: [n, 0, 2, 0, 2, 0], fingers: [0, 0, 2, 0, 3, 0] },
   Am7: { frets: [n, 0, 2, 0, 1, 0], fingers: [0, 0, 2, 0, 1, 0] },
 };
@@ -193,4 +200,53 @@ function addBass(shape, bassIndex) {
 
 export function fretNote(stringIndex, fret) {
   return (STANDARD_TUNING[stringIndex] + fret) % 12;
+}
+
+// ---------- Trasposizione e capotasto ----------
+
+const FLAT_KEYS = new Set([10, 3, 8]); // Bb Eb Ab: di solito si scrivono coi bemolle
+const FLAT_NAMES = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
+
+function spell(index, preferFlat) {
+  const i = ((index % 12) + 12) % 12;
+  return preferFlat ? FLAT_NAMES[i] : SHARP_NAMES[i];
+}
+
+// Trasporta un accordo di n semitoni ("Gm/F", -3 → "Em/D").
+export function transposeChord(name, semitones) {
+  if (!semitones) return name;
+  const p = parseChord(name);
+  if (!p) return name;
+  const root = (p.rootIndex + semitones + 12) % 12;
+  const flat = p.root.includes('b') || (!p.root.includes('#') && FLAT_KEYS.has(root));
+  const out = spell(root, flat) + p.rawQuality;
+  return p.bass ? `${out}/${spell(noteIndex(p.bass) + semitones, flat)}` : out;
+}
+
+// Con il capotasto al tasto c si suona la forma dell'accordo trasportato di -c.
+export function shapeNameWithCapo(name, capo) {
+  return capo ? transposeChord(name, -capo) : name;
+}
+
+// Quanto è difficile una diteggiatura: barrè e tasti alti pesano di più.
+export function shapeDifficulty(shape) {
+  if (!shape) return 10;
+  const fretted = shape.frets.filter((f) => f != null && f > 0);
+  const hasBarre = shape.barres.some((b) => b.to - b.from >= 2);
+  const span = fretted.length ? Math.max(...fretted) - Math.min(...fretted) : 0;
+  const high = fretted.length ? Math.max(...fretted) : 0;
+  return (hasBarre ? 4 : 0) + Math.max(0, span - 2) + (high > 5 ? 1 : 0) + fretted.length * 0.1;
+}
+
+// Suggerisce il capotasto (0-7) che rende più facili gli accordi del brano.
+export function suggestCapo(chordNames, custom) {
+  const names = [...new Set(chordNames)];
+  let best = { capo: 0, score: Infinity };
+  const scores = [];
+  for (let c = 0; c <= 7; c++) {
+    const score = names.reduce((s, n) => s + shapeDifficulty(getShape(shapeNameWithCapo(n, c), c ? null : custom)), 0) + c * 0.15;
+    scores.push({ capo: c, score });
+    if (score < best.score - 1e-9) best = { capo: c, score };
+  }
+  return { ...best, scores };
 }

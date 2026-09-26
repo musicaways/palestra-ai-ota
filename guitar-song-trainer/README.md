@@ -26,6 +26,12 @@ Funziona nel browser di **PC, tablet e telefono Android** e si può installare c
   velocità sale (50% → 60% → … → 100%).
 - **Conteggio d'attacco**: una battuta di click prima di partire.
 - **Accordatore** cromatico col microfono (serve la pagina in https e il permesso del microfono).
+- **Capotasto** con suggerimento automatico: il brano suona uguale ma usi forme più facili
+  (per Cartine corte il capo al 3° trasforma Gm – Gm/F – Ebmaj7 – D7 in Em – Em/D – Cmaj7 – B7).
+- **Allenamento cambi accordo**: scegli 2-4 accordi e un tempo; li alterni col metronomo in round da
+  un minuto, con il BPM che sale da solo e il record salvato per ogni combinazione.
+- **Statistiche di pratica**: tempo suonato e ultima volta su ogni brano, scheda *Recenti*.
+- Schermo sempre acceso mentre suoni e **modalità concentrazione** (solo palco e testo).
 - **Libreria** con ricerca e schede *Tutti / Preferiti / Artisti / Generi / Difficoltà*.
 - **Sincronia**: correzione fine ±0,05 s e modalità **🎯 Registra tempi** (tocchi TAP a ogni cambio
   accordo mentre il video suona: i tempi vengono salvati e si possono esportare in JSON).
@@ -36,6 +42,12 @@ Funziona nel browser di **PC, tablet e telefono Android** e si può installare c
 
 Scorciatoie da tastiera: `spazio` play/pausa · `←` `→` ±5 s · `[` `]` punti A/B · `L` loop ·
 `T` tap in registrazione.
+
+## Riprendere il progetto con un altro assistente AI
+
+La memoria condivisa del progetto è in [`AGENTS.md`](AGENTS.md): architettura, regole, formato dei
+brani, procedura per aggiungerne di nuovi, stato attuale, decisioni e prossimi passi. È letto
+automaticamente da Codex, Cursor e altri; `CLAUDE.md` e `GEMINI.md` rimandano allo stesso file.
 
 ## Avvio in locale
 
@@ -126,6 +138,9 @@ js/lyrics.js          download da LRCLIB e parsing LRC
 js/sheet.js           griglia degli accordi
 js/diagram.js         diagrammi SVG degli accordi
 js/tuner.js           accordatore (microfono, autocorrelazione)
+js/drill.js           allenamento cambi accordo
+js/stats.js           statistiche di pratica e record
+js/audio.js           metronomo e schermo sempre acceso
 tests/                test unitari (node --test) ed end-to-end (Playwright)
 js/icons.js           icone SVG
 js/timeline.js        da sezioni/battute a tempi assoluti

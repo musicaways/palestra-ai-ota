@@ -392,6 +392,44 @@ kbd { background: rgba(146, 132, 255, .12); border: 1px solid var(--line); borde
 .tuner-labels { position: absolute; left: 0; right: 0; bottom: 0; display: flex; justify-content: space-between; font-size: 11px; color: var(--muted); }
 .tuner-info { color: var(--muted); font-size: 13px; text-align: center; min-height: 20px; }
 
+
+/* ---------- Novità: capotasto, concentrazione, statistiche, allenamento ---------- */
+.capo-badge { margin-left: 6px; padding: 1px 7px; border-radius: 6px; background: rgba(124, 92, 255, .25); color: var(--text); letter-spacing: .08em; }
+.capo-grid { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 12px; }
+.capo-grid .seg { border: 1px solid var(--line); min-width: 52px; height: 40px; }
+.capo-suggest { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; color: var(--muted); font-size: 14px; }
+.capo-suggest b { color: var(--cyan); }
+.capo-preview { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
+.capo-preview .chip { flex: none; padding: 4px 10px; }
+.player.focus .left-col { display: none; }
+.player.focus .player-main { grid-template-columns: 1fr; }
+.player.focus .fretboard { height: clamp(320px, 58vh, 640px); }
+.player.focus .panel { max-height: calc(100vh - clamp(320px, 58vh, 640px) - 96px); }
+.player.focus [data-act="focus"] { color: var(--cyan); border-color: var(--cyan); }
+.hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; margin-top: 18px; }
+.hero-stats { color: var(--muted); font-size: 14px; }
+.practice { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; color: var(--muted); margin-left: auto; margin-right: 8px; }
+.drill-cfg { padding: 16px; display: flex; flex-direction: column; gap: 14px; }
+.drill-section-title { font-family: var(--display); font-weight: 700; font-size: 18px; text-transform: uppercase; letter-spacing: .06em; }
+.drill-selected { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; min-height: 44px; }
+.chip.big { flex: none; font-size: 24px; padding: 4px 14px; }
+.arrow { color: var(--muted); font-size: 20px; }
+.drill-presets { display: flex; flex-wrap: wrap; gap: 6px; }
+.drill-chords { display: flex; flex-wrap: wrap; gap: 4px; }
+.drill-chords .seg { border: 1px solid var(--line); font-family: var(--display); font-size: 16px; }
+.drill-row { display: flex; flex-wrap: wrap; gap: 18px; align-items: flex-end; }
+.drill-field { display: flex; flex-direction: column; gap: 6px; color: var(--muted); font-size: 13px; flex: 1 1 200px; }
+.drill-field b { color: var(--cyan); }
+.drill-field input[type="range"] { width: 100%; accent-color: var(--cyan); }
+.check-line { display: flex; align-items: center; gap: 10px; color: var(--muted); font-size: 14px; }
+.check-line input { width: 18px; height: 18px; accent-color: var(--cyan); }
+.drill-actions { display: flex; align-items: center; gap: 16px; }
+.drill-score { color: var(--muted); font-size: 14px; }
+.drill-score b { color: var(--text); }
+.drill-timer { font-family: var(--display); font-weight: 700; font-size: 30px; color: var(--text); text-shadow: 0 0 14px rgba(34, 211, 238, .6); }
+.drill .panel { max-height: none; }
+.drill .panel-body { padding-bottom: 14px; }
+
 /* ---------- Tablet e telefono ---------- */
 @media (max-width: 960px) {
   .player-main { grid-template-columns: 1fr; }

@@ -5,7 +5,9 @@ import { Fretboard } from './fretboard.js';
 import { Sheet } from './sheet.js';
 import { Karaoke } from './karaoke.js';
 import { loadSyncedLyrics, looksLikeLrc, clearLyricsCache } from './lyrics.js';
-import { displayChord, chordColor } from './music.js';
+import { displayChord, chordColor, shapeNameWithCapo, suggestCapo } from './music.js';
+import { click, WakeLock } from './audio.js';
+import { addPractice, recordRate } from './stats.js';
 import { icon } from './icons.js';
 import { chordDiagram } from './diagram.js';
 import { Tuner } from './tuner.js';
@@ -38,6 +40,10 @@ export async function openPlayer(root, song) {
   let ramp = false;
   let counting = null; // conteggio d'attacco in corso
   let tuner = null;
+  let capo = store.get(key('capo'), song.capo ?? 0);
+  let practiceAcc = 0;
+  let lastFrameAt = performance.now();
+  const wake = new WakeLock();
 
   root.innerHTML = `
   <div class="player">
@@ -45,6 +51,7 @@ export async function openPlayer(root, song) {
       <a class="icon-btn" href="#/" aria-label="Torna alla libreria">${icon('back')}</a>
       <div class="player-title"><div class="title"></div><div class="artist"></div></div>
       <button class="icon-btn fav" aria-label="Preferito"></button>
+      <button class="icon-btn" data-act="focus" aria-label="Modalità concentrazione" title="Modalità concentrazione: nasconde video e controlli">${icon('focus')}</button>
       <button class="icon-btn" data-act="settings" aria-label="Impostazioni">${icon('settings')}</button>
     </header>
 
@@ -54,7 +61,7 @@ export async function openPlayer(root, song) {
       <div class="toast" hidden></div>
       <div class="hud">
         <div class="hud-block now">
-          <div class="hud-label section-name">Intro</div>
+          <div class="hud-label"><span class="section-name">Intro</span> <span class="capo-badge" hidden></span></div>
           <div class="hud-chord now-chord">—</div>
         </div>
         <div class="hud-center">
@@ -97,6 +104,7 @@ export async function openPlayer(root, song) {
           <div class="tools-row">
             <button class="chip-btn" data-act="metro" title="Click del metronomo">${icon('metronome', 16)} Click</button>
             <button class="chip-btn" data-act="countin" title="Una battuta di conteggio prima di partire">${icon('count', 16)} Conteggio</button>
+            <button class="chip-btn" data-act="capo" title="Capotasto: accordi più facili">${icon('capo', 16)} <span class="capo-label">Capotasto</span></button>
             <button class="chip-btn" data-act="tuner" title="Accorda la chitarra col microfono">${icon('tuner', 16)} Accordatore</button>
             <button class="chip-btn" data-act="sync" title="Allinea accordi e testo al video">${icon('sliders', 16)} Sincronia</button>
             <button class="chip-btn" data-act="record" title="Registra i cambi accordo toccando a tempo">${icon('target', 16)} Registra tempi</button>
@@ -177,6 +185,14 @@ export async function openPlayer(root, song) {
       </form>
     </dialog>
 
+    <dialog class="dlg dlg-capo"><form method="dialog"><h3>Capotasto</h3>
+      <p class="hint">Con il capotasto il brano suona uguale, ma usi forme di accordo diverse, spesso più facili.
+      Il manico, i diagrammi e il testo mostrano le forme da suonare.</p>
+      <div class="capo-grid"></div>
+      <div class="capo-suggest"></div>
+      <div class="capo-preview"></div>
+      <menu><button value="ok" class="chip-btn primary">Fatto</button></menu></form></dialog>
+
     <dialog class="dlg dlg-tuner"><form method="dialog"><h3>Accordatore</h3><div class="tuner"></div>
       <p class="hint">Accordatura standard: Mi La Re Sol Si Mi. Pizzica una corda e attendi che la lancetta si fermi al centro.</p>
       <menu><button value="ok" class="chip-btn primary">Chiudi</button></menu></form></dialog>
@@ -230,8 +246,8 @@ export async function openPlayer(root, song) {
     chordsBody.hidden = panelTab !== 'chords';
     shapesBody.hidden = panelTab !== 'shapes';
     const names = [...new Set(tl.events.map((e) => e.name))];
-    shapesBody.innerHTML = `<p class="hint">Gli accordi del brano, nell'ordine in cui compaiono. Quello che stai suonando si illumina.</p>
-      <div class="diagram-grid">${names.map((n) => chordDiagram(n, settings, song.shapes)).join('')}</div>`;
+    shapesBody.innerHTML = `<p class="hint">Gli accordi del brano, nell'ordine in cui compaiono. Quello che stai suonando si illumina.${capo ? ` <b>Capotasto al ${capo}° tasto</b>: i diagrammi partono dal capotasto.` : ''}</p>
+      <div class="diagram-grid">${names.map((n) => chordDiagram(n, settings, capo ? null : song.shapes)).join('')}</div>`;
     lastDiagram = null;
     if (synced?.lines.length) {
       karaoke.render(synced.lines, tl, settings, lyricsOffset);
@@ -254,6 +270,15 @@ export async function openPlayer(root, song) {
 
   function rebuild() {
     tl = buildTimeline(song, { offset, sync });
+    // con il capotasto si mostrano le forme da suonare (il brano suona uguale)
+    if (capo) tl.events.forEach((ev) => { ev.sounding = ev.name; ev.name = shapeNameWithCapo(ev.name, capo); });
+    fretboard.capo = capo;
+    fretboard.customShapes = capo ? null : song.shapes ?? null;
+    const badge = root.querySelector('.capo-badge');
+    if (badge) { badge.hidden = !capo; badge.textContent = `capo ${capo}`; }
+    const cl = root.querySelector('.capo-label');
+    if (cl) cl.textContent = capo ? `Capo ${capo}` : 'Capotasto';
+    root.querySelector('[data-act="capo"]')?.classList.toggle('active', !!capo);
     renderPanel();
     drawScrubSections();
     paintLoop();
@@ -281,6 +306,7 @@ export async function openPlayer(root, song) {
 
   // ---------- Orologio: YouTube o interno ----------
   const onState = (playing) => {
+    if (playing) wake.on(); else wake.off();
     playBtn.innerHTML = icon(playing ? 'pause' : 'play', 26);
     playBtn.classList.toggle('playing', playing);
   };
@@ -372,20 +398,6 @@ export async function openPlayer(root, song) {
     scrub.onpointerup = () => { scrub.onpointermove = null; };
   });
 
-  // ---------- Metronomo ----------
-  let audio = null;
-  function click(accent) {
-    audio ||= new (window.AudioContext || window.webkitAudioContext)();
-    const o = audio.createOscillator();
-    const g = audio.createGain();
-    o.frequency.value = accent ? 1500 : 1000;
-    g.gain.setValueAtTime(0.25, audio.currentTime);
-    g.gain.exponentialRampToValueAtTime(0.001, audio.currentTime + 0.06);
-    o.connect(g).connect(audio.destination);
-    o.start();
-    o.stop(audio.currentTime + 0.07);
-  }
-
   // ---------- Registrazione dei tempi (tap) ----------
   const recEl = $('.recorder');
   const recInfo = $('.rec-info');
@@ -461,7 +473,6 @@ export async function openPlayer(root, song) {
   }
 
   function togglePlay() {
-    audio?.resume();
     if (counting) { cancelCountIn(); return; }
     if (clock.playing || !settings.countIn) { clock.toggle(); return; }
     // una battuta di click prima di partire, al tempo (rallentato) del brano
@@ -494,6 +505,7 @@ export async function openPlayer(root, song) {
   function onLoopWrap() {
     if (!ramp) return;
     const cur = clock.getRate();
+    recordRate(song.id, cur);
     const next = sortedRates().find((r) => r > cur + 0.001);
     if (next) {
       clock.setRate(next);
@@ -523,6 +535,33 @@ export async function openPlayer(root, song) {
     return i;
   }
 
+  function openCapo() {
+    const dlg = $('.dlg-capo');
+    const soundingNames = buildTimeline(song).events.map((e) => e.name);
+    const sug = suggestCapo(soundingNames, song.shapes);
+    const paint = () => {
+      dlg.querySelector('.capo-grid').innerHTML = Array.from({ length: 8 }, (_, c) =>
+        `<button type="button" class="seg${c === capo ? ' active' : ''}" data-capo="${c}">${c ? c + '°' : 'No'}</button>`).join('');
+      dlg.querySelector('.capo-suggest').innerHTML = sug.capo
+        ? `Suggerito: <b>capotasto al ${sug.capo}° tasto</b> (accordi più facili). <button type="button" class="chip-btn" data-capo="${sug.capo}">Usa il suggerito</button>`
+        : 'Suggerito: <b>nessun capotasto</b>, le forme originali sono già le più comode.';
+      const uniq = [...new Set(soundingNames)];
+      dlg.querySelector('.capo-preview').innerHTML = uniq.map((n) =>
+        `<span class="chip" style="--chip:${chordColor(n)}">${displayChord(shapeNameWithCapo(n, capo), settings.notation)}</span>`).join('');
+    };
+    paint();
+    dlg.onclick = (e) => {
+      const b = e.target.closest('[data-capo]');
+      if (!b) return;
+      capo = Number(b.dataset.capo);
+      store.set(key('capo'), capo);
+      rebuild();
+      lastIdx = -2;
+      paint();
+    };
+    dlg.showModal();
+  }
+
   function openTuner() {
     const dlg = $('.dlg-tuner');
     clock.pause();
@@ -533,6 +572,7 @@ export async function openPlayer(root, song) {
   }
 
   // ---------- Pulsanti ----------
+  root.querySelector('.player').classList.toggle('focus', !!settings.focus);
   const paintToggles = () => {
     $('[data-act="metro"]').classList.toggle('active', settings.metronome);
     $('[data-act="countin"]').classList.toggle('active', settings.countIn);
@@ -559,6 +599,11 @@ export async function openPlayer(root, song) {
       case 'ramp': toggleRamp(); break;
       case 'countin': settings.countIn = !settings.countIn; saveSettings(settings); paintToggles(); break;
       case 'tuner': openTuner(); break;
+      case 'capo': openCapo(); break;
+      case 'focus':
+        settings.focus = !settings.focus; saveSettings(settings);
+        root.querySelector('.player').classList.toggle('focus', settings.focus);
+        break;
       case 'metro': settings.metronome = !settings.metronome; saveSettings(settings); paintToggles(); break;
       case 'sync': openSync(); break;
       case 'record': startRecorder(); break;
@@ -683,6 +728,10 @@ export async function openPlayer(root, song) {
     if (destroyed) return;
     const t = clock.getTime();
     const dur = totalDuration();
+    const nowMs = performance.now();
+    if (clock.playing) practiceAcc += Math.min(0.25, (nowMs - lastFrameAt) / 1000);
+    lastFrameAt = nowMs;
+    if (practiceAcc >= 10) { addPractice(song.id, practiceAcc); practiceAcc = 0; }
 
     if (loop.on && loop.a != null && loop.b != null && t >= loop.b && performance.now() - lastSeekAt > 300) {
       seek(loop.a);
@@ -753,9 +802,10 @@ export async function openPlayer(root, song) {
     cancelAnimationFrame(raf);
     cancelCountIn();
     tuner?.stop();
+    wake.off();
+    addPractice(song.id, practiceAcc);
     window.removeEventListener('keydown', onKey);
     fretboard.destroy();
     clock?.destroy();
-    audio?.close?.();
   };
 }

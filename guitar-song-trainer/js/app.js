@@ -1,6 +1,7 @@
 // Avvio e navigazione (hash router): #/ = libreria, #/song/<id> = studio del brano.
 import { renderLibrary } from './library.js';
 import { openPlayer } from './player.js';
+import { openDrill } from './drill.js';
 
 const root = document.getElementById('app');
 let index = null;
@@ -36,7 +37,11 @@ async function route() {
   document.body.classList.remove('in-player');
   const m = /^#\/song\/(.+)$/.exec(location.hash);
   try {
-    if (m) {
+    if (location.hash === '#/allenamento') {
+      document.body.classList.add('in-player');
+      document.title = 'Allenamento cambi · Guitar Song Trainer';
+      destroyCurrent = openDrill(root);
+    } else if (m) {
       document.body.classList.add('in-player');
       root.innerHTML = '<div class="loading">Caricamento…</div>';
       const song = await loadSong(decodeURIComponent(m[1]));

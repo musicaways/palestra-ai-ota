@@ -1,0 +1,148 @@
+# AGENTS.md — memoria condivisa del progetto
+
+> File letto dagli assistenti AI (Claude Code, Codex, Cursor, Gemini, Copilot…) per riprendere il
+> lavoro senza perdere il contesto. **Aggiornalo a fine sessione**: sezioni "Stato attuale",
+> "Diario delle sessioni" e "Prossimi passi". Scrivi in italiano, come il resto del progetto.
+
+## Il progetto in breve
+
+**Guitar Song Trainer** è una web app (PWA) per imparare canzoni alla chitarra in stile
+Rocksmith, usabile su PC, tablet e telefono Android. Proprietario: `musicaways` (GitHub).
+
+- In alto un palco su canvas: corsia in prospettiva da cui arrivano le cornici degli accordi,
+  manico al neon con la diteggiatura corrente e transizione verso la successiva.
+- Sotto: video YouTube sincronizzato (pausa, velocità, loop A-B, loop di sezione, velocità progressiva).
+- Pannello a schede: testo karaoke sincronizzato con gli accordi sopra le parole, griglia degli
+  accordi per battuta, diagrammi delle diteggiature.
+- Libreria con ricerca, preferiti, recenti, artisti, generi, difficoltà e tempo di pratica.
+- Strumenti: capotasto con suggerimento automatico, accordatore dal microfono, allenamento dei
+  cambi accordo, conteggio d'attacco, metronomo, registrazione dei tempi a TAP.
+- **I brani vengono aggiunti dall'AI su richiesta dell'utente, uno alla volta** (vedi sotto).
+
+## Regole da rispettare sempre
+
+1. **Mai testi delle canzoni nel repository** (diritti d'autore), né nei commit, né nelle PR, né nei
+   messaggi. Il testo arriva a runtime da LRCLIB (`lyricsSource.lrclibId` nel JSON del brano) oppure
+   lo incolla l'utente (salvato solo nel suo browser). Nei test non stampare mai il testo.
+2. **Niente build e niente dipendenze a runtime**: HTML + CSS + moduli ES nativi. Si apre con un
+   qualsiasi server statico. Le uniche risorse esterne sono YouTube, LRCLIB e Google Fonts.
+3. **Interfaccia e commenti in italiano.** Nomi di variabili in inglese.
+4. Ogni modifica passa da `npm test` (unitari) e `node tests/e2e.mjs` (browser). Aggiungi test per le
+   nuove funzioni. La logica pura (music, timeline, lyrics, stats, tuner) va tenuta senza DOM, così
+   si testa con `node --test`.
+5. Quando aggiungi un file JS, aggiungilo anche all'elenco `SHELL` di `sw.js` e alza `VERSION`.
+6. Accordi: nomi internazionali nei dati (`Gm`, `Ebmaj7`, `D7sus4`, `Gm/F`); la notazione italiana
+   (Do Re Mi) è solo di visualizzazione.
+
+## Architettura
+
+```
+index.html            pagina unica, carica js/app.js
+css/style.css         tema "neon stage" (variabili in :root), responsive (≤960px, ≤560px)
+js/app.js             router a hash: #/ libreria · #/song/<id> player · #/allenamento
+js/library.js         libreria (schede, ricerca, preferiti, statistiche sulle card)
+js/player.js          schermata di studio: orchestra clock, palco, pannelli, dialoghi, loop
+js/fretboard.js       canvas: corsia 3D (proiezione prospettica verso un punto di fuga) + manico
+js/timeline.js        brano → timeline in secondi (battute, eventi accordo, righe, sezioni)
+js/music.js           note, parsing accordi, diteggiature, trasposizione, suggerimento capotasto
+js/clock.js           YouTubeClock (IFrame API, tempo interpolato) e FreeClock (riserva)
+js/karaoke.js         righe LRC + accordi posizionati per tempo, riempimento progressivo
+js/lyrics.js          download da LRCLIB, cache locale, parsing LRC
+js/sheet.js           griglia accordi per battuta
+js/diagram.js         diagrammi SVG degli accordi
+js/tuner.js           accordatore (autocorrelazione)
+js/drill.js           allenamento cambi accordo (usa un "brano sintetico" e lo stesso palco)
+js/stats.js           tempo di pratica, recenti, record dell'allenamento (localStorage)
+js/audio.js           click del metronomo, Wake Lock dello schermo
+js/store.js           localStorage con prefisso `gst:` e impostazioni
+js/icons.js           icone SVG in linea
+songs/index.json      elenco dei brani (metadati per la libreria)
+songs/<id>.json       un file per brano
+tests/*.test.mjs      test unitari (node --test)
+tests/e2e.mjs         test end-to-end Playwright (desktop + telefono)
+```
+
+Flusso del player: `buildTimeline(song, {offset, sync})` → ogni frame `clock.getTime()` →
+`eventIndexAt` / `beatAt` → `fretboard.render(...)`, `karaoke.update(...)` / `sheet.update(...)`, HUD.
+Con il capotasto gli eventi della timeline vengono rinominati con la forma da suonare
+(`ev.sounding` conserva il nome reale) e `Fretboard.capo` sposta le forme in su.
+
+## Formato di un brano
+
+Documentato nel README (sezione "Aggiungere un brano"). Punti chiave:
+- `bpm`, `timeSignature`, `offset` (secondo del video in cui inizia la prima battuta).
+- `patterns` (giri riutilizzabili) + `sections` (`pattern` + `repeat`, oppure `bars`).
+- Una battuta: `"Gm"`, `["D7sus4", "D7"]`, `["F5:3", "C5:1"]`, `"%"` = l'accordo prosegue.
+- `strum`: pennata su 8 crome (o 6 in 3/4): `D` giù, `U` su, `-` pausa, `X` stoppata.
+- `lyricsSource`: `{ "lrclibId": 123, "offset": 0 }` oppure ricerca per artista/titolo.
+- `sync`: tempi registrati di ogni cambio accordo (dall'app, "Registra tempi" → "Esporta JSON").
+- `shapes`: diteggiature personalizzate; `capo`: capotasto consigliato di default.
+
+### Procedura per aggiungere un brano (per l'AI)
+
+1. Trova il video ufficiale su YouTube (ID dopo `watch?v=`).
+2. Ricava tonalità, BPM, metro e giro di accordi da fonti di accordi pubbliche (solo accordi, niente testo).
+3. Cerca il brano su LRCLIB: `https://lrclib.net/api/search?artist_name=…&track_name=…` e scegli
+   l'id la cui durata coincide col video. Usa **solo i timestamp** (mai il testo) per stimare
+   griglia e sezioni: gli intervalli fra le righe cantate rivelano la durata delle battute.
+4. Scrivi `songs/<artista>-<titolo>.json` e aggiungi la voce in `songs/index.json`.
+5. Verifica con `npm test` (il test della timeline costruisce tutti i brani dell'indice) e aprendo
+   il brano nel browser. Segnala all'utente che i tempi sono stimati finché non registra i TAP.
+
+## Comandi
+
+```bash
+npm test                                   # test unitari
+npm start                                  # server statico su :8080
+node tests/e2e.mjs http://localhost:8080   # test nel browser (serve Playwright installato)
+```
+Nel test e2e YouTube è bloccato di proposito (si prova il clock di riserva); il microfono è finto.
+
+## Stato attuale (v1.2.0 — 2026-09-26)
+
+- Funziona tutto quanto descritto sopra; 25 test unitari e ~35 controlli e2e verdi.
+- **Brani in libreria**: 1 — Salmo, *Cartine corte* (RANCH, 2025). 3/4 a 95 BPM, griglia ricavata
+  dai tempi del cantato (una riga ogni 3,79 s = 2 battute). Giro Gm – Gm/F – Ebmaj7 – D7sus4 → D7,
+  bridge G5 F5 Eb5 C5. Capotasto suggerito: 3 (Em – Em/D – Cmaj7 – B7). **Tempi dei cambi stimati,
+  non ancora verificati sul video reale.**
+- **Non verificato**: video YouTube reale e accordatore con una chitarra vera (la sandbox li blocca).
+
+## Dove vive il codice
+
+- Temporaneamente nella cartella `guitar-song-trainer/` del repo `musicaways/palestra-ai-ota`,
+  branch `claude/guitar-learning-app-iy0h24`, PR #2 (in bozza, **da non unire**: quel repo è il
+  canale OTA di un'altra app, Palestra AI; non toccare `version.json` né le sue release).
+- **Da fare**: spostarlo in un repository dedicato (l'integrazione non ha potuto crearlo: 403).
+- **Vercel**: il team è `musicaways-projects`; il connettore non ha il permesso di creare progetti
+  (403). L'utente deve creare il progetto (Root Directory `guitar-song-trainer`, preset *Other*,
+  nessuna build) oppure dare i permessi. `vercel.json` è già pronto.
+
+## Decisioni prese (e perché)
+
+- **JS vanilla senza build**: si pubblica ovunque (Vercel, GitHub Pages) e si modifica da qualsiasi AI.
+- **Canvas 2D con proiezione a mano** invece di WebGL: più leggero, funziona su telefoni modesti.
+- **Testo da LRCLIB a runtime**: niente materiale protetto nel repo; timestamp riga per riga gratuiti.
+- **Due clock con la stessa interfaccia**: l'app resta usabile senza YouTube (e testabile).
+- **Tempi reali tramite "warp" della griglia**: i TAP registrati deformano la griglia del BPM in modo
+  continuo, così battute tenute e battiti restano coerenti.
+- **Capotasto come ridenominazione degli eventi**: tutto il resto dell'interfaccia non deve saperne nulla.
+- Il suggerimento del capotasto penalizza barrè, estensioni ampie e tasti alti (`shapeDifficulty`).
+
+## Diario delle sessioni
+
+- **2026-09-26 · sessione 1 (Claude Code)**: prima versione (manico 2D, video, loop, spartito,
+  libreria, registrazione tempi) + brano Cartine corte. Restyling in stile Rocksmith (corsia 3D,
+  neon, icone SVG), karaoke da LRCLIB, pannello Testo/Accordi, finestra Sincronia.
+  Test unitari ed e2e, diteggiature, accordatore, velocità progressiva, conteggio d'attacco.
+  Capotasto con suggerimento, allenamento cambi accordo, statistiche di pratica e scheda Recenti,
+  schermo sempre acceso, modalità concentrazione. Memoria condivisa (questo file) e pacchetto sorgenti.
+
+## Prossimi passi (idee in ordine di utilità)
+
+1. Spostare il progetto in un repo dedicato e pubblicarlo (Vercel o GitHub Pages).
+2. Verificare *Cartine corte* sul video reale e salvare i tempi `sync` registrati dall'utente.
+3. Aggiungere i brani che l'utente chiede, uno alla volta, con la procedura sopra.
+4. Riconoscimento degli accordi suonati dal microfono (feedback "giusto/sbagliato" stile Rocksmith).
+5. Pattern di pennata disegnati sulla corsia (frecce ↓↑ sulle linee dei battiti).
+6. Editor dei brani nell'app (disegnare sezioni e accordi, esportare il JSON).
+7. Tablature per riff e intro (note singole oltre agli accordi).

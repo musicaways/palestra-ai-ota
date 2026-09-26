@@ -127,11 +127,55 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   await page.click('.dlg-settings button[value="ok"]');
   await page.waitForTimeout(300);
   check((await page.textContent('.k-chord')).match(/^(Do|Re|Mi|Fa|Sol|La|Si)/) !== null, 'notazione italiana');
+  await page.click('[data-act="settings"]');
+  await page.selectOption('.dlg-settings select[name="notation"]', 'intl');
+  await page.click('.dlg-settings button[value="ok"]');
+
+  // Capotasto: suggerito 3 → le forme diventano Em, Em/D, Cmaj7…
+  await page.click('[data-act="capo"]');
+  check((await page.textContent('.capo-suggest')).includes('3°'), 'capotasto suggerito al 3° tasto');
+  await page.click('.capo-suggest [data-capo="3"]');
+  await page.click('.dlg-capo button[value="ok"]');
+  await page.click('.panel-tab[data-tab="shapes"]');
+  const capoNames = await page.$$eval('.diagram figcaption', (els) => els.map((e) => e.textContent));
+  check(capoNames.includes('Em') && capoNames.includes('Cmaj7') && !capoNames.includes('Gm'), `forme col capo 3 (${capoNames.slice(0, 4).join(' ')}…)`);
+  check(await page.isVisible('.capo-badge'), 'badge "capo 3" nel palco');
+  await shot('capo');
+  await page.click('[data-act="capo"]');
+  await page.click('.capo-grid [data-capo="0"]');
+  await page.click('.dlg-capo button[value="ok"]');
+  await page.click('.panel-tab[data-tab="lyrics"]');
+
+  // Modalità concentrazione
+  await page.click('[data-act="focus"]');
+  check(!(await page.isVisible('.video-wrap')), 'modalità concentrazione nasconde il video');
+  await page.click('[data-act="focus"]');
+  check(await page.isVisible('.video-wrap'), 'e lo rimostra');
 
   // Ritorno alla libreria
   await page.click('.player-head a');
   await page.waitForSelector('.library');
   check(true, 'si torna alla libreria');
+  await page.click('.tab[data-tab="recent"]');
+  check(await page.locator('.song-card').count() === 1, 'scheda Recenti con il brano appena suonato');
+  check(await page.locator('.song-card .practice').count() === 1, 'tempo di pratica sulla card');
+
+  // Allenamento cambi accordo
+  await page.click('a[href="#/allenamento"]');
+  await page.waitForSelector('.drill-cfg');
+  await page.click('[data-preset="0"]');
+  await page.fill('.bpm', '120');
+  await page.dispatchEvent('.bpm', 'input');
+  await page.click('[data-beats="1"]');
+  await page.click('.drill-start');
+  await page.waitForTimeout(3500);
+  const drillNow = await page.textContent('.now-chord');
+  check(['Em', 'G'].includes(drillNow), `allenamento: alterna gli accordi (${drillNow})`);
+  check(await page.locator('.drill-diagrams .diagram.active').count() === 1, 'allenamento: diagramma attivo');
+  await shot('allenamento');
+  await page.click('.drill-start');
+  await page.click('.player-head a');
+  await page.waitForSelector('.library');
   await ctx.close();
 }
 await browser.close();
