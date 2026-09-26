@@ -194,7 +194,7 @@ pennate e arpeggi tutti uguali, la Base non rispetta il brano, karaoke parola pe
   stima con varianti per stile. Base con accenti, palm muting, stoppate. Stili di arpeggio (PICKINGS) e scelta nella
   finestra Parte. **Parte vera da file MIDI** agganciata in battiti alla griglia (segue warp e rubato).
 - **Karaoke parola per parola** nel pannello e sotto il manico.
-- 83 test unitari; e2e con i nuovi controlli (avvio, MIDI, file audio allineato, parole colorate).
+- 83 test unitari e **904 controlli e2e verdi** (anche: avvio immediato, MIDI, file audio allineato, parole colorate).
   `GST_QUICK=1 node tests/e2e.mjs` apre solo 20 brani del catalogo.
 - **Codice anche nel repo dedicato** `musicaways/guitar-song-trainer` (app nella radice), branch
   `claude/guitar-learning-app-iy0h24`. Il lavoro fatto in locale con Codex non era stato caricato: va unito lì.
