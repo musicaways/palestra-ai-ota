@@ -4,6 +4,8 @@ import { openPlayer } from './player.js';
 import { openDrill } from './drill.js';
 import { openEditor } from './editor.js';
 import { getUserSong, mergeLibrary } from './usersongs.js';
+import { renderLearn, openLesson } from './learn.js';
+import { renderRecordings } from './recordings.js';
 
 const root = document.getElementById('app');
 let index = null;
@@ -49,6 +51,17 @@ async function route() {
       const song = ed[1] ? await loadSong(decodeURIComponent(ed[1])) : null;
       if (token !== navToken) return;
       destroyCurrent = openEditor(root, song);
+    } else if (/^#\/impara\/(.+)$/.test(location.hash)) {
+      document.body.classList.add('in-player');
+      destroyCurrent = openLesson(root, decodeURIComponent(location.hash.slice('#/impara/'.length)));
+    } else if (location.hash === '#/impara') {
+      document.title = 'Impara · Guitar Song Trainer';
+      renderLearn(root);
+      window.scrollTo(0, 0);
+    } else if (location.hash === '#/registrazioni') {
+      document.title = 'Registrazioni · Guitar Song Trainer';
+      const cleanup = await renderRecordings(root);
+      if (token !== navToken) cleanup(); else destroyCurrent = cleanup;
     } else if (location.hash === '#/allenamento') {
       document.body.classList.add('in-player');
       document.title = 'Allenamento cambi · Guitar Song Trainer';

@@ -15,6 +15,9 @@ import { lyricGridCheck, estimateOffsetFromAudio, tapAlignShift } from './syncma
 import { icon } from './icons.js';
 import { chordDiagram } from './diagram.js';
 import { Tuner } from './tuner.js';
+import { GuitarInput } from './input.js';
+import { TONE_PRESETS, KNOBS, presetById, suggestTone, toneParams } from './amp.js';
+import { CameraRecorder, saveRecording, shareOrDownload } from './camera.js';
 import { store, loadSettings, saveSettings, getFavorites, toggleFavorite } from './store.js';
 
 const fmt = (t) => {
@@ -53,6 +56,11 @@ export async function openPlayer(root, song) {
     ...store.get(key('prefs'), {}),
   };
   const savePrefs = () => store.set(key('prefs'), prefs);
+  let study = { on: false, learned: [], ...store.get(key('study'), {}) }; // studio guidato sezione per sezione
+  study.on = false;
+  let ampIn = null; // chitarra che passa dall'amplificatore simulato
+  let cam = null; // registrazione video
+  let curSec = -2; // sezione evidenziata nella riga delle sezioni
   let practiceAcc = 0;
   let lastFrameAt = performance.now();
   const wake = new WakeLock();
@@ -98,6 +106,7 @@ export async function openPlayer(root, song) {
       <div class="left-col">
         <div class="video-wrap"><div class="video"></div><div class="video-msg" hidden></div></div>
         <div class="transport card">
+          <div class="sec-strip" role="group" aria-label="Sezioni del brano: tocca per andarci"></div>
           <div class="scrub-row">
             <span class="t-cur">0:00</span>
             <div class="scrubber" title="Posizione nel brano">
@@ -116,12 +125,16 @@ export async function openPlayer(root, song) {
             </div>
             <div class="status"><button class="resume-chip" hidden></button><span class="loop-label"></span></div>
             <div class="mini-group">
-              <button class="mini" data-pop="speed" title="Velocità" aria-expanded="false"><span class="speed-val">100%</span></button>
+              <button class="mini" data-pop="speed" title="Velocità" aria-expanded="false"><span class="speed-val">1×</span></button>
               <button class="mini" data-pop="loop" title="Loop A–B e velocità progressiva" aria-expanded="false">${icon('loop', 18)}</button>
               <button class="mini" data-pop="tools" title="Strumenti: click, tonalità, parte, ascolto, accordatore, sincronia…" aria-expanded="false">${icon('more', 20)}</button>
             </div>
           </div>
-          <div class="pop" data-popbody="speed" hidden><div class="speed-pills" role="group" aria-label="Velocità"></div></div>
+          <div class="pop" data-popbody="speed" hidden>
+            <button class="seg speed-step" data-speedstep="-1" title="Più lento" aria-label="Più lento">−</button>
+            <div class="speed-pills" role="group" aria-label="Velocità"></div>
+            <button class="seg speed-step" data-speedstep="1" title="Più veloce" aria-label="Più veloce">+</button>
+          </div>
           <div class="pop" data-popbody="loop" hidden>
             <div class="loop-group" role="group" aria-label="Loop">
               <button class="seg" data-act="loopA" title="Inizio loop qui ([)">A</button>
@@ -137,6 +150,9 @@ export async function openPlayer(root, song) {
             <button class="tool" data-act="countin" title="Una battuta di conteggio prima di partire">${icon('count', 18)}<span>Conteggio</span></button>
             <button class="tool" data-act="capo" title="Tonalità e capotasto: trasponi o usa forme più facili">${icon('capo', 18)}<span class="capo-label">Tonalità</span></button>
             <button class="tool" data-act="part" title="Parte di chitarra: ritmica, arpeggio, power chord, facile">${icon('guitar', 18)}<span class="part-label">Ritmica</span></button>
+            <button class="tool" data-act="study" title="Studio guidato: sezione per sezione, dal lento al veloce">${icon('study', 18)}<span>Studio</span></button>
+            <button class="tool" data-act="amp" title="Amplificatore ed effetti per la chitarra collegata">${icon('amp', 18)}<span>Ampli</span></button>
+            <button class="tool" data-act="camera" title="Registra un video mentre suoni">${icon('camera', 18)}<span>Video</span></button>
             <button class="tool" data-act="listen" title="Ascolta dal microfono e controlla se suoni l'accordo giusto">${icon('mic', 18)}<span>Ascolto</span></button>
             <button class="tool" data-act="tuner" title="Accorda la chitarra col microfono">${icon('tuner', 18)}<span>Accorda</span></button>
             <button class="tool" data-act="sync" title="Allinea accordi e testo al video">${icon('sliders', 18)}<span>Sincronia</span></button>
@@ -272,6 +288,39 @@ export async function openPlayer(root, song) {
       <button type="button" class="chip-btn" data-act="input">${icon('guitar', 16)} Ingresso audio</button>
       <p class="hint">Accordatura standard: Mi La Re Sol Si Mi. Pizzica una corda e attendi che la lancetta si fermi al centro.</p>
       <menu><button value="ok" class="chip-btn primary">Chiudi</button></menu></form></dialog>
+
+    <dialog class="dlg dlg-amp"><form method="dialog"><h3>Amplificatore ed effetti</h3>
+      <label class="check amp-on-line"><input type="checkbox" name="ampOn"> Suona attraverso l'ampli <span class="hint">· usa le cuffie</span></label>
+      <div class="amp-live" hidden><div class="in-meter"><div class="in-meter-fill"></div></div><span class="hint amp-src"></span></div>
+      <label class="check"><input type="checkbox" name="toneAuto"> Suono scelto in automatico per ogni brano</label>
+      <div class="amp-suggest hint"></div>
+      <div class="option-list amp-presets"></div>
+      <div class="dlg-sub">Regolazioni</div>
+      <div class="amp-knobs"></div>
+      <div class="tr-actions"><button type="button" class="chip-btn" data-amp="default">Usa per tutti i brani</button><button type="button" class="chip-btn" data-amp="reset">Ripristina il preset</button></div>
+      <p class="hint">Funziona con il cavo Rocksmith o una scheda audio (scegli l'ingresso in <b>Impostazioni → Ingresso audio</b>). Le regolazioni restano salvate per questo brano.</p>
+      <menu><button value="ok" class="chip-btn primary">Fatto</button></menu></form></dialog>
+
+    <div class="cam" hidden>
+      <video class="cam-preview" playsinline muted autoplay></video>
+      <div class="cam-bar">
+        <span class="cam-time"></span>
+        <button type="button" class="cam-btn cam-rec" data-cam="rec" title="Inizia / ferma la registrazione" aria-label="Registra"></button>
+        <button type="button" class="cam-btn" data-cam="flip" title="Cambia fotocamera" aria-label="Cambia fotocamera">${icon('flip', 16)}</button>
+        <button type="button" class="cam-btn" data-cam="close" title="Chiudi la fotocamera" aria-label="Chiudi">${icon('close', 16)}</button>
+      </div>
+    </div>
+
+    <dialog class="dlg dlg-rec"><form method="dialog"><h3>La tua registrazione</h3>
+      <video class="rec-video" controls playsinline></video>
+      <label><span>Titolo</span><input name="recTitle" maxlength="80"></label>
+      <p class="hint">Resta sul tuo dispositivo, in <a href="#/registrazioni">Registrazioni</a>. Il video di YouTube non viene registrato: si sente se esce dalle casse.</p>
+      <div class="tr-actions">
+        <button type="button" class="chip-btn primary" data-rec2="save">${icon('check', 16)} Salva</button>
+        <button type="button" class="chip-btn" data-rec2="share">Condividi</button>
+        <button type="button" class="chip-btn" data-rec2="discard">Scarta</button>
+      </div>
+      <menu><button value="ok" class="chip-btn">Chiudi</button></menu></form></dialog>
 
     <dialog class="dlg dlg-help"><form method="dialog"><h3>Guida rapida</h3>
       <ol class="help-list">
@@ -441,23 +490,39 @@ export async function openPlayer(root, song) {
   if (destroyed) { clock.destroy(); return () => {}; }
 
   const speedBox = $('.speed-pills');
-  const rates = clock.rates().filter((r) => r >= 0.5 && r <= 1.25);
+  // poche velocità a portata di dito; con − e + si passa a quelle intermedie disponibili
+  const allRates = [...new Set(clock.rates())].filter((r) => r >= 0.25 && r <= 1.5).sort((x, y) => x - y);
+  const rates = [0.5, 0.75, 1, 1.25].filter((r) => allRates.some((x) => Math.abs(x - r) < 0.001));
+  const fmtRate = (r) => `${String(Math.round(r * 100) / 100).replace('.', ',')}×`;
   function paintSpeed() {
     if (destroyed) return; // può arrivare da un timer dopo l'uscita dal brano
     const cur = clock.getRate();
-    $('.speed-val').textContent = `${Math.round(cur * 100)}%`;
+    $('.speed-val').textContent = fmtRate(cur);
     $('[data-pop="speed"]').classList.toggle('active', Math.abs(cur - 1) > 0.001);
     speedBox.querySelectorAll('button').forEach((b) => b.classList.toggle('active', Math.abs(Number(b.dataset.rate) - cur) < 0.001));
+  }
+  function setSpeed(r, close = true) {
+    clock.setRate(r);
+    prefs.rate = r;
+    savePrefs();
+    if (close) togglePop(null);
+    setTimeout(paintSpeed, 150);
   }
   for (const r of rates) {
     const b = document.createElement('button');
     b.className = 'seg';
     b.dataset.rate = r;
-    b.textContent = `${Math.round(r * 100)}%`;
-    b.addEventListener('click', () => { clock.setRate(r); prefs.rate = r; savePrefs(); togglePop(null); setTimeout(paintSpeed, 150); });
+    b.textContent = fmtRate(r);
+    b.addEventListener('click', () => setSpeed(r));
     speedBox.append(b);
   }
-  if (prefs.rate !== 1 && rates.includes(prefs.rate)) clock.setRate(prefs.rate);
+  root.querySelectorAll('[data-speedstep]').forEach((b) => b.addEventListener('click', () => {
+    const cur = clock.getRate();
+    const dir = Number(b.dataset.speedstep);
+    const next = dir > 0 ? allRates.find((r) => r > cur + 0.001) : [...allRates].reverse().find((r) => r < cur - 0.001);
+    if (next) { setSpeed(next, false); toast(`Velocità ${fmtRate(next)}`); }
+  }));
+  if (prefs.rate !== 1 && allRates.includes(prefs.rate)) clock.setRate(prefs.rate);
   setTimeout(paintSpeed, 150);
   paintSpeed();
   drawScrubSections();
@@ -507,7 +572,31 @@ export async function openPlayer(root, song) {
       d.textContent = s.name;
       return d;
     }));
+    // riga delle sezioni: chip scorrevoli in orizzontale, la corrente evidenziata
+    $('.sec-strip').innerHTML = tl.sections.map((s, i) =>
+      `<button type="button" class="sec-chip${study.learned.includes(i) ? ' learned' : ''}" data-sec="${i}"><span class="sec-name"></span><span class="sec-loop" data-secloop="${i}" role="button" title="Ripeti in loop questa sezione" aria-label="Loop">${icon('loop', 13)}</span></button>`).join('');
+    root.querySelectorAll('.sec-chip .sec-name').forEach((el, i) => { el.textContent = tl.sections[i].name; });
+    curSec = -2;
   }
+  function paintSection(t) {
+    const i = sectionIndexAt(t);
+    if (i === curSec) return;
+    curSec = i;
+    const chips = root.querySelectorAll('.sec-chip');
+    chips.forEach((c, k) => c.classList.toggle('active', k === i));
+    const c = chips[i];
+    const strip = $('.sec-strip');
+    if (c && strip.scrollWidth > strip.clientWidth) strip.scrollTo({ left: c.offsetLeft - strip.clientWidth / 2 + c.offsetWidth / 2, behavior: 'smooth' });
+  }
+  $('.sec-strip').addEventListener('click', (e) => {
+    const lp = e.target.closest('[data-secloop]');
+    if (lp) { const sec = tl.sections[Number(lp.dataset.secloop)]; setLoop(sec.start, sec.end, sec.name); return; }
+    const b = e.target.closest('[data-sec]');
+    if (!b) return;
+    const k = Number(b.dataset.sec);
+    if (study.on) { startStudySection(k); return; }
+    seek(tl.sections[k].start);
+  });
 
   function seek(t) {
     clock.seek(Math.max(0, t));
@@ -635,8 +724,46 @@ export async function openPlayer(root, song) {
     if (next) {
       clock.setRate(next);
       setTimeout(paintSpeed, 150);
-      toast(`Velocità ${Math.round(next * 100)}%`);
+      toast(`Velocità ${fmtRate(next)}`);
+    } else if (study.on) {
+      // sezione suonata a velocità piena: imparata, si passa alla successiva
+      const k = study.section;
+      if (!study.learned.includes(k)) study.learned.push(k);
+      store.set(key('study'), { learned: study.learned });
+      drawScrubSections();
+      const nextSec = tl.sections.findIndex((_, i) => i > k && !study.learned.includes(i));
+      if (nextSec >= 0) { toast(`«${tl.sections[k].name}» imparata! Ora: ${tl.sections[nextSec].name}`); startStudySection(nextSec); }
+      else { toast('Hai imparato tutte le sezioni: ora suonalo tutto di fila!'); stopStudy(); }
     } else toast('Velocità piena: ottimo lavoro!');
+  }
+
+  // ---------- Studio guidato ----------
+  function startStudySection(k) {
+    study.on = true;
+    study.section = k;
+    const sec = tl.sections[k];
+    loop = { on: true, a: Math.max(0, sec.start - 0.2), b: sec.end, label: sec.name };
+    ramp = true;
+    $('[data-act="ramp"]').classList.add('active');
+    $('[data-act="study"]').classList.add('active');
+    const first = sortedRates()[0];
+    clock.setRate(first);
+    setTimeout(paintSpeed, 150);
+    paintLoop();
+    seek(loop.a);
+    clock.play();
+  }
+  function stopStudy() {
+    study.on = false;
+    $('[data-act="study"]').classList.remove('active');
+    if (ramp) toggleRamp();
+  }
+  function toggleStudy() {
+    if (study.on) { stopStudy(); toast('Studio guidato fermato'); return; }
+    const k = Math.max(0, tl.sections.findIndex((_, i) => !study.learned.includes(i)));
+    togglePop(null);
+    startStudySection(k);
+    toast(`Studio guidato: «${tl.sections[k].name}» in loop, dal ${fmtRate(sortedRates()[0])} alla velocità piena`);
   }
 
   function toggleRamp() {
@@ -843,7 +970,7 @@ export async function openPlayer(root, song) {
       judge.frames++;
       if (r.hit) judge.hits++;
       scoreHud.querySelector('.hear').textContent = r.best ? `senti: ${displayChord(r.best, settings.notation)}` : '';
-    });
+    }, { input: ampIn });
     try {
       await listener.start();
     } catch {
@@ -935,6 +1062,7 @@ export async function openPlayer(root, song) {
       case 'loopToggle': if (loop.a != null && loop.b != null) { loop.on = !loop.on; paintLoop(); } break;
       case 'loopClear':
         loop = { on: false, a: null, b: null, label: '' }; paintLoop();
+        if (study.on) stopStudy();
         if (ramp) toggleRamp();
         break;
       case 'ramp': toggleRamp(); break;
@@ -945,6 +1073,9 @@ export async function openPlayer(root, song) {
       case 'capo': openCapo(); break;
       case 'help': $('.dlg-help').showModal(); break;
       case 'view': openView(); break;
+      case 'study': toggleStudy(); break;
+      case 'amp': openAmp(); break;
+      case 'camera': openCamera(); break;
       case 'part': openPart(); break;
       case 'print': printSheet(); break;
       case 'metro': settings.metronome = !settings.metronome; saveSettings(settings); paintToggles(); break;
@@ -954,6 +1085,172 @@ export async function openPlayer(root, song) {
       case 'settings': openSettings(); break;
     }
   });
+
+  // ---------- Amplificatore ed effetti ----------
+  // Suono del brano: scelta dell'utente per il brano, altrimenti automatico (dal brano) o predefinito.
+  const currentTone = () => prefs.tone ?? (settings.toneAuto === false && settings.tone ? settings.tone : { preset: suggestTone(song) });
+  async function startAmp() {
+    ampIn = await GuitarInput.open({ fftSize: 8192, monitor: true, tone: currentTone() });
+    return ampIn;
+  }
+  function stopAmp() {
+    if (listener) toggleListen(); // l'ascolto usa lo stesso ingresso
+    ampIn?.close();
+    ampIn = null;
+    $('[data-act="amp"]').classList.remove('active');
+  }
+  function openAmp() {
+    const dlg = $('.dlg-amp');
+    const f = dlg.querySelector('form');
+    let meter = 0;
+    const paint = () => {
+      const tone = currentTone();
+      const p = toneParams(tone);
+      f.ampOn.checked = !!ampIn;
+      f.toneAuto.checked = settings.toneAuto !== false;
+      dlg.querySelector('.amp-live').hidden = !ampIn;
+      if (ampIn) dlg.querySelector('.amp-src').textContent = ampIn.rocksmith ? 'Cavo Rocksmith' : (ampIn.label || 'Ingresso audio');
+      const sug = presetById(suggestTone(song));
+      dlg.querySelector('.amp-suggest').innerHTML = `Suggerito per questo brano: <b>${sug.label}</b>${prefs.tone ? ' · stai usando una tua scelta per questo brano' : ''}`;
+      dlg.querySelector('.amp-presets').innerHTML = TONE_PRESETS.map((t) =>
+        `<button type="button" class="option${t.id === tone.preset ? ' active' : ''}" data-preset="${t.id}"><b>${t.label}</b><span>${t.desc}</span></button>`).join('');
+      dlg.querySelector('.amp-knobs').innerHTML = KNOBS.map((k) =>
+        `<label class="knob"><span>${k.label}</span><input type="range" data-knob="${k.k}" min="${k.min}" max="${k.max}" step="${k.step}" value="${p[k.k]}"></label>`).join('');
+    };
+    const apply = () => { ampIn?.setTone(currentTone()); };
+    paint();
+    dlg.onclick = (e) => {
+      const pr = e.target.closest('[data-preset]')?.dataset.preset;
+      const act = e.target.closest('[data-amp]')?.dataset.amp;
+      if (pr) { prefs.tone = { preset: pr }; savePrefs(); apply(); paint(); }
+      if (act === 'default') { settings.tone = currentTone(); settings.toneAuto = false; saveSettings(settings); toast('Suono predefinito per tutti i brani'); paint(); }
+      if (act === 'reset') { prefs.tone = { preset: currentTone().preset }; savePrefs(); apply(); paint(); }
+    };
+    dlg.oninput = (e) => {
+      const k = e.target.dataset.knob;
+      if (!k) return;
+      const t = currentTone();
+      prefs.tone = { preset: t.preset, params: { ...(t.params ?? {}), [k]: Number(e.target.value) } };
+      savePrefs();
+      apply();
+    };
+    dlg.onchange = async (e) => {
+      if (e.target.name === 'toneAuto') { settings.toneAuto = e.target.checked; saveSettings(settings); apply(); paint(); }
+      if (e.target.name === 'ampOn') {
+        if (e.target.checked) {
+          try { await startAmp(); $('[data-act="amp"]').classList.add('active'); } catch { toast('Serve il permesso per l\'ingresso audio'); }
+        } else stopAmp();
+        paint();
+      }
+    };
+    const fill = dlg.querySelector('.in-meter-fill');
+    const tick = () => {
+      if (!dlg.open) return;
+      if (ampIn) {
+        const lv = ampIn.level();
+        fill.style.width = `${Math.min(100, lv * 400)}%`;
+        fill.classList.toggle('hot', lv > 0.22);
+      }
+      meter = requestAnimationFrame(tick);
+    };
+    dlg.onclose = () => cancelAnimationFrame(meter);
+    dlg.showModal();
+    tick();
+  }
+
+  // ---------- Registrazione video ----------
+  const camEl = $('.cam');
+  const camTime = $('.cam-time');
+  let camTimer = 0;
+  let lastRec = null;
+  async function openCamera(facing) {
+    togglePop(null);
+    cam ??= new CameraRecorder();
+    try {
+      // se l'ampli è acceso si registra anche la chitarra con gli effetti
+      const extra = ampIn ? ampIn.outputTrack() : null;
+      const stream = await cam.open({ facing, extraAudio: extra });
+      const v = camEl.querySelector('video');
+      v.srcObject = stream;
+      v.classList.toggle('mirror', cam.facing === 'user');
+      camEl.hidden = false;
+      $('[data-act="camera"]').classList.add('active');
+      paintCam();
+    } catch {
+      toast('Serve il permesso della fotocamera');
+    }
+  }
+  function closeCamera() {
+    clearInterval(camTimer);
+    cam?.close();
+    camEl.hidden = true;
+    camEl.classList.remove('recording');
+    $('[data-act="camera"]').classList.remove('active');
+  }
+  function paintCam() {
+    const rec = cam?.recording;
+    camEl.classList.toggle('recording', !!rec);
+    const secs = rec ? (performance.now() - cam.startedAt) / 1000 : 0;
+    camTime.textContent = rec ? fmt(secs) : 'Pronto';
+  }
+  camEl.addEventListener('click', async (e) => {
+    const act = e.target.closest('[data-cam]')?.dataset.cam;
+    if (act === 'close') closeCamera();
+    if (act === 'flip' && !cam?.recording) openCamera(cam?.facing === 'user' ? 'environment' : 'user');
+    if (act === 'rec') {
+      if (cam?.recording) {
+        clearInterval(camTimer);
+        const out = await cam.stop();
+        paintCam();
+        if (out) showRecording(out);
+      } else if (cam?.stream) {
+        cam.start();
+        camTimer = setInterval(paintCam, 500);
+        paintCam();
+        if (!clock.playing) togglePlay();
+      }
+    }
+  });
+  // l'anteprima si trascina dove non dà fastidio
+  camEl.addEventListener('pointerdown', (e) => {
+    if (e.target.closest('button')) return;
+    const r = camEl.getBoundingClientRect();
+    const dx = e.clientX - r.left;
+    const dy = e.clientY - r.top;
+    camEl.setPointerCapture(e.pointerId);
+    camEl.onpointermove = (ev) => {
+      camEl.style.left = `${Math.max(0, Math.min(innerWidth - r.width, ev.clientX - dx))}px`;
+      camEl.style.top = `${Math.max(0, Math.min(innerHeight - r.height, ev.clientY - dy))}px`;
+      camEl.style.right = 'auto';
+      camEl.style.bottom = 'auto';
+    };
+    camEl.onpointerup = () => { camEl.onpointermove = null; };
+  });
+  function showRecording(out) {
+    const dlg = $('.dlg-rec');
+    const f = dlg.querySelector('form');
+    const url = URL.createObjectURL(out.blob);
+    const v = dlg.querySelector('video');
+    v.src = url;
+    lastRec = { id: `rec-${Date.now()}`, songId: song.id, title: `${song.title} · ${song.artist}`, date: Date.now(), duration: out.duration, mime: out.mime, blob: out.blob };
+    f.recTitle.value = lastRec.title;
+    let saved = false;
+    dlg.onclick = async (e) => {
+      const act = e.target.closest('[data-rec2]')?.dataset.rec2;
+      if (!act) return;
+      lastRec.title = f.recTitle.value.trim() || lastRec.title;
+      if (act === 'save' || act === 'share') {
+        if (!saved) { await saveRecording(lastRec); saved = true; toast('Registrazione salvata'); }
+        if (act === 'share') await shareOrDownload(lastRec);
+      }
+      if (act === 'discard') dlg.close();
+      dlg.querySelector('[data-rec2="save"]').disabled = saved;
+    };
+    dlg.onclose = () => { v.pause(); URL.revokeObjectURL(url); };
+    dlg.querySelector('[data-rec2="save"]').disabled = false;
+    if (clock.playing) clock.pause();
+    dlg.showModal();
+  }
 
   function openSettings() {
     const dlg = $('.dlg-settings');
@@ -1271,6 +1568,7 @@ export async function openPlayer(root, song) {
     }
 
     paintStageLyric(t);
+    paintSection(t);
 
     const pct = `${Math.min(100, (t / dur) * 100)}%`;
     scrubHead.style.left = pct;
@@ -1291,6 +1589,8 @@ export async function openPlayer(root, song) {
     cancelCountIn();
     tuner?.stop();
     listener?.stop();
+    ampIn?.close();
+    cam?.close();
     wake.off();
     addPractice(song.id, practiceAcc);
     try { store.set(key('pos'), clock?.getTime() ?? 0); } catch { /* niente */ }

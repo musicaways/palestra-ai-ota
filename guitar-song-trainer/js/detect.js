@@ -118,12 +118,14 @@ export function fftMagnitudes(signal) {
  * Ascolto continuo dal microfono. onFrame({ chroma, level }) circa 10 volte al secondo.
  */
 export class Listener {
-  constructor(onFrame) {
+  // input: un GuitarInput già aperto (per esempio quello dell'amplificatore) da condividere
+  constructor(onFrame, { input = null } = {}) {
     this.onFrame = onFrame;
+    this.shared = input;
   }
 
   async start() {
-    this.input = await GuitarInput.open({ fftSize: 8192 });
+    this.input = this.shared ?? await GuitarInput.open({ fftSize: 8192 });
     this.rocksmith = this.input.rocksmith;
     this.ctx = this.input.ctx;
     this.analyser = this.input.analyser;
@@ -145,6 +147,6 @@ export class Listener {
 
   stop() {
     clearInterval(this.timer);
-    this.input?.close();
+    if (!this.shared) this.input?.close();
   }
 }

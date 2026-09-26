@@ -676,3 +676,96 @@ kbd { background: rgba(146, 132, 255, .12); border: 1px solid var(--line); borde
 @media print {
   .player-head, .stage, .left-col, .panel-tabs { display: none !important; }
 }
+
+/* ---------- Sezioni del brano: chip scorrevoli ---------- */
+.sec-strip {
+  display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; scroll-snap-type: x proximity;
+  padding: 1px 1px 2px; margin: -2px 0 0; overscroll-behavior-x: contain;
+}
+.sec-strip::-webkit-scrollbar { display: none; }
+.sec-chip {
+  flex: none; display: inline-flex; align-items: center; gap: 6px; height: 32px; padding: 0 4px 0 12px; border-radius: 999px;
+  border: 1px solid var(--line); background: rgba(146, 132, 255, .06); color: var(--muted);
+  font-weight: 700; font-size: 12px; letter-spacing: .04em; text-transform: uppercase; scroll-snap-align: center; white-space: nowrap;
+}
+.sec-chip:hover { color: var(--text); }
+.sec-chip.active { color: #0a0816; background: var(--cyan); border-color: var(--cyan); box-shadow: 0 0 14px rgba(34, 211, 238, .45); }
+.sec-chip.learned .sec-name::before { content: "✓ "; color: #3ddc84; }
+.sec-chip.active.learned .sec-name::before { color: #0a0816; }
+.sec-loop { display: grid; place-items: center; width: 24px; height: 24px; border-radius: 50%; opacity: .55; }
+.sec-loop:hover { opacity: 1; background: rgba(255, 255, 255, .12); }
+.sec-chip.active .sec-loop { opacity: .9; }
+@media (max-width: 560px) {
+  .scrub-sec { color: transparent; }
+  .scrubber { height: 18px; }
+}
+
+/* ---------- Velocità compatta ---------- */
+.pop[data-popbody="speed"] { flex-wrap: nowrap; }
+.pop[data-popbody="speed"] .speed-pills { flex: 0 1 auto; }
+.speed-step { border: 1px solid var(--line); min-width: 38px; font-size: 18px; flex: none; }
+
+/* ---------- Ampli ---------- */
+.amp-live { display: flex; align-items: center; gap: 10px; margin: 4px 0 8px; }
+.amp-live .in-meter { flex: 1; margin: 0; }
+.amp-suggest b { color: var(--cyan); }
+.amp-presets { grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); }
+.amp-presets .option span { font-size: 12px; }
+.amp-knobs { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 6px 14px; }
+.knob { display: grid; gap: 2px; font-size: 12px; font-weight: 700; color: var(--muted); }
+.knob input { width: 100%; accent-color: var(--pink); }
+
+/* ---------- Fotocamera ---------- */
+.cam {
+  position: fixed; right: 14px; bottom: 14px; z-index: 30; width: min(240px, 38vw); border-radius: 16px; overflow: hidden;
+  background: #000; border: 2px solid rgba(255, 255, 255, .25); box-shadow: 0 12px 40px rgba(0, 0, 0, .6); touch-action: none; cursor: grab;
+}
+.cam.recording { border-color: #ff4d5e; box-shadow: 0 0 0 3px rgba(255, 77, 94, .35), 0 12px 40px rgba(0, 0, 0, .6); }
+.cam video { display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: cover; }
+.cam video.mirror { transform: scaleX(-1); }
+.cam-bar { position: absolute; inset: auto 0 0 0; display: flex; align-items: center; justify-content: space-between; gap: 6px; padding: 6px 8px;
+  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, .75)); }
+.cam-time { font-size: 12px; font-weight: 700; color: #fff; min-width: 44px; }
+.cam.recording .cam-time { color: #ff8a95; }
+.cam-btn { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; border: 0; background: rgba(255, 255, 255, .18); color: #fff; }
+.cam-rec { width: 40px; height: 40px; border: 3px solid #fff; background: #ff4d5e; }
+.cam.recording .cam-rec { border-radius: 10px; width: 34px; height: 34px; animation: recpulse 1s infinite; }
+@keyframes recpulse { 50% { box-shadow: 0 0 0 6px rgba(255, 77, 94, .35); } }
+.rec-video { width: 100%; max-height: 50vh; border-radius: 12px; background: #000; margin-bottom: 8px; }
+.dlg-rec input { width: 100%; height: 40px; border-radius: 10px; border: 1px solid var(--line); background: var(--card); color: var(--text); padding: 0 10px; }
+
+/* ---------- Impara ---------- */
+.learn-progress { height: 6px; border-radius: 3px; background: rgba(146, 132, 255, .15); overflow: hidden; margin-top: 14px; max-width: 420px; }
+.learn-progress i { display: block; height: 100%; background: var(--grad); }
+.inst-tabs { margin: 8px 0 4px; }
+.inst-tabs .tab[disabled] { opacity: .45; cursor: default; }
+.inst-tabs small { font-size: 10px; text-transform: uppercase; letter-spacing: .1em; }
+.learn-cat .group-title .hint { font-family: var(--body, inherit); font-size: 13px; text-transform: none; letter-spacing: 0; font-weight: 500; margin-left: 8px; }
+.lesson-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 12px; }
+.lesson-card { position: relative; display: grid; gap: 6px; align-content: start; padding: 14px 16px; text-decoration: none; color: var(--text); min-height: 110px; }
+.lesson-card:hover { border-color: var(--line-2); }
+.lesson-card b { font-size: 16px; line-height: 1.25; }
+.lesson-sum { color: var(--muted); font-size: 13px; }
+.lesson-level { justify-self: start; font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .14em; padding: 2px 8px; border-radius: 6px; }
+.lesson-level.l1 { background: rgba(61, 220, 132, .15); color: #3ddc84; }
+.lesson-level.l2 { background: rgba(34, 211, 238, .15); color: var(--cyan); }
+.lesson-level.l3 { background: rgba(255, 79, 216, .15); color: var(--pink); }
+.lesson-card.done { border-color: rgba(61, 220, 132, .4); }
+.lesson-done { position: absolute; top: 12px; right: 12px; color: #3ddc84; }
+.lesson-body { padding: 14px 18px; line-height: 1.55; }
+.lesson-body p { margin: 0 0 10px; }
+.lesson-body b { color: var(--cyan); }
+.lesson-lead { font-size: 17px; font-weight: 700; color: var(--text); }
+.lesson-ctl .transport-row { flex-wrap: wrap; }
+.lesson-bpm { flex: 1; min-width: 180px; display: grid; gap: 4px; }
+.lesson-bpm input { width: 100%; accent-color: var(--cyan); }
+.lesson-foot { display: flex; flex-wrap: wrap; gap: 8px; }
+.lesson-foot .chip-btn b { color: var(--cyan); }
+.lesson .panel { max-height: none; }
+.lesson .panel-body { padding-bottom: 14px; }
+
+/* ---------- Registrazioni ---------- */
+.rec-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; padding-bottom: 40px; }
+.rec-card { padding: 10px; display: grid; gap: 8px; }
+.rec-card video { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; border-radius: 12px; background: #000; }
+.rec-meta { display: grid; gap: 2px; }

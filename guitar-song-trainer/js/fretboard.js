@@ -6,6 +6,7 @@ import { getShape, displayChord, chordColor, STRING_COLORS, noteName, fretNote }
 import { beatsBetween } from './timeline.js';
 import { easyShape } from './arrangement.js';
 
+const TECH_LABEL = { h: 'H hammer-on', p: 'P pull-off', s: '/ slide', b: '↑ bend', v: '~ vibrato', pm: 'PM', x: '✕' };
 const INLAYS = [3, 5, 7, 9, 15, 17, 19, 21];
 const DOUBLE_INLAYS = [12, 24];
 const LOOKAHEAD = 4.2; // secondi visibili sulla corsia
@@ -86,10 +87,14 @@ export class Fretboard {
     const X = (x) => (mirror ? w - x : x);
     const cur = tl.events[idx] ?? null;
     const next = tl.events[idx + 1] ?? (idx < 0 ? tl.events[0] : null);
-    const shapeA = this.shape(cur?.name);
-    const shapeB = this.shape(next?.name);
+    // lezioni a note singole (scale, tecniche): niente diteggiatura d'accordo, si inquadra la forma della scala
+    const noteMode = !!tl.noteMode;
+    const shapeA = noteMode ? null : this.shape(cur?.name);
+    const shapeB = noteMode ? null : this.shape(next?.name);
 
-    const target = this.cameraTarget([shapeA, shapeB], span);
+    const target = noteMode && tl.box?.length
+      ? this.cameraTarget([{ frets: tl.box.map((b) => b.fret) }], span)
+      : this.cameraTarget([shapeA, shapeB], span);
     this.camStart += (target - this.camStart) * Math.min(1, dt * 5);
     if (Math.abs(target - this.camStart) < 0.005) this.camStart = target;
     const f0 = this.camStart;
@@ -211,7 +216,7 @@ export class Fretboard {
     }
     upcoming.sort((a, b) => b.d - a.d);
     const geo = { P, X, noteX, fretX, stringY, yTop, yBot };
-    for (const u of upcoming) this.drawChordFrame(u.ev, u.d, settings, geo, u.ghost || !!tl.notes);
+    if (!tl.noteMode) for (const u of upcoming) this.drawChordFrame(u.ev, u.d, settings, geo, u.ghost || !!tl.notes);
 
     // parte ad arpeggio: le singole note arrivano come gemme sulla loro corda e sul loro tasto
     if (tl.notes) {
@@ -238,7 +243,18 @@ export class Fretboard {
       const morph = Math.min(bd, 0.55);
       p = ease(clamp((t - (next.start - morph)) / morph, 0, 1));
     }
-    if (!shapeA && cur) this.unknown(cur.name, settings, neckTop + neckH / 2);
+    if (!shapeA && cur && !noteMode) this.unknown(cur.name, settings, neckTop + neckH / 2);
+    // forma della scala in trasparenza: dove stanno le note da suonare
+    if (noteMode && tl.box) {
+      for (const b of tl.box) {
+        const bx = X(noteX(b.fret));
+        const by = stringY(b.string);
+        ctx.globalAlpha = 0.35;
+        ctx.fillStyle = b.root ? '#ff4fd8' : STRING_COLORS[b.string];
+        ctx.beginPath(); ctx.arc(bx, by, b.root ? 9 : 7, 0, Math.PI * 2); ctx.fill();
+        ctx.globalAlpha = 1;
+      }
+    }
     this.drawFingering(shapeA, shapeB, p, t, cur, settings, { X, noteX, stringY, openW });
 
     // nota dell'arpeggio che sta suonando: anello luminoso + scintille all'attacco
@@ -262,7 +278,26 @@ export class Fretboard {
         ctx.shadowBlur = 24 * k;
         ctx.beginPath(); ctx.arc(nx, ny, 15 + 4 * k, 0, Math.PI * 2); ctx.stroke();
         ctx.shadowBlur = 0;
+        if (noteMode) {
+          // nella lezione la nota attiva mostra il dito (o il nome) e la tecnica
+          gem(ctx, nx, ny, 12, STRING_COLORS[nt.string]);
+          const label = settings.showNoteNames || !nt.finger ? noteName(fretNote(nt.string, f), settings.notation) : String(nt.finger);
+          ctx.fillStyle = '#0b0914';
+          ctx.font = '700 12px Rajdhani, system-ui, sans-serif';
+          ctx.textAlign = 'center';
+          ctx.textBaseline = 'middle';
+          ctx.fillText(label, nx, ny + 1);
+          if (nt.tech) {
+            ctx.font = '800 13px Rajdhani, system-ui, sans-serif';
+            ctx.fillStyle = '#fff';
+            ctx.shadowColor = '#22d3ee';
+            ctx.shadowBlur = 10;
+            ctx.fillText(TECH_LABEL[nt.tech] ?? nt.tech, nx, ny - 26);
+            ctx.shadowBlur = 0;
+          }
+        }
         if (ni !== this.lastNote && playing) {
+          this.onNote?.(nt);
           this.vibration[nt.string] = 0.8;
           this.burst(nx, ny, STRING_COLORS[nt.string], 5);
         }

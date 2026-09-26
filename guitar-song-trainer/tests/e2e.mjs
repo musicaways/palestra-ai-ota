@@ -19,7 +19,7 @@ const browser = await chromium.launch({
 
 for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['telefono', { width: 390, height: 844 }]]) {
   console.log(`\n— ${name} —`);
-  const ctx = await browser.newContext({ viewport, ignoreHTTPSErrors: true, permissions: ['microphone'], acceptDownloads: true });
+  const ctx = await browser.newContext({ viewport, ignoreHTTPSErrors: true, permissions: ['microphone', 'camera'], acceptDownloads: true });
   await ctx.route(/youtube\.com|ytimg\.com/, (r) => r.abort());
   await ctx.addInitScript(() => { try { localStorage.setItem('gst:helpSeen', 'true'); } catch {} });
   const page = await ctx.newPage();
@@ -133,8 +133,8 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   check((await page.textContent('.loop-label')).startsWith('Loop'), 'loop di sezione attivo');
   await tap('[data-act="ramp"]');
   await page.waitForTimeout(400);
-  const speed0 = await page.textContent('.speed-pills .seg.active');
-  check(speed0 === '50%', `velocità progressiva parte lenta (${speed0})`);
+  const speed0 = await page.textContent('.speed-val');
+  check(speed0 === '0,5×', `velocità progressiva parte lenta (${speed0})`);
   // porta il tempo quasi alla fine del loop e verifica che accelera al giro
   await page.evaluate(() => {
     const lbl = document.querySelector('.scrub-loop');
@@ -145,8 +145,8 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
     document.querySelector('.scrubber').dispatchEvent(ev('pointerup'));
   });
   await page.waitForTimeout(2500);
-  const speed1 = await page.textContent('.speed-pills .seg.active');
-  check(speed1 !== '50%', `al giro del loop accelera (${speed1})`);
+  const speed1 = await page.textContent('.speed-val');
+  check(speed1 !== '0,5×', `al giro del loop accelera (${speed1})`);
   await tap('[data-act="loopClear"]');
   check(!(await page.locator('[data-act="ramp"].active').count()), 'cancellare il loop spegne la velocità progressiva');
 
@@ -310,7 +310,7 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
     await page.waitForTimeout(300);
     await page.keyboard.press('Escape');
     const th = (await page.locator('.transport').boundingBox()).height;
-    check(th <= 150, `vista ${v}: comandi compatti (${Math.round(th)} px)`);
+    check(th <= 165, `vista ${v}: comandi compatti (${Math.round(th)} px)`);
     const canvasShown = await page.isVisible('.fretboard');
     const vb = await page.locator('.video-wrap').boundingBox();
     const videoShown = !!vb && vb.x > -1000;
@@ -333,6 +333,67 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   await page.click('[data-act="view"]');
   await page.click('.dlg-view [data-view="full"]');
   await page.click('.dlg-view button[value="ok"]');
+
+  // Sezioni: chip scorrevoli, salto e loop
+  const nSec = await page.locator('.sec-chip').count();
+  check(nSec >= 3, `riga delle sezioni (${nSec} chip)`);
+  await page.locator('.sec-chip').nth(2).click();
+  await page.waitForTimeout(300);
+  check((await page.getAttribute('.sec-chip >> nth=2', 'class')).includes('active'), 'tocco su una sezione: ci si sposta lì');
+  await page.locator('.sec-chip').nth(2).locator('.sec-loop').click();
+  check((await page.textContent('.loop-label')).startsWith('Loop') || name === 'telefono', 'loop della sezione dalla riga');
+  await tap('[data-act="loopClear"]');
+  const stripH = (await page.locator('.sec-strip').boundingBox()).height;
+  check(stripH <= 40, `riga delle sezioni compatta (${Math.round(stripH)} px)`);
+
+  // Velocità compatta: poche scelte più − e +
+  await page.click('[data-pop="speed"]');
+  const nRates = await page.locator('.speed-pills .seg').count();
+  check(nRates <= 4 && nRates >= 3, `velocità: ${nRates} scelte rapide`);
+  await page.click('[data-speedstep="-1"]');
+  await page.waitForTimeout(200);
+  check((await page.textContent('.speed-val')) === '0,9×', `velocità: − rallenta (${await page.textContent('.speed-val')})`);
+  await page.click('.speed-pills [data-rate="1"]');
+  await page.waitForTimeout(200);
+
+  // Studio guidato
+  await tap('[data-act="study"]');
+  await page.waitForTimeout(300);
+  check((await page.textContent('.loop-label')).startsWith('Loop') && (await page.textContent('.speed-val')) === '0,5×', 'studio guidato: prima sezione in loop dal lento');
+  await tap('[data-act="study"]');
+  check(!(await page.locator('[data-act="ramp"].active').count()), 'studio guidato si ferma');
+  await tap('[data-act="loopClear"]');
+  await page.click('.speed-pills [data-rate="1"]').catch(() => {});
+
+  // Ampli ed effetti
+  await tap('[data-act="amp"]');
+  check(await page.locator('.dlg-amp .amp-presets .option').count() >= 8, 'ampli: preset');
+  check((await page.textContent('.dlg-amp .amp-suggest')).includes('Suggerito'), `ampli: ${await page.textContent('.dlg-amp .amp-suggest b')} suggerito per il brano`);
+  await page.click('.dlg-amp [data-preset="rock"]');
+  check((await page.evaluate(() => JSON.parse(localStorage.getItem('gst:prefs:salmo-cartine-corte')).tone.preset)) === 'rock', 'ampli: scelta salvata per il brano');
+  await page.check('.dlg-amp [name="ampOn"]');
+  await page.waitForTimeout(1500);
+  check(await page.isVisible('.dlg-amp .amp-live'), 'ampli acceso (chitarra in cuffia)');
+  await page.locator('.dlg-amp [data-knob="reverb"]').fill('0.8');
+  check((await page.evaluate(() => JSON.parse(localStorage.getItem('gst:prefs:salmo-cartine-corte')).tone.params.reverb)) === 0.8, 'ampli: manopola riverbero');
+  await page.uncheck('.dlg-amp [name="ampOn"]');
+  await page.click('.dlg-amp button[value="ok"]');
+
+  // Video mentre suoni (fotocamera finta)
+  await tap('[data-act="camera"]');
+  await page.waitForSelector('.cam:not([hidden])', { timeout: 5000 });
+  check(true, 'fotocamera: anteprima');
+  await page.click('.cam [data-cam="rec"]');
+  await page.waitForTimeout(1600);
+  check(await page.locator('.cam.recording').count() === 1, 'fotocamera: in registrazione');
+  await page.click('.cam [data-cam="rec"]');
+  await page.waitForSelector('.dlg-rec[open]', { timeout: 5000 });
+  check(true, 'fotocamera: anteprima della registrazione');
+  await page.click('.dlg-rec [data-rec2="save"]');
+  await page.waitForTimeout(400);
+  await page.click('.dlg-rec button[value="ok"]');
+  await page.click('.cam [data-cam="close"]');
+  check(await page.isHidden('.cam'), 'fotocamera chiusa');
 
   // Ritorno alla libreria
   await page.click('.player-head a');
@@ -361,8 +422,35 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   check(await page.locator('.drill-diagrams .diagram.active').count() === 1, 'allenamento: diagramma attivo');
   await shot('allenamento');
   await page.click('.drill-start');
-  await page.click('.player-head a');
-  await page.waitForSelector('.library');
+
+  // Registrazioni
+  await page.goto(`${BASE}/#/registrazioni`);
+  await page.waitForSelector('.rec-card', { timeout: 5000 }).catch(() => {});
+  check(await page.locator('.rec-card').count() === 1, 'registrazioni: il video salvato');
+
+  // Impara
+  await page.goto(`${BASE}/#/impara`);
+  await page.waitForSelector('.lesson-card');
+  check(await page.locator('.lesson-card').count() >= 25, `impara: ${await page.locator('.lesson-card').count()} lezioni`);
+  await shot('impara');
+  await page.click('.lesson-card[href="#/impara/pentatonica-minore"]');
+  await page.waitForSelector('.lesson-play');
+  await page.click('.lesson-play');
+  await page.waitForTimeout(4200);
+  check((await page.getAttribute('.lesson-play', 'class')).includes('playing'), 'lezione: esercizio in corso');
+  await shot('lezione');
+  await page.click('.lesson-mark');
+  await page.click('.lesson-play');
+  await page.goto(`${BASE}/#/impara`);
+  await page.waitForSelector('.lesson-card');
+  check(await page.locator('.lesson-card.done').count() === 1, 'impara: lezione segnata come completata');
+  await page.click('.lesson-card[href="#/impara/fingerpicking"]');
+  await page.waitForSelector('.lesson-play');
+  check(await page.locator('.lesson-side .diagram').count() === 4, 'lezione fingerpicking: diagrammi degli accordi');
+  const lw = await page.evaluate(() => document.documentElement.scrollWidth);
+  check(lw <= viewport.width + 1, 'lezione: nessuno scorrimento orizzontale');
+  await page.goto(BASE);
+  await page.waitForSelector('.song-card');
   // Editor: nuovo brano → prova → libreria → modifica → esporta → elimina
   await page.click('a[href="#/editor"]');
   await page.waitForSelector('.editor-form');

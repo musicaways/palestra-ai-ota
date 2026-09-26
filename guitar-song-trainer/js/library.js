@@ -25,7 +25,9 @@ export function renderLibrary(root, songs) {
         <h1>Scegli un brano,<br><span>suonalo a tempo.</span></h1>
         <p>Manico animato, video sincronizzato, testo karaoke. Rallenta, ripeti in loop, impara.</p>
         <div class="hero-actions">
-          <a class="chip-btn primary" href="#/allenamento">${icon('drill', 16)} Allenamento cambi accordo</a>
+          <a class="chip-btn primary" href="#/impara">${icon('study', 16)} Impara: lezioni ed esercizi</a>
+          <a class="chip-btn" href="#/allenamento">${icon('drill', 16)} Allenamento cambi</a>
+          <a class="chip-btn" href="#/registrazioni">${icon('camera', 16)} Registrazioni</a>
           <a class="chip-btn" href="#/editor">${icon('text', 16)} Crea un brano</a>
           <a class="chip-btn continue-btn" hidden></a>
           <span class="hero-stats"></span>

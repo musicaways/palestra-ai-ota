@@ -2,6 +2,7 @@
 // "Real Tone Cable" di Rocksmith (scheda audio USB standard: niente driver su Windows, macOS,
 // Linux e Android con adattatore OTG). Qui si sceglie il dispositivo, si regola il guadagno e,
 // volendo, si ascolta la chitarra in cuffia ("monitor").
+import { Amp, toneParams } from './amp.js';
 import { loadSettings, saveSettings } from './store.js';
 
 const ROCKSMITH = /rocksmith|real\s*tone|guitar\s*adapter/i;
@@ -52,7 +53,8 @@ export async function openInputStream(settings = loadSettings()) {
  * Usata da accordatore, modalità ascolto e dal pannello di configurazione.
  */
 export class GuitarInput {
-  static async open({ fftSize = 4096, settings = loadSettings() } = {}) {
+  // monitor: undefined = come nelle impostazioni; tone: { preset, params } dell'amplificatore
+  static async open({ fftSize = 4096, settings = loadSettings(), monitor, tone } = {}) {
     const g = new GuitarInput();
     const { stream, label, rocksmith } = await openInputStream(settings);
     g.stream = stream;
@@ -66,14 +68,25 @@ export class GuitarInput {
     g.analyser.fftSize = fftSize;
     g.source.connect(g.gain).connect(g.analyser);
     g.monitorGain = g.ctx.createGain();
-    g.gain.connect(g.monitorGain);
-    g.setMonitor(settings.monitor, settings.monitorVolume ?? 0.8);
+    // in cuffia la chitarra passa dall'amplificatore simulato (preset predefinito o del brano)
+    g.amp = new Amp(g.ctx, toneParams(tone ?? settings.tone ?? { preset: 'pulito' }));
+    g.gain.connect(g.amp.input);
+    g.amp.output.connect(g.monitorGain);
+    g.setMonitor(monitor ?? settings.monitor, settings.monitorVolume ?? 0.8);
     return g;
   }
 
   get sampleRate() { return this.ctx.sampleRate; }
 
   setGain(v) { this.gain.gain.value = v; }
+
+  setTone(tone) { this.amp?.set(toneParams(tone)); }
+
+  // Traccia audio della chitarra con gli effetti (per registrarla insieme al video).
+  outputTrack() {
+    if (!this.dest) { this.dest = this.ctx.createMediaStreamDestination(); this.amp.output.connect(this.dest); }
+    return this.dest.stream.getAudioTracks()[0];
+  }
 
   setMonitor(on, volume = 0.8) {
     this.monitorGain.gain.value = on ? volume : 0;
