@@ -18,7 +18,7 @@ export function chordPitchClasses(name) {
 }
 
 // Vettore modello: note dell'accordo a 1 (fondamentale un po' di più), il resto a 0.
-function template(name) {
+export function template(name) {
   const pc = chordPitchClasses(name);
   if (!pc) return null;
   const v = new Float32Array(12);
@@ -27,7 +27,7 @@ function template(name) {
   return v;
 }
 
-function cosine(a, b) {
+export function cosine(a, b) {
   let dot = 0;
   let na = 0;
   let nb = 0;

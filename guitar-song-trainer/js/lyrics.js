@@ -51,14 +51,44 @@ export async function loadSyncedLyrics(song) {
   }
   for (let attempt = 0; attempt < 2; attempt++) {
     const lrc = await fetchLrc(url);
-    if (lrc === false) return null; // il brano non è nell'archivio
+    if (lrc === false) break; // non c'è con questo id: si prova la ricerca
     if (lrc) {
       store.set(cacheKey, { lrc });
       return { lines: parseLrc(lrc), source: 'LRCLIB' };
     }
     await new Promise((r) => setTimeout(r, 1500));
   }
+  // Riserva: ricerca per artista e titolo, versione sincronizzata con la durata più vicina.
+  const found = await searchLrc(song);
+  if (found) {
+    store.set(cacheKey, { lrc: found });
+    return { lines: parseLrc(found), source: 'LRCLIB' };
+  }
   return null;
+}
+
+export function pickBestLyrics(results, duration) {
+  const synced = (results ?? []).filter((r) => r.syncedLyrics);
+  if (!synced.length) return null;
+  if (!duration) return synced[0];
+  return synced.reduce((a, b) => (Math.abs(b.duration - duration) < Math.abs(a.duration - duration) ? b : a));
+}
+
+async function searchLrc(song) {
+  const src = song.lyricsSource ?? {};
+  const mainArtist = String(song.artist).split(/\s*(?:,|&|feat\.?)\s*/i)[0];
+  const q = new URLSearchParams({ artist_name: mainArtist, track_name: src.trackName ?? song.title });
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), 8000);
+  try {
+    const res = await fetch(`${API}/search?${q}`, { signal: ctrl.signal });
+    if (!res.ok) return null;
+    return pickBestLyrics(await res.json(), src.duration)?.syncedLyrics ?? null;
+  } catch {
+    return null;
+  } finally {
+    clearTimeout(timer);
+  }
 }
 
 // Restituisce il testo LRC, false se non esiste, null se la rete ha fallito.

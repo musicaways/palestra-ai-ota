@@ -34,6 +34,7 @@ const DEFAULT_SETTINGS = {
   metronome: false,
   autoScroll: true,
   countIn: false, // una battuta di conteggio prima di partire
+  stageLyrics: true, // riga del testo sovrapposta al palco
   inputDeviceId: '', // ingresso audio scelto ('' = automatico: cavo Rocksmith se collegato)
   inputGain: 1,
   monitor: false, // ascolto della chitarra in cuffia

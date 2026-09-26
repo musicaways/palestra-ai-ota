@@ -485,6 +485,37 @@ kbd { background: rgba(146, 132, 255, .12); border: 1px solid var(--line); borde
 .in-gain-out { color: var(--cyan); }
 .dlg-settings [data-act="input"], .dlg-tuner [data-act="input"] { margin-top: 6px; }
 
+/* ---------- Sincronia, testo sul palco, riprendi ---------- */
+.sync-badge {
+  border: 1px solid rgba(255, 138, 61, .6); background: rgba(255, 138, 61, .12); color: var(--orange);
+  border-radius: 999px; padding: 3px 10px; font-size: 11px; font-weight: 700; margin-left: auto;
+}
+.sync-badge.ok { border-color: rgba(61, 220, 132, .5); background: rgba(61, 220, 132, .1); color: #3ddc84; }
+.sync-badge + .panel-source { margin-left: 8px; }
+.sync-status { padding: 10px 12px; border-radius: 12px; background: rgba(146, 132, 255, .08); color: var(--muted); font-size: 14px; }
+.sync-status.ok { background: rgba(61, 220, 132, .1); color: #bff5d6; }
+.sync-status.warn { background: rgba(255, 138, 61, .12); color: #ffd2b3; }
+.sync-auto { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 4px; }
+.stage-lyric {
+  position: absolute; left: 50%; top: 30%; translate: -50% 0; width: min(90%, 760px); pointer-events: none;
+  text-align: center; padding: 8px 16px; border-radius: 14px; background: rgba(5, 4, 12, .55); backdrop-filter: blur(4px);
+}
+.stage-lyric.in { animation: slin .35s ease-out; }
+@keyframes slin { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.sl-now { font-size: clamp(17px, 2.4vw, 26px); font-weight: 700; color: #fff; text-shadow: 0 0 14px rgba(34, 211, 238, .45); }
+.sl-next { font-size: clamp(12px, 1.5vw, 15px); color: rgba(238, 234, 255, .55); margin-top: 2px; }
+.tapnow {
+  position: fixed; left: 50%; bottom: 14px; transform: translateX(-50%); z-index: 20; width: min(560px, calc(100% - 24px));
+  padding: 16px; border-radius: 20px; display: grid; gap: 10px; text-align: center;
+  background: rgba(13, 11, 28, .96); border: 1px solid rgba(34, 211, 238, .6); box-shadow: 0 0 40px rgba(34, 211, 238, .25);
+}
+.tapnow .rec-tap { background: linear-gradient(135deg, var(--cyan), var(--violet)); }
+.tapnow-cancel { justify-self: center; }
+.resume-chip {
+  border: 1px solid rgba(34, 211, 238, .5); background: rgba(34, 211, 238, .1); color: var(--cyan);
+  border-radius: 999px; padding: 1px 10px; font-size: 12px; font-weight: 700; margin-left: 8px;
+}
+
 /* ---------- Tablet e telefono ---------- */
 @media (max-width: 960px) {
   .player-main { grid-template-columns: 1fr; }
@@ -500,6 +531,7 @@ kbd { background: rgba(146, 132, 255, .12); border: 1px solid var(--line); borde
   .player-main { padding: 10px; gap: 10px; }
   .hud { padding: 10px 12px; }
   .hud-center { display: none; }
+  .stage-lyric { top: 34%; padding: 6px 10px; }
   .transport-row { justify-content: center; }
   .play-group { order: -1; width: 100%; justify-content: center; }
   .k-text { font-size: 16px; }

@@ -10,6 +10,7 @@ import { click, WakeLock } from './audio.js';
 import { addPractice, recordRate, recordAccuracy, getStats } from './stats.js';
 import { Listener, matchChord } from './detect.js';
 import { mountInputPanel } from './input.js';
+import { lyricGridCheck, estimateOffsetFromAudio, tapAlignShift } from './syncmath.js';
 import { icon } from './icons.js';
 import { chordDiagram } from './diagram.js';
 import { Tuner } from './tuner.js';
@@ -64,6 +65,7 @@ export async function openPlayer(root, song) {
     <section class="stage">
       <canvas class="fretboard" aria-label="Manico della chitarra"></canvas>
       <div class="count-overlay" hidden></div>
+      <div class="stage-lyric" hidden><div class="sl-now"></div><div class="sl-next"></div></div>
       <div class="toast" hidden></div>
       <div class="hud">
         <div class="hud-block now">
@@ -92,7 +94,7 @@ export async function openPlayer(root, song) {
             <div class="scrub-fill"></div>
             <div class="scrub-head"></div>
           </div>
-          <div class="time-row"><span class="t-cur">0:00</span><span class="loop-label"></span><span class="t-tot">0:00</span></div>
+          <div class="time-row"><span class="t-cur">0:00</span><button class="resume-chip" hidden></button><span class="loop-label"></span><span class="t-tot">0:00</span></div>
           <div class="transport-row">
             <div class="speed-pills" role="group" aria-label="Velocità"></div>
             <div class="play-group">
@@ -125,6 +127,7 @@ export async function openPlayer(root, song) {
           <button class="panel-tab" data-tab="lyrics">${icon('mic', 16)} Testo</button>
           <button class="panel-tab" data-tab="chords">${icon('grid', 16)} Accordi</button>
           <button class="panel-tab" data-tab="shapes">${icon('hand', 16)} Diteggiature</button>
+          <button class="sync-badge" data-act="sync" hidden></button>
           <span class="panel-source"></span>
         </div>
         <div class="panel-body lyrics-body"></div>
@@ -133,6 +136,11 @@ export async function openPlayer(root, song) {
       </aside>
     </div>
 
+    <div class="tapnow" hidden>
+      <div class="tapnow-info">Fai partire il video e tocca <b>ADESSO</b> (o premi <kbd>T</kbd>) nell'istante in cui inizia a cantare</div>
+      <button class="rec-tap tapnow-btn">ADESSO</button>
+      <button class="chip-btn tapnow-cancel">Annulla</button>
+    </div>
     <div class="recorder" hidden>
       <div class="rec-info"></div>
       <button class="rec-tap">TAP</button>
@@ -153,6 +161,7 @@ export async function openPlayer(root, song) {
         <label class="check"><input type="checkbox" name="highStringOnTop"> Mi cantino in alto (come le tablature)</label>
         <label class="check"><input type="checkbox" name="showNoteNames"> Nome delle note al posto delle dita</label>
         <label class="check"><input type="checkbox" name="autoScroll"> Scorrimento automatico del testo</label>
+        <label class="check"><input type="checkbox" name="stageLyrics"> Riga del testo sul palco</label>
         <button type="button" class="chip-btn" data-act="input">${icon('guitar', 16)} Ingresso audio (microfono o cavo Rocksmith)</button>
         <p class="hint">Scorciatoie: spazio play/pausa · ← → ±5 s · [ ] punti A/B · L loop · T tap in registrazione</p>
         <menu><button value="ok" class="chip-btn primary">Chiudi</button></menu>
@@ -162,6 +171,16 @@ export async function openPlayer(root, song) {
     <dialog class="dlg dlg-sync">
       <form method="dialog">
         <h3>Sincronia</h3>
+        <div class="sync-status"></div>
+        <div class="sync-auto">
+          <button type="button" class="chip-btn primary" data-sync="tap">${icon('target', 16)} Tocca quando inizia a cantare</button>
+          <button type="button" class="chip-btn" data-sync="listen">${icon('mic', 16)} Allinea ascoltando il video</button>
+          <button type="button" class="chip-btn" data-sync="fix" hidden>Correggi automaticamente</button>
+        </div>
+        <div class="sync-line">
+          <div><b>Tutto</b><span class="hint">sposta insieme testo e accordi rispetto al video</span></div>
+          <div class="stepper"><button type="button" class="round" data-step="all:-0.1">−</button><output class="out-all">±</output><button type="button" class="round" data-step="all:0.1">+</button></div>
+        </div>
         <div class="sync-line">
           <div><b>Accordi</b><span class="hint">se arrivano in ritardo premi −, se sono in anticipo +</span></div>
           <div class="stepper"><button type="button" class="round" data-step="chords:-0.05">−</button><output class="out-chords"></output><button type="button" class="round" data-step="chords:0.05">+</button></div>
@@ -264,6 +283,7 @@ export async function openPlayer(root, song) {
     lastDiagram = null;
     if (synced?.lines.length) {
       karaoke.render(synced.lines, tl, settings, lyricsOffset);
+      paintSyncBadge();
       panelSource.textContent = synced.source === 'LRCLIB' ? 'testo: LRCLIB' : 'testo: tuo';
     } else {
       lyricsBody.innerHTML = `<div class="panel-empty">${synced === null ? 'Caricamento del testo…' : 'Testo sincronizzato non disponibile.<br>Puoi incollarne uno da <b>Sincronia → Incolla il tuo testo</b>, oppure usare la scheda Accordi.'}</div>`;
@@ -708,7 +728,7 @@ export async function openPlayer(root, song) {
   function openSettings() {
     const dlg = $('.dlg-settings');
     const f = dlg.querySelector('form');
-    const keys = ['leftHanded', 'highStringOnTop', 'showNoteNames', 'autoScroll'];
+    const keys = ['leftHanded', 'highStringOnTop', 'showNoteNames', 'autoScroll', 'stageLyrics'];
     f.notation.value = settings.notation;
     for (const k of keys) f[k].checked = settings[k];
     f.onchange = () => {
@@ -721,18 +741,144 @@ export async function openPlayer(root, song) {
     dlg.showModal();
   }
 
+  // ---------- Riga del testo sul palco ----------
+  const stageLyric = $('.stage-lyric');
+  let stageIdx = -2;
+  function paintStageLyric(t) {
+    const lines = synced?.lines;
+    if (!settings.stageLyrics || !lines?.length) { stageLyric.hidden = true; stageIdx = -2; return; }
+    let lo = 0;
+    let hi = lines.length - 1;
+    let i = -1;
+    while (lo <= hi) {
+      const mid = (lo + hi) >> 1;
+      if (lines[mid].t + lyricsOffset <= t) { i = mid; lo = mid + 1; } else hi = mid - 1;
+    }
+    if (i === stageIdx) return;
+    stageIdx = i;
+    const now = lines[i]?.text ?? '';
+    const next = lines.slice(i + 1).find((l) => l.text)?.text ?? '';
+    stageLyric.hidden = !now && !next;
+    stageLyric.querySelector('.sl-now').textContent = now || '♪';
+    stageLyric.querySelector('.sl-next').textContent = next;
+    stageLyric.classList.remove('in');
+    void stageLyric.offsetWidth;
+    stageLyric.classList.add('in');
+  }
+
+  // ---------- Riprendi da dove eri rimasto ----------
+  const resumeChip = $('.resume-chip');
+  const savedPos = store.get(key('pos'), 0);
+  if (savedPos > 10 && savedPos < tl.end - 10) {
+    resumeChip.hidden = false;
+    resumeChip.textContent = `Riprendi da ${fmt(savedPos)}`;
+    resumeChip.addEventListener('click', () => { seek(savedPos); resumeChip.hidden = true; clock.play(); });
+  }
+
+  // ---------- Controllo e correzione della sincronia ----------
+  let syncCheck = null;
+  const lyricLines = () => (synced?.lines ?? []).filter((l) => l.text).map((l) => l.t + lyricsOffset);
+
+  function paintSyncBadge() {
+    const badge = root.querySelector('.sync-badge');
+    syncCheck = synced?.lines.length ? lyricGridCheck(lyricLines(), tl) : null;
+    if (!badge) return;
+    badge.hidden = !syncCheck || syncCheck.status === 'unknown';
+    if (badge.hidden) return;
+    const ok = syncCheck.status === 'ok';
+    badge.classList.toggle('ok', ok);
+    badge.textContent = ok ? '✓ In sincronia' : '⚠ Sincronia da verificare';
+    badge.title = `Coerenza fra testo e accordi: ${Math.round(syncCheck.coherence * 100)}%`;
+  }
+
+  function applyShift(d, why) {
+    if (!d) { toast('Già allineato'); return; }
+    offset = Math.round((offset + d) * 100) / 100;
+    lyricsOffset = Math.round((lyricsOffset + d) * 100) / 100;
+    store.set(key('offset'), offset);
+    store.set(key('lyricsOffset'), lyricsOffset);
+    rebuild();
+    lastIdx = -2;
+    toast(`${why}: ${signed(d)}`);
+  }
+
+  // Allineamento con un tocco: l'utente tocca quando inizia il canto (o il primo accordo).
+  let tapPending = false;
+  const tapEl = $('.tapnow');
+  function startTapAlign() {
+    tapPending = true;
+    tapEl.hidden = false;
+    const first = lyricLines()[0] ?? tl.events[0]?.start ?? 0;
+    tapEl.querySelector('.tapnow-info').innerHTML = lyricLines().length
+      ? 'Fai partire il video e tocca <b>ADESSO</b> (o premi <kbd>T</kbd>) nell\'istante in cui <b>inizia a cantare</b>'
+      : 'Fai partire il video e tocca <b>ADESSO</b> (o premi <kbd>T</kbd>) sul <b>primo accordo</b>';
+    seek(Math.max(0, first - 6));
+    clock.play();
+  }
+  function tapAlignNow() {
+    if (!tapPending) return;
+    tapPending = false;
+    tapEl.hidden = true;
+    const first = lyricLines()[0] ?? tl.events[0]?.start ?? 0;
+    applyShift(tapAlignShift(clock.getTime(), first), 'Allineato col tocco');
+  }
+  tapEl.querySelector('.tapnow-btn').addEventListener('pointerdown', (e) => { e.preventDefault(); tapAlignNow(); });
+  tapEl.querySelector('.tapnow-cancel').addEventListener('click', () => { tapPending = false; tapEl.hidden = true; });
+
+  // Allineamento automatico: il microfono ascolta il video per 15 s.
+  async function listenAlign() {
+    if (listener) toggleListen();
+    const frames = [];
+    const probe = new Listener(({ chroma, level }) => {
+      if (clock.playing) frames.push({ t: clock.getTime(), chroma, level });
+    });
+    try {
+      await probe.start();
+    } catch {
+      toast('Serve il permesso del microfono');
+      return;
+    }
+    if (clock.getTime() < (tl.events[0]?.start ?? 0)) seek(tl.events[0].start);
+    clock.play();
+    const secs = 15;
+    for (let i = secs; i > 0 && !destroyed; i--) {
+      toast(`Ascolto il video… ${i} s (volume alto, niente chitarra)`);
+      await new Promise((r) => setTimeout(r, 1000));
+    }
+    probe.stop();
+    const r = estimateOffsetFromAudio(frames, tl);
+    if (r.confidence >= 0.35) applyShift(r.shift, `Allineato ascoltando (affidabilità ${Math.round(r.confidence * 100)}%)`);
+    else toast('Non abbastanza sicuro: alza il volume e riprova, oppure usa il tocco');
+  }
+
   function openSync() {
     const dlg = $('.dlg-sync');
     const paint = () => {
       dlg.querySelector('.out-chords').textContent = signed(offset);
       dlg.querySelector('.out-lyrics').textContent = signed(lyricsOffset);
+      const st = dlg.querySelector('.sync-status');
+      const fix = dlg.querySelector('[data-sync="fix"]');
+      if (syncCheck && syncCheck.status !== 'unknown') {
+        const ok = syncCheck.status === 'ok';
+        st.className = 'sync-status ' + (ok ? 'ok' : 'warn');
+        st.textContent = ok
+          ? `Testo e accordi sono coerenti (${Math.round(syncCheck.coherence * 100)}%). Se il video parte prima o dopo, allinealo con un tocco.`
+          : `Testo e accordi non combaciano bene (${Math.round(syncCheck.coherence * 100)}%): prova "Correggi automaticamente" o allinea col tocco.`;
+        fix.hidden = ok || Math.abs(syncCheck.shift) < 0.05;
+      } else {
+        st.className = 'sync-status';
+        st.textContent = 'Allinea il brano al video: con un tocco quando inizia a cantare, oppure ascoltando il video dal microfono.';
+        fix.hidden = true;
+      }
     };
     paint();
     dlg.onclick = async (e) => {
       const step = e.target.closest('[data-step]')?.dataset.step;
       if (step) {
         const [what, v] = step.split(':');
-        if (what === 'chords') {
+        if (what === 'all') {
+          applyShift(Number(v), 'Spostati testo e accordi');
+        } else if (what === 'chords') {
           offset = Math.round((offset + Number(v)) * 100) / 100;
           store.set(key('offset'), offset);
           rebuild();
@@ -745,6 +891,16 @@ export async function openPlayer(root, song) {
       }
       const act = e.target.closest('[data-sync]')?.dataset.sync;
       if (act === 'paste') { dlg.close(); openLyrics(); }
+      if (act === 'tap') { dlg.close(); startTapAlign(); }
+      if (act === 'listen') { dlg.close(); listenAlign(); }
+      if (act === 'fix' && syncCheck) {
+        // le righe partono dopo il battere → gli accordi vanno spostati avanti (solo gli accordi)
+        offset = Math.round((offset + syncCheck.shift) * 100) / 100;
+        store.set(key('offset'), offset);
+        rebuild();
+        toast(`Accordi riallineati al testo: ${signed(syncCheck.shift)}`);
+        paint();
+      }
       if (act === 'reload') { clearLyricsCache(song); dlg.close(); loadLyrics(); }
       if (act === 'resetTimes') { store.remove(key('sync')); sync = song.sync ?? null; rebuild(); dlg.close(); }
     };
@@ -808,7 +964,9 @@ export async function openPlayer(root, song) {
       case '[': $('[data-act="loopA"]').click(); break;
       case ']': $('[data-act="loopB"]').click(); break;
       case 'l': case 'L': $('[data-act="loopToggle"]').click(); break;
-      case 't': case 'T': case 'Enter': if (recorder) { e.preventDefault(); tap(); } break;
+      case 't': case 'T': case 'Enter':
+        if (tapPending) { e.preventDefault(); tapAlignNow(); } else if (recorder) { e.preventDefault(); tap(); }
+        break;
       default: return;
     }
   };
@@ -879,6 +1037,8 @@ export async function openPlayer(root, song) {
       if (k !== lastBeatKey) { lastBeatKey = k; click(beatInt === 0); }
     }
 
+    paintStageLyric(t);
+
     const pct = `${Math.min(100, (t / dur) * 100)}%`;
     scrubHead.style.left = pct;
     scrubFill.style.width = pct;
@@ -900,6 +1060,7 @@ export async function openPlayer(root, song) {
     listener?.stop();
     wake.off();
     addPractice(song.id, practiceAcc);
+    try { store.set(key('pos'), clock?.getTime() ?? 0); } catch { /* niente */ }
     window.removeEventListener('keydown', onKey);
     fretboard.destroy();
     clock?.destroy();
