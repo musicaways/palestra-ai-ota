@@ -156,7 +156,8 @@ Nel test e2e YouTube è bloccato di proposito (si prova il clock di riserva); il
   durata diversa): elenco nel diario. Tutti i brani: forme presenti, durata coerente con il testo, video.
 - Nuove sezioni: **Impara** (29 lezioni), **Registrazioni**, **Progressi**; nel player **Studio guidato**, **Ampli**,
   **Video**, riga delle sezioni e velocità compatta.
-- 64 test unitari e 271 controlli e2e verdi (prima dell'ampliamento del catalogo; vedi diario per l'ultimo giro).
+- 64 test unitari e **450 controlli e2e verdi** (ogni brano del catalogo si apre con tutte le diteggiature).
+  checksync: 183/213 coerenti; per gli altri (righe fuori battere, rap) serve il tocco in Sincronia.
 - Precedente (v1.6.0): 51 test unitari e 222 controlli e2e verdi (desktop + telefono,
   incluso: ogni brano si apre con tutte le diteggiature, nessuno scorrimento orizzontale, nessuna
   sovrapposizione fra componenti in tutte e cinque le viste, comandi compatti).

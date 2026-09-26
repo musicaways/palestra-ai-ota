@@ -56,7 +56,7 @@ Funziona nel browser di **PC, tablet e telefono Android** e si può installare c
   indicatore di livello e ascolto della chitarra in cuffia (*Impostazioni → Ingresso audio*).
 - **Editor dei brani**: crea o modifica un brano dall'app (accordi scritti come testo, tap tempo,
   ricerca del testo su LRCLIB), provalo subito ed esporta il JSON. I brani creati hanno il badge *Tuo*.
-- **Libreria** con ricerca e schede *Tutti / Preferiti / Artisti / Generi / Difficoltà*.
+- **Libreria di 213 brani di 101 artisti** (pop, rock, cantautori, indie, rap adattato, classici stranieri) con ricerca e schede *Tutti / Preferiti / Recenti / Artisti / Generi / Difficoltà*.
 - **Sincronia**: correzione fine ±0,05 s e modalità **🎯 Registra tempi** (tocchi TAP a ogni cambio
   accordo mentre il video suona: i tempi vengono salvati e si possono esportare in JSON).
 - **Il tuo testo**: da *Sincronia → Incolla il tuo testo* puoi usare un testo tuo, anche in formato LRC;
