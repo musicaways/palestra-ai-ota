@@ -27,12 +27,23 @@ export function renderLibrary(root, songs) {
         <div class="hero-actions">
           <a class="chip-btn primary" href="#/allenamento">${icon('drill', 16)} Allenamento cambi accordo</a>
           <a class="chip-btn" href="#/editor">${icon('text', 16)} Crea un brano</a>
+          <a class="chip-btn continue-btn" hidden></a>
           <span class="hero-stats"></span>
         </div>
       </section>
       <div class="library-head">
         <label class="search-wrap">${icon('search', 18)}
-          <input type="search" class="search" placeholder="Cerca titolo, artista, genere…" aria-label="Cerca">
+          <input type="search" class="search" placeholder="Cerca titolo, artista, genere…  ( / )" aria-label="Cerca">
+          <span class="search-count"></span>
+        </label>
+        <label class="sort-wrap">Ordina
+          <select class="sort">
+            <option value="title">Titolo</option>
+            <option value="artist">Artista</option>
+            <option value="easy">Più facili</option>
+            <option value="played">Più suonati</option>
+            <option value="year">Più recenti</option>
+          </select>
         </label>
         <nav class="tabs" role="tablist"></nav>
       </div>
@@ -41,6 +52,20 @@ export function renderLibrary(root, songs) {
   const tabsEl = root.querySelector('.tabs');
   const body = root.querySelector('.library-body');
   const search = root.querySelector('.search');
+  const sortSel = root.querySelector('.sort');
+  let sort = store.get('librarySort', 'title');
+  sortSel.value = sort;
+  sortSel.addEventListener('change', () => { sort = sortSel.value; store.set('librarySort', sort); draw(); });
+  // "/" porta subito nella ricerca
+  const onSlash = (e) => {
+    if (e.key === '/' && !e.target.closest('input, textarea, select') && document.body.contains(search)) {
+      e.preventDefault();
+      search.focus();
+    }
+  };
+  if (window.__gstSlash) window.removeEventListener('keydown', window.__gstSlash);
+  window.__gstSlash = onSlash;
+  window.addEventListener('keydown', onSlash);
 
   for (const t of TABS) {
     const b = document.createElement('button');
@@ -150,7 +175,25 @@ export function renderLibrary(root, songs) {
     const favs = getFavorites();
     let list = songs.filter((s) =>
       !query || [s.title, s.artist, s.genre, s.album].filter(Boolean).some((v) => v.toLowerCase().includes(query)));
-    list = [...list].sort((a, b) => a.title.localeCompare(b.title, 'it'));
+    const byTitle = (a, b) => a.title.localeCompare(b.title, 'it');
+    const sorters = {
+      title: byTitle,
+      artist: (a, b) => a.artist.localeCompare(b.artist, 'it') || byTitle(a, b),
+      easy: (a, b) => (a.difficulty ?? 3) - (b.difficulty ?? 3) || byTitle(a, b),
+      played: (a, b) => (stats[b.id]?.seconds ?? 0) - (stats[a.id]?.seconds ?? 0) || byTitle(a, b),
+      year: (a, b) => (b.year ?? 0) - (a.year ?? 0) || byTitle(a, b),
+    };
+    list = [...list].sort(sorters[sort] ?? byTitle);
+    root.querySelector('.search-count').textContent = query ? `${list.length}` : `${songs.length} brani`;
+    // "Continua": l'ultimo brano suonato
+    const last = songs.filter((x) => stats[x.id]?.lastPlayed).sort((a, b) => stats[b.id].lastPlayed - stats[a.id].lastPlayed)[0];
+    const cont = root.querySelector('.continue-btn');
+    cont.hidden = !last;
+    if (last) {
+      cont.href = `#/song/${encodeURIComponent(last.id)}`;
+      cont.innerHTML = `${icon('play', 14)} Continua: <b></b>`;
+      cont.querySelector('b').textContent = last.title;
+    }
     body.replaceChildren();
     if (tab === 'favorites') list = list.filter((s) => favs.has(s.id));
     if (tab === 'recent') {

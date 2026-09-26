@@ -1,0 +1,147 @@
+{
+ "title": "Depresso fortunato",
+ "artist": "Olly",
+ "album": "Tutta vita (sempre)",
+ "year": 2025,
+ "genre": "Pop",
+ "difficulty": 2,
+ "youtubeId": "pyLzJu1ggIU",
+ "key": "Mi maggiore (E)",
+ "bpm": 89.03,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.2,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 23850400,
+  "duration": 212.5,
+  "offset": 0
+ },
+ "notes": "Con JVLI. Tre accordi aperti per quasi tutto il brano: E – B7 – A. Il ponte passa per C#m e G#m.",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. L'app controlla da sola che testo e accordi siano coerenti; per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "E",
+    "B7",
+    "E",
+    "A",
+    "E",
+    "B7",
+    "E",
+    "%",
+    "E",
+    "B7",
+    "E",
+    "A",
+    "E",
+    "B7",
+    "E",
+    "%",
+    "E",
+    "B7",
+    "E",
+    "A"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "A",
+    "E",
+    "B7",
+    "E",
+    "A",
+    "E",
+    "B7",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "E",
+    "B7",
+    "E",
+    "A",
+    "E",
+    "B7",
+    "E",
+    "%",
+    "E",
+    "B7",
+    "E",
+    "A",
+    "E",
+    "B7",
+    "E",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "A",
+    "E",
+    "B7",
+    "E",
+    "A",
+    "E",
+    "B7",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ponte",
+   "bars": [
+    "E",
+    "B/D#",
+    "C#m",
+    "G#m",
+    "A",
+    "%",
+    "E",
+    "B/D#",
+    "C#m",
+    "G#m"
+   ],
+   "barsPerRow": 6
+  },
+  {
+   "name": "Ritornello finale",
+   "bars": [
+    "A",
+    "E",
+    "B7",
+    "E",
+    "A",
+    "E",
+    "B7",
+    "E",
+    "A",
+    "E",
+    "B7",
+    "E",
+    "A",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Outro",
+   "bars": [
+    "A",
+    "E"
+   ]
+  }
+ ]
+}

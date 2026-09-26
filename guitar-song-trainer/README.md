@@ -35,6 +35,10 @@ Funziona nel browser di **PC, tablet e telefono Android** e si può installare c
 - **Modalità ascolto** (stile Rocksmith): il microfono riconosce l'accordo che suoni; a ogni cambio il
   manico si illumina di verde o di rosso, con precisione, serie e record.
 - **Frecce della pennata** (↓ ↑) che scorrono sulla corsia a tempo.
+- **Sincronia garantita**: l'app controlla da sola che testo e accordi combacino (etichetta *In sincronia*),
+  e li allinea al video con un tocco quando inizia il canto oppure ascoltando il video dal microfono.
+- **Testo sotto il manico** (riga attuale e successiva), **Riprendi** dal punto in cui eri, **guida rapida** (?).
+- Libreria: **Continua** l'ultimo brano, ordinamento (titolo, artista, più facili, più suonati, più recenti), tasto `/`.
 - **Cavo USB Rocksmith** (Real Tone Cable) o qualsiasi scheda audio: riconosciuto da solo, con guadagno,
   indicatore di livello e ascolto della chitarra in cuffia (*Impostazioni → Ingresso audio*).
 - **Editor dei brani**: crea o modifica un brano dall'app (accordi scritti come testo, tap tempo,
@@ -153,6 +157,7 @@ js/tuner.js           accordatore (microfono, autocorrelazione)
 js/drill.js           allenamento cambi accordo
 js/stats.js           statistiche di pratica e record
 js/audio.js           metronomo e schermo sempre acceso
+js/syncmath.js        controlli e correzioni della sincronia
 js/detect.js          riconoscimento degli accordi dal microfono
 js/songtext.js        formato testuale degli accordi dell'editor
 js/usersongs.js       brani creati dall'utente

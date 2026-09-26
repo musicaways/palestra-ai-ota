@@ -21,6 +21,7 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   console.log(`\n— ${name} —`);
   const ctx = await browser.newContext({ viewport, ignoreHTTPSErrors: true, permissions: ['microphone'], acceptDownloads: true });
   await ctx.route(/youtube\.com|ytimg\.com/, (r) => r.abort());
+  await ctx.addInitScript(() => { try { localStorage.setItem('gst:helpSeen', 'true'); } catch {} });
   const page = await ctx.newPage();
   page.on('pageerror', (e) => errors.push(`${name}: ${e.message}`));
   const shot = (n) => SHOTS && page.screenshot({ path: `${SHOTS}/${name}-${n}.png` });
@@ -69,11 +70,43 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   const rows = await page.locator('.k-row').count();
   check(rows > 10, `testo karaoke caricato (${rows} righe)`);
   check(await page.locator('.k-chord').count() > 10, 'accordi posizionati sul testo');
+  check(await page.isVisible('.sync-badge'), `indicatore di sincronia: ${await page.textContent('.sync-badge')}`);
+
+  // Guida rapida
+  await page.click('[data-act="help"]');
+  check(await page.locator('.dlg-help .help-list li').count() >= 5, 'guida rapida');
+  await page.click('.dlg-help button[value="ok"]');
+
+  // Allineamento col tocco: si tocca 1 s dopo l'inizio del canto → tutto si sposta di ~+1 s
+  await page.click('[data-act="sync"]');
+  await page.click('[data-sync="tap"]');
+  check(await page.isVisible('.tapnow'), 'allineamento col tocco: pulsante ADESSO');
+  const firstLine = await page.evaluate(() => {
+    const lrc = JSON.parse(localStorage.getItem('gst:lrcCache:salmo-cartine-corte') || '{}').lrc || '';
+    const m = /\[(\d+):(\d+(?:\.\d+)?)\][^\n]*\S/.exec(lrc);
+    return m ? Number(m[1]) * 60 + Number(m[2]) : null;
+  });
+  await page.waitForFunction((t) => {
+    const txt = document.querySelector('.t-cur').textContent.split(':');
+    return Number(txt[0]) * 60 + Number(txt[1]) >= t + 1;
+  }, firstLine, { timeout: 15000 });
+  await page.click('.tapnow-btn');
+  const shifted = await page.evaluate(() => ({ o: Number(localStorage.getItem('gst:offset:salmo-cartine-corte')), l: Number(localStorage.getItem('gst:lyricsOffset:salmo-cartine-corte')) }));
+  check(shifted.o > 0.5 && shifted.o < 2.5 && Math.abs(shifted.o - shifted.l) < 0.01, `allineamento col tocco: testo e accordi spostati insieme (+${shifted.o.toFixed(2)} s)`);
+  await page.click('[data-act="sync"]');
+  await page.click('[data-step="all:-0.1"]');
+  const after = await page.evaluate(() => Number(localStorage.getItem('gst:offset:salmo-cartine-corte')));
+  check(Math.abs(after - (shifted.o - 0.1)) < 0.01, 'regolatore "Tutto"');
+  await page.click('.dlg-sync button[value="ok"]');
+  await page.evaluate(() => { localStorage.removeItem('gst:offset:salmo-cartine-corte'); localStorage.removeItem('gst:lyricsOffset:salmo-cartine-corte'); });
 
   await page.click('[data-act="play"]');
   await page.waitForTimeout(3000);
   const now = await page.textContent('.now-chord');
   check(now && now !== '—', `HUD mostra l'accordo corrente (${now})`);
+  check(await page.isVisible('.stage-lyric'), 'riga del testo sul palco');
+  const pageW = await page.evaluate(() => document.documentElement.scrollWidth);
+  check(pageW <= viewport.width + 1, `nessuno scorrimento orizzontale (${pageW}px su ${viewport.width}px)`);
   check(await page.locator('.k-row.active').count() === 1, 'una riga del testo è attiva');
   await shot('player');
 
@@ -129,8 +162,11 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
 
   // Sincronia e registrazione tempi
   await page.click('[data-act="sync"]');
+  const parseOut = (t) => Number(t.replace('−', '-').replace(' s', ''));
+  const before = parseOut(await page.textContent('.out-chords'));
   await page.click('[data-step="chords:0.05"]');
-  check((await page.textContent('.out-chords')) === '+0.05 s', 'offset accordi regolabile');
+  const afterStep = parseOut(await page.textContent('.out-chords'));
+  check(Math.abs(afterStep - before - 0.05) < 0.001, `offset accordi regolabile (${before} → ${afterStep})`);
   await page.click('[data-step="chords:-0.05"]');
   await page.click('.dlg-sync button[value="ok"]');
   await page.click('[data-act="record"]');
@@ -197,6 +233,11 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   await page.click('.player-head a');
   await page.waitForSelector('.library');
   check(true, 'si torna alla libreria');
+  check(await page.isVisible('.continue-btn'), `pulsante Continua (${await page.textContent('.continue-btn')})`);
+  await page.selectOption('.sort', 'easy');
+  const firstEasy = await page.locator('.song-card .level i.on').count();
+  check(firstEasy > 0, 'ordinamento "Più facili"');
+  await page.selectOption('.sort', 'title');
   await page.click('.tab[data-tab="recent"]');
   check(await page.locator('.song-card').count() === 1, 'scheda Recenti con il brano appena suonato');
   check(await page.locator('.song-card .practice').count() === 1, 'tempo di pratica sulla card');

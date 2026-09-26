@@ -20,6 +20,8 @@ Rocksmith, usabile su PC, tablet e telefono Android. Proprietario: `musicaways` 
 - Modalità ascolto: il microfono riconosce l'accordo suonato (chroma) e dà punteggio e serie.
 - Editor dei brani nell'app (formato testuale degli accordi), brani dell'utente salvati in locale.
 - Ingresso audio: microfono o **cavo USB Rocksmith (Real Tone Cable)**, riconosciuto da solo; guadagno e monitor in cuffia.
+- **Sincronia garantita**: controllo automatico di coerenza fra testo e accordi (indicatore accanto al testo),
+  allineamento al video con un tocco o ascoltando il video dal microfono, regolatore unico testo+accordi.
 - **I brani vengono aggiunti dall'AI su richiesta dell'utente, uno alla volta** (vedi sotto).
 
 ## Regole da rispettare sempre
@@ -62,6 +64,9 @@ js/songtext.js        formato testuale degli accordi (parse/serializza), slug, I
 js/usersongs.js       brani creati/modificati dall'utente (localStorage) e fusione con la libreria
 js/editor.js          pagina #/editor e #/editor/<id>
 js/input.js           ingresso audio condiviso (GuitarInput): dispositivo, cavo Rocksmith, guadagno, monitor
+js/syncmath.js        coerenza testo/accordi (lyricGridCheck), stima dello sfasamento dall'audio, tocco
+tools/checklyrics.py  verifica che ogni brano abbia il testo sincronizzato su LRCLIB (stampa solo numeri)
+tools/checksync.mjs   coerenza griglia/testo per ogni brano; con --fix corregge l'offset se affidabile
 tools/lrcgrid.py      analisi dei SOLI tempi LRCLIB: BPM ottimale, offset, blocchi e ritornelli
 avvia.bat / avvia.sh / avvia.command   avvio locale con doppio clic (Node.js o Python)
 INSTALLAZIONE.md      guida per l'utente: scaricare, avviare, collegare la chitarra
@@ -98,9 +103,11 @@ Documentato nel README (sezione "Aggiungere un brano"). Punti chiave:
    usa **solo i timestamp** e dà BPM ottimale, `offset` e i blocchi cantati in battute (con i ritornelli
    riconosciuti). Costruisci le sezioni su quei numeri di battute.
    Regola pratica: un accordo per battuta se la battuta dura ≥ 2,2 s, altrimenti due battute per accordo.
-4. Scrivi `songs/<artista>-<titolo>.json` e aggiungi la voce in `songs/index.json`.
-5. Verifica con `npm test` (il test della timeline costruisce tutti i brani dell'indice) e aprendo
-   il brano nel browser. Segnala all'utente che i tempi sono stimati finché non registra i TAP.
+4. Scrivi `songs/<artista>-<titolo>.json` (con `lyricsSource: { lrclibId, duration }`) e aggiungi la voce
+   in `songs/index.json`. Brani rap/elettronici: adattali a un giro d'accordi suonabile e scrivilo in `notes`.
+5. Verifica: `npm test`, `python3 tools/checklyrics.py` (testo presente), `node tools/checksync.mjs --fix`
+   (coerenza testo/accordi) e il test e2e (apre ogni brano). LRCLIB limita le richieste: se risponde 503,
+   aspetta qualche secondo fra una chiamata e l'altra. I tempi restano stime finché l'utente non allinea.
 
 ## Comandi
 
@@ -111,10 +118,17 @@ node tests/e2e.mjs http://localhost:8080   # test nel browser (serve Playwright 
 ```
 Nel test e2e YouTube è bloccato di proposito (si prova il clock di riserva); il microfono è finto.
 
-## Stato attuale (v1.4.0 — 2026-09-26)
+## Stato attuale (v1.5.0 — 2026-09-26)
 
-- Funziona tutto quanto descritto sopra; 38 test unitari e 110 controlli e2e verdi (desktop + telefono,
-  incluso: ogni brano della libreria si apre con tutte le diteggiature).
+- Funziona tutto quanto descritto sopra; 45 test unitari e 144 controlli e2e verdi (desktop + telefono,
+  incluso: ogni brano si apre con tutte le diteggiature, nessuno scorrimento orizzontale su telefono).
+- **33 brani**, tutti con testo sincronizzato disponibile (verificato con tools/checklyrics.py).
+  Aggiunti in v1.5.0: Blanco (Mi fai impazzire, Paraocchi, Blu celeste), PTN (Giovani Wannabe, Scrivile
+  scemo, La storia infinita), Olly (Depresso fortunato), Cremonini (Nessuno vuole essere Robin), Rino Gaetano
+  (A mano a mano, Aida, Mio fratello è figlio unico, Berta filava), Fedez (Cigno nero, Bella storia, Mille),
+  Salmo (90MIN). Scartati per fonti incoerenti: Il campione (Olly), 50 Special, Buon viaggio, Perdonami.
+- checksync: 26/33 coerenti; 7 con coerenza bassa ma senza correzione affidabile (righe fuori battere,
+  tipico del rap): per quelli serve l'allineamento col tocco nell'app.
 - **Brani in libreria: 17.** Salmo (Cartine corte, Il cielo nella stanza), MACE/Blanco/Salmo (La canzone
   nostra), Blanco (Notti in bianco), Pinguini Tattici Nucleari (Ringo Starr, Pastello bianco), Olly
   (Balorda nostalgia, Per due come noi), Cesare Cremonini (Poetica, Marmellata #25), Rino Gaetano
@@ -166,6 +180,10 @@ Nel test e2e YouTube è bloccato di proposito (si prova il clock di riserva); il
   Poi v1.4.0: cavo USB Rocksmith e scelta dell'ingresso audio, 16 nuovi brani, accordi 6 e add9,
   suggerimento del capotasto più prudente, duetti raggruppati sotto ogni artista, avvio con doppio
   clic e guida INSTALLAZIONE.md, strumento tools/lrcgrid.py.
+  Poi v1.5.0: sincronia garantita (controllo di coerenza, tocco, ascolto del video, regolatore unico),
+  testo con ricerca di riserva, 16 nuovi brani, riga del testo sotto il manico, riprendi, guida rapida,
+  ordinamento e "Continua" in libreria. Bug corretti: errore se il testo arrivava prima del video,
+  pagina più larga dello schermo su telefono (pulsanti velocità, schede, accordi del karaoke).
 
 ## Prossimi passi (idee in ordine di utilità)
 

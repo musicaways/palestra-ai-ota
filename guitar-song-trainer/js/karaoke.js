@@ -46,7 +46,7 @@ export class Karaoke {
       line.className = 'k-line';
       const chords = document.createElement('div');
       chords.className = 'k-chords';
-      placeChords(row, chords, settings);
+      if (placeChords(row, chords, settings)) line.classList.add('flow');
       const text = document.createElement('div');
       text.className = 'k-text';
       text.textContent = row.instrumental ? '♪' : row.text;
@@ -125,18 +125,25 @@ function buildRows(lines, tl, lyricsOffset) {
 }
 
 function placeChords(row, box, settings) {
-  let lastPos = -1;
+  // posizioni proporzionali al tempo, con uno spazio minimo fra un accordo e l'altro
+  const pos = [];
   for (const c of row.chords) {
-    let pos = Math.min(0.9, Math.max(0, c.pos));
-    if (lastPos >= 0 && pos - lastPos < 0.14) pos = lastPos + 0.14;
-    lastPos = pos;
+    let p = Math.min(0.9, Math.max(0, c.pos));
+    if (pos.length && p - pos.at(-1) < 0.14) p = pos.at(-1) + 0.14;
+    pos.push(p);
+  }
+  // troppi accordi per la riga: si mostrano in sequenza (vanno a capo) invece che sovrapposti
+  const flow = pos.length && pos.at(-1) > 0.92;
+  box.classList.toggle('flow', flow);
+  row.chords.forEach((c, i) => {
     const s = document.createElement('span');
     s.className = 'k-chord' + (c.carried ? ' carried' : '');
     s.textContent = displayChord(c.name, settings.notation);
-    s.style.left = `${(pos * 100).toFixed(1)}%`;
+    if (!flow) s.style.left = `${(pos[i] * 100).toFixed(1)}%`;
     s.style.setProperty('--c', chordColor(c.name));
     box.append(s);
-  }
+  });
+  return flow;
 }
 
 function rowIndexAt(rows, t) {

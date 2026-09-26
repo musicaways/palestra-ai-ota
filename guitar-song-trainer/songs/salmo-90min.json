@@ -1,0 +1,191 @@
+{
+ "title": "90MIN",
+ "artist": "Salmo",
+ "album": "Playlist",
+ "year": 2018,
+ "genre": "Rap / Hip-hop",
+ "difficulty": 3,
+ "youtubeId": "bz0qaxRGrdM",
+ "key": "Fa minore (Fm)",
+ "bpm": 122.04,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.33,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 9160567,
+  "duration": 232,
+  "offset": 0
+ },
+ "notes": "Adattamento per chitarra del brano rap: giro Db – Eb – Fm, due battute per accordo; ponte Bbm – C7 – Fm – Db6. Col capotasto al 1° diventa C – D – Em.",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. L'app controlla da sola che testo e accordi siano coerenti; per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Cm",
+    "%",
+    "Ab",
+    "%",
+    "Eb",
+    "%",
+    "Fm",
+    "%"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Db",
+    "%",
+    "Eb",
+    "%",
+    "Fm",
+    "%",
+    "Fm",
+    "%",
+    "Db",
+    "%",
+    "Eb",
+    "%",
+    "Fm",
+    "%",
+    "Fm",
+    "%",
+    "Db",
+    "%",
+    "Eb",
+    "%",
+    "Fm",
+    "%",
+    "Fm",
+    "%",
+    "Db",
+    "%",
+    "Eb",
+    "%",
+    "Fm",
+    "%",
+    "Fm",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Ponte",
+   "bars": [
+    "Bbm",
+    "%",
+    "C7",
+    "%",
+    "Fm",
+    "%",
+    "Db6",
+    "%"
+   ]
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Db",
+    "%",
+    "Eb",
+    "%",
+    "Fm",
+    "%",
+    "Fm",
+    "%",
+    "Db",
+    "%",
+    "Eb",
+    "%",
+    "Fm",
+    "%",
+    "Fm",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Db",
+    "%",
+    "Eb",
+    "%",
+    "Fm",
+    "%",
+    "Fm",
+    "%",
+    "Db",
+    "%",
+    "Eb",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Ponte",
+   "bars": [
+    "Bbm",
+    "%",
+    "C7",
+    "%",
+    "Fm",
+    "%",
+    "Db6",
+    "%"
+   ]
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Db",
+    "%",
+    "Eb",
+    "%",
+    "Fm",
+    "%",
+    "Fm",
+    "%",
+    "Db",
+    "%",
+    "Eb",
+    "%",
+    "Fm",
+    "%",
+    "Fm",
+    "%",
+    "Db",
+    "%",
+    "Eb",
+    "%",
+    "Fm",
+    "%",
+    "Fm",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Outro",
+   "bars": [
+    "Fm",
+    "%",
+    "Db",
+    "%",
+    "Eb",
+    "%",
+    "Fm",
+    "%",
+    "Db",
+    "%"
+   ],
+   "barsPerRow": 8
+  }
+ ]
+}

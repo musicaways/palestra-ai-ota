@@ -1,0 +1,172 @@
+{
+ "title": "Berta filava",
+ "artist": "Rino Gaetano",
+ "album": "Mio fratello è figlio unico",
+ "year": 1976,
+ "genre": "Cantautori",
+ "difficulty": 2,
+ "youtubeId": "QIBBlRDgJfQ",
+ "key": "Re bemolle maggiore (Db)",
+ "bpm": 114.78,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.18,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 33912961,
+  "duration": 221,
+  "offset": 0
+ },
+ "notes": "Tre accordi per tutto il brano: Db – Gb – Ab. Col capotasto al 1° tasto diventano C – F – G.",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. L'app controlla da sola che testo e accordi siano coerenti; per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Db",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Db",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%",
+    "Db",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Db",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%",
+    "Db",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Db",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%"
+   ]
+  },
+  {
+   "name": "Strumentale",
+   "bars": [
+    "Db",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%"
+   ]
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Db",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%",
+    "Db",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%",
+    "Db",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%",
+    "Db",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%",
+    "Db",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%",
+    "Db",
+    "%",
+    "Gb",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "Db",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%"
+   ]
+  }
+ ]
+}

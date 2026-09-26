@@ -1,0 +1,183 @@
+{
+ "title": "Paraocchi",
+ "artist": "Blanco",
+ "album": "Blu celeste",
+ "year": 2021,
+ "genre": "Pop / Rock",
+ "difficulty": 2,
+ "youtubeId": "R3tkPQWlHEI",
+ "key": "La maggiore (A)",
+ "bpm": 144.31,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.95,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 28803092,
+  "duration": 189,
+  "offset": 0
+ },
+ "notes": "Chitarra energica in La: A – Dadd9 – E – F#m. Nel ritornello il Re è una settima maggiore (Dmaj7; nell'originale Dmaj9).",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. L'app controlla da sola che testo e accordi siano coerenti; per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "A",
+    "%",
+    "Dadd9",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "F#m",
+    "%",
+    "A",
+    "%",
+    "Dadd9",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "F#m",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Dmaj7",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "F#m",
+    "%",
+    "Dmaj7",
+    "%",
+    "A",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "A",
+    "%",
+    "Dadd9",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "F#m",
+    "%",
+    "A",
+    "%",
+    "Dadd9",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "F#m",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Dmaj7",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "F#m",
+    "%",
+    "Dmaj7",
+    "%",
+    "A",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Ponte",
+   "bars": [
+    "C#m7",
+    "%",
+    "Dadd9",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%"
+   ]
+  },
+  {
+   "name": "Ritornello finale",
+   "bars": [
+    "Dmaj7",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "F#m",
+    "%",
+    "Dmaj7",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "F#m",
+    "%",
+    "Dmaj7",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "F#m",
+    "%",
+    "Dmaj7",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "F#m",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Outro",
+   "bars": [
+    "Dmaj7",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "F#m",
+    "%",
+    "A",
+    "%"
+   ],
+   "barsPerRow": 8
+  }
+ ]
+}

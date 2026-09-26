@@ -1,0 +1,207 @@
+{
+ "title": "Giovani Wannabe",
+ "artist": "Pinguini Tattici Nucleari",
+ "album": "Fake News",
+ "year": 2022,
+ "genre": "Pop / Indie",
+ "difficulty": 2,
+ "youtubeId": "4GXDFtuG9Xo",
+ "key": "Re maggiore (D)",
+ "bpm": 125.86,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.65,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34247454,
+  "duration": 251,
+  "offset": 0
+ },
+ "notes": "Accordi aperti in Re: D – Em7 – Bm – G nella strofa; il ritornello aggiunge A – Bm7 – D/F# – G.",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. L'app controlla da sola che testo e accordi siano coerenti; per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "D",
+    "%",
+    "Em",
+    "%",
+    "Bm",
+    "%",
+    "G",
+    "%"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "D",
+    "%",
+    "Em7",
+    "%",
+    "Bm",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%",
+    "Em7",
+    "%",
+    "Bm",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    "%",
+    "Em7",
+    "%",
+    "Bm7",
+    "%",
+    "G",
+    "%",
+    "A",
+    "%",
+    "Bm7",
+    "%",
+    "D/F#",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "D",
+    "%",
+    "Em7",
+    "%",
+    "Bm",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%",
+    "Em7",
+    "%",
+    "Bm",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    "%",
+    "Em7",
+    "%",
+    "Bm7",
+    "%",
+    "G",
+    "%",
+    "A",
+    "%",
+    "Bm7",
+    "%",
+    "D/F#",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Ponte",
+   "bars": [
+    "D",
+    "%",
+    "Em7",
+    "%",
+    "Bm",
+    "%",
+    "A",
+    "%",
+    "D",
+    "%",
+    "Em7",
+    "%",
+    "Bm",
+    "%",
+    "A",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Ritornello finale",
+   "bars": [
+    "D",
+    "%",
+    "Em7",
+    "%",
+    "Bm7",
+    "%",
+    "G",
+    "%",
+    "A",
+    "%",
+    "Bm7",
+    "%",
+    "D/F#",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%",
+    "Em7",
+    "%",
+    "Bm7",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Outro",
+   "bars": [
+    "D",
+    "%",
+    "Em7",
+    "%",
+    "Bm",
+    "%",
+    "A",
+    "%",
+    "G",
+    "%",
+    "A",
+    "%",
+    "Bm7",
+    "%",
+    "Gadd9",
+    "%",
+    "D",
+    "%",
+    "Em7",
+    "%"
+   ],
+   "barsPerRow": 8
+  }
+ ]
+}

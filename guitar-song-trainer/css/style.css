@@ -20,6 +20,7 @@
 
 * { box-sizing: border-box; }
 html, body { margin: 0; min-height: 100%; }
+body { overflow-x: hidden; }
 body {
   background:
     radial-gradient(1200px 600px at 10% -10%, rgba(124, 92, 255, 0.18), transparent 60%),
@@ -210,7 +211,7 @@ body.in-player .app-bar { display: none; }
 .round.big .ico { margin-left: 3px; }
 .round.big.playing .ico { margin-left: 0; }
 .round.big:hover { color: #0a0816; filter: brightness(1.1); }
-.speed-pills, .loop-group { display: inline-flex; padding: 3px; gap: 2px; border-radius: 12px; background: rgba(146, 132, 255, .08); border: 1px solid var(--line); }
+.speed-pills, .loop-group { max-width: 100%; overflow-x: auto; scrollbar-width: none; display: inline-flex; padding: 3px; gap: 2px; border-radius: 12px; background: rgba(146, 132, 255, .08); border: 1px solid var(--line); }
 .seg {
   min-width: 40px; height: 34px; padding: 0 10px; display: inline-grid; place-items: center; border: 0; border-radius: 9px;
   background: transparent; color: var(--muted); font-weight: 700; font-size: 13px;
@@ -230,7 +231,7 @@ body.in-player .app-bar { display: none; }
 
 /* ---------- Pannello testo / accordi ---------- */
 .panel { display: flex; flex-direction: column; min-height: 0; max-height: calc(100vh - clamp(300px, 46vh, 500px) - 96px); overflow: hidden; }
-.panel-tabs { display: flex; align-items: center; gap: 4px; padding: 8px; border-bottom: 1px solid var(--line); }
+.panel-tabs { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; padding: 8px; border-bottom: 1px solid var(--line); min-width: 0; }
 .panel-tab {
   display: inline-flex; align-items: center; gap: 7px; height: 34px; padding: 0 14px; border-radius: 10px; border: 0;
   background: transparent; color: var(--muted); font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: .08em;
@@ -258,7 +259,11 @@ body.in-player .app-bar { display: none; }
 .k-row:hover { background: rgba(146, 132, 255, .06); }
 .k-row .k-loop { opacity: 0; transition: opacity .2s; }
 .k-row:hover .k-loop, .k-row.active .k-loop { opacity: 1; }
-.k-line { position: relative; padding-top: 24px; min-width: 0; }
+.k-line { position: relative; padding-top: 24px; min-width: min(100%, 320px); }
+.k-row.instrumental .k-line { width: 100%; }
+.k-line.flow { padding-top: 0; }
+.k-chords.flow { position: static; height: auto; display: flex; flex-wrap: wrap; gap: 4px 14px; margin-bottom: 2px; }
+.k-chords.flow .k-chord { position: static; }
 .k-chords { position: absolute; left: 0; right: 0; top: 0; height: 22px; }
 .k-chord {
   --c: #fff;
@@ -497,12 +502,12 @@ kbd { background: rgba(146, 132, 255, .12); border: 1px solid var(--line); borde
 .sync-status.warn { background: rgba(255, 138, 61, .12); color: #ffd2b3; }
 .sync-auto { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 4px; }
 .stage-lyric {
-  position: absolute; left: 50%; top: 30%; translate: -50% 0; width: min(90%, 760px); pointer-events: none;
-  text-align: center; padding: 8px 16px; border-radius: 14px; background: rgba(5, 4, 12, .55); backdrop-filter: blur(4px);
+  position: relative; min-height: 54px; padding: 8px 16px; text-align: center; pointer-events: none;
+  background: linear-gradient(180deg, #07060f, #0b0918); border-top: 1px solid var(--line);
 }
-.stage-lyric.in { animation: slin .35s ease-out; }
-@keyframes slin { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
-.sl-now { font-size: clamp(17px, 2.4vw, 26px); font-weight: 700; color: #fff; text-shadow: 0 0 14px rgba(34, 211, 238, .45); }
+.stage-lyric.in .sl-now { animation: slin .35s ease-out; }
+@keyframes slin { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+.sl-now { font-size: clamp(16px, 2.2vw, 24px); font-weight: 700; color: #fff; text-shadow: 0 0 14px rgba(34, 211, 238, .45); }
 .sl-next { font-size: clamp(12px, 1.5vw, 15px); color: rgba(238, 234, 255, .55); margin-top: 2px; }
 .tapnow {
   position: fixed; left: 50%; bottom: 14px; transform: translateX(-50%); z-index: 20; width: min(560px, calc(100% - 24px));
@@ -516,9 +521,19 @@ kbd { background: rgba(146, 132, 255, .12); border: 1px solid var(--line); borde
   border-radius: 999px; padding: 1px 10px; font-size: 12px; font-weight: 700; margin-left: 8px;
 }
 
+/* ---------- Libreria: ordinamento, conteggio, continua; guida ---------- */
+.search-count { font-size: 12px; font-weight: 700; color: var(--muted); white-space: nowrap; }
+.sort-wrap { display: inline-flex; align-items: center; gap: 8px; color: var(--muted); font-size: 13px; font-weight: 600; }
+.sort { height: 42px; border-radius: 12px; border: 1px solid var(--line); background: var(--card); color: var(--text); padding: 0 10px; }
+.continue-btn { border-color: rgba(34, 211, 238, .5); }
+.continue-btn b { color: var(--cyan); }
+.help-list { padding-left: 20px; margin: 0; display: grid; gap: 10px; line-height: 1.5; }
+.help-list b { color: var(--cyan); }
+.player-head [data-act="help"] { font-weight: 800; font-size: 18px; }
+
 /* ---------- Tablet e telefono ---------- */
 @media (max-width: 960px) {
-  .player-main { grid-template-columns: 1fr; }
+  .player-main { grid-template-columns: minmax(0, 1fr); }
   .panel { max-height: none; overflow: visible; }
   .panel-body { overflow: visible; padding-bottom: 24px; }
   .stage { position: sticky; top: 0; z-index: 5; }
@@ -531,7 +546,16 @@ kbd { background: rgba(146, 132, 255, .12); border: 1px solid var(--line); borde
   .player-main { padding: 10px; gap: 10px; }
   .hud { padding: 10px 12px; }
   .hud-center { display: none; }
-  .stage-lyric { top: 34%; padding: 6px 10px; }
+  .stage-lyric { padding: 6px 10px; min-height: 48px; }
+  .player-head { gap: 5px; padding: 8px; }
+  .player-head .icon-btn { width: 34px; height: 34px; border-radius: 10px; }
+  .player-head .edit-link { display: none; }
+  .panel-tab { padding: 0 9px; font-size: 12px; letter-spacing: .04em; }
+  .panel-tab .ico { display: none; }
+  .panel-source { display: none; }
+  .sync-badge { margin-left: 0; }
+  .panel, .panel-body, .k-line { min-width: 0; max-width: 100%; }
+  .player-title .title { font-size: 17px; }
   .transport-row { justify-content: center; }
   .play-group { order: -1; width: 100%; justify-content: center; }
   .k-text { font-size: 16px; }

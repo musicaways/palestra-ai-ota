@@ -251,7 +251,7 @@ export function suggestCapo(chordNames, custom) {
   let best = { capo: 0, score: Infinity };
   const scores = [];
   for (let c = 0; c <= 7; c++) {
-    const score = names.reduce((s, n) => s + shapeDifficulty(getShape(shapeNameWithCapo(n, c), c ? null : custom)), 0) + c * 0.7 * Math.max(1, names.length / 4); // un capotasto alto conviene solo se aiuta davvero
+    const score = names.reduce((s, n) => s + shapeDifficulty(getShape(shapeNameWithCapo(n, c), c ? null : custom)), 0) + c * 1.0 * Math.max(1, names.length / 4); // un capotasto alto conviene solo se aiuta davvero
     scores.push({ capo: c, score });
     if (score < best.score - 1e-9) best = { capo: c, score };
   }

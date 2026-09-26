@@ -1,0 +1,151 @@
+{
+ "title": "Bella storia",
+ "artist": "Fedez",
+ "album": "Disumano",
+ "year": 2020,
+ "genre": "Pop / Rap",
+ "difficulty": 2,
+ "youtubeId": "bDAWn_q90dM",
+ "key": "Sol maggiore (G) / Mi minore",
+ "bpm": 97.81,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.74,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 6430406,
+  "duration": 176,
+  "offset": 0
+ },
+ "notes": "Strofe su G – Am – D, ritornello Am – Bm – Em – D6.",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. L'app controlla da sola che testo e accordi siano coerenti; per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "G",
+    "Am",
+    "G",
+    "D",
+    "Am",
+    "G",
+    "Am",
+    "G",
+    "D",
+    "Am"
+   ],
+   "barsPerRow": 5
+  },
+  {
+   "name": "Pre-ritornello",
+   "bars": [
+    "G",
+    "D",
+    "Am",
+    "%"
+   ]
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Am",
+    "Bm",
+    "Em",
+    "D6",
+    "Am",
+    "Bm",
+    "Em",
+    "D6"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Am",
+    "Bm",
+    "Em",
+    "Dmaj7",
+    "D",
+    "Am",
+    "Bm",
+    "Em",
+    "Dmaj7",
+    "D"
+   ],
+   "barsPerRow": 5
+  },
+  {
+   "name": "Pre-ritornello",
+   "bars": [
+    "G",
+    "D",
+    "Am",
+    "%"
+   ]
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Am",
+    "Bm",
+    "Em",
+    "D6",
+    "Am",
+    "Bm",
+    "Em",
+    "D6"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ponte",
+   "bars": [
+    "Am",
+    "G",
+    "D",
+    "Am"
+   ]
+  },
+  {
+   "name": "Ritornello finale",
+   "bars": [
+    "Am",
+    "Bm",
+    "Em",
+    "D6",
+    "Am",
+    "Bm",
+    "Em",
+    "D6",
+    "Am",
+    "Bm",
+    "Em",
+    "D6"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Outro",
+   "bars": [
+    "Am7",
+    "Bm",
+    "Em",
+    "D6",
+    "Am",
+    "%",
+    "Am7",
+    "Bm",
+    "Em",
+    "D6",
+    "Am",
+    "%"
+   ],
+   "barsPerRow": 6
+  }
+ ]
+}

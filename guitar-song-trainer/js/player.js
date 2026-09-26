@@ -39,6 +39,7 @@ export async function openPlayer(root, song) {
   let lastBeatKey = '';
   let recorder = null;
   let destroyed = false;
+  let syncCheck = null; // esito del controllo di coerenza fra testo e accordi
   let lastDiagram = null;
   let ramp = false;
   let counting = null; // conteggio d'attacco in corso
@@ -57,8 +58,9 @@ export async function openPlayer(root, song) {
       <a class="icon-btn" href="#/" aria-label="Torna alla libreria">${icon('back')}</a>
       <div class="player-title"><div class="title"></div><div class="artist"></div></div>
       <button class="icon-btn fav" aria-label="Preferito"></button>
-      <a class="icon-btn" href="#/editor/${encodeURIComponent(song.id)}" aria-label="Modifica il brano" title="Modifica il brano">${icon('text')}</a>
+      <a class="icon-btn edit-link" href="#/editor/${encodeURIComponent(song.id)}" aria-label="Modifica il brano" title="Modifica il brano">${icon('text')}</a>
       <button class="icon-btn" data-act="focus" aria-label="Modalità concentrazione" title="Modalità concentrazione: nasconde video e controlli">${icon('focus')}</button>
+      <button class="icon-btn" data-act="help" aria-label="Guida rapida" title="Guida rapida">?</button>
       <button class="icon-btn" data-act="settings" aria-label="Impostazioni">${icon('settings')}</button>
     </header>
 
@@ -163,6 +165,7 @@ export async function openPlayer(root, song) {
         <label class="check"><input type="checkbox" name="autoScroll"> Scorrimento automatico del testo</label>
         <label class="check"><input type="checkbox" name="stageLyrics"> Riga del testo sul palco</label>
         <button type="button" class="chip-btn" data-act="input">${icon('guitar', 16)} Ingresso audio (microfono o cavo Rocksmith)</button>
+        <a class="chip-btn" href="#/editor/${encodeURIComponent(song.id)}">${icon('text', 16)} Modifica il brano</a>
         <p class="hint">Scorciatoie: spazio play/pausa · ← → ±5 s · [ ] punti A/B · L loop · T tap in registrazione</p>
         <menu><button value="ok" class="chip-btn primary">Chiudi</button></menu>
       </form>
@@ -228,6 +231,18 @@ export async function openPlayer(root, song) {
       <button type="button" class="chip-btn" data-act="input">${icon('guitar', 16)} Ingresso audio</button>
       <p class="hint">Accordatura standard: Mi La Re Sol Si Mi. Pizzica una corda e attendi che la lancetta si fermi al centro.</p>
       <menu><button value="ok" class="chip-btn primary">Chiudi</button></menu></form></dialog>
+
+    <dialog class="dlg dlg-help"><form method="dialog"><h3>Guida rapida</h3>
+      <ol class="help-list">
+        <li><b>Accorda</b> la chitarra con l'<b>Accordatore</b> (col microfono o col cavo Rocksmith).</li>
+        <li><b>Allinea</b> il brano al video: <b>Sincronia → Tocca quando inizia a cantare</b>. L'etichetta accanto al testo ti dice se testo e accordi sono coerenti.</li>
+        <li>Guarda le <b>cornici</b> che arrivano sulla corsia: quando toccano il manico, cambia accordo. Le frecce ↓↑ sono la pennata.</li>
+        <li>Troppo veloce? Abbassa la <b>velocità</b>, oppure metti in <b>loop</b> una sezione (⟲) e attiva la <b>velocità progressiva</b> (↗).</li>
+        <li>Accordi difficili? <b>Capotasto</b>: l'app ti suggerisce dove metterlo per avere forme più facili.</li>
+        <li>Attiva <b>Ascolto</b>: l'app sente cosa suoni e ti dice se l'accordo è giusto.</li>
+      </ol>
+      <p class="hint">Tastiera: spazio play/pausa · ← → ±5 s · [ ] punti A/B · L loop · T tocco (registrazione e allineamento)</p>
+      <menu><button value="ok" class="chip-btn primary">Ho capito</button></menu></form></dialog>
 
     <dialog class="dlg dlg-info"><form method="dialog"><h3></h3><div class="info-body"></div>
       <menu><button value="ok" class="chip-btn primary">Chiudi</button></menu></form></dialog>
@@ -684,6 +699,7 @@ export async function openPlayer(root, song) {
 
   // ---------- Pulsanti ----------
   root.querySelector('.player').classList.toggle('focus', !!settings.focus);
+  if (!store.get('helpSeen', false)) { store.set('helpSeen', true); setTimeout(() => !destroyed && $('.dlg-help').showModal(), 600); }
   const paintToggles = () => {
     $('[data-act="metro"]').classList.toggle('active', settings.metronome);
     $('[data-act="countin"]').classList.toggle('active', settings.countIn);
@@ -713,6 +729,7 @@ export async function openPlayer(root, song) {
       case 'listen': toggleListen(); break;
       case 'input': e.preventDefault(); openInput(); break;
       case 'capo': openCapo(); break;
+      case 'help': $('.dlg-help').showModal(); break;
       case 'focus':
         settings.focus = !settings.focus; saveSettings(settings);
         root.querySelector('.player').classList.toggle('focus', settings.focus);
@@ -776,8 +793,10 @@ export async function openPlayer(root, song) {
   }
 
   // ---------- Controllo e correzione della sincronia ----------
-  let syncCheck = null;
-  const lyricLines = () => (synced?.lines ?? []).filter((l) => l.text).map((l) => l.t + lyricsOffset);
+  // (syncCheck è dichiarato all'inizio: il testo può arrivare prima che il video sia pronto)
+  function lyricLines() {
+    return (synced?.lines ?? []).filter((l) => l.text).map((l) => l.t + lyricsOffset);
+  }
 
   function paintSyncBadge() {
     const badge = root.querySelector('.sync-badge');

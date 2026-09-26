@@ -1,0 +1,198 @@
+{
+ "title": "Scrivile scemo",
+ "artist": "Pinguini Tattici Nucleari",
+ "album": "Ahia!",
+ "year": 2020,
+ "genre": "Pop / Indie",
+ "difficulty": 2,
+ "youtubeId": "-FVvVMNuIXU",
+ "key": "La maggiore (A)",
+ "bpm": 134.9,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.5,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37314289,
+  "duration": 221,
+  "offset": 0
+ },
+ "notes": "A – Dadd9 – F#m7 – E nella strofa, D – A – E – F#m7 nel ritornello. Il ponte passa per Bm7 e C#m.",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. L'app controlla da sola che testo e accordi siano coerenti; per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "A",
+    "%",
+    "E",
+    "%"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "A",
+    "%",
+    "Dadd9",
+    "%",
+    "F#m7",
+    "%",
+    "E",
+    "%",
+    "A",
+    "%",
+    "Dadd9",
+    "%",
+    "F#m7",
+    "%",
+    "E",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "F#m7",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "F#m7",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "A",
+    "%",
+    "Dadd9",
+    "%",
+    "F#m7",
+    "%",
+    "E",
+    "%",
+    "A",
+    "%",
+    "Dadd9",
+    "%",
+    "F#m7",
+    "%",
+    "E",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "F#m7",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "F#m7",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Ponte",
+   "bars": [
+    "Bm7",
+    "%",
+    "E",
+    "%",
+    "A/C#",
+    "%",
+    "F#m",
+    "%",
+    "Bm7",
+    "%",
+    "E",
+    "%",
+    "C#m",
+    "%",
+    "F#m7",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Ritornello finale",
+   "bars": [
+    "D",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "F#m7",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "F#m7",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "F#m7",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "F#m7",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Outro",
+   "bars": [
+    "D",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "F#m",
+    "%"
+   ]
+  }
+ ]
+}

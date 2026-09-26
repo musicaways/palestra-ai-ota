@@ -20,20 +20,25 @@ export function lyricGridCheck(lineTimes, tl) {
     pts.push({ phase: beat / tl.bpb, len });
   }
   if (pts.length < 6) return { coherence: 0, shift: 0, status: 'unknown', lines: pts.length };
-  let c = 0;
-  let s = 0;
-  for (const p of pts) {
-    c += Math.cos(2 * Math.PI * p.phase);
-    s += Math.sin(2 * Math.PI * p.phase);
-  }
-  const coherence = Math.hypot(c, s) / pts.length;
-  // fase media in [-0.5, 0.5) battute → secondi (battuta media)
-  let mean = Math.atan2(s, c) / (2 * Math.PI);
   const barLen = pts.reduce((a, p) => a + p.len, 0) / pts.length;
-  // le righe partono spesso con un'anacrusi fino a ~1/4 di battuta prima del battere: tolleriamo
-  const shift = mean * barLen;
-  const ok = coherence >= 0.35 && Math.abs(mean) <= 0.2;
-  return { coherence, shift, status: ok ? 'ok' : 'check', lines: pts.length };
+  // Le righe partono sul battere oppure a metà battuta (rap, pop moderno): si valutano entrambe
+  // le suddivisioni e si tiene la più coerente (a parità, la battuta intera).
+  const stat = (k) => {
+    let c = 0;
+    let s2 = 0;
+    for (const p of pts) {
+      c += Math.cos(2 * Math.PI * p.phase * k);
+      s2 += Math.sin(2 * Math.PI * p.phase * k);
+    }
+    const mean = Math.atan2(s2, c) / (2 * Math.PI); // in [-0.5, 0.5) della suddivisione
+    return { k, coherence: Math.hypot(c, s2) / pts.length, shift: (mean / k) * barLen, mean };
+  };
+  const whole = stat(1);
+  const half = stat(2);
+  const best = half.coherence > whole.coherence * 1.25 ? half : whole;
+  // tolleriamo un'anacrusi o un ritardo fino a 1/5 della suddivisione
+  const ok = best.coherence >= 0.3 && Math.abs(best.mean) <= 0.2;
+  return { coherence: best.coherence, shift: best.shift, status: ok ? 'ok' : 'check', lines: pts.length, subdivision: best.k };
 }
 
 /**

@@ -1,0 +1,146 @@
+{
+ "title": "Cigno nero",
+ "artist": "Fedez, Francesca Michielin",
+ "album": "Sig. Brainwash - L'arte di accontentare",
+ "year": 2013,
+ "genre": "Pop / Rap",
+ "difficulty": 3,
+ "youtubeId": "a6h45y3Cp0k",
+ "key": "Fa diesis minore (F#m)",
+ "bpm": 90.45,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.04,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 11538705,
+  "duration": 202,
+  "offset": 0
+ },
+ "notes": "Adattamento per chitarra del brano rap: un giro di tre accordi F#m – C#m7 – Dmaj7. Col capotasto al 2° diventa Em – Bm7 – Cmaj7.",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. L'app controlla da sola che testo e accordi siano coerenti; per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F#m",
+    "C#m7",
+    "Dmaj7",
+    "%",
+    "F#m",
+    "C#m7",
+    "Dmaj7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1 (Fedez)",
+   "bars": [
+    "F#m",
+    "C#m7",
+    "Dmaj7",
+    "%",
+    "F#m",
+    "C#m7",
+    "Dmaj7",
+    "%",
+    "F#m",
+    "C#m7",
+    "Dmaj7",
+    "%",
+    "F#m",
+    "C#m7",
+    "Dmaj7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "F#m",
+    "C#m7",
+    "Dmaj7",
+    "%",
+    "F#m",
+    "C#m7",
+    "Dmaj7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2 (Fedez)",
+   "bars": [
+    "F#m",
+    "C#m7",
+    "Dmaj7",
+    "%",
+    "F#m",
+    "C#m7",
+    "Dmaj7",
+    "%",
+    "F#m",
+    "C#m7",
+    "Dmaj7",
+    "%",
+    "F#m",
+    "C#m7",
+    "Dmaj7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "F#m",
+    "C#m7",
+    "Dmaj7",
+    "%",
+    "F#m",
+    "C#m7",
+    "Dmaj7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "F#m",
+    "C#m7",
+    "Dmaj7",
+    "%",
+    "F#m",
+    "C#m7",
+    "Dmaj7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello finale",
+   "bars": [
+    "F#m7",
+    "C#m7",
+    "Dmaj7",
+    "%",
+    "F#m7",
+    "C#m7",
+    "Dmaj7",
+    "%",
+    "F#m7",
+    "C#m7",
+    "Dmaj7",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ]
+}

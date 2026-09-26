@@ -1,5 +1,15 @@
 # Novità
 
+## 1.5.0 — 2026-09-26
+- Sincronia garantita: controllo automatico di coerenza fra testo e accordi con indicatore, correzione
+  automatica, allineamento al video con un tocco o ascoltando il video dal microfono, regolatore "Tutto".
+- Testo: ricerca di riserva su LRCLIB se l'id non risponde; tutti i 33 brani verificati.
+- 16 nuovi brani (Blanco, Pinguini Tattici Nucleari, Olly, Cremonini, Rino Gaetano, Fedez, Salmo),
+  i brani rap adattati a giri d'accordi per chitarra.
+- Riga del testo sotto il manico, "Riprendi da…", guida rapida, "Continua" e ordinamento in libreria, tasto /.
+- Corretti: errore se il testo arrivava prima del video; pagina più larga dello schermo su telefono.
+- Strumenti: tools/checklyrics.py, tools/checksync.mjs. Test: sincronia, ricerca di riserva, e2e esteso.
+
 ## 1.4.0 — 2026-09-26
 - Ingresso audio: cavo USB Rocksmith (Real Tone Cable) riconosciuto da solo, scelta del dispositivo,
   guadagno, indicatore di livello, ascolto della chitarra in cuffia. Usato da accordatore e modalità ascolto.

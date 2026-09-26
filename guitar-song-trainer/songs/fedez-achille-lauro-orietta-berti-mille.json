@@ -1,0 +1,135 @@
+{
+ "title": "Mille",
+ "artist": "Fedez, Achille Lauro, Orietta Berti",
+ "album": "Mille",
+ "year": 2021,
+ "genre": "Pop",
+ "difficulty": 1,
+ "youtubeId": "l6N-Yq9Fw4U",
+ "key": "Re maggiore (D)",
+ "bpm": 91.34,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.69,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 5404300,
+  "duration": 176,
+  "offset": 0
+ },
+ "notes": "Tormentone estivo tutto su accordi aperti: D – Bm – Em – A (F#m nel ritornello).",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. L'app controlla da sola che testo e accordi siano coerenti; per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "D",
+    "Bm",
+    "Em",
+    "A",
+    "D",
+    "Bm",
+    "Em",
+    "A",
+    "D",
+    "Bm",
+    "Em",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    "Bm",
+    "Em",
+    "A",
+    "D",
+    "Bm",
+    "F#m",
+    "A",
+    "D",
+    "Bm",
+    "Em",
+    "A",
+    "D",
+    "Bm",
+    "F#m",
+    "A"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "D",
+    "Bm",
+    "Em",
+    "A",
+    "D",
+    "Bm",
+    "Em",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    "Bm",
+    "Em",
+    "A",
+    "D",
+    "Bm",
+    "F#m",
+    "A",
+    "D",
+    "Bm",
+    "Em",
+    "A",
+    "D",
+    "Bm",
+    "F#m",
+    "A"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "D",
+    "Bm",
+    "Em",
+    "A"
+   ]
+  },
+  {
+   "name": "Ritornello finale",
+   "bars": [
+    "D",
+    "Bm",
+    "F#m7",
+    "A",
+    "D",
+    "Bm",
+    "F#m7",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Outro",
+   "bars": [
+    "D",
+    "Bm",
+    "Em7"
+   ]
+  }
+ ]
+}

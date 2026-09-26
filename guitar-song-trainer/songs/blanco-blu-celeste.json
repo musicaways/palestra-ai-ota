@@ -1,0 +1,173 @@
+{
+ "title": "Blu celeste",
+ "artist": "Blanco",
+ "album": "Blu celeste",
+ "year": 2021,
+ "genre": "Pop",
+ "difficulty": 3,
+ "youtubeId": "EA58w_cxAAg",
+ "key": "Fa diesis minore (F#m) / La maggiore",
+ "bpm": 112.92,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.28,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 21361371,
+  "duration": 207,
+  "offset": 0
+ },
+ "notes": "Ballata su un unico giro: F#m7 – A/E – Dmaj7 – C#m7, un accordo per battuta. Col capotasto al 2° diventa Em7 – G/D – Cmaj7 – Bm7.",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. L'app controlla da sola che testo e accordi siano coerenti; per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F#m7",
+    "A",
+    "Dmaj7",
+    "C#m7"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7",
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7",
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7",
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7",
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7",
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7",
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7",
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7",
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7",
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7",
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ponte",
+   "bars": [
+    "F#m7",
+    "A",
+    "Dmaj7",
+    "C#m7",
+    "F#m7",
+    "A",
+    "Dmaj7",
+    "C#m7",
+    "F#m7",
+    "A",
+    "Dmaj7",
+    "C#m7",
+    "F#m7",
+    "A",
+    "Dmaj7",
+    "C#m7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello finale",
+   "bars": [
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7",
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7",
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7",
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Outro",
+   "bars": [
+    "Dmaj7",
+    "C#m7",
+    "Dmaj7",
+    "C#m7",
+    "Dmaj7",
+    "C#m7"
+   ],
+   "barsPerRow": 2
+  }
+ ]
+}
