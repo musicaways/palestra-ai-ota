@@ -7,6 +7,8 @@ import { Karaoke } from './karaoke.js';
 import { loadSyncedLyrics, looksLikeLrc, clearLyricsCache } from './lyrics.js';
 import { displayChord, chordColor } from './music.js';
 import { icon } from './icons.js';
+import { chordDiagram } from './diagram.js';
+import { Tuner } from './tuner.js';
 import { store, loadSettings, saveSettings, getFavorites, toggleFavorite } from './store.js';
 
 const fmt = (t) => {
@@ -32,6 +34,10 @@ export async function openPlayer(root, song) {
   let lastBeatKey = '';
   let recorder = null;
   let destroyed = false;
+  let lastDiagram = null;
+  let ramp = false;
+  let counting = null; // conteggio d'attacco in corso
+  let tuner = null;
 
   root.innerHTML = `
   <div class="player">
@@ -44,6 +50,8 @@ export async function openPlayer(root, song) {
 
     <section class="stage">
       <canvas class="fretboard" aria-label="Manico della chitarra"></canvas>
+      <div class="count-overlay" hidden></div>
+      <div class="toast" hidden></div>
       <div class="hud">
         <div class="hud-block now">
           <div class="hud-label section-name">Intro</div>
@@ -82,11 +90,14 @@ export async function openPlayer(root, song) {
               <button class="seg" data-act="loopA" title="Inizio loop qui ([)">A</button>
               <button class="seg" data-act="loopB" title="Fine loop qui (])">B</button>
               <button class="seg" data-act="loopToggle" title="Loop on/off (L)">${icon('loop', 16)}</button>
+              <button class="seg" data-act="ramp" title="Velocità progressiva: a ogni ripetizione del loop accelera fino al 100%">${icon('ramp', 16)}</button>
               <button class="seg" data-act="loopClear" title="Cancella loop">${icon('close', 16)}</button>
             </div>
           </div>
           <div class="tools-row">
             <button class="chip-btn" data-act="metro" title="Click del metronomo">${icon('metronome', 16)} Click</button>
+            <button class="chip-btn" data-act="countin" title="Una battuta di conteggio prima di partire">${icon('count', 16)} Conteggio</button>
+            <button class="chip-btn" data-act="tuner" title="Accorda la chitarra col microfono">${icon('tuner', 16)} Accordatore</button>
             <button class="chip-btn" data-act="sync" title="Allinea accordi e testo al video">${icon('sliders', 16)} Sincronia</button>
             <button class="chip-btn" data-act="record" title="Registra i cambi accordo toccando a tempo">${icon('target', 16)} Registra tempi</button>
             <button class="chip-btn" data-act="info" title="Informazioni sul brano">${icon('info', 16)} Info</button>
@@ -97,10 +108,12 @@ export async function openPlayer(root, song) {
         <div class="panel-tabs" role="tablist">
           <button class="panel-tab" data-tab="lyrics">${icon('mic', 16)} Testo</button>
           <button class="panel-tab" data-tab="chords">${icon('grid', 16)} Accordi</button>
+          <button class="panel-tab" data-tab="shapes">${icon('hand', 16)} Diteggiature</button>
           <span class="panel-source"></span>
         </div>
         <div class="panel-body lyrics-body"></div>
         <div class="panel-body chords-body"></div>
+        <div class="panel-body shapes-body"></div>
       </aside>
     </div>
 
@@ -164,6 +177,10 @@ export async function openPlayer(root, song) {
       </form>
     </dialog>
 
+    <dialog class="dlg dlg-tuner"><form method="dialog"><h3>Accordatore</h3><div class="tuner"></div>
+      <p class="hint">Accordatura standard: Mi La Re Sol Si Mi. Pizzica una corda e attendi che la lancetta si fermi al centro.</p>
+      <menu><button value="ok" class="chip-btn primary">Chiudi</button></menu></form></dialog>
+
     <dialog class="dlg dlg-info"><form method="dialog"><h3></h3><div class="info-body"></div>
       <menu><button value="ok" class="chip-btn primary">Chiudi</button></menu></form></dialog>
   </div>`;
@@ -187,6 +204,9 @@ export async function openPlayer(root, song) {
   const lyricsBody = $('.lyrics-body');
   const chordsBody = $('.chords-body');
   const panelSource = $('.panel-source');
+  const shapesBody = $('.shapes-body');
+  const countEl = $('.count-overlay');
+  const toastEl = $('.toast');
 
   $('.player-title .title').textContent = song.title;
   $('.player-title .artist').textContent = song.artist;
@@ -208,6 +228,11 @@ export async function openPlayer(root, song) {
     root.querySelectorAll('.panel-tab').forEach((b) => b.classList.toggle('active', b.dataset.tab === panelTab));
     lyricsBody.hidden = panelTab !== 'lyrics';
     chordsBody.hidden = panelTab !== 'chords';
+    shapesBody.hidden = panelTab !== 'shapes';
+    const names = [...new Set(tl.events.map((e) => e.name))];
+    shapesBody.innerHTML = `<p class="hint">Gli accordi del brano, nell'ordine in cui compaiono. Quello che stai suonando si illumina.</p>
+      <div class="diagram-grid">${names.map((n) => chordDiagram(n, settings, song.shapes)).join('')}</div>`;
+    lastDiagram = null;
     if (synced?.lines.length) {
       karaoke.render(synced.lines, tl, settings, lyricsOffset);
       panelSource.textContent = synced.source === 'LRCLIB' ? 'testo: LRCLIB' : 'testo: tuo';
@@ -224,6 +249,7 @@ export async function openPlayer(root, song) {
     renderPanel();
     karaoke.cur = -2;
     sheet.curBar = -2;
+    lastIdx = -2;
   }));
 
   function rebuild() {
@@ -422,8 +448,95 @@ export async function openPlayer(root, song) {
   });
   $('.rec-tap').addEventListener('pointerdown', (e) => { e.preventDefault(); tap(); });
 
+  // ---------- Avvisi, conteggio d'attacco, velocità progressiva ----------
+  let toastTimer = 0;
+  function toast(text) {
+    toastEl.textContent = text;
+    toastEl.hidden = false;
+    toastEl.classList.remove('show');
+    void toastEl.offsetWidth;
+    toastEl.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => { toastEl.hidden = true; }, 1600);
+  }
+
+  function togglePlay() {
+    audio?.resume();
+    if (counting) { cancelCountIn(); return; }
+    if (clock.playing || !settings.countIn) { clock.toggle(); return; }
+    // una battuta di click prima di partire, al tempo (rallentato) del brano
+    const beat = tl.beatDur / clock.getRate();
+    let n = 0;
+    const tick = () => {
+      if (n >= tl.bpb) { cancelCountIn(); clock.play(); return; }
+      countEl.hidden = false;
+      countEl.textContent = String(n + 1);
+      countEl.classList.remove('pop');
+      void countEl.offsetWidth;
+      countEl.classList.add('pop');
+      click(n === 0);
+      n++;
+      counting = setTimeout(tick, beat * 1000);
+    };
+    counting = setTimeout(tick, 0);
+  }
+
+  function cancelCountIn() {
+    clearTimeout(counting);
+    counting = null;
+    countEl.hidden = true;
+  }
+
+  function sortedRates() {
+    return [...new Set(clock.rates())].filter((r) => r >= 0.5 && r <= 1).sort((a, b) => a - b);
+  }
+
+  function onLoopWrap() {
+    if (!ramp) return;
+    const cur = clock.getRate();
+    const next = sortedRates().find((r) => r > cur + 0.001);
+    if (next) {
+      clock.setRate(next);
+      setTimeout(paintSpeed, 150);
+      toast(`Velocità ${Math.round(next * 100)}%`);
+    } else toast('Velocità piena: ottimo lavoro!');
+  }
+
+  function toggleRamp() {
+    ramp = !ramp;
+    $('[data-act="ramp"]').classList.toggle('active', ramp);
+    if (!ramp) return;
+    if (loop.a == null || loop.b == null) {
+      const sec = tl.sections[Math.max(0, sectionIndexAt(clock.getTime()))];
+      setLoop(sec.start, sec.end, sec.name);
+    }
+    const first = sortedRates()[0];
+    clock.setRate(first);
+    setTimeout(paintSpeed, 150);
+    seek(loop.a);
+    toast(`Velocità progressiva: si parte dal ${Math.round(first * 100)}%`);
+  }
+
+  function sectionIndexAt(t) {
+    let i = -1;
+    tl.sections.forEach((s, k) => { if (s.start <= t) i = k; });
+    return i;
+  }
+
+  function openTuner() {
+    const dlg = $('.dlg-tuner');
+    clock.pause();
+    tuner = new Tuner(dlg.querySelector('.tuner'), settings);
+    dlg.onclose = () => { tuner?.stop(); tuner = null; };
+    dlg.showModal();
+    tuner.start();
+  }
+
   // ---------- Pulsanti ----------
-  const paintToggles = () => $('[data-act="metro"]').classList.toggle('active', settings.metronome);
+  const paintToggles = () => {
+    $('[data-act="metro"]').classList.toggle('active', settings.metronome);
+    $('[data-act="countin"]').classList.toggle('active', settings.countIn);
+  };
   paintToggles();
 
   $('.player').addEventListener('click', (e) => {
@@ -431,7 +544,7 @@ export async function openPlayer(root, song) {
     if (!act) return;
     const t = clock.getTime();
     switch (act) {
-      case 'play': audio?.resume(); clock.toggle(); break;
+      case 'play': togglePlay(); break;
       case 'back': seek(t - 5); break;
       case 'fwd': seek(t + 5); break;
       case 'loopA': loop.a = t; if (loop.b != null && loop.b <= t) loop.b = null; loop.label = ''; paintLoop(); break;
@@ -439,7 +552,13 @@ export async function openPlayer(root, song) {
         if (loop.a == null || t <= loop.a) break;
         loop.b = t; loop.on = true; loop.label = ''; paintLoop(); seek(loop.a); break;
       case 'loopToggle': if (loop.a != null && loop.b != null) { loop.on = !loop.on; paintLoop(); } break;
-      case 'loopClear': loop = { on: false, a: null, b: null, label: '' }; paintLoop(); break;
+      case 'loopClear':
+        loop = { on: false, a: null, b: null, label: '' }; paintLoop();
+        if (ramp) toggleRamp();
+        break;
+      case 'ramp': toggleRamp(); break;
+      case 'countin': settings.countIn = !settings.countIn; saveSettings(settings); paintToggles(); break;
+      case 'tuner': openTuner(); break;
       case 'metro': settings.metronome = !settings.metronome; saveSettings(settings); paintToggles(); break;
       case 'sync': openSync(); break;
       case 'record': startRecorder(); break;
@@ -545,7 +664,7 @@ export async function openPlayer(root, song) {
     if (e.target.closest('input, textarea, select') || root.querySelector('dialog[open]')) return;
     const t = clock.getTime();
     switch (e.key) {
-      case ' ': e.preventDefault(); clock.toggle(); break;
+      case ' ': e.preventDefault(); togglePlay(); break;
       case 'ArrowLeft': seek(t - 5); break;
       case 'ArrowRight': seek(t + 5); break;
       case '[': $('[data-act="loopA"]').click(); break;
@@ -565,7 +684,10 @@ export async function openPlayer(root, song) {
     const t = clock.getTime();
     const dur = totalDuration();
 
-    if (loop.on && loop.a != null && loop.b != null && t >= loop.b && performance.now() - lastSeekAt > 300) seek(loop.a);
+    if (loop.on && loop.a != null && loop.b != null && t >= loop.b && performance.now() - lastSeekAt > 300) {
+      seek(loop.a);
+      onLoopWrap();
+    }
 
     const idx = eventIndexAt(tl, t);
     const { bar, beat } = beatAt(tl, t);
@@ -582,9 +704,16 @@ export async function openPlayer(root, song) {
       hudNext.textContent = nxt ? displayChord(nxt.name, settings.notation) : 'Fine';
       hudNext.style.setProperty('--c', nxt ? chordColor(nxt.name) : '#fff');
       sectionName.textContent = cur ? tl.sections[cur.section].name : tl.sections[0]?.name ?? '';
+
       hudNow.classList.remove('bump');
       void hudNow.offsetWidth;
       hudNow.classList.add('bump');
+    }
+    // diagramma dell'accordo corrente (si ricalcola anche se il pannello è stato ridisegnato)
+    if (panelTab === 'shapes' && (lastDiagram?.dataset.chord !== cur?.name || !lastDiagram?.isConnected)) {
+      lastDiagram?.classList.remove('active');
+      lastDiagram = cur ? shapesBody.querySelector(`[data-chord="${CSS.escape(cur.name)}"]`) : null;
+      lastDiagram?.classList.add('active');
     }
     if (nxt) {
       const bd = bar >= 0 && tl.bars[bar] ? (tl.bars[bar].end - tl.bars[bar].start) / tl.bpb : tl.beatDur;
@@ -622,6 +751,8 @@ export async function openPlayer(root, song) {
   return function destroy() {
     destroyed = true;
     cancelAnimationFrame(raf);
+    cancelCountIn();
+    tuner?.stop();
     window.removeEventListener('keydown', onKey);
     fretboard.destroy();
     clock?.destroy();

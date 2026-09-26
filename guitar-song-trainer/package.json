@@ -1,0 +1,10 @@
+{
+  "name": "guitar-song-trainer",
+  "private": true,
+  "type": "module",
+  "description": "Web app per imparare canzoni alla chitarra in stile Rocksmith",
+  "scripts": {
+    "start": "npx http-server -c-1 -p 8080 .",
+    "test": "node --test tests/*.test.mjs"
+  }
+}

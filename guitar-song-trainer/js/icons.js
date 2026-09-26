@@ -18,6 +18,10 @@ const P = {
   info: '<circle cx="12" cy="12" r="9"/><path d="M12 16v-5M12 8h.01"/>',
   guitar: '<path d="M19 3l2 2-5.5 5.5"/><path d="M14.5 9.5a4 4 0 0 0-5.3.4 3 3 0 0 1-2.5 1A4.3 4.3 0 0 0 3 15.2 5.8 5.8 0 0 0 8.8 21a4.3 4.3 0 0 0 4.3-3.7 3 3 0 0 1 1-2.5 4 4 0 0 0 .4-5.3z"/><circle cx="10" cy="14" r="1.5"/>',
   mic: '<rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10a7 7 0 0 0 14 0M12 17v5"/>',
+  tuner: '<path d="M4 18a8 8 0 1 1 16 0"/><path d="M12 18l4-6"/><circle cx="12" cy="18" r="1.5" fill="currentColor"/>',
+  ramp: '<path d="M3 20l6-6 4 3 8-9"/><path d="M15 8h6v6"/>',
+  count: '<circle cx="12" cy="13" r="8"/><path d="M12 9v4l2 2M9 2h6"/>',
+  hand: '<path d="M8 13V5.5a1.5 1.5 0 0 1 3 0V12M11 11.5v-7a1.5 1.5 0 0 1 3 0V12M14 10.5a1.5 1.5 0 0 1 3 0V12M17 11.5a1.5 1.5 0 0 1 3 0V16a6 6 0 0 1-6 6h-2a6 6 0 0 1-5-2.7L4.3 15a1.5 1.5 0 0 1 2.5-1.7L8 15"/>',
   grid: '<rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/>',
 };
 

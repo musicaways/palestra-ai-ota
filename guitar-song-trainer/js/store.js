@@ -33,6 +33,7 @@ const DEFAULT_SETTINGS = {
   showNoteNames: false,
   metronome: false,
   autoScroll: true,
+  countIn: false, // una battuta di conteggio prima di partire
 };
 
 export function loadSettings() {

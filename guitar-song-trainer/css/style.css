@@ -335,6 +335,63 @@ kbd { background: rgba(146, 132, 255, .12); border: 1px solid var(--line); borde
 .stepper output { min-width: 76px; text-align: center; font-variant-numeric: tabular-nums; font-weight: 700; color: var(--cyan); }
 .sync-actions { display: flex; flex-wrap: wrap; gap: 8px; }
 
+
+/* ---------- Conteggio, avvisi ---------- */
+.count-overlay {
+  position: absolute; left: 50%; top: 42%; translate: -50% -50%; pointer-events: none;
+  font-family: var(--display); font-weight: 700; font-size: clamp(90px, 16vw, 180px); line-height: 1;
+  color: #fff; text-shadow: 0 0 30px var(--pink), 0 0 70px var(--violet);
+}
+.count-overlay.pop { animation: pop .45s ease-out; }
+@keyframes pop { from { transform: scale(1.6); opacity: 0; } 30% { opacity: 1; } to { transform: scale(1); opacity: .9; } }
+.toast {
+  position: absolute; left: 50%; bottom: 46%; translate: -50% 0; pointer-events: none; white-space: nowrap;
+  padding: 8px 18px; border-radius: 999px; background: rgba(7, 6, 15, .85); border: 1px solid var(--cyan);
+  color: var(--cyan); font-weight: 700; box-shadow: 0 0 24px rgba(34, 211, 238, .35);
+}
+.toast.show { animation: toast 1.6s ease forwards; }
+@keyframes toast { 0% { opacity: 0; transform: translateY(10px); } 12%, 80% { opacity: 1; transform: none; } 100% { opacity: 0; } }
+
+/* ---------- Diteggiature ---------- */
+.diagram-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(128px, 1fr)); gap: 10px; }
+.diagram {
+  margin: 0; padding: 10px 4px 6px; display: flex; flex-direction: column; align-items: center; border-radius: 14px;
+  border: 1px solid var(--line); background: rgba(7, 6, 15, .35); transition: border-color .2s, box-shadow .2s, transform .2s;
+}
+.diagram.active { border-color: var(--cyan); box-shadow: 0 0 22px rgba(34, 211, 238, .35); transform: translateY(-2px); }
+.diagram figcaption { font-family: var(--display); font-weight: 700; font-size: 22px; line-height: 1; }
+.diagram svg { max-width: 100%; height: auto; }
+.dg-fret { stroke: rgba(238, 234, 255, .35); stroke-width: 1.5; }
+.dg-base { fill: var(--muted); font: 700 12px var(--display); }
+.dg-mark { fill: var(--muted); font: 700 14px sans-serif; }
+.dg-finger { fill: #0b0914; font: 800 11px var(--display); }
+.diagram-missing { padding: 30px 8px; color: var(--muted); font-size: 12px; text-align: center; }
+
+/* ---------- Accordatore ---------- */
+.tuner { display: flex; flex-direction: column; align-items: center; gap: 14px; padding: 8px 0; }
+.tuner-strings { display: flex; gap: 8px; }
+.tuner-strings span {
+  width: 38px; height: 38px; display: grid; place-items: center; border-radius: 50%; font-family: var(--display); font-weight: 700;
+  border: 2px solid color-mix(in srgb, var(--c) 45%, transparent); color: var(--c);
+}
+.tuner-strings span.on { background: var(--c); color: #0b0914; box-shadow: 0 0 16px var(--c); }
+.tuner-note { font-family: var(--display); font-weight: 700; font-size: 72px; line-height: 1; transition: color .2s, text-shadow .2s; }
+.tuner-note.ok { color: #3ddc84; text-shadow: 0 0 24px #3ddc84; }
+.tuner-meter { position: relative; width: min(320px, 100%); height: 64px; }
+.tuner-scale {
+  position: absolute; left: 0; right: 0; top: 14px; height: 18px; border-radius: 9px; display: flex; justify-content: space-between; align-items: center; padding: 0 2px;
+  background: linear-gradient(90deg, rgba(255, 79, 216, .5), rgba(124, 92, 255, .25) 42%, rgba(61, 220, 132, .6) 47%, rgba(61, 220, 132, .6) 53%, rgba(124, 92, 255, .25) 58%, rgba(255, 79, 216, .5));
+}
+.tuner-scale i { width: 2px; height: 8px; background: rgba(238, 234, 255, .4); }
+.tuner-scale i.mid { height: 18px; background: #3ddc84; }
+.tuner-needle {
+  position: absolute; left: 50%; top: 6px; width: 4px; height: 34px; margin-left: -2px; border-radius: 2px;
+  background: #fff; box-shadow: 0 0 10px #fff; transition: left .12s linear;
+}
+.tuner-needle.ok { background: #3ddc84; box-shadow: 0 0 14px #3ddc84; }
+.tuner-labels { position: absolute; left: 0; right: 0; bottom: 0; display: flex; justify-content: space-between; font-size: 11px; color: var(--muted); }
+.tuner-info { color: var(--muted); font-size: 13px; text-align: center; min-height: 20px; }
+
 /* ---------- Tablet e telefono ---------- */
 @media (max-width: 960px) {
   .player-main { grid-template-columns: 1fr; }

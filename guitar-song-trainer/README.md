@@ -21,6 +21,11 @@ Funziona nel browser di **PC, tablet e telefono Android** e si può installare c
   nel punto in cui cambiano. Il testo viene scaricato al momento da [LRCLIB](https://lrclib.net)
   (archivio pubblico di testi sincronizzati) e **non è incluso nel repository**.
 - **Scheda Accordi**: griglia delle battute (`%` = l'accordo prosegue), un tocco per saltare lì.
+- **Scheda Diteggiature**: i diagrammi di tutti gli accordi del brano; quello che stai suonando si illumina.
+- **Velocità progressiva** (stile Riff Repeater): attiva il loop su una sezione e a ogni ripetizione la
+  velocità sale (50% → 60% → … → 100%).
+- **Conteggio d'attacco**: una battuta di click prima di partire.
+- **Accordatore** cromatico col microfono (serve la pagina in https e il permesso del microfono).
 - **Libreria** con ricerca e schede *Tutti / Preferiti / Artisti / Generi / Difficoltà*.
 - **Sincronia**: correzione fine ±0,05 s e modalità **🎯 Registra tempi** (tocchi TAP a ogni cambio
   accordo mentre il video suona: i tempi vengono salvati e si possono esportare in JSON).
@@ -41,7 +46,19 @@ npx http-server -c-1 .     # oppure: python3 -m http.server
 # poi apri http://localhost:8080
 ```
 
-## Pubblicazione (GitHub Pages)
+## Test
+
+```bash
+npm test                              # test unitari: accordi, timeline, testo LRC, accordatore
+npm start &                           # server locale su :8080
+node tests/e2e.mjs http://localhost:8080   # test nel browser (serve Playwright)
+```
+
+## Pubblicazione
+
+**Vercel**: progetto statico senza build (`vercel.json` imposta solo le intestazioni di cache).
+
+**GitHub Pages**
 
 Il workflow `.github/workflows/pages.yml` pubblica la cartella a ogni push su `main`.
 Una volta sola: *Settings → Pages → Source: GitHub Actions*. L'app sarà su
@@ -107,6 +124,9 @@ js/fretboard.js       canvas: corsia 3D + manico animato
 js/karaoke.js         testo karaoke sincronizzato con gli accordi
 js/lyrics.js          download da LRCLIB e parsing LRC
 js/sheet.js           griglia degli accordi
+js/diagram.js         diagrammi SVG degli accordi
+js/tuner.js           accordatore (microfono, autocorrelazione)
+tests/                test unitari (node --test) ed end-to-end (Playwright)
 js/icons.js           icone SVG
 js/timeline.js        da sezioni/battute a tempi assoluti
 js/music.js           note, parsing accordi, diteggiature
