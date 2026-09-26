@@ -7,7 +7,7 @@ import { Karaoke } from './karaoke.js';
 import { loadSyncedLyrics, looksLikeLrc, clearLyricsCache } from './lyrics.js';
 import { displayChord, chordColor, shapeNameWithCapo, suggestCapo, transposeChord, suggestTranspose } from './music.js';
 import { ARRANGEMENTS, arrangeName, buildArpeggio, shapeForArrangement } from './arrangement.js';
-import { click, WakeLock } from './audio.js';
+import { click, WakeLock, strumChord, pluck } from './audio.js';
 import { addPractice, recordRate, recordAccuracy, getStats } from './stats.js';
 import { Listener, matchChord } from './detect.js';
 import { mountInputPanel } from './input.js';
@@ -18,6 +18,7 @@ import { Tuner } from './tuner.js';
 import { GuitarInput } from './input.js';
 import { TONE_PRESETS, KNOBS, presetById, suggestTone, toneParams } from './amp.js';
 import { CameraRecorder, saveRecording, shareOrDownload } from './camera.js';
+import { getSetlists, createSetlist, toggleInSetlist, setlistById, nextInSetlist, songHref } from './setlists.js';
 import { store, loadSettings, saveSettings, getFavorites, toggleFavorite } from './store.js';
 
 const fmt = (t) => {
@@ -26,7 +27,7 @@ const fmt = (t) => {
 };
 const signed = (x) => `${x >= 0 ? '+' : '−'}${Math.abs(x).toFixed(2)} s`;
 
-export async function openPlayer(root, song) {
+export async function openPlayer(root, song, { setlist: setlistId = null, songInfo = () => null } = {}) {
   const settings = loadSettings();
   const key = (k) => `${k}:${song.id}`;
   let offset = store.get(key('offset'), 0);
@@ -44,6 +45,7 @@ export async function openPlayer(root, song) {
   let recorder = null;
   let destroyed = false;
   let lastIdx = -2; // ultimo accordo mostrato nell'HUD (-2 = da ridisegnare)
+  let lastStrumKey = '';
   let syncCheck = null; // esito del controllo di coerenza fra testo e accordi
   let lastDiagram = null;
   let ramp = false;
@@ -123,7 +125,7 @@ export async function openPlayer(root, song) {
               <button class="round big" data-act="play" title="Play / Pausa (spazio)">${icon('play', 26)}</button>
               <button class="round" data-act="fwd" title="Avanti 5 s (→)">${icon('forward')}</button>
             </div>
-            <div class="status"><button class="resume-chip" hidden></button><span class="loop-label"></span></div>
+            <div class="status"><button class="resume-chip" hidden></button><a class="next-chip" hidden></a><span class="loop-label"></span></div>
             <div class="mini-group">
               <button class="mini" data-pop="speed" title="Velocità" aria-expanded="false"><span class="speed-val">1×</span></button>
               <button class="mini" data-pop="loop" title="Loop A–B e velocità progressiva" aria-expanded="false">${icon('loop', 18)}</button>
@@ -150,6 +152,8 @@ export async function openPlayer(root, song) {
             <button class="tool" data-act="countin" title="Una battuta di conteggio prima di partire">${icon('count', 18)}<span>Conteggio</span></button>
             <button class="tool" data-act="capo" title="Tonalità e capotasto: trasponi o usa forme più facili">${icon('capo', 18)}<span class="capo-label">Tonalità</span></button>
             <button class="tool" data-act="part" title="Parte di chitarra: ritmica, arpeggio, power chord, facile">${icon('guitar', 18)}<span class="part-label">Ritmica</span></button>
+            <button class="tool" data-act="setlist" title="Aggiungi il brano a una scaletta">${icon('grid', 18)}<span>Scaletta</span></button>
+            <button class="tool" data-act="backing" title="Base: la chitarra sintetica suona gli accordi con la pennata del brano">${icon('guitar', 18)}<span>Base</span></button>
             <button class="tool" data-act="study" title="Studio guidato: sezione per sezione, dal lento al veloce">${icon('study', 18)}<span>Studio</span></button>
             <button class="tool" data-act="amp" title="Amplificatore ed effetti per la chitarra collegata">${icon('amp', 18)}<span>Ampli</span></button>
             <button class="tool" data-act="camera" title="Registra un video mentre suoni">${icon('camera', 18)}<span>Video</span></button>
@@ -322,6 +326,12 @@ export async function openPlayer(root, song) {
       </div>
       <menu><button value="ok" class="chip-btn">Chiudi</button></menu></form></dialog>
 
+    <dialog class="dlg dlg-setlist"><form method="dialog"><h3>Scalette</h3>
+      <p class="hint">Metti il brano in una o più scalette: dalla libreria (scheda Scalette) le suoni una dopo l'altra.</p>
+      <div class="option-list setlist-list"></div>
+      <div class="tr-actions"><input class="sl-new" placeholder="Nuova scaletta…" maxlength="40"><button type="button" class="chip-btn" data-sl="new">Crea</button></div>
+      <menu><button value="ok" class="chip-btn primary">Fatto</button></menu></form></dialog>
+
     <dialog class="dlg dlg-help"><form method="dialog"><h3>Guida rapida</h3>
       <ol class="help-list">
         <li><b>Accorda</b> la chitarra con l'<b>Accordatore</b> (col microfono o col cavo Rocksmith).</li>
@@ -376,6 +386,7 @@ export async function openPlayer(root, song) {
   // ---------- Palco, testo e griglia ----------
   const fretboard = new Fretboard($('.fretboard'));
   fretboard.customShapes = song.shapes ?? null;
+  fretboard.onNote = (n) => { if (prefs.backing && clock?.playing) pluck(n.string, n.fret > 0 ? n.fret + capo : 0, 0.3); };
   const handlers = { onSeek: (t) => seek(t), onLoop: (a, b, label) => setLoop(a, b, label) };
   const sheet = new Sheet(chordsBody, handlers);
   const karaoke = new Karaoke(lyricsBody, handlers);
@@ -1028,6 +1039,7 @@ export async function openPlayer(root, song) {
   const paintToggles = () => {
     $('[data-act="metro"]').classList.toggle('active', settings.metronome);
     $('[data-act="countin"]').classList.toggle('active', settings.countIn);
+    $('[data-act="backing"]').classList.toggle('active', !!prefs.backing);
   };
   paintToggles();
 
@@ -1074,6 +1086,12 @@ export async function openPlayer(root, song) {
       case 'help': $('.dlg-help').showModal(); break;
       case 'view': openView(); break;
       case 'study': toggleStudy(); break;
+      case 'setlist': openSetlists(); break;
+      case 'backing':
+        prefs.backing = !prefs.backing; savePrefs();
+        $('[data-act="backing"]').classList.toggle('active', prefs.backing);
+        toast(prefs.backing ? 'Base attiva: la chitarra sintetica suona gli accordi' : 'Base spenta');
+        break;
       case 'amp': openAmp(); break;
       case 'camera': openCamera(); break;
       case 'part': openPart(); break;
@@ -1250,6 +1268,48 @@ export async function openPlayer(root, song) {
     dlg.querySelector('[data-rec2="save"]').disabled = false;
     if (clock.playing) clock.pause();
     dlg.showModal();
+  }
+
+  // ---------- Scalette ----------
+  function openSetlists() {
+    const dlg = $('.dlg-setlist');
+    const paint = () => {
+      const lists = getSetlists();
+      dlg.querySelector('.setlist-list').innerHTML = lists.length
+        ? lists.map((l) => `<button type="button" class="option${l.songs.includes(song.id) ? ' active' : ''}" data-slid="${l.id}"><b></b><span>${l.songs.length} brani${l.songs.includes(song.id) ? ' · c\'è già: tocca per toglierlo' : ''}</span></button>`).join('')
+        : '<p class="hint">Nessuna scaletta: creane una qui sotto.</p>';
+      dlg.querySelectorAll('[data-slid] b').forEach((b, i) => { b.textContent = lists[i].name; });
+    };
+    paint();
+    dlg.onclick = (e) => {
+      const id = e.target.closest('[data-slid]')?.dataset.slid;
+      if (id) { toggleInSetlist(id, song.id); paint(); }
+      if (e.target.closest('[data-sl="new"]')) {
+        const inp = dlg.querySelector('.sl-new');
+        if (inp.value.trim()) { createSetlist(inp.value, [song.id]); inp.value = ''; paint(); }
+      }
+    };
+    dlg.showModal();
+  }
+  // brano successivo quando si suona una scaletta
+  const playlist = setlistId ? setlistById(setlistId) : null;
+  const nextId = nextInSetlist(playlist, song.id);
+  const nextChip = $('.next-chip');
+  if (playlist) {
+    nextChip.hidden = false;
+    const info = nextId ? songInfo(nextId) : null;
+    nextChip.textContent = nextId ? `⏭ ${info?.title ?? 'Prossimo'}` : `Fine di «${playlist.name}»`;
+    nextChip.title = nextId ? `Prossimo in scaletta «${playlist.name}»` : '';
+    if (nextId) nextChip.href = songHref(nextId, playlist.id); else nextChip.removeAttribute('href');
+  }
+  let advanced = false;
+  function checkSetlistEnd(t) {
+    if (!nextId || advanced || !clock.playing || loop.on) return;
+    if (t >= Math.min(totalDuration() - 0.5, tl.end + 3)) {
+      advanced = true;
+      toast(`Prossimo: ${songInfo(nextId)?.title ?? ''}`);
+      setTimeout(() => { if (!destroyed) location.hash = songHref(nextId, playlist.id); }, 2500);
+    }
   }
 
   function openSettings() {
@@ -1566,9 +1626,22 @@ export async function openPlayer(root, song) {
       const k = `${bar}:${beatInt}`;
       if (k !== lastBeatKey) { lastBeatKey = k; click(beatInt === 0); }
     }
+    // base sintetica: una pennata per ogni suddivisione del pattern (l'arpeggio suona le sue note da fretboard.onNote)
+    if (prefs.backing && clock.playing && bar >= 0 && cur && !tl.notes) {
+      const pat = (tl.strum || (tl.bpb === 3 ? 'D-DUDU' : 'D-DU-UDU')).replace(/\s+/g, '');
+      const pos = Math.floor((beat / tl.bpb) * pat.length);
+      const k = `${bar}:${pos}`;
+      if (k !== lastStrumKey) {
+        lastStrumKey = k;
+        const ch = pat[pos];
+        const sh = fretboard.shape(cur.name);
+        if (sh && (ch === 'D' || ch === 'U' || ch === 'X')) strumChord(sh.frets, { up: ch === 'U', mute: ch === 'X' });
+      }
+    }
 
     paintStageLyric(t);
     paintSection(t);
+    if (playlist) checkSetlistEnd(t);
 
     const pct = `${Math.min(100, (t / dur) * 100)}%`;
     scrubHead.style.left = pct;

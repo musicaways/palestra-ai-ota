@@ -205,7 +205,7 @@ body.in-player .app-bar { display: none; }
 .transport-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
 .play-group { display: flex; align-items: center; gap: 8px; flex: none; }
 .status { flex: 1; min-width: 0; display: flex; align-items: center; justify-content: center; gap: 6px; font-size: 12px; overflow: hidden; white-space: nowrap; }
-.status:not(:has(.resume-chip:not([hidden]), .loop-label:not(:empty))) { display: none; }
+.status:not(:has(.resume-chip:not([hidden]), .next-chip:not([hidden]), .loop-label:not(:empty))) { display: none; }
 .status .loop-label { flex: 0 1 auto; overflow: hidden; text-overflow: ellipsis; }
 .mini-group { display: flex; gap: 6px; flex: none; }
 .mini {
@@ -780,3 +780,33 @@ kbd { background: rgba(146, 132, 255, .12); border: 1px solid var(--line); borde
 .badge.on { opacity: 1; border-color: rgba(255, 210, 63, .5); box-shadow: 0 0 20px rgba(255, 210, 63, .12); }
 .badge-ico { color: var(--muted); }
 .badge.on .badge-ico { color: #ffd23f; }
+
+/* ---------- Dizionario accordi ---------- */
+.cd-pick { padding: 12px; display: grid; gap: 8px; margin-bottom: 14px; }
+.cd-row { display: flex; flex-wrap: wrap; gap: 4px; }
+.cd-row .seg { border: 1px solid var(--line); }
+.cd-main { display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 16px; margin-bottom: 18px; }
+.cd-diagram { width: 180px; cursor: pointer; }
+.cd-diagram .diagram { width: 100%; }
+.cd-text { flex: 1; min-width: 220px; display: grid; gap: 8px; justify-items: start; }
+.cd-name { font-family: var(--display); font-size: 48px; font-weight: 700; line-height: 1; color: var(--cyan); text-shadow: 0 0 18px rgba(34, 211, 238, .5); }
+.cd-note { display: inline-grid; place-items: center; min-width: 34px; height: 30px; border-radius: 8px; background: rgba(146, 132, 255, .12); margin-right: 4px; }
+.cd-note.root { background: rgba(255, 79, 216, .25); color: #fff; }
+.cd-cell { cursor: pointer; }
+.cd-cell:hover .diagram { border-color: var(--line-2); }
+.cd-all { margin-bottom: 40px; }
+
+/* ---------- Scalette ---------- */
+.next-chip { border: 1px solid rgba(255, 79, 216, .5); background: rgba(255, 79, 216, .1); color: var(--pink); border-radius: 999px; padding: 1px 10px;
+  font-size: 12px; font-weight: 700; text-decoration: none; max-width: 180px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.sl-new { flex: 1; min-width: 160px; height: 36px; border-radius: 10px; border: 1px solid var(--line); background: var(--card); color: var(--text); padding: 0 10px; }
+.setlist-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 18px 0 8px; }
+.setlist-head .group-title { margin: 0; flex: 1; }
+.song-card .sl-order { position: absolute; top: 8px; left: 8px; z-index: 2; display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%;
+  background: var(--pink); color: #0a0816; font-weight: 800; font-size: 13px; }
+.lib-filters { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; padding: 2px 0 6px; }
+.lib-filters::-webkit-scrollbar { display: none; }
+.lib-filters .seg { flex: none; border: 1px solid var(--line); height: 30px; font-size: 12px; }
+.az { display: flex; flex-wrap: wrap; gap: 4px; margin: 6px 0 4px; }
+.az a { display: grid; place-items: center; min-width: 28px; height: 28px; border-radius: 8px; background: rgba(146, 132, 255, .08); color: var(--muted); text-decoration: none; font-weight: 700; font-size: 12px; }
+.az a:hover { color: var(--cyan); }

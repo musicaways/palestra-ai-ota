@@ -7,6 +7,8 @@ import { getUserSong, mergeLibrary } from './usersongs.js';
 import { renderLearn, openLesson } from './learn.js';
 import { renderRecordings } from './recordings.js';
 import { renderProgress } from './progress.js';
+import { renderChords } from './chords.js';
+import { parseSongHash } from './setlists.js';
 
 const root = document.getElementById('app');
 let index = null;
@@ -43,7 +45,7 @@ async function route() {
   destroyCurrent?.();
   destroyCurrent = null;
   document.body.classList.remove('in-player');
-  const m = /^#\/song\/(.+)$/.exec(location.hash);
+  const m = parseSongHash(location.hash);
   try {
     const ed = /^#\/editor(?:\/(.+))?$/.exec(location.hash);
     if (ed) {
@@ -58,6 +60,10 @@ async function route() {
     } else if (location.hash === '#/impara') {
       document.title = 'Impara · Guitar Song Trainer';
       renderLearn(root);
+      window.scrollTo(0, 0);
+    } else if (location.hash === '#/accordi') {
+      document.title = 'Dizionario accordi · Guitar Song Trainer';
+      renderChords(root);
       window.scrollTo(0, 0);
     } else if (location.hash === '#/progressi') {
       document.title = 'Progressi · Guitar Song Trainer';
@@ -74,9 +80,10 @@ async function route() {
     } else if (m) {
       document.body.classList.add('in-player');
       root.innerHTML = '<div class="loading">Caricamento…</div>';
-      const song = await loadSong(decodeURIComponent(m[1]));
+      const song = await loadSong(m.id);
       if (token !== navToken) return;
-      const destroy = await openPlayer(root, song);
+      const list = await loadIndex();
+      const destroy = await openPlayer(root, song, { setlist: m.setlist, songInfo: (id) => list.find((x) => x.id === id) });
       if (token !== navToken) destroy();
       else destroyCurrent = destroy;
     } else {

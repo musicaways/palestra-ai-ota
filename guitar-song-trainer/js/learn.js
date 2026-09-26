@@ -27,6 +27,7 @@ export function renderLearn(root) {
       <div class="hero-actions">
         <a class="chip-btn" href="#/">${icon('back', 16)} Libreria brani</a>
         <a class="chip-btn" href="#/allenamento">${icon('drill', 16)} Allenamento cambi</a>
+        <a class="chip-btn" href="#/accordi">${icon('hand', 16)} Dizionario accordi</a>
         <span class="hero-stats">${ndone} lezioni completate su ${total}</span>
       </div>
       <div class="learn-progress"><i style="width:${total ? (ndone / total) * 100 : 0}%"></i></div>

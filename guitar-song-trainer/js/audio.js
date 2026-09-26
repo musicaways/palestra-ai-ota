@@ -73,3 +73,41 @@ export function pluck(string, fret, volume = 0.35) {
   src.connect(g).connect(a.destination);
   src.start();
 }
+
+// Pennata sintetica di un accordo: le corde suonano una dopo l'altra (giù: dal basso; su: dall'alto).
+const pluckCache = new Map();
+function pluckBuffer(a, string, fret) {
+  const k = `${a.sampleRate}:${string}:${fret}`;
+  if (!pluckCache.has(k)) {
+    const data = karplus(noteFreq(string, fret), a.sampleRate, 1.6, 0.997);
+    const b = a.createBuffer(1, data.length, a.sampleRate);
+    b.copyToChannel(data, 0);
+    pluckCache.set(k, b);
+  }
+  return pluckCache.get(k);
+}
+
+let strumBus = null;
+export function strumChord(frets, { up = false, volume = 0.22, when = 0, mute = false } = {}) {
+  const a = audioContext();
+  if (!strumBus) {
+    strumBus = a.createGain();
+    const lp = a.createBiquadFilter(); lp.type = 'lowpass'; lp.frequency.value = 5200;
+    strumBus.connect(lp).connect(a.destination);
+  }
+  const order = [0, 1, 2, 3, 4, 5].filter((s) => frets[s] != null);
+  if (up) order.reverse();
+  const t0 = a.currentTime + when;
+  order.forEach((s, i) => {
+    const src = a.createBufferSource();
+    src.buffer = pluckBuffer(a, s, frets[s]);
+    const g = a.createGain();
+    const v = volume * (up ? 0.7 : 1) * (s < 2 ? 1.1 : 0.9);
+    g.gain.setValueAtTime(v, t0 + i * 0.012);
+    // stoppata: le corde si smorzano subito
+    g.gain.setTargetAtTime(0, t0 + i * 0.012 + (mute ? 0.05 : 0.9), mute ? 0.02 : 0.25);
+    src.connect(g).connect(strumBus);
+    src.start(t0 + i * 0.012);
+    src.stop(t0 + 2);
+  });
+}

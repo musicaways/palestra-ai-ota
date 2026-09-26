@@ -395,6 +395,16 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   await page.click('.cam [data-cam="close"]');
   check(await page.isHidden('.cam'), 'fotocamera chiusa');
 
+  // Base sintetica e scaletta
+  await tap('[data-act="backing"]');
+  check(await page.locator('[data-act="backing"].active').count() === 1, 'base sintetica attiva');
+  await tap('[data-act="backing"]');
+  await tap('[data-act="setlist"]');
+  await page.fill('.dlg-setlist .sl-new', 'Prova serata');
+  await page.click('.dlg-setlist [data-sl="new"]');
+  check(await page.locator('.dlg-setlist .option.active').count() === 1, 'scaletta creata con il brano');
+  await page.click('.dlg-setlist button[value="ok"]');
+
   // Ritorno alla libreria
   await page.click('.player-head a');
   await page.waitForSelector('.library');
@@ -407,6 +417,23 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   await page.click('.tab[data-tab="recent"]');
   check(await page.locator('.song-card').count() === 1, 'scheda Recenti con il brano appena suonato');
   check(await page.locator('.song-card .practice').count() === 1, 'tempo di pratica sulla card');
+  await page.click('.tab[data-tab="setlists"]');
+  check(await page.locator('.setlist-head').count() === 1 && await page.locator('.library-body .song-card').count() === 1, 'scheda Scalette con il brano');
+  const slHref = await page.getAttribute('.setlist-head a.chip-btn', 'href');
+  check(/\?s=/.test(slHref), `scaletta: "Suona" apre il brano in scaletta (${slHref})`);
+  await page.click('.tab[data-tab="all"]');
+  const allN = await page.locator('.song-card').count();
+  await page.click('.lib-filters [data-fg="Rock"]');
+  const rockN = await page.locator('.song-card').count();
+  check(rockN > 5 && rockN < allN, `filtro per genere (${rockN} rock su ${allN})`);
+  await page.click('.lib-filters [data-fd="1970"]');
+  const n70 = await page.locator('.song-card').count();
+  check(n70 > 0 && n70 < rockN, `filtro per decennio (${n70} rock anni '70)`);
+  await page.click('.lib-filters [data-f="all"]');
+  check(await page.locator('.song-card').count() === allN, 'filtri azzerati');
+  await page.click('.tab[data-tab="artist"]');
+  check(await page.locator('.az a').count() >= 15, `indice A–Z degli artisti (${await page.locator('.az a').count()} lettere)`);
+  await page.click('.tab[data-tab="all"]');
 
   // Allenamento cambi accordo
   await page.click('a[href="#/allenamento"]');
@@ -427,6 +454,17 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   await page.goto(`${BASE}/#/progressi`);
   await page.waitForSelector('.badge');
   check(await page.locator('.badge.on').count() >= 1, `progressi: ${await page.locator('.badge.on').count()} obiettivi sbloccati, ${await page.textContent('.progress h1 span')}`);
+
+  // Dizionario degli accordi
+  await page.goto(`${BASE}/#/accordi`);
+  await page.waitForSelector('.cd-cell');
+  check(await page.locator('.cd-cell').count() === 12, 'dizionario: 12 fondamentali');
+  await page.click('.cd-quals [data-q="m7"]');
+  await page.click('.cd-cell[data-play="Am7"]');
+  check((await page.textContent('.cd-name')) === 'Am7', `dizionario: scelta dall'elenco (${await page.textContent('.cd-name')})`);
+  check(await page.locator('.cd-main .diagram-missing').count() === 0, 'dizionario: diteggiatura presente');
+  await page.click('.cd-quals [data-q=""]');
+  await shot('accordi');
 
   // Registrazioni
   await page.goto(`${BASE}/#/registrazioni`);
