@@ -288,11 +288,11 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
       <menu><button value="ok" class="chip-btn primary">Fatto</button></menu></form></dialog>
 
     <dialog class="dlg dlg-part"><form method="dialog"><h3>Parte di chitarra</h3>
-      <p class="hint">Più modi di suonare lo stesso brano, ricavati dai suoi accordi. Non sono trascrizioni dei riff originali:
-      sono arrangiamenti per studiare il brano a livelli diversi.</p>
+      <p class="hint">Ritmica, arpeggio, power chord e facile sono ricavati dagli accordi, per studiare a livelli diversi.
+      La <b>parte vera</b> ha le note esatte del brano, da un file MIDI che l'app può trovare da sola.</p>
+      <div class="part-midi"></div>
       <div class="option-list part-list"></div>
       <div class="part-style"></div>
-      <div class="part-midi"></div>
       <menu><button value="ok" class="chip-btn primary">Fatto</button></menu></form></dialog>
 
     <dialog class="dlg dlg-view"><form method="dialog"><h3>Vista</h3>
@@ -361,7 +361,8 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
       <div class="option-list src-list"></div>
       <label class="src-file-line chip-btn primary">${icon('mic', 16)} Scegli un file audio…<input type="file" accept="audio/*" class="src-file" hidden></label>
       <div class="tr-actions"><input class="sl-new src-link" placeholder="Incolla il link di un altro video YouTube"><button type="button" class="chip-btn" data-src="link">Usa questo video</button></div>
-      <div class="tr-actions"><input class="sl-new src-splink" placeholder="…oppure il link del brano su Spotify"><button type="button" class="chip-btn" data-src="splink">Usa Spotify</button></div>
+      <div class="tr-actions"><input class="sl-new src-splink" placeholder="…oppure il link del brano su Spotify"><button type="button" class="chip-btn" data-src="splink">Usa Spotify</button>
+        <a class="chip-btn src-spsearch" target="_blank" rel="noopener">Cerca su Spotify ↗</a></div>
       <label class="check"><input type="checkbox" class="src-all"> Preferisci Spotify per tutti i brani</label>
       <p class="hint src-status"></p>
       <menu><button value="ok" class="chip-btn primary">Fatto</button></menu></form></dialog>
@@ -1108,6 +1109,8 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
       await saveMidi(song.id, file);
       midi = { name: file.name, ...parsed };
       prefs.midi = { track: bestTrack(parsed.tracks) };
+      root.querySelector('[data-pop="tools"]')?.classList.remove('has-dot');
+      root.querySelector('[data-act="part"]')?.classList.remove('has-midi');
       prefs.arrangement = 'midi';
       autoAlignMidi(true);
     } catch (err) {
@@ -1146,6 +1149,21 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
         <button type="button" class="seg" data-midi="remove">Rimuovi</button>
         <label class="seg">Altro file…<input type="file" accept=".mid,.midi,audio/midi,audio/x-midi" class="midi-file" hidden></label></div>${online}`;
   }
+  // c'è un MIDI online con titolo e artista giusti? Un'etichetta sul pulsante Parte lo fa sapere (controllo leggero,
+  // solo i nomi; ricordato per un giorno)
+  setTimeout(async () => {
+    if (destroyed || midi) return;
+    const k = key('midiHint');
+    let hint = store.get(k, null);
+    if (!hint || Date.now() - hint.at > 864e5) {
+      try { hint = { at: Date.now(), n: (await searchMidi(song, { limit: 3 })).filter((c) => c.score >= 0.6).length }; } catch { return; }
+      store.set(k, hint);
+    }
+    if (!destroyed && !midi && hint.n) {
+      root.querySelector('[data-act="part"]')?.classList.add('has-midi');
+      root.querySelector('[data-pop="tools"]')?.classList.add('has-dot');
+    }
+  }, 2500);
   getMidi(song.id).then(async (rec) => {
     if (!rec?.blob || destroyed) return;
     try {
@@ -1660,6 +1678,7 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
       `<button type="button" class="option${o.on ? ' active' : ''}" data-srcopt="${o.id}"><b></b><span>${o.desc}</span></button>`).join('');
     dlg.querySelectorAll('[data-srcopt] b').forEach((b, i) => { b.textContent = opts[i].label; });
     dlg.querySelector('.src-all').checked = settings.source === 'spotify';
+    dlg.querySelector('.src-spsearch').href = `https://open.spotify.com/search/${encodeURIComponent(`${song.artist.split(',')[0]} ${song.title}`)}/tracks`;
     const status = dlg.querySelector('.src-status');
     status.textContent = own ? 'Per togliere il file: scegli un\'altra sorgente e tocca "Dimentica il file".' : '';
     if (own) status.insertAdjacentHTML('beforeend', ' <button type="button" class="chip-btn" data-src="forget">Dimentica il file</button>');

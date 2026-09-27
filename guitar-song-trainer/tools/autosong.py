@@ -276,12 +276,13 @@ def build(items, lrc, bar, offset, beats, duration):
     bidx = lambda t: max(0, min(nbars - 1, round((t - offset) / bar)))
     # intro
     first = bidx(lrc[sung[0]][0]) if sung else nbars
-    if first > 0:
-        intro = lead or next((c for c in lrc_ch if c), ['C'])
-        per = max(1, round(first / max(1, len(intro)))) if len(intro) <= first else 1
+    # accordi dell'intro dalla pagina: ripetuti a passo naturale (1 o 2 battute per accordo), non stirati su tutta
+    # l'intro; se la pagina non li riporta, l'intro prende il giro della prima parte cantata (vedi sotto)
+    if first > 0 and lead:
+        per = 2 if bar < 2.2 else 1
         seq = []
         while len(seq) < first:
-            for c in intro:
+            for c in lead:
                 seq += [c] + ['%'] * (per - 1)
         for b in range(first): bars[b] = seq[b]
     for n, j in enumerate(sung):
@@ -312,6 +313,12 @@ def build(items, lrc, bar, offset, beats, duration):
         for q, v in enumerate(seg):
             if b0 + q < nbars: bars[b0 + q] = v
         if lrc_head[j]: heads[b0] = lrc_head[j]
+    if first > 0 and not lead:
+        sung_bars = [b for b in bars[first:first + 8] if b is not None]
+        if sung_bars:
+            cyc = sung_bars[:8]
+            for b in range(first): bars[b] = cyc[(b - first) % len(cyc)]
+            if bars[0] in (None, '%'): bars[0] = next((c for c in cyc if c not in (None, '%')), 'C')
     # sezioni: separate dalle pause del canto (≥ 1,6 battute) e dalle intestazioni della pagina
     cuts = {0}
     for n in range(1, len(sung)):

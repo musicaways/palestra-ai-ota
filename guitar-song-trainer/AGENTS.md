@@ -98,6 +98,10 @@ tools/videocheck.mjs  prova nel browser che i video si possano incorporare; --fi
 tools/strumpass.py    pennata per brano e per sezione: Ultimate Guitar (tab_view.strummings) o stima da genere/tempo con
                       varianti; --solo-stime riprova UG solo dove c'è una stima; strumSource 'utente' non si tocca
 tools/streamids.py    spotifyId (e deezerId) dei brani: Deezer → ISRC → MusicBrainz; copertura bassa per i brani italiani
+tools/keycheck.py     tonalità del disco dall'anteprima Deezer (chroma librosa contro gli accordi ruotati di 0..11
+                      semitoni): se vince nettamente r = 1..7, --fix alza gli accordi di r e mette capo r (le pagine
+                      scrivono spesso le forme "con capotasto", importate senza capotasto → Base e allineamenti stonati)
+tools/introfix.py     intro strumentali riempite con un solo accordo (≥ 8 battute): giro della prima parte cantata
 tests/fixtures.mjs    per l'e2e: parte MIDI e WAV sintetici ricavati dagli accordi di un brano (niente testo)
 tools/checksync.mjs   coerenza griglia/testo per ogni brano; con --fix corregge l'offset se affidabile
 tools/lrcgrid.py      analisi dei SOLI tempi LRCLIB: BPM ottimale, offset, blocchi e ritornelli
@@ -195,6 +199,12 @@ sincronizzato; continuare con funzioni, test, correzioni, usabilità.
 - YouTube resta la sorgente gratuita principale (602/613 video incorporabili). Se non va, si prova Spotify da solo.
 - Telefono: comandi fissi mentre il testo scorre (left-col `display: contents` + transport sticky, `--tp-h`).
 - e2e: servizi esterni bloccati, BitMidi simulato con due file (quello giusto va scelto dall'aggancio).
+- **Precisione dei dati** scoperta con i MIDI veri: (1) brani importati con le forme "da capotasto" senza capotasto
+  (es. Wonderwall, 2 semitoni sotto il disco) → tools/keycheck.py; (2) intro strumentali con un accordo solo per molte
+  battute (es. Hotel California, 16 battute di Bm) → tools/introfix.py e autosong corretto (intro dal giro cantato).
+- Aggancio MIDI: `alignMidiFull` (tempo dal BPM del file, tonalità, spostamento unico o a sezioni); un file che combacia
+  tutto di fila resta intero. Punteggi reali su BitMidi: Hotel California 94%, Lithium 83% (−1 semitono: accordatura
+  mezzo tono sotto), Here Comes the Sun 78%, Nothing Else Matters ~70%.
 
 ## Stato v2.0.0 (2026-09-26)
 

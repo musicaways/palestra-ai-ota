@@ -1,7 +1,7 @@
 # ID del brano su Spotify per ogni canzone del catalogo (sorgente audio alternativa a YouTube, la versione del disco).
 # Deezer (ricerca gratuita) → codice ISRC → MusicBrainz (collegamento "free streaming" verso Spotify).
 # Scrive solo spotifyId (e deezerId) nel JSON del brano. Uso: python3 tools/streamids.py [id ...] [--tutti]
-import json, os, re, sys, time, unicodedata, urllib.parse, urllib.request
+import json, os, re, sys, time, unicodedata, urllib.error, urllib.parse, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SONGS = os.path.join(ROOT, 'songs')
@@ -60,8 +60,12 @@ def process(sid, force=False):
     song['deezerId'] = tr['id']
     sp = None
     if isrc:
-        time.sleep(1.05)  # MusicBrainz: una richiesta al secondo
-        mb = get(f'https://musicbrainz.org/ws/2/isrc/{isrc}?inc=url-rels&fmt=json')
+        time.sleep(1.6)  # MusicBrainz: al massimo una richiesta al secondo (con margine)
+        try:
+            mb = get(f'https://musicbrainz.org/ws/2/isrc/{isrc}?inc=url-rels&fmt=json', tries=2)
+        except urllib.error.HTTPError as e:
+            if e.code != 404: raise
+            mb = {}  # codice ISRC che MusicBrainz non conosce: nessun collegamento
         for rec in mb.get('recordings', []):
             for rel in rec.get('relations', []):
                 m = re.search(r'open\.spotify\.com/track/([A-Za-z0-9]{22})', rel.get('url', {}).get('resource', ''))

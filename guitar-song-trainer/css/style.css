@@ -916,3 +916,10 @@ kbd { background: rgba(146, 132, 255, .12); border: 1px solid var(--line); borde
 .tab-bar.now i.n { background: var(--cyan); }
 .tab-cursor { display: none; position: absolute; top: 12px; bottom: 2px; width: 2px; left: calc(6px + var(--pos, 0) * (100% - 12px)); background: var(--pink); box-shadow: 0 0 8px var(--pink); z-index: 2; }
 .tab-bar.now .tab-cursor { display: block; }
+.src-file-line { display: flex; align-items: center; justify-content: center; gap: 8px; }
+.part-midi { margin-bottom: 12px; }
+.part-midi .tr-actions { flex-wrap: wrap; }
+.tool.has-midi { position: relative; }
+.tool.has-midi::after { content: "MIDI"; position: absolute; top: 2px; right: 2px; padding: 0 4px; border-radius: 6px; font-size: 9px; font-weight: 800; letter-spacing: .04em; background: var(--pink); color: #0a0816; }
+.mini.has-dot { position: relative; }
+.mini.has-dot::after { content: ""; position: absolute; top: 5px; right: 5px; width: 8px; height: 8px; border-radius: 50%; background: var(--pink); box-shadow: 0 0 8px var(--pink); }
