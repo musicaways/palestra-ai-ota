@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { parseMidi, guessGuitarTrack, fingerNotes, midiChromaFrames, alignMidi, placeMidi, beatChords } from '../js/midi.js';
+import { parseMidi, guessGuitarTrack, fingerNotes, midiChromaFrames, alignMidi, alignMidiFull, placeMidi, beatChords } from '../js/midi.js';
 import { buildTimeline } from '../js/timeline.js';
 
 // Costruisce un piccolo file MIDI (formato 1) in memoria.
@@ -104,4 +104,29 @@ test('la parte MIDI segue i tempi veri del brano (warp) e il capotasto', () => {
   for (const x of f) assert.equal(OPEN[x.string] + 3 + x.fret, x.pitch, 'con il capotasto il tasto è contato dal capo');
   // trasposizione: +2 semitoni
   assert.equal(placeMidi(notes, tl, { shift: 8, transpose: 2 })[0].pitch, notes[0].pitch + 2);
+});
+
+test('aggancio completo: file in un\'altra tonalità e con una strofa in più', () => {
+  // brano: intro 2 battute, poi giro × 3; il file: giro, un pezzo estraneo di 4 battute, giro, giro — e 3 semitoni sotto
+  const tl = buildTimeline(SONG);
+  const giro = SONG.patterns.giro;
+  const extra = ['G', 'G', 'G', 'G'];
+  const notes = midiPart([...giro, ...extra, ...giro, ...giro]).map((n) => ({ ...n, pitch: n.pitch - 3 }));
+  const r = alignMidiFull(notes, tl);
+  assert.equal(r.transpose, 3, 'il file va alzato di 3 semitoni');
+  assert.equal(r.mode, 'path');
+  const placed = placeMidi(notes, tl, r);
+  // la prima nota sulla battuta 2 del brano, la parte estranea (battiti 32..47) lasciata fuori o spostata,
+  // l'ultima nota dentro l'ultima battuta del brano
+  assert.ok(Math.abs(placed[0].t - tl.bars[2].start) < 0.01, `prima nota a ${placed[0].t}`);
+  assert.ok(placed.at(-1).t >= tl.bars.at(-1).start - 0.01 && placed.at(-1).t < tl.bars.at(-1).end);
+  assert.ok(placed[0].pitch === notes[0].pitch + 3);
+});
+
+test('tempo del file: uguale, doppio o metà del brano', async () => {
+  const { scalesFor } = await import('../js/midi.js');
+  assert.deepEqual(scalesFor(120, 118), [1]);
+  assert.deepEqual(scalesFor(184, 92), [0.5, 1]);
+  assert.deepEqual(scalesFor(46, 92), [2, 1]);
+  assert.deepEqual(scalesFor(0, 92), [1, 2, 0.5]);
 });

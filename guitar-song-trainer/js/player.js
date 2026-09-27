@@ -3,7 +3,7 @@ import { YouTubeClock, FreeClock, AudioClock, SwitchClock, SpotifyClock } from '
 import { saveAudio, getAudio, removeAudio, saveMidi, getMidi, removeMidi } from './audiofiles.js';
 import { findSpotify, spotifyId as parseSpotifyId, searchMidi, downloadMidi, songsterrUrl } from './online.js';
 import { Tab } from './tab.js';
-import { parseMidi, guessGuitarTrack, fingerNotes, alignMidi, placeMidi, programName } from './midi.js';
+import { parseMidi, guessGuitarTrack, fingerNotes, alignMidi, alignMidiFull, placeMidi, programName } from './midi.js';
 import { youtubeId as parseYouTubeId } from './songtext.js';
 import { wordTimes, wordAt } from './wordtiming.js';
 import { chromaFrames, alignToAudio, decodeToMono } from './audioanalysis.js';
@@ -1020,7 +1020,11 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
   function midiNotes() {
     const trk = midi.tracks[midiTrackIndex()];
     if (!trk) return null;
-    const placed = placeMidi(trk.notes, tl, { shift: prefs.midi?.shift ?? 0, scale: prefs.midi?.scale ?? 1, transpose: prefs.transpose });
+    const m = prefs.midi ?? {};
+    const placed = placeMidi(trk.notes, tl, {
+      shift: m.shift ?? 0, scale: m.scale ?? 1, nudge: m.nudge ?? 0, map: m.mode === 'path' ? m.map : null,
+      transpose: (m.fileT ?? 0) + prefs.transpose,
+    });
     const notes = fingerNotes(placed, { capo });
     return notes.length ? notes : null;
   }
@@ -1028,8 +1032,9 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
   function autoAlignMidi(announce) {
     if (!midi) return;
     const all = midi.tracks.flatMap((x) => x.notes);
-    const r = alignMidi(all, tl, { transpose: prefs.transpose });
-    prefs.midi = { ...prefs.midi, shift: r.shift, scale: r.scale, score: r.score, confidence: r.confidence };
+    const r = alignMidiFull(all.map((n) => ({ ...n, pitch: n.pitch + prefs.transpose })), tl, { bpm: midi.bpm });
+    prefs.midi = { track: prefs.midi?.track, mode: r.mode, map: r.map ?? null, shift: r.shift, scale: r.scale, fileT: r.transpose,
+      nudge: 0, score: r.score, confidence: r.confidence };
     savePrefs();
     rebuild();
     lastIdx = -2;
@@ -1067,8 +1072,9 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
           const parsed = parseMidi(c.bytes);
           const all = parsed.tracks.flatMap((x) => x.notes);
           if (all.length < 30) continue;
-          const r = alignMidi(all, tl, { transpose: prefs.transpose });
-          const span = (Math.max(...all.map((n) => n.b + n.bd)) - Math.min(...all.map((n) => n.b))) * r.scale;
+          const r = alignMidiFull(all.map((n) => ({ ...n, pitch: n.pitch + prefs.transpose })), tl, { bpm: parsed.bpm });
+          const span = r.mode === 'path' ? new Set(r.map.filter((x) => x >= 0)).size
+            : (Math.max(...all.map((n) => n.b + n.bd)) - Math.min(...all.map((n) => n.b))) * r.scale;
           c.align = r;
           c.cover = Math.min(1, span / songBeats);
           c.quality = r.score * (0.5 + r.confidence) * (0.4 + 0.6 * c.cover) + c.score * 0.1;
@@ -1077,7 +1083,8 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
       }
       midiSearch.cands.sort((a, b) => b.quality - a.quality);
       const top = midiSearch.cands[0];
-      if (top && top.align.confidence >= 0.35 && top.align.score >= 0.4 && top.cover >= 0.4) {
+      if (top && ((top.cover >= 0.4 && (top.align.score >= 0.62 || (top.align.score >= 0.45 && top.align.confidence >= 0.35)))
+        || (top.cover >= 0.2 && top.align.score >= 0.75))) {
         await useMidiCandidate(top);
         midiSearch = { state: 'done', cands: midiSearch.cands, msg: `Trovata e agganciata: ${top.name}. Se non ti convince prova le altre versioni qui sotto.` };
       } else {
@@ -1113,7 +1120,7 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
         <a class="chip-btn" href="${songsterrUrl(song)}" target="_blank" rel="noopener">Tablatura su Songsterr</a></div>
       ${midiSearch.msg ? `<p class="hint midi-status">${esc(midiSearch.msg)}</p>` : ''}
       ${midiSearch.cands.length ? `<div class="midi-cands">${midiSearch.cands.map((c, i) => `<div class="midi-cand"><span>${esc(c.name)}</span>
-        <b class="${c.align.confidence >= 0.35 ? 'ok' : ''}">${Math.round(c.align.score * 100)}%</b>
+        <b class="${c.align.score >= 0.62 ? 'ok' : ''}" title="Quanto le note suonano gli accordi del brano · copre ${Math.round(c.cover * 100)}% del brano">${Math.round(c.align.score * 100)}%</b>
         <button type="button" class="seg" data-midicand="${i}">${midi?.name === c.name ? 'In uso' : 'Usa'}</button></div>`).join('')}</div>` : ''}`;
     if (!midi) {
       box.innerHTML = `<div class="dlg-sub">Parte vera del brano</div>
@@ -1125,12 +1132,14 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
     }
     const cur = midiTrackIndex();
     const m = prefs.midi ?? {};
-    const sh = m.shift ?? 0;
+    const sh = (m.mode === 'path' ? (m.map?.find((x) => x >= 0) ?? 0) : (m.shift ?? 0)) + (m.nudge ?? 0);
+    const mapped = m.mode === 'path' ? m.map.filter((x) => x >= 0) : [];
+    const lastBar = mapped.length ? Math.floor((Math.max(...mapped) + (m.nudge ?? 0)) / tl.bpb) + 1 : 0;
     const at = `battuta ${Math.floor(sh / tl.bpb) + 1}${((sh % tl.bpb) + tl.bpb) % tl.bpb ? `, battito ${(((sh % tl.bpb) + tl.bpb) % tl.bpb) + 1}` : ''}`;
     box.innerHTML = `<div class="dlg-sub">Parte vera: ${esc(midi.name)}</div>
       <label class="field">Traccia <select class="midi-track">${midi.tracks.map((t, i) =>
         `<option value="${i}"${i === cur ? ' selected' : ''}>${esc(t.name || `Traccia ${i + 1}`)} · ${esc(programName(t.program))} · ${t.notes.length} note</option>`).join('')}</select></label>
-      <p class="hint midi-info">Il file inizia alla ${at}${m.scale && m.scale !== 1 ? ` (tempo ${m.scale > 1 ? 'dimezzato' : 'doppio'} nel file)` : ''}${m.confidence != null ? ` · aggancio ${Math.round(m.confidence * 100)}%` : ''}.</p>
+      <p class="hint midi-info">${m.mode === 'path' ? `Agganciato sezione per sezione, dalla ${at} alla battuta ${lastBar}` : `Il file inizia alla ${at}`}${m.scale && m.scale !== 1 ? ` (tempo ${m.scale > 1 ? 'dimezzato' : 'doppio'} nel file)` : ''}${m.fileT ? ` · portato di ${m.fileT > 6 ? `−${12 - m.fileT}` : `+${m.fileT}`} semitoni nella tonalità del brano` : ''}${m.score != null ? ` · le note suonano gli accordi al ${Math.round(m.score * 100)}%` : ''}.</p>
       <div class="cd-row"><button type="button" class="seg" data-midi="earlier" title="Un battito prima">◀ battito</button>
         <button type="button" class="seg" data-midi="later" title="Un battito dopo">battito ▶</button>
         <button type="button" class="seg" data-midi="align">Aggancia di nuovo</button>
@@ -1192,7 +1201,7 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
       const ci = e.target.closest('[data-midicand]')?.dataset.midicand;
       if (ci != null) { await useMidiCandidate(midiSearch.cands[Number(ci)]); paint(); return; }
       if (mact === 'earlier' || mact === 'later') {
-        prefs.midi = { ...prefs.midi, shift: (prefs.midi?.shift ?? 0) + (mact === 'later' ? 1 : -1) };
+        prefs.midi = { ...prefs.midi, nudge: (prefs.midi?.nudge ?? 0) + (mact === 'later' ? 1 : -1) };
         savePrefs(); rebuild(); lastIdx = -2; paint();
         return;
       }

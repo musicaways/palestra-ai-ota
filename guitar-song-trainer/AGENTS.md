@@ -58,6 +58,9 @@ js/audioanalysis.js   cromagramma di un file audio (chromaFrames), allineamento 
 js/midi.js            file MIDI: parseMidi (tempi in s e in battiti), guessGuitarTrack, alignMidi (spostamento in battiti
                       sugli accordi della griglia), placeMidi (note sui tempi veri del brano), fingerNotes (corda/tasto, capo)
 js/wordtiming.js      tempi delle parole per il karaoke (sillabe o tag LRC estesi <mm:ss.xx>)
+js/online.js          servizi gratuiti a runtime: findSpotify (Deezer JSONP → ISRC → MusicBrainz), searchMidi/downloadMidi
+                      (BitMidi, CORS aperto), midiNameScore, songsterrUrl
+js/tab.js             tablatura (tabBars puro + classe Tab) della parte a note singole, scheda "Tab" del pannello
 js/karaoke.js         righe LRC + accordi posizionati per tempo, riempimento progressivo
 js/lyrics.js          download da LRCLIB, cache locale, parsing LRC
 js/sheet.js           griglia accordi per battuta
@@ -94,6 +97,7 @@ tools/videocheck.mjs  prova nel browser che i video si possano incorporare; --fi
                       con un video della stessa durata del testo (±8 s) e non già usato; --skip, --pages
 tools/strumpass.py    pennata per brano e per sezione: Ultimate Guitar (tab_view.strummings) o stima da genere/tempo con
                       varianti; --solo-stime riprova UG solo dove c'è una stima; strumSource 'utente' non si tocca
+tools/streamids.py    spotifyId (e deezerId) dei brani: Deezer → ISRC → MusicBrainz; copertura bassa per i brani italiani
 tests/fixtures.mjs    per l'e2e: parte MIDI e WAV sintetici ricavati dagli accordi di un brano (niente testo)
 tools/checksync.mjs   coerenza griglia/testo per ogni brano; con --fix corregge l'offset se affidabile
 tools/lrcgrid.py      analisi dei SOLI tempi LRCLIB: BPM ottimale, offset, blocchi e ritornelli
@@ -178,7 +182,21 @@ node tests/e2e.mjs http://localhost:8080   # test nel browser (serve Playwright 
 ```
 Nel test e2e YouTube è bloccato di proposito (si prova il clock di riserva); il microfono è finto.
 
-## Stato attuale (v2.0.0 — 2026-09-26)
+## Stato attuale (v2.1.0 — 2026-09-27)
+
+Richiesta dell'utente: niente caricamento a mano di MIDI e MP3 brano per brano; un servizio gratuito per ascoltare
+sincronizzato; continuare con funzioni, test, correzioni, usabilità.
+- **Servizi valutati** (campione di 30 brani): BitMidi ha un MIDI per ~metà (soprattutto stranieri), API con CORS aperto
+  → ricerca e scelta automatica nell'app. Spotify: lettore incorporato con posizione (SpotifyClock), ID trovati con
+  Deezer → ISRC → MusicBrainz solo per ~10–30% (pochi collegamenti per i brani italiani) → per gli altri si incolla il
+  link. Il lettore Spotify **non è verificabile nel Chromium dei test** (manca Widevine): da provare sul PC.
+  Odesli (song.link) ha chiuso l'API pubblica; Deezer non ha un lettore sincronizzabile; Songsterr solo come link
+  (le sue tablature sono dati protetti).
+- YouTube resta la sorgente gratuita principale (602/613 video incorporabili). Se non va, si prova Spotify da solo.
+- Telefono: comandi fissi mentre il testo scorre (left-col `display: contents` + transport sticky, `--tp-h`).
+- e2e: servizi esterni bloccati, BitMidi simulato con due file (quello giusto va scelto dall'aggancio).
+
+## Stato v2.0.0 (2026-09-26)
 
 Richieste dell'utente (dopo aver provato l'app in locale con Codex): avvio lento, video YouTube mai accessibili,
 pennate e arpeggi tutti uguali, la Base non rispetta il brano, karaoke parola per parola.

@@ -22,6 +22,12 @@ export function midiNameScore(name, song) {
   const artist = norm(String(song.artist).split(/,| feat\.? | & /)[0]);
   if (artist && n.includes(artist)) s += 0.3;
   const raw = ` ${String(name).toLowerCase().replace(/[^a-z0-9]+/g, ' ')} `;
+  // "Altro Artista - Titolo": stesso titolo, canzone diversa
+  const parts = String(name).replace(/\.midi?$/i, '').split(/\s+-\s+/);
+  if (parts.length === 2 && artist) {
+    const other = parts.find((x) => !norm(x).includes(t));
+    if (other && !norm(other).includes(artist) && !artist.includes(norm(other))) s -= 0.4;
+  }
   if (/ (remix|pads|karaoke|piano|drum|drums|bass|cover|medley|intro|solo|live) /.test(raw)) s -= 0.25;
   return Math.round(Math.max(0, Math.min(1, s)) * 100) / 100;
 }
@@ -29,15 +35,24 @@ export function midiNameScore(name, song) {
 const BITMIDI = 'https://bitmidi.com';
 
 // Candidati BitMidi ordinati per nome (al massimo `limit`).
+// fetch con un secondo tentativo (BitMidi a volte chiude la connessione)
+async function fetchRetry(url, fetchFn) {
+  try { return await fetchFn(url); } catch {
+    await new Promise((r) => setTimeout(r, 800));
+    return fetchFn(url);
+  }
+}
+
 export async function searchMidi(song, { limit = 5, fetchFn = fetch } = {}) {
   const seen = new Map();
   for (const q of [`${String(song.artist).split(',')[0]} ${song.title}`, song.title]) {
-    const r = await fetchFn(`${BITMIDI}/api/midi/search?q=${encodeURIComponent(q)}`);
+    let r;
+    try { r = await fetchRetry(`${BITMIDI}/api/midi/search?q=${encodeURIComponent(q)}`, fetchFn); } catch { continue; }
     if (!r.ok) continue;
     const d = await r.json();
     for (const x of d?.result?.results ?? []) {
       const score = midiNameScore(x.name, song);
-      if (score > 0 && !seen.has(x.id)) seen.set(x.id, { id: x.id, name: x.name, url: BITMIDI + x.downloadUrl, score });
+      if (score > 0.25 && !seen.has(x.id)) seen.set(x.id, { id: x.id, name: x.name, url: BITMIDI + x.downloadUrl, score });
     }
     if (seen.size >= limit) break;
   }
@@ -45,7 +60,7 @@ export async function searchMidi(song, { limit = 5, fetchFn = fetch } = {}) {
 }
 
 export async function downloadMidi(c, { fetchFn = fetch } = {}) {
-  const r = await fetchFn(c.url);
+  const r = await fetchRetry(c.url, fetchFn);
   if (!r.ok) throw new Error(`download non riuscito (${r.status})`);
   return new Uint8Array(await r.arrayBuffer());
 }

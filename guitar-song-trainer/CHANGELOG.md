@@ -1,5 +1,16 @@
 # Novità
 
+## 2.1.0 — 2026-09-27
+- **Spotify come sorgente audio**: il brano del disco, sincronizzato con testo e accordi (è la stessa versione dei
+  tempi del testo). Parte da solo se il video YouTube non va; si può scegliere per un brano o per tutti, oppure
+  incollare il link del brano. Brano intero se nel browser sei entrato in Spotify (anche account gratuito).
+- **Parte vera trovata online**: «Trova la parte online» cerca i file MIDI gratuiti su BitMidi, li prova tutti e tiene
+  quello che suona davvero gli accordi del brano; link alla tablatura su Songsterr.
+- **Scheda Tab**: tablatura della parte (MIDI o arpeggio), battuta per battuta, con il cursore che segue la musica.
+- Telefono: elenco dei brani compatto (molti brani per schermata), comandi sempre visibili mentre il testo scorre,
+  menu Ordina leggibile; quando non c'è video il riquadro diventa una riga.
+- YouTube più affidabile con i server locali (errore 153); avviso se l'app è aperta come file.
+
 ## 2.0.0 — 2026-09-26
 - **Avvio immediato**: il brano si usa subito (prima si aspettava il video fino a 25 s e il carattere del titolo);
   il video si aggancia quando è pronto.

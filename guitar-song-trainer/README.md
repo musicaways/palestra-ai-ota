@@ -20,7 +20,11 @@ Funziona nel browser di **PC, tablet e telefono Android** e si può installare c
 - **Il tuo file audio al posto del video** (⋯ → Audio): MP3/M4A del brano, allineato da solo agli accordi ascoltando
   la musica; rallenti senza cambiare intonazione. Il file resta solo sul dispositivo. Se il video YouTube è bloccato
   l'app lo dice subito e resta utilizzabile (niente attese all'avvio).
-- **Parte vera da file MIDI** (Parte → Carica un file MIDI): le note esatte della chitarra del brano (esportate da
+- **Spotify** come sorgente (⋯ → Audio): il brano del disco sincronizzato con testo e accordi; parte da solo se il
+  video non va. Brano intero se sei entrato in Spotify nel browser (anche gratis), velocità fissa.
+- **Scheda Tab**: la tablatura della parte (MIDI o arpeggio) che scorre con la musica.
+- **Parte vera da file MIDI** (Parte → Trova la parte online, oppure Carica un file MIDI): l'app cerca i MIDI gratuiti
+  su BitMidi e tiene quello che suona gli accordi del brano; le note esatte della chitarra del brano (esportate da
   Guitar Pro, TuxGuitar, MuseScore…) si agganciano da sole alle battute e ne seguono il tempo; la Base le suona
   con la loro durata e intensità.
 - **Pennate diverse per ogni brano e sezione** (strofa più leggera, ritornello più pieno), trascritte da Ultimate Guitar
@@ -197,6 +201,8 @@ js/audiofiles.js      file audio e MIDI dell'utente (IndexedDB)
 js/audioanalysis.js   cromagramma di un file audio e allineamento alla griglia
 js/midi.js            lettura dei file MIDI, aggancio alle battute, diteggiatura
 js/wordtiming.js      tempi delle singole parole per il karaoke
+js/online.js          servizi gratuiti: brano su Spotify (Deezer → ISRC → MusicBrainz), MIDI da BitMidi, link Songsterr
+js/tab.js             tablatura della parte a note singole
 songs/                libreria dei brani (JSON)
 sw.js, manifest.webmanifest, icons/   PWA
 ```

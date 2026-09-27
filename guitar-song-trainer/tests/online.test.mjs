@@ -16,6 +16,9 @@ test('nomi dei MIDI: titolo obbligatorio, artista premia, versioni strane penali
   assert.equal(midiNameScore('Champagne Supernova.mid', song), 0);
   assert.ok(midiNameScore('wonderwall-oasis.mid', song) >= 0.9);
   assert.ok(midiNameScore('Albachiara.mid', { title: 'Albachiara', artist: 'Vasco Rossi' }) > 0);
+  // stesso titolo, altro artista
+  assert.ok(midiNameScore('Diana Ross - Upside Down.mid', { title: 'Upside Down', artist: 'Jack Johnson' }) <= 0.2);
+  assert.ok(midiNameScore('Jack Johnson - Upside Down.mid', { title: 'Upside Down', artist: 'Jack Johnson' }) >= 0.9);
 });
 
 test('ricerca MIDI (fetch finto): ordina e toglie i doppioni', async () => {
