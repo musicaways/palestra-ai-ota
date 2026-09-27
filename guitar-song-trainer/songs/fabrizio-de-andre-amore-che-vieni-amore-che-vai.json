@@ -1,0 +1,194 @@
+{
+ "title": "Amore che vieni, amore che vai",
+ "artist": "Fabrizio De André",
+ "album": "Le origini",
+ "year": 1966,
+ "genre": "Cantautori",
+ "difficulty": 2,
+ "youtubeId": "INx2anNyFvo",
+ "key": "Am",
+ "bpm": 97.89,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.15,
+ "strum": "D-D-DUDU",
+ "lyricsSource": {
+  "lrclibId": 37018036,
+  "duration": 159.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Am – E7 – C – Dm – B7 – G7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro (1)",
+   "bars": [
+    "Am",
+    "E7",
+    "Am",
+    "E7",
+    "Am",
+    "Am",
+    [
+     "E7:2",
+     "C:2"
+    ],
+    "E7",
+    "Am",
+    [
+     "G7:2",
+     "C:2"
+    ],
+    "E7",
+    "Am",
+    [
+     "B7:2",
+     "E7:2"
+    ],
+    "Am",
+    "Dm",
+    [
+     "Am:2",
+     "E7:2"
+    ]
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Intro (2)",
+   "bars": [
+    "Am",
+    "B7",
+    "E7",
+    "Am",
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    [
+     "Am:2",
+     "E7:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "E7:2"
+    ],
+    [
+     "Am:2",
+     "E7:2"
+    ],
+    "C",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "G7",
+    [
+     "C:2",
+     "E7:2"
+    ],
+    "Am",
+    "B7"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Intro (3)",
+   "bars": [
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Dm",
+    "Am",
+    "E7",
+    "Am",
+    "B7",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Dm",
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    [
+     "Am:2",
+     "E7:2"
+    ],
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "E7",
+    [
+     "Am:2",
+     "E7:2"
+    ],
+    "C",
+    [
+     "E7:2",
+     "Am:2"
+    ]
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Intro (4)",
+   "bars": [
+    "G7",
+    [
+     "C:2",
+     "E7:2"
+    ],
+    "Am",
+    "B7",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Dm",
+    "Am",
+    "E7",
+    "Am",
+    "B7",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Dm",
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    [
+     "Am:2",
+     "E7:2"
+    ],
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "E7"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  }
+ ],
+ "strumSource": "stima"
+}

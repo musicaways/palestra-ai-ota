@@ -1,0 +1,309 @@
+{
+ "title": "La mia storia tra le dita",
+ "artist": "Gianluca Grignani",
+ "album": "mix manu",
+ "year": 1994,
+ "genre": "Pop / Rock",
+ "difficulty": 4,
+ "youtubeId": "gBvGUON0kDA",
+ "key": "G",
+ "bpm": 78.79,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.38,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 33897392,
+  "duration": 309,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – Cmaj7 – Fmaj7 – Dm7 – Am – Bb.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Dm7",
+    "G",
+    "%",
+    "G",
+    "Dm7",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    [
+     "Dm7:1",
+     "G:2",
+     "Cmaj7:1"
+    ],
+    "Fmaj7",
+    "%",
+    "%",
+    [
+     "Dm7:1",
+     "G:2",
+     "Cmaj7:1"
+    ],
+    "Fmaj7",
+    "Dm7",
+    "G",
+    "Cmaj7",
+    "Fmaj7",
+    "Dm7",
+    "G",
+    "Cmaj7",
+    "Fmaj7",
+    "Cmaj7",
+    "Fmaj7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    "%",
+    [
+     "Dm7:1",
+     "G:2",
+     "Cmaj7:1"
+    ],
+    "Fmaj7",
+    "%",
+    "%",
+    [
+     "Dm7:1",
+     "G:2",
+     "Cmaj7:1"
+    ],
+    "Fmaj7",
+    "Dm7",
+    "G",
+    "Cmaj7",
+    "Fmaj7",
+    "Dm7",
+    "G",
+    "Cmaj7",
+    "Fmaj7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "Cmaj7",
+    "Fmaj7",
+    "C",
+    "%",
+    "G",
+    "%",
+    "Bb",
+    "Am",
+    "F",
+    "G",
+    "C",
+    "%",
+    "G",
+    "%",
+    "Bb",
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "F",
+    [
+     "E:2",
+     "Am:2"
+    ],
+    "%",
+    "%",
+    [
+     "Dm7:1",
+     "G:2",
+     "Cmaj7:1"
+    ],
+    "Fmaj7",
+    "%",
+    [
+     "Dm7:2",
+     "G:2"
+    ],
+    "Cmaj7",
+    "Fmaj7",
+    "Dm7",
+    "G",
+    "Cmaj7",
+    "Fmaj7",
+    "Dm7",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "Cmaj7",
+    "Fmaj7",
+    "Cmaj7",
+    "Fmaj7",
+    "C",
+    "%",
+    "G",
+    "%",
+    "Bb",
+    "Am",
+    "F",
+    "G",
+    "C",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "Bb",
+    "Am",
+    [
+     "F:2",
+     "E:2"
+    ],
+    "Am",
+    [
+     "Dm7:2",
+     "G:2"
+    ],
+    [
+     "Cmaj7:2",
+     "Fmaj7:2"
+    ],
+    [
+     "Dm7:2",
+     "G:2"
+    ],
+    [
+     "Cmaj7:2",
+     "Fmaj7:2"
+    ],
+    [
+     "Dm7:2",
+     "G:2"
+    ],
+    [
+     "Cmaj7:2",
+     "Fmaj7:2"
+    ],
+    "Dm7",
+    [
+     "Dm7:2",
+     "G:2"
+    ],
+    "%",
+    "Cmaj7",
+    [
+     "Cmaj7:2",
+     "Fmaj7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   5,
+   15.806
+  ],
+  [
+   9,
+   27.844
+  ],
+  [
+   14,
+   43.074
+  ],
+  [
+   18,
+   55.158
+  ],
+  [
+   23,
+   70.104
+  ],
+  [
+   27,
+   82.538
+  ],
+  [
+   32,
+   98.06
+  ],
+  [
+   36,
+   110.244
+  ],
+  [
+   40,
+   122.366
+  ],
+  [
+   44,
+   134.55
+  ],
+  [
+   50,
+   153.144
+  ],
+  [
+   54,
+   164.906
+  ],
+  [
+   59,
+   179.868
+  ],
+  [
+   64,
+   195.104
+  ],
+  [
+   70,
+   213.494
+  ],
+  [
+   76,
+   231.678
+  ],
+  [
+   82,
+   249.93
+  ],
+  [
+   86,
+   262.264
+  ],
+  [
+   92,
+   280.876
+  ],
+  [
+   96,
+   293.162
+  ]
+ ],
+ "strumSource": "stima"
+}

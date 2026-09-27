@@ -1,0 +1,198 @@
+{
+ "title": "Taciturnal",
+ "artist": "Coez",
+ "album": "Lasciarsi andare",
+ "year": 2019,
+ "genre": "Pop / Rap",
+ "difficulty": 2,
+ "youtubeId": "7Aa621ETABc",
+ "key": "Am7",
+ "bpm": 68.85,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.63,
+ "strum": "B--D-UD-",
+ "lyricsSource": {
+  "lrclibId": 36700667,
+  "duration": 174,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Cmaj7 – Am7 – Em – G – Em7 – G6.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "%",
+    "Am7",
+    "Em7",
+    "G",
+    "%",
+    "Am7",
+    "Em7",
+    "G"
+   ],
+   "barsPerRow": 4,
+   "strum": "B-------"
+  },
+  {
+   "name": "Strofa",
+   "bars": [
+    "Cmaj7",
+    "Em",
+    "Cmaj7",
+    [
+     "Em:1",
+     "Am7:2"
+    ],
+    "Cmaj7",
+    [
+     "Em:2",
+     "Cmaj7:2"
+    ],
+    "%",
+    [
+     "Em:1",
+     "Am7:2"
+    ],
+    [
+     "Cmaj7:1",
+     "Am7:2",
+     "Em:1"
+    ],
+    [
+     "G:2",
+     "Cmaj7:2"
+    ],
+    [
+     "Am7:2",
+     "Em:2"
+    ],
+    [
+     "G:1",
+     "Am7:2",
+     "Cmaj7:1"
+    ],
+    [
+     "Am7:2",
+     "Em:2"
+    ],
+    [
+     "G:2",
+     "Cmaj7:2"
+    ],
+    "Am7",
+    [
+     "Em:1",
+     "Am7:1",
+     "Cmaj7:1"
+    ],
+    "%",
+    [
+     "Am7:1",
+     "Em:2",
+     "G:1"
+    ],
+    [
+     "Cmaj7:2",
+     "Am7:2"
+    ],
+    [
+     "G:2",
+     "Cmaj7:2"
+    ],
+    "Am7",
+    "%",
+    "G",
+    [
+     "Em:1",
+     "G:2",
+     "Cmaj7:1"
+    ],
+    [
+     "Am7:2",
+     "Em:2"
+    ],
+    [
+     "G:2",
+     "Cmaj7:2"
+    ],
+    [
+     "Am7:2",
+     "Em:2"
+    ],
+    [
+     "G:1",
+     "Am7:2",
+     "Cmaj7:1"
+    ],
+    [
+     "Am7:2",
+     "Em:2"
+    ],
+    [
+     "G:2",
+     "Cmaj7:2"
+    ],
+    "Am7",
+    [
+     "Em:2",
+     "G6:2"
+    ],
+    [
+     "Am7:2",
+     "Cmaj7:2"
+    ],
+    "Cmaj7",
+    "Em",
+    "%",
+    "%",
+    "Cmaj7",
+    "Cmaj7",
+    "Em",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   8,
+   28.24
+  ],
+  [
+   13,
+   46.394
+  ],
+  [
+   18,
+   63.832
+  ],
+  [
+   22,
+   77.726
+  ],
+  [
+   26,
+   90.81
+  ],
+  [
+   30,
+   104.414
+  ],
+  [
+   35,
+   122.988
+  ],
+  [
+   39,
+   136.938
+  ]
+ ],
+ "strumSource": "stima"
+}

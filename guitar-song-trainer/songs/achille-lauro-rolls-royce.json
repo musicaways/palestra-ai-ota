@@ -1,0 +1,109 @@
+{
+ "title": "Rolls Royce",
+ "artist": "Achille Lauro",
+ "album": "Sanremo 2019",
+ "year": 2019,
+ "genre": "Rock / Pop",
+ "difficulty": 5,
+ "youtubeId": "M5tIyVZX07o",
+ "key": "E",
+ "bpm": 70.67,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.01,
+ "strum": "D-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 34603877,
+  "duration": 173.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: E – C#m – Amaj7 – B – A – A6.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Parte 1",
+   "bars": [
+    "E",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "A",
+    "%",
+    "%",
+    "E",
+    "E",
+    "E",
+    "E",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "E",
+    "%",
+    "%",
+    "Amaj7",
+    "E",
+    "%",
+    "E",
+    "%",
+    "E",
+    "%",
+    "E",
+    "E",
+    "E",
+    "Amaj7",
+    [
+     "B:2",
+     "E:2"
+    ],
+    [
+     "Amaj7:2",
+     "A6:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    [
+     "B7:2",
+     "C#m:2"
+    ],
+    "E",
+    "C#m",
+    "E",
+    "E",
+    "%",
+    "E",
+    "%",
+    "E",
+    "%",
+    "E",
+    "E",
+    "C#m",
+    "B",
+    "F#m",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima",
+ "deezerId": 1087877202,
+ "spotifyId": "6RrHjDbTT8ibYqSBsZbmRA"
+}

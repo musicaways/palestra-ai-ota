@@ -1,0 +1,221 @@
+{
+ "title": "The Man Who Sold the World",
+ "artist": "Nirvana",
+ "album": "Metal Covers",
+ "year": 1994,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "kTbl6OzH3W0",
+ "key": "E",
+ "bpm": 116.03,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.08,
+ "strum": "PPPP-PPU",
+ "lyricsSource": {
+  "lrclibId": 36998468,
+  "duration": 261.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: E – G# – C#m – B – C.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G#",
+    "%",
+    "%",
+    "%",
+    "E",
+    "%",
+    "C#m"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-D-D-D-"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "G#",
+    "%",
+    "C#m",
+    "%",
+    "G#",
+    "%",
+    "E",
+    "%",
+    "B",
+    "%",
+    "G#",
+    "%",
+    "C#m",
+    "%",
+    "B",
+    "%",
+    "E",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "E",
+    "B",
+    "E",
+    [
+     "C:2",
+     "G#:2"
+    ],
+    [
+     "G#:2",
+     "C#m:2"
+    ],
+    "E",
+    "%",
+    "C#m",
+    "%",
+    "E",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "G#",
+    "%",
+    "C#m",
+    "%",
+    "B",
+    "%",
+    "E",
+    "%",
+    "B",
+    "%",
+    "G#",
+    "%",
+    "C#m",
+    "%",
+    "B",
+    "%",
+    "%",
+    "%",
+    "E",
+    "C",
+    "E",
+    "B",
+    "E",
+    "C",
+    [
+     "C:2",
+     "G#:2"
+    ],
+    "%",
+    [
+     "G#:2",
+     "C#m:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "B",
+    "E",
+    "C",
+    "E",
+    "B",
+    "E",
+    [
+     "C:2",
+     "G#:2"
+    ],
+    [
+     "G#:2",
+     "C#m:2"
+    ],
+    "E",
+    "%",
+    "C#m",
+    "%",
+    "G#",
+    "%",
+    "C#m",
+    "%",
+    "E",
+    "%",
+    "C#m",
+    "%",
+    "G#",
+    "%",
+    "C#m",
+    "%",
+    "E",
+    "%",
+    "C#m",
+    "%",
+    "G#",
+    "%",
+    "C#m",
+    "%",
+    "E",
+    "%",
+    "E",
+    "%",
+    "C#m",
+    "%",
+    "G#",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima",
+ "deezerId": 1105736,
+ "spotifyId": "1XnPVbzLhuBv0sHaCTgyoi"
+}

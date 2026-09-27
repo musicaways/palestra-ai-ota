@@ -1,0 +1,265 @@
+{
+ "title": "Vieni a ballare in Puglia",
+ "artist": "Caparezza",
+ "album": "4:01",
+ "year": 2008,
+ "genre": "Rap / Hip-hop",
+ "difficulty": 5,
+ "youtubeId": "mKDZc1UXD1U",
+ "key": "Fm",
+ "bpm": 70.92,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.05,
+ "strum": "B--D-UD-",
+ "lyricsSource": {
+  "lrclibId": 36754655,
+  "duration": 241,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Fm – Bbm – C7 – Ab – Eb – Db.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Fm:1",
+     "Eb:2",
+     "Fm:1"
+    ],
+    [
+     "Eb:2",
+     "Ab:2"
+    ],
+    [
+     "Ab:2",
+     "C7:2"
+    ],
+    [
+     "Fm:1",
+     "Eb:2",
+     "Fm:1"
+    ],
+    [
+     "Eb:2",
+     "Ab:2"
+    ],
+    [
+     "Ab:2",
+     "C7:2"
+    ],
+    "%",
+    "Fm",
+    "%",
+    "%",
+    "Fm",
+    "Eb",
+    "Fm",
+    "Eb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Fm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "C7:2",
+     "Fm:2"
+    ],
+    [
+     "C7:2",
+     "Fm:2"
+    ],
+    "%",
+    "Fm",
+    "Fm",
+    [
+     "Bb:2",
+     "Fm:2"
+    ],
+    [
+     "Bbm:2",
+     "Ab:2"
+    ],
+    "Bbm",
+    [
+     "C7:2",
+     "Fm:2"
+    ],
+    [
+     "Bbm:2",
+     "Fm:2"
+    ],
+    [
+     "Bbm:2",
+     "Ab:2"
+    ],
+    [
+     "Bbm:1",
+     "C7:2",
+     "Fm:1"
+    ],
+    "Fm",
+    "Eb",
+    "Fm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "C7:2",
+     "Fm:2"
+    ],
+    [
+     "C7:2",
+     "Fm:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Fm",
+    [
+     "Bbm:2",
+     "Fm:2"
+    ],
+    [
+     "Bbm:2",
+     "Ab:2"
+    ],
+    "Bbm",
+    [
+     "C7:2",
+     "Fm:2"
+    ],
+    [
+     "Bbm:2",
+     "Fm:2"
+    ],
+    [
+     "Bbm:2",
+     "Ab:2"
+    ],
+    [
+     "Bbm:1",
+     "C7:2",
+     "Fm:1"
+    ],
+    [
+     "Db:1",
+     "Eb:2",
+     "Ab:1"
+    ],
+    [
+     "Bbm:1",
+     "C7:2",
+     "Fm:1"
+    ],
+    [
+     "Db:2",
+     "Ab:2"
+    ],
+    [
+     "Db:1",
+     "C7:2",
+     "Fm:1"
+    ],
+    "Fm",
+    "Eb",
+    "Fm",
+    "Eb",
+    "Ab",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   1,
+   5
+  ],
+  [
+   6,
+   21.288
+  ],
+  [
+   10,
+   34.658
+  ],
+  [
+   14,
+   48.36
+  ],
+  [
+   18,
+   62.288
+  ],
+  [
+   23,
+   78.848
+  ],
+  [
+   27,
+   92.062
+  ],
+  [
+   31,
+   105.75
+  ],
+  [
+   37,
+   126.136
+  ],
+  [
+   42,
+   143.636
+  ],
+  [
+   47,
+   160.672
+  ],
+  [
+   52,
+   176.888
+  ],
+  [
+   57,
+   193.808
+  ],
+  [
+   66,
+   224.279
+  ],
+  [
+   70,
+   237.871
+  ]
+ ],
+ "strumSource": "stima"
+}

@@ -1,0 +1,196 @@
+{
+ "title": "What Was I Made For?",
+ "artist": "Billie Eilish",
+ "album": "Barbie The Album (VMP Designer Edition)",
+ "year": 2023,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "ZcQszUj4Nhc",
+ "key": "Em",
+ "bpm": 120.08,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.43,
+ "strum": "D--UD-DU",
+ "lyricsSource": {
+  "lrclibId": 37280740,
+  "duration": 222.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Em – C – Fmaj7 – F – Am – Dm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "C",
+    "%",
+    "%",
+    "%",
+    "%",
+    "C",
+    "Em",
+    "Fmaj7",
+    "C",
+    "Em",
+    "Fmaj7",
+    "C",
+    "Em",
+    "Fmaj7",
+    "Am",
+    "Em",
+    "Fmaj7",
+    "C",
+    "Em",
+    "Fadd9"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "C",
+    "Em",
+    "Fadd9",
+    "C",
+    "Em",
+    "F",
+    "Am7",
+    "Em",
+    "F",
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Dm7",
+    [
+     "Dm7:2",
+     "G7:2"
+    ],
+    "%",
+    "C",
+    "Em",
+    "Fmaj7",
+    "C",
+    "Em",
+    "F",
+    "C",
+    "Em",
+    "F",
+    "C",
+    "Em",
+    "Fmaj7",
+    [
+     "Am:1",
+     "Em:2",
+     "Fmaj7:1"
+    ],
+    "C",
+    "%",
+    "Em",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "C",
+    "Em",
+    "Fmaj7",
+    "C",
+    "Em",
+    "Fmaj7",
+    "C",
+    "Em",
+    "Fmaj7",
+    "Am",
+    "Em",
+    "F",
+    "Em",
+    "Dm7",
+    [
+     "Dm7:2",
+     "G:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "Em",
+    "Fmaj7",
+    "C",
+    "Em",
+    "F",
+    "C",
+    "Em",
+    "F",
+    "C",
+    "Em",
+    "Fmaj7"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "Am:1",
+     "Em:2",
+     "F:1"
+    ],
+    "Em",
+    "%",
+    "F",
+    "%",
+    "Em",
+    "C",
+    "Em",
+    "F",
+    "C",
+    "Em",
+    "F",
+    "C",
+    "Em",
+    "F",
+    "Am",
+    "Em",
+    "Fmaj7",
+    "Em",
+    "Dm7"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "G7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D---"
+  }
+ ],
+ "strumSource": "stima",
+ "deezerId": 2366043655,
+ "spotifyId": "6wf7Yu7cxBSPrRlWeSeK0Q"
+}

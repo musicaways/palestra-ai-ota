@@ -1,0 +1,248 @@
+{
+ "title": "Tutta la vita",
+ "artist": "Gazzelle",
+ "album": "Punk",
+ "year": 2019,
+ "genre": "Indie",
+ "difficulty": 4,
+ "youtubeId": "aSrdUCJ4WeQ",
+ "key": "Bb",
+ "bpm": 60.4,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 3.81,
+ "strum": "P-PU-UPU",
+ "lyricsSource": {
+  "lrclibId": 5916252,
+  "duration": 185,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bb – C – F – Dm – Am7 – Eb.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "F:1",
+     "C:1",
+     "Bb:1",
+     "C:1"
+    ],
+    [
+     "Am:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    [
+     "Dm:2",
+     "Am7:2"
+    ],
+    [
+     "Am7:2",
+     "Bb:2"
+    ],
+    [
+     "Eb:2",
+     "Dm:2"
+    ],
+    [
+     "Eb:2",
+     "Dm:2"
+    ],
+    [
+     "C:2",
+     "C7:2"
+    ],
+    [
+     "Bb:1",
+     "C:2",
+     "F:1"
+    ],
+    [
+     "Dm:2",
+     "Bb:2"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    [
+     "A:2",
+     "Bb:2"
+    ],
+    "%",
+    "%",
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "C:1",
+     "Bb:1"
+    ],
+    [
+     "Bb:1",
+     "C:1",
+     "F:2"
+    ],
+    [
+     "Am:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    [
+     "Dm:2",
+     "Am7:2"
+    ],
+    [
+     "Am7:2",
+     "Bb:2"
+    ],
+    [
+     "Eb:2",
+     "Dm:2"
+    ],
+    [
+     "Eb:2",
+     "Dm:2"
+    ],
+    [
+     "C:2",
+     "C7:2"
+    ],
+    [
+     "Bb:1",
+     "C:2",
+     "F:1"
+    ],
+    [
+     "Dm:2",
+     "Bb:2"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    [
+     "A:2",
+     "Bb:2"
+    ],
+    "%",
+    "%",
+    [
+     "Bb:1",
+     "C:2",
+     "Bb:1"
+    ],
+    "C",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "A:2"
+    ],
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    "%",
+    "Bb",
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Bb:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   1,
+   7.51
+  ],
+  [
+   7,
+   31.351
+  ],
+  [
+   12,
+   51.823
+  ],
+  [
+   16,
+   67.604
+  ],
+  [
+   22,
+   91.026
+  ],
+  [
+   26,
+   107.083
+  ],
+  [
+   30,
+   123.726
+  ],
+  [
+   35,
+   143.115
+  ],
+  [
+   40,
+   162.983
+  ],
+  [
+   42,
+   170.505
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 3690590442
+}

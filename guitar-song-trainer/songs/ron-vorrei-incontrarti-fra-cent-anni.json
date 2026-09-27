@@ -1,0 +1,253 @@
+{
+ "title": "Vorrei incontrarti fra cent'anni",
+ "artist": "Ron",
+ "album": "Vorrei incontrarti fra cent’anni",
+ "year": 1996,
+ "genre": "Cantautori",
+ "difficulty": 4,
+ "youtubeId": "5zZrVTcCjC0",
+ "key": "Dm7",
+ "bpm": 92.08,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.89,
+ "strum": "D-D-DUDU",
+ "lyricsSource": {
+  "lrclibId": 5418787,
+  "duration": 236,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Dm7 – Gm7 – Bb – C7 – Bbm – Am7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bb",
+    "C7",
+    "Dm"
+   ],
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "Bb:1",
+     "C7:2",
+     "Dm:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "Bb:1",
+     "C7:2",
+     "Dm7:1"
+    ],
+    "Bbm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Dm7",
+    "Gm7",
+    "%",
+    "%",
+    "Dm7",
+    "Gm7",
+    "A7sus4",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Em7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "Bb:1",
+     "C7:2",
+     "Dm7:1"
+    ],
+    "Bbm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Em7",
+    "%",
+    [
+     "G:2",
+     "A:2"
+    ],
+    "F",
+    "Gm7",
+    "%",
+    "%",
+    [
+     "Am7:1",
+     "Dm7:2",
+     "Gm7:1"
+    ],
+    "Dm7",
+    "Gm7",
+    "%",
+    [
+     "Am7:2",
+     "Dm7:2"
+    ],
+    [
+     "Dm7:2",
+     "Gm7:2"
+    ],
+    [
+     "Am7:1",
+     "Dm7:2",
+     "Gm7:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Bbm:1",
+     "C7sus4:2",
+     "F:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Gm7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   3,
+   9.54
+  ],
+  [
+   7,
+   19.966
+  ],
+  [
+   13,
+   35.586
+  ],
+  [
+   17,
+   46.32
+  ],
+  [
+   21,
+   56.789
+  ],
+  [
+   25,
+   67.219
+  ],
+  [
+   31,
+   82.864
+  ],
+  [
+   35,
+   93.494
+  ],
+  [
+   41,
+   109.356
+  ],
+  [
+   45,
+   119.743
+  ],
+  [
+   50,
+   132.086
+  ],
+  [
+   55,
+   145.199
+  ],
+  [
+   59,
+   155.664
+  ],
+  [
+   64,
+   168.612
+  ],
+  [
+   73,
+   191.879
+  ],
+  [
+   78,
+   204.492
+  ],
+  [
+   79,
+   207.099
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 702227
+}

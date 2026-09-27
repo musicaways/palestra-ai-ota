@@ -1,0 +1,164 @@
+{
+ "title": "Vivere",
+ "artist": "Vasco Rossi",
+ "album": "43 Mln di visualizzazioni",
+ "year": 1993,
+ "genre": "Rock",
+ "difficulty": 5,
+ "youtubeId": "DeK8IeGHA88",
+ "key": "D",
+ "bpm": 65.17,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.51,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34600797,
+  "duration": 331,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – A – F#m7 – G – E – Bm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "D",
+    "D",
+    "A",
+    "D",
+    "A",
+    [
+     "D:2",
+     "D/C#:2"
+    ],
+    [
+     "Bm:2",
+     "Bm/A:2"
+    ],
+    [
+     "Bm/A:2",
+     "E:2"
+    ],
+    "A",
+    "D",
+    "A",
+    "D",
+    "A",
+    "G",
+    "Bm7",
+    "F#m7",
+    [
+     "Bm7:2",
+     "F#m7:2"
+    ],
+    "E",
+    "G",
+    "D",
+    "A",
+    "D",
+    "A",
+    "D",
+    "A",
+    "D",
+    "A",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "A",
+    "D",
+    "A",
+    "D",
+    "A",
+    [
+     "D:2",
+     "D/C#:2"
+    ],
+    [
+     "Bm:2",
+     "Bm/A:2"
+    ],
+    [
+     "Bm/A:2",
+     "E:2"
+    ],
+    "A",
+    "D",
+    "A",
+    "D",
+    "A",
+    "G",
+    "Bm7",
+    "F#m7",
+    [
+     "Bm7:2",
+     "F#m7:2"
+    ],
+    "E",
+    "G",
+    "D",
+    "A",
+    "D",
+    "A",
+    "D",
+    "A",
+    "G",
+    "F#m7",
+    "D",
+    "A",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "D",
+    "%",
+    "D",
+    "%",
+    "G",
+    "Bm7",
+    "F#m7",
+    [
+     "Bm7:2",
+     "F#m7:2"
+    ],
+    "E",
+    "A",
+    "D",
+    "A",
+    "D",
+    "A",
+    "G",
+    "F#m7",
+    "D",
+    "A",
+    "E",
+    "A",
+    "D",
+    "A",
+    "D",
+    "A",
+    "G",
+    "F#m7",
+    "D",
+    "A",
+    "E",
+    "A",
+    "D"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima"
+}

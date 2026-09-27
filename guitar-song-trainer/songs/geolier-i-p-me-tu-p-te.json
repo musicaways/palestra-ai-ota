@@ -1,0 +1,171 @@
+{
+ "title": "I p' me, tu p' te",
+ "artist": "Geolier",
+ "album": "Top 100 Schweizer Single-Charts vom 10.03.2024",
+ "year": 2024,
+ "genre": "Rap / Hip-hop",
+ "difficulty": 3,
+ "youtubeId": "naTWqULk3zQ",
+ "key": "Fmaj7",
+ "bpm": 117.92,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.29,
+ "strum": "B--D-UD-",
+ "lyricsSource": {
+  "lrclibId": 36983139,
+  "duration": 188.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Fmaj7 – Am – Dm7 – Dm – G – F6.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Fmaj7",
+    "Dm7",
+    "Am",
+    "Fmaj7"
+   ],
+   "strum": "B-------"
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    [
+     "G:2",
+     "Fmaj7:2"
+    ],
+    [
+     "Dm7:2",
+     "Am:2"
+    ],
+    "G",
+    "Fmaj7",
+    "Dm7",
+    "Am",
+    "G",
+    "Fmaj7",
+    "Am",
+    "%",
+    "G",
+    "Fmaj7",
+    "Dm7",
+    "Am",
+    "%",
+    "F6"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    "Dm7",
+    "Am7",
+    "F6",
+    "Am7",
+    "%",
+    "%",
+    "Fmaj7",
+    "Dm",
+    "Am",
+    "%",
+    "Fmaj7",
+    "Dm",
+    "%",
+    "%",
+    "Fmaj7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Dm",
+    "Am",
+    "%",
+    "%",
+    "Fmaj7",
+    "Dm",
+    "%",
+    "F6",
+    "%",
+    "Dm7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "Am",
+    "F6",
+    "Am7",
+    "%",
+    "%",
+    "Fmaj7",
+    "Dm",
+    "Am",
+    "%",
+    "Fmaj7",
+    "Dm",
+    "%",
+    "%",
+    "Fmaj7",
+    "Dm7",
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "%",
+    "Fmaj7",
+    "Fmaj7",
+    "Dm7",
+    "Am",
+    "%",
+    "Fmaj7",
+    "Am",
+    "%",
+    "Fmaj7",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "Fmaj7",
+    "Dm7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "Am",
+    "%",
+    "Fmaj7",
+    "Dm7",
+    "%",
+    "%",
+    "Fmaj7",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima",
+ "deezerId": 2652525182
+}

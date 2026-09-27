@@ -1,0 +1,162 @@
+{
+ "title": "Quando",
+ "artist": "Pino Daniele",
+ "album": "quando  o ssaje comme fa o core",
+ "year": 1991,
+ "genre": "Cantautori",
+ "difficulty": 4,
+ "youtubeId": "hLulFZMfYmY",
+ "key": "Am7",
+ "bpm": 59.48,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.29,
+ "strum": "D---D-DU",
+ "lyricsSource": {
+  "lrclibId": 34672810,
+  "duration": 216,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Am7 – F#m7 – Cm7 – Em – F#7 – E7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Am7",
+    "%",
+    "%"
+   ],
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "Am7",
+    "F#m7",
+    "%",
+    "Am7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Am7",
+    "F#m7",
+    "%",
+    "%",
+    "%",
+    "Cm7",
+    "%",
+    "%",
+    "%",
+    "Em",
+    [
+     "Dm7:1",
+     "C:1"
+    ],
+    [
+     "F#7:1",
+     "Bm7:1",
+     "E7:1"
+    ],
+    "Am7",
+    "%",
+    "%",
+    "Am7",
+    "F#m7",
+    "%",
+    "Am7",
+    "%",
+    "Cm7",
+    "%",
+    "%",
+    "%",
+    "Em",
+    [
+     "Dm7:1",
+     "C:1"
+    ],
+    [
+     "F#7:1",
+     "Bm7:1",
+     "E7:1"
+    ],
+    "Am7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "Cm7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  }
+ ],
+ "warp": [
+  [
+   3,
+   12.055
+  ],
+  [
+   7,
+   28.155
+  ],
+  [
+   11,
+   44.62
+  ],
+  [
+   16,
+   65.26
+  ],
+  [
+   20,
+   81.325
+  ],
+  [
+   26,
+   105.24
+  ],
+  [
+   30,
+   121.29
+  ],
+  [
+   34,
+   137.335
+  ],
+  [
+   38,
+   153.335
+  ],
+  [
+   47,
+   189.6
+  ],
+  [
+   49,
+   197.72
+  ]
+ ],
+ "strumSource": "stima"
+}

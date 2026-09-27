@@ -1,0 +1,279 @@
+{
+ "title": "Un senso",
+ "artist": "Vasco Rossi",
+ "album": "Canzoni D'autore 2",
+ "year": 2004,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "DWL7kYgvAgs",
+ "key": "F",
+ "bpm": 65.96,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.43,
+ "strum": "D--UD-DU",
+ "lyricsSource": {
+  "lrclibId": 36961597,
+  "duration": 246,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F – G – Eb – Em7 – D – Em.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G",
+    "Em7",
+    "F",
+    "D"
+   ],
+   "strum": "D-------"
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "G",
+    "Em7",
+    "F",
+    "D",
+    "G",
+    "Em7",
+    "F",
+    "D",
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    [
+     "Bb:2",
+     "Cm7:2"
+    ],
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    [
+     "Bb:2",
+     "Cm7:2"
+    ],
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    [
+     "Bb:2",
+     "Cm7:2"
+    ],
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "G:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "G",
+    [
+     "Em7:2",
+     "Em:2"
+    ],
+    "F",
+    "D",
+    "G",
+    [
+     "Em7:2",
+     "Em:2"
+    ],
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "D:2"
+    ],
+    "G",
+    "Em7",
+    "F",
+    "D",
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    [
+     "Bb:2",
+     "Cm7:2"
+    ],
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "G:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "G",
+    [
+     "Em7:2",
+     "Em:2"
+    ],
+    "F",
+    "D",
+    "G",
+    [
+     "Em7:2",
+     "Em:2"
+    ],
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    [
+     "G:2",
+     "Em7:2"
+    ],
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "G:2"
+    ],
+    "G",
+    "%",
+    "C",
+    [
+     "C:2",
+     "Eb:2"
+    ],
+    "%",
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "F",
+    [
+     "G:1",
+     "Em:1",
+     "F:1",
+     "D:1"
+    ],
+    "G",
+    [
+     "Em7:2",
+     "Em:2"
+    ],
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    [
+     "G:2",
+     "Em7:2"
+    ],
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    [
+     "G:2",
+     "Em7:2"
+    ],
+    "Eb",
+    "%",
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    "%",
+    [
+     "F:2",
+     "G:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   14.73
+  ],
+  [
+   8,
+   29.343
+  ],
+  [
+   14,
+   51.58
+  ],
+  [
+   18,
+   66.201
+  ],
+  [
+   22,
+   80.693
+  ],
+  [
+   28,
+   102.23
+  ],
+  [
+   32,
+   116.784
+  ],
+  [
+   36,
+   131.333
+  ],
+  [
+   40,
+   146.013
+  ],
+  [
+   44,
+   160.567
+  ],
+  [
+   53,
+   192.817
+  ],
+  [
+   57,
+   207.97
+  ],
+  [
+   61,
+   222.851
+  ]
+ ],
+ "strumSource": "stima"
+}

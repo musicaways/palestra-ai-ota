@@ -1,0 +1,256 @@
+{
+ "title": "Male di miele",
+ "artist": "Afterhours",
+ "album": "Foto Di Pura Gioia: Antologia 1987 - 2017",
+ "year": 1997,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "0ECJoiGkBpk",
+ "key": "Bm",
+ "bpm": 91.02,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.64,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36841391,
+  "duration": 164.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – Bm – G – B – C#m.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bm",
+    "G",
+    "A",
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    [
+     "G:2",
+     "A:2"
+    ]
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Bm:1",
+     "G:2",
+     "A:1"
+    ],
+    [
+     "Bm:1",
+     "G:2",
+     "A:1"
+    ],
+    [
+     "Bm:1",
+     "G:2",
+     "A:1"
+    ],
+    [
+     "Bm:1",
+     "G:2",
+     "A:1"
+    ],
+    [
+     "Bm:1",
+     "G:1",
+     "A:1",
+     "Bm:1"
+    ],
+    "Bm",
+    "G",
+    "A",
+    "Bm",
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    [
+     "G:2",
+     "A:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Bm:1",
+     "G:2",
+     "A:1"
+    ],
+    [
+     "Bm:1",
+     "G:2",
+     "A:1"
+    ],
+    [
+     "Bm:1",
+     "G:2",
+     "A:1"
+    ],
+    [
+     "Bm:1",
+     "G:2",
+     "A:1"
+    ],
+    [
+     "Bm:1",
+     "G:2",
+     "A:1"
+    ],
+    [
+     "Bm:1",
+     "G:2",
+     "A:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "Bm:1",
+     "G:2",
+     "A:1"
+    ],
+    "Bm",
+    [
+     "G:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    "A",
+    [
+     "Bm:1",
+     "G:2",
+     "A:1"
+    ],
+    [
+     "Bm:1",
+     "G:2",
+     "A:1"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Bm:1",
+     "G:2",
+     "A:1"
+    ],
+    [
+     "Bm:1",
+     "G:2",
+     "A:1"
+    ],
+    [
+     "Bm:1",
+     "G:2",
+     "A:1"
+    ],
+    [
+     "Bm:1",
+     "G:2",
+     "A:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "Bm:1",
+     "G:2",
+     "A:1"
+    ],
+    "C#m",
+    [
+     "A:2",
+     "B:2"
+    ],
+    [
+     "B:2",
+     "C#m:2"
+    ],
+    [
+     "C#m:2",
+     "A:2"
+    ],
+    "B"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    [
+     "Bm:1",
+     "G:2",
+     "A:1"
+    ],
+    [
+     "Bm:1",
+     "G:2",
+     "A:1"
+    ],
+    [
+     "Bm:1",
+     "G:2",
+     "A:1"
+    ],
+    [
+     "Bm:1",
+     "G:2",
+     "A:1"
+    ],
+    [
+     "Bm:1",
+     "G:2",
+     "A:1"
+    ],
+    "Bm",
+    "G",
+    "A"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  }
+ ],
+ "strumSource": "stima"
+}

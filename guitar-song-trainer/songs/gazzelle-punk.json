@@ -1,0 +1,315 @@
+{
+ "title": "Punk",
+ "artist": "Gazzelle",
+ "album": "Gazzelle",
+ "year": 2019,
+ "genre": "Indie",
+ "difficulty": 5,
+ "youtubeId": "Jc8K5NuWTz0",
+ "key": "E",
+ "bpm": 134.6,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.07,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36838752,
+  "duration": 234,
+  "offset": 0
+ },
+ "notes": "Accordi principali: E – F#m – D – Amaj7 – A – Dmaj7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "A",
+    "C#m",
+    "D",
+    "F#m",
+    "E",
+    "A",
+    "C#m",
+    "D",
+    "F#m",
+    "%",
+    "A",
+    "C#m",
+    "D",
+    "F#m"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "A",
+    "C#m",
+    "D",
+    "F#m",
+    "%",
+    [
+     "E7:2",
+     "A:2"
+    ],
+    "C#m",
+    "%",
+    "D",
+    "%",
+    "F#m",
+    "E",
+    "D",
+    "A",
+    "E",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "F#m",
+    "%",
+    "D",
+    "A",
+    "E",
+    "%",
+    "F#m",
+    "Dmaj7",
+    [
+     "Dmaj7:2",
+     "Amaj7:2"
+    ],
+    "%",
+    "E",
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    "%",
+    "Dmaj7",
+    [
+     "Dmaj7:2",
+     "Amaj7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "E",
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    "%",
+    "C#7",
+    "D",
+    "Amaj7",
+    "E",
+    "%",
+    "F#m",
+    "C#7",
+    "D",
+    "Amaj7",
+    "%",
+    "E",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "A",
+    "C#m",
+    "D",
+    "%",
+    "F#m",
+    "E7",
+    "A",
+    "C#m",
+    "D",
+    "%",
+    "F#m",
+    "E",
+    "Dmaj7",
+    "Amaj7",
+    "E",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "F#m7",
+    "%",
+    "Dmaj7",
+    "Amaj7",
+    "E",
+    "%",
+    "F#m7",
+    "E",
+    "Dmaj7",
+    "Amaj7",
+    "E",
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    "%",
+    "C#7",
+    "D",
+    "Amaj7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "%",
+    "E",
+    "F#m",
+    "C#7",
+    "D",
+    "Amaj7",
+    "%",
+    "E",
+    "F#m",
+    "C#7",
+    "Dmaj7",
+    "Amaj7",
+    "%",
+    "E",
+    "F#m7",
+    "C#7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 8",
+   "bars": [
+    "Dmaj7",
+    "Amaj7",
+    "%",
+    "E",
+    "F#m7",
+    "C#",
+    "D",
+    "A",
+    "%",
+    "C#m",
+    [
+     "C#m:2",
+     "D:2"
+    ],
+    "%",
+    [
+     "D:2",
+     "F#m:2"
+    ],
+    "%",
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    "%",
+    "Dmaj7",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   14,
+   26.044
+  ],
+  [
+   19,
+   34.959
+  ],
+  [
+   26,
+   47.441
+  ],
+  [
+   31,
+   56.441
+  ],
+  [
+   37,
+   67.092
+  ],
+  [
+   43,
+   77.838
+  ],
+  [
+   49,
+   88.588
+  ],
+  [
+   55,
+   99.44
+  ],
+  [
+   65,
+   117.304
+  ],
+  [
+   70,
+   126.186
+  ],
+  [
+   77,
+   138.701
+  ],
+  [
+   82,
+   147.648
+  ],
+  [
+   88,
+   158.408
+  ],
+  [
+   94,
+   169.119
+  ],
+  [
+   99,
+   177.529
+  ],
+  [
+   104,
+   186.357
+  ],
+  [
+   110,
+   197.055
+  ],
+  [
+   114,
+   204.31
+  ],
+  [
+   120,
+   215.079
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 3690590422
+}

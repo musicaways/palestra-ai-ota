@@ -1,0 +1,309 @@
+{
+ "title": "Boulevard of Broken Dreams",
+ "artist": "Green Day",
+ "album": "American Idiot (PBTHAL 24/96)",
+ "year": 2004,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "hBvJyi3fbtA",
+ "key": "Ab",
+ "bpm": 83.45,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 1,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.22,
+ "strum": "P-P-D-DU",
+ "lyricsSource": {
+  "lrclibId": 36937691,
+  "duration": 262.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – Em – D – A – C – F5.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Fm",
+    "Ab",
+    "Eb",
+    "Bb"
+   ],
+   "strum": "D---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Fm:2",
+     "Ab:2"
+    ],
+    [
+     "Eb:1",
+     "Bb:2",
+     "Fm:1"
+    ],
+    "Ab",
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    [
+     "Fm:2",
+     "Ab:2"
+    ],
+    [
+     "Eb:2",
+     "Bb:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "Fm:2",
+     "Ab:2"
+    ],
+    [
+     "Eb:1",
+     "Bb:2",
+     "Fm:1"
+    ],
+    "Ab",
+    [
+     "Eb:2",
+     "Bb:1",
+     "Fm:1"
+    ],
+    [
+     "Fm:1",
+     "Ab:1",
+     "Eb:2"
+    ],
+    "Bb",
+    "%",
+    "Bb",
+    [
+     "Db:2",
+     "Ab:2"
+    ],
+    [
+     "Eb:2",
+     "Fm:2"
+    ],
+    [
+     "Db:2",
+     "Ab:2"
+    ],
+    [
+     "Eb:2",
+     "Fm:2"
+    ],
+    [
+     "Db:2",
+     "Ab:2"
+    ],
+    [
+     "Eb:2",
+     "Fm:2"
+    ],
+    "Db",
+    "%",
+    "Ab",
+    "%",
+    "C7",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Fm:2",
+     "Ab:2"
+    ],
+    [
+     "Eb:1",
+     "Bb:2",
+     "Fm:1"
+    ],
+    "Ab",
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    [
+     "Fm:2",
+     "Ab:2"
+    ],
+    [
+     "Eb:2",
+     "Bb:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "Fm:2",
+     "Ab:2"
+    ],
+    [
+     "Eb:1",
+     "Bb:2",
+     "Fm:1"
+    ],
+    "Ab",
+    [
+     "Eb:2",
+     "Bb:1",
+     "Fm:1"
+    ],
+    [
+     "Fm:1",
+     "Ab:1",
+     "Eb:2"
+    ],
+    "Bb",
+    "%",
+    "Bb",
+    [
+     "Db:2",
+     "Ab:2"
+    ],
+    [
+     "Eb:2",
+     "Fm:2"
+    ],
+    [
+     "Db:2",
+     "Ab:2"
+    ],
+    [
+     "Eb:2",
+     "Fm:2"
+    ],
+    [
+     "Db:2",
+     "Ab:2"
+    ],
+    [
+     "Eb:2",
+     "Fm:2"
+    ],
+    "Db",
+    [
+     "Db:2",
+     "Ab:2"
+    ],
+    "%",
+    [
+     "Ab:2",
+     "C7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Fm:1",
+     "Ab:1",
+     "Eb:1",
+     "Bb:1"
+    ],
+    "Db",
+    "Ab",
+    "Eb",
+    "Fm",
+    "Db",
+    "Ab",
+    "Eb",
+    "Fm",
+    "Db"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "Fm:2",
+     "Ab:2"
+    ],
+    [
+     "Eb:1",
+     "Bb:2",
+     "Fm:1"
+    ],
+    "Ab",
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    [
+     "Db:2",
+     "Ab:2"
+    ],
+    [
+     "Eb:2",
+     "Fm:2"
+    ],
+    [
+     "Db:2",
+     "Ab:2"
+    ],
+    [
+     "Eb:2",
+     "Fm:2"
+    ],
+    [
+     "Db:2",
+     "Ab:2"
+    ],
+    [
+     "Eb:2",
+     "Fm:2"
+    ],
+    [
+     "Db:1",
+     "Ab:2",
+     "C7:1"
+    ],
+    "Gb5",
+    "D5",
+    "E5",
+    "Eb5",
+    "A5",
+    "F5",
+    "Gb5",
+    "D5",
+    "E5",
+    "Eb5",
+    "A5",
+    "F5",
+    "Gb5",
+    "D5",
+    "E5",
+    "Eb5"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  }
+ ],
+ "strumSource": "stima",
+ "deezerId": 5931803,
+ "keySource": "disco in Fa minore (anteprima Deezer): accordi +1, forme con capotasto al 1° tasto"
+}

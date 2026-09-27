@@ -1,0 +1,245 @@
+{
+ "title": "Il cielo nella stanza",
+ "artist": "Salmo, NSTASIA",
+ "album": "Playlist",
+ "year": 2018,
+ "genre": "Rap / Hip-hop",
+ "difficulty": 1,
+ "youtubeId": "xJoa1tNRngI",
+ "key": "Si bemolle minore (Bbm)",
+ "bpm": 130.2,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 1,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.48,
+ "strum": "D--D--D-",
+ "lyricsSource": {
+  "lrclibId": 23209957,
+  "offset": 0
+ },
+ "notes": "Si suona col capotasto al 1° tasto: forme Am – C – Am – G nelle strofe, C – Em – F – Am – G nel ritornello. Accordi facilissimi.",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. Se gli accordi sono in anticipo o in ritardo usa Sincronia; per l'allineamento perfetto Registra tempi.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bbm",
+    "Db",
+    "Bbm",
+    "Ab",
+    "Bbm",
+    "Db",
+    "Bbm",
+    "Ab"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Bbm",
+    "Db",
+    "Bbm",
+    "Ab",
+    "Bbm",
+    "Db",
+    "Bbm",
+    "Ab",
+    "Bbm",
+    "Db",
+    "Bbm",
+    "Ab",
+    "Bbm",
+    "Db",
+    "Bbm",
+    "Ab",
+    "Bbm",
+    "Db",
+    "Bbm",
+    "Ab",
+    "Bbm",
+    "Db",
+    "Bbm",
+    "Ab",
+    "Bbm",
+    "Db",
+    "Bbm",
+    "Ab"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Db",
+    "Fm",
+    "Db",
+    "Fm",
+    "Gb",
+    "Bbm",
+    "Db",
+    "Ab",
+    "Db",
+    "Fm",
+    "Db",
+    "Fm"
+   ],
+   "barsPerRow": 8,
+   "strum": "D--D-UDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Bbm",
+    "Db",
+    "Bbm",
+    "Ab",
+    "Bbm",
+    "Db",
+    "Bbm",
+    "Ab",
+    "Bbm",
+    "Db",
+    "Bbm",
+    "Ab",
+    "Bbm",
+    "Db",
+    "Bbm",
+    "Ab",
+    "Bbm",
+    "Db",
+    "Bbm",
+    "Ab",
+    "Bbm",
+    "Db",
+    "Bbm",
+    "Ab"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Db",
+    "Fm",
+    "Db",
+    "Fm",
+    "Gb",
+    "Bbm",
+    "Db",
+    "Ab",
+    "Db",
+    "Fm",
+    "Db",
+    "Fm"
+   ],
+   "barsPerRow": 8,
+   "strum": "D--D-UDU"
+  },
+  {
+   "name": "Ponte",
+   "bars": [
+    "Bbm",
+    "Db",
+    "Bbm",
+    "Ab",
+    "Gb",
+    "Fm",
+    "Bbm",
+    "%"
+   ],
+   "strum": "D---D---"
+  },
+  {
+   "name": "Outro",
+   "bars": [
+    "Db",
+    "Fm",
+    "Gb",
+    "Bbm",
+    "Db",
+    "Fm",
+    "Gb",
+    "Bbm"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  }
+ ],
+ "warp": [
+  [
+   11,
+   21.687
+  ],
+  [
+   16,
+   30.877
+  ],
+  [
+   22,
+   42.187
+  ],
+  [
+   26,
+   49.49
+  ],
+  [
+   31,
+   58.267
+  ],
+  [
+   38,
+   71.393
+  ],
+  [
+   43,
+   80.77
+  ],
+  [
+   50,
+   93.813
+  ],
+  [
+   54,
+   101.24
+  ],
+  [
+   58,
+   108.613
+  ],
+  [
+   62,
+   115.83
+  ],
+  [
+   67,
+   124.963
+  ],
+  [
+   73,
+   135.737
+  ],
+  [
+   78,
+   144.787
+  ],
+  [
+   82,
+   152.53
+  ],
+  [
+   93,
+   172.92
+  ],
+  [
+   97,
+   180.357
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 572152542
+}

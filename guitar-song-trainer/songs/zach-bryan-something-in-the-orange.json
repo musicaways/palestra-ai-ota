@@ -1,0 +1,261 @@
+{
+ "title": "Something in the Orange",
+ "artist": "Zach Bryan",
+ "album": "20s Hits",
+ "year": 2022,
+ "genre": "Country",
+ "difficulty": 2,
+ "youtubeId": "sDOxeU02NUM",
+ "key": "G",
+ "bpm": 117.98,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.68,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36986143,
+  "duration": 228,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – Em7 – D – C – Em.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Em7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "Em7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G",
+    "Em7",
+    "%",
+    "G",
+    "Em7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Em7",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "Em7",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "Em",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "C:2",
+     "G:2"
+    ],
+    "%",
+    "D",
+    "Em",
+    "C",
+    "G",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%",
+    "Em",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "Em7",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "Em7",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "C:2",
+     "G:2"
+    ],
+    "%",
+    "D",
+    "Em7",
+    "C",
+    "G",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%",
+    "Em",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "C:2",
+     "G:2"
+    ],
+    "%",
+    "D",
+    "Em7",
+    "C",
+    "G",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "C",
+    "G",
+    "D",
+    "Em",
+    "C",
+    "G",
+    "D",
+    "Em7",
+    "D",
+    "%",
+    "%",
+    "Em7",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   16,
+   33.237
+  ],
+  [
+   26,
+   53.58
+  ],
+  [
+   30,
+   61.717
+  ],
+  [
+   37,
+   76
+  ],
+  [
+   44,
+   90.336
+  ],
+  [
+   49,
+   100.507
+  ],
+  [
+   60,
+   122.86
+  ],
+  [
+   67,
+   137.09
+  ],
+  [
+   74,
+   151.33
+  ],
+  [
+   78,
+   159.405
+  ],
+  [
+   90,
+   183.816
+  ],
+  [
+   94,
+   191.953
+  ],
+  [
+   98,
+   200.065
+  ],
+  [
+   102,
+   208.162
+  ],
+  [
+   106,
+   216.175
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 1714552247
+}

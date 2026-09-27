@@ -1,0 +1,279 @@
+{
+ "title": "Cenere",
+ "artist": "Lazza",
+ "album": "mix manu",
+ "year": 2023,
+ "genre": "Rap / Hip-hop",
+ "difficulty": 3,
+ "youtubeId": "Rt5tJI-q2kE",
+ "key": "Am",
+ "bpm": 120.3,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.1,
+ "strum": "B--D-UD-",
+ "lyricsSource": {
+  "lrclibId": 33889924,
+  "duration": 208,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Am – Dm – Bbadd9 – C6 – Gm – Am7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Am",
+    "%",
+    [
+     "Am:2",
+     "Bbadd9:2"
+    ],
+    "%",
+    "%",
+    "C6",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Dm",
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    "%",
+    "Bbadd9",
+    "%",
+    "C6",
+    "%",
+    "%",
+    "Dm",
+    "%",
+    "Am",
+    "%",
+    "Bbadd9",
+    "%",
+    "C6",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUXUDU"
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "Dm",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "Bbadd9",
+    "%",
+    "C6",
+    "%",
+    "%",
+    "%",
+    "Dm",
+    "%",
+    "Am",
+    "%",
+    "Bbadd9"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "C6",
+    "%",
+    "Dm",
+    "%",
+    "Am",
+    "%",
+    "Bbadd9",
+    "%",
+    "C6",
+    "%",
+    "%",
+    "Dm",
+    "%",
+    "%",
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "%",
+    "Bbadd9",
+    "%",
+    "C6",
+    "%",
+    "Dm",
+    "%",
+    "Am",
+    "%",
+    "Bbadd9",
+    "%",
+    "C6",
+    "%",
+    "Gm",
+    "Am",
+    "Dm",
+    "Am",
+    "Bbmaj7",
+    "Gm",
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Dm",
+    "%",
+    "%",
+    "Am7",
+    "%",
+    "Bbadd9",
+    "%",
+    "C6",
+    "%",
+    "Dm",
+    "%",
+    "Am",
+    "%",
+    "Bbadd9",
+    "%",
+    [
+     "Bbadd9:2",
+     "C6:2"
+    ],
+    "%",
+    [
+     "C6:2",
+     "Dm:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUXUDU"
+  }
+ ],
+ "warp": [
+  [
+   0,
+   0.435
+  ],
+  [
+   4,
+   8.415
+  ],
+  [
+   8,
+   16.33
+  ],
+  [
+   13,
+   26.115
+  ],
+  [
+   19,
+   37.77
+  ],
+  [
+   24,
+   47.745
+  ],
+  [
+   28,
+   55.745
+  ],
+  [
+   33,
+   65.815
+  ],
+  [
+   37,
+   73.865
+  ],
+  [
+   41,
+   81.79
+  ],
+  [
+   45,
+   89.77
+  ],
+  [
+   49,
+   97.74
+  ],
+  [
+   53,
+   105.545
+  ],
+  [
+   57,
+   113.34
+  ],
+  [
+   64,
+   127.305
+  ],
+  [
+   68,
+   135.795
+  ],
+  [
+   72,
+   143.775
+  ],
+  [
+   78,
+   155.81
+  ],
+  [
+   85,
+   169.775
+  ],
+  [
+   89,
+   177.79
+  ],
+  [
+   93,
+   185.74
+  ],
+  [
+   97,
+   193.72
+  ],
+  [
+   98,
+   195.715
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 2142601627
+}

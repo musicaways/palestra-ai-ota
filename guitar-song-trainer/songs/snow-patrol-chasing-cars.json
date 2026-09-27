@@ -1,0 +1,304 @@
+{
+ "title": "Chasing Cars",
+ "artist": "Snow Patrol",
+ "album": "2006! Songs of the Year",
+ "year": 2006,
+ "genre": "Rock",
+ "difficulty": 1,
+ "youtubeId": "rbgiJu7YFvo",
+ "key": "D",
+ "bpm": 104.54,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.04,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37017811,
+  "duration": 268,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – A.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "D",
+    "%",
+    "%"
+   ],
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "D",
+    "%",
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "%",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "%",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 7",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "D",
+    "%",
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 8",
+   "bars": [
+    "%",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 9",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 10",
+   "bars": [
+    "A",
+    "%",
+    "%",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 11",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 12",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 13",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 14",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "D",
+    "%",
+    "%",
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   3,
+   7.054
+  ],
+  [
+   7,
+   16.237
+  ],
+  [
+   13,
+   29.985
+  ],
+  [
+   20,
+   46.082
+  ],
+  [
+   27,
+   62.25
+  ],
+  [
+   35,
+   80.616
+  ],
+  [
+   42,
+   95.928
+  ],
+  [
+   50,
+   114.246
+  ],
+  [
+   74,
+   169.465
+  ],
+  [
+   82,
+   188.184
+  ],
+  [
+   90,
+   206.55
+  ],
+  [
+   98,
+   224.918
+  ],
+  [
+   106,
+   243.568
+  ],
+  [
+   110,
+   252.82
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 796301352
+}

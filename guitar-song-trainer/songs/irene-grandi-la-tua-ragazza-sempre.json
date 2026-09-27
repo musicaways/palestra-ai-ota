@@ -1,0 +1,269 @@
+{
+ "title": "La tua ragazza sempre",
+ "artist": "Irene Grandi",
+ "album": "Irene Grandi",
+ "year": 2000,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "CYUCMMwEnsc",
+ "key": "C#m7",
+ "bpm": 94.24,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.26,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34699426,
+  "duration": 251,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C#m7 – D – A – C# – F – Bm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "%",
+    "%",
+    "C#m7",
+    "%"
+   ],
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "%",
+    "C#m7",
+    "%",
+    "%",
+    "%",
+    "C#m7",
+    "D",
+    "E",
+    "A",
+    "C#",
+    "D",
+    "F",
+    "A",
+    "C#",
+    "D",
+    [
+     "D:2",
+     "F:2"
+    ],
+    "%",
+    "%",
+    [
+     "C#m7:2",
+     "Bm7:2"
+    ],
+    [
+     "Bm7:2",
+     "C#m7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "C#m7",
+    "C#m7",
+    "C#m7",
+    "%",
+    "C#m7",
+    "%",
+    "C#m7",
+    "D",
+    "E",
+    "A",
+    "C#",
+    "D",
+    "F",
+    "A",
+    "C#",
+    "D",
+    "F",
+    [
+     "A:1",
+     "C#:1",
+     "D:1",
+     "F:1"
+    ],
+    "A",
+    "C#",
+    "D",
+    "A",
+    "C#",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "F",
+    "%",
+    [
+     "C:2",
+     "C4:2"
+    ],
+    [
+     "C:2",
+     "C4:2"
+    ],
+    [
+     "C:2",
+     "Fadd9:2"
+    ],
+    [
+     "C:2",
+     "Fadd9:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "C:1",
+     "C4:1",
+     "C:1",
+     "C4:1"
+    ],
+    "%",
+    "A",
+    "Em7",
+    "%",
+    "C#m7",
+    "Bm7",
+    "C#m7",
+    "%",
+    "%",
+    [
+     "C#m7:2",
+     "Bm7:2"
+    ],
+    [
+     "C#m7:2",
+     "B4:2"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "A",
+    "C#",
+    "D",
+    [
+     "F:2",
+     "A:2"
+    ],
+    "C#",
+    "%",
+    "D",
+    "F",
+    "%",
+    "%",
+    "Bm7",
+    "C#m7",
+    "%",
+    "%",
+    "Bm7",
+    "C#m7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "%",
+    "Bm7",
+    "%",
+    "%",
+    "C#m7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  }
+ ],
+ "warp": [
+  [
+   4,
+   12.183
+  ],
+  [
+   8,
+   22.533
+  ],
+  [
+   15,
+   40.36
+  ],
+  [
+   22,
+   58.126
+  ],
+  [
+   28,
+   73.407
+  ],
+  [
+   37,
+   96.54
+  ],
+  [
+   43,
+   111.943
+  ],
+  [
+   50,
+   129.69
+  ],
+  [
+   56,
+   144.907
+  ],
+  [
+   68,
+   175.3
+  ],
+  [
+   73,
+   188.033
+  ],
+  [
+   79,
+   203.4
+  ],
+  [
+   84,
+   216.173
+  ],
+  [
+   89,
+   228.907
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 3899142
+}

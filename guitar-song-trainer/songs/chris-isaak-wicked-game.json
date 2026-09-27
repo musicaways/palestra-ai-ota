@@ -1,0 +1,274 @@
+{
+ "title": "Wicked Game",
+ "artist": "Chris Isaak",
+ "album": "800 chansons des années 80 - International",
+ "year": 1989,
+ "genre": "Rock",
+ "difficulty": 1,
+ "youtubeId": "yIQui6Y9Ho4",
+ "key": "A",
+ "bpm": 56.13,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.88,
+ "strum": "D-D-D-DU",
+ "lyricsSource": {
+  "lrclibId": 37017806,
+  "duration": 289,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – Bm – E.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bm",
+    "A",
+    "E",
+    "Bm",
+    "A",
+    "E",
+    "Bm",
+    "A"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "Bm:1",
+     "A:2",
+     "E:1"
+    ],
+    [
+     "Bm:1",
+     "A:2",
+     "E:1"
+    ],
+    [
+     "Bm:1",
+     "A:1",
+     "E:1",
+     "Bm:1"
+    ],
+    "%",
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "Bm:1",
+     "A:1",
+     "E:1",
+     "Bm:1"
+    ],
+    "Bm",
+    "A",
+    "E",
+    "Bm",
+    "A",
+    "E",
+    "Bm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "Bm:1",
+     "A:2",
+     "E:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "Bm:1",
+     "A:2",
+     "E:1"
+    ],
+    "Bm",
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   8,
+   35.18
+  ],
+  [
+   12,
+   52.138
+  ],
+  [
+   16,
+   69.047
+  ],
+  [
+   20,
+   86.15
+  ],
+  [
+   26,
+   113.067
+  ],
+  [
+   32,
+   137.811
+  ],
+  [
+   36,
+   154.862
+  ],
+  [
+   44,
+   188.849
+  ],
+  [
+   48,
+   205.918
+  ],
+  [
+   52,
+   222.815
+  ],
+  [
+   58,
+   248.47
+  ],
+  [
+   63,
+   270.69
+  ],
+  [
+   64,
+   275.169
+  ]
+ ],
+ "strumSource": "stima"
+}

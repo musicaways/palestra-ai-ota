@@ -1,0 +1,172 @@
+{
+ "title": "Vorrei",
+ "artist": "Lunapop",
+ "album": "...Squèrez? (20th Anniversary Edition - Deluxe Edition)",
+ "year": 1999,
+ "genre": "Pop",
+ "difficulty": 2,
+ "youtubeId": "bK1P4I1mm_I",
+ "key": "D",
+ "bpm": 70.14,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.14,
+ "strum": "B---D-DU",
+ "lyricsSource": {
+  "lrclibId": 36160528,
+  "duration": 141,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – G – Bm – A – Em.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "D",
+    "Bm",
+    "G",
+    "A",
+    "D",
+    "Bm"
+   ],
+   "barsPerRow": 4,
+   "strum": "B-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "G:2",
+     "A:2"
+    ],
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "G:2",
+     "A:2"
+    ],
+    "D",
+    "Bm",
+    "G",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "G:2",
+     "A:2"
+    ],
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "G:2",
+     "A:2"
+    ],
+    "D",
+    "Bm",
+    "G",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "G:2",
+     "A:2"
+    ],
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "G:2",
+     "A:2"
+    ],
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "G:2",
+     "A:2"
+    ],
+    "D",
+    "Bm",
+    "G",
+    [
+     "A:1",
+     "G:2"
+    ],
+    [
+     "Em:1",
+     "D:1",
+     "G:1",
+     "D:1"
+    ],
+    "D",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   6,
+   21.57
+  ],
+  [
+   10,
+   35.313
+  ],
+  [
+   16,
+   55.877
+  ],
+  [
+   22,
+   76.583
+  ],
+  [
+   28,
+   97.297
+  ],
+  [
+   33,
+   113.9
+  ],
+  [
+   38,
+   130.732
+  ]
+ ],
+ "strumSource": "stima"
+}

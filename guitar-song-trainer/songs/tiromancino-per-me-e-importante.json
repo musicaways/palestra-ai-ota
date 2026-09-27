@@ -1,0 +1,327 @@
+{
+ "title": "Per me è importante",
+ "artist": "Tiromancino",
+ "album": "[Unknown Album]",
+ "year": 2002,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "CNDWI4b9lVU",
+ "key": "Cmaj7",
+ "bpm": 137.88,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.03,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 35111152,
+  "duration": 263,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Cmaj7 – Am7 – Dm7 – Em – A – D7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Am7",
+    "Dm7",
+    "%",
+    "Dm7",
+    "%",
+    "Am",
+    "%",
+    "Am7",
+    "%",
+    "Dm7",
+    "%",
+    "Dm7",
+    "%",
+    "Am",
+    "%",
+    "Am7",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Dm7",
+    "%",
+    "Dm7",
+    "%",
+    "Am",
+    "%",
+    "Am7",
+    "%",
+    "Dm7",
+    "%",
+    "Dm7",
+    "%",
+    "Am",
+    "%",
+    "Am7",
+    "%",
+    "Fmaj7",
+    "%",
+    "B4",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Cmaj7",
+    "%",
+    "%",
+    "%",
+    "Cmaj7",
+    "%",
+    "Am7",
+    "D7",
+    "Cmaj7",
+    "%",
+    "%",
+    "%",
+    "Cmaj7",
+    "%",
+    "D7",
+    "%",
+    "Em",
+    "Cmaj7",
+    "A",
+    "Am7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Em:2",
+     "Cmaj7:2"
+    ],
+    [
+     "A:2",
+     "Am7:2"
+    ],
+    "Dm7",
+    "%",
+    "Dm7",
+    "%",
+    "Am7",
+    "%",
+    "Am7",
+    "%",
+    "Dm7",
+    "%",
+    "Dm7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Dm7",
+    "%",
+    "Dm7",
+    "%",
+    "Am",
+    "%",
+    "Am7",
+    "%",
+    "Dm7",
+    "%",
+    "Dm7",
+    "%",
+    [
+     "Am:2",
+     "Am7:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "Fmaj7",
+    "%",
+    "%",
+    "%",
+    "B4",
+    "%",
+    "%",
+    "%",
+    "Cmaj7",
+    "%",
+    "%",
+    "%",
+    "Cmaj7",
+    "%",
+    "Am7",
+    "D7",
+    "Cmaj7",
+    "%",
+    "%",
+    "%",
+    "Cmaj7",
+    "%",
+    "D7",
+    "%",
+    "Em",
+    "Cmaj7",
+    "A",
+    "Am7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    [
+     "Em:2",
+     "Cmaj7:2"
+    ],
+    [
+     "A:2",
+     "Am7:2"
+    ],
+    "Cmaj7",
+    "%",
+    "%",
+    "%",
+    "Cmaj7",
+    "%",
+    "Am7",
+    "%",
+    "D7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strumentale",
+   "bars": [
+    "Cmaj7",
+    "%",
+    "%",
+    "%",
+    "Cmaj7",
+    "%",
+    "D7",
+    "%",
+    "Em",
+    "Cmaj7",
+    "A",
+    "Am7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    [
+     "Em:2",
+     "Cmaj7:2"
+    ],
+    [
+     "A:2",
+     "Am7:2"
+    ],
+    "Cmaj7",
+    "%",
+    "Cmaj7",
+    "%",
+    "Cmaj7",
+    "%",
+    "Cmaj7",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  }
+ ],
+ "warp": [
+  [
+   17,
+   29.537
+  ],
+  [
+   23,
+   40.053
+  ],
+  [
+   27,
+   47.119
+  ],
+  [
+   33,
+   57.571
+  ],
+  [
+   41,
+   71.496
+  ],
+  [
+   47,
+   81.879
+  ],
+  [
+   51,
+   88.829
+  ],
+  [
+   57,
+   99.269
+  ],
+  [
+   74,
+   128.822
+  ],
+  [
+   80,
+   139.207
+  ],
+  [
+   86,
+   149.874
+  ],
+  [
+   92,
+   160.47
+  ],
+  [
+   98,
+   170.914
+  ],
+  [
+   105,
+   183.055
+  ],
+  [
+   110,
+   191.479
+  ],
+  [
+   114,
+   198.441
+  ],
+  [
+   132,
+   229.773
+  ],
+  [
+   142,
+   247.306
+  ]
+ ],
+ "strumSource": "stima",
+ "introSource": "stima: giro della prima parte cantata (la fonte non riportava gli accordi dell'intro)"
+}

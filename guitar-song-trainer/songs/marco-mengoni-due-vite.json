@@ -1,0 +1,291 @@
+{
+ "title": "Due vite",
+ "artist": "Marco Mengoni",
+ "album": "MATERIA (PELLE) (Atmos version)",
+ "year": 2023,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "LsgrUv-GtUE",
+ "key": "A",
+ "bpm": 119.43,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.78,
+ "strum": "B-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 36575700,
+  "duration": 226,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – Bm – Em – Dmaj7 – D – G6.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Dmaj7"
+   ]
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Dmaj7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "D",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bm",
+    "%",
+    "G6",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%",
+    "Em",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%",
+    "Bm",
+    "A",
+    "%",
+    "Em",
+    "A",
+    "%",
+    "%",
+    "%",
+    "Bm",
+    "A",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "Dmaj7",
+    "%",
+    "%",
+    "Dmaj7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bm7",
+    "%",
+    "G",
+    "%",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "A",
+    "%",
+    "Em",
+    "A",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bm",
+    "A",
+    "%",
+    "Em",
+    "A",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "%",
+    "Bm",
+    "A",
+    "Em7",
+    "%",
+    "A7",
+    "%",
+    "%",
+    "%",
+    "Bm",
+    "A",
+    "G6",
+    "%",
+    "Em",
+    "%",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "Bm",
+    "A",
+    "A",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "Dmaj7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "B---D---"
+  }
+ ],
+ "warp": [
+  [
+   1,
+   3.93
+  ],
+  [
+   5,
+   11.88
+  ],
+  [
+   9,
+   19.869
+  ],
+  [
+   13,
+   27.98
+  ],
+  [
+   17,
+   36.06
+  ],
+  [
+   21,
+   44.151
+  ],
+  [
+   25,
+   52.014
+  ],
+  [
+   29,
+   59.848
+  ],
+  [
+   33,
+   67.886
+  ],
+  [
+   37,
+   76.128
+  ],
+  [
+   41,
+   84.243
+  ],
+  [
+   45,
+   92.281
+  ],
+  [
+   50,
+   102.3
+  ],
+  [
+   54,
+   110.01
+  ],
+  [
+   58,
+   118.249
+  ],
+  [
+   62,
+   126.238
+  ],
+  [
+   68,
+   137.791
+  ],
+  [
+   72,
+   145.829
+  ],
+  [
+   76,
+   154.243
+  ],
+  [
+   80,
+   162.359
+  ],
+  [
+   84,
+   170.58
+  ],
+  [
+   88,
+   178.883
+  ],
+  [
+   92,
+   187.137
+  ],
+  [
+   96,
+   195.11
+  ],
+  [
+   102,
+   207.167
+  ],
+  [
+   105,
+   213.457
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 2141012867,
+ "spotifyId": "5htUUUBlgHZ9fztWTTDEFm"
+}

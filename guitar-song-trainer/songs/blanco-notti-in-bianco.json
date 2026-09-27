@@ -1,0 +1,264 @@
+{
+ "title": "Notti in bianco",
+ "artist": "Blanco",
+ "album": "Blu celeste",
+ "year": 2020,
+ "genre": "Pop",
+ "difficulty": 3,
+ "youtubeId": "pkneXZFLKgE",
+ "key": "Si maggiore (B)",
+ "bpm": 149.8,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.89,
+ "strum": "B-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 4581856,
+  "offset": 0
+ },
+ "notes": "Giro in Si con la settima maggiore (Bmaj7) e A#m7: accordi con barrè, prova il capotasto suggerito. Il 6 del ritornello (B6) è semplificato in B.",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. Se gli accordi sono in anticipo o in ritardo usa Sincronia; per l'allineamento perfetto Registra tempi.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "B",
+    "%",
+    "A#m7",
+    "%"
+   ],
+   "strum": "B---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "B",
+    "%",
+    "A#m",
+    "%",
+    "B",
+    "%",
+    "A#m",
+    "%",
+    "B",
+    "%",
+    "A#m",
+    "%",
+    "B",
+    "%",
+    "A#m",
+    "%",
+    "B",
+    "%",
+    "A#m",
+    "%",
+    "B",
+    "%",
+    "A#m",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Pre-ritornello",
+   "bars": [
+    "B",
+    "%",
+    "Bmaj7",
+    "%",
+    "A#m7",
+    "%",
+    "A#m7",
+    "%"
+   ]
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Bmaj7",
+    "%",
+    "B",
+    "%",
+    "A#m7",
+    "%",
+    "F#/A#",
+    "%",
+    "Bmaj7",
+    "%",
+    "B",
+    "%"
+   ],
+   "barsPerRow": 8,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "B",
+    "%",
+    "A#m",
+    "%",
+    "B",
+    "%",
+    "A#m",
+    "%",
+    "B",
+    "%",
+    "A#m",
+    "%",
+    "B",
+    "%",
+    "A#m",
+    "%",
+    "B",
+    "%",
+    "A#m",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Pre-ritornello",
+   "bars": [
+    "B",
+    "%",
+    "Bmaj7",
+    "%",
+    "A#m7",
+    "%",
+    "A#m7",
+    "%"
+   ]
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Bmaj7",
+    "%",
+    "B",
+    "%",
+    "A#m7",
+    "%",
+    "F#/A#",
+    "%",
+    "Bmaj7",
+    "%",
+    "B",
+    "%"
+   ],
+   "barsPerRow": 8,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "Bmaj7",
+    "%",
+    "B",
+    "%",
+    "A#m7",
+    "%",
+    "F#/A#",
+    "%",
+    "Bmaj7",
+    "%",
+    "B",
+    "%",
+    "A#m7",
+    "%",
+    "F#/A#",
+    "%",
+    "Bmaj7",
+    "%",
+    "B",
+    "%"
+   ],
+   "barsPerRow": 8,
+   "strum": "B---D---"
+  },
+  {
+   "name": "Chiusura",
+   "bars": [
+    "B",
+    "%"
+   ]
+  }
+ ],
+ "warp": [
+  [
+   5,
+   9.047
+  ],
+  [
+   11,
+   18.66
+  ],
+  [
+   17,
+   28.274
+  ],
+  [
+   23,
+   37.794
+  ],
+  [
+   31,
+   50.33
+  ],
+  [
+   39,
+   62.905
+  ],
+  [
+   45,
+   72.449
+  ],
+  [
+   49,
+   78.857
+  ],
+  [
+   55,
+   88.52
+  ],
+  [
+   60,
+   96.784
+  ],
+  [
+   65,
+   104.661
+  ],
+  [
+   69,
+   111.069
+  ],
+  [
+   77,
+   123.554
+  ],
+  [
+   85,
+   136.631
+  ],
+  [
+   89,
+   143.233
+  ],
+  [
+   96,
+   154.54
+  ],
+  [
+   98,
+   157.961
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 1026600682,
+ "spotifyId": "1PWOkqMORYdGa0OEh2GaXM"
+}

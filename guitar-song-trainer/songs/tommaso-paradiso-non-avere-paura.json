@@ -1,0 +1,319 @@
+{
+ "title": "Non avere paura",
+ "artist": "Tommaso Paradiso",
+ "album": "Hot Party Winter 2020",
+ "year": 2019,
+ "genre": "Pop",
+ "difficulty": 3,
+ "youtubeId": "gKhkeuogQmQ",
+ "key": "C",
+ "bpm": 105.15,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.21,
+ "strum": "D--UD-DU",
+ "lyricsSource": {
+  "lrclibId": 36936093,
+  "duration": 248,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – G – Am7 – Fadd9 – G4 – G6.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "C",
+    "%",
+    "Am7",
+    "%",
+    "Fadd9",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "C",
+    "%",
+    "Am7",
+    "%",
+    "Fadd9",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Am7",
+    "%",
+    "Fadd9",
+    [
+     "G4:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "Am7",
+    "Fadd9",
+    "C",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "Am7",
+    "%",
+    "Fadd9",
+    "%",
+    "G4",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "C",
+    "Am7",
+    "%",
+    "%",
+    [
+     "Fadd9:2",
+     "G4:2"
+    ],
+    [
+     "G:2",
+     "C:2"
+    ],
+    "%",
+    "Am7",
+    "Fmaj7",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "Am7",
+    "%",
+    "Fadd9",
+    "%",
+    "G4",
+    [
+     "G:2",
+     "G6:2"
+    ],
+    "G"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "Am7",
+    "%",
+    "Fadd9",
+    "%",
+    [
+     "G4:1",
+     "G:1",
+     "G6:1",
+     "G:1"
+    ],
+    "C",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "Am7",
+    "%",
+    "Fadd9",
+    "%",
+    "G4",
+    [
+     "G:2",
+     "G6:2"
+    ],
+    "G"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "C",
+    "Am7",
+    "%",
+    "Fadd9",
+    "%",
+    "G4",
+    [
+     "G:2",
+     "G6:2"
+    ],
+    "G",
+    "C",
+    [
+     "C:2",
+     "Am7:2"
+    ],
+    "%",
+    "Fadd9"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "G",
+    "%",
+    "%",
+    "%",
+    [
+     "G:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D---"
+  }
+ ],
+ "warp": [
+  [
+   0,
+   0.385
+  ],
+  [
+   4,
+   9.39
+  ],
+  [
+   8,
+   18.52
+  ],
+  [
+   12,
+   27.65
+  ],
+  [
+   16,
+   36.828
+  ],
+  [
+   20,
+   45.89
+  ],
+  [
+   24,
+   55.12
+  ],
+  [
+   28,
+   64.125
+  ],
+  [
+   33,
+   75.543
+  ],
+  [
+   37,
+   84.655
+  ],
+  [
+   41,
+   93.79
+  ],
+  [
+   45,
+   102.932
+  ],
+  [
+   50,
+   114.477
+  ],
+  [
+   57,
+   130.53
+  ],
+  [
+   64,
+   146.392
+  ],
+  [
+   69,
+   157.71
+  ],
+  [
+   73,
+   166.42
+  ],
+  [
+   80,
+   182.397
+  ],
+  [
+   85,
+   194.14
+  ],
+  [
+   90,
+   205.765
+  ],
+  [
+   94,
+   214.92
+  ],
+  [
+   100,
+   228.615
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 759458182,
+ "spotifyId": "1qMx707PFdFXdwLvcUTNz3",
+ "introSource": "stima: giro della prima parte cantata (la fonte non riportava gli accordi dell'intro)"
+}

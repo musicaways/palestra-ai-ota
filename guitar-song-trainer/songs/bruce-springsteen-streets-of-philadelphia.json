@@ -1,0 +1,176 @@
+{
+ "title": "Streets of Philadelphia",
+ "artist": "Bruce Springsteen",
+ "album": "Kuschel Rock 9 CD1",
+ "year": 1993,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "WoFa19kB2d4",
+ "key": "Am",
+ "bpm": 96.82,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.25,
+ "strum": "P-P-D-DU",
+ "lyricsSource": {
+  "lrclibId": 37149599,
+  "duration": 196,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Am – F – Bb – Dm – C.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "F",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "F",
+    "Am",
+    "%",
+    "F",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "F",
+    "%",
+    "Am",
+    "%",
+    "F",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Bb",
+    "Dm",
+    "Bb",
+    "F",
+    "Am",
+    "Bb",
+    "%",
+    "C",
+    "%",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "F",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   12,
+   31.514
+  ],
+  [
+   19,
+   48.603
+  ],
+  [
+   28,
+   70.86
+  ],
+  [
+   32,
+   80.775
+  ],
+  [
+   36,
+   90.465
+  ],
+  [
+   45,
+   112.775
+  ],
+  [
+   49,
+   122.725
+  ],
+  [
+   56,
+   139.995
+  ],
+  [
+   60,
+   149.91
+  ],
+  [
+   62,
+   154.868
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 552942362
+}

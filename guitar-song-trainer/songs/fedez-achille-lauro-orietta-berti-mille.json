@@ -1,0 +1,187 @@
+{
+ "title": "Mille",
+ "artist": "Fedez, Achille Lauro, Orietta Berti",
+ "album": "Mille",
+ "year": 2021,
+ "genre": "Pop",
+ "difficulty": 1,
+ "youtubeId": "wI0dRl3a1Jg",
+ "key": "Re maggiore (D)",
+ "bpm": 91.34,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.69,
+ "strum": "D-D-",
+ "lyricsSource": {
+  "lrclibId": 5404300,
+  "duration": 176,
+  "offset": 0
+ },
+ "notes": "Tormentone estivo tutto su accordi aperti: D – Bm – Em – A (F#m nel ritornello).",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. L'app controlla da sola che testo e accordi siano coerenti; per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "D",
+    "Bm",
+    "Em",
+    "A",
+    "D",
+    "Bm",
+    "Em",
+    "A",
+    "D",
+    "Bm",
+    "Em",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    "Bm",
+    "Em",
+    "A",
+    "D",
+    "Bm",
+    "F#m",
+    "A",
+    "D",
+    "Bm",
+    "Em",
+    "A",
+    "D",
+    "Bm",
+    "F#m",
+    "A"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "D",
+    "Bm",
+    "Em",
+    "A",
+    "D",
+    "Bm",
+    "Em",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    "Bm",
+    "Em",
+    "A",
+    "D",
+    "Bm",
+    "F#m",
+    "A",
+    "D",
+    "Bm",
+    "Em",
+    "A",
+    "D",
+    "Bm",
+    "F#m",
+    "A"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "D",
+    "Bm",
+    "Em",
+    "A"
+   ]
+  },
+  {
+   "name": "Ritornello finale",
+   "bars": [
+    "D",
+    "Bm",
+    "F#m7",
+    "A",
+    "D",
+    "Bm",
+    "F#m7",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Outro",
+   "bars": [
+    "D",
+    "Bm",
+    "Em7"
+   ]
+  }
+ ],
+ "warp": [
+  [
+   1,
+   4.44
+  ],
+  [
+   5,
+   14.967
+  ],
+  [
+   9,
+   25.17
+  ],
+  [
+   13,
+   35.638
+  ],
+  [
+   19,
+   50.94
+  ],
+  [
+   25,
+   66.705
+  ],
+  [
+   30,
+   80.07
+  ],
+  [
+   35,
+   93.373
+  ],
+  [
+   41,
+   109.682
+  ],
+  [
+   49,
+   130.58
+  ],
+  [
+   54,
+   143.573
+  ],
+  [
+   59,
+   156.808
+  ]
+ ],
+ "strumSource": "ultimate-guitar",
+ "deezerId": 1401865072
+}

@@ -1,0 +1,243 @@
+{
+ "title": "1984",
+ "artist": "Salmo",
+ "album": "Hellvisback",
+ "year": 2016,
+ "genre": "Rap / Hip-hop",
+ "difficulty": 1,
+ "youtubeId": "ZWkV9859sew",
+ "key": "Gm",
+ "bpm": 89.74,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.4,
+ "strum": "D---D-DU",
+ "lyricsSource": {
+  "lrclibId": 10392003,
+  "duration": 258,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Gm – F – F5 – G5.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "F5"
+   ]
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "%",
+    "F5",
+    "%",
+    "G5",
+    "%",
+    "%",
+    "F5",
+    "Gm",
+    "%",
+    "%",
+    "%",
+    "Gm",
+    "%",
+    "%",
+    "F",
+    "Gm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    "F",
+    "%",
+    "Gm",
+    "%",
+    "%",
+    "F",
+    "Gm",
+    "%",
+    "%",
+    [
+     "F:2",
+     "Gm:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "F",
+    "Gm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "F",
+    "Gm",
+    "%",
+    "F",
+    "%",
+    "%",
+    "Gm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "%",
+    "F5",
+    "Gm",
+    "%",
+    "%",
+    "F",
+    "%",
+    "Gm",
+    "%",
+    "F",
+    "Gm",
+    "%",
+    "%",
+    "%",
+    "F",
+    "Gm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "%",
+    "%",
+    "F",
+    "Gm",
+    "%",
+    "%",
+    "F",
+    "%",
+    "Gm",
+    "%",
+    "%",
+    "Gm",
+    "%",
+    "F",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "G5",
+    "%",
+    "F",
+    "Gm",
+    "%",
+    "%",
+    "F",
+    "Gm",
+    "%",
+    "%",
+    "F",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   0,
+   2.791
+  ],
+  [
+   4,
+   13.12
+  ],
+  [
+   8,
+   23.809
+  ],
+  [
+   13,
+   37.064
+  ],
+  [
+   18,
+   50.647
+  ],
+  [
+   23,
+   63.891
+  ],
+  [
+   28,
+   77.247
+  ],
+  [
+   32,
+   87.944
+  ],
+  [
+   40,
+   109.415
+  ],
+  [
+   45,
+   122.626
+  ],
+  [
+   49,
+   133.236
+  ],
+  [
+   54,
+   146.776
+  ],
+  [
+   59,
+   160.25
+  ],
+  [
+   64,
+   172.944
+  ],
+  [
+   73,
+   197.521
+  ],
+  [
+   80,
+   216.287
+  ],
+  [
+   85,
+   229.659
+  ],
+  [
+   91,
+   246.14
+  ]
+ ],
+ "strumSource": "stima"
+}

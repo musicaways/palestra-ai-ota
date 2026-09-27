@@ -1,0 +1,187 @@
+{
+ "title": "Help!",
+ "artist": "The Beatles",
+ "album": "Help! (Remastered)",
+ "year": 1965,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "l3ARnoTWJZ0",
+ "key": "A",
+ "bpm": 95.45,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.1,
+ "strum": "P-P-D-DU",
+ "lyricsSource": {
+  "lrclibId": 31647304,
+  "duration": 139,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – G – E – F#m – Bm – D.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Parte 1",
+   "bars": [
+    "G",
+    "G",
+    "E",
+    "A",
+    "C#m",
+    "%",
+    "F#m",
+    "%",
+    "%",
+    "%",
+    "F#m",
+    [
+     "D:1",
+     "G:2",
+     "A:1"
+    ],
+    "Bm",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "E",
+    "%",
+    "A",
+    "%",
+    "A",
+    "%",
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "A:2"
+    ],
+    "C#m",
+    "%",
+    "F#m",
+    [
+     "D:1",
+     "G:2",
+     "A:1"
+    ],
+    "Bm",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "E",
+    "%",
+    "A",
+    "E",
+    "C#m",
+    "%",
+    "F#m",
+    "%",
+    "%",
+    "%",
+    "F#m",
+    "%",
+    "Bm",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "E",
+    "%",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    "A",
+    [
+     "A:2",
+     "A6:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   0,
+   1.08
+  ],
+  [
+   4,
+   11.231
+  ],
+  [
+   8,
+   21.289
+  ],
+  [
+   12,
+   31.122
+  ],
+  [
+   16,
+   41.102
+  ],
+  [
+   20,
+   51.02
+  ],
+  [
+   24,
+   61.798
+  ],
+  [
+   28,
+   71.49
+  ],
+  [
+   32,
+   81.548
+  ],
+  [
+   36,
+   91.588
+  ],
+  [
+   40,
+   102.108
+  ],
+  [
+   44,
+   111.802
+  ],
+  [
+   48,
+   121.86
+  ],
+  [
+   52,
+   131.716
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 116348610
+}

@@ -1,0 +1,341 @@
+{
+ "title": "All You Need Is Love",
+ "artist": "The Beatles",
+ "album": "23: The Number Ones",
+ "year": 1967,
+ "genre": "Rock",
+ "difficulty": 2,
+ "youtubeId": "XGPtrhW5Ncw",
+ "key": "G",
+ "bpm": 104.09,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.47,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36902880,
+  "duration": 228,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – D7 – C – Daug – A7 – Em7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G",
+    "%",
+    "Em7"
+   ],
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "G",
+    "Em7",
+    "G",
+    "Em7",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "G",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "G:2",
+     "A7:2"
+    ],
+    [
+     "D7:2",
+     "Daug:2"
+    ],
+    [
+     "G:2",
+     "A7:2"
+    ],
+    [
+     "D7:2",
+     "Daug:2"
+    ],
+    "%",
+    "%",
+    [
+     "C:2",
+     "D7:2"
+    ],
+    [
+     "D7:2",
+     "G:2"
+    ],
+    "G",
+    "Em",
+    [
+     "G:1",
+     "Em:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    [
+     "G:2",
+     "A7:2"
+    ],
+    [
+     "D7:2",
+     "Daug:2"
+    ],
+    [
+     "G:2",
+     "A7:2"
+    ],
+    [
+     "D7:2",
+     "Daug:2"
+    ],
+    "%",
+    "%",
+    [
+     "C:1",
+     "D7:2",
+     "G:1"
+    ],
+    "G",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "G:2",
+     "A7:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    [
+     "D7:2",
+     "Daug:2"
+    ],
+    [
+     "G:2",
+     "A7:2"
+    ],
+    [
+     "D7:2",
+     "Daug:2"
+    ],
+    "%",
+    "%",
+    [
+     "C:1",
+     "D7:2",
+     "G:1"
+    ],
+    [
+     "G:2",
+     "A7:2"
+    ],
+    [
+     "D7:2",
+     "Daug:2"
+    ],
+    [
+     "G:2",
+     "A7:2"
+    ],
+    [
+     "D7:2",
+     "Daug:2"
+    ],
+    "%",
+    "%",
+    [
+     "C:1",
+     "D7:2",
+     "G:1"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "C:1",
+     "D7:2",
+     "G:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "C:1",
+     "D7:2",
+     "G:1"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "%",
+    "%",
+    [
+     "C:1",
+     "D7:2",
+     "G:1"
+    ],
+    "C",
+    "%",
+    [
+     "C:2",
+     "D7:2"
+    ],
+    "%",
+    [
+     "D7:2",
+     "G:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   3,
+   8.327
+  ],
+  [
+   7,
+   17.191
+  ],
+  [
+   11,
+   26.38
+  ],
+  [
+   16,
+   37.3
+  ],
+  [
+   21,
+   48.24
+  ],
+  [
+   27,
+   61.677
+  ],
+  [
+   31,
+   70.87
+  ],
+  [
+   38,
+   86.974
+  ],
+  [
+   42,
+   96.083
+  ],
+  [
+   46,
+   105.303
+  ],
+  [
+   51,
+   116.737
+  ],
+  [
+   55,
+   125.466
+  ],
+  [
+   59,
+   134.649
+  ],
+  [
+   63,
+   144.396
+  ],
+  [
+   74,
+   169.759
+  ],
+  [
+   78,
+   178.66
+  ],
+  [
+   82,
+   188.134
+  ],
+  [
+   87,
+   199.663
+  ],
+  [
+   92,
+   211.18
+  ],
+  [
+   93,
+   213.758
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 116348734,
+ "spotifyId": "6tzFM08UuwxhuftjfUqaQA"
+}

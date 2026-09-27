@@ -1,0 +1,279 @@
+{
+ "title": "Sultans of Swing",
+ "artist": "Dire Straits",
+ "album": "Pop Rock Classics - By Fuvi Clan",
+ "year": 1978,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "0fAQhSRLQnM",
+ "key": "C",
+ "bpm": 73.86,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.58,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37013856,
+  "duration": 347,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – Dm – Bb – A – F – A7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Dm",
+    "C",
+    "Dm",
+    "Dm"
+   ],
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "C:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "A:2"
+    ],
+    "Dm",
+    "C",
+    "F",
+    "C",
+    "Dm",
+    "Bb",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Dm",
+    "C",
+    "Dm",
+    "C",
+    "F",
+    "C",
+    "Bb",
+    "Dm",
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    "Dm",
+    "C",
+    "Bb",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strumentale",
+   "bars": [
+    "Dm",
+    "C",
+    "Dm",
+    "C",
+    "F",
+    "C",
+    "Bb",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Bb",
+    "A",
+    "Dm",
+    "C",
+    "F",
+    "C",
+    [
+     "Bb:2",
+     "Dm:2"
+    ],
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    "Dm",
+    "Dm",
+    "C",
+    "Bb",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Dm",
+    "C",
+    "Dm",
+    "C",
+    "C",
+    "%",
+    "Bb",
+    "%",
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    "Dm",
+    "Dm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "Bb",
+    "A",
+    [
+     "Bb:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "A7:2"
+    ],
+    "F",
+    "C",
+    [
+     "Dm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    "Dm",
+    "Dm",
+    "C",
+    "Bb",
+    "C",
+    "Dm",
+    "C",
+    "Bb",
+    "C",
+    "Dm",
+    "C",
+    "Bb",
+    "C",
+    "Dm",
+    "C",
+    "Bb",
+    "C",
+    "Dm",
+    "C",
+    "Bb"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   13.641
+  ],
+  [
+   8,
+   26.639
+  ],
+  [
+   13,
+   42.911
+  ],
+  [
+   17,
+   56.221
+  ],
+  [
+   21,
+   69.219
+  ],
+  [
+   29,
+   95.001
+  ],
+  [
+   33,
+   107.834
+  ],
+  [
+   38,
+   124.127
+  ],
+  [
+   44,
+   143.578
+  ],
+  [
+   52,
+   169.684
+  ],
+  [
+   56,
+   182.802
+  ],
+  [
+   61,
+   199.049
+  ],
+  [
+   78,
+   254.288
+  ],
+  [
+   84,
+   273.572
+  ],
+  [
+   87,
+   283.369
+  ]
+ ],
+ "strumSource": "stima"
+}

@@ -1,0 +1,188 @@
+{
+ "title": "Three Little Birds",
+ "artist": "Bob Marley",
+ "album": "Bob Marley Story",
+ "year": 1977,
+ "genre": "Reggae",
+ "difficulty": 1,
+ "youtubeId": "CoabDBD1N2Q",
+ "key": "D",
+ "bpm": 110.68,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.01,
+ "strum": "--X---X-",
+ "lyricsSource": {
+  "lrclibId": 37005834,
+  "duration": 180.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – A – G – E.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "A",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "A",
+    "%",
+    "%",
+    [
+     "D:1",
+     "G:1",
+     "D:1",
+     "A:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "D",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "A",
+    "E",
+    "%",
+    "%",
+    "D",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "E",
+    "%",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%",
+    "A",
+    "%",
+    "%",
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "D",
+    "G",
+    "D",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "E",
+    "%",
+    "D",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "--X-D-X-"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "E",
+    "%",
+    "%",
+    "D",
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "--X-D-X-"
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "A",
+    "%",
+    "D",
+    "G",
+    "D",
+    "A",
+    "%",
+    "%",
+    "%",
+    "D",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "%",
+    "%",
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "D:1",
+     "G:1",
+     "D:1",
+     "A:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima",
+ "deezerId": 1247929562
+}

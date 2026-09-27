@@ -1,0 +1,266 @@
+{
+ "title": "Berta filava",
+ "artist": "Rino Gaetano",
+ "album": "Mio fratello è figlio unico",
+ "year": 1976,
+ "genre": "Cantautori",
+ "difficulty": 2,
+ "youtubeId": "GdrMfnPtzno",
+ "key": "Re bemolle maggiore (Db)",
+ "bpm": 114.78,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.18,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 33912961,
+  "duration": 221,
+  "offset": 0
+ },
+ "notes": "Tre accordi per tutto il brano: Db – Gb – Ab. Col capotasto al 1° tasto diventano C – F – G.",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. L'app controlla da sola che testo e accordi siano coerenti; per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Db",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%"
+   ],
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Db",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%",
+    "Db",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Db",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%",
+    "Db",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Db",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%"
+   ]
+  },
+  {
+   "name": "Strumentale",
+   "bars": [
+    "Db",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%"
+   ]
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Db",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%",
+    "Db",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%",
+    "Db",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%",
+    "Db",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%",
+    "Db",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%",
+    "Db",
+    "%",
+    "Gb",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "Db",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%"
+   ],
+   "strum": "D---D-DU"
+  }
+ ],
+ "warp": [
+  [
+   8,
+   16.57
+  ],
+  [
+   14,
+   29.232
+  ],
+  [
+   18,
+   37.752
+  ],
+  [
+   22,
+   46.172
+  ],
+  [
+   28,
+   58.718
+  ],
+  [
+   32,
+   67.156
+  ],
+  [
+   36,
+   75.436
+  ],
+  [
+   40,
+   83.826
+  ],
+  [
+   44,
+   92.221
+  ],
+  [
+   49,
+   102.664
+  ],
+  [
+   53,
+   111.04
+  ],
+  [
+   57,
+   119.57
+  ],
+  [
+   62,
+   130.195
+  ],
+  [
+   66,
+   138.566
+  ],
+  [
+   71,
+   149.062
+  ],
+  [
+   75,
+   157.09
+  ],
+  [
+   79,
+   165.312
+  ],
+  [
+   83,
+   173.478
+  ],
+  [
+   87,
+   181.842
+  ],
+  [
+   92,
+   192.197
+  ],
+  [
+   98,
+   204.75
+  ],
+  [
+   100,
+   208.932
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 101902279
+}

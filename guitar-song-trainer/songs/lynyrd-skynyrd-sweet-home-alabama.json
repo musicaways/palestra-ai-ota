@@ -1,0 +1,500 @@
+{
+ "title": "Sweet Home Alabama",
+ "artist": "Lynyrd Skynyrd",
+ "album": "Bayern 1 – Die Oldie‐WM",
+ "year": 1974,
+ "genre": "Rock",
+ "difficulty": 1,
+ "youtubeId": "U7rxZSdXQ0M",
+ "key": "C",
+ "bpm": 97.7,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.12,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36957190,
+  "duration": 285,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – D – G.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:1",
+     "C:2",
+     "G:1"
+    ],
+    "D",
+    "C",
+    "G",
+    "D",
+    "C"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:1",
+     "C:2",
+     "G:1"
+    ],
+    "D",
+    "C",
+    "G",
+    "D",
+    "C"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:1",
+     "C:2",
+     "G:1"
+    ],
+    "%",
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:1",
+     "C:2",
+     "G:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:1",
+     "C:2",
+     "G:1"
+    ],
+    "D",
+    "C",
+    "G",
+    "D",
+    "C"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:1",
+     "C:2",
+     "G:1"
+    ],
+    "%",
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    "D"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   2,
+   6.2
+  ],
+  [
+   9,
+   23.351
+  ],
+  [
+   13,
+   33.17
+  ],
+  [
+   21,
+   52.572
+  ],
+  [
+   25,
+   62.398
+  ],
+  [
+   29,
+   72.261
+  ],
+  [
+   33,
+   82.203
+  ],
+  [
+   41,
+   101.86
+  ],
+  [
+   45,
+   111.703
+  ],
+  [
+   49,
+   121.771
+  ],
+  [
+   53,
+   131.522
+  ],
+  [
+   65,
+   160.7
+  ],
+  [
+   69,
+   170.526
+  ],
+  [
+   77,
+   190.12
+  ],
+  [
+   83,
+   204.987
+  ],
+  [
+   87,
+   214.937
+  ],
+  [
+   93,
+   229.737
+  ],
+  [
+   99,
+   244.54
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 24949681,
+ "spotifyId": "5LOPo4Ykl6J74fajSPdady",
+ "introSource": "stima: giro della prima parte cantata (la fonte non riportava gli accordi dell'intro)"
+}

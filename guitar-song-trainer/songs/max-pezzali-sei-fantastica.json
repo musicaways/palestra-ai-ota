@@ -1,0 +1,258 @@
+{
+ "title": "Sei fantastica",
+ "artist": "Max Pezzali",
+ "album": "Time Out",
+ "year": 2004,
+ "genre": "Pop",
+ "difficulty": 2,
+ "youtubeId": "-u1yYB7iaCY",
+ "key": "C",
+ "bpm": 80.08,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.06,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34149613,
+  "duration": 202,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – D – G – Am – Em.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G",
+    "C"
+   ],
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "G",
+    "C",
+    "Em",
+    [
+     "D:2",
+     "C:2"
+    ],
+    "G",
+    "C",
+    "%",
+    "Em",
+    [
+     "D:2",
+     "C:2"
+    ],
+    "G",
+    "D",
+    "C",
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    "D",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "C",
+    "%",
+    "%",
+    [
+     "D:1",
+     "C:2",
+     "G:1"
+    ],
+    [
+     "D:2",
+     "Am:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "Am:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "Am:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "Am:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    "C",
+    "%",
+    [
+     "Em:2",
+     "D:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "C",
+    "%",
+    [
+     "Em:2",
+     "D:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    "Em",
+    "D",
+    "C",
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    "D",
+    "%",
+    "C",
+    "%",
+    "%",
+    "%",
+    [
+     "D:2",
+     "Am:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "Am:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "Am:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "D:1",
+     "Am:1",
+     "C:1",
+     "G:1"
+    ],
+    "G",
+    "D",
+    "Am",
+    "C",
+    "G",
+    "D",
+    "Am",
+    "C",
+    "G",
+    "D",
+    "Am",
+    "C"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   2,
+   6.45
+  ],
+  [
+   7,
+   21.121
+  ],
+  [
+   12,
+   36.106
+  ],
+  [
+   16,
+   48.094
+  ],
+  [
+   20,
+   59.684
+  ],
+  [
+   26,
+   78.054
+  ],
+  [
+   30,
+   90.23
+  ],
+  [
+   36,
+   108.244
+  ],
+  [
+   41,
+   123.254
+  ],
+  [
+   45,
+   134.42
+  ],
+  [
+   51,
+   153.006
+  ],
+  [
+   55,
+   164.998
+  ]
+ ],
+ "strumSource": "stima"
+}

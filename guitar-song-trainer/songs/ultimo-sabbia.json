@@ -1,0 +1,276 @@
+{
+ "title": "Sabbia",
+ "artist": "Ultimo",
+ "album": "Pianeti",
+ "year": 2019,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "thPjTBQQ5Hk",
+ "key": "Fm7",
+ "bpm": 146.06,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.92,
+ "strum": "B-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 36179012,
+  "duration": 197,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Fm7 – Bbm – Gbmaj7 – Db – Ebm7 – Fm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bbm",
+    "%",
+    "Gbmaj7",
+    "%",
+    "Db",
+    "%",
+    "Fm",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "B---D---"
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "%",
+    "Fm7",
+    "%",
+    "%",
+    "Ebm7",
+    "%",
+    "Fm7",
+    "%",
+    "%",
+    "Fm7",
+    "%",
+    "Ebm7",
+    "%",
+    "%",
+    "%",
+    "Bbm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    "Fm7",
+    "%",
+    "Ebm7",
+    "%",
+    "Fm7",
+    "%",
+    "Bbm",
+    "%",
+    "Fm7",
+    "%",
+    "Ebm7",
+    "%",
+    "Fm7",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "Bbm",
+    "Gbmaj7",
+    "Db",
+    "%",
+    "Fm7",
+    "%",
+    "Bbm",
+    "%",
+    "Gbmaj7",
+    "%",
+    "Db",
+    "%",
+    "Fm7",
+    "%",
+    "Bbm",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Fm7",
+    "%",
+    "Bbm",
+    "%",
+    "%",
+    "Fm7",
+    "Ebm7",
+    "%",
+    "Fm7",
+    "%",
+    "Bbm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "%",
+    "Fm7",
+    "%",
+    "Ebm7",
+    "%",
+    "Fm7",
+    "%",
+    "%",
+    "Bbm",
+    "Gbmaj7",
+    "Db",
+    "%",
+    "Fm7",
+    "%",
+    "Bbm",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "Gbmaj7",
+    "%",
+    "Db",
+    "%",
+    "Fm7",
+    "%",
+    "Bbm",
+    "%",
+    "Gbmaj7",
+    "%",
+    "Db",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Fm7",
+    "%",
+    "Bbm",
+    "%",
+    "Gbmaj7",
+    "%",
+    "Db",
+    "%",
+    "Fm7",
+    "%",
+    "Bbm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   12,
+   20.688
+  ],
+  [
+   17,
+   28.851
+  ],
+  [
+   23,
+   38.71
+  ],
+  [
+   29,
+   48.569
+  ],
+  [
+   35,
+   58.463
+  ],
+  [
+   40,
+   66.661
+  ],
+  [
+   44,
+   73.22
+  ],
+  [
+   50,
+   83.024
+  ],
+  [
+   56,
+   92.791
+  ],
+  [
+   61,
+   101.007
+  ],
+  [
+   66,
+   109.412
+  ],
+  [
+   71,
+   117.627
+  ],
+  [
+   77,
+   127.568
+  ],
+  [
+   82,
+   135.687
+  ],
+  [
+   88,
+   145.451
+  ],
+  [
+   94,
+   155.31
+  ],
+  [
+   100,
+   165.187
+  ],
+  [
+   106,
+   175.129
+  ],
+  [
+   110,
+   181.753
+  ]
+ ],
+ "strumSource": "stima"
+}

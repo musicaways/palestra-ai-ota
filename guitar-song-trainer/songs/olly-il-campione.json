@@ -1,0 +1,323 @@
+{
+ "title": "Il campione",
+ "artist": "Olly",
+ "album": "TUTTA VITA (SEMPRE)",
+ "year": 2023,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "BkQQWvhcs4A",
+ "key": "E",
+ "bpm": 91.78,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.65,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 35646401,
+  "duration": 241,
+  "offset": 0
+ },
+ "notes": "Accordi principali: E – B7 – A – Esus4 – G#m – Asus2.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Asus2",
+    "Amaj7",
+    "E",
+    "F#m",
+    "Asus2"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "E",
+    "F#m",
+    "Asus2",
+    "E",
+    "%",
+    "E",
+    "F#m",
+    "Asus2",
+    "E",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Pre-ritornello",
+   "bars": [
+    [
+     "A:2",
+     "B:2"
+    ],
+    "G#m",
+    "A",
+    [
+     "B:2",
+     "E:2"
+    ],
+    [
+     "Esus4:2",
+     "E:2"
+    ],
+    [
+     "A:2",
+     "B:2"
+    ],
+    [
+     "G#m:2",
+     "C#m:2"
+    ],
+    [
+     "F#m7:2",
+     "B7:2"
+    ],
+    [
+     "Esus4:2",
+     "E:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "B7",
+    "%",
+    [
+     "E:1",
+     "Esus4:2",
+     "E:1"
+    ],
+    "B7",
+    "E",
+    [
+     "B/D#:2",
+     "C#m:2"
+    ],
+    "G#m",
+    "Amaj7",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "B7",
+    "E",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "E",
+    "F#m",
+    "Asus2",
+    "%",
+    "E",
+    "E",
+    "%",
+    "Asus2",
+    "%",
+    "%",
+    [
+     "A:2",
+     "B:2"
+    ],
+    "G#m",
+    "A",
+    [
+     "B:2",
+     "E:2"
+    ],
+    [
+     "Esus4:2",
+     "E:2"
+    ],
+    [
+     "A:2",
+     "B:2"
+    ],
+    [
+     "G#m:2",
+     "C#m:2"
+    ],
+    [
+     "F#m7:2",
+     "B7:2"
+    ],
+    [
+     "Esus4:2",
+     "E:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "B7",
+    "%",
+    [
+     "E:1",
+     "Esus4:2",
+     "E:1"
+    ],
+    "B7",
+    "E",
+    [
+     "B/D#:2",
+     "C#m:2"
+    ],
+    "G#m",
+    "A",
+    [
+     "E:1",
+     "Esus4:2",
+     "E:1"
+    ],
+    "%",
+    [
+     "E:1",
+     "Esus4:2",
+     "E:1"
+    ],
+    "B7",
+    "%",
+    [
+     "E:1",
+     "Esus4:2",
+     "E:1"
+    ],
+    "B7",
+    [
+     "E:1",
+     "Esus4:2",
+     "E:1"
+    ]
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "B/D#:2",
+     "C#m:2"
+    ],
+    "G#m",
+    "A",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "B7",
+    "E",
+    "B7",
+    "E",
+    "%",
+    [
+     "C#m:2",
+     "G#m:2"
+    ],
+    "A",
+    "%",
+    "E",
+    "%",
+    "E",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   5,
+   13.855
+  ],
+  [
+   10,
+   26.79
+  ],
+  [
+   15,
+   39.96
+  ],
+  [
+   20,
+   53.315
+  ],
+  [
+   24,
+   63.505
+  ],
+  [
+   30,
+   79.03
+  ],
+  [
+   37,
+   97.245
+  ],
+  [
+   41,
+   107.415
+  ],
+  [
+   46,
+   121.06
+  ],
+  [
+   51,
+   134.43
+  ],
+  [
+   58,
+   152.265
+  ],
+  [
+   63,
+   165.26
+  ],
+  [
+   68,
+   178.335
+  ],
+  [
+   74,
+   194.31
+  ],
+  [
+   80,
+   209.92
+  ],
+  [
+   84,
+   220.29
+  ],
+  [
+   88,
+   230.75
+  ]
+ ],
+ "strumSource": "stima"
+}

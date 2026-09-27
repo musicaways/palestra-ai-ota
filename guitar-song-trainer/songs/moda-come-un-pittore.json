@@ -1,0 +1,298 @@
+{
+ "title": "Come un pittore",
+ "artist": "Modà",
+ "album": "Modà 2004 - 2014 L'Originale",
+ "year": 2011,
+ "genre": "Pop / Rock",
+ "difficulty": 3,
+ "youtubeId": "YYXkj25e3KU",
+ "key": "E",
+ "bpm": 106.26,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.12,
+ "strum": "D---D--UDUD-D-DU",
+ "lyricsSource": {
+  "lrclibId": 36698158,
+  "duration": 234,
+  "offset": 0
+ },
+ "notes": "Accordi principali: E – D – A – F#m – C#m7 – Dmaj7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "A",
+    "E",
+    "F#m",
+    "E"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    [
+     "E:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "C#m7:2"
+    ],
+    [
+     "E:1",
+     "A:1"
+    ],
+    [
+     "A:1",
+     "E:1",
+     "F#m:2"
+    ],
+    "%",
+    "%",
+    [
+     "E:1",
+     "D:2",
+     "C#m7:1"
+    ],
+    "%",
+    "E",
+    "D",
+    [
+     "D:2",
+     "E:2"
+    ],
+    "%",
+    "%",
+    "F#m",
+    "D",
+    "A",
+    "F#m",
+    "D",
+    "E",
+    "A",
+    "F#m",
+    "%",
+    "D",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "E4:1",
+     "E:2",
+     "A:1"
+    ],
+    "E",
+    "F#m",
+    "E",
+    "D",
+    "C#m7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    [
+     "E:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "C#m7:2"
+    ],
+    "E",
+    [
+     "E:2",
+     "A:2"
+    ],
+    [
+     "E:1",
+     "F#m:2",
+     "E:1"
+    ],
+    "%",
+    [
+     "D:2",
+     "C#m7:2"
+    ],
+    "%",
+    "E",
+    "D",
+    [
+     "D:2",
+     "E:2"
+    ],
+    "%",
+    "%",
+    "F#m",
+    "D",
+    "A",
+    "F#m",
+    "D",
+    "E",
+    "A",
+    "F#m",
+    "%",
+    "D",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "E4",
+    "E",
+    "A",
+    "E",
+    "F#m",
+    "E",
+    "D",
+    "A",
+    "D",
+    "E4",
+    "E",
+    "Dmaj7",
+    [
+     "Dmaj7:2",
+     "A:2"
+    ],
+    "%",
+    "Dmaj7",
+    [
+     "Dmaj7:2",
+     "A:2"
+    ],
+    "%",
+    "Dmaj7",
+    [
+     "Dmaj7:2",
+     "E:2"
+    ],
+    "%",
+    "%",
+    "F#m",
+    "D",
+    "A",
+    "F#m",
+    "D",
+    "E",
+    "A",
+    "F#m",
+    "%",
+    "D",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    [
+     "E4:1",
+     "E:2",
+     "A:1"
+    ],
+    "E",
+    "F#m",
+    "D",
+    "C#m7",
+    "D",
+    "E4",
+    "E",
+    "A"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   11.138
+  ],
+  [
+   8,
+   20.173
+  ],
+  [
+   12,
+   29.142
+  ],
+  [
+   18,
+   42.64
+  ],
+  [
+   23,
+   53.914
+  ],
+  [
+   30,
+   69.743
+  ],
+  [
+   36,
+   83.452
+  ],
+  [
+   40,
+   92.543
+  ],
+  [
+   44,
+   101.929
+  ],
+  [
+   51,
+   117.78
+  ],
+  [
+   58,
+   133.355
+  ],
+  [
+   73,
+   166.919
+  ],
+  [
+   79,
+   180.446
+  ],
+  [
+   90,
+   205.18
+  ],
+  [
+   94,
+   214.35
+  ]
+ ],
+ "strumSource": "ultimate-guitar",
+ "deezerId": 3184055821
+}

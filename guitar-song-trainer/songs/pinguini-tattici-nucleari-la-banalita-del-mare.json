@@ -1,0 +1,322 @@
+{
+ "title": "La banalità del mare",
+ "artist": "Pinguini Tattici Nucleari",
+ "album": "Album sconosciuto",
+ "year": 2020,
+ "genre": "Pop / Indie",
+ "difficulty": 2,
+ "youtubeId": "qipcqkMhUJM",
+ "key": "B",
+ "bpm": 104.73,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.97,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 20927219,
+  "duration": 192,
+  "offset": 0
+ },
+ "notes": "Accordi principali: B – E – C#m – A.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "A",
+    "E",
+    "C#m"
+   ],
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "C#m:2",
+     "B:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "C#m:2",
+     "B:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "C#m:2",
+     "B:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "C#m:2",
+     "B:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "C#m:2",
+     "B:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "C#m:2",
+     "B:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "C#m:2",
+     "B:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "C#m:2"
+    ],
+    "B",
+    "%",
+    "B",
+    "%",
+    "B",
+    "%",
+    "C#m",
+    [
+     "C#m:2",
+     "A:2"
+    ],
+    "%",
+    "E",
+    [
+     "E:2",
+     "B:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "C#m:2",
+     "B:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "C#m:2",
+     "B:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "C#m:2",
+     "B:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "C#m:2",
+     "B:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "C#m:2",
+     "B:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "C#m:2",
+     "B:2"
+    ],
+    "B",
+    "%",
+    "B",
+    "%",
+    "B",
+    "%",
+    "C#m",
+    [
+     "C#m:2",
+     "A:2"
+    ],
+    "%",
+    "E",
+    [
+     "E:2",
+     "B:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "C#m:2",
+     "B:2"
+    ],
+    [
+     "A:1",
+     "E:2",
+     "C#m:1"
+    ],
+    "B",
+    [
+     "E:2",
+     "C#m:2"
+    ],
+    "B",
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "C#m:2",
+     "B:2"
+    ],
+    "B",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "B",
+    "%",
+    "B",
+    "%",
+    "C#m",
+    "A",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    "B"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  }
+ ],
+ "warp": [
+  [
+   3,
+   9.087
+  ],
+  [
+   7,
+   18.253
+  ],
+  [
+   13,
+   31.52
+  ],
+  [
+   19,
+   45.27
+  ],
+  [
+   25,
+   59.357
+  ],
+  [
+   31,
+   73.136
+  ],
+  [
+   37,
+   86.697
+  ],
+  [
+   41,
+   95.617
+  ],
+  [
+   47,
+   109.486
+  ],
+  [
+   55,
+   127.957
+  ],
+  [
+   59,
+   137.328
+  ],
+  [
+   66,
+   153.315
+  ],
+  [
+   75,
+   173.818
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 650114872
+}

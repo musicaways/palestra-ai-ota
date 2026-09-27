@@ -1,0 +1,421 @@
+{
+ "title": "Under the Bridge",
+ "artist": "Red Hot Chili Peppers",
+ "album": "All",
+ "year": 1991,
+ "genre": "Rock",
+ "difficulty": 5,
+ "youtubeId": "NUVTkxixDwA",
+ "key": "B",
+ "bpm": 84.82,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.59,
+ "strum": "D--UD-DU",
+ "lyricsSource": {
+  "lrclibId": 36975019,
+  "duration": 264,
+  "offset": 0
+ },
+ "notes": "Accordi principali: B – A – C#m – E – F#m – G.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "E",
+    "%",
+    "B",
+    "%",
+    "C#m",
+    "%",
+    "G#m",
+    "%",
+    "A",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "E:2",
+     "B:1",
+     "C#m:1"
+    ],
+    [
+     "C#m:1",
+     "G#m:1",
+     "A:2"
+    ],
+    [
+     "E:1",
+     "B:1",
+     "C#m:1",
+     "A:1"
+    ],
+    [
+     "E:2",
+     "B:2"
+    ],
+    "C#m",
+    [
+     "G#m:2",
+     "A:2"
+    ],
+    "E",
+    [
+     "B:2",
+     "C#m:2"
+    ],
+    [
+     "C#m:2",
+     "A:2"
+    ],
+    "Emaj7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "E:2",
+     "B:1",
+     "C#m:1"
+    ],
+    [
+     "C#m:1",
+     "G#m:1",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "B:2"
+    ],
+    [
+     "C#m:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "B:1",
+     "C#m:1"
+    ],
+    [
+     "C#m:1",
+     "G#m:1",
+     "A:2"
+    ],
+    "E",
+    [
+     "B:2",
+     "C#m:2"
+    ],
+    [
+     "C#m:2",
+     "A:2"
+    ],
+    "Emaj7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    [
+     "B:2",
+     "F#m:2"
+    ],
+    [
+     "E:2",
+     "B:2"
+    ],
+    [
+     "B:2",
+     "F#m:2"
+    ],
+    [
+     "E:2",
+     "B:2"
+    ],
+    [
+     "B:2",
+     "F#m:2"
+    ],
+    [
+     "E:2",
+     "B:2"
+    ],
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    [
+     "B:2",
+     "C#m:2"
+    ],
+    [
+     "G#m:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "B:2"
+    ],
+    [
+     "C#m:2",
+     "A:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "E:2",
+     "B:1",
+     "C#m:1"
+    ],
+    [
+     "C#m:1",
+     "G#m:1",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "B:2"
+    ],
+    [
+     "C#m:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "B:1",
+     "C#m:1"
+    ],
+    [
+     "C#m:1",
+     "G#m:1",
+     "A:2"
+    ],
+    "E",
+    [
+     "B:2",
+     "C#m:2"
+    ],
+    [
+     "C#m:2",
+     "A:2"
+    ],
+    "Emaj7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    [
+     "B:2",
+     "F#m:2"
+    ],
+    [
+     "E:2",
+     "B:2"
+    ],
+    [
+     "B:2",
+     "F#m:2"
+    ],
+    [
+     "E:2",
+     "B:2"
+    ],
+    [
+     "B:2",
+     "F#m:2"
+    ],
+    [
+     "E:2",
+     "B:2"
+    ],
+    [
+     "F#m:2",
+     "A:2"
+    ],
+    [
+     "Am:2",
+     "G:2"
+    ],
+    [
+     "F:2",
+     "A:2"
+    ],
+    [
+     "Am:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "F:2"
+    ],
+    [
+     "A:2",
+     "Am:2"
+    ],
+    [
+     "G:2",
+     "F:2"
+    ],
+    [
+     "E7:2",
+     "G:2"
+    ],
+    "%",
+    [
+     "A:2",
+     "Am7:2"
+    ],
+    [
+     "G:2",
+     "Fmaj7:2"
+    ],
+    [
+     "A:2",
+     "Am7:2"
+    ],
+    [
+     "G:2",
+     "Fmaj7:2"
+    ],
+    [
+     "A:2",
+     "Am7:2"
+    ],
+    [
+     "G:2",
+     "Fmaj7:2"
+    ],
+    [
+     "A:2",
+     "Am7:2"
+    ],
+    "G",
+    "Fmaj7",
+    [
+     "A:1",
+     "Am7:1",
+     "G6:1",
+     "Fmaj7:1"
+    ],
+    [
+     "A:1",
+     "Am7:1",
+     "G6:1",
+     "Fmaj7:1"
+    ],
+    [
+     "A:1",
+     "Am:1",
+     "G6:1",
+     "Fmaj7:1"
+    ],
+    "A",
+    "Am7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   12,
+   35.155
+  ],
+  [
+   16,
+   46.473
+  ],
+  [
+   20,
+   57.81
+  ],
+  [
+   24,
+   69.31
+  ],
+  [
+   30,
+   86.601
+  ],
+  [
+   36,
+   103.687
+  ],
+  [
+   42,
+   120.877
+  ],
+  [
+   46,
+   132.118
+  ],
+  [
+   52,
+   149.187
+  ],
+  [
+   56,
+   160.359
+  ],
+  [
+   62,
+   177.237
+  ],
+  [
+   68,
+   194.1
+  ],
+  [
+   73,
+   207.792
+  ],
+  [
+   78,
+   221.758
+  ],
+  [
+   82,
+   233.258
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 785176,
+ "spotifyId": "3d9DChrdc6BOeFsbrZ3Is0"
+}

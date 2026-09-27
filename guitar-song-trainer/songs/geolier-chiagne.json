@@ -1,0 +1,235 @@
+{
+ "title": "Chiagne",
+ "artist": "Geolier",
+ "album": "CHIAGNE",
+ "year": 2023,
+ "genre": "Rap / Hip-hop",
+ "difficulty": 1,
+ "youtubeId": "xMV8C7olJK0",
+ "key": "F#m",
+ "bpm": 132.47,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.12,
+ "strum": "B--D-UD-",
+ "lyricsSource": {
+  "lrclibId": 20972161,
+  "duration": 179.863764,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F#m – Dmaj7 – A.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Dmaj7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "B-------"
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "%",
+    "Dmaj7",
+    "%",
+    "%",
+    "A",
+    "%",
+    "F#m",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "F#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    "Dmaj7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "F#m",
+    "%",
+    "Dmaj7",
+    "%",
+    "%",
+    "%",
+    "A",
+    "%",
+    "F#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "Dmaj7",
+    "%",
+    "%",
+    "%",
+    "A",
+    "%",
+    "F#m",
+    "%",
+    "%",
+    "Dmaj7",
+    "%",
+    "%",
+    "A",
+    "%",
+    "F#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "A",
+    "%",
+    "F#m",
+    "%",
+    "Dmaj7",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "F#m",
+    "%",
+    "Dmaj7",
+    "%",
+    "%",
+    "%",
+    "A",
+    "%",
+    "F#m",
+    "%",
+    "Dmaj7",
+    "%",
+    "%",
+    "%",
+    "A",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "F#m",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   7,
+   13.147
+  ],
+  [
+   13,
+   23.96
+  ],
+  [
+   18,
+   32.73
+  ],
+  [
+   24,
+   43.597
+  ],
+  [
+   30,
+   54.45
+  ],
+  [
+   36,
+   65.233
+  ],
+  [
+   42,
+   76.06
+  ],
+  [
+   48,
+   86.856
+  ],
+  [
+   56,
+   101.35
+  ],
+  [
+   61,
+   110.457
+  ],
+  [
+   67,
+   121.543
+  ],
+  [
+   71,
+   128.977
+  ],
+  [
+   77,
+   139.9
+  ],
+  [
+   81,
+   146.803
+  ],
+  [
+   87,
+   158.123
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 1986830357
+}

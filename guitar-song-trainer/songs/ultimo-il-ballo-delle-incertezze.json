@@ -1,0 +1,182 @@
+{
+ "title": "Il ballo delle incertezze",
+ "artist": "Ultimo",
+ "album": "Sanremo 2018",
+ "year": 2018,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "zqEFJUQsvKk",
+ "key": "Gm",
+ "bpm": 72.1,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.87,
+ "strum": "B-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 33618924,
+  "duration": 205,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Gm – Bb – Cm7 – Ab – Fm7 – Gm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Cm7"
+   ]
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "%",
+    "Cm7",
+    "%",
+    "%",
+    "%",
+    "Cm7",
+    "%",
+    "%",
+    "Gm",
+    "Fm7",
+    "Bb4",
+    "Bb",
+    "%",
+    "%",
+    "Gm",
+    "Gm7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    "%",
+    "Gm",
+    "Fm7",
+    "%",
+    "Cm7",
+    "%",
+    "%",
+    "%",
+    "Cm7",
+    "%",
+    "Bb",
+    "%",
+    "%",
+    "Gm",
+    "Bb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "%",
+    "Gm",
+    "Fm7",
+    "Ab",
+    "Bb",
+    "%",
+    "Gm",
+    "Ab",
+    "Bb",
+    [
+     "Cm:1",
+     "Bb:1",
+     "Ab:1",
+     "Gm:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "%",
+    "%",
+    "Gm",
+    "%",
+    "%",
+    "%",
+    "Gm",
+    "Bb",
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "B---D---"
+  }
+ ],
+ "warp": [
+  [
+   1,
+   6.321
+  ],
+  [
+   6,
+   22.986
+  ],
+  [
+   11,
+   39.254
+  ],
+  [
+   15,
+   52.511
+  ],
+  [
+   19,
+   65.747
+  ],
+  [
+   23,
+   79.584
+  ],
+  [
+   28,
+   96.161
+  ],
+  [
+   33,
+   112.686
+  ],
+  [
+   37,
+   126.181
+  ],
+  [
+   42,
+   142.749
+  ],
+  [
+   51,
+   172.598
+  ],
+  [
+   56,
+   189.406
+  ],
+  [
+   58,
+   196.089
+  ]
+ ],
+ "strumSource": "stima"
+}

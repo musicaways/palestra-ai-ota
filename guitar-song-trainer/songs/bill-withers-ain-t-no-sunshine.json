@@ -1,0 +1,187 @@
+{
+ "title": "Ain't No Sunshine",
+ "artist": "Bill Withers",
+ "album": "Lovely Day  [3''CDM]",
+ "year": 1971,
+ "genre": "Soul",
+ "difficulty": 1,
+ "youtubeId": "6wiZxusfz1I",
+ "key": "Am7",
+ "bpm": 78.7,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.09,
+ "strum": "D---D-DU",
+ "lyricsSource": {
+  "lrclibId": 36871229,
+  "duration": 125,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Am7 – Em7 – G7 – Dm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa",
+   "bars": [
+    [
+     "Am7:2",
+     "Em7:2"
+    ],
+    [
+     "G7:2",
+     "Am7:2"
+    ],
+    [
+     "Em7:2",
+     "G7:2"
+    ],
+    [
+     "G7:2",
+     "Am7:2"
+    ],
+    "Em7",
+    "Dm7",
+    [
+     "Am7:2",
+     "Em7:2"
+    ],
+    [
+     "G7:2",
+     "Am7:2"
+    ],
+    [
+     "Am7:2",
+     "Em7:2"
+    ],
+    [
+     "G7:2",
+     "Am7:2"
+    ],
+    [
+     "Em7:2",
+     "G7:2"
+    ],
+    [
+     "G7:2",
+     "Am7:2"
+    ],
+    "Em7",
+    "Dm7",
+    [
+     "Am7:2",
+     "Em7:2"
+    ],
+    [
+     "G7:2",
+     "Am7:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "Am7:2",
+     "Em7:2"
+    ],
+    [
+     "G7:2",
+     "Am7:2"
+    ],
+    [
+     "Em7:2",
+     "G7:2"
+    ],
+    [
+     "G7:2",
+     "Am7:2"
+    ],
+    [
+     "Em7:2",
+     "G7:2"
+    ],
+    [
+     "G7:2",
+     "Am7:2"
+    ],
+    "Em7",
+    "Dm7",
+    [
+     "Am7:2",
+     "Em7:2"
+    ],
+    [
+     "G7:2",
+     "Am7:2"
+    ],
+    [
+     "Am7:2",
+     "Em7:2"
+    ],
+    [
+     "G7:2",
+     "Am7:2"
+    ],
+    [
+     "Am7:2",
+     "Em7:2"
+    ],
+    "G7",
+    "Am7",
+    "Em7",
+    [
+     "Em7:2",
+     "G7:2"
+    ],
+    "%",
+    "Am7"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   2,
+   7.122
+  ],
+  [
+   8,
+   25.68
+  ],
+  [
+   13,
+   41.241
+  ],
+  [
+   17,
+   52.97
+  ],
+  [
+   22,
+   68.271
+  ],
+  [
+   26,
+   80.478
+  ],
+  [
+   30,
+   92.539
+  ],
+  [
+   34,
+   104.649
+  ],
+  [
+   36,
+   110.748
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 2312047
+}

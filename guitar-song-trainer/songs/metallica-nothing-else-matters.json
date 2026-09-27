@@ -1,0 +1,456 @@
+{
+ "title": "Nothing Else Matters",
+ "artist": "Metallica",
+ "album": "Metallica",
+ "year": 1991,
+ "genre": "Metal",
+ "difficulty": 2,
+ "youtubeId": "Fkj6-LN6WKI",
+ "key": "Em",
+ "bpm": 139.1,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.08,
+ "strum": "PPPPPPPP",
+ "lyricsSource": {
+  "lrclibId": 29293391,
+  "duration": 388,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Em – C – D – B7 – G – A.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Em",
+    "%",
+    "Am",
+    "%",
+    "C",
+    "%",
+    "D",
+    "%",
+    "Em",
+    "%",
+    "Em",
+    "%",
+    "D",
+    "%",
+    "C",
+    "%",
+    "Em",
+    "%",
+    "D",
+    "%",
+    "C",
+    "%",
+    "Em",
+    "%",
+    "D",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "B7",
+    "%",
+    "Em",
+    "%",
+    "Em"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Em",
+    "D",
+    "C",
+    "Em",
+    "D",
+    "C",
+    "Em",
+    "D",
+    "C",
+    "G",
+    [
+     "G:2",
+     "B7:2"
+    ],
+    [
+     "B7:2",
+     "Em:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Em",
+    "D",
+    "C",
+    "Em",
+    "D",
+    "C",
+    "Em",
+    "D",
+    "C",
+    "G",
+    [
+     "G:2",
+     "B7:2"
+    ],
+    [
+     "B7:2",
+     "Em:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Em",
+    "D",
+    "C",
+    "Em",
+    "D",
+    "C",
+    "Em",
+    "D",
+    "C",
+    "G",
+    "B7",
+    "Em",
+    "C",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "A:2"
+    ],
+    "D",
+    "C",
+    "A",
+    "D",
+    "%",
+    "Em",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "Em",
+    "D",
+    "C",
+    "Em",
+    "D",
+    "C",
+    "Em",
+    "D",
+    "C",
+    "G",
+    [
+     "G:2",
+     "B7:2"
+    ],
+    [
+     "B7:2",
+     "Em:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    "C",
+    "A",
+    "D",
+    "C",
+    "A",
+    [
+     "D:2",
+     "Em:2"
+    ],
+    "Em",
+    "%",
+    "Am",
+    "%",
+    "C",
+    "%",
+    "D",
+    "%",
+    "Em",
+    "%",
+    "Em",
+    "%",
+    "Am",
+    "%",
+    "C",
+    "%",
+    "D",
+    "%",
+    "Em",
+    "%",
+    "Em",
+    "%",
+    "Am",
+    "%",
+    "C",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    "Em",
+    "D",
+    "C",
+    "Em",
+    "D",
+    "C",
+    "Em",
+    "D",
+    "C",
+    "G",
+    [
+     "G:2",
+     "B7:2"
+    ],
+    [
+     "B7:2",
+     "Em:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 7",
+   "bars": [
+    "Em",
+    "D",
+    "C",
+    "Em",
+    "D",
+    "C",
+    "Em",
+    "D",
+    "C",
+    "G",
+    [
+     "B7:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "C:2"
+    ],
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    "C",
+    "A",
+    "D",
+    "C",
+    "A",
+    "D",
+    "C",
+    "A",
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "A:2"
+    ],
+    "Em",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
+  },
+  {
+   "name": "Strofa 8",
+   "bars": [
+    "Em",
+    "D",
+    "C",
+    "Em",
+    "D",
+    "C",
+    "Em",
+    "D",
+    "C",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "G:2",
+     "B7:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "B7:2",
+     "Em:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   35,
+   60.26
+  ],
+  [
+   41,
+   70.68
+  ],
+  [
+   48,
+   82.758
+  ],
+  [
+   54,
+   93.196
+  ],
+  [
+   61,
+   105.49
+  ],
+  [
+   67,
+   115.994
+  ],
+  [
+   77,
+   133.248
+  ],
+  [
+   84,
+   145.018
+  ],
+  [
+   90,
+   155.37
+  ],
+  [
+   97,
+   167.403
+  ],
+  [
+   103,
+   177.75
+  ],
+  [
+   130,
+   224.335
+  ],
+  [
+   136,
+   234.687
+  ],
+  [
+   143,
+   246.842
+  ],
+  [
+   149,
+   257.39
+  ],
+  [
+   159,
+   274.74
+  ],
+  [
+   165,
+   284.8
+  ],
+  [
+   188,
+   324.228
+  ],
+  [
+   194,
+   334.562
+  ],
+  [
+   197,
+   339.738
+  ]
+ ],
+ "strumSource": "stima"
+}

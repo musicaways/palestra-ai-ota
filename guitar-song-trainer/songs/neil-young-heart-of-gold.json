@@ -1,0 +1,165 @@
+{
+ "title": "Heart of Gold",
+ "artist": "Neil Young",
+ "album": "Misc Rock",
+ "year": 1972,
+ "genre": "Folk / Rock",
+ "difficulty": 1,
+ "youtubeId": "c7eB7Wns1-M",
+ "key": "Em",
+ "bpm": 85.49,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.11,
+ "strum": "D--UD-DU",
+ "lyricsSource": {
+  "lrclibId": 37489423,
+  "duration": 187.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Em – G – C – D.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Em",
+    "D",
+    "Em",
+    "Em",
+    "D",
+    "Em",
+    "Em",
+    "C",
+    "D",
+    "G",
+    "Em",
+    "C"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Em:2",
+     "C:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "Em:2",
+     "C:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "Em:2",
+     "C:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    "Em",
+    "G",
+    "C",
+    "G",
+    "Em",
+    "G",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "Em",
+    "C",
+    "D",
+    "G",
+    "Em",
+    "C",
+    "D",
+    "G",
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Em",
+    "C",
+    [
+     "Em:2",
+     "C:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "Em:2",
+     "C:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    "Em",
+    "G",
+    "C",
+    "G",
+    "Em",
+    "G",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "Em",
+    "C",
+    "D",
+    "G",
+    "Em",
+    "C",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Em:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    "D",
+    "Em",
+    "D",
+    "Em",
+    "G",
+    "C",
+    "G",
+    "C",
+    "G",
+    "C",
+    "G"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima",
+ "deezerId": 3826694,
+ "spotifyId": "5vd1QZ0tdXOExiegC55IAS"
+}

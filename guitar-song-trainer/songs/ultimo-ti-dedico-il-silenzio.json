@@ -1,0 +1,211 @@
+{
+ "title": "Ti dedico il silenzio",
+ "artist": "Ultimo",
+ "album": "48 mln wyświetleń",
+ "year": 2018,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "vUXmB4-HYUI",
+ "key": "Ab",
+ "bpm": 80.22,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.02,
+ "strum": "D--UD-DU",
+ "lyricsSource": {
+  "lrclibId": 36783618,
+  "duration": 240,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Ab – Eb – Bb – Ebadd9 – Cm7 – Gm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Cm7",
+    "%",
+    "Ab",
+    "%"
+   ],
+   "strum": "D---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Cm7:2",
+     "Ab:2"
+    ],
+    "Eb",
+    "%",
+    "%",
+    "Ab",
+    "Eb",
+    "%",
+    "%",
+    "Ab",
+    "Eb",
+    "%",
+    "%",
+    "Ab",
+    [
+     "Ab:2",
+     "Eb:2"
+    ],
+    "%",
+    "%",
+    "Ab",
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Cm7:2",
+     "Ab:2"
+    ],
+    "Eb",
+    "%",
+    "%",
+    "Ab",
+    "Eb",
+    "%",
+    "%",
+    "Ab",
+    "Eb",
+    "%",
+    "%",
+    "Ab",
+    "Eb",
+    "%",
+    "%",
+    "Ab",
+    "Eb",
+    "%",
+    "%",
+    "Bb",
+    "Ab",
+    "Bb",
+    "Cm",
+    "Bb",
+    "Ab",
+    "%",
+    "Bb",
+    "%",
+    [
+     "Gm7:2",
+     "Ebadd9:2"
+    ],
+    "Bb",
+    "%",
+    "%",
+    "Ebadd9",
+    [
+     "Ebadd9:2",
+     "Bb:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D---"
+  }
+ ],
+ "warp": [
+  [
+   4,
+   12.945
+  ],
+  [
+   8,
+   24.984
+  ],
+  [
+   14,
+   42.934
+  ],
+  [
+   18,
+   54.663
+  ],
+  [
+   22,
+   66.889
+  ],
+  [
+   28,
+   84.908
+  ],
+  [
+   32,
+   96.97
+  ],
+  [
+   36,
+   108.826
+  ],
+  [
+   40,
+   120.617
+  ],
+  [
+   44,
+   132.525
+  ],
+  [
+   49,
+   148.065
+  ],
+  [
+   54,
+   163.147
+  ],
+  [
+   61,
+   184.985
+  ],
+  [
+   69,
+   209.321
+  ],
+  [
+   71,
+   215.81
+  ]
+ ],
+ "strumSource": "stima"
+}

@@ -1,0 +1,199 @@
+{
+ "title": "La solitudine",
+ "artist": "Laura Pausini",
+ "album": "Noi che negli anni 90 Vol. 1",
+ "year": 1993,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "y_tee35t4LM",
+ "key": "Gb",
+ "bpm": 62.86,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 3.47,
+ "strum": "D-------",
+ "lyricsSource": {
+  "lrclibId": 37537038,
+  "duration": 237,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Gb – Ebm7 – Gm7 – Ab – Bb – Bbm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bb",
+    "Gm7",
+    "Ebmaj7"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Bb",
+    "Gm7",
+    [
+     "Ebmaj7:2",
+     "Eb6:2"
+    ],
+    "Gm7",
+    "Bb",
+    "Gm7",
+    [
+     "Ebmaj7:2",
+     "Eb6:2"
+    ],
+    "%",
+    "%",
+    "Gm7",
+    "%",
+    "%",
+    [
+     "Cm7:2",
+     "F7:2"
+    ],
+    "%",
+    "Gm7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Db",
+    "Bbm7",
+    "Gbmaj7",
+    "Bbm7",
+    "Db",
+    "Bbm7",
+    "Gbmaj7",
+    "%",
+    "%",
+    "%",
+    "Gb",
+    "%",
+    "%",
+    "%",
+    "Gb",
+    [
+     "Ebm7:2",
+     "Ab:2"
+    ],
+    [
+     "Gb:1",
+     "Ebm7:1",
+     "Fm7:1"
+    ],
+    "%",
+    "Gb",
+    "%",
+    "%",
+    "%",
+    [
+     "Gb:1",
+     "Ebm7:1",
+     "Ab:1"
+    ],
+    "%",
+    "%",
+    "%",
+    [
+     "Gb:1",
+     "Ebm7:1",
+     "Ab:1"
+    ],
+    "%",
+    "%",
+    "%",
+    [
+     "Gb:1",
+     "Ebm7:1",
+     "Ab:1"
+    ],
+    "%",
+    "%",
+    "%",
+    [
+     "Gb:1",
+     "Ebm7:1",
+     "Ab:1"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   3,
+   15.124
+  ],
+  [
+   7,
+   30.57
+  ],
+  [
+   11,
+   46.91
+  ],
+  [
+   15,
+   62.87
+  ],
+  [
+   23,
+   94.53
+  ],
+  [
+   27,
+   110.16
+  ],
+  [
+   31,
+   125.334
+  ],
+  [
+   35,
+   140.164
+  ],
+  [
+   39,
+   156.034
+  ],
+  [
+   43,
+   171.564
+  ],
+  [
+   47,
+   186.622
+  ],
+  [
+   52,
+   205.712
+  ],
+  [
+   56,
+   221.688
+  ],
+  [
+   58,
+   229.324
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 760199
+}

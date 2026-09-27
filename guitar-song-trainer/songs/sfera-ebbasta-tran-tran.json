@@ -1,0 +1,304 @@
+{
+ "title": "Tran tran",
+ "artist": "Sfera Ebbasta",
+ "album": "Famoso",
+ "year": 2018,
+ "genre": "Rap / Hip-hop",
+ "difficulty": 4,
+ "youtubeId": "55h8T64AoX8",
+ "key": "G#7",
+ "bpm": 129.04,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.41,
+ "strum": "P-PP-PP-",
+ "lyricsSource": {
+  "lrclibId": 34638691,
+  "duration": 221,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G#7 – C#m – G# – F#m – A6.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "G#7:2",
+     "A6:2"
+    ],
+    "%",
+    "G#7",
+    "%",
+    "%",
+    "%",
+    [
+     "G#7:2",
+     "F#m:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "G#7",
+    "C#m",
+    "G#7",
+    "F#m",
+    [
+     "G#7:2",
+     "C#m:2"
+    ],
+    "G#",
+    "F#m",
+    "%",
+    "%",
+    "G#",
+    "F#m",
+    "%",
+    [
+     "G#7:2",
+     "C#m:2"
+    ],
+    "G#",
+    "%",
+    "G#7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    "G#",
+    "%",
+    "F#m",
+    "G#7",
+    "C#m",
+    "G#",
+    "A6",
+    "G#",
+    "C#m",
+    "G#",
+    "F#m",
+    "G#7",
+    "C#m",
+    "%",
+    "G#"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "F#m",
+    [
+     "G#7:2",
+     "C#m:2"
+    ],
+    "G#",
+    [
+     "G#:2",
+     "F#m:2"
+    ],
+    "%",
+    "G#7",
+    "C#m",
+    "G#",
+    "F#m",
+    "G#7",
+    "C#m",
+    "G#",
+    [
+     "G#:2",
+     "F#m:2"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    [
+     "G#7:1",
+     "C#m:1",
+     "G#:1",
+     "F#m:1"
+    ],
+    [
+     "G#7:1",
+     "C#m:1",
+     "G#:1",
+     "F#m:1"
+    ],
+    "C#m",
+    "%",
+    [
+     "G#:2",
+     "F#m:2"
+    ],
+    "%",
+    "G#",
+    "C#m",
+    "C#m",
+    [
+     "G#7:2",
+     "C#m:2"
+    ],
+    [
+     "G#7:2",
+     "C#m:2"
+    ],
+    [
+     "G#7:2",
+     "C#m:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 8",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 9",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   0,
+   1.4
+  ],
+  [
+   11,
+   21.6
+  ],
+  [
+   16,
+   31.011
+  ],
+  [
+   22,
+   42.71
+  ],
+  [
+   28,
+   53.869
+  ],
+  [
+   33,
+   62.79
+  ],
+  [
+   38,
+   71.9
+  ],
+  [
+   42,
+   79.319
+  ],
+  [
+   48,
+   90.7
+  ],
+  [
+   54,
+   101.9
+  ],
+  [
+   65,
+   122.359
+  ],
+  [
+   70,
+   131.55
+  ],
+  [
+   76,
+   142.89
+  ],
+  [
+   79,
+   148.52
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 369208871
+}

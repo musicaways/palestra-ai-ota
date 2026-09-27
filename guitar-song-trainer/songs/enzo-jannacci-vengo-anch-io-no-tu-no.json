@@ -1,0 +1,242 @@
+{
+ "title": "Vengo anch'io. No, tu no",
+ "artist": "Enzo Jannacci",
+ "album": "Così ride Enzo Jannacci",
+ "year": 1967,
+ "genre": "Cantautori",
+ "difficulty": 5,
+ "youtubeId": "YCK5_v5ELx8",
+ "key": "F#m",
+ "bpm": 110.54,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.31,
+ "strum": "B-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 33484975,
+  "duration": 183,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F#m – G#m – E7 – Am – Gm – E.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F#m",
+    "D7",
+    "F#m",
+    "E",
+    "D",
+    "C#7"
+   ],
+   "barsPerRow": 4,
+   "strum": "B---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "F#m",
+    "%",
+    "%",
+    [
+     "D:2",
+     "E7:2"
+    ],
+    [
+     "A:2",
+     "C#:2"
+    ],
+    "%",
+    "%",
+    [
+     "F#m:1",
+     "C#7:2",
+     "F#m:1"
+    ],
+    "F#m",
+    "%",
+    "D7",
+    "F#m",
+    "%",
+    "D7",
+    "%",
+    "Gm",
+    "%",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Gm",
+    "%",
+    "%",
+    [
+     "Eb:2",
+     "F7:2"
+    ],
+    [
+     "Bb:2",
+     "D:2"
+    ],
+    "%",
+    "%",
+    [
+     "Gm:1",
+     "Eb:1",
+     "D7:1",
+     "Gm:1"
+    ],
+    "Gm",
+    "%",
+    "Eb7",
+    "Eb7",
+    "%",
+    "G#m",
+    "%",
+    "Eb7",
+    "%",
+    "G#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "G#m",
+    "%",
+    "%",
+    [
+     "E:2",
+     "F#7:2"
+    ],
+    [
+     "B:2",
+     "D#:2"
+    ],
+    "%",
+    "%",
+    [
+     "G#m:1",
+     "E:1",
+     "D#7:1",
+     "G#m:1"
+    ],
+    "G#m",
+    "%",
+    "E7",
+    "G#m",
+    "%",
+    "E7",
+    "%",
+    "Am",
+    "%",
+    "F7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Am",
+    "%",
+    "%",
+    [
+     "F:2",
+     "G7:2"
+    ],
+    [
+     "C:2",
+     "E:2"
+    ],
+    "%",
+    "%",
+    [
+     "Am:1",
+     "F:1",
+     "E7:1",
+     "Am:1"
+    ],
+    "Am",
+    "E7",
+    "%",
+    "%",
+    "F7",
+    "E7",
+    "%",
+    "Am",
+    "%",
+    "F7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   6,
+   13.407
+  ],
+  [
+   11,
+   24.346
+  ],
+  [
+   15,
+   32.947
+  ],
+  [
+   24,
+   52.388
+  ],
+  [
+   29,
+   63.244
+  ],
+  [
+   34,
+   74.32
+  ],
+  [
+   42,
+   91.82
+  ],
+  [
+   49,
+   106.976
+  ],
+  [
+   60,
+   130.404
+  ],
+  [
+   65,
+   141.438
+  ],
+  [
+   70,
+   152.382
+  ],
+  [
+   76,
+   165.479
+  ],
+  [
+   78,
+   169.821
+  ]
+ ],
+ "strumSource": "stima"
+}

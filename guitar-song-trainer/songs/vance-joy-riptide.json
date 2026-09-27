@@ -1,0 +1,336 @@
+{
+ "title": "Riptide",
+ "artist": "Vance Joy",
+ "album": "Fyp Italia 2023",
+ "year": 2013,
+ "genre": "Folk / Pop",
+ "difficulty": 3,
+ "youtubeId": "uJ_1HMAGb4k",
+ "key": "Ab",
+ "bpm": 101.48,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.53,
+ "strum": "D--UDUDU",
+ "lyricsSource": {
+  "lrclibId": 36992269,
+  "duration": 204,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Ab – Bbm – Db – Gb.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bbm",
+    "Ab",
+    "Db",
+    "Bbm"
+   ],
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Bbm:2",
+     "Ab:2"
+    ],
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    "Db",
+    "%",
+    [
+     "Bbm:2",
+     "Ab:2"
+    ],
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    [
+     "Bbm:2",
+     "Ab:2"
+    ],
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    [
+     "Bbm:2",
+     "Ab:2"
+    ],
+    "Db",
+    [
+     "Bbm:2",
+     "Ab:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Db",
+    [
+     "Bbm:2",
+     "Ab:2"
+    ],
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    "Bbm",
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    [
+     "Bbm:2",
+     "Ab:2"
+    ],
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    "Bbm",
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    [
+     "Bbm:2",
+     "Ab:2"
+    ],
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    "Bbm",
+    "Ab",
+    [
+     "Bbm:2",
+     "Ab:2"
+    ],
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    [
+     "Bbm:2",
+     "Ab:2"
+    ],
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    [
+     "Bbm:2",
+     "Ab:2"
+    ],
+    "Db",
+    [
+     "Bbm:2",
+     "Ab:2"
+    ]
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Db",
+    [
+     "Bbm:2",
+     "Ab:2"
+    ],
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    "Bbm",
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    [
+     "Bbm:2",
+     "Ab:2"
+    ],
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    "Bbm",
+    "Ab",
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Bbm",
+    "Ab",
+    "Db",
+    "Gb",
+    "Bbm",
+    "Ab",
+    "Db",
+    "Gb",
+    [
+     "Bbm:2",
+     "Ab:2"
+    ],
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    "Bbm",
+    "Ab",
+    [
+     "Bbm:1",
+     "Ab:2",
+     "Db:1"
+    ],
+    "Bbm",
+    "Ab",
+    "Db",
+    [
+     "Bbm:1",
+     "Ab:2",
+     "Db:1"
+    ],
+    "Bbm",
+    "Ab",
+    "Db",
+    [
+     "Bbm:1",
+     "Ab:2",
+     "Db:1"
+    ],
+    "Bbm",
+    "Ab",
+    "Db",
+    [
+     "Bbm:1",
+     "Ab:2",
+     "Db:1"
+    ],
+    "Bbm",
+    "Ab",
+    "Db",
+    [
+     "Bbm:1",
+     "Ab:2",
+     "Db:1"
+    ],
+    "Bbm",
+    "Ab",
+    "Db",
+    [
+     "Bbm:1",
+     "Ab:2",
+     "Db:1"
+    ],
+    "Bbm",
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    "Bbm",
+    "Ab",
+    "%",
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   10
+  ],
+  [
+   8,
+   19.47
+  ],
+  [
+   12,
+   28.98
+  ],
+  [
+   20,
+   47.965
+  ],
+  [
+   24,
+   57.425
+  ],
+  [
+   30,
+   71.69
+  ],
+  [
+   35,
+   83.265
+  ],
+  [
+   40,
+   95.32
+  ],
+  [
+   46,
+   109.39
+  ],
+  [
+   52,
+   123.2
+  ],
+  [
+   58,
+   137.09
+  ],
+  [
+   62,
+   146.53
+  ],
+  [
+   70,
+   165.32
+  ],
+  [
+   75,
+   177.74
+  ],
+  [
+   80,
+   189.895
+  ],
+  [
+   82,
+   194.41
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 83841464,
+ "spotifyId": "423RKXolCbgBbkF8WanOwA"
+}

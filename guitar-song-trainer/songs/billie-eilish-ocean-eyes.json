@@ -1,0 +1,337 @@
+{
+ "title": "Ocean Eyes",
+ "artist": "Billie Eilish",
+ "album": "dont smile at me",
+ "year": 2016,
+ "genre": "Pop",
+ "difficulty": 1,
+ "youtubeId": "viimfQi_pUw",
+ "key": "C",
+ "bpm": 72.68,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 3.04,
+ "strum": "D---D-DU",
+ "lyricsSource": {
+  "lrclibId": 24491478,
+  "duration": 200.379297,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – Em – D – G.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "C",
+    "D",
+    "Em"
+   ],
+   "strum": "D-------"
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    [
+     "C:1",
+     "D:2",
+     "Em:1"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "Em:1"
+    ],
+    [
+     "C:2",
+     "D:1",
+     "Em:1"
+    ],
+    [
+     "Em:1",
+     "G:1",
+     "C:2"
+    ],
+    [
+     "D:2",
+     "Em:1",
+     "C:1"
+    ],
+    [
+     "C:1",
+     "D:1",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "D:1",
+     "Em:1"
+    ],
+    [
+     "Em:1",
+     "G:1",
+     "C:2"
+    ],
+    "C",
+    [
+     "C:1",
+     "D:2",
+     "Em:1"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "Em:1"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "Em:1"
+    ],
+    [
+     "G:2",
+     "C:2"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "Em:1"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "Em:1"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "Em:1"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    [
+     "G:2",
+     "C:2"
+    ],
+    [
+     "G:2",
+     "C:2"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "Em:1"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "Em:1"
+    ],
+    [
+     "C:2",
+     "D:1",
+     "Em:1"
+    ],
+    [
+     "Em:1",
+     "G:1",
+     "C:2"
+    ],
+    [
+     "D:2",
+     "Em:1",
+     "C:1"
+    ],
+    [
+     "C:1",
+     "D:1",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "D:1",
+     "Em:1"
+    ],
+    [
+     "Em:1",
+     "G:1",
+     "C:2"
+    ],
+    [
+     "G:2",
+     "C:2"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "Em:1"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "Em:1"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "Em:1"
+    ],
+    [
+     "G:2",
+     "C:2"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "Em:1"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    [
+     "C:1",
+     "D:2",
+     "Em:1"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "Em:1"
+    ],
+    [
+     "G:2",
+     "C:2"
+    ],
+    [
+     "G:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "C:1",
+     "D:2",
+     "Em:1"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "Em:1"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "Em:1"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    [
+     "G:2",
+     "C:2"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "Em:1"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "Em:1"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "Em:1"
+    ],
+    [
+     "G:2",
+     "C:2"
+    ],
+    "G",
+    "%",
+    "C",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   3,
+   13.257
+  ],
+  [
+   9,
+   32.969
+  ],
+  [
+   14,
+   49.1
+  ],
+  [
+   18,
+   62.309
+  ],
+  [
+   23,
+   79.361
+  ],
+  [
+   27,
+   92.57
+  ],
+  [
+   32,
+   108.626
+  ],
+  [
+   36,
+   121.849
+  ],
+  [
+   40,
+   135.638
+  ],
+  [
+   45,
+   151.589
+  ],
+  [
+   50,
+   167.956
+  ],
+  [
+   54,
+   181.309
+  ],
+  [
+   56,
+   187.93
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 136337268
+}

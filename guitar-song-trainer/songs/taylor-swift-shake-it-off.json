@@ -1,0 +1,211 @@
+{
+ "title": "Shake It Off",
+ "artist": "Taylor Swift",
+ "album": "Billboard Top 100 Hits of 2015",
+ "year": 2014,
+ "genre": "Pop",
+ "difficulty": 1,
+ "youtubeId": "w9uTc7_FB_0",
+ "key": "G",
+ "bpm": 79.84,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.45,
+ "strum": "D---D-DU",
+ "lyricsSource": {
+  "lrclibId": 36962115,
+  "duration": 219,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – C – Am – Am7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Am"
+   ]
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "Am",
+    "C",
+    "G",
+    "%",
+    "Am7",
+    "C",
+    "G",
+    "%",
+    "Am",
+    "C",
+    "G",
+    "%",
+    "Am",
+    "C",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "Am",
+    "C",
+    "G",
+    "%",
+    "Am",
+    "C",
+    "G",
+    "%",
+    "Am",
+    "C",
+    "G",
+    "%",
+    "Am",
+    "C",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "Am7",
+    "C",
+    "G",
+    "%",
+    "Am7",
+    "C",
+    "G",
+    "%",
+    [
+     "Am7:2",
+     "C:2"
+    ],
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Am7",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "Am7",
+    "C",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "%",
+    "Am7",
+    "C",
+    "Am7",
+    "G",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   1,
+   5.588
+  ],
+  [
+   5,
+   17.418
+  ],
+  [
+   9,
+   29.022
+  ],
+  [
+   14,
+   44.934
+  ],
+  [
+   18,
+   56.958
+  ],
+  [
+   22,
+   68.426
+  ],
+  [
+   27,
+   83.41
+  ],
+  [
+   31,
+   95.202
+  ],
+  [
+   36,
+   110.968
+  ],
+  [
+   40,
+   122.972
+  ],
+  [
+   44,
+   134.436
+  ],
+  [
+   50,
+   152.604
+  ],
+  [
+   54,
+   164.944
+  ],
+  [
+   58,
+   176.968
+  ],
+  [
+   62,
+   188.992
+  ],
+  [
+   67,
+   203.442
+  ],
+  [
+   69,
+   209.432
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 2512293231
+}

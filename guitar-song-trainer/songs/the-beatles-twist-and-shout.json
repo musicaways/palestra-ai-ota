@@ -1,0 +1,172 @@
+{
+ "title": "Twist and Shout",
+ "artist": "The Beatles",
+ "album": "Please Please Me [Stereo Box Set]",
+ "year": 1963,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "xcdwr9RCg2A",
+ "key": "D",
+ "bpm": 62.35,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.07,
+ "strum": "D--UD-DU",
+ "lyricsSource": {
+  "lrclibId": 37502172,
+  "duration": 153,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – A – G – B – C – A7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "D"
+   ]
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "D:1",
+     "G:2",
+     "A:1"
+    ],
+    [
+     "D:1",
+     "G:2",
+     "A:1"
+    ],
+    "%",
+    "D",
+    [
+     "D:1",
+     "G:2",
+     "A:1"
+    ],
+    [
+     "D:1",
+     "G:2",
+     "A:1"
+    ],
+    [
+     "D:1",
+     "G:2",
+     "A:1"
+    ],
+    "D",
+    [
+     "D:1",
+     "G:2",
+     "A:1"
+    ],
+    [
+     "D:1",
+     "G:2",
+     "A:1"
+    ],
+    "%",
+    "D",
+    "D",
+    [
+     "D:1",
+     "G:2",
+     "A:1"
+    ],
+    "D",
+    "D",
+    "D",
+    "G",
+    "A",
+    "D",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    [
+     "D:1",
+     "G:2",
+     "A:1"
+    ],
+    "%",
+    "D",
+    [
+     "D:1",
+     "G:2",
+     "A:1"
+    ],
+    [
+     "D:1",
+     "G:2",
+     "A:1"
+    ],
+    "D",
+    "D",
+    "D",
+    "D",
+    "D",
+    [
+     "A:2",
+     "A7:2"
+    ],
+    "A",
+    "Bb",
+    "B",
+    "C"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   1,
+   6.67
+  ],
+  [
+   5,
+   21.621
+  ],
+  [
+   10,
+   40.631
+  ],
+  [
+   15,
+   58.967
+  ],
+  [
+   21,
+   82.28
+  ],
+  [
+   25,
+   98.363
+  ],
+  [
+   29,
+   113.822
+  ],
+  [
+   33,
+   129.218
+  ],
+  [
+   35,
+   136.958
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 116348340
+}

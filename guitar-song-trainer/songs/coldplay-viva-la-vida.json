@@ -1,0 +1,305 @@
+{
+ "title": "Viva la Vida",
+ "artist": "Coldplay",
+ "album": "Viva la Vida or Death and All His Friends",
+ "year": 2008,
+ "genre": "Pop / Rock",
+ "difficulty": 5,
+ "youtubeId": "dvgZkm1xWPE",
+ "key": "Db",
+ "bpm": 68.75,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.6,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 4147944,
+  "duration": 242,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Db – Fm – Ab – Eb – Eb7 – Abmaj7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Db",
+    "Eb7",
+    "Ab"
+   ],
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Db:2",
+     "Eb:2"
+    ],
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    [
+     "Db:2",
+     "Eb:2"
+    ],
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    "Db",
+    "Eb7",
+    "Ab",
+    "Fm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "Db:2",
+     "Eb:2"
+    ],
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    [
+     "Db:2",
+     "Eb:2"
+    ],
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    [
+     "Db:2",
+     "Eb:2"
+    ],
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    [
+     "Db:2",
+     "Eb:2"
+    ],
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    [
+     "Db:2",
+     "Eb:2"
+    ],
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    [
+     "Db:2",
+     "Eb:2"
+    ],
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    [
+     "Db:2",
+     "Eb:2"
+    ],
+    "%",
+    "%",
+    [
+     "Abmaj7:2",
+     "Fm:2"
+    ],
+    "Db",
+    "Eb7",
+    "Ab",
+    "Fm"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "Db:2",
+     "Eb:2"
+    ],
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    [
+     "Db:2",
+     "Eb:2"
+    ],
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    [
+     "Db:2",
+     "Eb:2"
+    ],
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    [
+     "Db:2",
+     "Eb:2"
+    ],
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    [
+     "Db:2",
+     "Eb:2"
+    ],
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    [
+     "Db:2",
+     "Eb:2"
+    ],
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    [
+     "Db:2",
+     "Eb:2"
+    ],
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    "%",
+    [
+     "Abmaj7:2",
+     "Fm:2"
+    ],
+    "Db",
+    "Fm",
+    "Db",
+    "Fm",
+    "Db",
+    "Fm",
+    "Eb",
+    "Db"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Db:2",
+     "Eb:2"
+    ],
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    [
+     "Db:2",
+     "Eb:2"
+    ],
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    [
+     "Db:2",
+     "Eb:2"
+    ],
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    [
+     "Db:2",
+     "Eb:2"
+    ],
+    [
+     "Abmaj7:2",
+     "Fm:2"
+    ],
+    "Db",
+    "Eb7",
+    "Ab",
+    "Fm",
+    "Db",
+    "Eb7"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   3,
+   13.23
+  ],
+  [
+   11,
+   41.045
+  ],
+  [
+   16,
+   58.43
+  ],
+  [
+   21,
+   76.267
+  ],
+  [
+   26,
+   93.22
+  ],
+  [
+   31,
+   110.675
+  ],
+  [
+   36,
+   128.152
+  ],
+  [
+   41,
+   146.04
+  ],
+  [
+   45,
+   159.971
+  ],
+  [
+   55,
+   194.687
+  ],
+  [
+   60,
+   212.001
+  ],
+  [
+   62,
+   218.822
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 3157972,
+ "spotifyId": "1mea3bSkSGXuIRvnydlB5b"
+}

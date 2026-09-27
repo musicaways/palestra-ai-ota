@@ -1,0 +1,311 @@
+{
+ "title": "Happier Than Ever",
+ "artist": "Billie Eilish",
+ "album": "Girl Power 2022",
+ "year": 2021,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "IIfDVU7Uwo0",
+ "key": "Am",
+ "bpm": 101.07,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.27,
+ "strum": "D--UD-DU",
+ "lyricsSource": {
+  "lrclibId": 37000433,
+  "duration": 299,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Am – C – Fm – F – E – E7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G",
+    "G7"
+   ],
+   "strum": "D---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "C",
+    "E7",
+    "E7",
+    "%",
+    "Am",
+    "%",
+    "Dm",
+    [
+     "Dm:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "C",
+    "E7",
+    "Am",
+    "%",
+    "Dm",
+    [
+     "Dm:2",
+     "G:2"
+    ],
+    "%",
+    [
+     "G:2",
+     "C:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "E7",
+    "%",
+    "Am",
+    "%",
+    "Fm",
+    "%",
+    "C",
+    "%",
+    "E7",
+    "%",
+    "Am",
+    "%",
+    "Fm",
+    "%",
+    "E",
+    "%",
+    "Am",
+    [
+     "Am:2",
+     "Am7:2"
+    ],
+    [
+     "Am7:2",
+     "D:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Dm",
+    "G7",
+    "C",
+    "%",
+    "E7",
+    "%",
+    "Am",
+    "%",
+    [
+     "Dm:1",
+     "G:2",
+     "C:1"
+    ],
+    "C",
+    "Em",
+    "Am",
+    "Fm",
+    "C",
+    "Em",
+    "Am",
+    "Fm",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "C:2",
+     "E5:2"
+    ],
+    [
+     "E5:2",
+     "Am:2"
+    ],
+    "Fm",
+    "C",
+    "E5",
+    "Am",
+    "Fm",
+    "C",
+    "E5",
+    [
+     "Am:2",
+     "Fm:2"
+    ],
+    "C",
+    "E5",
+    "Am",
+    "F",
+    "C",
+    "E",
+    "Am",
+    "F",
+    "Fm",
+    "C",
+    [
+     "Am:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "Fm:2"
+    ],
+    "C",
+    "E",
+    [
+     "Am:2",
+     "F:2"
+    ],
+    "C",
+    "%",
+    "Am",
+    "F",
+    [
+     "Fm:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "E:2"
+    ],
+    "Am",
+    "Fm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "C",
+    "E",
+    "Am",
+    "F",
+    "C",
+    "E",
+    [
+     "Am:1",
+     "Fm:1",
+     "C:1",
+     "E:1"
+    ],
+    "Am",
+    "F",
+    "Fm",
+    "C",
+    "E",
+    "Am",
+    "F",
+    "Fm",
+    "Am",
+    "F",
+    "Fm",
+    "C",
+    "E",
+    "Am",
+    "F",
+    "Fm",
+    "Am",
+    "F",
+    "Fm",
+    "C",
+    "E",
+    "Am",
+    "F",
+    "Fm"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   2,
+   5.981
+  ],
+  [
+   11,
+   27.352
+  ],
+  [
+   22,
+   53.782
+  ],
+  [
+   26,
+   63.28
+  ],
+  [
+   32,
+   77.4
+  ],
+  [
+   38,
+   91.275
+  ],
+  [
+   44,
+   105.432
+  ],
+  [
+   50,
+   119.679
+  ],
+  [
+   62,
+   148.174
+  ],
+  [
+   66,
+   158.047
+  ],
+  [
+   71,
+   169.92
+  ],
+  [
+   76,
+   181.412
+  ],
+  [
+   80,
+   191.082
+  ],
+  [
+   86,
+   205.259
+  ],
+  [
+   91,
+   217.232
+  ],
+  [
+   97,
+   231.502
+  ],
+  [
+   101,
+   241
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 1449740592,
+ "spotifyId": "5Hs6OwUQ4zty9uPxn8eQrR"
+}

@@ -1,0 +1,294 @@
+{
+ "title": "Il mondo prima di te",
+ "artist": "Annalisa",
+ "album": "Il mondo prima di te",
+ "year": 2018,
+ "genre": "Pop",
+ "difficulty": 2,
+ "youtubeId": "m88mXYPfkQg",
+ "key": "F#m",
+ "bpm": 133.54,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.51,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37436956,
+  "duration": 214,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F#m – A – B – E.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F#m",
+    "A",
+    "E",
+    "B",
+    "F#m",
+    "A",
+    "E"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "F#m",
+    [
+     "F#m:2",
+     "A:2"
+    ],
+    "%",
+    "B",
+    "%",
+    "F#m",
+    "A",
+    "B",
+    "F#m",
+    "A",
+    "E",
+    "%",
+    "A",
+    "%",
+    "B",
+    "%",
+    "%",
+    "F#m",
+    "A",
+    "E",
+    "B"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "F#m",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "B",
+    "F#m",
+    "A",
+    "E",
+    "B",
+    "F#m",
+    "A",
+    "E",
+    "B",
+    "F#m",
+    "A",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    "B"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "F#m",
+    [
+     "F#m:2",
+     "A:2"
+    ],
+    "%",
+    "B",
+    "F#m",
+    "A",
+    "E",
+    "B",
+    "F#m",
+    "A",
+    "E",
+    "B",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%",
+    "F#m",
+    "A",
+    "E",
+    "B"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "F#m",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "B",
+    "F#m",
+    "A",
+    "E",
+    "B",
+    "F#m",
+    "A",
+    "E",
+    "B",
+    "F#m",
+    "%",
+    "A",
+    "%",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    "%",
+    "B",
+    "%",
+    "F#m",
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    "%",
+    [
+     "E:2",
+     "B:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "F#m",
+    "E",
+    "B",
+    "F#m",
+    "A",
+    "E",
+    "B",
+    "F#m",
+    "A",
+    "E",
+    "B",
+    "F#m",
+    "A",
+    "E",
+    "B",
+    "F#m",
+    "A",
+    "E",
+    "B"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "F#m",
+    "%",
+    [
+     "F#m:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    "E",
+    "%",
+    [
+     "E:2",
+     "B:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  }
+ ],
+ "warp": [
+  [
+   10,
+   19.376
+  ],
+  [
+   15,
+   28.362
+  ],
+  [
+   21,
+   39.129
+  ],
+  [
+   28,
+   51.747
+  ],
+  [
+   34,
+   62.53
+  ],
+  [
+   39,
+   71.819
+  ],
+  [
+   44,
+   80.653
+  ],
+  [
+   50,
+   91.29
+  ],
+  [
+   55,
+   100.366
+  ],
+  [
+   61,
+   111.149
+  ],
+  [
+   68,
+   123.79
+  ],
+  [
+   72,
+   131.237
+  ],
+  [
+   85,
+   154.92
+  ],
+  [
+   89,
+   162.39
+  ],
+  [
+   97,
+   177.16
+  ],
+  [
+   104,
+   189.741
+  ],
+  [
+   108,
+   197.289
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 1250460882,
+ "spotifyId": "0bV0cb8ik5j0zi20JfxPK4"
+}

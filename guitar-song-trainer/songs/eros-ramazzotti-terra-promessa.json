@@ -1,0 +1,294 @@
+{
+ "title": "Terra promessa",
+ "artist": "Eros Ramazzotti",
+ "album": "Terra Promessa / Bella Storia",
+ "year": 1984,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "rthX5B-5B-k",
+ "key": "F#",
+ "bpm": 99.75,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.31,
+ "strum": "D-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 35872363,
+  "duration": 224,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F# – B – G#m – E – D# – D#4.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G#m",
+    "B",
+    "F#",
+    "G#m",
+    "G#m",
+    "B",
+    "F#"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "G#m",
+    "B",
+    "F#",
+    "G#m",
+    "%",
+    "B",
+    "F#",
+    "G#m",
+    [
+     "B:2",
+     "F#:2"
+    ],
+    [
+     "F#:2",
+     "G#m:2"
+    ],
+    [
+     "G#m:2",
+     "B:2"
+    ],
+    [
+     "B:2",
+     "F#:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "G#m",
+    "B",
+    "F#",
+    "G#m",
+    "%",
+    "B",
+    "F#",
+    "G#m",
+    [
+     "B:2",
+     "F#:2"
+    ],
+    [
+     "F#:2",
+     "G#m:2"
+    ],
+    "B",
+    "F#",
+    "D#4"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "E:2",
+     "B:2"
+    ],
+    "F#",
+    [
+     "E:2",
+     "G#m:2"
+    ],
+    [
+     "G#m:2",
+     "F#:2"
+    ],
+    [
+     "E:2",
+     "B:2"
+    ],
+    "F#",
+    "E",
+    [
+     "D#:2",
+     "F#:2"
+    ],
+    "G#m",
+    "B",
+    "F#",
+    "G#m",
+    "%",
+    "B",
+    "F#",
+    "G#m",
+    [
+     "B:2",
+     "F#:2"
+    ],
+    [
+     "F#:2",
+     "G#m:2"
+    ],
+    "B",
+    "F#",
+    "D#4",
+    [
+     "E:2",
+     "B:2"
+    ],
+    "F#",
+    [
+     "E:2",
+     "G#m:2"
+    ],
+    [
+     "G#m:2",
+     "F#:2"
+    ],
+    [
+     "E:2",
+     "B:2"
+    ],
+    "F#",
+    "E",
+    [
+     "D#:2",
+     "F#:2"
+    ],
+    "E",
+    "B",
+    "F#",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "E:2",
+     "B:2"
+    ],
+    [
+     "F#:2",
+     "E:2"
+    ],
+    "D#",
+    "F#",
+    [
+     "E:2",
+     "B:2"
+    ],
+    "F#",
+    [
+     "E:2",
+     "G#m:2"
+    ],
+    [
+     "G#m:2",
+     "F#:2"
+    ],
+    [
+     "E:2",
+     "B:2"
+    ],
+    "F#",
+    "E",
+    [
+     "D#:2",
+     "F#:2"
+    ],
+    "E",
+    "B",
+    "F#",
+    "E",
+    "G#m",
+    "F#",
+    "E",
+    "B",
+    "F#",
+    "E",
+    "G#m",
+    "F#",
+    "E",
+    "B",
+    "F#"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   7,
+   19.124
+  ],
+  [
+   11,
+   28.65
+  ],
+  [
+   20,
+   50.294
+  ],
+  [
+   24,
+   60.22
+  ],
+  [
+   28,
+   69.798
+  ],
+  [
+   33,
+   81.544
+  ],
+  [
+   37,
+   91.052
+  ],
+  [
+   41,
+   100.952
+  ],
+  [
+   45,
+   110.782
+  ],
+  [
+   49,
+   120.406
+  ],
+  [
+   55,
+   134.842
+  ],
+  [
+   59,
+   144.068
+  ],
+  [
+   66,
+   160.948
+  ],
+  [
+   71,
+   173.166
+  ],
+  [
+   75,
+   182.688
+  ],
+  [
+   77,
+   187.5
+  ]
+ ],
+ "strumSource": "stima"
+}

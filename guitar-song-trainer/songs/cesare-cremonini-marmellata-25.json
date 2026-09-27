@@ -1,0 +1,224 @@
+{
+ "title": "Marmellata #25",
+ "artist": "Cesare Cremonini",
+ "album": "Maggese",
+ "year": 2005,
+ "genre": "Pop / Cantautori",
+ "difficulty": 1,
+ "youtubeId": "2FBmxK1ttEE",
+ "key": "Re maggiore (D)",
+ "bpm": 120.75,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.55,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34673822,
+  "offset": 0
+ },
+ "notes": "Accordi aperti in Re. Gmaj7 e A6 sono varianti facili di G e A.",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. Se gli accordi sono in anticipo o in ritardo usa Sincronia; per l'allineamento perfetto Registra tempi.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "D",
+    "A",
+    "G",
+    "G",
+    "D",
+    "A",
+    "G",
+    "G",
+    "D",
+    "A",
+    "G",
+    "G",
+    "D",
+    "A",
+    "G",
+    "G"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "D",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Pre-ritornello",
+   "bars": [
+    "D",
+    "Gmaj7",
+    "A6",
+    "%"
+   ]
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "G",
+    "F#m",
+    "D",
+    "Dmaj7",
+    "G",
+    "F#m",
+    "Bm",
+    "%",
+    "Em7",
+    "F#m",
+    "G",
+    "%",
+    "D",
+    "A",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 8,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Intermezzo",
+   "bars": [
+    "D",
+    "A",
+    "G",
+    "D",
+    "A",
+    "G"
+   ],
+   "barsPerRow": 3
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "D",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Pre-ritornello",
+   "bars": [
+    "D",
+    "Gmaj7",
+    "A6",
+    "%"
+   ]
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "G",
+    "F#m",
+    "D",
+    "Dmaj7",
+    "G",
+    "F#m",
+    "Bm",
+    "%",
+    "Em7",
+    "F#m",
+    "G",
+    "%",
+    "D",
+    "A",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 8,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ponte",
+   "bars": [
+    "D",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-D-D-DU"
+  },
+  {
+   "name": "Ritornello finale",
+   "bars": [
+    "G",
+    "F#m",
+    "D",
+    "Dmaj7",
+    "G",
+    "F#m",
+    "Bm",
+    "%",
+    "Em7",
+    "F#m",
+    "G",
+    "%",
+    "D",
+    "A",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 8,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Outro",
+   "bars": [
+    "D",
+    "A",
+    "G",
+    "%",
+    "D",
+    "A",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  }
+ ],
+ "strumSource": "stima"
+}

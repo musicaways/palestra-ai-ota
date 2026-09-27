@@ -1,0 +1,302 @@
+{
+ "title": "Rubami la notte",
+ "artist": "Pinguini Tattici Nucleari",
+ "album": "Rubami la Notte",
+ "year": 2023,
+ "genre": "Pop / Indie",
+ "difficulty": 4,
+ "youtubeId": "I0ytkGQoWK0",
+ "key": "G",
+ "bpm": 77.19,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 3.04,
+ "strum": "D--UXUDU",
+ "lyricsSource": {
+  "lrclibId": 36519136,
+  "duration": 201,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – D – Em7 – Cadd9 – Bm7 – Em.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Em7:1",
+     "Bm7:2",
+     "Cadd9:1"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "Em7:1",
+     "Bm7:2",
+     "Cadd9:1"
+    ],
+    "G",
+    [
+     "Em:1",
+     "Bm:2",
+     "C:1"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "Em:1",
+     "Bm:2",
+     "C:1"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "Em:1",
+     "Bm:2",
+     "C:1"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "Em:1",
+     "Bm:2",
+     "C:1"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "Em7:1",
+     "Bm7:2",
+     "Cadd9:1"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "Em7:1",
+     "Bm7:2",
+     "Cadd9:1"
+    ],
+    "G",
+    [
+     "Em7:1",
+     "Bm7:2",
+     "Cadd9:1"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "Em7:1",
+     "Bm7:2",
+     "Cadd9:1"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "Em:1",
+     "Bm:2",
+     "C:1"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "Am7:2",
+     "C:2"
+    ],
+    "D",
+    [
+     "Em7:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "Em7:1",
+     "Bm7:2",
+     "Cadd9:1"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "Em7:1",
+     "Bm7:2",
+     "Cadd9:1"
+    ],
+    "G",
+    [
+     "Em7:1",
+     "Bm7:2",
+     "Cadd9:1"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "Em7:1",
+     "Bm7:2",
+     "Cadd9:1"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "Cadd9",
+    "Em7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Cadd9",
+    [
+     "Em7:2",
+     "D:2"
+    ],
+    "%",
+    [
+     "Em7:2",
+     "D:2"
+    ],
+    "Cadd9",
+    [
+     "Em7:2",
+     "D:2"
+    ],
+    "%",
+    [
+     "Em7:2",
+     "D:2"
+    ],
+    [
+     "Am7:2",
+     "Em:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "Am7:2",
+     "Em:2"
+    ],
+    "G",
+    [
+     "Em7:1",
+     "Bm7:2",
+     "Cadd9:1"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "Em7:1",
+     "Bm7:2",
+     "Cadd9:1"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "Em7",
+    "Bm7",
+    "Cadd9",
+    "G",
+    "D",
+    "Em7",
+    "Bm7",
+    "Cadd9",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   0,
+   2.671
+  ],
+  [
+   4,
+   15.48
+  ],
+  [
+   8,
+   28.218
+  ],
+  [
+   13,
+   43.232
+  ],
+  [
+   17,
+   55.882
+  ],
+  [
+   21,
+   68.488
+  ],
+  [
+   26,
+   83.968
+  ],
+  [
+   30,
+   96.141
+  ],
+  [
+   35,
+   112.132
+  ],
+  [
+   42,
+   133.82
+  ],
+  [
+   47,
+   149.18
+  ],
+  [
+   52,
+   165.08
+  ],
+  [
+   53,
+   168.218
+  ]
+ ],
+ "strumSource": "stima"
+}

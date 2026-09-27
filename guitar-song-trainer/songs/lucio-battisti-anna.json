@@ -1,0 +1,297 @@
+{
+ "title": "Anna",
+ "artist": "Lucio Battisti",
+ "album": "Best 100 Italian Hits Collection",
+ "year": 1970,
+ "genre": "Cantautori",
+ "difficulty": 2,
+ "youtubeId": "vro-UdkCFfE",
+ "key": "F",
+ "bpm": 89.33,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.85,
+ "strum": "B-D-B-DU",
+ "lyricsSource": {
+  "lrclibId": 37153372,
+  "duration": 279,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F – Am – G – C – D.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F",
+    "%",
+    "Am",
+    "%",
+    "F",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "B---B---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "F:2",
+     "Am:2"
+    ],
+    [
+     "Am:2",
+     "F:2"
+    ],
+    "Am",
+    "F",
+    "Am",
+    "F",
+    "Am",
+    "F",
+    "%",
+    "Am",
+    "F",
+    "Am",
+    "F",
+    "Am",
+    "F",
+    "Am",
+    "%",
+    "F",
+    "Am",
+    [
+     "F:2",
+     "Am:2"
+    ],
+    "F",
+    "Am",
+    "F",
+    "Am",
+    "F",
+    "Am",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "F",
+    "Am",
+    "Am",
+    "%",
+    "Am",
+    "F",
+    [
+     "F:2",
+     "Am:2"
+    ],
+    "%",
+    "F",
+    "Am",
+    "F",
+    "Am",
+    "F",
+    "Am",
+    [
+     "G:1",
+     "D:2",
+     "C:1"
+    ],
+    [
+     "G:1",
+     "D:2",
+     "C:1"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    [
+     "G:1",
+     "D:2",
+     "C:1"
+    ],
+    "G",
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "G:1",
+     "D:2",
+     "C:1"
+    ],
+    [
+     "G:1",
+     "D:2",
+     "C:1"
+    ],
+    "G",
+    "%",
+    [
+     "F:2",
+     "Am:2"
+    ],
+    [
+     "Am:2",
+     "F:2"
+    ],
+    "Am",
+    "F",
+    "Am",
+    "F",
+    "Am",
+    "F",
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "%",
+    "%",
+    [
+     "F:2",
+     "Am:2"
+    ],
+    [
+     "F:2",
+     "Am:2"
+    ],
+    "F",
+    "Am",
+    "F",
+    "Am",
+    "F",
+    "Am",
+    "F",
+    "Am",
+    "F",
+    "Am",
+    [
+     "F:1",
+     "Am:1",
+     "F:1",
+     "Am:1"
+    ],
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "F",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "F",
+    "Am",
+    "F",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "F:2",
+     "Am:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   6,
+   17.743
+  ],
+  [
+   10,
+   28.737
+  ],
+  [
+   15,
+   42.317
+  ],
+  [
+   20,
+   55.713
+  ],
+  [
+   25,
+   68.753
+  ],
+  [
+   33,
+   90.233
+  ],
+  [
+   41,
+   111.727
+  ],
+  [
+   45,
+   122.643
+  ],
+  [
+   50,
+   136.297
+  ],
+  [
+   54,
+   146.997
+  ],
+  [
+   60,
+   163.573
+  ],
+  [
+   69,
+   187.45
+  ],
+  [
+   73,
+   197.933
+  ],
+  [
+   79,
+   214.053
+  ],
+  [
+   91,
+   246.293
+  ],
+  [
+   93,
+   252.043
+  ]
+ ],
+ "strumSource": "stima"
+}

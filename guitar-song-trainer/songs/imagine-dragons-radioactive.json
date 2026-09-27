@@ -1,0 +1,221 @@
+{
+ "title": "Radioactive",
+ "artist": "Imagine Dragons",
+ "album": "NRJ 200% Hits 2013, Volume 2",
+ "year": 2012,
+ "genre": "Pop / Rock",
+ "difficulty": 2,
+ "youtubeId": "U04jEUbUaoo",
+ "key": "Bm",
+ "bpm": 68.68,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.57,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36984550,
+  "duration": 188,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bm – D – A – E – Aadd9 – D6.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bm",
+    "D6",
+    "Aadd9",
+    "%",
+    "Bm",
+    "D6",
+    "Aadd9",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa",
+   "bars": [
+    [
+     "Bm:1",
+     "D:2",
+     "A:1"
+    ],
+    "Bm",
+    "D",
+    "A",
+    [
+     "Bm:1",
+     "D:2",
+     "Aadd9:1"
+    ],
+    "Bm",
+    [
+     "D:2",
+     "Aadd9:2"
+    ],
+    "%",
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    "%",
+    "D",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    "A",
+    [
+     "Bm:1",
+     "D:2",
+     "A:1"
+    ],
+    [
+     "E:2",
+     "Bm:2"
+    ],
+    "D",
+    "A",
+    [
+     "Bm:1",
+     "D:2",
+     "A:1"
+    ],
+    [
+     "E:2",
+     "Bm:2"
+    ],
+    "D",
+    "A",
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    "%",
+    "%",
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    "A",
+    "%",
+    [
+     "Bm:1",
+     "Dmaj7:1",
+     "A:1",
+     "E:1"
+    ],
+    "%",
+    "%",
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    "%",
+    "D",
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    "A",
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   8,
+   28.561
+  ],
+  [
+   13,
+   46.033
+  ],
+  [
+   17,
+   60.031
+  ],
+  [
+   21,
+   73.96
+  ],
+  [
+   25,
+   88.352
+  ],
+  [
+   29,
+   102.334
+  ],
+  [
+   34,
+   119.191
+  ],
+  [
+   38,
+   133.153
+  ],
+  [
+   42,
+   147.34
+  ],
+  [
+   46,
+   161.456
+  ],
+  [
+   50,
+   175.85
+  ],
+  [
+   51,
+   179.429
+  ]
+ ],
+ "strumSource": "stima"
+}

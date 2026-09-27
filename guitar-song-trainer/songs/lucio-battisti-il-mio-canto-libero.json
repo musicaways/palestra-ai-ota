@@ -1,0 +1,376 @@
+{
+ "title": "Il mio canto libero",
+ "artist": "Lucio Battisti",
+ "album": "Canzone Best",
+ "year": 1972,
+ "genre": "Cantautori",
+ "difficulty": 5,
+ "youtubeId": "recLWjMPYFw",
+ "key": "A",
+ "bpm": 119.65,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.74,
+ "strum": "D--D--D--D-U",
+ "lyricsSource": {
+  "lrclibId": 33638678,
+  "duration": 309,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – C#m – E – B – Dmaj7 – D#m.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "A",
+    "%",
+    "C#m",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%",
+    "B",
+    "D#m",
+    "A",
+    "C#m",
+    "Dmaj7",
+    [
+     "Dmaj7:2",
+     "A:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "%",
+    "C#m",
+    "%",
+    "Dmaj7",
+    "%",
+    "A",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "A",
+    "C#m",
+    "Dmaj7",
+    "%",
+    "A",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "A",
+    "C#m",
+    "%",
+    "Dmaj7",
+    "A",
+    "%",
+    "%",
+    "A",
+    "C#m",
+    "%",
+    "%",
+    "Dmaj7",
+    "%",
+    "A",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C#m",
+    "%",
+    "%",
+    "Dmaj7",
+    "A",
+    "%",
+    "%",
+    "A",
+    "C#m",
+    "%",
+    "Dmaj7",
+    "%",
+    "A",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "A",
+    "%",
+    "C#m",
+    "Dmaj7",
+    "A",
+    "%",
+    "%",
+    "D",
+    "A",
+    "D",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "C#m",
+    "%",
+    "%",
+    [
+     "Dmaj7:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    "%",
+    [
+     "G:1",
+     "A:1",
+     "Bm:1",
+     "E:1"
+    ],
+    "A",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strumentale",
+   "bars": [
+    "A",
+    "C#m",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    "A",
+    "C#m",
+    "%",
+    "D",
+    "%",
+    "A",
+    [
+     "A:2",
+     "G:2"
+    ],
+    "%",
+    "F#7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 7",
+   "bars": [
+    "B",
+    "D#m",
+    "%",
+    "%",
+    [
+     "E:2",
+     "B:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "D#m",
+    "%",
+    "E",
+    [
+     "E:2",
+     "B:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 8",
+   "bars": [
+    "B",
+    "D#m",
+    "%",
+    "E",
+    "%",
+    "B",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 9",
+   "bars": [
+    "B",
+    "%",
+    "D#m",
+    "E",
+    "B",
+    "%",
+    "%",
+    "E",
+    [
+     "E:2",
+     "B:2"
+    ],
+    "%",
+    "E",
+    [
+     "E:2",
+     "B:2"
+    ],
+    "%",
+    "E",
+    [
+     "E:2",
+     "B:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   8,
+   17.116
+  ],
+  [
+   17,
+   35.168
+  ],
+  [
+   23,
+   47.203
+  ],
+  [
+   32,
+   65.147
+  ],
+  [
+   36,
+   73.134
+  ],
+  [
+   40,
+   80.895
+  ],
+  [
+   46,
+   92.801
+  ],
+  [
+   51,
+   102.83
+  ],
+  [
+   55,
+   110.853
+  ],
+  [
+   60,
+   121.07
+  ],
+  [
+   65,
+   131.372
+  ],
+  [
+   71,
+   143.407
+  ],
+  [
+   78,
+   157.11
+  ],
+  [
+   100,
+   200.952
+  ],
+  [
+   107,
+   214.993
+  ],
+  [
+   119,
+   239.594
+  ],
+  [
+   124,
+   249.822
+  ],
+  [
+   131,
+   263.601
+  ],
+  [
+   138,
+   277.669
+  ],
+  [
+   143,
+   287.698
+  ],
+  [
+   145,
+   291.71
+  ]
+ ],
+ "strumSource": "ultimate-guitar"
+}

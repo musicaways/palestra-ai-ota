@@ -1,0 +1,154 @@
+{
+ "title": "Perdonami",
+ "artist": "Salmo",
+ "album": "Playlist",
+ "year": 2021,
+ "genre": "Rap / Hip-hop",
+ "difficulty": 2,
+ "youtubeId": "22vCe8Wwy7Q",
+ "key": "Bb",
+ "bpm": 152.68,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.19,
+ "strum": "D--D-UD-",
+ "lyricsSource": {
+  "lrclibId": 4313047,
+  "duration": 134.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bb – Ebm – Bbm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Bb",
+    "Ebm",
+    "Bb",
+    "Ebm",
+    "Bb",
+    "Ebm",
+    "Bb"
+   ],
+   "barsPerRow": 4,
+   "strum": "D--D-UDU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Ebm:2",
+     "Bb:2"
+    ],
+    "%",
+    [
+     "Ebm:2",
+     "Bb:2"
+    ],
+    "%",
+    [
+     "Ebm:2",
+     "Bb:2"
+    ],
+    "%",
+    "%",
+    "Ebm",
+    "%",
+    "Bb",
+    "Bb",
+    "%",
+    "Ebm",
+    "Bb",
+    "Ebm",
+    "Bb",
+    "Bb",
+    "%",
+    "Ebm",
+    "Bb",
+    "Ebm",
+    "Bb",
+    "Bb",
+    "%",
+    [
+     "Ebm:2",
+     "Bb:2"
+    ],
+    "Ebm",
+    "Bb",
+    "%",
+    [
+     "Ebm:2",
+     "Bb:2"
+    ],
+    "Ebm",
+    "Bb",
+    "%",
+    "Ebm",
+    "Bb",
+    "Ebm",
+    "Bb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Ebm",
+    "Bb",
+    "Ebm",
+    "Bb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Ebm",
+    "Bb",
+    "Ebm",
+    "Bb",
+    "Ebm",
+    "Bb",
+    "Ebm",
+    "Bb",
+    "Ebm",
+    "Bb",
+    "Ebm",
+    "Bbm",
+    "Ebm",
+    "Bb",
+    "Ebm",
+    "Bb",
+    "%",
+    "Ebm",
+    "%",
+    "Bb",
+    "%",
+    "Ebm"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima"
+}

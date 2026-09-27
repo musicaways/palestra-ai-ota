@@ -1,0 +1,343 @@
+{
+ "title": "Somebody Told Me",
+ "artist": "The Killers",
+ "album": "All",
+ "year": 2004,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "dxpKi9G_kxU",
+ "key": "Ab",
+ "bpm": 137.26,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.66,
+ "strum": "PPPPDDDD",
+ "lyricsSource": {
+  "lrclibId": 36959123,
+  "duration": 197,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Ab – Gb – F – Bbm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bbm",
+    "%",
+    "%",
+    "Gb",
+    "%",
+    "%",
+    "Ab",
+    "%",
+    "%",
+    "F",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Bbm:2",
+     "Gb:2"
+    ],
+    [
+     "Ab:2",
+     "F:2"
+    ],
+    [
+     "Bbm:2",
+     "Gb:2"
+    ],
+    [
+     "Ab:2",
+     "F:2"
+    ],
+    [
+     "Bbm:2",
+     "Gb:2"
+    ],
+    [
+     "Ab:2",
+     "F:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Bbm:2",
+     "Gb:2"
+    ],
+    [
+     "Ab:2",
+     "F:2"
+    ],
+    [
+     "Bbm:2",
+     "Gb:2"
+    ],
+    [
+     "Ab:2",
+     "F:2"
+    ],
+    [
+     "Bbm:2",
+     "Gb:2"
+    ],
+    [
+     "Ab:2",
+     "F:2"
+    ],
+    [
+     "Bbm:2",
+     "Gb:2"
+    ],
+    [
+     "Ab:2",
+     "F:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Bbm:2",
+     "Gb:2"
+    ],
+    [
+     "Ab:2",
+     "F:2"
+    ],
+    [
+     "Bbm:2",
+     "Gb:2"
+    ],
+    [
+     "Ab:2",
+     "F:2"
+    ],
+    "Bbm",
+    [
+     "Gb:2",
+     "Ab:2"
+    ],
+    "F",
+    "%",
+    "Bbm",
+    [
+     "Gb:2",
+     "Ab:2"
+    ],
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Bbm",
+    "Gb",
+    "Ab",
+    "F",
+    "Bbm",
+    "Gb",
+    [
+     "Gb:2",
+     "Ab:2"
+    ],
+    [
+     "Ab:2",
+     "F:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "%",
+    "%",
+    "Bbm",
+    "Gb",
+    "Ab",
+    "F",
+    "Bbm",
+    [
+     "Gb:2",
+     "Ab:2"
+    ],
+    [
+     "Ab:2",
+     "F:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   11,
+   20.873
+  ],
+  [
+   17,
+   31.364
+  ],
+  [
+   25,
+   45.238
+  ],
+  [
+   32,
+   57.52
+  ],
+  [
+   39,
+   69.689
+  ],
+  [
+   45,
+   80.142
+  ],
+  [
+   51,
+   90.554
+  ],
+  [
+   58,
+   102.601
+  ],
+  [
+   65,
+   115.325
+  ],
+  [
+   71,
+   125.997
+  ],
+  [
+   78,
+   138.123
+  ],
+  [
+   85,
+   150.307
+  ],
+  [
+   90,
+   159.106
+  ],
+  [
+   95,
+   167.793
+  ],
+  [
+   100,
+   176.483
+  ],
+  [
+   106,
+   186.96
+  ],
+  [
+   108,
+   190.457
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 511061292,
+ "spotifyId": "5azBtIfv3B6FTUQ5oUGIpl"
+}

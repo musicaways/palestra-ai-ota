@@ -1,0 +1,298 @@
+{
+ "title": "Counting Stars",
+ "artist": "OneRepublic",
+ "album": "Native",
+ "year": 2013,
+ "genre": "Pop",
+ "difficulty": 3,
+ "youtubeId": "gbq7e4r5qF8",
+ "key": "C#m",
+ "bpm": 122.32,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.06,
+ "strum": "D-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 24934380,
+  "duration": 257.266667,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C#m – B – E – A – F#m.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "C#m",
+    "E",
+    "B",
+    "A",
+    "C#m",
+    "E",
+    "B",
+    [
+     "B:2",
+     "A:2"
+    ],
+    "%",
+    "C#m",
+    "%",
+    "E",
+    "%",
+    "B",
+    "%",
+    "A",
+    "%",
+    "C#m",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "C#m",
+    "E",
+    "B",
+    "A",
+    "C#m",
+    "E",
+    "B",
+    "A",
+    "C#m",
+    [
+     "C#m:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "B:2"
+    ],
+    "%",
+    "C#m",
+    [
+     "C#m:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "B:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "C#m",
+    "E",
+    "B",
+    "A",
+    "C#m",
+    "E",
+    "B",
+    "A",
+    "C#m",
+    "E",
+    "B",
+    "A",
+    "C#m",
+    "E",
+    "B",
+    "%",
+    "E",
+    "B",
+    "A",
+    "C#m",
+    "E",
+    "%",
+    "B",
+    "A",
+    "C#m",
+    "E",
+    "B",
+    "A",
+    "C#m",
+    "E",
+    "B",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "C#m",
+    "E",
+    "B",
+    "A",
+    "C#m",
+    "E",
+    "B",
+    "A",
+    "C#m",
+    "E",
+    "B",
+    "A",
+    "C#m",
+    "E",
+    "B",
+    [
+     "B:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "C#m",
+    "%",
+    "A",
+    "%",
+    "F#m",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "C#m",
+    "E",
+    "B",
+    "A",
+    "C#m",
+    "E",
+    "B",
+    "A",
+    "C#m",
+    "E",
+    "B",
+    "A",
+    "C#m",
+    "E",
+    "B",
+    "%",
+    "C#m",
+    "E",
+    "B",
+    "A",
+    "C#m",
+    "E",
+    "B",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   2,
+   5.296
+  ],
+  [
+   6,
+   12.888
+  ],
+  [
+   20,
+   40.254
+  ],
+  [
+   25,
+   50.16
+  ],
+  [
+   35,
+   69.781
+  ],
+  [
+   41,
+   81.412
+  ],
+  [
+   47,
+   92.992
+  ],
+  [
+   51,
+   101.108
+  ],
+  [
+   61,
+   120.946
+  ],
+  [
+   65,
+   128.8
+  ],
+  [
+   71,
+   140.572
+  ],
+  [
+   77,
+   151.992
+  ],
+  [
+   81,
+   159.818
+  ],
+  [
+   87,
+   171.558
+  ],
+  [
+   92,
+   181.606
+  ],
+  [
+   97,
+   191.536
+  ],
+  [
+   105,
+   207.12
+  ],
+  [
+   111,
+   218.536
+  ],
+  [
+   115,
+   226.346
+  ],
+  [
+   122,
+   240.414
+  ],
+  [
+   126,
+   248.344
+  ],
+  [
+   128,
+   252.272
+  ]
+ ],
+ "strumSource": "stima"
+}

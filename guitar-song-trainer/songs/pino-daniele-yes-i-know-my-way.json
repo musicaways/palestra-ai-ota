@@ -1,0 +1,354 @@
+{
+ "title": "Yes I Know My Way",
+ "artist": "Pino Daniele",
+ "album": "Vai mo' (2021 Remaster)",
+ "year": 1981,
+ "genre": "Cantautori",
+ "difficulty": 5,
+ "youtubeId": "kA87R1AznFk",
+ "key": "Bb7",
+ "bpm": 104.53,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.37,
+ "strum": "D-D-DUDU",
+ "lyricsSource": {
+  "lrclibId": 37189434,
+  "duration": 217,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bb7 – Dbmaj7 – F7 – Bbm7 – Eb7 – Bmaj7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "%",
+    "Bb7",
+    "%",
+    "Bb7",
+    "%",
+    "Bb7",
+    "%",
+    "Bb7"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Bb7",
+    "Bb7",
+    "Bb7",
+    "%",
+    "Dbmaj7",
+    "%",
+    "F7",
+    "F7",
+    [
+     "Bbm7:2",
+     "Eb7:2"
+    ],
+    [
+     "Db7:1",
+     "Bb7:1"
+    ],
+    "%",
+    "Bb7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Bb7",
+    "Bb7",
+    "Bb7",
+    "Bb7",
+    "Dbmaj7",
+    "%",
+    "F7",
+    "F7",
+    [
+     "Bbm7:2",
+     "Eb7:2"
+    ],
+    [
+     "Eb7:2",
+     "Dbmaj7:2"
+    ],
+    "%",
+    "Bb7",
+    "Dbmaj7",
+    "Dbmaj7",
+    "Bmaj7",
+    "Bbm7",
+    "Dbmaj7",
+    "%",
+    [
+     "Bmaj7:2",
+     "Bbm7:2"
+    ],
+    "%",
+    "Bb7",
+    "%",
+    "Bb7",
+    "%",
+    "Bb7",
+    "%",
+    "Bb7",
+    "Dbmaj7",
+    "%",
+    "F7",
+    "%",
+    "F7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Bb7",
+    "Bb7",
+    "Bb7",
+    "Bb7",
+    "Dbmaj7",
+    "%",
+    "F7",
+    "F7",
+    [
+     "Bbm7:2",
+     "Eb7:2"
+    ],
+    "Db7",
+    "%",
+    "Bb7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Dbmaj7",
+    "Dbmaj7",
+    "Bmaj7",
+    "Bbm7",
+    "Dbmaj7",
+    "%",
+    [
+     "Bmaj7:2",
+     "Bbm7:2"
+    ],
+    "%",
+    "Bb7",
+    "Bb7",
+    "Bb7",
+    "Bb7",
+    "Bb7",
+    "%",
+    "F7",
+    "F7",
+    "Bb7",
+    "Bb7",
+    "Bb7",
+    "Bb7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   8,
+   18.63
+  ],
+  [
+   10,
+   23.32
+  ],
+  [
+   12,
+   27.85
+  ],
+  [
+   14,
+   32.13
+  ],
+  [
+   15,
+   34.46
+  ],
+  [
+   16,
+   36.6
+  ],
+  [
+   17,
+   39.59
+  ],
+  [
+   20,
+   46.25
+  ],
+  [
+   22,
+   50.89
+  ],
+  [
+   23,
+   52.99
+  ],
+  [
+   24,
+   55.45
+  ],
+  [
+   26,
+   59.84
+  ],
+  [
+   27,
+   62.15
+  ],
+  [
+   28,
+   64.94
+  ],
+  [
+   30,
+   69.04
+  ],
+  [
+   32,
+   74.48
+  ],
+  [
+   33,
+   77.04
+  ],
+  [
+   34,
+   79.41
+  ],
+  [
+   36,
+   83.62
+  ],
+  [
+   37,
+   86.02
+  ],
+  [
+   38,
+   88.34
+  ],
+  [
+   39,
+   90.76
+  ],
+  [
+   52,
+   119.77
+  ],
+  [
+   54,
+   124.39
+  ],
+  [
+   56,
+   128.89
+  ],
+  [
+   58,
+   133.33
+  ],
+  [
+   59,
+   135.63
+  ],
+  [
+   60,
+   138.09
+  ],
+  [
+   61,
+   140.88
+  ],
+  [
+   64,
+   148.1
+  ],
+  [
+   65,
+   150.5
+  ],
+  [
+   66,
+   152.86
+  ],
+  [
+   68,
+   157.06
+  ],
+  [
+   69,
+   159.52
+  ],
+  [
+   70,
+   161.76
+  ],
+  [
+   71,
+   164.15
+  ],
+  [
+   73,
+   167.78
+  ],
+  [
+   75,
+   172.37
+  ],
+  [
+   77,
+   176.96
+  ],
+  [
+   78,
+   178.87
+  ],
+  [
+   79,
+   181.17
+  ],
+  [
+   80,
+   183.83
+  ],
+  [
+   82,
+   188.41
+  ],
+  [
+   84,
+   192.86
+  ]
+ ],
+ "strumSource": "stima"
+}

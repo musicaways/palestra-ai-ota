@@ -1,0 +1,260 @@
+{
+ "title": "Hotel California",
+ "artist": "Eagles",
+ "album": "Arrow Rock 500 Editie 2015",
+ "year": 1976,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "dLl4PZtxia8",
+ "key": "Em",
+ "bpm": 73.65,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.29,
+ "strum": "D-D-D-DU",
+ "lyricsSource": {
+  "lrclibId": 23865868,
+  "duration": 391.356871,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F# – Em – G – Bm – D – E.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bm",
+    "%",
+    "E",
+    "%",
+    "G",
+    "%",
+    "Em",
+    "F#",
+    "Bm",
+    "%",
+    "E",
+    "%",
+    "G",
+    "%",
+    "Em",
+    "F#"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D---"
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "Bm",
+    "%",
+    "E",
+    "%",
+    "G",
+    "%",
+    "Em",
+    "F#",
+    "Bm",
+    "%",
+    "A",
+    "E",
+    "D",
+    "%",
+    "Em",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "G",
+    "D",
+    "Em",
+    "Bm7",
+    "G",
+    "D",
+    "Em",
+    "F#",
+    "Bm",
+    "%",
+    "E",
+    "%",
+    "G",
+    "%",
+    "Em",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "Bm",
+    "%",
+    "A",
+    "%",
+    "G",
+    "%",
+    "Em",
+    "%",
+    "G",
+    "D",
+    "Em",
+    "Bm7",
+    "G",
+    "D",
+    "Em",
+    "F#"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "F#",
+    "%",
+    "A",
+    "%",
+    "G",
+    "%",
+    "Em",
+    "%",
+    "F#",
+    "%",
+    "E",
+    "%",
+    "D",
+    "%",
+    "Em",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "Bm",
+    "F#",
+    "A",
+    "E",
+    "G",
+    "D",
+    "Em",
+    "F#",
+    "Bm",
+    "F#",
+    "A",
+    "E",
+    "G",
+    "D",
+    "Em",
+    "F#"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "Bm",
+    "F#",
+    "A",
+    "E",
+    "G",
+    "D",
+    "Em",
+    "F#",
+    "Bm",
+    "F#",
+    "A",
+    "E",
+    "G",
+    "D",
+    "Em",
+    "F#"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 8",
+   "bars": [
+    "Bm",
+    "F#",
+    "A",
+    "E",
+    "G",
+    "D",
+    "Em",
+    "F#",
+    "Bm"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   16,
+   52.583
+  ],
+  [
+   20,
+   65.617
+  ],
+  [
+   26,
+   85.133
+  ],
+  [
+   32,
+   104.295
+  ],
+  [
+   38,
+   123.681
+  ],
+  [
+   42,
+   137.207
+  ],
+  [
+   48,
+   156.95
+  ],
+  [
+   52,
+   169.985
+  ],
+  [
+   56,
+   182.485
+  ],
+  [
+   62,
+   201.846
+  ],
+  [
+   66,
+   215.485
+  ],
+  [
+   70,
+   228.613
+  ],
+  [
+   76,
+   248.203
+  ],
+  [
+   78,
+   254.887
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 426703682,
+ "spotifyId": "40riOy7x9W7GXjyGp4pjAv",
+ "introSource": "stima: giro della prima parte cantata (la fonte non riportava gli accordi dell'intro)"
+}

@@ -1,0 +1,254 @@
+{
+ "title": "Summer of '69",
+ "artist": "Bryan Adams",
+ "album": "Welcome Summer Time to travel",
+ "year": 1984,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "yGwwbkMJTGU",
+ "key": "A",
+ "bpm": 69.81,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.11,
+ "strum": "D-D-D-DU",
+ "lyricsSource": {
+  "lrclibId": 37003738,
+  "duration": 218,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – D – Bm – G – Bb – C.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "D"
+   ]
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "D:2",
+     "A:2"
+    ],
+    "D",
+    "A",
+    "D",
+    "A",
+    "D",
+    "A",
+    "%",
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    "Bm",
+    [
+     "A:2",
+     "D:2"
+    ],
+    "A"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "D:2",
+     "A:2"
+    ],
+    "D",
+    "%",
+    "A",
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ],
+    "D",
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%",
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    "%",
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "D",
+    [
+     "A:2",
+     "D:2"
+    ],
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    "A",
+    "D",
+    "A",
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ],
+    "A",
+    "D",
+    "A",
+    [
+     "D:2",
+     "A:2"
+    ],
+    "D",
+    "%",
+    "A",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "D",
+    "A",
+    "D",
+    "%",
+    "A",
+    [
+     "A:2",
+     "D:2"
+    ],
+    "%",
+    "A",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D---"
+  }
+ ],
+ "warp": [
+  [
+   1,
+   4.472
+  ],
+  [
+   5,
+   18.072
+  ],
+  [
+   9,
+   31.926
+  ],
+  [
+   13,
+   45.81
+  ],
+  [
+   18,
+   63
+  ],
+  [
+   23,
+   80.214
+  ],
+  [
+   29,
+   100.687
+  ],
+  [
+   34,
+   118.14
+  ],
+  [
+   38,
+   131.91
+  ],
+  [
+   43,
+   149.148
+  ],
+  [
+   47,
+   162.902
+  ],
+  [
+   55,
+   189.664
+  ],
+  [
+   57,
+   196.54
+  ]
+ ],
+ "strumSource": "stima"
+}

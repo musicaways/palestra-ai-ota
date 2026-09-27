@@ -1,0 +1,442 @@
+{
+ "title": "Hallelujah",
+ "artist": "Leonard Cohen",
+ "album": "Watchmen [Original Motion Picture Score]",
+ "year": 1984,
+ "genre": "Folk",
+ "difficulty": 2,
+ "youtubeId": "bVP52dC3jks",
+ "key": "F",
+ "bpm": 104.91,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.76,
+ "strum": "D--UDUDU",
+ "lyricsSource": {
+  "lrclibId": 37193186,
+  "duration": 278,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F – C – Am – G – E7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "C",
+    "Am"
+   ],
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "C",
+    "Am",
+    [
+     "C:2",
+     "Am:2"
+    ],
+    "F",
+    "G",
+    "C",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "C:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "G:2"
+    ],
+    "Am",
+    "F",
+    "G",
+    "E7",
+    "Am",
+    "F",
+    [
+     "F:2",
+     "Am:2"
+    ],
+    [
+     "Am:2",
+     "F:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "%",
+    "G",
+    "%",
+    "C",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "C",
+    "Am",
+    "C",
+    "Am",
+    "F",
+    [
+     "G:2",
+     "C:2"
+    ],
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "C:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "G:2"
+    ],
+    "Am",
+    "F",
+    "G",
+    "E7",
+    "Am",
+    "F",
+    [
+     "F:2",
+     "Am:2"
+    ],
+    [
+     "Am:2",
+     "F:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "G:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "F",
+    [
+     "F:2",
+     "Am:2"
+    ],
+    "%",
+    [
+     "Am:2",
+     "F:2"
+    ],
+    "%",
+    "F",
+    [
+     "F:2",
+     "Am:2"
+    ],
+    "%",
+    [
+     "Am:2",
+     "F:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    [
+     "F:1",
+     "Am:2",
+     "F:1"
+    ],
+    [
+     "C:2",
+     "Am:2"
+    ],
+    [
+     "F:1",
+     "G:1",
+     "C:1",
+     "G:1"
+    ],
+    [
+     "C:1",
+     "F:2",
+     "G:1"
+    ],
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "F",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 7",
+   "bars": [
+    "F",
+    "%",
+    "Am",
+    "%",
+    "F",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "G:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 8",
+   "bars": [
+    [
+     "F:1",
+     "G:1",
+     "C:1",
+     "G:1"
+    ],
+    "%",
+    [
+     "F:1",
+     "Am:2",
+     "F:1"
+    ],
+    [
+     "F:1",
+     "Am:2",
+     "F:1"
+    ],
+    "C",
+    "%",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "%",
+    [
+     "G:2",
+     "C:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   2,
+   4.28
+  ],
+  [
+   4,
+   8.77
+  ],
+  [
+   9,
+   21.37
+  ],
+  [
+   11,
+   25.88
+  ],
+  [
+   13,
+   30.39
+  ],
+  [
+   16,
+   37.43
+  ],
+  [
+   20,
+   46.14
+  ],
+  [
+   26,
+   59.99
+  ],
+  [
+   28,
+   64.27
+  ],
+  [
+   30,
+   68.43
+  ],
+  [
+   33,
+   76.67
+  ],
+  [
+   35,
+   81.13
+  ],
+  [
+   37,
+   85.06
+  ],
+  [
+   40,
+   92.81
+  ],
+  [
+   44,
+   101.47
+  ],
+  [
+   61,
+   139.64
+  ],
+  [
+   62,
+   143.23
+  ],
+  [
+   64,
+   147.43
+  ],
+  [
+   69,
+   158.58
+  ],
+  [
+   74,
+   169.92
+  ],
+  [
+   75,
+   171.74
+  ],
+  [
+   76,
+   174.2
+  ],
+  [
+   77,
+   177.79
+  ],
+  [
+   78,
+   179.26
+  ],
+  [
+   88,
+   201.67
+  ],
+  [
+   94,
+   215.35
+  ],
+  [
+   111,
+   255.14
+  ],
+  [
+   112,
+   256.55
+  ],
+  [
+   113,
+   258.37
+  ],
+  [
+   114,
+   261.33
+  ],
+  [
+   115,
+   263.05
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 15218949
+}

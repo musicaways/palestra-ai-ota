@@ -1,0 +1,314 @@
+{
+ "title": "Toffee",
+ "artist": "Vasco Rossi",
+ "album": "Ciao Italia",
+ "year": 1998,
+ "genre": "Rock",
+ "difficulty": 1,
+ "youtubeId": "hNoErPtZLWQ",
+ "key": "A",
+ "bpm": 115.8,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.98,
+ "strum": "D-PPD-PP",
+ "lyricsSource": {
+  "lrclibId": 35047661,
+  "duration": 314.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – Gmaj7 – Bm7 – Dmaj7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Gmaj7",
+    "%",
+    "%",
+    "A",
+    "%",
+    "%",
+    "Dmaj7",
+    "%",
+    "%",
+    "Gmaj7",
+    "%",
+    "%",
+    "A",
+    "%",
+    "%",
+    "Dmaj7",
+    "Gmaj7",
+    "A",
+    "Bm7",
+    "A",
+    "Gmaj7",
+    [
+     "Gmaj7:2",
+     "A:2"
+    ],
+    "%",
+    [
+     "A:2",
+     "Bm7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    [
+     "A:2",
+     "Gmaj7:1",
+     "A:1"
+    ],
+    [
+     "A:1",
+     "Gmaj7:1",
+     "A:2"
+    ],
+    "Dmaj7",
+    "%",
+    "%",
+    "%",
+    "Gmaj7",
+    "A",
+    "Dmaj7",
+    "Gmaj7",
+    [
+     "Gmaj7:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "Dmaj7:2"
+    ],
+    "%",
+    "Gmaj7",
+    [
+     "Gmaj7:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "Dmaj7:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    "Gmaj7",
+    "A",
+    "Bm7",
+    "A",
+    "Gmaj7",
+    [
+     "Gmaj7:2",
+     "A:2"
+    ],
+    "%",
+    [
+     "A:2",
+     "Bm7:2"
+    ],
+    "%",
+    [
+     "A:2",
+     "Gmaj7:1",
+     "A:1"
+    ],
+    [
+     "A:1",
+     "Gmaj7:1",
+     "A:2"
+    ],
+    "Dmaj7",
+    "%",
+    "%",
+    "Gmaj7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    [
+     "Gmaj7:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "Dmaj7:2"
+    ],
+    "%",
+    "Gmaj7",
+    "A",
+    "Dmaj7",
+    "Gmaj7",
+    [
+     "Gmaj7:2",
+     "A:2"
+    ],
+    "%",
+    [
+     "A:2",
+     "Dmaj7:2"
+    ],
+    "%",
+    "Gmaj7",
+    "A",
+    "Bm7",
+    "A",
+    "Gmaj7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    [
+     "Gmaj7:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "Bm7:2"
+    ],
+    "%",
+    "Gmaj7",
+    "A",
+    "Bm7",
+    "A",
+    "Gmaj7",
+    [
+     "Gmaj7:2",
+     "A:2"
+    ],
+    "%",
+    [
+     "A:2",
+     "Bm7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "A:1",
+     "Gmaj7:1",
+     "A:1",
+     "Gmaj7:1"
+    ],
+    "Gmaj7",
+    "%",
+    "A",
+    "%",
+    "Dmaj7",
+    "%",
+    "Gmaj7",
+    "%",
+    "A",
+    "%",
+    "Dmaj7",
+    "%",
+    "Gmaj7",
+    "%",
+    "A",
+    "%",
+    "Gmaj7",
+    "A",
+    "Bm7",
+    "A",
+    "Gmaj7",
+    [
+     "Gmaj7:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "Bm7:2"
+    ],
+    "%",
+    "Gmaj7",
+    "A",
+    "Bm7",
+    "A",
+    "Gmaj7",
+    [
+     "Gmaj7:2",
+     "A:2"
+    ],
+    "%",
+    [
+     "A:2",
+     "Bm7:2"
+    ],
+    "%",
+    [
+     "Gmaj7:1",
+     "A:2",
+     "Bm7:1"
+    ],
+    "Gmaj7",
+    "%",
+    "A",
+    "Gmaj7",
+    [
+     "Gmaj7:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "Bm7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Gmaj7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bm7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima"
+}

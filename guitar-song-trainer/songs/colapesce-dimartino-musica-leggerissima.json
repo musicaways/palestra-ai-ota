@@ -1,0 +1,169 @@
+{
+ "title": "Musica leggerissima",
+ "artist": "Colapesce Dimartino",
+ "album": "duemilaventuno",
+ "year": 2021,
+ "genre": "Indie / Pop",
+ "difficulty": 4,
+ "youtubeId": "F6n2ar2LJFY",
+ "key": "Am7",
+ "bpm": 75.01,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.21,
+ "strum": "D-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 35468205,
+  "duration": 237.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Gm7 – Am7 – Dm – A – C – Fmaj7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Dm",
+    "Am7",
+    "Gm7",
+    "Am7",
+    "Dm"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "Dm",
+    [
+     "Dm:2",
+     "Am7:2"
+    ],
+    "%",
+    "Dm",
+    "Am7",
+    [
+     "Dm:2",
+     "Gm7:2"
+    ],
+    [
+     "Gm7:2",
+     "C:2"
+    ],
+    "Fmaj7",
+    "Gm7",
+    "C",
+    "A",
+    "Dm",
+    "Gm7",
+    "Am7",
+    "Gm7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "Dm",
+    "Gm7",
+    "Am7",
+    [
+     "Gm7:2",
+     "Am7:2"
+    ],
+    [
+     "Am7:2",
+     "Gm7:2"
+    ],
+    "Dm",
+    "%",
+    "Dm",
+    "Am7",
+    "Dm",
+    "Am7",
+    "F",
+    "Gm7",
+    "C7",
+    "A",
+    "Dm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "Gm7",
+    "Am7",
+    "Gm7",
+    "Am7",
+    "Dm",
+    "Gm7",
+    "Am7",
+    [
+     "Gm7:2",
+     "Am7:2"
+    ],
+    [
+     "Am7:2",
+     "Gm7:2"
+    ],
+    "Dm",
+    "Gm7",
+    "Am7",
+    "%",
+    "Am7",
+    "Dm",
+    "Gm7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "%",
+    "%",
+    "Gm7",
+    "Dm",
+    "%",
+    "%",
+    "Am7",
+    "Am7",
+    "Dm",
+    "Gm7",
+    "Am7",
+    "Gm7",
+    "%",
+    "Dm",
+    "Gm7",
+    "Am7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    [
+     "Gm7:2",
+     "Am7:2"
+    ],
+    [
+     "Am7:2",
+     "Gm7:2"
+    ],
+    "Dm",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima",
+ "deezerId": 1427073612
+}

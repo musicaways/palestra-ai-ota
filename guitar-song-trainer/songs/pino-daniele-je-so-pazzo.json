@@ -1,0 +1,150 @@
+{
+ "title": "Je so' pazzo",
+ "artist": "Pino Daniele",
+ "album": "Italian Hits",
+ "year": 1979,
+ "genre": "Cantautori",
+ "difficulty": 1,
+ "youtubeId": "lHKxIC21NQs",
+ "key": "B7",
+ "bpm": 119.96,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.99,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 35106834,
+  "duration": 179.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: B7 – Em – C7 – Am7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Em",
+    "%",
+    "%",
+    "C7",
+    "%",
+    "%",
+    "B7",
+    "%",
+    "%",
+    "Em",
+    "%",
+    "%",
+    "C7",
+    "%",
+    "%",
+    "B7",
+    "%",
+    "%",
+    "Em",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Em",
+    "%",
+    "C7",
+    "B7",
+    "Em",
+    "%",
+    "C7",
+    "B7",
+    [
+     "Am7:2",
+     "B7:2"
+    ],
+    "Em",
+    "Am7",
+    "B7",
+    "Am7",
+    "B7",
+    "C7",
+    "B7",
+    [
+     "C7:2",
+     "B7:2"
+    ],
+    "Em",
+    "C7",
+    "%",
+    "B7",
+    "%",
+    "Em",
+    "%",
+    "C7",
+    "%",
+    "B7",
+    "%",
+    "Em",
+    "%",
+    "C7",
+    "%",
+    "B7",
+    "%",
+    "Em",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Em",
+    "%",
+    "C7",
+    "B7",
+    "Em",
+    "%",
+    "C7",
+    "B7",
+    "Em",
+    "%",
+    "Am7",
+    "B7",
+    [
+     "Am7:2",
+     "B7:2"
+    ],
+    "Em",
+    "C7",
+    "B7",
+    [
+     "C7:2",
+     "B7:2"
+    ],
+    "Em",
+    "%",
+    "C7",
+    "%",
+    "B7",
+    "%",
+    "Em",
+    "%",
+    "C7",
+    "%",
+    "B7",
+    "%",
+    "Em",
+    "%",
+    "C7",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima",
+ "deezerId": 3306267
+}

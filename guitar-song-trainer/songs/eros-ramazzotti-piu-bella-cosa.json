@@ -1,0 +1,237 @@
+{
+ "title": "Più bella cosa",
+ "artist": "Eros Ramazzotti",
+ "album": "Top 96: Die besten Hits des Jahres (Disc 1 of 2)",
+ "year": 1996,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "KR7kU5vzRbc",
+ "key": "Db",
+ "bpm": 54.57,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.42,
+ "strum": "B-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36944349,
+  "duration": 266,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Ebm7 – Db – Ab – Gm7 – Eb – Fm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Db",
+    "%",
+    "Db",
+    "%"
+   ],
+   "strum": "B---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Db:1",
+     "Ebm7:2",
+     "Db:1"
+    ],
+    "Ebm7",
+    [
+     "Db:1",
+     "Ebm7:2",
+     "Db:1"
+    ],
+    "Ebm7",
+    "%",
+    [
+     "Gbadd9:2",
+     "Ab:2"
+    ],
+    "%",
+    [
+     "Fm7:1",
+     "Db:1"
+    ],
+    [
+     "Ebm7:2",
+     "Db:2"
+    ],
+    "Ebm7",
+    [
+     "Db:1",
+     "Ebm7:2",
+     "Db:1"
+    ],
+    [
+     "Ebm7:2",
+     "Ab:2"
+    ],
+    "%",
+    [
+     "Gbadd9:2",
+     "Ab:2"
+    ],
+    "%",
+    [
+     "Fm7:1",
+     "Ebm7:2",
+     "Eb:1"
+    ],
+    [
+     "Gm7:2",
+     "Ab:2"
+    ],
+    "%",
+    [
+     "Gm7:2",
+     "Ab:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "Ab",
+    [
+     "Ab4:2",
+     "Ab:2"
+    ],
+    [
+     "Db:1",
+     "Ebm7:2",
+     "Db:1"
+    ],
+    "Ebm7",
+    [
+     "Db:1",
+     "Ebm7:2",
+     "Db:1"
+    ],
+    [
+     "Ebm7:2",
+     "Ab:2"
+    ],
+    "%",
+    [
+     "Gbadd9:2",
+     "Ab:2"
+    ],
+    "%",
+    [
+     "Fm7:1",
+     "Ebm7:2",
+     "Eb:1"
+    ],
+    [
+     "Gm7:2",
+     "Ab:2"
+    ],
+    "%",
+    [
+     "Gm7:2",
+     "Ab:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Eb",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Gm7",
+    [
+     "Fm7:2",
+     "Eb:1"
+    ],
+    [
+     "Eb:1",
+     "Gm7:1",
+     "Abadd9:2"
+    ],
+    [
+     "Fm7:1",
+     "Eb:1",
+     "Gm7:1"
+    ],
+    "%",
+    "Fm7",
+    "%",
+    "Eb"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   18.056
+  ],
+  [
+   8,
+   35.648
+  ],
+  [
+   12,
+   53.156
+  ],
+  [
+   16,
+   70.55
+  ],
+  [
+   20,
+   88.902
+  ],
+  [
+   24,
+   106.554
+  ],
+  [
+   29,
+   127.17
+  ],
+  [
+   33,
+   144.704
+  ],
+  [
+   38,
+   167.456
+  ],
+  [
+   43,
+   189.446
+  ],
+  [
+   48,
+   211.342
+  ],
+  [
+   57,
+   250.818
+  ],
+  [
+   58,
+   256.518
+  ]
+ ],
+ "strumSource": "stima"
+}

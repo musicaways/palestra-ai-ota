@@ -1,0 +1,235 @@
+{
+ "title": "Love Story",
+ "artist": "Taylor Swift",
+ "album": "Nederlandse top 40 week 10 2009",
+ "year": 2008,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "LHxXaY7NR3w",
+ "key": "A",
+ "bpm": 59.5,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.04,
+ "strum": "B-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36981895,
+  "duration": 236,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – G – D – Bm – Bm7 – B.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "D",
+    "A",
+    "Bm",
+    "G"
+   ],
+   "strum": "B---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "D",
+    "G",
+    "Bm",
+    "G",
+    "D",
+    "G",
+    "Bm",
+    [
+     "A4:2",
+     "A:2"
+    ],
+    [
+     "G:2",
+     "A:2"
+    ],
+    [
+     "Bm7:2",
+     "D:2"
+    ],
+    "G",
+    [
+     "A:1",
+     "Bm7:1",
+     "G:1",
+     "A:1"
+    ],
+    "D",
+    "A",
+    "Bm",
+    [
+     "G:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ],
+    "D",
+    "G",
+    "Bm",
+    "A",
+    [
+     "G:2",
+     "A:2"
+    ],
+    [
+     "Bm7:2",
+     "D:2"
+    ],
+    "G",
+    [
+     "A:1",
+     "Bm7:2",
+     "G:1"
+    ],
+    "D",
+    "A",
+    "Bm",
+    [
+     "G:2",
+     "A:2"
+    ],
+    "%",
+    "A",
+    "Bm",
+    [
+     "G:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ],
+    "A",
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    "D",
+    "A4",
+    "Bm7",
+    [
+     "Gadd9:2",
+     "A:2"
+    ],
+    "%",
+    "B",
+    "C#m",
+    [
+     "A:2",
+     "B:2"
+    ],
+    [
+     "B:2",
+     "E:2"
+    ],
+    [
+     "B:2",
+     "C#m:2"
+    ],
+    "%",
+    "A",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   17.346
+  ],
+  [
+   8,
+   33.283
+  ],
+  [
+   12,
+   49.51
+  ],
+  [
+   16,
+   65.827
+  ],
+  [
+   21,
+   85.946
+  ],
+  [
+   25,
+   101.72
+  ],
+  [
+   29,
+   117.854
+  ],
+  [
+   34,
+   138.433
+  ],
+  [
+   38,
+   153.98
+  ],
+  [
+   42,
+   170.074
+  ],
+  [
+   46,
+   186.826
+  ],
+  [
+   50,
+   202.987
+  ],
+  [
+   54,
+   219.153
+  ],
+  [
+   56,
+   227.134
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 1332676982,
+ "spotifyId": "0pcUVAYXHxkNUNeKcELSsJ"
+}

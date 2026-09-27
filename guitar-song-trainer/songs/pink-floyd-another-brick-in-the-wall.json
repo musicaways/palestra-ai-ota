@@ -1,0 +1,175 @@
+{
+ "title": "Another Brick in the Wall",
+ "artist": "Pink Floyd",
+ "album": "1979  the wall",
+ "year": 1979,
+ "genre": "Rock",
+ "difficulty": 1,
+ "youtubeId": "qRoCIu67emw",
+ "key": "Dm",
+ "bpm": 82.04,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.61,
+ "strum": "D-D-D-DU",
+ "lyricsSource": {
+  "lrclibId": 28599519,
+  "duration": 239,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Dm – G – F – C.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Dm",
+    "%",
+    "%",
+    "Dm",
+    "%",
+    "%",
+    "Dm",
+    "%",
+    "%",
+    "Dm",
+    "%",
+    "G",
+    "%",
+    "G",
+    [
+     "G:2",
+     "Dm:2"
+    ],
+    "%",
+    "F",
+    "C",
+    "Dm",
+    "F",
+    "C",
+    "Dm",
+    "Dm",
+    "%",
+    "%",
+    "Dm",
+    "%",
+    "%",
+    "Dm",
+    "%",
+    "%",
+    "Dm",
+    "%",
+    "G",
+    "%",
+    "G",
+    [
+     "G:2",
+     "Dm:2"
+    ],
+    "%",
+    "F",
+    "C",
+    "Dm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "F",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "C",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Dm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   0,
+   1.828
+  ],
+  [
+   6,
+   19.256
+  ],
+  [
+   13,
+   39.468
+  ],
+  [
+   19,
+   57.02
+  ],
+  [
+   25,
+   74.572
+  ],
+  [
+   31,
+   92.366
+  ],
+  [
+   38,
+   112.844
+  ],
+  [
+   68,
+   200.505
+  ],
+  [
+   74,
+   218.07
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 116914094,
+ "spotifyId": "09BINxFxiDeywjfC39nRFi"
+}

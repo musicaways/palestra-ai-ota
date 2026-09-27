@@ -1,0 +1,317 @@
+{
+ "title": "Zitti e buoni",
+ "artist": "Måneskin",
+ "album": "Weekly Jams for notalent, week of 2026-05-11 Mon",
+ "year": 2021,
+ "genre": "Rock",
+ "difficulty": 2,
+ "youtubeId": "eHVh2X2yyUo",
+ "key": "Em",
+ "bpm": 103.01,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.14,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37043630,
+  "duration": 193,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Em – B5 – C5 – A5 – G5 – Am.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Em",
+    "C5",
+    "B5",
+    "Em"
+   ],
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Em",
+    [
+     "C5:1",
+     "B5:2",
+     "Em:1"
+    ],
+    "%",
+    [
+     "C5:1",
+     "B5:2",
+     "Em:1"
+    ],
+    "%",
+    [
+     "C5:1",
+     "B5:2",
+     "Em:1"
+    ],
+    "%",
+    [
+     "C5:2",
+     "B5:2"
+    ],
+    "Em",
+    [
+     "C5:1",
+     "B5:2",
+     "Em:1"
+    ],
+    "%",
+    [
+     "C5:1",
+     "B5:2",
+     "Em:1"
+    ],
+    "%",
+    [
+     "C5:1",
+     "B5:2",
+     "Em:1"
+    ],
+    "%",
+    [
+     "C5:1",
+     "B5:2",
+     "Em:1"
+    ],
+    [
+     "G5:2",
+     "A5:2"
+    ],
+    [
+     "A5:2",
+     "Em:2"
+    ],
+    [
+     "G5:2",
+     "A5:2"
+    ],
+    [
+     "A5:2",
+     "Em:2"
+    ],
+    [
+     "G5:2",
+     "A5:2"
+    ],
+    [
+     "A5:2",
+     "Em:2"
+    ],
+    "G5",
+    "%",
+    [
+     "G5:2",
+     "A5:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Em",
+    "%",
+    "%",
+    "Em",
+    "%",
+    "Em",
+    "%",
+    "Em",
+    [
+     "C5:2",
+     "B5:2"
+    ],
+    [
+     "G5:2",
+     "A5:2"
+    ],
+    [
+     "A5:2",
+     "Em:2"
+    ],
+    [
+     "G5:2",
+     "A5:2"
+    ],
+    [
+     "A5:2",
+     "Em:2"
+    ],
+    [
+     "G5:2",
+     "A5:2"
+    ],
+    [
+     "A5:2",
+     "Em:2"
+    ],
+    "G5",
+    "A5",
+    "Em",
+    "C5",
+    "B5",
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Em:1",
+     "C5:2",
+     "B5:1"
+    ],
+    [
+     "Em:1",
+     "C5:1",
+     "B5:1",
+     "Em:1"
+    ],
+    [
+     "C5:1",
+     "B5:2",
+     "Am:1"
+    ],
+    [
+     "C5:2",
+     "B5:2"
+    ],
+    [
+     "Em:1",
+     "C5:2",
+     "B5:1"
+    ],
+    [
+     "Em:1",
+     "C5:1",
+     "B5:1",
+     "Em:1"
+    ],
+    [
+     "C5:1",
+     "B5:2",
+     "Am:1"
+    ],
+    [
+     "C5:2",
+     "B5:2"
+    ],
+    [
+     "Em:1",
+     "C5:2",
+     "B5:1"
+    ],
+    [
+     "Em:1",
+     "C5:1",
+     "B5:1",
+     "Em:1"
+    ],
+    [
+     "C5:1",
+     "B5:2",
+     "Am:1"
+    ],
+    [
+     "C5:2",
+     "B5:2"
+    ],
+    [
+     "B5:2",
+     "Em:2"
+    ],
+    "%",
+    "%",
+    "Em",
+    "%",
+    [
+     "G5:2",
+     "A5:2"
+    ],
+    [
+     "A5:2",
+     "Em:2"
+    ],
+    "G5",
+    "%",
+    "%",
+    "A5",
+    "%",
+    "%",
+    "Em",
+    "%",
+    "%",
+    "Em",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   10.62
+  ],
+  [
+   8,
+   19.93
+  ],
+  [
+   13,
+   31.52
+  ],
+  [
+   17,
+   40.78
+  ],
+  [
+   22,
+   52.481
+  ],
+  [
+   31,
+   74.25
+  ],
+  [
+   37,
+   88.79
+  ],
+  [
+   51,
+   121.781
+  ],
+  [
+   59,
+   140.569
+  ],
+  [
+   64,
+   152.67
+  ],
+  [
+   70,
+   166.639
+  ],
+  [
+   79,
+   187.749
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 1262536082
+}

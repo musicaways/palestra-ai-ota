@@ -1,0 +1,277 @@
+{
+ "title": "Paradise",
+ "artist": "Coldplay",
+ "album": "BEST 100 Of All Time",
+ "year": 2011,
+ "genre": "Pop / Rock",
+ "difficulty": 3,
+ "youtubeId": "J6ZWlDks0nQ",
+ "key": "Bb",
+ "bpm": 69.92,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 3.16,
+ "strum": "D--UD-DU",
+ "lyricsSource": {
+  "lrclibId": 36960003,
+  "duration": 278,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bb – F – Gm – C – Dm – Dm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Dm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "%",
+    [
+     "Dm:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "Dm:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    "%",
+    [
+     "Gm:1",
+     "Bb:1",
+     "F:1",
+     "C:1"
+    ],
+    [
+     "Gm:2",
+     "Bb:2"
+    ],
+    "F",
+    [
+     "F:2",
+     "C:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "Bb:2",
+     "Dm7:2"
+    ],
+    "C",
+    [
+     "Gm:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "Bb",
+    "F",
+    "Bb",
+    "F",
+    [
+     "Gm:2",
+     "Bb:2"
+    ],
+    "%",
+    [
+     "Gm:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "Gm:2",
+     "Bb:2"
+    ],
+    "%",
+    [
+     "Gm:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    "Gm",
+    "C",
+    "Dm",
+    "F",
+    "C",
+    "Gm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "%",
+    "C",
+    "%",
+    [
+     "Gm:2",
+     "Bb:2"
+    ],
+    "%",
+    [
+     "Gm:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "Gm:2",
+     "Bb:2"
+    ],
+    "%",
+    [
+     "Gm:2",
+     "Bb:2"
+    ],
+    "F",
+    "%",
+    [
+     "F:2",
+     "C:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "Gm:2",
+     "Bb:2"
+    ],
+    "%",
+    [
+     "Gm:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   15,
+   54.858
+  ],
+  [
+   19,
+   68.382
+  ],
+  [
+   24,
+   85.658
+  ],
+  [
+   29,
+   102.712
+  ],
+  [
+   34,
+   119.767
+  ],
+  [
+   40,
+   140.612
+  ],
+  [
+   44,
+   154.413
+  ],
+  [
+   54,
+   188.628
+  ],
+  [
+   58,
+   201.955
+  ],
+  [
+   62,
+   216.018
+  ],
+  [
+   70,
+   243.473
+  ],
+  [
+   74,
+   257.247
+  ],
+  [
+   77,
+   267.942
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 14299589,
+ "spotifyId": "6nek1Nin9q48AVZcWs9e9D"
+}

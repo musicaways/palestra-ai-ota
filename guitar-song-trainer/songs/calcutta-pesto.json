@@ -1,0 +1,230 @@
+{
+ "title": "Pesto",
+ "artist": "Calcutta",
+ "album": "Calcutta Videos",
+ "year": 2018,
+ "genre": "Indie",
+ "difficulty": 5,
+ "youtubeId": "74SfLKWjw_0",
+ "key": "C#m7",
+ "bpm": 80.43,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.13,
+ "strum": "D-D-D-D-",
+ "lyricsSource": {
+  "lrclibId": 18516156,
+  "duration": 207.899,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C#m7 – Emaj7 – B – E – G#m – A7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "G#m:2",
+     "Emaj7:2"
+    ],
+    "D#m7",
+    "G#m",
+    [
+     "C#7:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "Em:2"
+    ],
+    [
+     "G#m:2",
+     "Emaj7:2"
+    ],
+    "D#m7",
+    "G#m",
+    "C#7",
+    [
+     "E:2",
+     "Em:2"
+    ],
+    [
+     "B:2",
+     "C#m7:2"
+    ],
+    "B",
+    "C#m7",
+    "E",
+    "%",
+    "%",
+    [
+     "B:2",
+     "C#m7:2"
+    ],
+    "Emaj7",
+    "Bmaj7",
+    "C#m7",
+    "%",
+    "A7",
+    "Emaj7",
+    [
+     "B:1",
+     "C#m7:2",
+     "E:1"
+    ],
+    [
+     "B:1",
+     "D#m7:2",
+     "E:1"
+    ],
+    [
+     "G#m:2",
+     "Emaj7:2"
+    ],
+    "D#m7",
+    "G#m",
+    [
+     "C#7:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "Em:2"
+    ],
+    [
+     "B:2",
+     "C#m7:2"
+    ],
+    "B",
+    "C#m7",
+    "E",
+    "%",
+    "%",
+    [
+     "B:2",
+     "C#m7:2"
+    ],
+    "Emaj7",
+    "Bmaj7",
+    "C#m7",
+    "%",
+    [
+     "A7:2",
+     "Emaj7:2"
+    ],
+    [
+     "Emaj7:2",
+     "C#m7:2"
+    ],
+    [
+     "Emaj7:2",
+     "B:2"
+    ],
+    "C#m7",
+    "D#m7",
+    "E",
+    "C#m7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "B:2",
+     "C#m7:2"
+    ],
+    "B",
+    "C#m7",
+    "%",
+    "%",
+    "%",
+    [
+     "B:2",
+     "C#m7:2"
+    ],
+    "Emaj7",
+    "Bmaj7",
+    "C#m7",
+    "A",
+    [
+     "A7:2",
+     "Emaj7:2"
+    ],
+    [
+     "Emaj7:2",
+     "C#m7:2"
+    ],
+    [
+     "Emaj7:2",
+     "B:2"
+    ],
+    "C#m7",
+    "A",
+    "A7",
+    "Emaj7",
+    "C#m7",
+    "A",
+    "A7",
+    "Emaj7"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   0,
+   -0.022
+  ],
+  [
+   5,
+   14.898
+  ],
+  [
+   9,
+   26.796
+  ],
+  [
+   15,
+   44.84
+  ],
+  [
+   19,
+   57.43
+  ],
+  [
+   25,
+   75.386
+  ],
+  [
+   30,
+   90.306
+  ],
+  [
+   37,
+   111.154
+  ],
+  [
+   41,
+   122.996
+  ],
+  [
+   49,
+   146.56
+  ],
+  [
+   55,
+   164.306
+  ],
+  [
+   61,
+   182.158
+  ]
+ ],
+ "strumSource": "ultimate-guitar",
+ "deezerId": 457237312
+}

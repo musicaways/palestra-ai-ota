@@ -1,0 +1,214 @@
+{
+ "title": "Bellissima",
+ "artist": "Annalisa",
+ "album": "Fyp Italia 2023",
+ "year": 2022,
+ "genre": "Pop",
+ "difficulty": 3,
+ "youtubeId": "lbYkmHcgQ3I",
+ "key": "F",
+ "bpm": 74.02,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.7,
+ "strum": "D---D-DU",
+ "lyricsSource": {
+  "lrclibId": 36989622,
+  "duration": 201,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F – C – Dm – Gm – Am – Bbmaj7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F",
+    "Dm",
+    "Am"
+   ],
+   "strum": "D-------"
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "F",
+    "%",
+    "%",
+    "Bb",
+    "%",
+    "%",
+    "%",
+    "Bbmaj7",
+    "Dm",
+    "C",
+    "Am",
+    "%",
+    "Gm",
+    "C",
+    [
+     "Gm:2",
+     "C:2"
+    ],
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "F",
+    "Dm",
+    [
+     "Gm:2",
+     "C:2"
+    ],
+    "F",
+    "%",
+    "F",
+    "Dm",
+    "%",
+    [
+     "Bbmaj7:2",
+     "F:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "Bbmaj7",
+    "Dm",
+    "C",
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "Gm",
+    "C",
+    [
+     "Gm:2",
+     "C:2"
+    ],
+    "F",
+    "F",
+    "Dm",
+    [
+     "Gm:2",
+     "C:2"
+    ],
+    "%",
+    "F",
+    [
+     "Dm:1",
+     "Am:2",
+     "C:1"
+    ],
+    "%",
+    [
+     "Am:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "Dm:2"
+    ],
+    [
+     "F:2",
+     "Dm:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "Gm",
+    "C",
+    [
+     "Gm:2",
+     "C:2"
+    ],
+    "F",
+    "F",
+    "Dm",
+    [
+     "Gm:2",
+     "C:2"
+    ],
+    "F",
+    "Am",
+    [
+     "Am:2",
+     "C:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   3,
+   13.01
+  ],
+  [
+   7,
+   25.96
+  ],
+  [
+   11,
+   37.56
+  ],
+  [
+   15,
+   51.02
+  ],
+  [
+   21,
+   71.035
+  ],
+  [
+   27,
+   90.967
+  ],
+  [
+   31,
+   102.93
+  ],
+  [
+   35,
+   115.407
+  ],
+  [
+   39,
+   129.002
+  ],
+  [
+   44,
+   145.848
+  ],
+  [
+   49,
+   162
+  ],
+  [
+   54,
+   177.833
+  ],
+  [
+   59,
+   194.059
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 1877068787,
+ "spotifyId": "39jxR2xnmcBbkdPX9oNzsI"
+}

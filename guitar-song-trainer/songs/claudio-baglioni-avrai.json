@@ -1,0 +1,399 @@
+{
+ "title": "Avrai",
+ "artist": "Claudio Baglioni",
+ "album": "Radio Italia Story",
+ "year": 1982,
+ "genre": "Cantautori",
+ "difficulty": 5,
+ "youtubeId": "t4vxzJRiW_Q",
+ "key": "Eb",
+ "bpm": 136.55,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.12,
+ "strum": "D-D-DUDU",
+ "lyricsSource": {
+  "lrclibId": 18080070,
+  "duration": 321.776327,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Eb – G7 – Gm7 – Abmaj7 – A7 – Cm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Eb",
+    "Abmaj7",
+    [
+     "Abmaj7:2",
+     "G7:2"
+    ],
+    "Cm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Eb",
+    "%",
+    "Abmaj7",
+    "G7",
+    "Cm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Fm7",
+    "%",
+    "Eb4",
+    "%",
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Gm7",
+    [
+     "Gm7:2",
+     "G7:2"
+    ],
+    "%",
+    [
+     "G7:2",
+     "Cm:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "%",
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    "Fm7",
+    "%",
+    "F",
+    "F",
+    [
+     "Bbmaj7:2",
+     "A7:2"
+    ],
+    [
+     "A7:2",
+     "Dm:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 7",
+   "bars": [
+    "Gm7",
+    "A7",
+    "Dm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  },
+  {
+   "name": "Strofa 8",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    [
+     "Eb:1",
+     "Bb:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  }
+ ],
+ "warp": [
+  [
+   0,
+   1.05
+  ],
+  [
+   4,
+   7.881
+  ],
+  [
+   12,
+   22.058
+  ],
+  [
+   17,
+   30.73
+  ],
+  [
+   25,
+   44.77
+  ],
+  [
+   33,
+   58.852
+  ],
+  [
+   37,
+   65.998
+  ],
+  [
+   48,
+   85.6
+  ],
+  [
+   62,
+   110.206
+  ],
+  [
+   71,
+   126.166
+  ],
+  [
+   79,
+   139.99
+  ],
+  [
+   85,
+   150.535
+  ],
+  [
+   93,
+   164.596
+  ],
+  [
+   100,
+   176.793
+  ],
+  [
+   106,
+   187.339
+  ],
+  [
+   112,
+   197.977
+  ],
+  [
+   119,
+   210.154
+  ],
+  [
+   124,
+   218.942
+  ],
+  [
+   129,
+   227.856
+  ],
+  [
+   134,
+   236.518
+  ],
+  [
+   150,
+   264.46
+  ]
+ ],
+ "strumSource": "stima"
+}

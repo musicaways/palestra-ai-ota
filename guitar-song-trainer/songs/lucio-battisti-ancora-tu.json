@@ -1,0 +1,296 @@
+{
+ "title": "Ancora tu",
+ "artist": "Lucio Battisti",
+ "album": "Best Battisti",
+ "year": 1976,
+ "genre": "Cantautori",
+ "difficulty": 5,
+ "youtubeId": "qe2-gdYLjdo",
+ "key": "A",
+ "bpm": 55.9,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.91,
+ "strum": "B-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37215351,
+  "duration": 285,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – Gmaj7 – Bm – F#m7 – D – Amaj7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bm",
+    "A",
+    "Gmaj7",
+    "A"
+   ],
+   "strum": "B---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Gmaj7:2",
+     "D:2"
+    ],
+    [
+     "F#m7:2",
+     "Bm:2"
+    ],
+    [
+     "Gmaj7:2",
+     "F#m7:2"
+    ],
+    "Gmaj7",
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "Gmaj7:2",
+     "A:2"
+    ],
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "G:2",
+     "A:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Gmaj7:2",
+     "D:2"
+    ],
+    [
+     "F#m7:2",
+     "Bm:2"
+    ],
+    [
+     "Gmaj7:2",
+     "F#m7:2"
+    ],
+    "Gmaj7",
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "G:2",
+     "A:2"
+    ],
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "Gmaj7:2",
+     "A:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "F#m7:2",
+     "Bm:2"
+    ],
+    [
+     "Gmaj7:2",
+     "F#m7:2"
+    ],
+    "Gmaj7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "Gmaj7:2",
+     "A:2"
+    ],
+    [
+     "Gmaj7:2",
+     "D:2"
+    ],
+    [
+     "Bm:1",
+     "A:1",
+     "Gmaj7:1",
+     "A:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "Gmaj7:2",
+     "A:2"
+    ],
+    [
+     "Gmaj7:2",
+     "D:2"
+    ],
+    [
+     "Bm:1",
+     "A:1",
+     "Gmaj7:1",
+     "A:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "B",
+    "Bm7",
+    "C#",
+    "C#",
+    "C#m7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "Amaj7:2",
+     "E:2"
+    ],
+    [
+     "G#m7:2",
+     "C#m:2"
+    ],
+    [
+     "Amaj7:2",
+     "G#m7:2"
+    ],
+    "Amaj7",
+    [
+     "C#m:2",
+     "B:2"
+    ],
+    [
+     "Amaj7:2",
+     "B:2"
+    ],
+    [
+     "C#m:2",
+     "B:2"
+    ],
+    [
+     "Amaj7:2",
+     "B:2"
+    ],
+    "A",
+    "E",
+    "G#m7",
+    "C#m",
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    "Gmaj7",
+    [
+     "Gmaj7:2",
+     "A:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   18.883
+  ],
+  [
+   8,
+   36.057
+  ],
+  [
+   12,
+   53.177
+  ],
+  [
+   16,
+   70.763
+  ],
+  [
+   20,
+   87.983
+  ],
+  [
+   24,
+   105.27
+  ],
+  [
+   28,
+   122.823
+  ],
+  [
+   36,
+   156.773
+  ],
+  [
+   41,
+   177.103
+  ],
+  [
+   46,
+   198.69
+  ],
+  [
+   50,
+   216.49
+  ],
+  [
+   55,
+   237.957
+  ],
+  [
+   62,
+   267.867
+  ],
+  [
+   63,
+   272.16
+  ]
+ ],
+ "strumSource": "stima"
+}

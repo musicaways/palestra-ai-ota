@@ -1,0 +1,231 @@
+{
+ "title": "Questa nostra stupida canzone d'amore",
+ "artist": "Thegiornalisti",
+ "album": "Hot Party Summer 2018",
+ "year": 2017,
+ "genre": "Indie / Pop",
+ "difficulty": 4,
+ "youtubeId": "HVPzMqbD0u8",
+ "key": "F",
+ "bpm": 77.88,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.57,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 22994992,
+  "duration": 249,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – F – C – Am7 – Em – Fadd9.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Am7",
+    "%",
+    "%"
+   ],
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Am7",
+    [
+     "Fadd9:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "Am7",
+    "Fadd9",
+    "%",
+    "%",
+    "F",
+    "C",
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Em",
+    "Dm",
+    [
+     "G:2",
+     "F:2"
+    ],
+    [
+     "Em:2",
+     "Dm:2"
+    ],
+    "C",
+    "%",
+    "F",
+    "%",
+    "G",
+    "F",
+    [
+     "Am:2",
+     "G:2"
+    ],
+    "C",
+    "C4",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Am7",
+    "Fadd9",
+    "%",
+    "G",
+    "%",
+    "C",
+    "Em",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "C",
+    "%",
+    "%",
+    "%",
+    "G",
+    "F",
+    [
+     "Am:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "C",
+    "E7",
+    "%",
+    "%",
+    "G",
+    "F",
+    [
+     "Am:2",
+     "C7:2"
+    ],
+    "F",
+    [
+     "F:2",
+     "C:2"
+    ],
+    "%",
+    "G",
+    [
+     "G:2",
+     "F:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "G",
+    "%",
+    "F",
+    "%",
+    "G",
+    "%",
+    "F",
+    "%",
+    "G",
+    "%",
+    "F",
+    "%",
+    "G",
+    "%",
+    "F",
+    "%",
+    "%",
+    "C",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   3,
+   12.418
+  ],
+  [
+   8,
+   27.58
+  ],
+  [
+   18,
+   58.327
+  ],
+  [
+   24,
+   76.748
+  ],
+  [
+   29,
+   91.672
+  ],
+  [
+   35,
+   110.388
+  ],
+  [
+   40,
+   125.81
+  ],
+  [
+   44,
+   138.137
+  ],
+  [
+   49,
+   153.53
+  ],
+  [
+   53,
+   165.823
+  ],
+  [
+   60,
+   187.253
+  ],
+  [
+   64,
+   199.58
+  ],
+  [
+   68,
+   212.357
+  ],
+  [
+   72,
+   224.817
+  ],
+  [
+   77,
+   240.33
+  ]
+ ],
+ "strumSource": "stima"
+}

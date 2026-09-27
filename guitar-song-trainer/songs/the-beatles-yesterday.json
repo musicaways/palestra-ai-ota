@@ -1,0 +1,258 @@
+{
+ "title": "Yesterday",
+ "artist": "The Beatles",
+ "album": "Pop Music - Volume 5",
+ "year": 1965,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "Gxpeenmre6U",
+ "key": "Dm",
+ "bpm": 122.02,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.95,
+ "strum": "PPPP-PPU",
+ "lyricsSource": {
+  "lrclibId": 36991626,
+  "duration": 126,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Dm – Bb – C – F – G7 – A.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bb",
+    "C",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-D-D-D-"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    "Dm",
+    [
+     "G7:2",
+     "Bb:2"
+    ],
+    "F",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    "Dm",
+    [
+     "G7:2",
+     "Bb:2"
+    ],
+    "F",
+    [
+     "A:2",
+     "A7:1",
+     "Dm:1"
+    ],
+    [
+     "Dm:1",
+     "C:1",
+     "Bb:2"
+    ],
+    "Dm",
+    [
+     "Gm:2",
+     "C7:2"
+    ],
+    "F",
+    [
+     "A:2",
+     "A7:1",
+     "Dm:1"
+    ],
+    [
+     "Dm:1",
+     "C:1",
+     "Bb:2"
+    ],
+    "Dm",
+    [
+     "Gm:2",
+     "C7:2"
+    ],
+    "F",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    "Dm",
+    [
+     "G7:2",
+     "Bb:2"
+    ],
+    "F",
+    [
+     "A:2",
+     "A7:1",
+     "Dm:1"
+    ],
+    [
+     "Dm:1",
+     "C:1",
+     "Bb:2"
+    ],
+    "Dm",
+    [
+     "Gm:2",
+     "C7:2"
+    ],
+    "F",
+    [
+     "A:2",
+     "A7:1",
+     "Dm:1"
+    ],
+    [
+     "Dm:1",
+     "C:1",
+     "Bb:2"
+    ],
+    "Dm",
+    [
+     "Gm:2",
+     "C7:2"
+    ],
+    "F",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    "Dm",
+    "%",
+    "G7",
+    "%",
+    [
+     "G7:2",
+     "Bb:2"
+    ],
+    "%",
+    "%",
+    "F",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   2,
+   5.06
+  ],
+  [
+   8,
+   16.739
+  ],
+  [
+   15,
+   30.436
+  ],
+  [
+   20,
+   40.266
+  ],
+  [
+   25,
+   50.101
+  ],
+  [
+   30,
+   59.935
+  ],
+  [
+   34,
+   67.836
+  ],
+  [
+   39,
+   77.671
+  ],
+  [
+   44,
+   87.566
+  ],
+  [
+   49,
+   97.431
+  ],
+  [
+   53,
+   105.296
+  ],
+  [
+   55,
+   109.232
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 2533530791,
+ "spotifyId": "5u02N7tBZT9ckaUcbcgkZa"
+}

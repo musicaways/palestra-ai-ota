@@ -1,0 +1,192 @@
+{
+ "title": "Figlio di un re",
+ "artist": "Cesare Cremonini",
+ "album": "2C2C",
+ "year": 2008,
+ "genre": "Pop / Cantautori",
+ "difficulty": 1,
+ "youtubeId": "B85JBxs1Dhc",
+ "key": "Am",
+ "bpm": 69.47,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.55,
+ "strum": "B-D-B-DU",
+ "lyricsSource": {
+  "lrclibId": 34304895,
+  "duration": 407.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Am – Bbmaj7 – C6 – Dm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Dm",
+    "Am",
+    "Bbmaj7",
+    "Am",
+    "Dm",
+    "Am"
+   ],
+   "barsPerRow": 4,
+   "strum": "B---B---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Dm",
+    "%",
+    "Am",
+    "Bbmaj7",
+    "Am",
+    "Dm",
+    "Am",
+    "Bbmaj7",
+    "Am",
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "Dm",
+    "Am",
+    "Bbmaj7",
+    "Am",
+    "Dm",
+    "Am",
+    "Bbmaj7",
+    "Am",
+    "Am",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "Am",
+    "%",
+    "Am",
+    "Dm",
+    "Am",
+    "Bbmaj7",
+    "Am",
+    "Dm",
+    "Am",
+    "Bbmaj7",
+    "Am",
+    "%",
+    "Am",
+    "%",
+    "Am"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Dm",
+    "Am",
+    "Bbmaj7",
+    "Am",
+    "Dm",
+    "Am",
+    "Bbmaj7",
+    "Am",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "Am",
+    "Bbmaj7",
+    "C6",
+    "Bbmaj7",
+    "Am",
+    "Bbmaj7",
+    "C6",
+    "Bbmaj7",
+    "Am",
+    "Bbmaj7",
+    "C6",
+    "Bbmaj7",
+    "Am",
+    "Bbmaj7",
+    "C6",
+    "Bbmaj7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "Am",
+    "Bbmaj7",
+    "C6",
+    "Bbmaj7",
+    "Am",
+    "Bbmaj7",
+    "C6",
+    "Bbmaj7",
+    "Am",
+    "Bbmaj7",
+    "C6",
+    "Bbmaj7",
+    "Am",
+    "Bbmaj7",
+    "C6",
+    "Bbmaj7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "Am",
+    "Bbmaj7",
+    "C6",
+    "Bbmaj7",
+    "Am",
+    "Bbmaj7",
+    "C6",
+    "Bbmaj7",
+    "Am",
+    "Bbmaj7",
+    "C6",
+    "Bbmaj7",
+    "Am",
+    "Bbmaj7",
+    "C6",
+    "Bbmaj7",
+    "Am",
+    "Bbmaj7",
+    "C6",
+    "Bbmaj7"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima"
+}

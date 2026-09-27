@@ -1,0 +1,198 @@
+{
+ "title": "Best of You",
+ "artist": "Foo Fighters",
+ "album": "Lulz: A Corruption of LOL (Over) #IX: Thousand",
+ "year": 2005,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "xvN0Y9-ML3s",
+ "key": "C#m7",
+ "bpm": 65.11,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.51,
+ "strum": "D--UD-DU",
+ "lyricsSource": {
+  "lrclibId": 37172139,
+  "duration": 255,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C#m7 – Aadd9 – B – B4 – F#.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "C#m7",
+    "Aadd9",
+    "C#m7",
+    "B4",
+    "Aadd9",
+    "C#m7",
+    "%",
+    "%",
+    "C#m7",
+    "%",
+    [
+     "C#m7:2",
+     "B4:2"
+    ],
+    [
+     "B4:2",
+     "Aadd9:2"
+    ],
+    "C#m7",
+    "Aadd9",
+    "C#m7",
+    "Aadd9",
+    "B",
+    "Aadd9",
+    "C#m7",
+    "Aadd9",
+    "C#m7",
+    "Aadd9",
+    "B",
+    "Aadd9",
+    "C#m7",
+    "%",
+    "C#m7",
+    "%",
+    "C#m7",
+    "Aadd9",
+    "C#m7",
+    "%",
+    "C#m7",
+    [
+     "Aadd9:2",
+     "C#m7:2"
+    ],
+    [
+     "C#m7:2",
+     "Aadd9:2"
+    ],
+    "F#"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    [
+     "C#m7:1",
+     "Aadd9:1",
+     "C#m7:1",
+     "Aadd9:1"
+    ],
+    "%",
+    "Aadd9",
+    "C#m7",
+    "Aadd9",
+    "C#m7",
+    "%",
+    "C#m7",
+    "C#m7",
+    "%",
+    "Aadd9",
+    "C#m7",
+    "Aadd9",
+    [
+     "B:2",
+     "Aadd9:2"
+    ],
+    "B",
+    "%",
+    "%",
+    "%",
+    "%",
+    "C#m7",
+    "%",
+    "C#m7",
+    "B",
+    "Aadd9",
+    "%",
+    "C#m7",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   0,
+   1.674
+  ],
+  [
+   4,
+   16.176
+  ],
+  [
+   8,
+   31.606
+  ],
+  [
+   12,
+   46.36
+  ],
+  [
+   16,
+   61.269
+  ],
+  [
+   20,
+   76.542
+  ],
+  [
+   24,
+   90.85
+  ],
+  [
+   28,
+   105.42
+  ],
+  [
+   32,
+   120.59
+  ],
+  [
+   36,
+   135.364
+  ],
+  [
+   41,
+   153.462
+  ],
+  [
+   45,
+   168.48
+  ],
+  [
+   50,
+   186.91
+  ],
+  [
+   56,
+   208.874
+  ],
+  [
+   61,
+   227.08
+  ],
+  [
+   64,
+   238.722
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 4311595,
+ "spotifyId": "5FZxsHWIvUsmSK1IAvm2pp"
+}

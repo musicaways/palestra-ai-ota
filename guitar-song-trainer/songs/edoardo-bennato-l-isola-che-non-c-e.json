@@ -1,0 +1,323 @@
+{
+ "title": "L'isola che non c'è",
+ "artist": "Edoardo Bennato",
+ "album": "Cantautori Italiani Vol. 1",
+ "year": 1980,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "hhgoCgUg6Cc",
+ "key": "F",
+ "bpm": 80.54,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.61,
+ "strum": "D-D-D-DU",
+ "lyricsSource": {
+  "lrclibId": 33645020,
+  "duration": 240,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F – C – Bb – A7 – Dm – Gm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F",
+    "%",
+    "C",
+    "%"
+   ],
+   "strum": "D---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "F",
+    "C",
+    "Bb",
+    "F",
+    [
+     "Dm:2",
+     "A7:2"
+    ],
+    [
+     "A7:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    "F",
+    "C",
+    "Bb",
+    "F",
+    [
+     "Dm:2",
+     "A7:2"
+    ],
+    [
+     "A7:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    "F",
+    "C",
+    "Bb",
+    "F",
+    [
+     "Dm:2",
+     "A7:2"
+    ],
+    [
+     "A7:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    [
+     "Dm:2",
+     "A7:2"
+    ],
+    [
+     "Dm:2",
+     "A7:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "Gm7:2",
+     "C:2"
+    ],
+    [
+     "Gm7:2",
+     "C:2"
+    ],
+    "Gm7",
+    [
+     "C:2",
+     "Gm7:2"
+    ],
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "F",
+    "C",
+    "Bb",
+    "F",
+    [
+     "Dm:2",
+     "A7:2"
+    ],
+    [
+     "A7:2",
+     "Bb:2"
+    ],
+    [
+     "F:1",
+     "C:2",
+     "F:1"
+    ],
+    "F",
+    "C",
+    "Bb",
+    "F",
+    "Dm",
+    "A7",
+    "Bb",
+    "F",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strumentale",
+   "bars": [
+    [
+     "Dm:2",
+     "A7:2"
+    ],
+    [
+     "Dm:2",
+     "A7:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "Gm7:2",
+     "C:2"
+    ],
+    [
+     "Gm7:2",
+     "C:2"
+    ],
+    "Gm7",
+    [
+     "C:2",
+     "Gm7:2"
+    ],
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "F",
+    "C",
+    "Bb",
+    "F",
+    [
+     "Dm:2",
+     "A7:2"
+    ],
+    [
+     "A7:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "F7:2"
+    ],
+    [
+     "Bb:2",
+     "C:1",
+     "F:1"
+    ],
+    [
+     "F:1",
+     "F7:1",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "F7:2"
+    ],
+    [
+     "Bb:2",
+     "C:1",
+     "F:1"
+    ],
+    [
+     "F:1",
+     "F7:1",
+     "Bb:2"
+    ],
+    "F",
+    "C",
+    [
+     "C:2",
+     "Bb:2"
+    ],
+    "%",
+    "F"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   13.761
+  ],
+  [
+   8,
+   25.68
+  ],
+  [
+   12,
+   37.46
+  ],
+  [
+   18,
+   55.22
+  ],
+  [
+   22,
+   67.1
+  ],
+  [
+   28,
+   84.93
+  ],
+  [
+   34,
+   102.81
+  ],
+  [
+   39,
+   117.709
+  ],
+  [
+   53,
+   159.339
+  ],
+  [
+   57,
+   171.33
+  ],
+  [
+   62,
+   186.23
+  ],
+  [
+   66,
+   198.24
+  ],
+  [
+   72,
+   216.36
+  ],
+  [
+   76,
+   228.41
+  ]
+ ],
+ "strumSource": "stima"
+}

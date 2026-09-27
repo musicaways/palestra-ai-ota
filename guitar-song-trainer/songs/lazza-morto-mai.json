@@ -1,0 +1,233 @@
+{
+ "title": "Morto mai",
+ "artist": "Lazza",
+ "album": "Morto mai",
+ "year": 2022,
+ "genre": "Rap / Hip-hop",
+ "difficulty": 2,
+ "youtubeId": "8uZ2vS_7i8Y",
+ "key": "Gm",
+ "bpm": 83.01,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.65,
+ "strum": "B--D-UD-",
+ "lyricsSource": {
+  "lrclibId": 33612338,
+  "duration": 160,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Gm – Ebmaj7 – F – Bb6.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Parte 1",
+   "bars": [
+    "Gm",
+    "%",
+    "%",
+    "Gm",
+    [
+     "Ebmaj7:2",
+     "F:2"
+    ],
+    "Gm",
+    "Ebmaj7",
+    "Gm",
+    [
+     "Ebmaj7:2",
+     "F:2"
+    ],
+    "Gm",
+    [
+     "Ebmaj7:2",
+     "F:2"
+    ],
+    "Gm",
+    [
+     "Ebmaj7:2",
+     "F:2"
+    ],
+    "Gm",
+    "Ebmaj7",
+    "Gm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    [
+     "Ebmaj7:2",
+     "F:2"
+    ],
+    "Gm",
+    [
+     "Ebmaj7:2",
+     "F:2"
+    ],
+    [
+     "Gm:2",
+     "Bb6:2"
+    ],
+    [
+     "Ebmaj7:2",
+     "F:2"
+    ],
+    [
+     "Gm:2",
+     "Bb6:2"
+    ],
+    [
+     "Ebmaj7:2",
+     "F:2"
+    ],
+    "Gm",
+    [
+     "Ebmaj7:2",
+     "F:2"
+    ],
+    "Gm",
+    [
+     "Ebmaj7:2",
+     "F:2"
+    ],
+    [
+     "Gm:2",
+     "Bb6:2"
+    ],
+    "Ebmaj7",
+    [
+     "F:2",
+     "Gm:2"
+    ],
+    [
+     "Bb6:2",
+     "Ebmaj7:2"
+    ],
+    [
+     "F:2",
+     "Gm:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "Ebmaj7",
+    [
+     "F:2",
+     "Gm:2"
+    ],
+    "Ebmaj7",
+    [
+     "Gm:2",
+     "Bb6:2"
+    ],
+    [
+     "Ebmaj7:2",
+     "F:2"
+    ],
+    [
+     "Gm:2",
+     "Bb6:2"
+    ],
+    [
+     "Ebmaj7:2",
+     "F:2"
+    ],
+    [
+     "Gm:2",
+     "Bb6:2"
+    ],
+    [
+     "Ebmaj7:2",
+     "F:2"
+    ],
+    [
+     "Gm:2",
+     "Bb6:2"
+    ],
+    [
+     "Ebmaj7:2",
+     "F:2"
+    ],
+    "Gm",
+    [
+     "Ebmaj7:2",
+     "F:2"
+    ],
+    "Gm",
+    "Ebmaj7",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "Gm",
+    "Bb6",
+    "Ebmaj7",
+    "F",
+    "Gm",
+    "Bb6",
+    "Ebmaj7"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   0,
+   2.336
+  ],
+  [
+   4,
+   14.09
+  ],
+  [
+   8,
+   25.986
+  ],
+  [
+   13,
+   40.458
+  ],
+  [
+   17,
+   52.022
+  ],
+  [
+   22,
+   65.736
+  ],
+  [
+   27,
+   80.192
+  ],
+  [
+   31,
+   91.298
+  ],
+  [
+   41,
+   121.048
+  ],
+  [
+   45,
+   132.621
+  ],
+  [
+   46,
+   135.512
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 765808282
+}

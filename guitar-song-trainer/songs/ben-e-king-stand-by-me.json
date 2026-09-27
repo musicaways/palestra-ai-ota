@@ -1,0 +1,221 @@
+{
+ "title": "Stand by Me",
+ "artist": "Ben E. King",
+ "album": "The Best 80s Movies Album In The World... Ever!",
+ "year": 1961,
+ "genre": "Soul",
+ "difficulty": 1,
+ "youtubeId": "xUjwiQAlsOI",
+ "key": "A",
+ "bpm": 118.27,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.85,
+ "strum": "D--UD-DU",
+ "lyricsSource": {
+  "lrclibId": 33974274,
+  "duration": 175,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – E – D – F#m.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "A",
+    "F#m",
+    "D",
+    "E",
+    "A",
+    "A",
+    "F#m"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "A",
+    "%",
+    "%",
+    "F#m",
+    "D",
+    [
+     "D:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "A:2"
+    ],
+    "%",
+    "A",
+    "%",
+    "F#m",
+    "%",
+    "D",
+    "E",
+    "A",
+    "A",
+    "%",
+    [
+     "A:2",
+     "F#m:2"
+    ],
+    "%",
+    "%",
+    "D",
+    [
+     "D:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "A:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "A",
+    "%",
+    "%",
+    "F#m",
+    "D",
+    [
+     "D:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "A:2"
+    ],
+    "%",
+    "A",
+    "%",
+    "F#m",
+    "%",
+    "D",
+    "E",
+    "A",
+    "A",
+    "%",
+    [
+     "A:2",
+     "F#m:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "D:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "A:2"
+    ],
+    "A",
+    "%",
+    "F#m",
+    "%",
+    "D",
+    "%",
+    "E",
+    "%",
+    "A",
+    "%",
+    "A",
+    "%",
+    "F#m",
+    "%",
+    "D",
+    "%",
+    "E",
+    "A",
+    "%",
+    [
+     "A:2",
+     "F#m:2"
+    ],
+    "%",
+    "%",
+    "D",
+    "E",
+    "A",
+    "A",
+    "%",
+    "%",
+    "%",
+    "F#m",
+    "D",
+    "E",
+    "A"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   7,
+   16.313
+  ],
+  [
+   11,
+   24.43
+  ],
+  [
+   19,
+   40.357
+  ],
+  [
+   27,
+   56.591
+  ],
+  [
+   34,
+   70.694
+  ],
+  [
+   39,
+   80.834
+  ],
+  [
+   43,
+   88.957
+  ],
+  [
+   51,
+   105.191
+  ],
+  [
+   70,
+   144.056
+  ],
+  [
+   75,
+   154.202
+  ],
+  [
+   78,
+   160.29
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 136710424,
+ "spotifyId": "3ZwZYOljLgreLD32SmqHxC"
+}

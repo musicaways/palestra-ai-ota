@@ -1,0 +1,143 @@
+{
+ "title": "Paraocchi",
+ "artist": "Blanco",
+ "album": "Blu celeste",
+ "year": 2021,
+ "genre": "Pop / Rock",
+ "difficulty": 3,
+ "youtubeId": "R47fvSkbRho",
+ "key": "A",
+ "bpm": 72.14,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.6,
+ "strum": "D-D-DUDU",
+ "lyricsSource": {
+  "lrclibId": 28803092,
+  "duration": 189,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – E – F#m – Dadd9 – C#m7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "A",
+    "%",
+    "%",
+    "Dadd9",
+    "A",
+    "E",
+    "F#m",
+    "Dadd9",
+    "A",
+    "E",
+    "F#m",
+    "A",
+    "%",
+    "E",
+    "F#m",
+    "A",
+    "%",
+    "E",
+    "F#m",
+    "Dadd9",
+    "A",
+    "E",
+    "F#m",
+    "Dadd9",
+    "A",
+    "E",
+    "F#m",
+    "A",
+    "%",
+    "E",
+    "F#m",
+    "A",
+    "%",
+    "E",
+    "F#m",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "C#m7:2",
+     "Dadd9:2"
+    ],
+    "A",
+    "%",
+    "E",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   1,
+   5.849
+  ],
+  [
+   5,
+   19.181
+  ],
+  [
+   9,
+   32.704
+  ],
+  [
+   13,
+   45.884
+  ],
+  [
+   17,
+   58.9
+  ],
+  [
+   22,
+   76.467
+  ],
+  [
+   27,
+   92.913
+  ],
+  [
+   33,
+   112.551
+  ],
+  [
+   40,
+   135.199
+  ],
+  [
+   43,
+   145.034
+  ]
+ ],
+ "strumSource": "stima"
+}

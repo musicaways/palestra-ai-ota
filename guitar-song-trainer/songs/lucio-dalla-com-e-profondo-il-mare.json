@@ -1,0 +1,303 @@
+{
+ "title": "Com'è profondo il mare",
+ "artist": "Lucio Dalla",
+ "album": "1001 Songs You Must Hear Before You Die",
+ "year": 1977,
+ "genre": "Cantautori",
+ "difficulty": 1,
+ "youtubeId": "Csx1cLKPP-Y",
+ "key": "C",
+ "bpm": 76.12,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.07,
+ "strum": "B---D-DU",
+ "lyricsSource": {
+  "lrclibId": 37081983,
+  "duration": 324,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – F – C7 – C6.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "C",
+    "%",
+    "C6",
+    "%",
+    "C",
+    "%",
+    "C6",
+    "%",
+    "C"
+   ],
+   "barsPerRow": 4,
+   "strum": "B-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "C",
+    "C",
+    "C",
+    [
+     "C:2",
+     "C:2"
+    ],
+    "C",
+    "F",
+    "C",
+    [
+     "C:2",
+     "C:2"
+    ],
+    "C",
+    [
+     "C:2",
+     "C:2"
+    ],
+    "C",
+    "C",
+    "F",
+    "C",
+    [
+     "C:2",
+     "C:2"
+    ],
+    "C",
+    "C",
+    "C",
+    "C",
+    [
+     "C7:2",
+     "F:2"
+    ],
+    "C",
+    [
+     "C:2",
+     "C:2"
+    ],
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "C",
+    "%",
+    "C",
+    "C",
+    "%",
+    [
+     "C7:2",
+     "F:2"
+    ],
+    "C",
+    [
+     "C7:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "C",
+    "C",
+    "C",
+    "%",
+    [
+     "C7:2",
+     "F:2"
+    ],
+    "C",
+    "C",
+    "%",
+    "C",
+    "C",
+    "C",
+    "%",
+    "%",
+    "C",
+    "C",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "C",
+    "C",
+    "C",
+    "C",
+    "%",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C",
+    [
+     "C7:2",
+     "F:2"
+    ],
+    "C",
+    [
+     "C7:2",
+     "F:2"
+    ],
+    [
+     "C:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "C:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "C",
+    "%",
+    "C",
+    "C",
+    [
+     "C7:2",
+     "F:2"
+    ],
+    "C",
+    "C",
+    "C",
+    [
+     "C:2",
+     "C:2"
+    ],
+    "C",
+    [
+     "C7:2",
+     "F:2"
+    ],
+    "C",
+    [
+     "C7:2",
+     "F:2"
+    ],
+    "C",
+    "C",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "C",
+    "C",
+    "C6",
+    "C",
+    "C6",
+    "C",
+    "C",
+    "C",
+    "C",
+    "C6",
+    "C",
+    "C6",
+    "C"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   9,
+   29.641
+  ],
+  [
+   13,
+   42.253
+  ],
+  [
+   19,
+   61.267
+  ],
+  [
+   25,
+   80.185
+  ],
+  [
+   29,
+   91.92
+  ],
+  [
+   34,
+   107.791
+  ],
+  [
+   38,
+   120.918
+  ],
+  [
+   42,
+   133.53
+  ],
+  [
+   47,
+   149.424
+  ],
+  [
+   51,
+   162.036
+  ],
+  [
+   57,
+   181.507
+  ],
+  [
+   62,
+   197.272
+  ],
+  [
+   67,
+   212.16
+  ],
+  [
+   72,
+   228.084
+  ],
+  [
+   77,
+   243.849
+  ],
+  [
+   81,
+   256.399
+  ],
+  [
+   86,
+   272.13
+  ],
+  [
+   87,
+   275.283
+  ]
+ ],
+ "strumSource": "stima"
+}

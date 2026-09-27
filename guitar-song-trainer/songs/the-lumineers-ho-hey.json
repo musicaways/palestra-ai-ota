@@ -1,0 +1,298 @@
+{
+ "title": "Ho Hey",
+ "artist": "The Lumineers",
+ "album": "The Lumineers (Deluxe Edition)",
+ "year": 2012,
+ "genre": "Folk",
+ "difficulty": 3,
+ "youtubeId": "9ObDZvdZy2U",
+ "key": "C",
+ "bpm": 79.88,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.45,
+ "strum": "B-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 18323782,
+  "duration": 163.133333,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – F – G – Am – Fadd9.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "F"
+   ]
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "Am:2",
+     "G:2"
+    ],
+    [
+     "F:1",
+     "C:1",
+     "F:1",
+     "C:1"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "Am:2",
+     "G:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    [
+     "Am:2",
+     "G:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "Am:2",
+     "G:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    "%",
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "Am:2",
+     "G:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "Am:2",
+     "G:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    [
+     "Am:2",
+     "G:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "Am:2",
+     "G:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "Fadd9:2",
+     "C:2"
+    ],
+    [
+     "G:2",
+     "C:2"
+    ],
+    [
+     "Fadd9:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "Fadd9:2",
+     "C:2"
+    ],
+    [
+     "G:2",
+     "C:2"
+    ],
+    [
+     "Am:2",
+     "G:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "Am:2",
+     "G:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "F",
+    "%",
+    "%",
+    "C",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   1,
+   3.21
+  ],
+  [
+   5,
+   15.295
+  ],
+  [
+   9,
+   27.495
+  ],
+  [
+   13,
+   39.725
+  ],
+  [
+   18,
+   54.21
+  ],
+  [
+   23,
+   69.771
+  ],
+  [
+   28,
+   84.911
+  ],
+  [
+   33,
+   99.291
+  ],
+  [
+   39,
+   117.1
+  ],
+  [
+   44,
+   132.095
+  ],
+  [
+   48,
+   144.919
+  ],
+  [
+   49,
+   148.015
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 757244922
+}

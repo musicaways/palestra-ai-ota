@@ -1,0 +1,276 @@
+{
+ "title": "Don't Look Back in Anger",
+ "artist": "Oasis",
+ "album": "(What's The Story) Morning Glory?",
+ "year": 1996,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "Iplg87yNd9o",
+ "key": "F",
+ "bpm": 81.69,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.23,
+ "strum": "P-P-D-DU",
+ "lyricsSource": {
+  "lrclibId": 13615741,
+  "duration": 290.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F – G – E – C – Fm – Am.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "C",
+    "F",
+    "C",
+    "F"
+   ],
+   "strum": "D---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "C:1",
+     "G:2",
+     "Am:1"
+    ],
+    "E",
+    "F",
+    [
+     "G:1",
+     "C:1",
+     "Am:1",
+     "G:1"
+    ],
+    [
+     "C:1",
+     "G:2",
+     "Am:1"
+    ],
+    [
+     "E:2",
+     "F:2"
+    ],
+    [
+     "G:2",
+     "C:2"
+    ],
+    [
+     "Am:2",
+     "G:2"
+    ],
+    [
+     "F:2",
+     "Fm:2"
+    ],
+    [
+     "Fm:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "Fm:2"
+    ],
+    [
+     "Fm:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "Fm:2"
+    ],
+    [
+     "Fm:2",
+     "C:2"
+    ],
+    "G",
+    "%",
+    "Am",
+    "G",
+    "F",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "E",
+    [
+     "E:2",
+     "F:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "E",
+    [
+     "E:2",
+     "F:2"
+    ],
+    "%",
+    [
+     "F:2",
+     "G:2"
+    ],
+    "%",
+    [
+     "C:1",
+     "G:2",
+     "Am:1"
+    ],
+    "E",
+    [
+     "E:2",
+     "F:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "C:1",
+     "G:2",
+     "Am:1"
+    ],
+    "E",
+    "F",
+    [
+     "G:1",
+     "C:1",
+     "Am:1",
+     "G:1"
+    ],
+    [
+     "F:2",
+     "Fm:2"
+    ],
+    [
+     "Fm:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "Fm:2"
+    ],
+    [
+     "Fm:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "Fm:2"
+    ],
+    [
+     "Fm:2",
+     "C:2"
+    ],
+    "G",
+    "%",
+    "Am",
+    "G",
+    "F",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "%",
+    "E",
+    [
+     "E:2",
+     "F:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "E",
+    "%",
+    "%",
+    "%",
+    [
+     "E:2",
+     "F:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "F:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "%",
+    "%",
+    "E",
+    "F",
+    "%",
+    "%",
+    [
+     "E:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "E",
+    "F",
+    "%",
+    "%",
+    "E",
+    [
+     "E:2",
+     "F:2"
+    ],
+    "%",
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "Am:2",
+     "E:2"
+    ],
+    [
+     "F:2",
+     "Fm:2"
+    ],
+    "C",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima",
+ "deezerId": 985722002,
+ "spotifyId": "7ppPZa3TRUSGKaks9wH7VT"
+}

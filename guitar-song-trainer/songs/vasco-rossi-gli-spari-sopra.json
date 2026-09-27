@@ -1,0 +1,182 @@
+{
+ "title": "Gli spari sopra",
+ "artist": "Vasco Rossi",
+ "album": "Tracks Disc 1",
+ "year": 1993,
+ "genre": "Rock",
+ "difficulty": 1,
+ "youtubeId": "SgUG58EdZtU",
+ "key": "D",
+ "bpm": 74.32,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.58,
+ "strum": "P-P-D-DU",
+ "lyricsSource": {
+  "lrclibId": 37125091,
+  "duration": 207,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – G – Cadd9.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "D",
+    "D",
+    "%",
+    "Cadd9",
+    "D",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "D",
+    "%",
+    "Cadd9",
+    "D",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "Cadd9:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "Cadd9:1",
+     "G:2",
+     "D:1"
+    ],
+    "%",
+    "G",
+    "D",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "Cadd9",
+    "D",
+    "%",
+    "%",
+    "%",
+    "Cadd9",
+    "G",
+    "D",
+    [
+     "Cadd9:1",
+     "G:2",
+     "D:1"
+    ],
+    "%",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "D",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "%",
+    "Cadd9",
+    "G",
+    "D",
+    "%",
+    "%",
+    "Cadd9",
+    "G",
+    "D",
+    "Cadd9",
+    "G",
+    "D",
+    [
+     "Cadd9:1",
+     "G:2",
+     "D:1"
+    ],
+    "Cadd9",
+    "G",
+    "D"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   9,
+   31.401
+  ],
+  [
+   14,
+   47.979
+  ],
+  [
+   19,
+   64.17
+  ],
+  [
+   27,
+   90.073
+  ],
+  [
+   32,
+   106.239
+  ],
+  [
+   39,
+   128.355
+  ],
+  [
+   48,
+   157.414
+  ],
+  [
+   53,
+   173.436
+  ],
+  [
+   60,
+   195.938
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 358728751,
+ "introSource": "stima: giro della prima parte cantata (la fonte non riportava gli accordi dell'intro)"
+}

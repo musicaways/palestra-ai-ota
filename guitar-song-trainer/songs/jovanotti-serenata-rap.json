@@ -1,0 +1,401 @@
+{
+ "title": "Serenata rap",
+ "artist": "Jovanotti",
+ "album": "Lorenzo - Raccolta",
+ "year": 1994,
+ "genre": "Pop",
+ "difficulty": 2,
+ "youtubeId": "d9Mk7ZbueBI",
+ "key": "A#m7",
+ "bpm": 94.1,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.45,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37014466,
+  "duration": 310,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A#m7 – Bmaj7 – D#m7 – Eadd9.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bmaj7",
+    "A#m7",
+    "D#m7",
+    "Bmaj7",
+    "A#m7",
+    "D#m7",
+    "Bmaj7",
+    "A#m7",
+    "D#m7",
+    "Eadd9",
+    "%",
+    "Bmaj7",
+    "A#m7",
+    "D#m7",
+    "Bmaj7"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Bmaj7",
+    [
+     "A#m7:2",
+     "D#m7:2"
+    ],
+    "Bmaj7",
+    "D#m7",
+    "Bmaj7",
+    [
+     "A#m7:2",
+     "D#m7:2"
+    ],
+    "Eadd9",
+    "%",
+    "%",
+    [
+     "A#m7:2",
+     "D#m7:2"
+    ],
+    "Bmaj7",
+    "D#m7",
+    "Bmaj7",
+    [
+     "A#m7:2",
+     "D#m7:2"
+    ],
+    "Eadd9",
+    "%",
+    "Bmaj7",
+    [
+     "A#m7:2",
+     "D#m7:2"
+    ],
+    "Bmaj7",
+    "A#m7",
+    "Bmaj7",
+    [
+     "A#m7:2",
+     "D#m7:2"
+    ],
+    "Eadd9",
+    "%",
+    "Bmaj7",
+    [
+     "A#m7:2",
+     "D#m7:2"
+    ],
+    "Bmaj7",
+    [
+     "A#m7:2",
+     "D#m7:2"
+    ],
+    "Bmaj7",
+    [
+     "A#m7:2",
+     "D#m7:2"
+    ],
+    "Eadd9",
+    "%",
+    "Bmaj7",
+    [
+     "A#m7:2",
+     "D#m7:2"
+    ],
+    "Bmaj7",
+    [
+     "A#m7:2",
+     "D#m7:2"
+    ],
+    "Bmaj7",
+    "A#m7",
+    "%",
+    "Eadd9"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    [
+     "Bmaj7:2",
+     "A#m7:2"
+    ],
+    [
+     "A#m7:2",
+     "D#m7:2"
+    ],
+    [
+     "Bmaj7:2",
+     "A#m7:2"
+    ],
+    [
+     "A#m7:2",
+     "D#m7:2"
+    ],
+    [
+     "Bmaj7:2",
+     "A#m7:2"
+    ],
+    [
+     "A#m7:2",
+     "D#m7:2"
+    ],
+    "Eadd9",
+    "%",
+    "Bmaj7",
+    [
+     "A#m7:2",
+     "D#m7:2"
+    ],
+    "Bmaj7",
+    [
+     "A#m7:2",
+     "D#m7:2"
+    ],
+    "Bmaj7",
+    [
+     "A#m7:2",
+     "D#m7:2"
+    ],
+    "Eadd9",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    [
+     "Bmaj7:2",
+     "A#m7:2"
+    ],
+    [
+     "A#m7:2",
+     "D#m7:2"
+    ],
+    [
+     "Bmaj7:2",
+     "A#m7:2"
+    ],
+    [
+     "A#m7:2",
+     "D#m7:2"
+    ],
+    [
+     "Bmaj7:2",
+     "A#m7:2"
+    ],
+    [
+     "A#m7:2",
+     "D#m7:2"
+    ],
+    "Eadd9",
+    "%",
+    "Bmaj7",
+    [
+     "A#m7:2",
+     "D#m7:2"
+    ],
+    "Bmaj7",
+    [
+     "A#m7:2",
+     "D#m7:2"
+    ],
+    "Bmaj7",
+    [
+     "A#m7:2",
+     "D#m7:2"
+    ],
+    "Eadd9",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "Bmaj7",
+    [
+     "A#m7:2",
+     "D#m7:2"
+    ],
+    [
+     "Bmaj7:2",
+     "A#m7:2"
+    ],
+    [
+     "A#m7:2",
+     "D#m7:2"
+    ],
+    "Bmaj7",
+    [
+     "A#m7:2",
+     "D#m7:2"
+    ],
+    "Eadd9",
+    "%",
+    [
+     "Bmaj7:2",
+     "A#m7:2"
+    ],
+    [
+     "A#m7:2",
+     "D#m7:2"
+    ],
+    [
+     "Bmaj7:2",
+     "A#m7:2"
+    ],
+    [
+     "A#m7:2",
+     "D#m7:2"
+    ],
+    [
+     "Bmaj7:2",
+     "A#m7:2"
+    ],
+    [
+     "A#m7:2",
+     "D#m7:2"
+    ],
+    "Eadd9",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    [
+     "Bmaj7:2",
+     "A#m7:2"
+    ],
+    [
+     "A#m7:2",
+     "D#m7:2"
+    ],
+    [
+     "Bmaj7:2",
+     "A#m7:2"
+    ],
+    [
+     "A#m7:2",
+     "D#m7:2"
+    ],
+    [
+     "Bmaj7:2",
+     "A#m7:2"
+    ],
+    [
+     "A#m7:2",
+     "D#m7:2"
+    ],
+    "Eadd9",
+    "Bmaj7",
+    "A#m7",
+    "D#m7",
+    "Bmaj7",
+    "A#m7",
+    "D#m7",
+    "Bmaj7",
+    "A#m7",
+    "D#m7",
+    "Bmaj7",
+    "A#m7"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   15,
+   40.549
+  ],
+  [
+   20,
+   53.349
+  ],
+  [
+   25,
+   66.121
+  ],
+  [
+   30,
+   78.911
+  ],
+  [
+   35,
+   91.701
+  ],
+  [
+   40,
+   104.531
+  ],
+  [
+   45,
+   117.279
+  ],
+  [
+   49,
+   127.609
+  ],
+  [
+   55,
+   142.842
+  ],
+  [
+   59,
+   153.113
+  ],
+  [
+   64,
+   165.759
+  ],
+  [
+   69,
+   178.55
+  ],
+  [
+   75,
+   193.862
+  ],
+  [
+   80,
+   206.649
+  ],
+  [
+   85,
+   219.389
+  ],
+  [
+   91,
+   234.66
+  ],
+  [
+   99,
+   254.928
+  ],
+  [
+   103,
+   264.858
+  ],
+  [
+   109,
+   280.161
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 2427113
+}

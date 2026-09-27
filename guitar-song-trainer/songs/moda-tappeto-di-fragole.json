@@ -1,0 +1,210 @@
+{
+ "title": "Tappeto di fragole",
+ "artist": "Modà",
+ "album": "Viva i Romantici - Il sogno",
+ "year": 2008,
+ "genre": "Pop / Rock",
+ "difficulty": 3,
+ "youtubeId": "x8KIwWb6bfo",
+ "key": "A",
+ "bpm": 136.08,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.53,
+ "strum": "D--UD-DU",
+ "lyricsSource": {
+  "lrclibId": 33605553,
+  "duration": 192.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – D – E – Dmaj7 – F6 – F#m.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "A",
+    "Dmaj7",
+    "A"
+   ],
+   "strum": "D---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "A",
+    "Dmaj7",
+    "A",
+    "E",
+    "A",
+    [
+     "A:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "E:2"
+    ],
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "A",
+    "%",
+    [
+     "A:2",
+     "D:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    "E",
+    "A",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "D",
+    "E",
+    "A",
+    "%",
+    "%",
+    "%",
+    "%",
+    "D",
+    "%",
+    "A",
+    "Dmaj7",
+    "A",
+    "E",
+    "A",
+    [
+     "A:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "E:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "A",
+    "Dmaj7",
+    "A",
+    "E",
+    "A",
+    [
+     "A:2",
+     "D:2"
+    ],
+    "%",
+    [
+     "D:2",
+     "E:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "D",
+    "E",
+    "A",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "D",
+    "E",
+    "A",
+    "%",
+    "%",
+    "%",
+    "%",
+    "D",
+    "A",
+    "%",
+    "F#m",
+    "%",
+    "F6",
+    "%",
+    "A",
+    "%",
+    "F#m",
+    "%",
+    "F6",
+    "%",
+    "A",
+    "%",
+    "F#m",
+    "%",
+    "F6",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    "E",
+    "A",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    "E",
+    "A",
+    "%",
+    "%",
+    "%",
+    "%",
+    "D",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  }
+ ],
+ "strumSource": "stima",
+ "deezerId": 3184055811
+}

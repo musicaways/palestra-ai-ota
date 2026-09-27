@@ -1,0 +1,339 @@
+{
+ "title": "Mi fai impazzire",
+ "artist": "Blanco, Sfera Ebbasta",
+ "album": "Mi fai impazzire",
+ "year": 2021,
+ "genre": "Pop / Rap",
+ "difficulty": 3,
+ "youtubeId": "sWuFSGghclg",
+ "key": "Do diesis minore (C#m)",
+ "bpm": 170.15,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.83,
+ "strum": "D--D-UD-",
+ "lyricsSource": {
+  "lrclibId": 5286193,
+  "duration": 220,
+  "offset": 0
+ },
+ "notes": "Un solo giro per tutto il brano: C#m – B – E – B/D#, due battute per accordo (B6 nel ponte). Col capotasto al 4° diventa Am – G – C – G/B.",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. L'app controlla da sola che testo e accordi siano coerenti; per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C#m",
+    "%",
+    "B",
+    "%",
+    "E",
+    "%",
+    "B/D#",
+    "%",
+    "C#m",
+    "%",
+    "B",
+    "%",
+    "E",
+    "%",
+    "B/D#",
+    "%"
+   ],
+   "barsPerRow": 8,
+   "strum": "D--D-UDU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "C#m",
+    "%",
+    "B",
+    "%",
+    "E",
+    "%",
+    "B/D#",
+    "%",
+    "C#m",
+    "%",
+    "B",
+    "%",
+    "E",
+    "%",
+    "B/D#",
+    "%",
+    "C#m",
+    "%",
+    "B",
+    "%",
+    "E",
+    "%",
+    "B/D#",
+    "%",
+    "C#m",
+    "%",
+    "B",
+    "%",
+    "E",
+    "%",
+    "B/D#",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C#m",
+    "%",
+    "B",
+    "%",
+    "E",
+    "%",
+    "B/D#",
+    "%",
+    "C#m",
+    "%",
+    "B",
+    "%",
+    "E",
+    "%",
+    "B/D#",
+    "%"
+   ],
+   "barsPerRow": 8,
+   "strum": "D--D-UDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "C#m",
+    "%",
+    "B",
+    "%",
+    "E",
+    "%",
+    "B/D#",
+    "%",
+    "C#m",
+    "%",
+    "B",
+    "%",
+    "E",
+    "%",
+    "B/D#",
+    "%",
+    "C#m",
+    "%",
+    "B",
+    "%",
+    "E",
+    "%",
+    "B/D#",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C#m",
+    "%",
+    "B",
+    "%",
+    "E",
+    "%",
+    "B/D#",
+    "%",
+    "C#m",
+    "%",
+    "B",
+    "%",
+    "E",
+    "%",
+    "B/D#",
+    "%"
+   ],
+   "barsPerRow": 8,
+   "strum": "D--D-UDU"
+  },
+  {
+   "name": "Ponte",
+   "bars": [
+    "C#m",
+    "%",
+    "B6",
+    "%",
+    "E",
+    "%",
+    "B/D#",
+    "%",
+    "C#m",
+    "%",
+    "B6",
+    "%",
+    "E",
+    "%",
+    "B/D#",
+    "%"
+   ],
+   "barsPerRow": 8,
+   "strum": "D--D--D-"
+  },
+  {
+   "name": "Outro",
+   "bars": [
+    "C#m",
+    "%",
+    "B6",
+    "%",
+    "E",
+    "%",
+    "B/D#",
+    "%",
+    "C#m",
+    "%",
+    "B6",
+    "%",
+    "E",
+    "%",
+    "B/D#",
+    "%",
+    "C#m",
+    "%",
+    "B6",
+    "%",
+    "E",
+    "%",
+    "B/D#",
+    "%",
+    "C#m",
+    "%",
+    "B6",
+    "%",
+    "E",
+    "%",
+    "B/D#",
+    "%",
+    "C#m",
+    "%",
+    "B6",
+    "%"
+   ],
+   "barsPerRow": 8,
+   "strum": "D-------"
+  }
+ ],
+ "warp": [
+  [
+   1,
+   2.447
+  ],
+  [
+   7,
+   10.91
+  ],
+  [
+   13,
+   19.21
+  ],
+  [
+   19,
+   27.572
+  ],
+  [
+   25,
+   35.991
+  ],
+  [
+   31,
+   44.453
+  ],
+  [
+   37,
+   52.919
+  ],
+  [
+   43,
+   61.538
+  ],
+  [
+   51,
+   72.75
+  ],
+  [
+   55,
+   78.374
+  ],
+  [
+   59,
+   83.967
+  ],
+  [
+   64,
+   90.987
+  ],
+  [
+   68,
+   96.629
+  ],
+  [
+   76,
+   108.01
+  ],
+  [
+   81,
+   115.338
+  ],
+  [
+   85,
+   120.98
+  ],
+  [
+   91,
+   129.19
+  ],
+  [
+   95,
+   134.824
+  ],
+  [
+   99,
+   140.466
+  ],
+  [
+   105,
+   148.913
+  ],
+  [
+   109,
+   154.623
+  ],
+  [
+   113,
+   160.219
+  ],
+  [
+   117,
+   165.861
+  ],
+  [
+   124,
+   175.735
+  ],
+  [
+   128,
+   181.306
+  ],
+  [
+   132,
+   187.022
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 1408980262
+}

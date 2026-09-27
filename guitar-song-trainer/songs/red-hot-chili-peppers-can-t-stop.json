@@ -1,0 +1,295 @@
+{
+ "title": "Can't Stop",
+ "artist": "Red Hot Chili Peppers",
+ "album": "Rock: 100 from the 00's",
+ "year": 2002,
+ "genre": "Rock",
+ "difficulty": 2,
+ "youtubeId": "iL8jbe5viOw",
+ "key": "D",
+ "bpm": 91.83,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.24,
+ "strum": "D-D-D-DU",
+ "lyricsSource": {
+  "lrclibId": 36984908,
+  "duration": 269,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – Bm – C – Em – G – Cmaj7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Em",
+    "D",
+    "Bm",
+    "C",
+    "Em",
+    "D",
+    "Bm",
+    "C",
+    "Em",
+    "D",
+    "Bm",
+    "C"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D---"
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "Em",
+    "D",
+    "Bm",
+    "C",
+    "Em",
+    "D",
+    "Bm",
+    "C",
+    "Em",
+    "D",
+    "Bm",
+    "C",
+    "Em",
+    "D",
+    "Bm",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "G",
+    "Cmaj7",
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "Bm:2",
+     "Cmaj7:2"
+    ],
+    "G",
+    "Cmaj7",
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "Bm:2",
+     "Cmaj7:2"
+    ],
+    "Em",
+    "D",
+    "Bm",
+    "C",
+    "Em",
+    "D",
+    "Bm",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "Em",
+    "D",
+    "Bm",
+    "C",
+    "Em",
+    "D",
+    "Bm",
+    "C",
+    "G",
+    "Cmaj7",
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "Bm:2",
+     "Cmaj7:2"
+    ],
+    "G",
+    "Cmaj7",
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "Bm:2",
+     "Cmaj7:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "Em",
+    [
+     "Em:2",
+     "D:2"
+    ],
+    "%",
+    [
+     "Bm:2",
+     "C:2"
+    ],
+    "D",
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    "%",
+    "C",
+    "D",
+    "Bm",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Bm:2",
+     "C:2"
+    ],
+    "D",
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    "%",
+    "C",
+    "Em",
+    "D",
+    "Bm",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Em",
+    "D",
+    "Bm",
+    "C",
+    "Em",
+    "D",
+    "Bm",
+    "C",
+    "Em",
+    "D",
+    "Bm",
+    "C",
+    "Em",
+    "D",
+    "Bm",
+    "C",
+    "Em",
+    "D",
+    "Bm",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   12,
+   32.67
+  ],
+  [
+   16,
+   43.02
+  ],
+  [
+   20,
+   53.53
+  ],
+  [
+   25,
+   66.654
+  ],
+  [
+   29,
+   76.789
+  ],
+  [
+   34,
+   89.91
+  ],
+  [
+   38,
+   100.894
+  ],
+  [
+   43,
+   113.883
+  ],
+  [
+   48,
+   126.906
+  ],
+  [
+   53,
+   139.609
+  ],
+  [
+   58,
+   152.804
+  ],
+  [
+   64,
+   168.52
+  ],
+  [
+   71,
+   186.901
+  ],
+  [
+   80,
+   210.519
+  ],
+  [
+   85,
+   223.616
+  ],
+  [
+   89,
+   234.036
+  ],
+  [
+   94,
+   246.889
+  ],
+  [
+   98,
+   257.163
+  ],
+  [
+   101,
+   265.004
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 725971,
+ "spotifyId": "3ZOEytgrvLwQaqXreDs2Jx",
+ "introSource": "stima: giro della prima parte cantata (la fonte non riportava gli accordi dell'intro)"
+}

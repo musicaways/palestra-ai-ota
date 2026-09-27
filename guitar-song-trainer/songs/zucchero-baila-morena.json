@@ -1,0 +1,318 @@
+{
+ "title": "Baila morena",
+ "artist": "Zucchero",
+ "album": "[Unknown Album]",
+ "year": 2001,
+ "genre": "Rock / Blues",
+ "difficulty": 4,
+ "youtubeId": "RFaatpzqll0",
+ "key": "Gm7",
+ "bpm": 119.24,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.71,
+ "strum": "D-PPD-PP",
+ "lyricsSource": {
+  "lrclibId": 36632439,
+  "duration": 248,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Gm7 – C7 – F – Gm – Eb – Bb.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Gm7",
+    "C7",
+    "Gm7",
+    "C7",
+    "Gm7",
+    "C7",
+    "Gm7",
+    "C7",
+    "Gm7",
+    "C7",
+    "Gm7"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "%",
+    "Gm7",
+    "C7",
+    [
+     "Gm7:2",
+     "C7:2"
+    ],
+    "Gm7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Gm7",
+    "C7",
+    "Gm7",
+    "C7",
+    "Gm7",
+    "C7",
+    "Gm7",
+    "%",
+    "Cm7",
+    [
+     "Cm7:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "Gm:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "Gm",
+    "Eb",
+    "Bb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "F",
+    "Gm",
+    "Eb",
+    "Bb",
+    "F",
+    "Gm",
+    "C",
+    "Gm7",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "Gm7",
+    "C7",
+    "Gm7",
+    "C7",
+    "Gm7",
+    "C7",
+    "Cm7",
+    [
+     "Cm7:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "Gm7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "Gm",
+    "Eb",
+    "Bb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "F",
+    "Gm",
+    "Eb",
+    "Bb",
+    "F",
+    "%",
+    [
+     "Gm:2",
+     "Eb:2"
+    ],
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    "F",
+    "Gm",
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    "Gm7",
+    "%",
+    "C7",
+    "%",
+    "Gm7",
+    "%",
+    "C7",
+    "%",
+    "Gm7",
+    "%",
+    "C7",
+    "%",
+    "Gm7",
+    "%",
+    "C7",
+    "%",
+    "Gm7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    "Gm",
+    "Eb",
+    "Bb",
+    "F",
+    "Gm",
+    "Eb",
+    "Bb",
+    "F",
+    "%",
+    [
+     "Gm:2",
+     "Eb:2"
+    ],
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    "F",
+    "Gm",
+    "Eb",
+    "Bb",
+    "F",
+    "Gm7",
+    "C",
+    "Gm7",
+    "C",
+    "Gm7",
+    "C",
+    "%",
+    [
+     "C:2",
+     "Gm7:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   11,
+   23.099
+  ],
+  [
+   15,
+   31.121
+  ],
+  [
+   23,
+   47.174
+  ],
+  [
+   27,
+   55.121
+  ],
+  [
+   35,
+   71.065
+  ],
+  [
+   41,
+   83.105
+  ],
+  [
+   45,
+   91.156
+  ],
+  [
+   50,
+   101.22
+  ],
+  [
+   56,
+   113.105
+  ],
+  [
+   62,
+   125.182
+  ],
+  [
+   68,
+   137.491
+  ],
+  [
+   73,
+   147.602
+  ],
+  [
+   78,
+   157.752
+  ],
+  [
+   105,
+   212.046
+  ],
+  [
+   110,
+   222.234
+  ],
+  [
+   116,
+   234.31
+  ],
+  [
+   118,
+   238.461
+  ]
+ ],
+ "strumSource": "stima"
+}

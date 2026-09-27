@@ -1,0 +1,231 @@
+{
+ "title": "Something",
+ "artist": "The Beatles",
+ "album": "The Singles Collection 1962–1970",
+ "year": 1969,
+ "genre": "Rock",
+ "difficulty": 5,
+ "youtubeId": "IrW7dlDHH28",
+ "key": "F",
+ "bpm": 85.61,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.96,
+ "strum": "D-D-D-DU",
+ "lyricsSource": {
+  "lrclibId": 22737082,
+  "duration": 182.6481664,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F – C – G – Am7 – D7 – Am.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "F",
+    "C",
+    [
+     "C:2",
+     "Cmaj7/G:2"
+    ],
+    "%"
+   ]
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "C7:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "C/E:2"
+    ],
+    "D7",
+    [
+     "G:2",
+     "Am7:2"
+    ],
+    "G7/B",
+    [
+     "Am:2",
+     "Am:2"
+    ],
+    [
+     "Am7:2",
+     "D7:2"
+    ],
+    "F",
+    "Eb",
+    "C",
+    [
+     "C:2",
+     "Cmaj7/G:2"
+    ],
+    "%",
+    [
+     "C7:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "C/E:2"
+    ],
+    "D7",
+    [
+     "G:2",
+     "Am7:2"
+    ],
+    "G7/B",
+    [
+     "Am:2",
+     "Am:2"
+    ],
+    [
+     "Am7:2",
+     "D7:2"
+    ],
+    "F",
+    "Eb",
+    "G7/D",
+    [
+     "A:2",
+     "C#m:2"
+    ],
+    [
+     "F#m:2",
+     "A/E:2"
+    ],
+    "D",
+    "G",
+    "A"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "A:2",
+     "C#m:2"
+    ],
+    [
+     "F#m:2",
+     "A/E:2"
+    ],
+    "D",
+    "%",
+    "%",
+    "%",
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "G:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "C",
+    [
+     "C:2",
+     "Cmaj7/G:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "C7:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "C/E:2"
+    ],
+    "D7",
+    [
+     "G:2",
+     "Am7:2"
+    ],
+    "G7/B",
+    [
+     "Am:2",
+     "Am:2"
+    ],
+    [
+     "Am7:2",
+     "D7:2"
+    ],
+    "F",
+    "Eb",
+    "G7/D",
+    "A",
+    "F",
+    "Eb",
+    "G7/D",
+    "C"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  }
+ ],
+ "warp": [
+  [
+   1,
+   5
+  ],
+  [
+   9,
+   27.07
+  ],
+  [
+   16,
+   46.48
+  ],
+  [
+   21,
+   60.497
+  ],
+  [
+   26,
+   74.903
+  ],
+  [
+   31,
+   88.92
+  ],
+  [
+   47,
+   133.775
+  ],
+  [
+   52,
+   147.646
+  ],
+  [
+   56,
+   158.86
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 760429402,
+ "spotifyId": "3S6N0Wbem9KV3DBcYNfXuv"
+}

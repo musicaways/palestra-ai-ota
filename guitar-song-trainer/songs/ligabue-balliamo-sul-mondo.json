@@ -1,0 +1,395 @@
+{
+ "title": "Balliamo sul mondo",
+ "artist": "Ligabue",
+ "album": "Su e Giù Da Un Palco (Cd 2)",
+ "year": 1990,
+ "genre": "Rock",
+ "difficulty": 1,
+ "youtubeId": "3Gpw5E04SMo",
+ "key": "C",
+ "bpm": 156.24,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.89,
+ "strum": "D-PPD-PP",
+ "lyricsSource": {
+  "lrclibId": 20135825,
+  "duration": 281.448583,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – D – G – Am.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "D",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "C",
+    "%",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "D",
+    "G",
+    "C",
+    "Am"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "D",
+    "G",
+    "C",
+    "Am",
+    "D",
+    "G",
+    "C",
+    "Am",
+    "D",
+    "G",
+    "C",
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "D",
+    "%",
+    [
+     "G:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Am:2"
+    ],
+    "D",
+    "G",
+    "C",
+    "Am",
+    "D",
+    "G",
+    "C",
+    "Am",
+    "D",
+    "%",
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "C",
+    "%",
+    [
+     "C:2",
+     "Am:2"
+    ],
+    "%",
+    "%",
+    "D",
+    "G",
+    "C",
+    "Am",
+    "D",
+    "G",
+    "C",
+    "Am",
+    "D",
+    "G",
+    "C",
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "D",
+    "G",
+    "C",
+    "Am",
+    "D",
+    "%",
+    [
+     "G:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Am:2"
+    ],
+    "D",
+    "G",
+    "C",
+    "Am",
+    "D",
+    "G",
+    "C",
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "D",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    [
+     "G:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "Am",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "D",
+    "G",
+    "C",
+    "Am",
+    "D",
+    "G",
+    "C",
+    "Am",
+    "D",
+    "G",
+    "C",
+    "Am",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "G",
+    "C",
+    "Am",
+    "D",
+    "G",
+    "C",
+    "Am",
+    "D",
+    "G",
+    "C",
+    "Am",
+    "D",
+    "G",
+    "C",
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 8",
+   "bars": [
+    "D",
+    [
+     "G:2",
+     "C:2"
+    ],
+    "Am",
+    "D",
+    "%",
+    [
+     "G:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Am:2"
+    ],
+    "D",
+    "G",
+    "C",
+    "Am",
+    "D",
+    "G",
+    "C",
+    "Am",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 9",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 10",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "C",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 11",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   15,
+   23.941
+  ],
+  [
+   19,
+   30.081
+  ],
+  [
+   23,
+   36.23
+  ],
+  [
+   27,
+   42.37
+  ],
+  [
+   31,
+   48.514
+  ],
+  [
+   37,
+   57.716
+  ],
+  [
+   41,
+   63.847
+  ],
+  [
+   53,
+   82.331
+  ],
+  [
+   57,
+   88.475
+  ],
+  [
+   61,
+   94.64
+  ],
+  [
+   65,
+   100.784
+  ],
+  [
+   69,
+   106.929
+  ],
+  [
+   73,
+   113.116
+  ],
+  [
+   77,
+   119.174
+  ],
+  [
+   104,
+   160.547
+  ],
+  [
+   108,
+   166.567
+  ],
+  [
+   116,
+   178.856
+  ],
+  [
+   124,
+   191.266
+  ],
+  [
+   131,
+   202.12
+  ],
+  [
+   137,
+   211.443
+  ],
+  [
+   143,
+   220.732
+  ]
+ ],
+ "strumSource": "stima"
+}

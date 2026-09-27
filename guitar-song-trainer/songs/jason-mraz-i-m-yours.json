@@ -1,0 +1,362 @@
+{
+ "title": "I'm Yours",
+ "artist": "Jason Mraz",
+ "album": "Chill Restaurant Music 2023",
+ "year": 2008,
+ "genre": "Pop",
+ "difficulty": 2,
+ "youtubeId": "w5qOYi41WiA",
+ "key": "B",
+ "bpm": 152.81,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.56,
+ "strum": "B-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 36979828,
+  "duration": 242,
+  "offset": 0
+ },
+ "notes": "Accordi principali: B – E – F# – G#m.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "B",
+    "%",
+    "F#",
+    "%",
+    "G#m",
+    "%",
+    "E",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "B---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "B",
+    "%",
+    "%",
+    "%",
+    "G#m",
+    "%",
+    "E",
+    "%",
+    "B",
+    "%",
+    "F#",
+    "%",
+    "G#m",
+    "%",
+    "E",
+    "%",
+    "B",
+    "%",
+    [
+     "B:2",
+     "F#:2"
+    ],
+    "%",
+    "%",
+    "E",
+    "B",
+    "F#",
+    "G#m",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "B",
+    "F#",
+    "G#m",
+    "%",
+    "%",
+    "%",
+    "%",
+    "B",
+    "%",
+    "%",
+    "G#m",
+    "%",
+    "E",
+    "%",
+    "E",
+    "%",
+    "%",
+    "B",
+    "%",
+    [
+     "B:2",
+     "F#:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "E",
+    "%",
+    "%",
+    "B",
+    "%",
+    [
+     "B:2",
+     "F#:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "E",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G#m",
+    "F#",
+    "E",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "F#",
+    "%",
+    "G#m",
+    "%",
+    "E",
+    "%",
+    "%",
+    "%",
+    "F#",
+    "%",
+    "G#m",
+    "%",
+    "E",
+    "%",
+    "B",
+    "%",
+    [
+     "B:2",
+     "F#:2"
+    ],
+    "%",
+    "%",
+    "E",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "B",
+    "F#",
+    "G#m",
+    "%",
+    "%",
+    "%",
+    "%",
+    "B",
+    "%",
+    "F#",
+    "%",
+    "G#m",
+    "E",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  }
+ ],
+ "warp": [
+  [
+   8,
+   13.159
+  ],
+  [
+   12,
+   19.441
+  ],
+  [
+   16,
+   25.723
+  ],
+  [
+   20,
+   31.899
+  ],
+  [
+   24,
+   38.274
+  ],
+  [
+   29,
+   46.122
+  ],
+  [
+   34,
+   53.887
+  ],
+  [
+   41,
+   64.969
+  ],
+  [
+   45,
+   71.251
+  ],
+  [
+   51,
+   80.675
+  ],
+  [
+   58,
+   91.917
+  ],
+  [
+   63,
+   99.792
+  ],
+  [
+   71,
+   112.335
+  ],
+  [
+   76,
+   120.188
+  ],
+  [
+   80,
+   126.269
+  ],
+  [
+   85,
+   134.122
+  ],
+  [
+   93,
+   146.66
+  ],
+  [
+   97,
+   152.947
+  ],
+  [
+   101,
+   159.229
+  ],
+  [
+   105,
+   165.493
+  ],
+  [
+   112,
+   176.315
+  ],
+  [
+   116,
+   182.598
+  ],
+  [
+   120,
+   188.881
+  ],
+  [
+   125,
+   196.779
+  ],
+  [
+   130,
+   204.795
+  ],
+  [
+   136,
+   214.153
+  ],
+  [
+   144,
+   226.783
+  ],
+  [
+   148,
+   233.452
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 2686140,
+ "spotifyId": "0pxW2Qu43SGXfsXti3l8hi"
+}

@@ -1,0 +1,316 @@
+{
+ "title": "Rockstar",
+ "artist": "Sfera Ebbasta",
+ "album": "Sfera Ebbasta Songs",
+ "year": 2018,
+ "genre": "Rap / Hip-hop",
+ "difficulty": 1,
+ "youtubeId": "kisy5CLA1-A",
+ "key": "A",
+ "bpm": 150.16,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.3,
+ "strum": "B--D-UD-",
+ "lyricsSource": {
+  "lrclibId": 35754707,
+  "duration": 196,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – E.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "A",
+    "E",
+    "A",
+    "E",
+    "A",
+    "E",
+    "A"
+   ],
+   "barsPerRow": 4,
+   "strum": "B-------"
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "A",
+    "E",
+    "A",
+    "E",
+    "A",
+    "E",
+    "A",
+    "E",
+    "A",
+    "E",
+    "A",
+    "E",
+    "A",
+    "E",
+    "A",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "A",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    "A",
+    "E",
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "A:2"
+    ],
+    "E",
+    "%",
+    "A",
+    "%",
+    "E",
+    "A",
+    "E",
+    "A",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "A",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    "A",
+    "E",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "A",
+    "E",
+    "A",
+    "E",
+    "A",
+    "E",
+    "A",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "A",
+    "E",
+    "A",
+    "E",
+    "A",
+    "E",
+    "A",
+    "E",
+    "A",
+    "%",
+    "E",
+    "%",
+    "A",
+    "%",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "A:2"
+    ],
+    "E",
+    "A",
+    "E",
+    "A",
+    "E",
+    "A",
+    "E",
+    "A",
+    "E",
+    "A",
+    "E",
+    "A",
+    "E",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "A",
+    "%",
+    "E",
+    "A",
+    "E",
+    "A",
+    "E",
+    "%",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "A",
+    "E",
+    "A",
+    "E",
+    "A",
+    "E",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 8",
+   "bars": [
+    "E",
+    "A",
+    "E",
+    "A",
+    "E",
+    "A",
+    "E",
+    "A",
+    "%",
+    "E",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "A",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   7,
+   12.587
+  ],
+  [
+   13,
+   22.137
+  ],
+  [
+   17,
+   28.53
+  ],
+  [
+   23,
+   38.485
+  ],
+  [
+   32,
+   52.87
+  ],
+  [
+   38,
+   62.647
+  ],
+  [
+   43,
+   70.787
+  ],
+  [
+   49,
+   79.88
+  ],
+  [
+   53,
+   86.067
+  ],
+  [
+   57,
+   92.397
+  ],
+  [
+   63,
+   101.89
+  ],
+  [
+   67,
+   108.22
+  ],
+  [
+   74,
+   119.408
+  ],
+  [
+   78,
+   125.801
+  ],
+  [
+   84,
+   135.497
+  ],
+  [
+   90,
+   145.067
+  ],
+  [
+   96,
+   154.789
+  ],
+  [
+   101,
+   162.803
+  ],
+  [
+   107,
+   172.377
+  ],
+  [
+   115,
+   185.19
+  ],
+  [
+   119,
+   191.583
+  ]
+ ],
+ "strumSource": "stima"
+}

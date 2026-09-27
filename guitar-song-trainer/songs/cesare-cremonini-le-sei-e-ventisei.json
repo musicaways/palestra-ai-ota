@@ -1,0 +1,263 @@
+{
+ "title": "Le sei e ventisei",
+ "artist": "Cesare Cremonini",
+ "album": "1999–2010 The Greatest Hits",
+ "year": 2017,
+ "genre": "Pop / Cantautori",
+ "difficulty": 5,
+ "youtubeId": "Uci2qX7snxE",
+ "key": "Bb",
+ "bpm": 70.16,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 3.15,
+ "strum": "B-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34027192,
+  "duration": 285,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bb – Eb – Ebmaj7 – Ab – Fm7 – Ab6.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Bb"
+   ]
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "Bb",
+    "Eb",
+    "Ab6",
+    "%",
+    "%",
+    "Eb",
+    [
+     "Ab6:2",
+     "Bb:2"
+    ],
+    "%",
+    "%",
+    "Eb",
+    "Bb",
+    "Eb",
+    "Ebmaj7",
+    "Ab"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Fm7:1",
+     "Bb4:2",
+     "Bb:1"
+    ],
+    "Ebmaj7",
+    "%",
+    "Cm",
+    "Fm7",
+    [
+     "Bb:2",
+     "Bbadd9:2"
+    ],
+    "Bb",
+    "Ab",
+    [
+     "Ab:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Ab",
+    "Bb",
+    "Eb",
+    "Ebmaj7",
+    "Ab",
+    "Bb",
+    [
+     "Eb:2",
+     "Ebmaj7:2"
+    ],
+    [
+     "Eb:2",
+     "Ebmaj7:2"
+    ],
+    "%",
+    "Bb",
+    "Eb",
+    "%",
+    "%",
+    "%",
+    [
+     "Eb:1",
+     "Ab6:1",
+     "Bb:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "Eb",
+    [
+     "Ab6:2",
+     "Bb:2"
+    ],
+    [
+     "Eb:2",
+     "Ebmaj7:2"
+    ],
+    [
+     "Ab:2",
+     "B6:2"
+    ],
+    [
+     "Eb:2",
+     "Ebmaj7:2"
+    ],
+    [
+     "Ab:2",
+     "B6:2"
+    ],
+    [
+     "Eb:2",
+     "Ebmaj7:2"
+    ],
+    [
+     "Ebmaj7:2",
+     "Ab:2"
+    ],
+    "Fm7",
+    "Bb",
+    "Fm7",
+    "Bb",
+    "Fm7",
+    "Bb",
+    "Fm7",
+    "Ab",
+    [
+     "Ab:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "Ab",
+    "Bb",
+    "Eb",
+    "Ebmaj7",
+    "Ab",
+    "Bb",
+    "%",
+    "%",
+    "Ab",
+    "Bb",
+    [
+     "Eb:1",
+     "Ebmaj7:1",
+     "Eb:1",
+     "Ebmaj7:1"
+    ],
+    "Eb",
+    "%",
+    [
+     "Eb:2",
+     "Ebmaj7:2"
+    ],
+    "%",
+    "%",
+    [
+     "Ebmaj7:2",
+     "Eb:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   1,
+   6.69
+  ],
+  [
+   5,
+   20.335
+  ],
+  [
+   11,
+   40.86
+  ],
+  [
+   16,
+   57.938
+  ],
+  [
+   20,
+   71.348
+  ],
+  [
+   27,
+   94.865
+  ],
+  [
+   33,
+   115.39
+  ],
+  [
+   39,
+   136.703
+  ],
+  [
+   43,
+   150.667
+  ],
+  [
+   49,
+   171.105
+  ],
+  [
+   60,
+   208.564
+  ],
+  [
+   64,
+   221.993
+  ],
+  [
+   68,
+   235.615
+  ],
+  [
+   74,
+   256.292
+  ]
+ ],
+ "strumSource": "stima"
+}

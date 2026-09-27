@@ -1,0 +1,276 @@
+{
+ "title": "Ma noi no",
+ "artist": "Nomadi",
+ "album": "Ma noi no",
+ "year": 1992,
+ "genre": "Rock",
+ "difficulty": 2,
+ "youtubeId": "UvDlwIeYnhk",
+ "key": "G",
+ "bpm": 120.0,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.2,
+ "strum": "PPPP-PPU",
+ "lyricsSource": {
+  "lrclibId": 34017069,
+  "duration": 289.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – Am – C – Em – F – Dm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Am",
+    "G",
+    "Am",
+    "G",
+    "C",
+    "Am",
+    "G",
+    "Am",
+    "G",
+    "C",
+    "Am"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-D-D-D-"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Am",
+    "%",
+    "%",
+    "%",
+    "Dm",
+    "G",
+    "C",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Am:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Am:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "Am:2"
+    ],
+    "G",
+    "Em",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Am",
+    "%",
+    "Em",
+    "%",
+    "Am",
+    "G",
+    "%",
+    "%",
+    "Am",
+    "G",
+    "F",
+    "%",
+    "%",
+    [
+     "Am:1",
+     "G:1",
+     "Am:1",
+     "G:1"
+    ],
+    "Am",
+    "%",
+    "G",
+    "%",
+    "Am",
+    "%",
+    "G"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Am",
+    "%",
+    "%",
+    "%",
+    "Dm",
+    "G",
+    "C",
+    "G",
+    "Am",
+    "%",
+    [
+     "G:1",
+     "Am:2",
+     "G:1"
+    ],
+    [
+     "Am:1",
+     "G:2",
+     "Am:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Am:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Am:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "Am:2"
+    ],
+    "G",
+    "Em",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Am",
+    "%",
+    "Em",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Am",
+    "G",
+    "F",
+    "%",
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello (1)",
+   "bars": [
+    "Am",
+    "%",
+    "%",
+    "%",
+    "Dm",
+    "G",
+    "C",
+    "G",
+    "Am",
+    "%",
+    "G",
+    "F",
+    "Am",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
+  },
+  {
+   "name": "Ritornello (2)",
+   "bars": [
+    "Am",
+    "%",
+    "G",
+    "%",
+    "C",
+    "%",
+    "Am",
+    "%",
+    "G",
+    "%",
+    "Am",
+    "%",
+    "G",
+    "%",
+    "C",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
+  },
+  {
+   "name": "Ritornello (3)",
+   "bars": [
+    "Am",
+    "%",
+    "G",
+    "%",
+    "Am",
+    "%",
+    "G",
+    "%",
+    "C",
+    "%",
+    "Am",
+    "%",
+    "G",
+    "%",
+    "Am",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
+  }
+ ],
+ "strumSource": "stima"
+}

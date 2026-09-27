@@ -1,0 +1,280 @@
+{
+ "title": "Is This Love",
+ "artist": "Bob Marley",
+ "album": "The Best Of",
+ "year": 1978,
+ "genre": "Reggae",
+ "difficulty": 3,
+ "youtubeId": "69RdQFDuYPI",
+ "key": "D",
+ "bpm": 88.38,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.59,
+ "strum": "--X---X-",
+ "lyricsSource": {
+  "lrclibId": 37475967,
+  "duration": 234,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – A – C#m – Bm – E – F#m.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "D",
+    "%",
+    "A",
+    "%",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    [
+     "D:2",
+     "A:2"
+    ],
+    "C#m",
+    "Bm",
+    "%",
+    "C#m",
+    "Bm",
+    "%",
+    "%",
+    "%",
+    [
+     "Bm:2",
+     "C#m:1",
+     "D:1"
+    ],
+    [
+     "D:1",
+     "E:1",
+     "Dmaj7:2"
+    ],
+    [
+     "Bm:2",
+     "C#m:1",
+     "D:1"
+    ],
+    [
+     "D:1",
+     "E:1",
+     "C#m:2"
+    ],
+    "C#m",
+    [
+     "C#m:2",
+     "Bm:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "F#m",
+    "%",
+    [
+     "Bm:2",
+     "F#m:2"
+    ],
+    "%",
+    "%",
+    "%",
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    [
+     "D:2",
+     "A:2"
+    ],
+    "C#m",
+    "Bm",
+    "%",
+    "C#m",
+    "Bm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "Bm:1",
+     "C#m:1",
+     "D:1",
+     "E:1"
+    ],
+    "C#m",
+    [
+     "C#m:2",
+     "Bm:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    [
+     "D:2",
+     "C#m:2"
+    ],
+    "%",
+    [
+     "Bm:1",
+     "F#m:1",
+     "D:1",
+     "A:1"
+    ],
+    "%",
+    "%",
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   5,
+   16.77
+  ],
+  [
+   9,
+   27.264
+  ],
+  [
+   13,
+   37.71
+  ],
+  [
+   18,
+   51.418
+  ],
+  [
+   22,
+   62.28
+  ],
+  [
+   31,
+   86.72
+  ],
+  [
+   37,
+   102.983
+  ],
+  [
+   41,
+   114.002
+  ],
+  [
+   46,
+   127.338
+  ],
+  [
+   50,
+   138.393
+  ],
+  [
+   62,
+   171.092
+  ],
+  [
+   67,
+   184.674
+  ],
+  [
+   72,
+   198.423
+  ],
+  [
+   77,
+   211.544
+  ],
+  [
+   81,
+   222.407
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 2293791,
+ "spotifyId": "2sevvnMrqH607r5lwk3kFT"
+}

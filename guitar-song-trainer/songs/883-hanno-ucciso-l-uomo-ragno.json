@@ -1,0 +1,310 @@
+{
+ "title": "Hanno ucciso l'Uomo Ragno",
+ "artist": "883",
+ "album": "re discover italia anni 90",
+ "year": 1992,
+ "genre": "Pop",
+ "difficulty": 2,
+ "youtubeId": "Y69kWH2y3OM",
+ "key": "G",
+ "bpm": 60.1,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.13,
+ "strum": "D-------",
+ "lyricsSource": {
+  "lrclibId": 36220848,
+  "duration": 251,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – Am – C – F – Dm – D.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Am",
+    "%",
+    "F",
+    "%"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Am:2",
+     "F:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "Am:2",
+     "F:2"
+    ],
+    [
+     "G:1",
+     "C:1",
+     "G:1",
+     "Am:1"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "Dm:1",
+     "Am:2",
+     "G:1"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "Dm:1",
+     "Am:2",
+     "G:1"
+    ],
+    [
+     "Am:2",
+     "F:2"
+    ],
+    [
+     "Am:2",
+     "F:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    "C",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Am:2",
+     "F:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "Am:2",
+     "F:2"
+    ],
+    [
+     "G:1",
+     "C:1",
+     "G:1",
+     "Am:1"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "Dm:1",
+     "Am:2",
+     "G:1"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "Dm:1",
+     "Am:2",
+     "G:1"
+    ],
+    [
+     "Am:2",
+     "F:2"
+    ],
+    [
+     "Am:2",
+     "F:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    "C",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Am:2",
+     "F:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "Am:2",
+     "F:2"
+    ],
+    [
+     "G:1",
+     "C:1",
+     "G:1",
+     "Am:1"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "Dm:1",
+     "Am:2",
+     "G:1"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "Dm:1",
+     "Am:2",
+     "G:1"
+    ],
+    [
+     "Am:2",
+     "F:2"
+    ],
+    [
+     "Am:2",
+     "F:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    "C",
+    "%",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "Am:2",
+     "F:2"
+    ],
+    "%",
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "Am:2",
+     "F:2"
+    ],
+    [
+     "Am:2",
+     "F:2"
+    ],
+    [
+     "Am:2",
+     "F:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    "C",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   18.323
+  ],
+  [
+   8,
+   34.233
+  ],
+  [
+   12,
+   49.85
+  ],
+  [
+   18,
+   74.113
+  ],
+  [
+   22,
+   90.103
+  ],
+  [
+   27,
+   109.77
+  ],
+  [
+   32,
+   129.87
+  ],
+  [
+   37,
+   150.22
+  ],
+  [
+   42,
+   169.707
+  ],
+  [
+   48,
+   193.67
+  ],
+  [
+   53,
+   213.7
+  ],
+  [
+   55,
+   221.74
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 766445
+}

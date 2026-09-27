@@ -1,0 +1,278 @@
+{
+ "title": "Autogrill",
+ "artist": "Francesco Guccini",
+ "album": "Fra la via Emilia e il west (cd1)",
+ "year": 1983,
+ "genre": "Cantautori",
+ "difficulty": 3,
+ "youtubeId": "nl8whwz6EJA",
+ "key": "F",
+ "bpm": 90.7,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.64,
+ "strum": "B-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 19754989,
+  "duration": 283.261687,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F – C – G – Am – Cmaj7 – Fmaj7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Cmaj7",
+    "C",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "G",
+    "F",
+    "Am",
+    "C",
+    "G",
+    "F",
+    "Am",
+    "C",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "G",
+    "F",
+    "Am",
+    "F",
+    "%",
+    "F",
+    "C",
+    "%",
+    "F",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "C",
+    "G",
+    [
+     "F:2",
+     "Am:2"
+    ],
+    "F",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "C",
+    "G",
+    "Fmaj7",
+    "C",
+    "C",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "G",
+    "F",
+    "Am",
+    "F",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "F",
+    "Am",
+    "G",
+    "C",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "G",
+    "F",
+    "Am",
+    "F",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "F",
+    "%",
+    "%",
+    "F",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "C",
+    "G",
+    [
+     "F:2",
+     "Am:2"
+    ],
+    "F",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "C",
+    "Cmaj7",
+    "F",
+    "Fmaj7",
+    "Am7",
+    "F",
+    "Cmaj7",
+    "G",
+    "C",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "G",
+    "F",
+    "Am",
+    "F",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "F",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  }
+ ],
+ "warp": [
+  [
+   1,
+   5.31
+  ],
+  [
+   5,
+   15.888
+  ],
+  [
+   10,
+   29.118
+  ],
+  [
+   16,
+   44.968
+  ],
+  [
+   21,
+   58.198
+  ],
+  [
+   27,
+   74.428
+  ],
+  [
+   32,
+   87.658
+  ],
+  [
+   39,
+   106.124
+  ],
+  [
+   44,
+   118.66
+  ],
+  [
+   50,
+   134.622
+  ],
+  [
+   54,
+   145.206
+  ],
+  [
+   61,
+   164.348
+  ],
+  [
+   66,
+   177.732
+  ],
+  [
+   73,
+   196.255
+  ],
+  [
+   77,
+   206.45
+  ],
+  [
+   82,
+   219.36
+  ],
+  [
+   83,
+   222.006
+  ]
+ ],
+ "strumSource": "stima"
+}

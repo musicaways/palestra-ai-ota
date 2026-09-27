@@ -1,0 +1,207 @@
+{
+ "title": "When I Was Your Man",
+ "artist": "Bruno Mars",
+ "album": "Now That's What I Call Fall In Love",
+ "year": 2012,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "vx6RbJk2fhM",
+ "key": "C",
+ "bpm": 72.31,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.25,
+ "strum": "B-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36369986,
+  "duration": 214,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – F – G – Am – D7 – Dm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Am",
+    "C",
+    "Dm",
+    "Am"
+   ],
+   "strum": "B---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Am:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Dm:2"
+    ],
+    "%",
+    "%",
+    "Am",
+    "C",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G",
+    "F",
+    "F",
+    "%",
+    "G",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Am:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Dm:2"
+    ],
+    [
+     "G:2",
+     "G7:2"
+    ],
+    "C",
+    [
+     "C:2",
+     "Dm:2"
+    ],
+    "%",
+    [
+     "G:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "G",
+    "F",
+    "F",
+    "%",
+    "G",
+    "Am",
+    "Fm",
+    "C",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "D7",
+    "Dm7",
+    "G",
+    "%",
+    "F",
+    "%",
+    "F",
+    "%",
+    "G",
+    "Am",
+    [
+     "D7:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "Fm:2"
+    ],
+    "D7",
+    [
+     "D7:2",
+     "F:2"
+    ],
+    "%",
+    [
+     "F:2",
+     "Fm:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   13.372
+  ],
+  [
+   8,
+   26.736
+  ],
+  [
+   15,
+   50.524
+  ],
+  [
+   19,
+   63.858
+  ],
+  [
+   28,
+   93.729
+  ],
+  [
+   32,
+   106.948
+  ],
+  [
+   36,
+   119.664
+  ],
+  [
+   40,
+   132.94
+  ],
+  [
+   44,
+   146.404
+  ],
+  [
+   49,
+   162.999
+  ],
+  [
+   54,
+   179.506
+  ],
+  [
+   58,
+   192.726
+  ],
+  [
+   60,
+   199.42
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 62724019,
+ "spotifyId": "0nJW01T7XtvILxQgC5J7Wh"
+}

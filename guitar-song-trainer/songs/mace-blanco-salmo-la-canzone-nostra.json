@@ -1,0 +1,271 @@
+{
+ "title": "La canzone nostra",
+ "artist": "MACE, Blanco, Salmo",
+ "album": "OBE",
+ "year": 2021,
+ "genre": "Pop / Rap",
+ "difficulty": 3,
+ "youtubeId": "BGDXEx4zZR8",
+ "key": "Mi bemolle maggiore (Eb)",
+ "bpm": 133.1,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.65,
+ "strum": "DUUDUUDUUDUD",
+ "lyricsSource": {
+  "lrclibId": 9270494,
+  "offset": 0
+ },
+ "notes": "Un solo giro per tutto il brano: Eb – Gm – Fm – Bb/D, un accordo per battuta. Col capotasto suggerito diventa molto più comodo.",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. Se gli accordi sono in anticipo o in ritardo usa Sincronia; per l'allineamento perfetto Registra tempi.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Eb",
+    "Gm",
+    "Eb",
+    "Gm"
+   ],
+   "barsPerRow": 2
+  },
+  {
+   "name": "Strofa (Blanco)",
+   "bars": [
+    "Eb",
+    "Gm",
+    "Fm",
+    "Bb/D",
+    "Eb",
+    "Gm",
+    "Fm",
+    "Bb/D",
+    "Eb",
+    "Gm",
+    "Fm",
+    "Bb/D",
+    "Eb",
+    "Gm",
+    "Fm",
+    "Bb/D",
+    "Eb",
+    "Gm",
+    "Fm",
+    "Bb/D",
+    "Eb",
+    "Gm",
+    "Fm",
+    "Bb/D",
+    "Eb",
+    "Gm",
+    "Fm",
+    "Bb/D",
+    "Eb",
+    "Gm",
+    "Fm",
+    "Bb/D",
+    "Eb",
+    "Gm",
+    "Fm",
+    "Bb/D",
+    "Eb",
+    "Gm",
+    "Fm",
+    "Bb/D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Eb",
+    "Gm",
+    "Fm7",
+    "Bb/D",
+    "Eb",
+    "Gm",
+    "Fm7",
+    "Bb/D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa (Salmo)",
+   "bars": [
+    "Eb",
+    "Gm",
+    "Fm",
+    "Bb/D",
+    "Eb",
+    "Gm",
+    "Fm",
+    "Bb/D",
+    "Eb",
+    "Gm",
+    "Fm",
+    "Bb/D",
+    "Eb",
+    "Gm",
+    "Fm",
+    "Bb/D",
+    "Eb",
+    "Gm",
+    "Fm",
+    "Bb/D",
+    "Eb",
+    "Gm",
+    "Fm",
+    "Bb/D",
+    "Eb",
+    "Gm",
+    "Fm",
+    "Bb/D",
+    "Eb",
+    "Gm",
+    "Fm",
+    "Bb/D",
+    "Eb",
+    "Gm",
+    "Fm",
+    "Bb/D",
+    "Eb",
+    "Gm",
+    "Fm",
+    "Bb/D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Eb",
+    "Gm",
+    "Fm7",
+    "Bb/D",
+    "Eb",
+    "Gm",
+    "Fm7",
+    "Bb/D",
+    "Eb",
+    "Gm",
+    "Fm7",
+    "Bb/D",
+    "Eb",
+    "Gm",
+    "Fm7",
+    "Bb/D",
+    "Eb",
+    "Gm",
+    "Fm7",
+    "Bb/D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Outro",
+   "bars": [
+    "Eb",
+    "Gm",
+    "Fm7",
+    "Bb/D",
+    "Eb",
+    "Gm",
+    "Fm7",
+    "Bb/D",
+    "Eb",
+    "Gm",
+    "Fm7",
+    "Bb/D",
+    "Eb",
+    "Gm",
+    "Fm7",
+    "Bb/D",
+    "Eb",
+    "Gm",
+    "Fm7",
+    "Bb/D"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   8.16
+  ],
+  [
+   8,
+   15.125
+  ],
+  [
+   12,
+   22.337
+  ],
+  [
+   19,
+   34.955
+  ],
+  [
+   25,
+   45.591
+  ],
+  [
+   32,
+   58.074
+  ],
+  [
+   36,
+   65.286
+  ],
+  [
+   49,
+   88.727
+  ],
+  [
+   54,
+   97.834
+  ],
+  [
+   58,
+   105.097
+  ],
+  [
+   62,
+   112.31
+  ],
+  [
+   68,
+   123.356
+  ],
+  [
+   75,
+   136.02
+  ],
+  [
+   81,
+   146.761
+  ],
+  [
+   87,
+   157.507
+  ],
+  [
+   100,
+   180.948
+  ],
+  [
+   108,
+   195.433
+  ],
+  [
+   110,
+   199.145
+  ]
+ ],
+ "strumSource": "ultimate-guitar",
+ "deezerId": 1200785022
+}

@@ -1,0 +1,293 @@
+{
+ "title": "Sparks",
+ "artist": "Coldplay",
+ "album": "The Best of Cold Play (SheikBeats Expanded Edition)",
+ "year": 2000,
+ "genre": "Pop / Rock",
+ "difficulty": 5,
+ "youtubeId": "scaLtm2FhSk",
+ "key": "Dbmaj7",
+ "bpm": 104.49,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.11,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36843227,
+  "duration": 228,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Dbmaj7 – Bbm7 – Bbm – Ebm7 – Db6 – Db.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bbm",
+    "%",
+    "Bbm7",
+    "%",
+    "Bbm",
+    "%",
+    "Dbmaj7",
+    "Bbm7",
+    "Dbmaj7",
+    "Bbm7",
+    "Dbmaj7",
+    "Bbm7",
+    "Dbmaj7"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Dbmaj7",
+    [
+     "Dbmaj7:2",
+     "Bbm7:2"
+    ],
+    "%",
+    [
+     "Dbmaj7:2",
+     "Bbm7:2"
+    ],
+    "Ebm7",
+    "%",
+    "Dbmaj7",
+    "%",
+    "Db",
+    "%",
+    "Dbmaj7",
+    "Db6",
+    "Dbmaj7",
+    "Db6",
+    "Ebm7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Dbmaj7",
+    [
+     "Dbmaj7:2",
+     "Db:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Bbm",
+    "%",
+    "Dbmaj7",
+    "Bbm7",
+    "Dbmaj7",
+    "Bbm7",
+    "Dbmaj7",
+    "Bbm7",
+    "Dbmaj7",
+    "Bbm7",
+    "Bbm",
+    "%",
+    "Dbmaj7",
+    "Bbm7",
+    "Dbmaj7",
+    "Dbmaj7",
+    "Bbm7",
+    "Dbmaj7",
+    "Bbm7",
+    "Ebm7",
+    "Dbmaj7",
+    "%",
+    "Db",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Dbmaj7",
+    "Db6",
+    "Dbaug",
+    "Db6",
+    [
+     "Ebm7:2",
+     "Dbmaj7:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bbm",
+    "%",
+    "Bbm",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "Dbmaj7",
+    "Bbm7",
+    "Dbmaj7",
+    "Bbm7",
+    "Dbmaj7",
+    [
+     "Dbmaj7:2",
+     "Bbm7:2"
+    ],
+    "%",
+    "Dbmaj7",
+    "Bbm7",
+    [
+     "Dbmaj7:1",
+     "Bbm7:1",
+     "Dbmaj7:1",
+     "Bbm7:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   13,
+   32.43
+  ],
+  [
+   16,
+   38.17
+  ],
+  [
+   17,
+   41.32
+  ],
+  [
+   23,
+   53.8
+  ],
+  [
+   25,
+   59.1
+  ],
+  [
+   28,
+   66.95
+  ],
+  [
+   31,
+   72.91
+  ],
+  [
+   35,
+   83.19
+  ],
+  [
+   50,
+   116.61
+  ],
+  [
+   52,
+   121.73
+  ],
+  [
+   55,
+   129.57
+  ],
+  [
+   59,
+   137.24
+  ],
+  [
+   61,
+   142.56
+  ],
+  [
+   63,
+   146.52
+  ],
+  [
+   64,
+   149.18
+  ],
+  [
+   67,
+   156.27
+  ],
+  [
+   72,
+   166.71
+  ],
+  [
+   76,
+   176.36
+  ],
+  [
+   78,
+   181.66
+  ],
+  [
+   80,
+   186.96
+  ],
+  [
+   83,
+   192.21
+  ],
+  [
+   85,
+   197.88
+  ],
+  [
+   86,
+   200.17
+  ],
+  [
+   89,
+   205.39
+  ],
+  [
+   91,
+   210.58
+  ],
+  [
+   93,
+   215.85
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 3128095,
+ "spotifyId": "7D0RhFcb3CrfPuTJ0obrod"
+}

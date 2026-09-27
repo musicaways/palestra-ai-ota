@@ -1,0 +1,231 @@
+{
+ "title": "Non sei tu",
+ "artist": "Gazzelle",
+ "album": "Non sei tu",
+ "year": 2021,
+ "genre": "Indie",
+ "difficulty": 2,
+ "youtubeId": "GIaXBzznj8I",
+ "key": "Bb",
+ "bpm": 71.4,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.23,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 20947939,
+  "duration": 199,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F – Bb – Gm – Eb.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bb",
+    "Gm",
+    "F",
+    "Eb",
+    "Bb",
+    "Gm",
+    "F",
+    "Eb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Bb:2",
+     "Gm:2"
+    ],
+    [
+     "F:2",
+     "Eb:2"
+    ],
+    [
+     "Bb:2",
+     "Gm:2"
+    ],
+    [
+     "F:2",
+     "Eb:2"
+    ],
+    [
+     "Bb:2",
+     "Gm:2"
+    ],
+    [
+     "F:2",
+     "Eb:2"
+    ],
+    [
+     "Bb:2",
+     "Gm:2"
+    ],
+    [
+     "F:2",
+     "Eb:2"
+    ],
+    "%",
+    [
+     "Gm:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "Eb:2"
+    ],
+    [
+     "Gm:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "Eb:2"
+    ],
+    [
+     "Gm:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "Eb:2"
+    ],
+    [
+     "Gm:2",
+     "Bb:2"
+    ],
+    "F",
+    "%",
+    "Gm",
+    "Bb",
+    "F",
+    "Eb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Bb:2",
+     "Gm:2"
+    ],
+    [
+     "F:2",
+     "Eb:2"
+    ],
+    [
+     "Bb:2",
+     "Gm:2"
+    ],
+    [
+     "F:2",
+     "Eb:2"
+    ],
+    [
+     "Bb:2",
+     "Gm:2"
+    ],
+    [
+     "F:2",
+     "Eb:2"
+    ],
+    [
+     "Bb:2",
+     "Gm:2"
+    ],
+    [
+     "F:2",
+     "Eb:2"
+    ],
+    "Gm",
+    "Bb",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Gm:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "Eb:2"
+    ],
+    [
+     "Gm:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "Eb:2"
+    ],
+    [
+     "Gm:2",
+     "Bb:2"
+    ],
+    "F",
+    "Eb",
+    "Gm",
+    "Bb",
+    "F",
+    "Eb",
+    "Gm",
+    "Bb",
+    "F",
+    "Eb",
+    "Gm",
+    "Bb",
+    "F",
+    "Eb"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   8,
+   27.096
+  ],
+  [
+   12,
+   40.706
+  ],
+  [
+   17,
+   57.513
+  ],
+  [
+   22,
+   74.284
+  ],
+  [
+   30,
+   100.847
+  ],
+  [
+   34,
+   114.293
+  ],
+  [
+   41,
+   138.057
+  ],
+  [
+   46,
+   154.993
+  ]
+ ],
+ "strumSource": "ultimate-guitar"
+}

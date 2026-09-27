@@ -1,0 +1,281 @@
+{
+ "title": "The Scientist",
+ "artist": "Coldplay",
+ "album": "Generación Cassette",
+ "year": 2002,
+ "genre": "Pop / Rock",
+ "difficulty": 5,
+ "youtubeId": "eIwaqRrsUgA",
+ "key": "Bb",
+ "bpm": 73.29,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.52,
+ "strum": "D-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 37480350,
+  "duration": 309,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bb – F – Dm7 – Fadd9 – C – C4.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Dm7",
+    "%",
+    "%",
+    "Bb",
+    "%",
+    "%",
+    "F",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Dm7:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "Fadd9",
+    "%",
+    [
+     "Dm7:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "Fadd9",
+    "%",
+    [
+     "Dm7:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "Fadd9",
+    "%",
+    [
+     "Dm7:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "Fadd9",
+    "%",
+    "Bb",
+    "%",
+    "F",
+    "Fadd9",
+    "Bb",
+    "%",
+    [
+     "F:2",
+     "Fmaj7:2"
+    ],
+    "F6",
+    [
+     "C:2",
+     "C4:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "C",
+    "%",
+    "F",
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    "%",
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "%",
+    "Fadd9",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Dm7:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "Fadd9",
+    "%",
+    [
+     "Dm7:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "Fadd9",
+    "%",
+    [
+     "Dm7:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "Fadd9",
+    "%",
+    [
+     "Dm7:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "Fadd9",
+    "C4",
+    "Bb",
+    "%",
+    "F",
+    "Fadd9",
+    "Bb",
+    "%",
+    [
+     "F:2",
+     "Fmaj7:2"
+    ],
+    "F6",
+    [
+     "C:2",
+     "C4:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "C:1",
+     "F:1",
+     "Bb:1",
+     "F:1"
+    ],
+    "Dm7",
+    "Bb",
+    "F",
+    "Dm7",
+    "Bb",
+    "F",
+    "Dm7",
+    "Bb",
+    "F",
+    "Dm7",
+    "Bb",
+    "F",
+    "Dm7",
+    "Bb",
+    "F",
+    "Dm7",
+    "Bb",
+    "F",
+    "Dm7",
+    "Bb",
+    "F",
+    "Dm7",
+    "Bb",
+    "F",
+    "Dm7",
+    "Bb"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   8,
+   27.802
+  ],
+  [
+   14,
+   47.45
+  ],
+  [
+   18,
+   60.58
+  ],
+  [
+   22,
+   73.519
+  ],
+  [
+   28,
+   92.921
+  ],
+  [
+   33,
+   109.453
+  ],
+  [
+   42,
+   138.962
+  ],
+  [
+   46,
+   152.199
+  ],
+  [
+   50,
+   165.411
+  ],
+  [
+   54,
+   178.51
+  ],
+  [
+   58,
+   191.631
+  ],
+  [
+   62,
+   204.73
+  ],
+  [
+   67,
+   220.833
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 3098840,
+ "spotifyId": "75JFxkI2RXiU7L9VXzMkle"
+}

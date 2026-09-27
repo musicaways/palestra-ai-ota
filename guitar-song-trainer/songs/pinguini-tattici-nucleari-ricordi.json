@@ -1,0 +1,305 @@
+{
+ "title": "Ricordi",
+ "artist": "Pinguini Tattici Nucleari",
+ "album": "Hello World",
+ "year": 2020,
+ "genre": "Pop / Indie",
+ "difficulty": 5,
+ "youtubeId": "OkNfh29Vbwo",
+ "key": "E",
+ "bpm": 130.77,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.51,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36348609,
+  "duration": 204,
+  "offset": 0
+ },
+ "notes": "Accordi principali: E – B – A – C#m – F#m7 – G#m7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "C#m",
+    "B"
+   ],
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "C#m",
+    [
+     "C#m:2",
+     "B:2"
+    ],
+    "%",
+    [
+     "E:2",
+     "A:2"
+    ],
+    "C#m",
+    "B",
+    "E",
+    "%",
+    "C#m",
+    "B",
+    "E",
+    "A",
+    "C#m",
+    "B",
+    "E",
+    "%",
+    "B",
+    "%",
+    "E",
+    "A",
+    "C#m",
+    "B",
+    "E",
+    "%",
+    "E",
+    [
+     "E:2",
+     "G#m:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "F#m",
+    "%",
+    "A",
+    "%",
+    "C#m",
+    "%",
+    "A",
+    "%",
+    "F#m7",
+    "%",
+    "A",
+    "Am",
+    "%",
+    "B",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    [
+     "E:2",
+     "A:2"
+    ],
+    "C#m",
+    "B",
+    "E",
+    "%",
+    "C#m",
+    "B",
+    "%",
+    "%",
+    "C#m",
+    "%",
+    "E",
+    "%",
+    "E",
+    [
+     "E:2",
+     "B:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "F#m7",
+    "%",
+    "A",
+    "%",
+    "B",
+    "C#m",
+    "A",
+    "%",
+    "F#m7",
+    "%",
+    "A",
+    "Am",
+    [
+     "E:1",
+     "G#m7:2",
+     "C#m7:1"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "A",
+    "%",
+    "G#m7",
+    "%",
+    "F#m7",
+    "%",
+    "B",
+    "%",
+    "E",
+    [
+     "E:2",
+     "B:2"
+    ],
+    "%",
+    "F#m7",
+    "%",
+    "A",
+    "B",
+    "C#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "%",
+    "A",
+    "%",
+    "%",
+    "%",
+    "A",
+    "Am",
+    [
+     "E:1",
+     "G#m7:2",
+     "C#m7:1"
+    ],
+    "%",
+    "%",
+    [
+     "E:2",
+     "G#m7:2"
+    ],
+    [
+     "G#m7:2",
+     "C#m7:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   2,
+   5.759
+  ],
+  [
+   6,
+   12.899
+  ],
+  [
+   10,
+   20.099
+  ],
+  [
+   14,
+   27.439
+  ],
+  [
+   20,
+   38.451
+  ],
+  [
+   29,
+   54.969
+  ],
+  [
+   33,
+   62.079
+  ],
+  [
+   37,
+   69.339
+  ],
+  [
+   41,
+   76.68
+  ],
+  [
+   46,
+   85.781
+  ],
+  [
+   52,
+   96.762
+  ],
+  [
+   56,
+   103.983
+  ],
+  [
+   61,
+   112.966
+  ],
+  [
+   65,
+   120.478
+  ],
+  [
+   71,
+   131.499
+  ],
+  [
+   77,
+   142.809
+  ],
+  [
+   83,
+   153.883
+  ],
+  [
+   88,
+   163.059
+  ],
+  [
+   94,
+   174.071
+  ],
+  [
+   98,
+   181.644
+  ],
+  [
+   103,
+   190.821
+  ],
+  [
+   107,
+   198.331
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 1926255927
+}

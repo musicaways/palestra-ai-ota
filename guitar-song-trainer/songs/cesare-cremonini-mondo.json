@@ -1,0 +1,320 @@
+{
+ "title": "Mondo",
+ "artist": "Cesare Cremonini",
+ "album": "Radio Italia Awards Cd4",
+ "year": 2010,
+ "genre": "Pop / Cantautori",
+ "difficulty": 4,
+ "youtubeId": "bjcA4ARNwAE",
+ "key": "Bb",
+ "bpm": 76.77,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.65,
+ "strum": "B-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37153764,
+  "duration": 287,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bb – F – Cm7 – Gm – Eb – Dm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Cm7",
+    "Bb",
+    "F",
+    "Dm",
+    "Cm7"
+   ],
+   "barsPerRow": 4,
+   "strum": "B---D---"
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "Gm",
+    "Bb",
+    "Gm",
+    "%",
+    "Bb",
+    "Cm7",
+    "Eb",
+    "F",
+    "Eb",
+    "F",
+    "Cm7",
+    "%",
+    "Eb",
+    "F",
+    "Bb",
+    "Cm7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "Gm",
+    "%",
+    "Eb",
+    "F",
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    [
+     "Cm7:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Cm7:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "%",
+    "%",
+    "Ebmaj7",
+    "%",
+    "Gm",
+    "Bb",
+    "Gm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "Bb",
+    "%",
+    "Gm",
+    "%",
+    "Eb",
+    "F",
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    [
+     "Cm7:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Cm7:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "%",
+    "%",
+    [
+     "Cm7:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "Gm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "Cm7:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Cm7:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "%",
+    "%",
+    [
+     "Cm7:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    [
+     "Cm7:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Cm7:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Cm7:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "%",
+    "%",
+    [
+     "Cm7:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Cm7:2",
+     "Bb:2"
+    ],
+    "F",
+    [
+     "Cm7:2",
+     "Bb:2"
+    ],
+    "F",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    [
+     "Cm7:2",
+     "Bb:2"
+    ],
+    "F",
+    [
+     "Cm7:2",
+     "Bb:2"
+    ],
+    "F",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "B---D---"
+  }
+ ],
+ "warp": [
+  [
+   5,
+   18.143
+  ],
+  [
+   11,
+   36.988
+  ],
+  [
+   17,
+   55.745
+  ],
+  [
+   23,
+   74.52
+  ],
+  [
+   28,
+   90.762
+  ],
+  [
+   36,
+   114.98
+  ],
+  [
+   40,
+   127.44
+  ],
+  [
+   44,
+   139.945
+  ],
+  [
+   49,
+   156.25
+  ],
+  [
+   53,
+   168.328
+  ],
+  [
+   57,
+   180.88
+  ],
+  [
+   63,
+   199.942
+  ],
+  [
+   67,
+   212.478
+  ],
+  [
+   73,
+   231.235
+  ],
+  [
+   85,
+   268.291
+  ],
+  [
+   89,
+   280.599
+  ]
+ ],
+ "strumSource": "stima"
+}

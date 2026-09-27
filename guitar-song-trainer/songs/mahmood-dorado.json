@@ -1,0 +1,240 @@
+{
+ "title": "Dorado",
+ "artist": "Mahmood",
+ "album": "Dorado - Single",
+ "year": 2019,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "vuz0OdYtaT8",
+ "key": "F#m",
+ "bpm": 98.44,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.88,
+ "strum": "D-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 35899999,
+  "duration": 178,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F#m – C#7 – G – F#m7 – A6 – Bm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F#m",
+    "%"
+   ],
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "F#m",
+    "%",
+    [
+     "F#m7:2",
+     "A6:2"
+    ],
+    "Bm7",
+    "C#7",
+    "F#m7",
+    "A6",
+    "Bm7",
+    "C#7",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "F#m",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "F#m:2",
+     "G:2"
+    ],
+    [
+     "F#m:2",
+     "G:2"
+    ],
+    [
+     "Bm:2",
+     "C#7:2"
+    ],
+    "%",
+    "F#m",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    [
+     "G:2",
+     "F#m:2"
+    ],
+    [
+     "G:2",
+     "F#m:2"
+    ],
+    "%",
+    "F#m",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "F#m:2",
+     "G:2"
+    ],
+    [
+     "F#m:2",
+     "G:2"
+    ],
+    [
+     "Bm:2",
+     "C#7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    [
+     "F#m:2",
+     "G:2"
+    ],
+    [
+     "F#m:2",
+     "G:2"
+    ],
+    [
+     "Bm:2",
+     "C#7:2"
+    ],
+    "%",
+    "F#m7",
+    "A6",
+    "Bm7",
+    "C#7",
+    "F#m7",
+    "A6",
+    "Bm7",
+    "C#7",
+    "F#m7",
+    "A6",
+    "Bm7",
+    "C#7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "F#m7",
+    [
+     "F#m:2",
+     "G:2"
+    ],
+    "%",
+    "Bm",
+    "C#7",
+    [
+     "F#m:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "C#7",
+    "%",
+    "F#m",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   3,
+   8.034
+  ],
+  [
+   7,
+   17.744
+  ],
+  [
+   17,
+   42.046
+  ],
+  [
+   21,
+   51.798
+  ],
+  [
+   26,
+   64.178
+  ],
+  [
+   33,
+   81.624
+  ],
+  [
+   37,
+   91.376
+  ],
+  [
+   41,
+   100.692
+  ],
+  [
+   46,
+   112.846
+  ],
+  [
+   51,
+   125.154
+  ],
+  [
+   56,
+   136.838
+  ],
+  [
+   60,
+   146.632
+  ],
+  [
+   65,
+   159.594
+  ],
+  [
+   69,
+   169.23
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 1012489622,
+ "spotifyId": "2WiQNsxZFxRr1Otx0OIfY4"
+}

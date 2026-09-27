@@ -1,0 +1,231 @@
+{
+ "title": "Innocenti evasioni",
+ "artist": "Lucio Battisti",
+ "album": "Gli Anni 70",
+ "year": 1973,
+ "genre": "Cantautori",
+ "difficulty": 4,
+ "youtubeId": "J0j480r4Mw8",
+ "key": "F#m7",
+ "bpm": 112.41,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.97,
+ "strum": "B-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 33513843,
+  "duration": 225.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F#m7 – B – A – Emaj7 – E – B7sus4.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "E",
+    "%",
+    "%",
+    "A",
+    "%",
+    "%",
+    "F#m7",
+    "%",
+    "%",
+    "A",
+    "%",
+    "%",
+    "F#m7",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "B---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "E:2",
+     "A:1",
+     "F#m7:1"
+    ],
+    [
+     "F#m7:1",
+     "A:1",
+     "F#m7:2"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "E:2",
+     "A:2"
+    ],
+    "F#m7",
+    [
+     "A:2",
+     "F#m7:2"
+    ],
+    "B",
+    "%",
+    "F#m7",
+    [
+     "F#m7:2",
+     "B:2"
+    ],
+    [
+     "B:2",
+     "Emaj7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "F#m7",
+    "B",
+    "Emaj7",
+    "%",
+    "F#m7",
+    "B",
+    [
+     "B:2",
+     "Emaj7:2"
+    ],
+    "%",
+    "F#m7",
+    "B",
+    "F#m7",
+    "G#m7",
+    "F#m7",
+    "%",
+    [
+     "F#m7:2",
+     "B7sus4:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "E:2",
+     "Emaj7:2"
+    ],
+    [
+     "E:2",
+     "Emaj7:2"
+    ],
+    [
+     "E:2",
+     "A:1",
+     "F#m7:1"
+    ],
+    [
+     "F#m7:1",
+     "A:1",
+     "F#m7:2"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "B",
+    "%",
+    "E",
+    [
+     "A:2",
+     "F#m7:2"
+    ],
+    [
+     "F#m7:2",
+     "A:2"
+    ],
+    "F#m7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "B",
+    "%",
+    "F#m7",
+    "%",
+    "B",
+    "%",
+    "Emaj7",
+    "%",
+    "F#m7",
+    "%",
+    "B",
+    "%",
+    "Emaj7",
+    "%",
+    "F#m7",
+    "%",
+    "B",
+    "%",
+    "Emaj7",
+    "%",
+    "F#m7",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  }
+ ],
+ "strumSource": "stima"
+}

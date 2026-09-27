@@ -1,0 +1,521 @@
+{
+ "title": "The Unforgiven",
+ "artist": "Metallica",
+ "album": "The Very Best '98",
+ "year": 1991,
+ "genre": "Metal",
+ "difficulty": 2,
+ "youtubeId": "rfcVoyDgLdA",
+ "key": "Am",
+ "bpm": 139.73,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.28,
+ "strum": "PPPPDDDD",
+ "lyricsSource": {
+  "lrclibId": 36994339,
+  "duration": 389,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Am – G – C – Em – E – D.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Em",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Am",
+    "Em",
+    "D",
+    "Am",
+    "Em",
+    "%",
+    "G",
+    "Am",
+    "Em",
+    "%",
+    "D",
+    "Am",
+    "Em",
+    "%",
+    "D",
+    [
+     "D:2",
+     "Am:2"
+    ],
+    "%",
+    "%",
+    "%",
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Am:2"
+    ],
+    "C",
+    [
+     "G:2",
+     "E:2"
+    ],
+    "Am",
+    "C",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "%",
+    "Em",
+    [
+     "Em:2",
+     "Am:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "C:2",
+     "G:2"
+    ],
+    "E",
+    "Am",
+    "C",
+    "G",
+    "Em",
+    "Am",
+    "C",
+    "G",
+    "E",
+    "Am",
+    "Am",
+    "%",
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "Am",
+    "Em",
+    "D",
+    "Am",
+    "Em",
+    "%",
+    "D",
+    "Am",
+    "Em",
+    "%",
+    "D",
+    "Am",
+    "Em",
+    "%",
+    "D",
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "C",
+    "G",
+    "Am",
+    "%",
+    "%",
+    "C",
+    [
+     "G:2",
+     "E:2"
+    ],
+    "Am",
+    "C",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "%",
+    "Em",
+    "Am",
+    "C",
+    "G",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "Am",
+    "C",
+    "G",
+    "Em",
+    "Am",
+    "C",
+    "G",
+    [
+     "E:2",
+     "Am:2"
+    ],
+    "Am",
+    "C",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 8",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Em",
+    "Am",
+    "C",
+    "G",
+    "E",
+    "Am",
+    "C",
+    "G",
+    "Em",
+    "Am",
+    "C",
+    "G",
+    [
+     "E:2",
+     "Am:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "Em:2",
+     "Am:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "%",
+    "E",
+    [
+     "Am:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    "Am"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "E",
+    "%",
+    "Am",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    [
+     "E:2",
+     "Am:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "Em:2",
+     "Am:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "E",
+    "Am",
+    "C",
+    "G",
+    "Em",
+    "Am"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    "C",
+    "G",
+    "E",
+    [
+     "E:2",
+     "Am:2"
+    ],
+    "%",
+    [
+     "Am:2",
+     "C:2"
+    ],
+    "%",
+    "G",
+    [
+     "G:2",
+     "Em:2"
+    ],
+    "%",
+    [
+     "Em:2",
+     "Am:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   31,
+   54.855
+  ],
+  [
+   35,
+   61.725
+  ],
+  [
+   41,
+   71.866
+  ],
+  [
+   45,
+   78.6
+  ],
+  [
+   50,
+   87.09
+  ],
+  [
+   55,
+   95.678
+  ],
+  [
+   61,
+   105.928
+  ],
+  [
+   66,
+   114.585
+  ],
+  [
+   70,
+   121.452
+  ],
+  [
+   75,
+   130.04
+  ],
+  [
+   81,
+   140.48
+  ],
+  [
+   87,
+   150.725
+  ],
+  [
+   94,
+   162.692
+  ],
+  [
+   99,
+   171.162
+  ],
+  [
+   104,
+   179.67
+  ],
+  [
+   110,
+   189.84
+  ],
+  [
+   117,
+   201.828
+  ],
+  [
+   164,
+   282.555
+  ],
+  [
+   168,
+   289.54
+  ],
+  [
+   172,
+   296.695
+  ],
+  [
+   181,
+   312.18
+  ],
+  [
+   189,
+   325.957
+  ],
+  [
+   196,
+   338.05
+  ],
+  [
+   200,
+   345.1
+  ],
+  [
+   208,
+   358.86
+  ],
+  [
+   216,
+   372.829
+  ]
+ ],
+ "strumSource": "stima"
+}

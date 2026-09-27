@@ -1,0 +1,195 @@
+{
+ "title": "Lupin",
+ "artist": "Tommaso Paradiso",
+ "album": "Tommaso Paradiso Videos",
+ "year": 2022,
+ "genre": "Pop",
+ "difficulty": 2,
+ "youtubeId": "oBUeW5Cde1g",
+ "key": "Bm7",
+ "bpm": 65.37,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.74,
+ "strum": "B---D-DU",
+ "lyricsSource": {
+  "lrclibId": 35520489,
+  "duration": 284,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bm7 – Dmaj7 – Em7 – A – G – D.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G",
+    "D",
+    "A",
+    "Bm7"
+   ],
+   "strum": "B-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "D",
+    "A",
+    "Bm7",
+    "G",
+    "D",
+    "A",
+    "Bm7",
+    "%",
+    "%",
+    "Dmaj7",
+    "Bm7",
+    "Em7",
+    "%",
+    "Dmaj7",
+    "Bm7",
+    [
+     "Em7:2",
+     "A:2"
+    ],
+    "Dmaj7",
+    "Bm7",
+    "Em7",
+    "A",
+    "Dmaj7",
+    "Bm7",
+    "Dmaj7",
+    [
+     "Dmaj7:2",
+     "Bm7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "G",
+    "D",
+    "Bm7",
+    "G",
+    "D",
+    "A",
+    "%",
+    "Em7",
+    "%",
+    "Dmaj7",
+    "Bm7",
+    "Em7",
+    "%",
+    "Dmaj7",
+    "Bm7",
+    [
+     "Em7:2",
+     "A:2"
+    ],
+    "Dmaj7",
+    "Bm7",
+    "Em7",
+    "A",
+    "Dmaj7",
+    "Bm7",
+    "Dmaj7",
+    "Bm7",
+    [
+     "G:1",
+     "Em7:1"
+    ],
+    "Em7",
+    "A",
+    "Dmaj7",
+    "Bm7",
+    "Em7",
+    "A",
+    "Dmaj7",
+    "Bm7",
+    "Em7",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Em7:2",
+     "A:2"
+    ],
+    "Dmaj7",
+    "Bm7",
+    "Em7",
+    "A",
+    "Dmaj7",
+    "%",
+    "Dmaj7",
+    "Bm7",
+    "G",
+    "G",
+    "Em7",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   17.029
+  ],
+  [
+   8,
+   31.441
+  ],
+  [
+   14,
+   52.887
+  ],
+  [
+   19,
+   71.46
+  ],
+  [
+   26,
+   97.146
+  ],
+  [
+   31,
+   115.596
+  ],
+  [
+   36,
+   133.256
+  ],
+  [
+   41,
+   151.53
+  ],
+  [
+   50,
+   184.678
+  ],
+  [
+   64,
+   236.886
+  ],
+  [
+   69,
+   255.32
+  ],
+  [
+   73,
+   270.006
+  ]
+ ],
+ "strumSource": "stima"
+}

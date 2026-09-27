@@ -1,0 +1,280 @@
+{
+ "title": "Nessun grado di separazione",
+ "artist": "Francesca Michielin",
+ "album": "Sanremo - le canzoni più famose",
+ "year": 2016,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "vpRFRc1fVQ4",
+ "key": "G",
+ "bpm": 151.5,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.45,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 22696154,
+  "duration": 220,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – C – Dm7 – Am – Dm – Fmaj7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "C",
+    "%",
+    "%",
+    "%"
+   ],
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "C",
+    "%",
+    "%",
+    "Fmaj7",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "G",
+    "%",
+    "%",
+    "%",
+    "Fmaj7",
+    "%",
+    "%",
+    "%",
+    "Dm",
+    [
+     "Dm:2",
+     "G:2"
+    ],
+    "%",
+    [
+     "G:2",
+     "Am:2"
+    ],
+    "%",
+    "C",
+    "%",
+    "F",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Dm7",
+    "G",
+    "Am",
+    "%",
+    "C",
+    "%",
+    "Dm7",
+    "%",
+    "G",
+    "%",
+    [
+     "G:2",
+     "Am:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "G",
+    "%",
+    "Dm7",
+    "%",
+    [
+     "Dm7:2",
+     "G:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "C",
+    "C4",
+    "C",
+    "Fmaj7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Dm",
+    [
+     "Dm:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Dm7",
+    "G",
+    "Am",
+    "%",
+    "C",
+    "%",
+    "Dm7",
+    "%",
+    "G",
+    "%",
+    [
+     "G:2",
+     "Am:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    "G",
+    "Dm7",
+    "%",
+    "G",
+    "%",
+    "C",
+    "%",
+    "Em7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strumentale",
+   "bars": [
+    "Am",
+    "%",
+    "Dm7",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Dm7",
+    "%",
+    "G",
+    "%",
+    "Am",
+    "%",
+    "C",
+    "%",
+    "%",
+    "Dm7",
+    "G",
+    "%",
+    [
+     "G:2",
+     "Am:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 7",
+   "bars": [
+    "G",
+    "%",
+    "%",
+    "Dm7",
+    [
+     "Dm7:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Am:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 8",
+   "bars": [
+    "C",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "C:2",
+     "F:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima",
+ "deezerId": 118975572
+}

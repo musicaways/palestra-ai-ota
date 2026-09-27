@@ -1,0 +1,220 @@
+{
+ "title": "Me ne frego",
+ "artist": "Achille Lauro",
+ "album": "A TUTTO POP! 1990-2020",
+ "year": 2020,
+ "genre": "Rock / Pop",
+ "difficulty": 5,
+ "youtubeId": "2lttOzC_mtk",
+ "key": "A",
+ "bpm": 68.64,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.39,
+ "strum": "D-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 33607153,
+  "duration": 221,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – E – B – A4 – E4 – C#m7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Parte 1",
+   "bars": [
+    "E4",
+    [
+     "E4:2",
+     "Aadd9:2"
+    ],
+    "%",
+    "C#m",
+    "A",
+    [
+     "E:2",
+     "E4:2"
+    ],
+    [
+     "E:2",
+     "B:2"
+    ],
+    "E",
+    "%",
+    "A",
+    "E",
+    "%",
+    "%",
+    "A",
+    "E",
+    [
+     "B:2",
+     "A:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "E",
+    [
+     "B:2",
+     "A:2"
+    ],
+    "E",
+    "%",
+    "E",
+    [
+     "A4:2",
+     "A:2"
+    ],
+    [
+     "A4:2",
+     "A:2"
+    ],
+    "C#m7",
+    "B",
+    "A",
+    "B",
+    "E",
+    "%",
+    "A",
+    "E",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    "A",
+    "E",
+    "B",
+    "E",
+    "%",
+    "E",
+    [
+     "A4:2",
+     "A:2"
+    ],
+    [
+     "A4:2",
+     "A:2"
+    ],
+    "C#m7",
+    "B",
+    "A",
+    "B",
+    "B6",
+    "A",
+    "B"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "Amaj7",
+    "G#m7",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "G#m",
+    "B",
+    "%",
+    "%",
+    [
+     "A4:2",
+     "A:2"
+    ],
+    [
+     "A4:2",
+     "A:2"
+    ],
+    "C#m7",
+    "B",
+    "A",
+    "B",
+    "E",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   0,
+   2.72
+  ],
+  [
+   4,
+   16.303
+  ],
+  [
+   8,
+   29.997
+  ],
+  [
+   12,
+   44.247
+  ],
+  [
+   16,
+   58.753
+  ],
+  [
+   20,
+   72.503
+  ],
+  [
+   24,
+   86.193
+  ],
+  [
+   28,
+   100.16
+  ],
+  [
+   32,
+   114.09
+  ],
+  [
+   36,
+   128.37
+  ],
+  [
+   40,
+   142.08
+  ],
+  [
+   44,
+   156.113
+  ],
+  [
+   49,
+   173.393
+  ],
+  [
+   53,
+   187.59
+  ],
+  [
+   58,
+   205.413
+  ],
+  [
+   61,
+   216
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 1087877222,
+ "spotifyId": "0h4ul0Jzc9p1Velq08gAbH"
+}

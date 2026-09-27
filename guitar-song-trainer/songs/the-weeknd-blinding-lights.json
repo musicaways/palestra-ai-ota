@@ -1,0 +1,230 @@
+{
+ "title": "Blinding Lights",
+ "artist": "The Weeknd",
+ "album": "The Com-Bil-ation",
+ "year": 2019,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "BwX8OS4cegU",
+ "key": "Fm",
+ "bpm": 85.51,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.9,
+ "strum": "D--UD-DU",
+ "lyricsSource": {
+  "lrclibId": 37015057,
+  "duration": 202,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Fm – Cm – Eb – Bb – Ab.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "%",
+    "Fm",
+    "Cm",
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    "Cm",
+    "Eb",
+    "%",
+    "Fm",
+    "Cm",
+    "Eb",
+    "%",
+    "Fm",
+    "Cm",
+    "Eb",
+    "Bb",
+    "Fm",
+    "Cm",
+    "Eb",
+    "Bb",
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    [
+     "Fm:2",
+     "Cm:2"
+    ],
+    "Eb",
+    "Bb",
+    "Ab",
+    [
+     "Fm:2",
+     "Cm:2"
+    ],
+    [
+     "Cm:2",
+     "Eb:2"
+    ],
+    "Bb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    "Cm",
+    "Eb",
+    "%",
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    "Cm",
+    "Eb",
+    "Bb",
+    "Fm",
+    "Cm",
+    "Eb",
+    "Bb",
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    [
+     "Fm:2",
+     "Cm:2"
+    ],
+    "Eb",
+    "Bb",
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    "Cm",
+    "Eb",
+    "Bb",
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    [
+     "Fm:2",
+     "Cm:2"
+    ],
+    "Eb",
+    "Bb",
+    "Fm",
+    "Cm",
+    "Eb",
+    "Bb",
+    "Ab",
+    [
+     "Fm:2",
+     "Cm:2"
+    ],
+    [
+     "Cm:2",
+     "Eb:2"
+    ],
+    "Bb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    [
+     "Fm:2",
+     "Cm:2"
+    ],
+    "Eb",
+    "%",
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D---"
+  }
+ ],
+ "warp": [
+  [
+   4,
+   12.99
+  ],
+  [
+   9,
+   27.013
+  ],
+  [
+   13,
+   38.24
+  ],
+  [
+   17,
+   49.513
+  ],
+  [
+   23,
+   66.354
+  ],
+  [
+   27,
+   77.62
+  ],
+  [
+   33,
+   94.506
+  ],
+  [
+   41,
+   116.96
+  ],
+  [
+   47,
+   133.8
+  ],
+  [
+   51,
+   145.007
+  ],
+  [
+   65,
+   184.397
+  ],
+  [
+   67,
+   190.01
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 908604612,
+ "spotifyId": "00uqj8HXl0hWr3tnxC0NZ5"
+}

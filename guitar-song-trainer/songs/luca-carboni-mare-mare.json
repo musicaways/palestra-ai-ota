@@ -1,0 +1,244 @@
+{
+ "title": "Mare mare",
+ "artist": "Luca Carboni",
+ "album": "Radio Italia Estate",
+ "year": 1992,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "gPo0HvevMUk",
+ "key": "Am7",
+ "bpm": 87.12,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.01,
+ "strum": "D-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 37307124,
+  "duration": 275,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Am7 – Dm – F – Bbmaj7 – Am – Bb.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Dm",
+    "Bbmaj7",
+    "Am7",
+    "Gm7",
+    "Dm",
+    "Bbmaj7",
+    "Am7",
+    "Gm7",
+    "Dm",
+    "Am7",
+    "D",
+    "Am7"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Dm:2",
+     "Bbmaj7:2"
+    ],
+    [
+     "Bbmaj7:2",
+     "Am7:2"
+    ],
+    "Gm7",
+    "DM",
+    "Bbmaj7",
+    "Am7",
+    "Gm7",
+    "Dm",
+    [
+     "Am7:2",
+     "Dm:2"
+    ],
+    "Am7",
+    [
+     "Am7:2",
+     "Dm:2"
+    ],
+    [
+     "Am7:2",
+     "Dm:2"
+    ],
+    "Bbmaj7",
+    "Am7",
+    "Gm7",
+    "Dm",
+    "Bbmaj7",
+    "Am7",
+    "Gm7",
+    "Dm",
+    [
+     "Am7:2",
+     "Dm:2"
+    ],
+    "Am7",
+    [
+     "Dm:1",
+     "Am7:2",
+     "Dm:1"
+    ],
+    "Am7",
+    "%",
+    "F",
+    "Bb",
+    "C",
+    "Am",
+    "F",
+    "Bb",
+    "%",
+    "Am",
+    "F",
+    "Bb",
+    "%",
+    "Am",
+    "%",
+    "Dm",
+    "Am7",
+    "Dm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Bbmaj7",
+    "Am7",
+    "Gm7",
+    "Dm",
+    "Bbmaj7",
+    "Am7",
+    "Gm7",
+    "%",
+    [
+     "Dm:2",
+     "Bbmaj7:2"
+    ],
+    [
+     "Bbmaj7:2",
+     "Am7:2"
+    ],
+    "Gm7",
+    "Dm",
+    "Am7",
+    "Dm",
+    "Dm",
+    [
+     "Am7:2",
+     "Dm:2"
+    ],
+    "Am7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "F",
+    "Bb",
+    "C",
+    "Am",
+    "F",
+    "Bb",
+    "C",
+    "Am",
+    "F",
+    "Bb",
+    "C",
+    "Am",
+    "F",
+    "C",
+    "Am",
+    "F",
+    "Bb",
+    "C",
+    "Am",
+    "F",
+    "Bb",
+    "C",
+    "Am",
+    "F",
+    "Bb",
+    "C",
+    "Am",
+    "F",
+    "Bb",
+    "C"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   12,
+   33.28
+  ],
+  [
+   16,
+   44.29
+  ],
+  [
+   24,
+   66.089
+  ],
+  [
+   28,
+   77.108
+  ],
+  [
+   35,
+   96.274
+  ],
+  [
+   40,
+   110.18
+  ],
+  [
+   45,
+   123.645
+  ],
+  [
+   57,
+   157.048
+  ],
+  [
+   61,
+   168.1
+  ],
+  [
+   67,
+   184.661
+  ],
+  [
+   71,
+   195.649
+  ],
+  [
+   75,
+   206.7
+  ],
+  [
+   81,
+   223.04
+  ],
+  [
+   83,
+   228.51
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 985932
+}

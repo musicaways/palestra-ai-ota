@@ -1,0 +1,279 @@
+{
+ "title": "Destri",
+ "artist": "Gazzelle",
+ "album": "Maciste Dischi Videos",
+ "year": 2019,
+ "genre": "Indie",
+ "difficulty": 4,
+ "youtubeId": "8wlxTdDol70",
+ "key": "Db",
+ "bpm": 85.62,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.71,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 35955584,
+  "duration": 186,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Db – Ab – Fm – Cm – Eb.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Fm",
+    "Db",
+    "Ab",
+    "Cm"
+   ],
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Fm:2",
+     "Db:2"
+    ],
+    [
+     "Db:2",
+     "Ab:2"
+    ],
+    [
+     "Cm:2",
+     "Db:1",
+     "Ab:1"
+    ],
+    [
+     "Ab:1",
+     "Eb:1",
+     "Fm:2"
+    ],
+    "Db",
+    "Ab",
+    [
+     "Cm:2",
+     "Db:2"
+    ],
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    [
+     "Db:2",
+     "Ab:2"
+    ],
+    "Cm",
+    [
+     "Db:2",
+     "Ab:2"
+    ],
+    [
+     "Fm:2",
+     "Db:2"
+    ],
+    "Ab",
+    "%",
+    "%",
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    [
+     "Db:2",
+     "Ab:2"
+    ],
+    [
+     "Cm:2",
+     "Db:2"
+    ],
+    "Ab",
+    "Fm",
+    [
+     "Db:2",
+     "Ab:2"
+    ],
+    [
+     "Cm:2",
+     "Db:2"
+    ],
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    [
+     "Fm:2",
+     "Db:2"
+    ],
+    "Fm",
+    [
+     "Db:2",
+     "Ab:2"
+    ],
+    "Cm",
+    [
+     "Db:2",
+     "Ab:2"
+    ],
+    [
+     "Fm:2",
+     "Db:2"
+    ],
+    "Ab",
+    [
+     "Cm:2",
+     "Db:2"
+    ],
+    "Ab",
+    "%",
+    [
+     "Db:2",
+     "Ab:2"
+    ],
+    [
+     "Cm:2",
+     "Db:2"
+    ],
+    "Ab",
+    "Fm",
+    [
+     "Db:2",
+     "Ab:2"
+    ],
+    [
+     "Cm:2",
+     "Db:2"
+    ],
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    [
+     "Fm:2",
+     "Db:2"
+    ],
+    "Ab",
+    [
+     "Cm:2",
+     "Db:2"
+    ],
+    [
+     "Db:2",
+     "Ab:2"
+    ],
+    "Fm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Db:2",
+     "Ab:2"
+    ],
+    [
+     "Cm:2",
+     "Db:2"
+    ],
+    "Ab",
+    "Fm",
+    [
+     "Db:2",
+     "Ab:2"
+    ],
+    [
+     "Cm:2",
+     "Db:2"
+    ],
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    [
+     "Fm:2",
+     "Db:2"
+    ],
+    "Ab",
+    [
+     "Cm:2",
+     "Db:2"
+    ],
+    "Ab",
+    "Fm",
+    "Db",
+    "Ab",
+    "Cm",
+    "Db",
+    "Ab"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   12.684
+  ],
+  [
+   8,
+   23.896
+  ],
+  [
+   13,
+   37.93
+  ],
+  [
+   19,
+   55.274
+  ],
+  [
+   24,
+   69.22
+  ],
+  [
+   28,
+   80.3
+  ],
+  [
+   32,
+   91.41
+  ],
+  [
+   37,
+   105.662
+  ],
+  [
+   41,
+   116.748
+  ],
+  [
+   45,
+   127.892
+  ],
+  [
+   49,
+   139.01
+  ],
+  [
+   54,
+   152.881
+  ],
+  [
+   59,
+   166.823
+  ],
+  [
+   60,
+   169.643
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 3838449891
+}

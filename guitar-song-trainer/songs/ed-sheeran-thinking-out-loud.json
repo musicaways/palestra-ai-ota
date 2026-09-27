@@ -1,0 +1,522 @@
+{
+ "title": "Thinking Out Loud",
+ "artist": "Ed Sheeran",
+ "album": "X [Deluxe Edition] (Bonus Tracks)",
+ "year": 2014,
+ "genre": "Pop",
+ "difficulty": 3,
+ "youtubeId": "qepZ2A0SJ64",
+ "key": "A",
+ "bpm": 160.08,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.9,
+ "strum": "D-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 30437004,
+  "duration": 282,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – D – G – Em7 – Bm – Bm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "D",
+    "%",
+    "G",
+    "A",
+    "D",
+    "%",
+    "G",
+    "A",
+    "D",
+    "%",
+    "G",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "D",
+    "G",
+    "A",
+    "D",
+    "%",
+    "G",
+    "A",
+    "D",
+    "%",
+    "G",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "D",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "A",
+    "%",
+    "Em7",
+    [
+     "Em7:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Em7",
+    "%",
+    "A",
+    "%",
+    "Em7",
+    [
+     "Em7:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "Bm7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Em7",
+    [
+     "Em7:2",
+     "A:2"
+    ],
+    "%",
+    "D",
+    "D",
+    "G",
+    "%",
+    "A",
+    "D",
+    "%",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "A",
+    "D",
+    "%",
+    "G",
+    "A",
+    "D",
+    "%",
+    "G",
+    "A",
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "G:2"
+    ],
+    "%",
+    [
+     "Em7:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    "D",
+    "%",
+    "G",
+    "A",
+    "D",
+    "%",
+    "G",
+    "A",
+    "D",
+    "%",
+    "G",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 7",
+   "bars": [
+    "D",
+    "G",
+    "A",
+    "D",
+    [
+     "G:2",
+     "A:2"
+    ],
+    "D",
+    "D",
+    "%",
+    "G",
+    [
+     "G:2",
+     "A:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 8",
+   "bars": [
+    "D",
+    "%",
+    "G",
+    "A",
+    "D",
+    "%",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "A",
+    "%",
+    "Em7",
+    [
+     "Em7:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ],
+    "%",
+    "Em7",
+    "%",
+    "A",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 9",
+   "bars": [
+    "Em7",
+    [
+     "Em7:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "Bm7:2"
+    ],
+    "%",
+    "Em7",
+    [
+     "Em7:2",
+     "A:2"
+    ],
+    "%",
+    "D",
+    "D",
+    "G",
+    "%",
+    "A",
+    "D",
+    "%",
+    "G",
+    "A",
+    "D",
+    "%",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 10",
+   "bars": [
+    "A",
+    "D",
+    "%",
+    "G",
+    "A",
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    "G",
+    "Em7",
+    [
+     "A:2",
+     "D:2"
+    ],
+    "D",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 11",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 12",
+   "bars": [
+    "D",
+    "%",
+    "G",
+    "A",
+    "D",
+    "%",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 13",
+   "bars": [
+    "A",
+    "D",
+    "G",
+    "A",
+    [
+     "A:2",
+     "D:2"
+    ],
+    "D",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 14",
+   "bars": [
+    "G",
+    "A",
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    "G",
+    "Em7",
+    [
+     "A:2",
+     "D:2"
+    ],
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "G:2"
+    ],
+    "%",
+    [
+     "Em7:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "Bm",
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    "%",
+    "G",
+    "G",
+    "Em7",
+    "%",
+    "A",
+    [
+     "A:2",
+     "D:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  }
+ ],
+ "warp": [
+  [
+   0,
+   1.276
+  ],
+  [
+   4,
+   7.1
+  ],
+  [
+   8,
+   13.097
+  ],
+  [
+   12,
+   19.091
+  ],
+  [
+   17,
+   26.454
+  ],
+  [
+   23,
+   35.446
+  ],
+  [
+   30,
+   45.916
+  ],
+  [
+   36,
+   54.706
+  ],
+  [
+   44,
+   66.594
+  ],
+  [
+   51,
+   77.148
+  ],
+  [
+   59,
+   89.142
+  ],
+  [
+   64,
+   96.673
+  ],
+  [
+   69,
+   104.413
+  ],
+  [
+   77,
+   116.407
+  ],
+  [
+   81,
+   122.418
+  ],
+  [
+   86,
+   129.866
+  ],
+  [
+   92,
+   138.795
+  ],
+  [
+   99,
+   149.29
+  ],
+  [
+   105,
+   158.286
+  ],
+  [
+   113,
+   170.228
+  ],
+  [
+   124,
+   186.72
+  ],
+  [
+   128,
+   192.689
+  ],
+  [
+   133,
+   200.213
+  ],
+  [
+   153,
+   230.201
+  ],
+  [
+   160,
+   241.047
+  ],
+  [
+   167,
+   251.674
+  ],
+  [
+   173,
+   260.693
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 79875064,
+ "spotifyId": "7iIrkIn7Iba9u6vPI6lsoP"
+}

@@ -1,0 +1,211 @@
+{
+ "title": "Italodisco",
+ "artist": "The Kolors",
+ "album": "Club Sounds: The Ultimate Club Dance Collection, Vol. 103",
+ "year": 2023,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "0A4M70dKkdE",
+ "key": "F#m",
+ "bpm": 61.2,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.42,
+ "strum": "D---D-DU",
+ "lyricsSource": {
+  "lrclibId": 36979760,
+  "duration": 201,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F#m – G – D – Bm – A – Gmaj7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Bm"
+   ]
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "A:2",
+     "F#m:2"
+    ],
+    "G",
+    [
+     "A:2",
+     "F#m:2"
+    ],
+    "G",
+    "F#m",
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    "F#m",
+    "Gmaj7",
+    "F#",
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "F#m:2"
+    ],
+    "%",
+    "%",
+    "D",
+    "F#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    "D",
+    "F#m",
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "A:2",
+     "F#m:2"
+    ],
+    "G",
+    [
+     "A:2",
+     "F#m:2"
+    ],
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    "F#m",
+    "Gmaj7",
+    "F#",
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "F#m:2"
+    ],
+    "%",
+    "%",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "F#m",
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    "D",
+    "F#m",
+    "%",
+    "Bm",
+    "G",
+    "Em",
+    "%",
+    "D",
+    "F#m",
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    "D",
+    [
+     "D:2",
+     "F#m:2"
+    ],
+    "%",
+    [
+     "Bm:1",
+     "G:1",
+     "D:1",
+     "F#m:1"
+    ],
+    "D",
+    [
+     "D:2",
+     "F#m:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   1,
+   4.605
+  ],
+  [
+   6,
+   24.082
+  ],
+  [
+   11,
+   43.404
+  ],
+  [
+   15,
+   59.09
+  ],
+  [
+   20,
+   78.76
+  ],
+  [
+   24,
+   94.252
+  ],
+  [
+   28,
+   109.7
+  ],
+  [
+   32,
+   125.373
+  ],
+  [
+   37,
+   145.375
+  ],
+  [
+   41,
+   161.614
+  ],
+  [
+   45,
+   177.3
+  ],
+  [
+   49,
+   192.898
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 2269454607
+}

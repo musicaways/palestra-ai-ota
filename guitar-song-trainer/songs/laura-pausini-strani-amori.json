@@ -1,0 +1,302 @@
+{
+ "title": "Strani amori",
+ "artist": "Laura Pausini",
+ "album": "Veronica's Top 100 Van Het Jaar 1994",
+ "year": 1994,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "s5LAMxM4OV0",
+ "key": "G",
+ "bpm": 77.78,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.85,
+ "strum": "D-D-D-DU",
+ "lyricsSource": {
+  "lrclibId": 37498332,
+  "duration": 256,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – A – C – F – Cadd9 – B.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Cadd9",
+    "%",
+    "C",
+    "%",
+    "Cadd9",
+    "%",
+    [
+     "Cadd9:2",
+     "C:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    [
+     "Fmaj7:2",
+     "F6:2"
+    ],
+    [
+     "G4:2",
+     "G:2"
+    ],
+    [
+     "Cadd9:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Am:2"
+    ],
+    [
+     "Dm7:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "G:2"
+    ],
+    [
+     "Cadd9:2",
+     "C:2"
+    ],
+    [
+     "Fmaj7:2",
+     "F6:2"
+    ],
+    [
+     "G4:2",
+     "G:2"
+    ],
+    [
+     "Cadd9:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Am:2"
+    ],
+    [
+     "Dm7:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "G:2"
+    ],
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "F6",
+    "G",
+    "C",
+    [
+     "F:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Am:2"
+    ],
+    "Dm7",
+    "G",
+    "C",
+    "E7",
+    "%",
+    "%",
+    "F",
+    [
+     "Em7:2",
+     "Am7:2"
+    ],
+    "Dm7",
+    "G",
+    "Dadd9"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    [
+     "Gmaj7:2",
+     "G6:2"
+    ],
+    [
+     "A4:2",
+     "A:2"
+    ],
+    [
+     "Dadd9:2",
+     "D:2"
+    ],
+    [
+     "G:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    "G",
+    "A",
+    "D",
+    "Em7",
+    "A",
+    "D",
+    [
+     "G:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    "G",
+    "A",
+    [
+     "E:2",
+     "F#m7:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "B",
+    "E",
+    "A",
+    "B",
+    "C#m",
+    "F#m7",
+    "B",
+    "E",
+    "%",
+    "G#7",
+    "C#m",
+    "%",
+    "%",
+    "F#m7",
+    "B",
+    [
+     "Eadd9:2",
+     "E:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    [
+     "Amaj7:2",
+     "A6:2"
+    ],
+    "B",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   13.251
+  ],
+  [
+   9,
+   28.54
+  ],
+  [
+   14,
+   43.947
+  ],
+  [
+   18,
+   55.989
+  ],
+  [
+   24,
+   75.357
+  ],
+  [
+   30,
+   94.003
+  ],
+  [
+   34,
+   106.214
+  ],
+  [
+   40,
+   124.12
+  ],
+  [
+   46,
+   142.41
+  ],
+  [
+   50,
+   155.286
+  ],
+  [
+   54,
+   167.823
+  ],
+  [
+   59,
+   183.057
+  ],
+  [
+   64,
+   197.781
+  ],
+  [
+   68,
+   210.124
+  ],
+  [
+   72,
+   222.809
+  ],
+  [
+   75,
+   232.207
+  ]
+ ],
+ "strumSource": "ultimate-guitar",
+ "deezerId": 810803
+}

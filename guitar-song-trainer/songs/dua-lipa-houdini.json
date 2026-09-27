@@ -1,0 +1,232 @@
+{
+ "title": "Houdini",
+ "artist": "Dua Lipa",
+ "album": "Houdini",
+ "year": 2023,
+ "genre": "Pop",
+ "difficulty": 1,
+ "youtubeId": "Jq-Mrc5WCtQ",
+ "key": "Bb",
+ "bpm": 117.01,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.11,
+ "strum": "D-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 36814954,
+  "duration": 186,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bb – Am – C – Dm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Bb"
+   ]
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello (1)",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello (2)",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello (3)",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello (4)",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "Bb",
+    "%",
+    "Am",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bb",
+    "%",
+    "Am",
+    "%",
+    "Bb",
+    "%",
+    "Am",
+    "C",
+    "%",
+    [
+     "C:2",
+     "Dm:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  }
+ ],
+ "warp": [
+  [
+   1,
+   1.999
+  ],
+  [
+   9,
+   18.397
+  ],
+  [
+   13,
+   26.601
+  ],
+  [
+   17,
+   35.163
+  ],
+  [
+   23,
+   47.47
+  ],
+  [
+   27,
+   55.488
+  ],
+  [
+   32,
+   65.771
+  ],
+  [
+   37,
+   76.602
+  ],
+  [
+   43,
+   88.766
+  ],
+  [
+   50,
+   102.669
+  ],
+  [
+   55,
+   112.749
+  ],
+  [
+   73,
+   149.7
+  ],
+  [
+   78,
+   160.022
+  ],
+  [
+   85,
+   174.287
+  ],
+  [
+   88,
+   180.44
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 2525537871
+}

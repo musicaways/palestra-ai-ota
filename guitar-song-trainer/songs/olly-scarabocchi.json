@@ -1,0 +1,197 @@
+{
+ "title": "Scarabocchi",
+ "artist": "Olly",
+ "album": "Juli",
+ "year": 2024,
+ "genre": "Pop",
+ "difficulty": 3,
+ "youtubeId": "M1QDoRv4zmk",
+ "key": "Dm7",
+ "bpm": 127.26,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.13,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 18311181,
+  "duration": 181,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bbadd9 – Dm7 – F – C4 – Gm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Dm7",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "Dm7",
+    "Bbadd9",
+    [
+     "Bbadd9:2",
+     "F:2"
+    ],
+    "%",
+    "Dm7",
+    "F",
+    "%",
+    "%",
+    "Dm7",
+    "Bbadd9",
+    "F",
+    "%",
+    "%",
+    [
+     "Dm7:2",
+     "Bbadd9:2"
+    ],
+    "F",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "C4",
+    "%",
+    "%",
+    "Dm7",
+    "%",
+    "Bbadd9",
+    "%",
+    "Dm7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bbadd9",
+    "%",
+    "C4"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "%",
+    "Dm7",
+    [
+     "Dm7:2",
+     "Bbadd9:2"
+    ],
+    "%",
+    "C4",
+    "Dm7",
+    [
+     "Dm7:2",
+     "Bbadd9:2"
+    ],
+    "%",
+    "%",
+    "Bbadd9",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "C4",
+    "%",
+    "Dm7",
+    "%",
+    "Bbadd9",
+    [
+     "Bbadd9:2",
+     "F:2"
+    ],
+    "%",
+    "Dm7",
+    "Bbadd9",
+    [
+     "Bbadd9:2",
+     "F:2"
+    ],
+    "%",
+    "Dm7",
+    "Bbadd9",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    [
+     "Dm7:2",
+     "Bbadd9:2"
+    ],
+    "F",
+    "%",
+    "%",
+    "Dm7",
+    [
+     "Dm7:2",
+     "Bbadd9:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "C4",
+    "Dm7",
+    [
+     "Dm7:2",
+     "Bbadd9:2"
+    ],
+    "%",
+    "%",
+    "Bbadd9",
+    "%",
+    "F",
+    "%",
+    "Gm7",
+    "%",
+    "C4",
+    "%",
+    "%",
+    "Dm7",
+    "Bbadd9",
+    "%",
+    [
+     "Bbadd9:2",
+     "F:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima"
+}

@@ -1,0 +1,295 @@
+{
+ "title": "Che vita meravigliosa",
+ "artist": "Diodato",
+ "album": "Che vita meravigliosa  (single)",
+ "year": 2021,
+ "genre": "Cantautori",
+ "difficulty": 5,
+ "youtubeId": "rLr5V8-JrJw",
+ "key": "C#",
+ "bpm": 95.15,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.87,
+ "strum": "D--UDUDU",
+ "lyricsSource": {
+  "lrclibId": 34080183,
+  "duration": 212,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C# – F#m – Bm – D – C#4 – C#m.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F#m",
+    "C#",
+    "D",
+    "C#"
+   ],
+   "strum": "D-------"
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    [
+     "F#m:2",
+     "C#m:2"
+    ],
+    "D",
+    "C#",
+    "%",
+    [
+     "F#m:2",
+     "C#m:2"
+    ],
+    "D",
+    "C#",
+    "%",
+    [
+     "Bm:2",
+     "C#:2"
+    ],
+    [
+     "C#:2",
+     "F#m:2"
+    ],
+    [
+     "Bm:2",
+     "C#:2"
+    ],
+    [
+     "C#:2",
+     "F#m:2"
+    ],
+    [
+     "Bm:2",
+     "C#:2"
+    ],
+    [
+     "C#:2",
+     "F#m:2"
+    ],
+    "D",
+    "C#7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    [
+     "F#m:2",
+     "Bm:2"
+    ],
+    "D",
+    "C#",
+    "%",
+    [
+     "F#m:2",
+     "Bm:2"
+    ],
+    "D",
+    "C#",
+    "%",
+    [
+     "F#m:2",
+     "C#m:2"
+    ],
+    "D",
+    "C#",
+    "%",
+    [
+     "F#m:2",
+     "C#m:2"
+    ],
+    "D",
+    "C#",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    [
+     "Bm:2",
+     "C#:2"
+    ],
+    [
+     "C#:2",
+     "F#m:2"
+    ],
+    [
+     "Bm:2",
+     "C#:2"
+    ],
+    [
+     "C#:2",
+     "F#m:2"
+    ],
+    [
+     "Bm:2",
+     "C#:2"
+    ],
+    [
+     "C#:2",
+     "F#m:2"
+    ],
+    "D",
+    "C#",
+    [
+     "F#m:2",
+     "Bm:2"
+    ],
+    "D",
+    "C#",
+    "%",
+    [
+     "F#m:2",
+     "Bm:2"
+    ],
+    "D",
+    "C#",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    [
+     "F#m:2",
+     "Bm:2"
+    ],
+    "D",
+    "C#",
+    "%",
+    [
+     "F#m:2",
+     "Bm:2"
+    ],
+    "D",
+    "C#",
+    "%",
+    "Bm",
+    "C#",
+    "D",
+    "C#",
+    "F#m",
+    "Bm",
+    [
+     "D:2",
+     "C#4:2"
+    ],
+    [
+     "C#4:2",
+     "C#:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "F#m",
+    "Bm",
+    [
+     "D:2",
+     "C#4:2"
+    ],
+    [
+     "C#4:2",
+     "C#:2"
+    ],
+    [
+     "F#m:2",
+     "Bm:2"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    [
+     "F#m:2",
+     "Bm:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  }
+ ],
+ "warp": [
+  [
+   4,
+   11.425
+  ],
+  [
+   8,
+   21.408
+  ],
+  [
+   20,
+   51.676
+  ],
+  [
+   25,
+   64.44
+  ],
+  [
+   29,
+   74.41
+  ],
+  [
+   34,
+   87.02
+  ],
+  [
+   44,
+   112.243
+  ],
+  [
+   49,
+   125.05
+  ],
+  [
+   54,
+   137.629
+  ],
+  [
+   60,
+   151.96
+  ],
+  [
+   66,
+   167.094
+  ],
+  [
+   72,
+   182.269
+  ],
+  [
+   76,
+   192.37
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 964404282
+}

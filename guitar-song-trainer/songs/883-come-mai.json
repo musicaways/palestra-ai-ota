@@ -1,0 +1,306 @@
+{
+ "title": "Come mai",
+ "artist": "883",
+ "album": "The 50 Best Italian Ballads",
+ "year": 1993,
+ "genre": "Pop",
+ "difficulty": 3,
+ "youtubeId": "ThGCZN1HPbE",
+ "key": "F",
+ "bpm": 73.53,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.33,
+ "strum": "D-------",
+ "lyricsSource": {
+  "lrclibId": 37012347,
+  "duration": 258.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F – Bb – C – Dm – Gm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F",
+    "C",
+    "Bb",
+    "F"
+   ]
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    [
+     "F:1",
+     "Dm:1",
+     "Bb:1",
+     "C:1"
+    ],
+    "%",
+    [
+     "F:1",
+     "Dm:1",
+     "Bb:1",
+     "C:1"
+    ],
+    "%",
+    [
+     "Bb:1",
+     "C:1",
+     "Dm:1",
+     "F:1"
+    ],
+    "%",
+    "Bb",
+    "C",
+    [
+     "F:1",
+     "Dm:1",
+     "Bb:1",
+     "C:1"
+    ],
+    "%",
+    [
+     "F:1",
+     "Dm:1",
+     "Bb:1",
+     "C:1"
+    ],
+    "%",
+    [
+     "Bb:1",
+     "C:1",
+     "Dm:1",
+     "F:1"
+    ],
+    "%",
+    "Bb",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    [
+     "Bb:1",
+     "F:1",
+     "Bb:1",
+     "F:1"
+    ],
+    "%",
+    "%",
+    [
+     "Bb:1",
+     "F:2",
+     "C:1"
+    ],
+    [
+     "Bb:1",
+     "F:1",
+     "Bb:1",
+     "F:1"
+    ],
+    "%",
+    [
+     "Bb:1",
+     "F:1",
+     "Gm7:1",
+     "C:1"
+    ],
+    "%",
+    "%",
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Gm7:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    [
+     "F:1",
+     "Dm:1",
+     "Bb:1",
+     "C:1"
+    ],
+    "%",
+    [
+     "F:1",
+     "Dm:1",
+     "Bb:1",
+     "C:1"
+    ],
+    "%",
+    [
+     "Bb:1",
+     "C:1",
+     "Dm:1",
+     "F:1"
+    ],
+    "%",
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    "%",
+    [
+     "Bb:1",
+     "F:1",
+     "Bb:1",
+     "F:1"
+    ],
+    "%",
+    "%",
+    [
+     "Bb:1",
+     "F:2",
+     "C:1"
+    ],
+    [
+     "Bb:1",
+     "F:1",
+     "Bb:1",
+     "F:1"
+    ],
+    "%",
+    [
+     "Bb:1",
+     "F:1",
+     "Gm7:1",
+     "C:1"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "%",
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Gm7:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Gm7:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "C",
+    "%",
+    [
+     "C:2",
+     "F:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "C",
+    "%",
+    "F",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima",
+ "deezerId": 766655,
+ "spotifyId": "7o6vv6oMRelhJNnLZyhJuG"
+}

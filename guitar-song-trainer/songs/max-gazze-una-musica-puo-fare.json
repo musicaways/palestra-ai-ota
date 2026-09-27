@@ -1,0 +1,402 @@
+{
+ "title": "Una musica può fare",
+ "artist": "Max Gazzè",
+ "album": "La Favola Di Adamo Ed Eva (Remastered 2018)",
+ "year": 1998,
+ "genre": "Cantautori",
+ "difficulty": 5,
+ "youtubeId": "pB2oVsUX_7o",
+ "key": "Am",
+ "bpm": 147.09,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.51,
+ "strum": "D-D-DUDU",
+ "lyricsSource": {
+  "lrclibId": 33583261,
+  "duration": 251,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Am – D – E – Em – G – C.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Am",
+    "Em",
+    "D",
+    "E",
+    "Am",
+    "Em",
+    "D",
+    "E",
+    "Am",
+    "Am",
+    "Am",
+    "G",
+    "Am",
+    [
+     "Em:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "E:2"
+    ],
+    "A"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Am",
+    "G",
+    "Am",
+    [
+     "Em:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "E:2"
+    ],
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Am",
+    "G",
+    [
+     "Am:2",
+     "Em:2"
+    ],
+    "D",
+    [
+     "E:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "Am:2",
+     "G:2"
+    ],
+    "%",
+    "Am",
+    [
+     "Em:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "E:2"
+    ],
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Am",
+    "G",
+    "C",
+    "Bb",
+    "F",
+    "Dm",
+    [
+     "C:2",
+     "Bb:2"
+    ],
+    "F",
+    "C",
+    [
+     "C:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "Dm:2",
+     "A7:2"
+    ],
+    [
+     "A7:2",
+     "Bb:2"
+    ],
+    "Am",
+    "%",
+    "Em",
+    "%",
+    "D",
+    "%",
+    "E",
+    "%",
+    "Am",
+    "%",
+    "Em",
+    "%",
+    "Am",
+    "G",
+    "Am",
+    [
+     "Em:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "E:2"
+    ],
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "Am",
+    "G",
+    "Am",
+    [
+     "Em:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "E:2"
+    ],
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    "Am",
+    "G",
+    "C",
+    "G",
+    "Am",
+    "E",
+    "C",
+    "G",
+    [
+     "G:2",
+     "Am:2"
+    ],
+    "%",
+    "E",
+    "Am",
+    "Em",
+    "D",
+    "E",
+    "Am",
+    "Em",
+    "D",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 7",
+   "bars": [
+    [
+     "Am:2",
+     "Em:2"
+    ],
+    [
+     "D:2",
+     "E:2"
+    ],
+    "Am",
+    "G",
+    "Bm",
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "F#:2"
+    ],
+    "Bm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 8",
+   "bars": [
+    "Am",
+    "G",
+    "Bm",
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "F#:2"
+    ],
+    "B"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 9",
+   "bars": [
+    "Bm",
+    "A",
+    "D",
+    "C",
+    "G",
+    "Em",
+    "D",
+    "C",
+    "D",
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 10",
+   "bars": [
+    [
+     "Em:2",
+     "B7:2"
+    ],
+    [
+     "B7:2",
+     "C:2"
+    ],
+    "Am",
+    "%",
+    "Em",
+    "%",
+    "D",
+    "%",
+    "E",
+    "%",
+    "Am",
+    "%",
+    "Em",
+    "%",
+    "D",
+    "%",
+    "E",
+    "%",
+    "Am",
+    "%",
+    "Em",
+    "%",
+    "D",
+    "%",
+    "E",
+    "%",
+    "Am",
+    "%",
+    "Em",
+    "%",
+    "D",
+    "%",
+    "E",
+    "%",
+    "Am",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   10,
+   17.947
+  ],
+  [
+   16,
+   27.69
+  ],
+  [
+   22,
+   37.492
+  ],
+  [
+   27,
+   45.638
+  ],
+  [
+   34,
+   57.072
+  ],
+  [
+   39,
+   65.275
+  ],
+  [
+   46,
+   76.587
+  ],
+  [
+   60,
+   99.377
+  ],
+  [
+   68,
+   112.42
+  ],
+  [
+   74,
+   122.06
+  ],
+  [
+   83,
+   136.728
+  ],
+  [
+   91,
+   149.857
+  ],
+  [
+   99,
+   162.99
+  ],
+  [
+   105,
+   172.927
+  ],
+  [
+   110,
+   181.125
+  ],
+  [
+   117,
+   192.762
+  ]
+ ],
+ "strumSource": "stima"
+}

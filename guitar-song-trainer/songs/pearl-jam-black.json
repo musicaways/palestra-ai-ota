@@ -1,0 +1,247 @@
+{
+ "title": "Black",
+ "artist": "Pearl Jam",
+ "album": "Best of Rock: The Ultimate Collection",
+ "year": 1991,
+ "genre": "Rock",
+ "difficulty": 2,
+ "youtubeId": "EWII6i32vSI",
+ "key": "E",
+ "bpm": 77.07,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.21,
+ "strum": "D-D-D-DU",
+ "lyricsSource": {
+  "lrclibId": 36982843,
+  "duration": 344,
+  "offset": 0
+ },
+ "notes": "Accordi principali: E – C – Em – D – Aadd9 – A.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "E",
+    "Aadd9",
+    "E",
+    "%",
+    "%",
+    "%",
+    "%",
+    "E",
+    "%",
+    "Aadd9",
+    "%",
+    "E",
+    "%",
+    "A",
+    "%",
+    "E",
+    [
+     "E:2",
+     "Aadd9:2"
+    ],
+    [
+     "Aadd9:2",
+     "E:2"
+    ],
+    "%",
+    "E",
+    "%",
+    "A",
+    "%",
+    "C",
+    "%",
+    "Em",
+    "%",
+    "C",
+    "%",
+    "Em",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "C",
+    "%",
+    "Em",
+    "C",
+    "%",
+    "Em",
+    "%",
+    "E",
+    [
+     "E:2",
+     "Aadd9:2"
+    ],
+    "%",
+    "E",
+    [
+     "E:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    "C",
+    "%",
+    "%",
+    "%",
+    "%",
+    "C",
+    [
+     "C:2",
+     "Em:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "D",
+    "%",
+    "Em",
+    "C",
+    "%",
+    "Em",
+    "C",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Em",
+    "D",
+    [
+     "D:2",
+     "C:2"
+    ],
+    "%",
+    [
+     "Em:1",
+     "D:2",
+     "C:1"
+    ],
+    "Em",
+    "D",
+    "C",
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   7,
+   24.498
+  ],
+  [
+   11,
+   36.954
+  ],
+  [
+   19,
+   61.419
+  ],
+  [
+   31,
+   98.668
+  ],
+  [
+   36,
+   113.85
+  ],
+  [
+   45,
+   141.876
+  ],
+  [
+   50,
+   157.447
+  ],
+  [
+   55,
+   173.511
+  ],
+  [
+   61,
+   192.43
+  ],
+  [
+   66,
+   208.021
+  ],
+  [
+   70,
+   220.58
+  ],
+  [
+   78,
+   245.656
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 7675132,
+ "spotifyId": "5Xak5fmy089t0FYmh3VJiY"
+}

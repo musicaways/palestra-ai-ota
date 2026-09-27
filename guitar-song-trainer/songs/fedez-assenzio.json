@@ -1,0 +1,318 @@
+{
+ "title": "Assenzio",
+ "artist": "Fedez",
+ "album": "Fedez Videos",
+ "year": 2022,
+ "genre": "Pop / Rap",
+ "difficulty": 4,
+ "youtubeId": "WA5T9ki1RFU",
+ "key": "Am",
+ "bpm": 79.71,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.61,
+ "strum": "D--D-UD-",
+ "lyricsSource": {
+  "lrclibId": 18120710,
+  "duration": 250,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Am – G – F – C – Em – Fadd9.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Am",
+    "F",
+    "G"
+   ],
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Am",
+    [
+     "Fadd9:2",
+     "G:2"
+    ],
+    "Am7",
+    "G",
+    [
+     "Am:2",
+     "Em:2"
+    ],
+    [
+     "Fadd9:2",
+     "G:2"
+    ],
+    [
+     "Am7:2",
+     "Fadd9:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    "Am",
+    [
+     "Fadd9:2",
+     "G:2"
+    ],
+    [
+     "Am:2",
+     "F:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "Am:2",
+     "Em:2"
+    ],
+    [
+     "F:2",
+     "G:2"
+    ],
+    [
+     "Am:2",
+     "Fmaj7:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "Am:2",
+     "Em:2"
+    ],
+    [
+     "F:2",
+     "G:2"
+    ],
+    [
+     "Am:2",
+     "Fadd9:2"
+    ],
+    "C",
+    "Am",
+    "%",
+    "Am",
+    [
+     "G:2",
+     "Am:2"
+    ],
+    [
+     "Em:2",
+     "F:2"
+    ],
+    [
+     "G:2",
+     "Am:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    "G",
+    "%",
+    "Am",
+    "F",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Am:1",
+     "Em:2",
+     "Fadd9:1"
+    ],
+    [
+     "G:2",
+     "Am:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    "G",
+    [
+     "Am:2",
+     "Em:2"
+    ],
+    "G",
+    [
+     "Am:2",
+     "Fadd9:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    "Am",
+    "F",
+    "Am",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "Am",
+    "F",
+    "F",
+    "C",
+    [
+     "Am:2",
+     "Em:2"
+    ],
+    [
+     "F:2",
+     "G:2"
+    ],
+    "Am",
+    "G",
+    "Am",
+    "%",
+    "Am",
+    [
+     "G:2",
+     "Am:2"
+    ],
+    [
+     "Em:2",
+     "F:2"
+    ],
+    [
+     "G:2",
+     "Am:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "G:2",
+     "Am:2"
+    ],
+    [
+     "F:2",
+     "G:2"
+    ],
+    "Am",
+    "F",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Fmaj7:1",
+     "Am:2",
+     "G:1"
+    ],
+    [
+     "C:2",
+     "Fmaj7:2"
+    ],
+    [
+     "Am:2",
+     "G:2"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    "Am",
+    "F",
+    "G",
+    "Am",
+    "F",
+    "C",
+    "G",
+    "Am",
+    "F",
+    "G",
+    "Am",
+    "F"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   3,
+   11.898
+  ],
+  [
+   7,
+   23.748
+  ],
+  [
+   11,
+   35.787
+  ],
+  [
+   15,
+   47.8
+  ],
+  [
+   19,
+   59.688
+  ],
+  [
+   23,
+   71.732
+  ],
+  [
+   29,
+   89.915
+  ],
+  [
+   35,
+   108.215
+  ],
+  [
+   39,
+   119.94
+  ],
+  [
+   43,
+   131.559
+  ],
+  [
+   47,
+   143.572
+  ],
+  [
+   51,
+   155.603
+  ],
+  [
+   55,
+   167.841
+  ],
+  [
+   61,
+   186.25
+  ],
+  [
+   67,
+   204.957
+  ],
+  [
+   71,
+   217.043
+  ]
+ ],
+ "strumSource": "stima"
+}

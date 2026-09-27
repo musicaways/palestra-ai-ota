@@ -1,0 +1,279 @@
+{
+ "title": "90MIN",
+ "artist": "Salmo",
+ "album": "Playlist",
+ "year": 2018,
+ "genre": "Rap / Hip-hop",
+ "difficulty": 3,
+ "youtubeId": "bz0qaxRGrdM",
+ "key": "Fa minore (Fm)",
+ "bpm": 122.04,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.33,
+ "strum": "B--D-UD-",
+ "lyricsSource": {
+  "lrclibId": 9160567,
+  "duration": 232,
+  "offset": 0
+ },
+ "notes": "Adattamento per chitarra del brano rap: giro Db – Eb – Fm, due battute per accordo; ponte Bbm – C7 – Fm – Db6. Col capotasto al 1° diventa C – D – Em.",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. L'app controlla da sola che testo e accordi siano coerenti; per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Cm",
+    "%",
+    "Ab",
+    "%",
+    "Eb",
+    "%",
+    "Fm",
+    "%"
+   ],
+   "strum": "B-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Db",
+    "%",
+    "Eb",
+    "%",
+    "Fm",
+    "%",
+    "Fm",
+    "%",
+    "Db",
+    "%",
+    "Eb",
+    "%",
+    "Fm",
+    "%",
+    "Fm",
+    "%",
+    "Db",
+    "%",
+    "Eb",
+    "%",
+    "Fm",
+    "%",
+    "Fm",
+    "%",
+    "Db",
+    "%",
+    "Eb",
+    "%",
+    "Fm",
+    "%",
+    "Fm",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Ponte",
+   "bars": [
+    "Bbm",
+    "%",
+    "C7",
+    "%",
+    "Fm",
+    "%",
+    "Db6",
+    "%"
+   ],
+   "strum": "D--D--D-"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Db",
+    "%",
+    "Eb",
+    "%",
+    "Fm",
+    "%",
+    "Fm",
+    "%",
+    "Db",
+    "%",
+    "Eb",
+    "%",
+    "Fm",
+    "%",
+    "Fm",
+    "%"
+   ],
+   "barsPerRow": 8,
+   "strum": "D-DUXUDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Db",
+    "%",
+    "Eb",
+    "%",
+    "Fm",
+    "%",
+    "Fm",
+    "%",
+    "Db",
+    "%",
+    "Eb",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Ponte",
+   "bars": [
+    "Bbm",
+    "%",
+    "C7",
+    "%",
+    "Fm",
+    "%",
+    "Db6",
+    "%"
+   ],
+   "strum": "D--D--D-"
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Db",
+    "%",
+    "Eb",
+    "%",
+    "Fm",
+    "%",
+    "Fm",
+    "%",
+    "Db",
+    "%",
+    "Eb",
+    "%",
+    "Fm",
+    "%",
+    "Fm",
+    "%",
+    "Db",
+    "%",
+    "Eb",
+    "%",
+    "Fm",
+    "%",
+    "Fm",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Outro",
+   "bars": [
+    "Fm",
+    "%",
+    "Db",
+    "%",
+    "Eb",
+    "%",
+    "Fm",
+    "%",
+    "Db",
+    "%"
+   ],
+   "barsPerRow": 8,
+   "strum": "B-------"
+  }
+ ],
+ "warp": [
+  [
+   11,
+   22.09
+  ],
+  [
+   15,
+   29.927
+  ],
+  [
+   20,
+   39.747
+  ],
+  [
+   26,
+   51.47
+  ],
+  [
+   30,
+   59.33
+  ],
+  [
+   34,
+   67.297
+  ],
+  [
+   39,
+   77.027
+  ],
+  [
+   43,
+   84.893
+  ],
+  [
+   52,
+   102.597
+  ],
+  [
+   56,
+   110.52
+  ],
+  [
+   60,
+   118.396
+  ],
+  [
+   64,
+   126.42
+  ],
+  [
+   68,
+   134.167
+  ],
+  [
+   73,
+   143.98
+  ],
+  [
+   77,
+   151.66
+  ],
+  [
+   85,
+   167.42
+  ],
+  [
+   90,
+   177.197
+  ],
+  [
+   95,
+   186.61
+  ],
+  [
+   101,
+   198.92
+  ],
+  [
+   109,
+   214.779
+  ]
+ ],
+ "strumSource": "stima"
+}

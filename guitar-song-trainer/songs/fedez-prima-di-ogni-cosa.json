@@ -1,0 +1,173 @@
+{
+ "title": "Prima di ogni cosa",
+ "artist": "Fedez",
+ "album": "Hot Tracks Italia",
+ "year": 2019,
+ "genre": "Pop / Rap",
+ "difficulty": 3,
+ "youtubeId": "_epCqy-7GOA",
+ "key": "C",
+ "bpm": 65.98,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 3.04,
+ "strum": "D--D--D-",
+ "lyricsSource": {
+  "lrclibId": 20663042,
+  "duration": 186.853878,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – Bb – F – Gm7 – Dm – Bbadd9.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Parte 1",
+   "bars": [
+    [
+     "Dm:2",
+     "Gm7:2"
+    ],
+    "%",
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "Dm:2",
+     "Gm7:2"
+    ],
+    "%",
+    "Bb",
+    "F",
+    [
+     "Dm:2",
+     "C:2"
+    ],
+    "Bb",
+    "F",
+    "C",
+    "%",
+    "Bb",
+    "%",
+    "%",
+    "Bbadd9"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    [
+     "C:2",
+     "A7:2"
+    ],
+    "Gm7",
+    "%",
+    "%",
+    "Gm7",
+    "%",
+    "C",
+    [
+     "F:2",
+     "C:2"
+    ],
+    "%",
+    "Bb",
+    "Bb",
+    "F",
+    [
+     "Dm:2",
+     "C:2"
+    ],
+    "Bb",
+    "F",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    "Bb",
+    "%",
+    "%",
+    "Bbadd9",
+    [
+     "C:2",
+     "A7:2"
+    ],
+    "Gm7",
+    "%",
+    "%",
+    "Gm7",
+    "%",
+    "C",
+    "%",
+    "%",
+    "%",
+    "C",
+    "%",
+    "F",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   0,
+   3.495
+  ],
+  [
+   4,
+   17.337
+  ],
+  [
+   8,
+   31.585
+  ],
+  [
+   14,
+   53.955
+  ],
+  [
+   18,
+   68.57
+  ],
+  [
+   22,
+   83.42
+  ],
+  [
+   26,
+   97.525
+  ],
+  [
+   30,
+   111.472
+  ],
+  [
+   35,
+   130.31
+  ],
+  [
+   39,
+   144.935
+  ],
+  [
+   43,
+   159.578
+  ],
+  [
+   47,
+   174.127
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 570424512
+}

@@ -1,0 +1,363 @@
+{
+ "title": "America",
+ "artist": "Gianna Nannini",
+ "album": "Canzoni D'autore 2",
+ "year": 1979,
+ "genre": "Rock",
+ "difficulty": 1,
+ "youtubeId": "X3-nCHdQKcw",
+ "key": "E",
+ "bpm": 124.29,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.29,
+ "strum": "PPPP-PPU",
+ "lyricsSource": {
+  "lrclibId": 36977962,
+  "duration": 262,
+  "offset": 0
+ },
+ "notes": "Accordi principali: E – A – D – E7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "A",
+    "E",
+    "D",
+    "E",
+    "A",
+    "E",
+    "D",
+    "E",
+    "A",
+    [
+     "D:2",
+     "E:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "D:2",
+     "E:2"
+    ]
+   ],
+   "barsPerRow": 4,
+   "strum": "D-D-D-D-"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "D:2",
+     "E:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "D:2",
+     "E:2"
+    ],
+    "A",
+    [
+     "E:1",
+     "D:1",
+     "E:1",
+     "A:1"
+    ],
+    [
+     "A:1",
+     "E:1",
+     "D:1",
+     "E:1"
+    ],
+    "D",
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "E",
+    [
+     "E:2",
+     "E7:2"
+    ],
+    "%",
+    [
+     "E7:2",
+     "A:2"
+    ],
+    "%",
+    "E",
+    [
+     "E:2",
+     "E7:2"
+    ],
+    [
+     "E7:2",
+     "A:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "E",
+    "%",
+    "E7",
+    "%",
+    "A",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "E",
+    "E7",
+    "A",
+    "E",
+    "%",
+    "E",
+    "%",
+    "E",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "E",
+    "%",
+    "E",
+    "%",
+    [
+     "D:2",
+     "E:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "D:2",
+     "E:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "%",
+    "%",
+    "A",
+    "E",
+    [
+     "E:2",
+     "D:2"
+    ],
+    [
+     "E:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "D:2",
+     "E:2"
+    ],
+    "D",
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    "D",
+    "A",
+    "E",
+    "A",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "E",
+    [
+     "E:2",
+     "E7:2"
+    ],
+    "%",
+    [
+     "E7:2",
+     "A:2"
+    ],
+    "%",
+    "E",
+    [
+     "E:2",
+     "E7:2"
+    ],
+    [
+     "E7:2",
+     "A:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "E",
+    "%",
+    "E7",
+    "%",
+    "A",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    "E",
+    "E7",
+    "A",
+    "E",
+    "%",
+    "E",
+    "%",
+    "E",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "E",
+    "%",
+    "E",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "D",
+    "%",
+    "E",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "E",
+    "%",
+    "E",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "E",
+    "%",
+    "E"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   9,
+   17.767
+  ],
+  [
+   16,
+   31.284
+  ],
+  [
+   24,
+   46.78
+  ],
+  [
+   29,
+   56.74
+  ],
+  [
+   38,
+   74.119
+  ],
+  [
+   43,
+   83.774
+  ],
+  [
+   64,
+   124.18
+  ],
+  [
+   72,
+   139.436
+  ],
+  [
+   80,
+   154.734
+  ],
+  [
+   86,
+   166.315
+  ],
+  [
+   96,
+   185.63
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 4016824171
+}

@@ -1,0 +1,274 @@
+{
+ "title": "One",
+ "artist": "U2",
+ "album": "Het Allerbeste Uit Classics 1000 2017",
+ "year": 1991,
+ "genre": "Rock",
+ "difficulty": 2,
+ "youtubeId": "uhohCDiIvXs",
+ "key": "C",
+ "bpm": 93.71,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.94,
+ "strum": "D--UD-DU",
+ "lyricsSource": {
+  "lrclibId": 37014426,
+  "duration": 275,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – Fmaj7 – Am – D2 – G.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Am",
+    "D2",
+    "Fmaj7",
+    "G",
+    "Am"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Am",
+    "D2",
+    "Fmaj7",
+    "G",
+    "Am",
+    "D2",
+    [
+     "Fmaj7:2",
+     "G:2"
+    ],
+    "C",
+    [
+     "C:2",
+     "Am:2"
+    ],
+    "%",
+    "Fmaj7",
+    "C",
+    "C",
+    "Am",
+    [
+     "Fmaj7:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Am:2"
+    ],
+    "D2",
+    "Fmaj7",
+    "G",
+    "D2"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Am",
+    "D2",
+    "Fmaj7",
+    [
+     "Fmaj7:2",
+     "G:2"
+    ],
+    "%",
+    [
+     "Am:2",
+     "D2:2"
+    ],
+    "Fmaj7",
+    "G",
+    "C",
+    "Am",
+    "Fmaj7",
+    "C",
+    "C",
+    "Am",
+    "Fmaj7",
+    "C",
+    "Am",
+    "D2",
+    [
+     "D2:2",
+     "Fmaj7:2"
+    ],
+    "%",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Am",
+    "D2",
+    "Fmaj7",
+    "G",
+    "Am",
+    "D2",
+    "Fmaj7",
+    "G",
+    "C",
+    "Am",
+    "Fmaj7",
+    "C",
+    "C",
+    "Am",
+    "Fmaj7",
+    "C",
+    "C",
+    "Am",
+    "C",
+    "Am",
+    "C",
+    "G",
+    "Fmaj7",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "C:2",
+     "Am:2"
+    ],
+    "%",
+    "%",
+    "Fmaj7",
+    "C",
+    [
+     "Am:2",
+     "Fmaj7:2"
+    ],
+    [
+     "Fmaj7:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "C",
+    "Am",
+    "Fmaj7",
+    "C",
+    [
+     "C:1",
+     "Am:1",
+     "Fmaj7:1",
+     "C:1"
+    ],
+    [
+     "C:1",
+     "Am:1",
+     "Fmaj7:1",
+     "C:1"
+    ],
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "D2",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "D2:2",
+     "Fmaj7:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   5,
+   14.336
+  ],
+  [
+   9,
+   24.613
+  ],
+  [
+   15,
+   40.128
+  ],
+  [
+   27,
+   70.983
+  ],
+  [
+   33,
+   86.646
+  ],
+  [
+   39,
+   102.03
+  ],
+  [
+   46,
+   119.973
+  ],
+  [
+   50,
+   130.202
+  ],
+  [
+   56,
+   145.49
+  ],
+  [
+   60,
+   155.734
+  ],
+  [
+   66,
+   170.645
+  ],
+  [
+   71,
+   183.695
+  ],
+  [
+   76,
+   196.255
+  ],
+  [
+   84,
+   216.898
+  ],
+  [
+   86,
+   222.02
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 14343282,
+ "spotifyId": "2zBirMmlQAIzHGLEfWkYT9"
+}

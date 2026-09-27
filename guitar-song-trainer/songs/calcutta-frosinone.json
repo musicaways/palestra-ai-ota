@@ -1,0 +1,276 @@
+{
+ "title": "Frosinone",
+ "artist": "Calcutta",
+ "album": "3:10",
+ "year": 2015,
+ "genre": "Indie",
+ "difficulty": 4,
+ "youtubeId": "pOKaXSyeKaA",
+ "key": "E",
+ "bpm": 145.84,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.44,
+ "strum": "D-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 21004979,
+  "duration": 189.44,
+  "offset": 0
+ },
+ "notes": "Accordi principali: E – F – Am – G – Fmaj7 – C.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G7",
+    "C"
+   ],
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "G7:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Am:2"
+    ],
+    "G",
+    "C",
+    "Am",
+    "%",
+    [
+     "G:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "Am:2"
+    ],
+    "E",
+    "F",
+    "Am",
+    "%",
+    "E",
+    "F",
+    "G",
+    "C",
+    "Am",
+    "%",
+    "G",
+    "%",
+    "C",
+    "Am",
+    "G",
+    "Am",
+    "E",
+    "F",
+    "Am",
+    "%",
+    "E",
+    "F",
+    "G",
+    "%",
+    "C",
+    "%",
+    "F",
+    "E",
+    "Am",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "F:2",
+     "E:2"
+    ],
+    [
+     "Am:2",
+     "G:2"
+    ],
+    "F",
+    "%",
+    "E",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "F",
+    "E",
+    "Am",
+    "G",
+    "Fmaj7",
+    "%",
+    "Em7",
+    "%",
+    "Fmaj7",
+    "%",
+    [
+     "Fmaj7:2",
+     "Em7:2"
+    ],
+    "%",
+    "%",
+    "C",
+    "%",
+    "Am",
+    "%",
+    "C",
+    "%",
+    "Am",
+    "%",
+    "E",
+    "%",
+    "F",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "E",
+    "F",
+    "G",
+    "F",
+    "%",
+    "E",
+    "%",
+    "F",
+    "%",
+    "E",
+    "%",
+    "Fmaj7",
+    "%",
+    "Em7",
+    "%",
+    "Fmaj7",
+    "%",
+    "Em7",
+    "%",
+    "Fmaj7",
+    "%",
+    "Em7",
+    "%",
+    "Fmaj7",
+    "%",
+    "Em7",
+    "%",
+    "F",
+    "%",
+    "E",
+    "%",
+    "F",
+    "%",
+    "E",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "Fmaj7",
+    "%",
+    "%",
+    "%",
+    [
+     "Fmaj7:2",
+     "Em7:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  }
+ ],
+ "warp": [
+  [
+   2,
+   4.849
+  ],
+  [
+   6,
+   11.431
+  ],
+  [
+   12,
+   21.239
+  ],
+  [
+   18,
+   31.199
+  ],
+  [
+   22,
+   37.781
+  ],
+  [
+   28,
+   47.361
+  ],
+  [
+   36,
+   60.607
+  ],
+  [
+   42,
+   70.481
+  ],
+  [
+   50,
+   83.646
+  ],
+  [
+   59,
+   98.332
+  ],
+  [
+   63,
+   104.915
+  ],
+  [
+   71,
+   118.163
+  ],
+  [
+   78,
+   129.913
+  ],
+  [
+   86,
+   143.078
+  ],
+  [
+   94,
+   156.198
+  ],
+  [
+   98,
+   162.918
+  ],
+  [
+   106,
+   175.855
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 142746418
+}

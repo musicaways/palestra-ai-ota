@@ -1,0 +1,276 @@
+{
+ "title": "Comfortably Numb",
+ "artist": "Pink Floyd",
+ "album": "The Wall Live Earl's Court Disc 2",
+ "year": 1979,
+ "genre": "Rock",
+ "difficulty": 2,
+ "youtubeId": "P_4uEaZQ2Kg",
+ "key": "A",
+ "bpm": 63.14,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 3.52,
+ "strum": "P-P-D-DU",
+ "lyricsSource": {
+  "lrclibId": 36946303,
+  "duration": 446,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – G – D – C – Bm – Em.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Bm"
+   ]
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Bm",
+    "A",
+    [
+     "G:2",
+     "Em:2"
+    ],
+    "Bm",
+    "Bm",
+    "A",
+    [
+     "G:2",
+     "Em:2"
+    ],
+    "Bm",
+    "Bm",
+    "A",
+    [
+     "G:2",
+     "Em:2"
+    ],
+    "Bm",
+    "D",
+    "A",
+    "D",
+    "A",
+    "C",
+    "G",
+    "C",
+    "G",
+    "D",
+    "A",
+    "D",
+    "A",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "C",
+    "G",
+    "%",
+    [
+     "A:1",
+     "C:1",
+     "G:1",
+     "D:1"
+    ],
+    "D",
+    "A",
+    "D",
+    "A",
+    "C",
+    "G",
+    "C",
+    "G",
+    "D",
+    "A",
+    "A",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    "A",
+    [
+     "G:2",
+     "Em:2"
+    ],
+    "Bm",
+    "Bm",
+    "A",
+    [
+     "G:2",
+     "Em:2"
+    ],
+    "Bm",
+    "D",
+    "A",
+    "D",
+    "A",
+    "C",
+    "G",
+    "C",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "D",
+    "A",
+    "D",
+    "A",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "C",
+    "%",
+    "G",
+    "A",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "A:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   1,
+   6.927
+  ],
+  [
+   5,
+   22.131
+  ],
+  [
+   10,
+   41.771
+  ],
+  [
+   15,
+   60.686
+  ],
+  [
+   21,
+   83.492
+  ],
+  [
+   25,
+   98.83
+  ],
+  [
+   29,
+   114.138
+  ],
+  [
+   40,
+   155.95
+  ],
+  [
+   45,
+   174.258
+  ],
+  [
+   49,
+   189.462
+  ],
+  [
+   55,
+   212.724
+  ],
+  [
+   61,
+   235.546
+  ],
+  [
+   67,
+   258.796
+  ]
+ ],
+ "strumSource": "stima"
+}

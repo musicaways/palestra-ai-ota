@@ -1,0 +1,229 @@
+{
+ "title": "Azzurro",
+ "artist": "Adriano Celentano",
+ "album": "Mixone 2024",
+ "year": 1968,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "HCyzGuipTd4",
+ "key": "G7",
+ "bpm": 119.03,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.57,
+ "strum": "D-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 12897601,
+  "duration": 223.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G7 – C – Cm – Fm – F – Em.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Cm",
+    "G7",
+    "Cm",
+    "G7",
+    "Cm",
+    [
+     "Cm:2",
+     "G7:2"
+    ],
+    [
+     "G7:2",
+     "Cm:2"
+    ],
+    "%",
+    "Fm",
+    "C7",
+    "Fm",
+    "C7",
+    "C",
+    "G",
+    "Em7",
+    "A7"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "%",
+    "D7",
+    "%",
+    "C",
+    "%",
+    "G7",
+    "%",
+    "F",
+    [
+     "F:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "Am:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "C",
+    "G7",
+    "C",
+    "Cm",
+    "%",
+    "G7",
+    "%",
+    "Cm",
+    "G7",
+    "Cm",
+    "G7",
+    "Fm",
+    [
+     "Fm:2",
+     "C7:2"
+    ],
+    [
+     "C7:2",
+     "Fm:2"
+    ],
+    "%",
+    "D7",
+    "G7",
+    "C",
+    "G7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "%",
+    "D7",
+    "%",
+    "C",
+    "%",
+    "G7",
+    "%",
+    "F",
+    [
+     "F:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "Am:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "C",
+    "G7",
+    "C",
+    "Cm",
+    "%",
+    "G7",
+    "%",
+    "Cm",
+    "G7",
+    "Cm",
+    "G7",
+    "Fm",
+    [
+     "Fm:2",
+     "C7:2"
+    ],
+    [
+     "C7:2",
+     "Fm:2"
+    ],
+    "%",
+    "C",
+    "G",
+    "Em7",
+    "A7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "%",
+    "D7",
+    "%",
+    "C",
+    "%",
+    "G7",
+    "%",
+    "F",
+    [
+     "F:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "Am:2"
+    ],
+    "%",
+    "C",
+    [
+     "C:2",
+     "G7:2"
+    ],
+    [
+     "G7:2",
+     "C:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "%",
+    "D7",
+    "%",
+    "C",
+    "G7",
+    "F",
+    "%",
+    "Em",
+    "%",
+    "Am",
+    "%",
+    "F",
+    "%",
+    "A7",
+    "%",
+    "D7"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  }
+ ],
+ "strumSource": "stima"
+}

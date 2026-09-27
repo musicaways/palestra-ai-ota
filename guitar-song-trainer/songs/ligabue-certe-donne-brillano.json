@@ -1,0 +1,166 @@
+{
+ "title": "Certe donne brillano",
+ "artist": "Ligabue",
+ "album": "Start",
+ "year": 2005,
+ "genre": "Rock",
+ "difficulty": 2,
+ "youtubeId": "9myRB67Z01I",
+ "key": "G",
+ "bpm": 67.5,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.27,
+ "strum": "P-P-D-DU",
+ "lyricsSource": {
+  "lrclibId": 9079698,
+  "duration": 202,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – A – D – Cmaj7 – C – Em.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G",
+    "%",
+    "D",
+    "C",
+    "A",
+    "G"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "G",
+    "%",
+    "Cmaj7",
+    "A",
+    "G",
+    "%",
+    "Cmaj7",
+    "A",
+    "G",
+    "D",
+    "C",
+    "A",
+    "G",
+    "G",
+    "%",
+    "Cmaj7",
+    "A",
+    "G",
+    "D",
+    "Cmaj7",
+    "A",
+    [
+     "Em:2",
+     "D:2"
+    ],
+    "Cmaj7",
+    [
+     "Em:2",
+     "D:2"
+    ],
+    "Cmaj7",
+    "G",
+    "%",
+    "C",
+    "A",
+    "G",
+    "D",
+    "C",
+    "A",
+    "G",
+    "D",
+    "C",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Em:2",
+     "D:2"
+    ],
+    "Cmaj7",
+    [
+     "Em:2",
+     "D:2"
+    ],
+    "Cmaj7",
+    "G",
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    "C",
+    "A",
+    "G",
+    "D",
+    "C",
+    "A",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   6,
+   22.014
+  ],
+  [
+   10,
+   36.366
+  ],
+  [
+   15,
+   53.73
+  ],
+  [
+   19,
+   67.513
+  ],
+  [
+   24,
+   85.184
+  ],
+  [
+   29,
+   103.244
+  ],
+  [
+   33,
+   116.899
+  ],
+  [
+   38,
+   134.851
+  ],
+  [
+   47,
+   167.394
+  ],
+  [
+   52,
+   185.336
+  ],
+  [
+   55,
+   196.266
+  ]
+ ],
+ "strumSource": "stima"
+}

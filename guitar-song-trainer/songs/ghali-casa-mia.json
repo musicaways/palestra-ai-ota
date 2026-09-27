@@ -1,0 +1,214 @@
+{
+ "title": "Casa mia",
+ "artist": "Ghali",
+ "album": "Ghali",
+ "year": 2024,
+ "genre": "Rap / Hip-hop",
+ "difficulty": 3,
+ "youtubeId": "UONisMPGufA",
+ "key": "G",
+ "bpm": 125.23,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.22,
+ "strum": "D--D-UD-",
+ "lyricsSource": {
+  "lrclibId": 35938800,
+  "duration": 211.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – Am – Em7 – F – Fmaj7 – G6.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Am",
+    "%",
+    "G",
+    "F",
+    "G",
+    "Em",
+    [
+     "Am:2",
+     "Am:2"
+    ],
+    [
+     "Am:2",
+     "G:2"
+    ],
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "G:2",
+     "F:2"
+    ],
+    "%",
+    "G",
+    "Em7",
+    "Am",
+    "%",
+    "%",
+    "G",
+    "F",
+    "%",
+    "G",
+    "%",
+    "Am",
+    "%",
+    "G",
+    "F",
+    "G",
+    "Em",
+    "Am",
+    "Am",
+    "G",
+    "Am",
+    [
+     "Am:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Fmaj7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "G",
+    "Em7",
+    "Am",
+    "G",
+    "Am",
+    [
+     "Am:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Fmaj7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "G",
+    "Em7",
+    [
+     "Em7:2",
+     "Am:2"
+    ],
+    "%",
+    "G6",
+    "Am",
+    "G6",
+    "Fmaj7",
+    "G",
+    "Em",
+    "Am",
+    [
+     "Am:2",
+     "G6:2"
+    ],
+    "%",
+    "Am",
+    "G",
+    "F",
+    "%",
+    "G",
+    "Em7",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "Em7",
+    "Am",
+    "G",
+    "Am",
+    "%",
+    "G",
+    "F",
+    "G",
+    "Em",
+    "Am",
+    "Am",
+    "G",
+    "Am",
+    [
+     "Am:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Fmaj7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D--D-UDU"
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "G",
+    "Em7",
+    "Am",
+    "G",
+    "Am",
+    [
+     "Am:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Fmaj7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "G",
+    "Em7",
+    [
+     "Em7:2",
+     "Am:2"
+    ],
+    "%",
+    "G6",
+    "Am",
+    "G6",
+    "Fmaj7",
+    "G",
+    "Em",
+    "Am",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D--D-UDU"
+  }
+ ],
+ "strumSource": "stima",
+ "deezerId": 2652524522
+}

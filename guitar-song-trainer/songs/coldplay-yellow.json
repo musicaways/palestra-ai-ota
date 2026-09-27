@@ -1,0 +1,200 @@
+{
+ "title": "Yellow",
+ "artist": "Coldplay",
+ "album": "Green Eyes",
+ "year": 2000,
+ "genre": "Pop / Rock",
+ "difficulty": 5,
+ "youtubeId": "tdVAqxNLXiw",
+ "key": "B",
+ "bpm": 86.88,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.65,
+ "strum": "D--UD-DU",
+ "lyricsSource": {
+  "lrclibId": 37471750,
+  "duration": 268.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: B – F# – E – B4 – G#m – F#6.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "B",
+    "B4",
+    "B",
+    "B4",
+    "B",
+    "B4",
+    "F#6",
+    "F#",
+    "E6",
+    "E",
+    "B",
+    "B4"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "B",
+    "F#",
+    "%",
+    "%",
+    "%",
+    "E",
+    "B",
+    "F#",
+    "%",
+    "E",
+    "%",
+    "%",
+    "%",
+    "B",
+    "F#",
+    "G#m",
+    "%",
+    "B",
+    [
+     "B:2",
+     "B4:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "G#m",
+    "F#",
+    [
+     "E:2",
+     "G#m:2"
+    ],
+    [
+     "G#m:2",
+     "F#:2"
+    ],
+    "E",
+    "G#m",
+    "F#"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "E",
+    "B",
+    "B4",
+    "F#6",
+    "F#",
+    "E6",
+    "E",
+    "B",
+    "B4"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "B",
+    "F#",
+    "%",
+    "G#m",
+    "%",
+    "E",
+    "B",
+    "F#",
+    "%",
+    "G#m",
+    "%",
+    "B",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "G#m",
+    "F#",
+    [
+     "E:2",
+     "G#m:2"
+    ],
+    [
+     "G#m:2",
+     "F#:2"
+    ],
+    "G#m",
+    "F#",
+    "E"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "B",
+    "B4",
+    "F#6",
+    "F#",
+    "E6",
+    "E",
+    "B",
+    "B4",
+    "B",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    [
+     "B:2",
+     "B4:2"
+    ],
+    [
+     "B4:2",
+     "F#6:2"
+    ],
+    "F#",
+    "E6",
+    "E",
+    "B",
+    "B4",
+    "F#6",
+    "F#",
+    "E6",
+    "E",
+    "B",
+    "F#m",
+    "%",
+    "E",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima",
+ "deezerId": 3128096,
+ "spotifyId": "3AJwUDP919kvQ9QcozQPxg"
+}

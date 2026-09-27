@@ -1,0 +1,342 @@
+{
+ "title": "Verdura",
+ "artist": "Pinguini Tattici Nucleari",
+ "album": "Verdura",
+ "year": 2019,
+ "genre": "Pop / Indie",
+ "difficulty": 3,
+ "youtubeId": "51bAdPASVuQ",
+ "key": "Am",
+ "bpm": 159.96,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.22,
+ "strum": "D--UXUDU",
+ "lyricsSource": {
+  "lrclibId": 37093318,
+  "duration": 232,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Am – G – D – C – C6 – Em7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Am",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D---"
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "Am",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "D",
+    "Am",
+    "%",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "Am",
+    "C",
+    "G",
+    "%",
+    "D",
+    "%",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "C",
+    "G",
+    "%",
+    "D",
+    "%",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "D",
+    "%",
+    "Am",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%",
+    "Am",
+    "%",
+    "Am",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "%",
+    "%",
+    "C",
+    "%",
+    "%",
+    "%",
+    "D",
+    "Am",
+    "%",
+    "%",
+    "C",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "Am",
+    "C",
+    "G",
+    "%",
+    "D",
+    "%",
+    "C",
+    "%",
+    "Em",
+    "%",
+    "D",
+    "%",
+    "Am7",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "%",
+    "D",
+    "%",
+    "Am",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%",
+    "Am",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 8",
+   "bars": [
+    "Am",
+    "%",
+    "Em7",
+    "%",
+    "C6",
+    "%",
+    "G",
+    "Am",
+    "%",
+    "Em7",
+    "%",
+    "C6",
+    "%",
+    "G",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 9",
+   "bars": [
+    "D",
+    "%",
+    "Am",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%",
+    "Am",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 10",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   6,
+   10.188
+  ],
+  [
+   10,
+   16.189
+  ],
+  [
+   14,
+   22.112
+  ],
+  [
+   20,
+   31.33
+  ],
+  [
+   24,
+   37.332
+  ],
+  [
+   28,
+   43.318
+  ],
+  [
+   34,
+   52.321
+  ],
+  [
+   38,
+   58.347
+  ],
+  [
+   43,
+   65.808
+  ],
+  [
+   49,
+   74.81
+  ],
+  [
+   56,
+   85.278
+  ],
+  [
+   64,
+   97.148
+  ],
+  [
+   72,
+   109.249
+  ],
+  [
+   76,
+   115.238
+  ],
+  [
+   82,
+   124.241
+  ],
+  [
+   86,
+   130.327
+  ],
+  [
+   91,
+   137.878
+  ],
+  [
+   97,
+   146.832
+  ],
+  [
+   105,
+   158.883
+  ],
+  [
+   111,
+   167.91
+  ],
+  [
+   118,
+   178.308
+  ],
+  [
+   123,
+   185.769
+  ],
+  [
+   129,
+   194.772
+  ],
+  [
+   133,
+   200.773
+  ]
+ ],
+ "strumSource": "stima"
+}

@@ -1,0 +1,230 @@
+{
+ "title": "Generale",
+ "artist": "Francesco De Gregori",
+ "album": "Emozioni in musica",
+ "year": 1978,
+ "genre": "Cantautori",
+ "difficulty": 3,
+ "youtubeId": "pt_5HSoQUp8",
+ "key": "A",
+ "bpm": 110.78,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.76,
+ "strum": "D-DUD-DU",
+ "lyricsSource": {
+  "lrclibId": 37138512,
+  "duration": 259,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – D – E – Bm – F#m.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "A",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "A",
+    "%",
+    "%",
+    "%",
+    "D",
+    "%",
+    "A",
+    "F#m",
+    "Bm",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "A",
+    "%",
+    "%",
+    "D",
+    "%",
+    "A",
+    "F#m",
+    "Bm",
+    "%",
+    "A",
+    "%",
+    "E",
+    "A",
+    "D",
+    "%",
+    "A",
+    "%",
+    "D",
+    "%",
+    "E",
+    "%",
+    "A",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "A",
+    "%",
+    "%",
+    "%",
+    "D",
+    "%",
+    "A",
+    "F#m",
+    "Bm",
+    "%",
+    "A",
+    "%",
+    "E",
+    "A",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%",
+    "D",
+    "%",
+    "E",
+    "%",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "A",
+    "%",
+    "%",
+    "%",
+    "D",
+    "A",
+    "F#m",
+    "Bm",
+    "A",
+    "%",
+    "E",
+    "%",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%",
+    "D",
+    "%",
+    "E",
+    "%",
+    "A",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%",
+    "D",
+    "%",
+    "E",
+    "%",
+    "A",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%",
+    "D",
+    "%",
+    "E",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   9,
+   20.49
+  ],
+  [
+   15,
+   33.277
+  ],
+  [
+   19,
+   41.943
+  ],
+  [
+   33,
+   72.16
+  ],
+  [
+   37,
+   80.717
+  ],
+  [
+   41,
+   89.476
+  ],
+  [
+   57,
+   124.046
+  ],
+  [
+   61,
+   132.526
+  ],
+  [
+   65,
+   141.443
+  ],
+  [
+   79,
+   171.754
+  ],
+  [
+   83,
+   180.697
+  ],
+  [
+   89,
+   193.925
+  ]
+ ],
+ "strumSource": "ultimate-guitar",
+ "deezerId": 1082468
+}

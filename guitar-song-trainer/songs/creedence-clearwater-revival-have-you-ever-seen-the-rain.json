@@ -1,0 +1,96 @@
+{
+ "title": "Have You Ever Seen the Rain",
+ "artist": "Creedence Clearwater Revival",
+ "album": "Creedence Clearwater Revival - Best Of",
+ "year": 1970,
+ "genre": "Rock",
+ "difficulty": 1,
+ "youtubeId": "bwGU5snGmks",
+ "key": "C",
+ "bpm": 57.58,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.83,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 17954435,
+  "duration": 159.693333,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – G – F – Am.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Am",
+    "F",
+    "C"
+   ],
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa",
+   "bars": [
+    "C",
+    "%",
+    "G",
+    "C",
+    "%",
+    "%",
+    "G",
+    "C",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "F:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "C:2"
+    ],
+    "C",
+    "%",
+    "G",
+    "C",
+    "%",
+    "%",
+    "G",
+    "C",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "F:1",
+     "G:2",
+     "C:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "F",
+    [
+     "G:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    "C"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima"
+}

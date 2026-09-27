@@ -1,0 +1,339 @@
+{
+ "title": "Uscito di galera",
+ "artist": "Lazza",
+ "album": "Lazza Videos",
+ "year": 2019,
+ "genre": "Rap / Hip-hop",
+ "difficulty": 3,
+ "youtubeId": "bHa8z6ZOhfI",
+ "key": "Cm7",
+ "bpm": 82.44,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.79,
+ "strum": "D--D--D-",
+ "lyricsSource": {
+  "lrclibId": 33471893,
+  "duration": 173,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F – Cm7 – Fsus4 – Gm – D7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa",
+   "bars": [
+    "Cm7",
+    "%",
+    "%"
+   ]
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "Cm7:2",
+     "D7:2"
+    ],
+    [
+     "Gm:1",
+     "Fsus4:2",
+     "F:1"
+    ],
+    [
+     "Cm7:2",
+     "D7:2"
+    ],
+    [
+     "Gm:1",
+     "Fsus4:2",
+     "F:1"
+    ],
+    [
+     "Cm7:2",
+     "D7:2"
+    ],
+    [
+     "Gm:1",
+     "Fsus4:2",
+     "F:1"
+    ],
+    [
+     "Cm7:2",
+     "D7:2"
+    ],
+    [
+     "Gm:1",
+     "Fsus4:2",
+     "F:1"
+    ]
+   ],
+   "barsPerRow": 4,
+   "strum": "D--D-UDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "Cm7:2",
+     "D7:2"
+    ],
+    [
+     "Gm:1",
+     "Fsus4:2",
+     "F:1"
+    ],
+    [
+     "Cm7:2",
+     "D7:2"
+    ],
+    [
+     "Gm:1",
+     "Fsus4:2",
+     "F:1"
+    ],
+    [
+     "Cm7:2",
+     "D7:2"
+    ],
+    [
+     "Gm:1",
+     "Fsus4:2",
+     "F:1"
+    ],
+    [
+     "Cm7:2",
+     "D7:2"
+    ],
+    [
+     "Gm:1",
+     "Fsus4:2",
+     "F:1"
+    ],
+    [
+     "Cm7:2",
+     "D7:2"
+    ],
+    [
+     "Gm:1",
+     "Fsus4:2",
+     "F:1"
+    ],
+    [
+     "Cm7:2",
+     "D7:2"
+    ],
+    [
+     "Gm:1",
+     "Fsus4:2",
+     "F:1"
+    ]
+   ],
+   "barsPerRow": 4,
+   "strum": "D--D-UDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "Cm7:2",
+     "D7:2"
+    ],
+    [
+     "Gm:1",
+     "Fsus4:2",
+     "F:1"
+    ],
+    [
+     "Cm7:2",
+     "D7:2"
+    ],
+    [
+     "Gm:1",
+     "Fsus4:2",
+     "F:1"
+    ],
+    [
+     "Cm7:2",
+     "D7:2"
+    ],
+    [
+     "Gm:1",
+     "Fsus4:2",
+     "F:1"
+    ],
+    [
+     "Cm7:2",
+     "D7:2"
+    ],
+    [
+     "Gm:1",
+     "Fsus4:2",
+     "F:1"
+    ]
+   ],
+   "barsPerRow": 4,
+   "strum": "D--D-UDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "Cm7:2",
+     "D7:2"
+    ],
+    [
+     "Gm:1",
+     "Fsus4:2",
+     "F:1"
+    ],
+    [
+     "Cm7:2",
+     "D7:2"
+    ],
+    [
+     "Gm:1",
+     "Fsus4:2",
+     "F:1"
+    ],
+    [
+     "Cm7:2",
+     "D7:2"
+    ],
+    [
+     "Gm:1",
+     "Fsus4:2",
+     "F:1"
+    ],
+    [
+     "Cm7:2",
+     "D7:2"
+    ],
+    [
+     "Gm:1",
+     "Fsus4:2",
+     "F:1"
+    ],
+    "Cm7",
+    [
+     "Fsus4:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "Cm7:2"
+    ],
+    [
+     "Gm:1",
+     "Fsus4:2",
+     "F:1"
+    ]
+   ],
+   "barsPerRow": 4,
+   "strum": "D--D-UDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "Cm7:2",
+     "D7:2"
+    ],
+    [
+     "Gm:1",
+     "Fsus4:2",
+     "F:1"
+    ],
+    [
+     "Cm7:2",
+     "D7:2"
+    ],
+    [
+     "Gm:1",
+     "Fsus4:2",
+     "F:1"
+    ],
+    [
+     "Cm7:2",
+     "D7:2"
+    ],
+    [
+     "Gm:1",
+     "Fsus4:2",
+     "F:1"
+    ],
+    [
+     "Cm7:2",
+     "D7:2"
+    ],
+    "Gm",
+    "%",
+    "%",
+    "Fsus4",
+    "%",
+    "%",
+    "F",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D--D-UDU"
+  }
+ ],
+ "warp": [
+  [
+   1,
+   5.828
+  ],
+  [
+   5,
+   17.472
+  ],
+  [
+   9,
+   29.026
+  ],
+  [
+   13,
+   40.679
+  ],
+  [
+   18,
+   55.352
+  ],
+  [
+   23,
+   69.312
+  ],
+  [
+   27,
+   81.766
+  ],
+  [
+   32,
+   95.598
+  ],
+  [
+   37,
+   110.154
+  ],
+  [
+   42,
+   124.716
+  ],
+  [
+   47,
+   139.57
+  ],
+  [
+   50,
+   148.304
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 1713125777
+}

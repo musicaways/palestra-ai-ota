@@ -1,0 +1,358 @@
+{
+ "title": "Quello che le donne non dicono",
+ "artist": "Fiorella Mannoia",
+ "album": "Il Meglio",
+ "year": 1987,
+ "genre": "Cantautori",
+ "difficulty": 5,
+ "youtubeId": "7PJR1D0z_eo",
+ "key": "Gb",
+ "bpm": 154.78,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.43,
+ "strum": "B-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 35331489,
+  "duration": 241,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Gb – Ebm7 – Ab – Bbm7 – Ab4 – Ab6.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Gb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Gb",
+    "Gb",
+    "%",
+    "%",
+    "%",
+    "Ebm7",
+    "Bbm7",
+    "Ab4",
+    "Ab",
+    "Gb",
+    "%",
+    "%",
+    "%",
+    "Ebm7",
+    "Bbm7",
+    [
+     "Bbm7:2",
+     "Ab4:2"
+    ],
+    "%",
+    "Ab"
+   ],
+   "barsPerRow": 4,
+   "strum": "B---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Ebm7",
+    [
+     "Ebm7:2",
+     "Ab:2"
+    ],
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    "%",
+    "Bb7",
+    "%",
+    "Ebm7",
+    "%",
+    "Gbmaj7",
+    "%",
+    "B",
+    "%",
+    "Ab6",
+    "%",
+    [
+     "Ab6:2",
+     "Gb:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Ab",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Gb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Gb",
+    "%",
+    "%",
+    "%",
+    "Gbadd9",
+    "%",
+    "%",
+    "Ebm7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Gb",
+    "%",
+    "%",
+    "%",
+    "Ebm7",
+    "Bbm7",
+    "Ab4",
+    "Ab",
+    "Gb",
+    "%",
+    "%",
+    "%",
+    "Ebm7",
+    "Bbm7",
+    [
+     "Bbm7:2",
+     "Ab4:2"
+    ],
+    "%",
+    "Ab",
+    "Gbmaj7",
+    "%",
+    "B",
+    "%",
+    "Bb7",
+    "%",
+    "Ebm7",
+    "%",
+    "Gbmaj7",
+    "%",
+    "B",
+    "%",
+    "Ab6",
+    "%",
+    [
+     "Ab6:2",
+     "Gb:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Gb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Gb",
+    "Gb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    "G",
+    "%",
+    "Em7",
+    "Gadd9",
+    "%",
+    "%",
+    "Em7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Em7"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   17,
+   26.865
+  ],
+  [
+   21,
+   33.068
+  ],
+  [
+   29,
+   45.297
+  ],
+  [
+   34,
+   53.225
+  ],
+  [
+   38,
+   59.428
+  ],
+  [
+   42,
+   65.635
+  ],
+  [
+   46,
+   71.837
+  ],
+  [
+   51,
+   79.41
+  ],
+  [
+   57,
+   89
+  ],
+  [
+   65,
+   101.481
+  ],
+  [
+   78,
+   121.66
+  ],
+  [
+   86,
+   133.938
+  ],
+  [
+   90,
+   140.14
+  ],
+  [
+   95,
+   147.893
+  ],
+  [
+   103,
+   160.275
+  ],
+  [
+   107,
+   166.302
+  ],
+  [
+   112,
+   174.055
+  ],
+  [
+   118,
+   183.359
+  ],
+  [
+   129,
+   200.28
+  ],
+  [
+   133,
+   206.417
+  ],
+  [
+   137,
+   212.562
+  ],
+  [
+   143,
+   221.866
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 1021854
+}

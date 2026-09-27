@@ -1,0 +1,243 @@
+{
+ "title": "Per due che come noi",
+ "artist": "Brunori Sas",
+ "album": "duemiladiciannove",
+ "year": 2017,
+ "genre": "Indie",
+ "difficulty": 4,
+ "youtubeId": "Awn3ocXEUXk",
+ "key": "Dm7",
+ "bpm": 71.07,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.23,
+ "strum": "P-PU-UPU",
+ "lyricsSource": {
+  "lrclibId": 35576913,
+  "duration": 231,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Dm7 – C – Fmaj7 – Em – Em7 – Cadd9.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "C",
+    "Em"
+   ],
+   "strum": "P-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "C:1",
+     "Em:2",
+     "Dm7:1"
+    ],
+    "%",
+    [
+     "Em:2",
+     "Dm7:2"
+    ],
+    "%",
+    [
+     "Em:2",
+     "Dm7:2"
+    ],
+    "%",
+    "Dm7",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Fmaj7",
+    "Fmaj7",
+    [
+     "Cadd9:2",
+     "C:2"
+    ],
+    "C",
+    "C",
+    "%",
+    [
+     "Cadd9:2",
+     "C:2"
+    ],
+    "C",
+    [
+     "Fmaj7:1",
+     "Em7:2",
+     "Dm7:1"
+    ],
+    [
+     "Fmaj7:1",
+     "Em7:2",
+     "Dm7:1"
+    ],
+    "E7",
+    [
+     "Am:2",
+     "D:2"
+    ],
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "C:1",
+     "Em:2",
+     "Dm7:1"
+    ],
+    "%",
+    [
+     "Em:2",
+     "Dm7:2"
+    ],
+    "%",
+    [
+     "Em:2",
+     "Dm7:2"
+    ],
+    "%",
+    [
+     "Em:2",
+     "Dm7:2"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Fmaj7",
+    "Fmaj7",
+    "%",
+    "%",
+    "C",
+    "%",
+    [
+     "Cadd9:2",
+     "C:2"
+    ],
+    "C",
+    [
+     "Fmaj7:1",
+     "Em7:2",
+     "Dm7:1"
+    ],
+    [
+     "Fmaj7:1",
+     "Em7:2",
+     "Dm7:1"
+    ],
+    [
+     "E7:1",
+     "Am:2",
+     "D:1"
+    ],
+    [
+     "F:1",
+     "Em7:2",
+     "Dm7:1"
+    ],
+    [
+     "F:1",
+     "Em7:2",
+     "Dm:1"
+    ],
+    [
+     "E7:1",
+     "Am:2",
+     "D:1"
+    ],
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   2,
+   8.069
+  ],
+  [
+   6,
+   21.669
+  ],
+  [
+   12,
+   41.875
+  ],
+  [
+   16,
+   55.148
+  ],
+  [
+   20,
+   68.656
+  ],
+  [
+   25,
+   85.196
+  ],
+  [
+   29,
+   98.919
+  ],
+  [
+   35,
+   119.181
+  ],
+  [
+   43,
+   146.24
+  ],
+  [
+   48,
+   163.894
+  ],
+  [
+   49,
+   167.464
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 846470242,
+ "spotifyId": "1CLa39FAT7TN9Q5sy3CFDK"
+}

@@ -1,0 +1,458 @@
+{
+ "title": "Fast Car",
+ "artist": "Tracy Chapman",
+ "album": "100 Tracks 80's 90's & 2000's",
+ "year": 1988,
+ "genre": "Folk",
+ "difficulty": 1,
+ "youtubeId": "DwrHwZyFN7M",
+ "key": "D",
+ "bpm": 104.34,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.31,
+ "strum": "D-D-DUDU",
+ "lyricsSource": {
+  "lrclibId": 37537817,
+  "duration": 297,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – E – F#m – A.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "D",
+    "%",
+    "A",
+    "%",
+    "F#m",
+    "%",
+    "E",
+    "%",
+    "D"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    "F#m",
+    "E",
+    "D",
+    "A",
+    "F#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    "F#m",
+    "E",
+    "D",
+    "A",
+    "F#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    "F#m",
+    "E",
+    "D",
+    "A",
+    "F#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    "F#m",
+    "E",
+    "D",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "E",
+    "D",
+    "A",
+    "F#m",
+    "E",
+    [
+     "D:2",
+     "F#m:2"
+    ],
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    "D",
+    [
+     "D:2",
+     "E:2"
+    ],
+    "%",
+    "D",
+    "A",
+    "F#m",
+    "E"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    "F#m",
+    "E",
+    "D",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "E",
+    "D",
+    "A",
+    "F#m",
+    "E",
+    [
+     "D:2",
+     "F#m:2"
+    ],
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    "D",
+    [
+     "D:2",
+     "E:2"
+    ],
+    "%",
+    "D",
+    "A",
+    "F#m",
+    "E"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    "F#m",
+    "E",
+    "D",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "E",
+    "D",
+    "A",
+    "F#m",
+    "E",
+    [
+     "D:2",
+     "F#m:2"
+    ],
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    "D",
+    [
+     "D:2",
+     "E:2"
+    ],
+    "%",
+    "D",
+    "A",
+    "F#m",
+    "E"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  },
+  {
+   "name": "Strofa 7",
+   "bars": [
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "F#m:2",
+     "E:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    "F#m",
+    "E",
+    "D",
+    "A",
+    "F#m",
+    "E",
+    "D",
+    "A",
+    "F#m",
+    "E"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   9,
+   20.949
+  ],
+  [
+   13,
+   30.07
+  ],
+  [
+   21,
+   48.551
+  ],
+  [
+   25,
+   57.89
+  ],
+  [
+   33,
+   76.13
+  ],
+  [
+   37,
+   85.289
+  ],
+  [
+   45,
+   103.731
+  ],
+  [
+   54,
+   124.571
+  ],
+  [
+   59,
+   136.1
+  ],
+  [
+   66,
+   152.16
+  ],
+  [
+   71,
+   163.79
+  ],
+  [
+   79,
+   182.191
+  ],
+  [
+   84,
+   193.609
+  ],
+  [
+   91,
+   209.642
+  ],
+  [
+   96,
+   220.971
+  ],
+  [
+   104,
+   239.371
+  ],
+  [
+   109,
+   250.799
+  ],
+  [
+   116,
+   266.9
+  ],
+  [
+   119,
+   273.83
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 2271563,
+ "spotifyId": "2M9ro2krNb7nr7HSprkEgo"
+}

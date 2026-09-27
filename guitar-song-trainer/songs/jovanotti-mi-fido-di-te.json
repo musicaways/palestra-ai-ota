@@ -1,0 +1,236 @@
+{
+ "title": "Mi fido di te",
+ "artist": "Jovanotti",
+ "album": "mix manu",
+ "year": 2005,
+ "genre": "Pop",
+ "difficulty": 3,
+ "youtubeId": "frXdk-SqUho",
+ "key": "C",
+ "bpm": 89.57,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.52,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 33892078,
+  "duration": 271,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – G – Am – F – Fmaj7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Am",
+    "F",
+    "C",
+    "G",
+    "Am",
+    "F",
+    "C",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "Am",
+    "F",
+    "C",
+    "G",
+    "Am",
+    "F",
+    "C",
+    [
+     "G:2",
+     "C:2"
+    ],
+    "F",
+    "%",
+    "C",
+    "G",
+    "Am",
+    "C",
+    "%",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "C",
+    "Fmaj7",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "Am",
+    "%",
+    "Fmaj7",
+    "C",
+    "G",
+    "Am",
+    "F",
+    "C",
+    "G",
+    "Am",
+    "F",
+    "C",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "C",
+    "F",
+    "C",
+    "G",
+    "Am",
+    "F",
+    "C",
+    "G",
+    "C",
+    "Fmaj7",
+    "C",
+    "G",
+    "Am",
+    "Fmaj7",
+    "C",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "Am",
+    "F",
+    "C",
+    "G",
+    "%",
+    "F",
+    "C",
+    "G",
+    "C",
+    "F",
+    "C",
+    "G",
+    "Am",
+    "F",
+    "C",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "C",
+    "Fmaj7",
+    "C",
+    "G",
+    "Am",
+    "Fmaj7",
+    "C",
+    "G",
+    "Am",
+    "F",
+    "C",
+    "G",
+    "Am",
+    "F",
+    "C",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "Am",
+    "F",
+    "C",
+    "G",
+    "Am",
+    "F",
+    "C",
+    "G",
+    "Am",
+    "F",
+    "C",
+    "G",
+    "Am"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   8,
+   22.152
+  ],
+  [
+   12,
+   32.842
+  ],
+  [
+   21,
+   56.946
+  ],
+  [
+   25,
+   67.451
+  ],
+  [
+   30,
+   80.741
+  ],
+  [
+   35,
+   94.839
+  ],
+  [
+   44,
+   118.956
+  ],
+  [
+   48,
+   129.66
+  ],
+  [
+   54,
+   145.341
+  ],
+  [
+   59,
+   159.469
+  ],
+  [
+   68,
+   182.61
+  ],
+  [
+   73,
+   195.901
+  ],
+  [
+   78,
+   209.449
+  ],
+  [
+   79,
+   212.569
+  ]
+ ],
+ "strumSource": "ultimate-guitar"
+}

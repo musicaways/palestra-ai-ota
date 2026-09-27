@@ -1,0 +1,269 @@
+{
+ "title": "Viva l'Italia",
+ "artist": "Francesco De Gregori",
+ "album": "Viva l'Italia",
+ "year": 1979,
+ "genre": "Cantautori",
+ "difficulty": 4,
+ "youtubeId": "1uP8YiCSwU4",
+ "key": "G",
+ "bpm": 113.67,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.25,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 33421605,
+  "duration": 229,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – A – D7 – D – A7 – E.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G",
+    "%",
+    "D",
+    "%",
+    "G"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "G",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    "D7",
+    [
+     "D7:2",
+     "G:2"
+    ],
+    "%",
+    "G7",
+    "C",
+    "Am",
+    "A7",
+    "D7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "G",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    "D7",
+    [
+     "D7:2",
+     "G:2"
+    ],
+    "%",
+    "G7",
+    "C",
+    [
+     "Am:2",
+     "A7:2"
+    ],
+    [
+     "A7:2",
+     "D7:2"
+    ],
+    "G",
+    "%",
+    "D",
+    "%",
+    "G",
+    "%",
+    "G",
+    "G",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    "D7",
+    [
+     "D7:2",
+     "G:2"
+    ],
+    "%",
+    "G7",
+    "C",
+    "Am",
+    "A7",
+    "D7",
+    "G",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    "D7",
+    [
+     "D7:2",
+     "G:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "G7",
+    "C",
+    [
+     "Am:2",
+     "A7:2"
+    ],
+    [
+     "A7:2",
+     "D7:2"
+    ],
+    "G",
+    "%",
+    "D",
+    "%",
+    "G",
+    "%",
+    "E4",
+    "%",
+    "E7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "A",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    "E7",
+    [
+     "E7:2",
+     "A:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "A7",
+    "D",
+    [
+     "Bm:2",
+     "B7:2"
+    ],
+    [
+     "B7:2",
+     "E7:2"
+    ],
+    "A",
+    "%",
+    "E",
+    "%",
+    "A",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "A",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "A",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "A",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "A",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "A"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   5,
+   11.989
+  ],
+  [
+   11,
+   24.657
+  ],
+  [
+   16,
+   35.151
+  ],
+  [
+   22,
+   47.494
+  ],
+  [
+   33,
+   70.68
+  ],
+  [
+   39,
+   83.477
+  ],
+  [
+   44,
+   94.082
+  ],
+  [
+   50,
+   107.018
+  ],
+  [
+   63,
+   134.495
+  ],
+  [
+   69,
+   147.163
+  ],
+  [
+   71,
+   151.57
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 1082510
+}

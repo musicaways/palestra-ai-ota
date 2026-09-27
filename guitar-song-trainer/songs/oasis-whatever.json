@@ -1,0 +1,388 @@
+{
+ "title": "Whatever",
+ "artist": "Oasis",
+ "album": "The Best Album In The World... Ever! Vol. 1 [Disc 1]",
+ "year": 1994,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "EHfx9LXzxpw",
+ "key": "G",
+ "bpm": 89.43,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.39,
+ "strum": "D-D-D-DU",
+ "lyricsSource": {
+  "lrclibId": 37505311,
+  "duration": 380,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – D – Em7 – C – A – Cadd9.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G",
+    "%",
+    "Em7",
+    "D4",
+    "Cadd9",
+    "D4",
+    "G"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "G",
+    [
+     "Em7:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "G",
+    [
+     "Em7:2",
+     "D:2"
+    ],
+    "D",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "A",
+    [
+     "Cadd9:2",
+     "G:2"
+    ],
+    "G",
+    "Em",
+    "A",
+    "Cadd9",
+    "D",
+    "G",
+    [
+     "Em7:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "G",
+    [
+     "Em7:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "Em:2"
+    ],
+    "A",
+    "%",
+    [
+     "Cadd9:2",
+     "G:2"
+    ],
+    "G",
+    "Em",
+    "A",
+    "Cadd9",
+    "D",
+    "G",
+    [
+     "Em7:2",
+     "D:2"
+    ],
+    "D",
+    "G",
+    "G",
+    "%",
+    "Em7",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "B:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "B:2"
+    ],
+    "G",
+    "B",
+    "G",
+    "B",
+    "F#",
+    "E",
+    [
+     "G:1",
+     "A:2",
+     "E:1"
+    ],
+    [
+     "G:1",
+     "A:2",
+     "E:1"
+    ],
+    [
+     "G:1",
+     "A:2",
+     "E:1"
+    ],
+    "G",
+    "%",
+    "Em7",
+    "D",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "G",
+    [
+     "Em7:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "G",
+    [
+     "Em7:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "G:1",
+     "Em7:1"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "G:1",
+     "Em7:1"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "D:1",
+     "G:2",
+     "D:1"
+    ],
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "%",
+    "Em7",
+    "D",
+    "C",
+    "D",
+    "G",
+    "D",
+    "G",
+    "%",
+    "Em7",
+    "D",
+    "C",
+    "D",
+    "G",
+    "D",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "%",
+    "Em7",
+    "D",
+    "C",
+    "D",
+    "G",
+    "D",
+    "G",
+    "%",
+    "Em7",
+    "D",
+    "C",
+    "D",
+    "G",
+    "D",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 8",
+   "bars": [
+    "%",
+    "Em7",
+    "D",
+    "C",
+    "D",
+    "G",
+    "D",
+    "G",
+    "%",
+    "Em7",
+    "D",
+    "C",
+    "D",
+    "G",
+    "D",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 9",
+   "bars": [
+    "%",
+    "Em7",
+    "D",
+    "C",
+    "D",
+    "G",
+    "D",
+    "G",
+    "%",
+    "Em7",
+    "D",
+    "C",
+    "D",
+    "G"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   7,
+   21.613
+  ],
+  [
+   11,
+   32.347
+  ],
+  [
+   17,
+   48.265
+  ],
+  [
+   21,
+   58.856
+  ],
+  [
+   25,
+   69.555
+  ],
+  [
+   29,
+   80.232
+  ],
+  [
+   33,
+   90.895
+  ],
+  [
+   37,
+   101.16
+  ],
+  [
+   47,
+   127.998
+  ],
+  [
+   51,
+   139.157
+  ],
+  [
+   56,
+   152.397
+  ],
+  [
+   63,
+   171.369
+  ],
+  [
+   67,
+   182.2
+  ],
+  [
+   73,
+   198.45
+  ],
+  [
+   77,
+   209.464
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 985704102
+}

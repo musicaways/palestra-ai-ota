@@ -1,0 +1,353 @@
+{
+ "title": "Una vita in vacanza",
+ "artist": "Lo Stato Sociale",
+ "album": "Sanremo 2018",
+ "year": 2018,
+ "genre": "Indie / Pop",
+ "difficulty": 5,
+ "youtubeId": "aY-DrPJgzZk",
+ "key": "F",
+ "bpm": 135.29,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.15,
+ "strum": "D-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 37166779,
+  "duration": 231,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F – Eb – Bb – Dm – Cm – Gm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bb",
+    "F",
+    "Cm",
+    "Eb",
+    "Bb",
+    "F",
+    "Cm",
+    "Eb"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Gm",
+    "%",
+    [
+     "Dm:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    "Gm",
+    "%",
+    [
+     "Dm:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    "Gm",
+    "Dm",
+    "F",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Gm",
+    "Dm",
+    "F",
+    "C",
+    "Gm",
+    "Dm",
+    "F",
+    "C",
+    [
+     "Gm:1",
+     "Dm:1",
+     "F:1",
+     "C:1"
+    ],
+    [
+     "Gm:2",
+     "Dm:2"
+    ],
+    [
+     "Dm:2",
+     "F:2"
+    ],
+    "Bb",
+    "F",
+    "Cm",
+    "Eb",
+    "Bb",
+    "F",
+    "Cm",
+    "Eb",
+    "Bb",
+    "F"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Cm",
+    "%",
+    "%",
+    [
+     "Cm:2",
+     "Eb:2"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Gm",
+    "%",
+    [
+     "Dm:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    "Gm",
+    "Dm",
+    "F",
+    "C",
+    "Gm",
+    "Dm",
+    "F",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Gm",
+    "Dm",
+    "F",
+    "C",
+    "Gm",
+    "Dm",
+    "F",
+    "C",
+    [
+     "Gm:2",
+     "Dm:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "Gm:1",
+     "Dm7:2",
+     "F:1"
+    ],
+    "Bb",
+    "F",
+    "Cm",
+    "Eb",
+    "Bb",
+    "F",
+    "Cm",
+    "Eb",
+    "Bb",
+    "F",
+    "Cm",
+    "%",
+    "%",
+    [
+     "Cm:2",
+     "Eb:2"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Ebmaj7",
+    "F",
+    [
+     "Bb:2",
+     "Dm7:2"
+    ],
+    "Eb",
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    "%",
+    "Bb",
+    "Dm7",
+    "Dm",
+    "%",
+    "F",
+    "Eb",
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    "%",
+    "Bb",
+    "F",
+    "Cm",
+    "Eb",
+    "Bb",
+    "F",
+    "Cm",
+    "Eb",
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "Cm",
+    "%",
+    [
+     "Cm:2",
+     "Eb:2"
+    ],
+    "%",
+    "%",
+    "Bb",
+    "%",
+    "F",
+    "%",
+    "Cm",
+    "%",
+    "Eb",
+    "%",
+    "Bb",
+    "%",
+    "F",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   8,
+   15.282
+  ],
+  [
+   14,
+   25.926
+  ],
+  [
+   20,
+   36.622
+  ],
+  [
+   26,
+   47.472
+  ],
+  [
+   31,
+   56.112
+  ],
+  [
+   36,
+   64.848
+  ],
+  [
+   48,
+   86.15
+  ],
+  [
+   52,
+   93.612
+  ],
+  [
+   56,
+   100.746
+  ],
+  [
+   62,
+   111.454
+  ],
+  [
+   68,
+   122.034
+  ],
+  [
+   72,
+   128.894
+  ],
+  [
+   77,
+   137.664
+  ],
+  [
+   81,
+   144.76
+  ],
+  [
+   88,
+   157.128
+  ],
+  [
+   94,
+   167.664
+  ],
+  [
+   98,
+   174.76
+  ],
+  [
+   107,
+   190.834
+  ],
+  [
+   113,
+   201.626
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 459351522,
+ "spotifyId": "6134tdWf6qjAGgQs1xJRyA"
+}

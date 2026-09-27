@@ -1,0 +1,304 @@
+{
+ "title": "La musica non c'è",
+ "artist": "Coez",
+ "album": "Top 100 Italia - Classifica Del 25.04.2019",
+ "year": 2017,
+ "genre": "Pop / Rap",
+ "difficulty": 2,
+ "youtubeId": "a-h4mqNIrMc",
+ "key": "F",
+ "bpm": 68.14,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 3.44,
+ "strum": "D--D--D-",
+ "lyricsSource": {
+  "lrclibId": 37013620,
+  "duration": 223,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F – G – C – Am – Em.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Am"
+   ]
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "F",
+    "C",
+    [
+     "G:2",
+     "F:2"
+    ],
+    "C",
+    "Em",
+    "F",
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Em:2"
+    ],
+    [
+     "Am:2",
+     "G:2"
+    ],
+    [
+     "F:1",
+     "C:2",
+     "Em:1"
+    ],
+    [
+     "Am:2",
+     "G:2"
+    ],
+    [
+     "F:1",
+     "C:2",
+     "Em:1"
+    ],
+    [
+     "Am:2",
+     "G:1",
+     "F:1"
+    ],
+    [
+     "F:1",
+     "C:1",
+     "Em:2"
+    ],
+    [
+     "Am:2",
+     "G:1",
+     "F:1"
+    ],
+    [
+     "F:1",
+     "C:1",
+     "Em:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "F",
+    "C",
+    "G",
+    [
+     "C:1",
+     "Em:2",
+     "Am:1"
+    ],
+    "G",
+    "F",
+    "G",
+    "Am",
+    "G",
+    [
+     "F:1",
+     "C:2",
+     "Em:1"
+    ],
+    [
+     "Am:2",
+     "G:2"
+    ],
+    [
+     "F:1",
+     "C:2",
+     "Em:1"
+    ],
+    [
+     "Am:2",
+     "G:1",
+     "F:1"
+    ],
+    [
+     "F:1",
+     "C:1",
+     "Em:2"
+    ],
+    [
+     "Am:2",
+     "G:1",
+     "F:1"
+    ],
+    [
+     "F:1",
+     "C:1",
+     "Em:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "Am",
+    "G",
+    "F",
+    "G",
+    "F",
+    [
+     "G:1",
+     "F:1",
+     "C:1",
+     "Em:1"
+    ],
+    [
+     "G:2",
+     "F:2"
+    ],
+    [
+     "C:2",
+     "Em:2"
+    ],
+    [
+     "Am:2",
+     "G:2"
+    ],
+    [
+     "F:1",
+     "C:2",
+     "Em:1"
+    ],
+    [
+     "Am:2",
+     "G:2"
+    ],
+    [
+     "F:1",
+     "C:2",
+     "Em:1"
+    ],
+    [
+     "Am:2",
+     "G:1",
+     "F:1"
+    ],
+    [
+     "F:1",
+     "C:1",
+     "Em:2"
+    ],
+    [
+     "Am:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "F:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    [
+     "Am:2",
+     "G:1",
+     "F:1"
+    ],
+    [
+     "F:1",
+     "C:1",
+     "Em:2"
+    ],
+    [
+     "Am:2",
+     "G:1",
+     "F:1"
+    ],
+    [
+     "F:1",
+     "C:1",
+     "Em:2"
+    ],
+    [
+     "Am:1",
+     "G:1",
+     "F:1",
+     "C:1"
+    ],
+    "Am",
+    "Am",
+    [
+     "Am:2",
+     "G:2"
+    ],
+    "%",
+    "F",
+    "%",
+    "C",
+    [
+     "C:2",
+     "Em:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   1,
+   7.69
+  ],
+  [
+   6,
+   23.816
+  ],
+  [
+   10,
+   38.079
+  ],
+  [
+   15,
+   56.32
+  ],
+  [
+   20,
+   73.996
+  ],
+  [
+   26,
+   95.089
+  ],
+  [
+   31,
+   112.566
+  ],
+  [
+   41,
+   147.787
+  ],
+  [
+   45,
+   162.057
+  ],
+  [
+   51,
+   183.19
+  ],
+  [
+   55,
+   197.243
+  ]
+ ],
+ "strumSource": "ultimate-guitar",
+ "deezerId": 3191550611
+}

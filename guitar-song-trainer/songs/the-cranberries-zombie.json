@@ -1,0 +1,250 @@
+{
+ "title": "Zombie",
+ "artist": "The Cranberries",
+ "album": "Noche de Estudio",
+ "year": 1994,
+ "genre": "Rock",
+ "difficulty": 2,
+ "youtubeId": "G8KskAHnLs0",
+ "key": "Em",
+ "bpm": 85.63,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.5,
+ "strum": "D-D-D-DU",
+ "lyricsSource": {
+  "lrclibId": 37493025,
+  "duration": 307,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Em – D – Cmaj7 – G – C – G6.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Em",
+    "%",
+    "Cmaj7",
+    "%",
+    "G6",
+    "%",
+    "%",
+    "%",
+    "Em",
+    "%",
+    "Cmaj7",
+    "%",
+    "G6",
+    "%",
+    "%",
+    "%",
+    "Em"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Em",
+    "Cmaj7",
+    "G6",
+    "%",
+    "Em",
+    "Cmaj7",
+    "G6",
+    "%",
+    "Em",
+    "C",
+    "G",
+    "%",
+    "Em",
+    "%",
+    "%",
+    "%",
+    "Em",
+    "C",
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "D4:2",
+     "D:2"
+    ],
+    "Em",
+    "C",
+    [
+     "G:1",
+     "D:1",
+     "D4:1",
+     "D:1"
+    ],
+    "Em",
+    "Cmaj7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "Em",
+    "Cmaj7",
+    "G6",
+    "%",
+    "Em",
+    "Cmaj7",
+    "G6",
+    "%",
+    "Em",
+    "C",
+    "G",
+    "%",
+    "Em",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "Em",
+    "C",
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "D4:2",
+     "D:2"
+    ],
+    "Em",
+    "C",
+    [
+     "G:1",
+     "D:1",
+     "D4:1",
+     "D:1"
+    ],
+    "Em",
+    "Cmaj7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   17,
+   49.51
+  ],
+  [
+   23,
+   65.593
+  ],
+  [
+   27,
+   77.231
+  ],
+  [
+   31,
+   88.47
+  ],
+  [
+   37,
+   105.436
+  ],
+  [
+   43,
+   122.252
+  ],
+  [
+   50,
+   141.593
+  ],
+  [
+   54,
+   152.804
+  ],
+  [
+   58,
+   163.797
+  ],
+  [
+   62,
+   175.154
+  ],
+  [
+   68,
+   192.314
+  ],
+  [
+   72,
+   203.57
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 3498055251,
+ "spotifyId": "5kWY52e7A2dH11zFeu9nzK"
+}

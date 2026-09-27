@@ -1,0 +1,251 @@
+{
+ "title": "Before You Go",
+ "artist": "Lewis Capaldi",
+ "album": "Sad Pop For a Broken Heart",
+ "year": 2019,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "k1eQOPCbWJk",
+ "key": "Eb",
+ "bpm": 110.46,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.1,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36969229,
+  "duration": 215,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Eb – Cm – Bb – Bb4 – Ab6 – Bb6.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Eb"
+   ]
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Eb",
+    "Cm",
+    "%",
+    "Bb4",
+    "%",
+    "%",
+    "Bb",
+    "Eb",
+    "Cm",
+    "Ab",
+    "Bb4",
+    [
+     "Bb4:2",
+     "Bb:2"
+    ],
+    "%",
+    "Eb",
+    "%",
+    "Bb6",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Cm",
+    "%",
+    "Abmaj7",
+    "Ab6",
+    "Eb",
+    "Bb6",
+    "Cm",
+    "%",
+    "%",
+    "Abmaj7",
+    "Ab6",
+    "Bb",
+    "Eb",
+    "Eb",
+    "%",
+    "Cm",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "Bb4",
+    "%",
+    "Bb",
+    "%",
+    "Cm",
+    "Ab",
+    "%",
+    "%",
+    "Bb4",
+    "Bb",
+    "Eb",
+    [
+     "Eb:2",
+     "Bb6:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Cm",
+    "%",
+    "%",
+    "Abmaj7",
+    "Ab6",
+    "Eb",
+    "Bb6",
+    "Cm",
+    "%",
+    "%",
+    "%",
+    [
+     "Abmaj7:2",
+     "Ab6:2"
+    ],
+    "Bb",
+    [
+     "Bb:2",
+     "Cm:2"
+    ],
+    "%",
+    [
+     "Ab:2",
+     "Eb:2"
+    ],
+    "Bb",
+    "Cm",
+    "Ab",
+    "Bb",
+    "Eb",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Cm",
+    "%",
+    "Ab",
+    "%",
+    "Eb",
+    "Bb6",
+    "Cm",
+    "%",
+    "%",
+    "Abmaj7",
+    "Ab6",
+    "Bb4",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "Bb4:2",
+     "Ebadd9:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   1,
+   3.81
+  ],
+  [
+   6,
+   13.985
+  ],
+  [
+   11,
+   24.801
+  ],
+  [
+   19,
+   42.052
+  ],
+  [
+   24,
+   53.306
+  ],
+  [
+   29,
+   64.451
+  ],
+  [
+   36,
+   79.696
+  ],
+  [
+   41,
+   90.524
+  ],
+  [
+   46,
+   101.312
+  ],
+  [
+   51,
+   111.937
+  ],
+  [
+   56,
+   122.801
+  ],
+  [
+   61,
+   133.665
+  ],
+  [
+   67,
+   146.821
+  ],
+  [
+   73,
+   159.535
+  ],
+  [
+   81,
+   177.212
+  ],
+  [
+   84,
+   183.73
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 807205422,
+ "spotifyId": "2u9NzKgLCB0rnbY4FsB3If"
+}

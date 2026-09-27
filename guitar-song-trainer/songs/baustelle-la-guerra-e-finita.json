@@ -1,0 +1,185 @@
+{
+ "title": "La guerra è finita",
+ "artist": "Baustelle",
+ "album": "Baustelle",
+ "year": 2005,
+ "genre": "Indie",
+ "difficulty": 5,
+ "youtubeId": "cvLWN6SvXTE",
+ "key": "E",
+ "bpm": 65.49,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.01,
+ "strum": "D-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 35917556,
+  "duration": 262,
+  "offset": 0
+ },
+ "notes": "Accordi principali: E – A – Em – F#m – Bm – B7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Em",
+    "Bm",
+    "Em",
+    "Bm",
+    "Em",
+    "Bm",
+    "Em",
+    "Bm"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "E",
+    "F#m",
+    "%",
+    "A",
+    "%",
+    "B7",
+    "%",
+    "E",
+    "F#m",
+    "%",
+    "A",
+    "%",
+    "B7",
+    "%",
+    "E",
+    "%",
+    [
+     "F#m:2",
+     "A:2"
+    ],
+    "E",
+    "%",
+    "Amaj7",
+    [
+     "F#:2",
+     "A:2"
+    ],
+    "B7",
+    "Em",
+    "Bm",
+    "Em",
+    "Bm",
+    "Em",
+    "Bm",
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "E",
+    "F#m",
+    "%",
+    "A",
+    "%",
+    "B7",
+    "%",
+    "E",
+    "%",
+    [
+     "F#m:2",
+     "A:2"
+    ],
+    "E",
+    "%",
+    "Amaj7",
+    [
+     "F#m:2",
+     "A:2"
+    ],
+    "B7",
+    "E",
+    "%",
+    "F#m",
+    "A",
+    "E",
+    "Amaj7",
+    [
+     "F#m:2",
+     "A:2"
+    ],
+    "B7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   8,
+   30.651
+  ],
+  [
+   12,
+   45.175
+  ],
+  [
+   16,
+   59.87
+  ],
+  [
+   20,
+   74.52
+  ],
+  [
+   25,
+   91.971
+  ],
+  [
+   29,
+   106.759
+  ],
+  [
+   37,
+   136.86
+  ],
+  [
+   41,
+   152.005
+  ],
+  [
+   46,
+   169.926
+  ],
+  [
+   51,
+   187.875
+  ],
+  [
+   56,
+   205.973
+  ],
+  [
+   59,
+   217.085
+  ]
+ ],
+ "strumSource": "stima"
+}

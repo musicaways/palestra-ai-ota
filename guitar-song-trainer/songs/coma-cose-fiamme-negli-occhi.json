@@ -1,0 +1,324 @@
+{
+ "title": "Fiamme negli occhi",
+ "artist": "Coma_Cose",
+ "album": "Sanremo Compilation 2021",
+ "year": 2021,
+ "genre": "Indie / Pop",
+ "difficulty": 1,
+ "youtubeId": "aiIBXKeslss",
+ "key": "D",
+ "bpm": 130.2,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.11,
+ "strum": "D-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 5400065,
+  "duration": 206,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – G.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "D"
+   ]
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "D",
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "D",
+    "G",
+    "D",
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "D",
+    "G",
+    "D",
+    "G",
+    "%",
+    "D",
+    "G",
+    "D",
+    "G",
+    "D",
+    "%",
+    "G",
+    "D",
+    "G",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    "G",
+    "D",
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "D",
+    "G",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    "G",
+    "D",
+    "G",
+    "D",
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "D",
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "D",
+    "G",
+    "D",
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "D",
+    "G",
+    "D",
+    "%",
+    "G",
+    "D",
+    "G",
+    "D",
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "D",
+    "G",
+    "D",
+    "G",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "D",
+    "G",
+    "D",
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "D",
+    "G",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    "G",
+    "D",
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "D",
+    "G",
+    "D",
+    "G"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "D",
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "D",
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "D",
+    "G",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    "G",
+    "D",
+    "G",
+    "D",
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "D",
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "D",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  }
+ ],
+ "warp": [
+  [
+   1,
+   2.393
+  ],
+  [
+   6,
+   11.36
+  ],
+  [
+   14,
+   26.107
+  ],
+  [
+   21,
+   38.867
+  ],
+  [
+   26,
+   47.997
+  ],
+  [
+   31,
+   57.14
+  ],
+  [
+   36,
+   66.397
+  ],
+  [
+   44,
+   81.143
+  ],
+  [
+   49,
+   90.15
+  ],
+  [
+   53,
+   97.523
+  ],
+  [
+   59,
+   108.84
+  ],
+  [
+   66,
+   121.803
+  ],
+  [
+   71,
+   131.007
+  ],
+  [
+   76,
+   140.223
+  ],
+  [
+   81,
+   149.447
+  ],
+  [
+   88,
+   162.35
+  ],
+  [
+   96,
+   177.097
+  ],
+  [
+   103,
+   190.09
+  ],
+  [
+   108,
+   199.307
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 1262536052
+}

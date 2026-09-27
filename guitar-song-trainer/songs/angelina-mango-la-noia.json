@@ -1,0 +1,336 @@
+{
+ "title": "La noia",
+ "artist": "Angelina Mango",
+ "album": "Angelina Mango",
+ "year": 2024,
+ "genre": "Pop",
+ "difficulty": 2,
+ "youtubeId": "2EesiWrrU28",
+ "key": "Dm",
+ "bpm": 111.98,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.51,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 35356535,
+  "duration": 189,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Dm – Edim – Gm – A7 – D7 – A.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Parte 1",
+   "bars": [
+    "Edim",
+    "Dm",
+    "Edim",
+    "Dm",
+    "Edim",
+    "Dm",
+    "Edim",
+    "Dm",
+    "Edim",
+    "Dm",
+    "Edim",
+    "Dm",
+    "%",
+    [
+     "Gm:2",
+     "Edim:2"
+    ],
+    "Dm",
+    [
+     "Gm:2",
+     "Edim:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "Dm",
+    [
+     "Gm:2",
+     "A7:2"
+    ],
+    "Dm",
+    [
+     "Gm:2",
+     "A7:2"
+    ],
+    "Dm",
+    [
+     "D7:2",
+     "Gm:2"
+    ],
+    [
+     "Edim:2",
+     "Dm:2"
+    ],
+    "A7",
+    "Dm",
+    [
+     "Gm:2",
+     "Edim:2"
+    ],
+    [
+     "Edim:2",
+     "Dm:2"
+    ],
+    [
+     "Gm:2",
+     "Edim:2"
+    ],
+    "Dm",
+    [
+     "Gm:2",
+     "Edim:2"
+    ],
+    [
+     "Edim:2",
+     "Dm:2"
+    ],
+    [
+     "Gm:2",
+     "Edim:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "Dm",
+    [
+     "Gm:2",
+     "A:2"
+    ],
+    "Dm",
+    [
+     "Gm:2",
+     "A:2"
+    ],
+    "Dm",
+    [
+     "Gm:2",
+     "A7:2"
+    ],
+    "Dm",
+    [
+     "Gm:2",
+     "A7:2"
+    ],
+    "Dm",
+    [
+     "Gm:2",
+     "A7:2"
+    ],
+    "Dm",
+    [
+     "Gm:2",
+     "Edim:2"
+    ],
+    "Dm",
+    [
+     "D7:2",
+     "Gm:2"
+    ],
+    [
+     "Edim:2",
+     "Dm:2"
+    ],
+    "A7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "Dm",
+    [
+     "Gm:2",
+     "Edim:2"
+    ],
+    [
+     "Edim:2",
+     "Dm:2"
+    ],
+    [
+     "Gm:2",
+     "Edim:2"
+    ],
+    "Dm",
+    [
+     "Gm:2",
+     "Edim:2"
+    ],
+    [
+     "Edim:2",
+     "Dm:2"
+    ],
+    [
+     "Gm:2",
+     "Edim:2"
+    ],
+    "Dm",
+    "Gm",
+    "Dm",
+    [
+     "Gm:2",
+     "Edim:2"
+    ],
+    [
+     "Dm:2",
+     "D7:2"
+    ],
+    "Gm",
+    "Dm",
+    "A7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "Dm",
+    "%",
+    [
+     "Gm:2",
+     "Edim:2"
+    ],
+    "Dm",
+    [
+     "Gm:2",
+     "Edim:2"
+    ],
+    "Dm",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "Gm:2",
+     "Edim:2"
+    ],
+    [
+     "Edim:2",
+     "Dm:2"
+    ],
+    "Gm",
+    "%",
+    "%",
+    [
+     "Gm:2",
+     "Edim:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    [
+     "Edim:2",
+     "Dm:2"
+    ],
+    [
+     "Gm:2",
+     "Edim:2"
+    ],
+    "Gm",
+    "Edim",
+    "Dm",
+    [
+     "Gm:2",
+     "A7:2"
+    ],
+    "Dm",
+    "Dm"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   0,
+   0.25
+  ],
+  [
+   4,
+   8.87
+  ],
+  [
+   8,
+   17.88
+  ],
+  [
+   12,
+   26.624
+  ],
+  [
+   16,
+   35.19
+  ],
+  [
+   21,
+   45.297
+  ],
+  [
+   27,
+   58.09
+  ],
+  [
+   31,
+   66.82
+  ],
+  [
+   36,
+   77.973
+  ],
+  [
+   41,
+   88.14
+  ],
+  [
+   47,
+   100.937
+  ],
+  [
+   52,
+   111.67
+  ],
+  [
+   56,
+   120.613
+  ],
+  [
+   61,
+   131.533
+  ],
+  [
+   65,
+   139.776
+  ],
+  [
+   70,
+   150.76
+  ],
+  [
+   76,
+   163.897
+  ],
+  [
+   82,
+   176.809
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 2652530492
+}

@@ -1,0 +1,244 @@
+{
+ "title": "The Sound of Silence",
+ "artist": "Simon & Garfunkel",
+ "album": "Rock & Roll Hall of Fame",
+ "year": 1964,
+ "genre": "Folk",
+ "difficulty": 2,
+ "youtubeId": "nkUOACGtGfA",
+ "key": "Gb",
+ "bpm": 104.82,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 1,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.45,
+ "strum": "D--UDUDU",
+ "lyricsSource": {
+  "lrclibId": 36994651,
+  "duration": 186,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F – Bb – C – Dm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Ebm"
+   ]
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Ebm",
+    "Db",
+    "Ebm",
+    "%",
+    "B",
+    "Gb",
+    "B",
+    "Gb",
+    "B",
+    [
+     "B:2",
+     "Gb:2"
+    ],
+    "%",
+    "%",
+    "Gb",
+    "Db",
+    "Ebm"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Db",
+    "%",
+    "Ebm",
+    "%",
+    "B",
+    "Gb",
+    "B",
+    "Gb",
+    "B",
+    [
+     "B:2",
+     "Gb:2"
+    ],
+    "%",
+    "%",
+    "Gb",
+    "Db",
+    "Ebm"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Db",
+    "%",
+    "Ebm",
+    "%",
+    "B",
+    "Gb",
+    "B",
+    "Gb",
+    "B",
+    [
+     "B:2",
+     "Gb:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    [
+     "Gb:2",
+     "Db:2"
+    ],
+    [
+     "Db:2",
+     "Ebm:2"
+    ],
+    "Db",
+    "%",
+    "Ebm",
+    "%",
+    "B",
+    "Gb",
+    "B",
+    "Gb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Db",
+    "%",
+    "Ebm",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Db",
+    "Ebm",
+    "%",
+    "B",
+    "Gb",
+    "B",
+    "Gb",
+    "B",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "%",
+    "%",
+    "Gb",
+    "%",
+    [
+     "Gb:2",
+     "Db:2"
+    ],
+    "%",
+    "%",
+    [
+     "Db:2",
+     "Ebm:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  }
+ ],
+ "warp": [
+  [
+   1,
+   2.872
+  ],
+  [
+   5,
+   11.979
+  ],
+  [
+   9,
+   21.06
+  ],
+  [
+   13,
+   30.219
+  ],
+  [
+   18,
+   41.539
+  ],
+  [
+   24,
+   55.221
+  ],
+  [
+   31,
+   71.451
+  ],
+  [
+   35,
+   80.63
+  ],
+  [
+   39,
+   89.969
+  ],
+  [
+   46,
+   105.997
+  ],
+  [
+   52,
+   119.55
+  ],
+  [
+   58,
+   133.288
+  ],
+  [
+   63,
+   144.621
+  ],
+  [
+   67,
+   153.939
+  ],
+  [
+   72,
+   165.387
+  ]
+ ],
+ "strumSource": "stima",
+ "spotifyId": "5y788ya4NvwhBznoDIcXwK",
+ "deezerId": 15275985,
+ "keySource": "disco in Mi♭ minore (anteprima Deezer e MIDI concordano): accordi +1, forme con capotasto al 1° tasto"
+}

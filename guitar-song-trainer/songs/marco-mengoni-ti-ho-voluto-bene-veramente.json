@@ -1,0 +1,178 @@
+{
+ "title": "Ti ho voluto bene veramente",
+ "artist": "Marco Mengoni",
+ "album": "Ti ho voluto bene veramente  (single)",
+ "year": 2015,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "5RGckRWkebA",
+ "key": "E",
+ "bpm": 116.16,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.97,
+ "strum": "B-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 34166258,
+  "duration": 170.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: E – A – B – C#m – G#m7 – Aadd9.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "C#m",
+    "Aadd9"
+   ],
+   "strum": "B---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "C#m:2",
+     "Aadd9:2"
+    ],
+    [
+     "Aadd9:2",
+     "E:2"
+    ],
+    "C#m",
+    "%",
+    "%",
+    [
+     "Aadd9:2",
+     "E:2"
+    ],
+    "%",
+    "C#m",
+    [
+     "Aadd9:2",
+     "E:2"
+    ],
+    "%",
+    "%",
+    "%",
+    [
+     "B:2",
+     "E:2"
+    ],
+    "%",
+    "G#m7",
+    "%",
+    "A",
+    "%",
+    "%",
+    [
+     "E:2",
+     "G#m7:2"
+    ],
+    "A",
+    "%",
+    "E",
+    [
+     "E:2",
+     "G#m7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "E",
+    "%",
+    "A",
+    "E",
+    "%",
+    "%",
+    "A",
+    "E",
+    "%",
+    "%",
+    "Aadd9",
+    "E",
+    "%",
+    "%",
+    "B",
+    "%",
+    "E",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "C#m:2",
+     "Aadd9:2"
+    ],
+    "G#m",
+    "%",
+    "C#m",
+    "%",
+    "A",
+    "%",
+    "B",
+    "%",
+    [
+     "A:2",
+     "B:2"
+    ],
+    [
+     "B:2",
+     "C#m:2"
+    ],
+    "G#m7",
+    "A",
+    "B",
+    "C#m",
+    "G#m7",
+    "A",
+    "E",
+    "%",
+    "%",
+    "%",
+    "A",
+    "E",
+    "%",
+    "%",
+    "A",
+    "E",
+    "%",
+    "%",
+    [
+     "G#m7:1",
+     "Amaj7:2",
+     "B:1"
+    ],
+    "B",
+    [
+     "B:2",
+     "E:2"
+    ],
+    "%",
+    "G#m7",
+    [
+     "G#m7:2",
+     "Amaj7:2"
+    ],
+    [
+     "Amaj7:2",
+     "B:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima"
+}

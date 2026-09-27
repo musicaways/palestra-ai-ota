@@ -1,0 +1,129 @@
+{
+ "title": "Uomini soli",
+ "artist": "Pooh",
+ "album": "La nostra storia CD2",
+ "year": 1990,
+ "genre": "Pop",
+ "difficulty": 3,
+ "youtubeId": "lI1kdwCjhzI",
+ "key": "Am",
+ "bpm": 69.84,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 3.11,
+ "strum": "D---D-DU",
+ "lyricsSource": {
+  "lrclibId": 37482539,
+  "duration": 243.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Am – E7 – F – Em7 – Bb.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "E7",
+    "%",
+    "Am"
+   ],
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "E7",
+    "Am",
+    [
+     "Bb:2",
+     "E7:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "E7",
+    "Am",
+    [
+     "Bb:1",
+     "E7:2",
+     "Am:1"
+    ],
+    "%",
+    "%",
+    "Em7",
+    "F",
+    "%",
+    "E7",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "Em7",
+    "F",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "E7",
+    "Am",
+    [
+     "Bb:1",
+     "E7:2",
+     "Am:1"
+    ],
+    "%",
+    "%",
+    "Em7",
+    "F",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "Em7",
+    "F",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima",
+ "deezerId": 3724746532
+}

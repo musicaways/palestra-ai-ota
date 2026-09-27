@@ -1,0 +1,351 @@
+{
+ "title": "E tu",
+ "artist": "Claudio Baglioni",
+ "album": "Bella Italia Cd2",
+ "year": 1974,
+ "genre": "Cantautori",
+ "difficulty": 5,
+ "youtubeId": "pHEjrxdth0w",
+ "key": "F#",
+ "bpm": 128.54,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.21,
+ "strum": "D-D-DUDU",
+ "lyricsSource": {
+  "lrclibId": 37165610,
+  "duration": 286,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F# – C# – A – D#m7 – Ab – D.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F#",
+    "D#m7",
+    "Badd9",
+    "C#",
+    "F#",
+    "D#m7",
+    "Badd9",
+    "C#"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "F#",
+    "%",
+    "D#m7",
+    "%",
+    "%",
+    "G#m7",
+    "C#4",
+    "C#",
+    "F#",
+    "%",
+    "D#m7",
+    "%",
+    "%",
+    "%",
+    [
+     "G#m7:2",
+     "C#4:2"
+    ],
+    [
+     "C#4:2",
+     "C#:2"
+    ],
+    "%",
+    "%",
+    "F#",
+    "D#m",
+    "%",
+    "%",
+    "F#",
+    "D#m",
+    "%",
+    "%",
+    "%",
+    "%",
+    "B",
+    "%",
+    "F#",
+    "F#",
+    "D#m7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "G#m7",
+    "C#4",
+    "C#",
+    "F#",
+    "%",
+    "D#m7",
+    "%",
+    "%",
+    "G#m7",
+    "C#4",
+    "C#",
+    "%",
+    "%",
+    "F#",
+    "D#m",
+    "%",
+    "%",
+    "F#",
+    "D#m",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "A#7:2",
+     "D#m:2"
+    ],
+    "C#",
+    [
+     "B:2",
+     "C#:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    "A6",
+    "G",
+    "A",
+    "F#m7",
+    "G",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    "A6",
+    "G",
+    "A",
+    "%",
+    "%",
+    [
+     "A:2",
+     "D4:2"
+    ],
+    "%",
+    "%",
+    "%",
+    [
+     "D4:2",
+     "D:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    [
+     "Am7:2",
+     "D4:2"
+    ],
+    [
+     "D4:2",
+     "D:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G",
+    "Em",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "B7:2",
+     "Em:2"
+    ],
+    "D",
+    [
+     "C:2",
+     "D:2"
+    ],
+    "%",
+    "%",
+    "Bb6",
+    "Ab",
+    "Bb",
+    "Gm7",
+    "Ab",
+    "Bb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "%",
+    "%",
+    "Bb6",
+    "Ab",
+    [
+     "Bb:2",
+     "Eb:1",
+     "Cm7:1"
+    ],
+    [
+     "Cm7:1",
+     "Ab:1",
+     "Bb7:2"
+    ],
+    "Eb",
+    "%",
+    "Cm7",
+    "%",
+    "Ab",
+    "%",
+    "Bb7",
+    "%",
+    "Eb",
+    "%",
+    "Cm7",
+    "%",
+    "Ab",
+    "%",
+    "Bb7",
+    "%",
+    "Eb",
+    "%",
+    "Cm7"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   8,
+   16.202
+  ],
+  [
+   16,
+   31.139
+  ],
+  [
+   22,
+   42.341
+  ],
+  [
+   30,
+   57.278
+  ],
+  [
+   36,
+   68.48
+  ],
+  [
+   42,
+   79.683
+  ],
+  [
+   47,
+   89.039
+  ],
+  [
+   55,
+   103.976
+  ],
+  [
+   59,
+   111.266
+  ],
+  [
+   65,
+   122.31
+  ],
+  [
+   72,
+   135.38
+  ],
+  [
+   76,
+   143.062
+  ],
+  [
+   82,
+   154.323
+  ],
+  [
+   95,
+   178.768
+  ],
+  [
+   101,
+   190.121
+  ],
+  [
+   105,
+   197.59
+  ],
+  [
+   117,
+   219.914
+  ],
+  [
+   122,
+   229.006
+  ],
+  [
+   128,
+   240.208
+  ],
+  [
+   132,
+   247.57
+  ]
+ ],
+ "strumSource": "stima"
+}

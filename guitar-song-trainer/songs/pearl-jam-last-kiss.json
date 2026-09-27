@@ -1,0 +1,186 @@
+{
+ "title": "Last Kiss",
+ "artist": "Pearl Jam",
+ "album": "Last Kiss - single (PROMO)",
+ "year": 1999,
+ "genre": "Rock",
+ "difficulty": 1,
+ "youtubeId": "FPJQGSFCKa8",
+ "key": "G",
+ "bpm": 56.08,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.04,
+ "strum": "D--UD-DU",
+ "lyricsSource": {
+  "lrclibId": 37464288,
+  "duration": 195.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – D – Em – C.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa",
+   "bars": [
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "G:1"
+    ],
+    "G",
+    "Em",
+    "C",
+    "D",
+    "G",
+    "G",
+    "Em",
+    "C",
+    "D",
+    "G",
+    "G",
+    "Em"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima",
+ "deezerId": 7675332,
+ "spotifyId": "3g5f74RbR1W2p0BkwYRTZ9"
+}

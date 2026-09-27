@@ -1,0 +1,308 @@
+{
+ "title": "Desperado",
+ "artist": "The Eagles",
+ "album": "The Rolling Stones Magazine Top 500",
+ "year": 1973,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "kAO1Ff11cKs",
+ "key": "G",
+ "bpm": 118.28,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.85,
+ "strum": "PPPPPPPP",
+ "lyricsSource": {
+  "lrclibId": 37245109,
+  "duration": 217,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – C – Em – Em7 – D7 – Bm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "G:2",
+     "G7:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "C",
+    [
+     "C:2",
+     "Cm:2"
+    ],
+    "%",
+    "G",
+    "%",
+    "Em",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "C",
+    [
+     "C:2",
+     "Cm:2"
+    ],
+    "%",
+    "%",
+    "%",
+    [
+     "A7:2",
+     "D7:2"
+    ],
+    "G",
+    "Em",
+    [
+     "Em:2",
+     "Bm7:2"
+    ],
+    "%",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "G",
+    "Em",
+    [
+     "Em:2",
+     "C:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Em7",
+    [
+     "Em7:2",
+     "Bm7:2"
+    ],
+    "%",
+    "C",
+    "G",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "D7",
+    "G",
+    "%",
+    "%",
+    "%",
+    "G",
+    "G",
+    "Em",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "%",
+    "%",
+    "C",
+    "%",
+    "A7",
+    "D7",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    "Em",
+    [
+     "Em:2",
+     "Bm7:2"
+    ],
+    "%",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "G",
+    "Em7",
+    [
+     "Em7:2",
+     "C:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Em7",
+    [
+     "Em7:2",
+     "Bm7:2"
+    ],
+    "%",
+    "C",
+    "%",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
+  },
+  {
+   "name": "Strofa 7",
+   "bars": [
+    "D7",
+    "G",
+    "%",
+    "%",
+    "%",
+    "G",
+    "Em7",
+    "A7",
+    "D7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G",
+    "G",
+    "Em",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "G",
+    "C",
+    "%",
+    "Cm",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
+  }
+ ],
+ "warp": [
+  [
+   0,
+   1.734
+  ],
+  [
+   15,
+   31.666
+  ],
+  [
+   22,
+   46.365
+  ],
+  [
+   28,
+   58.54
+  ],
+  [
+   33,
+   68.792
+  ],
+  [
+   38,
+   79.025
+  ],
+  [
+   43,
+   89.083
+  ],
+  [
+   48,
+   99.205
+  ],
+  [
+   55,
+   113.484
+  ],
+  [
+   63,
+   129.695
+  ],
+  [
+   68,
+   140
+  ],
+  [
+   74,
+   152.111
+  ],
+  [
+   81,
+   166.273
+  ],
+  [
+   86,
+   176.46
+  ],
+  [
+   92,
+   188.635
+  ],
+  [
+   96,
+   196.751
+  ],
+  [
+   100,
+   204.896
+  ]
+ ],
+ "strumSource": "stima"
+}

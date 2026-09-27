@@ -1,0 +1,223 @@
+{
+ "title": "Riccione",
+ "artist": "Thegiornalisti",
+ "album": "Top 100 Italia - Classifica Del 22.07.2019",
+ "year": 2017,
+ "genre": "Indie / Pop",
+ "difficulty": 4,
+ "youtubeId": "IL6_bazFFKo",
+ "key": "Gm",
+ "bpm": 109.94,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.6,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37026340,
+  "duration": 197.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F – Gm – Bb – Eb – Dm7 – Cm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Gm",
+    "Dm7",
+    "Eb"
+   ],
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Gm",
+    "Dm7",
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "Gm",
+    "Dm7",
+    "Eb",
+    "Bb",
+    "F",
+    [
+     "Cm:2",
+     "Gm:2"
+    ],
+    [
+     "Gm:2",
+     "F:2"
+    ],
+    "Dm",
+    "Cm",
+    "Gm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "F",
+    "%",
+    "Gm",
+    "Dm7",
+    "Eb",
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "Gm",
+    "Dm7",
+    "Eb",
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "Gm:2"
+    ],
+    "Dm7",
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Gm",
+    "Dm7",
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "Gm",
+    "Dm7",
+    "Eb",
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "%",
+    [
+     "Cm:1",
+     "Gm:2",
+     "F:1"
+    ],
+    "Dm7",
+    "Cm",
+    "Gm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "F",
+    "%",
+    "Gm",
+    "Dm7",
+    "Eb",
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "Gm",
+    "Dm7",
+    "Eb",
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "Gm",
+    "Dm7",
+    "Eb",
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "Gm",
+    "Dm",
+    "Eb",
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "Eb",
+    "F",
+    "Gm",
+    [
+     "Cm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "Gm",
+    "Eb",
+    "Gm",
+    "Dm7",
+    "Eb",
+    "Bb",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "Gm",
+    "Dm7",
+    "Eb",
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "Gm",
+    "Dm7",
+    "Eb",
+    "Bb",
+    [
+     "F:2",
+     "G:2"
+    ],
+    "Dm7",
+    "Eb",
+    "Bb",
+    "%",
+    "F",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima",
+ "deezerId": 373276551
+}

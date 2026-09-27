@@ -1,0 +1,305 @@
+{
+ "title": "Sogni appesi",
+ "artist": "Ultimo",
+ "album": "Ultimo",
+ "year": 2019,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "9PKRT97kifs",
+ "key": "A",
+ "bpm": 128.05,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.91,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34133686,
+  "duration": 213,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – F#m – D – E – Dadd9 – E4.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F#m7",
+    "%",
+    "E4",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    [
+     "F#m:2",
+     "A:2"
+    ],
+    "D",
+    "%",
+    "F#m",
+    "A",
+    "D",
+    "%",
+    "F#m",
+    "A",
+    "D",
+    "%",
+    "F#m",
+    "A",
+    "D",
+    "%",
+    "F#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "A",
+    "D",
+    "%",
+    "F#m",
+    "A",
+    "D",
+    "%",
+    "F#m",
+    "A",
+    "D",
+    "%",
+    "F#m",
+    "A",
+    "%",
+    "D",
+    "F#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "A",
+    "%",
+    "D",
+    "F#m",
+    "A",
+    "D",
+    "%",
+    "F#m",
+    "A",
+    "%",
+    "D",
+    "E",
+    "A",
+    "%",
+    "D",
+    [
+     "E:2",
+     "F#m:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "A",
+    "%",
+    "D",
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    "A",
+    "%",
+    "D",
+    "%",
+    "%",
+    [
+     "A:2",
+     "D:2"
+    ],
+    "%",
+    "%",
+    "A",
+    "D",
+    "%",
+    "F#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "A",
+    "%",
+    "D",
+    "F#m",
+    "A",
+    "%",
+    "D",
+    "F#m",
+    "A",
+    "%",
+    "E",
+    [
+     "C#m:2",
+     "D:2"
+    ],
+    "E",
+    "%",
+    "C#7",
+    "F#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "A",
+    "%",
+    "Dadd9",
+    "F#m",
+    "A",
+    "%",
+    "Dadd9",
+    "F#m",
+    "A",
+    "%",
+    "Dadd9",
+    "F#m",
+    "A",
+    "Dadd9",
+    "%",
+    "F#m7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 8",
+   "bars": [
+    "%",
+    "E4",
+    "%",
+    "Dadd9",
+    "%",
+    "E4",
+    "%",
+    "F#m7",
+    "%",
+    "E4"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   8,
+   15.871
+  ],
+  [
+   12,
+   23.369
+  ],
+  [
+   16,
+   30.846
+  ],
+  [
+   20,
+   38.42
+  ],
+  [
+   25,
+   47.84
+  ],
+  [
+   30,
+   57.244
+  ],
+  [
+   34,
+   64.704
+  ],
+  [
+   38,
+   72.184
+  ],
+  [
+   43,
+   81.673
+  ],
+  [
+   47,
+   89.133
+  ],
+  [
+   51,
+   96.331
+  ],
+  [
+   55,
+   103.829
+  ],
+  [
+   60,
+   113.253
+  ],
+  [
+   64,
+   120.776
+  ],
+  [
+   68,
+   128.349
+  ],
+  [
+   72,
+   136.039
+  ],
+  [
+   76,
+   143.269
+  ],
+  [
+   80,
+   150.741
+  ],
+  [
+   85,
+   160.266
+  ],
+  [
+   89,
+   167.757
+  ],
+  [
+   93,
+   175.21
+  ],
+  [
+   97,
+   182.599
+  ],
+  [
+   101,
+   190.34
+  ],
+  [
+   103,
+   194.143
+  ]
+ ],
+ "strumSource": "stima"
+}

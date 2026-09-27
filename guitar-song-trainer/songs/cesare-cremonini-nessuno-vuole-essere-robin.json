@@ -1,0 +1,344 @@
+{
+ "title": "Nessuno vuole essere Robin",
+ "artist": "Cesare Cremonini",
+ "album": "Possibili scenari",
+ "year": 2018,
+ "genre": "Pop / Cantautori",
+ "difficulty": 2,
+ "youtubeId": "6Z9l7aQNtw8",
+ "key": "Re maggiore (D)",
+ "bpm": 137.39,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.72,
+ "strum": "B-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34696453,
+  "duration": 275,
+  "offset": 0
+ },
+ "notes": "In Re con colori aperti: Dmaj7, Gmaj7, Gadd9. Due battute per accordo.",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. L'app controlla da sola che testo e accordi siano coerenti; per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Gmaj7",
+    "%",
+    "D",
+    "%",
+    "Gmaj7",
+    "%",
+    "D",
+    "%",
+    "Gmaj7",
+    "%",
+    "D",
+    "%",
+    "Gmaj7",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "B---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "D",
+    "%",
+    "Dmaj7",
+    "%",
+    "D",
+    "%",
+    "Dmaj7",
+    "%",
+    "D",
+    "%",
+    "Gmaj7",
+    "%",
+    "D",
+    "%",
+    "D",
+    "%",
+    "D",
+    "%",
+    "Dmaj7",
+    "%",
+    "D",
+    "%",
+    "Dmaj7",
+    "%",
+    "D",
+    "%",
+    "Gmaj7",
+    "%",
+    "D",
+    "%",
+    "D",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    "%",
+    "A",
+    "%",
+    "Gadd9",
+    "%",
+    "D",
+    "%",
+    "Gmaj7",
+    "%",
+    "D",
+    "%",
+    "Em7",
+    "%",
+    "A",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%"
+   ],
+   "barsPerRow": 8,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Intermezzo",
+   "bars": [
+    "Gmaj7",
+    "%",
+    "D",
+    "%",
+    "Gmaj7",
+    "%",
+    "D",
+    "%",
+    "Gmaj7",
+    "%",
+    "D",
+    "%",
+    "Gmaj7",
+    "%",
+    "D",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "D",
+    "%",
+    "Dmaj7",
+    "%",
+    "D",
+    "%",
+    "Dmaj7",
+    "%",
+    "D",
+    "%",
+    "Gmaj7",
+    "%",
+    "D",
+    "%",
+    "D",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    "%",
+    "A",
+    "%",
+    "Gadd9",
+    "%",
+    "D",
+    "%",
+    "Gmaj7",
+    "%",
+    "D",
+    "%",
+    "Em7",
+    "%",
+    "A",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%"
+   ],
+   "barsPerRow": 8,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ponte",
+   "bars": [
+    "G",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%"
+   ],
+   "barsPerRow": 8,
+   "strum": "D-DU-UDU"
+  },
+  {
+   "name": "Ritornello finale",
+   "bars": [
+    "D",
+    "%",
+    "A",
+    "%",
+    "Gadd9",
+    "%",
+    "D",
+    "%",
+    "Gmaj7",
+    "%",
+    "D",
+    "%",
+    "Em7",
+    "%",
+    "A",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%"
+   ],
+   "barsPerRow": 8,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Outro",
+   "bars": [
+    "D",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%",
+    "G",
+    "%",
+    "D"
+   ],
+   "barsPerRow": 4,
+   "strum": "B---D---"
+  }
+ ],
+ "warp": [
+  [
+   15,
+   27.76
+  ],
+  [
+   19,
+   34.826
+  ],
+  [
+   23,
+   41.814
+  ],
+  [
+   27,
+   48.801
+  ],
+  [
+   35,
+   62.832
+  ],
+  [
+   39,
+   69.869
+  ],
+  [
+   45,
+   80.58
+  ],
+  [
+   53,
+   94.73
+  ],
+  [
+   59,
+   105.13
+  ],
+  [
+   65,
+   115.427
+  ],
+  [
+   69,
+   122.415
+  ],
+  [
+   83,
+   146.871
+  ],
+  [
+   87,
+   153.843
+  ],
+  [
+   95,
+   167.816
+  ],
+  [
+   99,
+   174.759
+  ],
+  [
+   103,
+   181.746
+  ],
+  [
+   111,
+   195.692
+  ],
+  [
+   117,
+   206.21
+  ],
+  [
+   121,
+   213.118
+  ],
+  [
+   125,
+   220.061
+  ],
+  [
+   129,
+   227.016
+  ],
+  [
+   135,
+   237.15
+  ],
+  [
+   139,
+   244.137
+  ],
+  [
+   147,
+   258.107
+  ]
+ ],
+ "strumSource": "stima"
+}

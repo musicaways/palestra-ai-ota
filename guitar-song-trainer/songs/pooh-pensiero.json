@@ -1,0 +1,245 @@
+{
+ "title": "Pensiero",
+ "artist": "Pooh",
+ "album": "1971–1974",
+ "year": 1971,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "9E8IDLAVxpA",
+ "key": "C",
+ "bpm": 74.3,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.08,
+ "strum": "B-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34630505,
+  "duration": 239,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – Bb – F – Dm – Eb – Gm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F",
+    "Am",
+    "Bb",
+    "C4",
+    "C"
+   ],
+   "barsPerRow": 4,
+   "strum": "B---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "Bb",
+    "C",
+    "Gm",
+    "Eb",
+    "C",
+    "Dm",
+    "%",
+    "C",
+    "F",
+    "Bb",
+    "F",
+    "Bb",
+    "C",
+    [
+     "Gm:2",
+     "Eb:2"
+    ],
+    [
+     "Eb:2",
+     "C:2"
+    ],
+    "Dm",
+    "%",
+    "C",
+    "%",
+    [
+     "F:2",
+     "Am:1",
+     "Bb:1"
+    ],
+    [
+     "Bb:1",
+     "C4:1",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "Gm:2",
+     "C7:2"
+    ],
+    [
+     "C7:2",
+     "F:2"
+    ],
+    "%",
+    "%",
+    [
+     "Am:2",
+     "Bb:2"
+    ],
+    [
+     "C4:2",
+     "C:2"
+    ],
+    [
+     "Gm:2",
+     "C7:1",
+     "Bb:1"
+    ],
+    [
+     "Bb:1",
+     "C4:1",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "Bb",
+    "C",
+    [
+     "Gm:2",
+     "Eb:2"
+    ],
+    [
+     "Eb:2",
+     "C:2"
+    ],
+    "Dm",
+    "%",
+    "C",
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "Bb",
+    "C",
+    [
+     "Gm:2",
+     "Eb:2"
+    ],
+    [
+     "Eb:2",
+     "C:2"
+    ],
+    "Dm",
+    "%",
+    "C",
+    "Dm",
+    "C",
+    "Dm",
+    "C",
+    "Dm",
+    "C",
+    "Dm",
+    "%",
+    "%",
+    [
+     "Dm:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   7,
+   24.75
+  ],
+  [
+   12,
+   40.829
+  ],
+  [
+   20,
+   66.67
+  ],
+  [
+   28,
+   92.34
+  ],
+  [
+   32,
+   105.261
+  ],
+  [
+   36,
+   118.27
+  ],
+  [
+   40,
+   131.38
+  ],
+  [
+   45,
+   147.789
+  ],
+  [
+   49,
+   160.71
+  ],
+  [
+   54,
+   176.65
+  ],
+  [
+   58,
+   189.47
+  ],
+  [
+   63,
+   205.45
+  ],
+  [
+   67,
+   218.18
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 3852521491,
+ "spotifyId": "6AxqGRY3ljQsIfupjo3R7M"
+}

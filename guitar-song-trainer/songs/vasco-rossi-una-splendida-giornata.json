@@ -1,0 +1,265 @@
+{
+ "title": "Una splendida giornata",
+ "artist": "Vasco Rossi",
+ "album": "Single",
+ "year": 1982,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "LhokJ_YqMmQ",
+ "key": "Dm7",
+ "bpm": 93.22,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.04,
+ "strum": "D-D-D-DU",
+ "lyricsSource": {
+  "lrclibId": 27459134,
+  "duration": 283.951,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Dm7 – Cm7 – Bb – C7 – G – Gm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Gm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Cm7",
+    "Dm7",
+    [
+     "Dm7:2",
+     "Gm:2"
+    ],
+    "%",
+    "Cm7",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Bb:2",
+     "Dm7:2"
+    ],
+    [
+     "Dm7:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    [
+     "Bb:2",
+     "Dm7:2"
+    ],
+    [
+     "Dm7:2",
+     "G:2"
+    ],
+    [
+     "Bb:2",
+     "Dm7:2"
+    ],
+    "G",
+    "%",
+    "Dm7",
+    "%",
+    "%",
+    "C7",
+    "Cm7",
+    "Dm7",
+    "%",
+    "%",
+    "C7",
+    "Gm",
+    "Dm",
+    "Gm",
+    "Dm",
+    "%",
+    "Cm7",
+    "Dm7",
+    [
+     "Dm7:2",
+     "Gm:2"
+    ],
+    "%",
+    "Cm7",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Bb:2",
+     "Dm7:2"
+    ],
+    [
+     "Dm7:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    [
+     "Bb:2",
+     "Dm7:2"
+    ],
+    [
+     "Dm7:2",
+     "G:2"
+    ],
+    [
+     "Bb:2",
+     "Dm7:2"
+    ],
+    "G",
+    "%",
+    "Dm7",
+    "Gm7",
+    "%",
+    "C7",
+    "Cm7",
+    "Dm7",
+    "Gm7",
+    "%",
+    "C7",
+    "Gm",
+    "Dm",
+    "Gm",
+    "Dm",
+    "%",
+    "Cm7",
+    "Dm7",
+    [
+     "Dm7:2",
+     "Gm:2"
+    ],
+    "%",
+    "Cm7",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Bb:2",
+     "Dm7:2"
+    ],
+    [
+     "Dm7:2",
+     "G:2"
+    ],
+    [
+     "Bb:2",
+     "Dm7:2"
+    ],
+    "G",
+    "%",
+    "%",
+    [
+     "Bb:2",
+     "Dm7:2"
+    ],
+    "G",
+    "Cm7",
+    "Dm7",
+    "Gm7",
+    "%",
+    "C7",
+    "Cm7",
+    "Dm7",
+    "Gm7",
+    "%",
+    "C7",
+    "Cm7",
+    "Dm7",
+    "Gm7",
+    "%",
+    "C7",
+    "Cm7",
+    "Dm7",
+    "Gm7",
+    "%",
+    "C7",
+    "Cm7",
+    "Dm7",
+    "Gm7",
+    "%",
+    "C7",
+    "Cm7",
+    "Dm7"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   5,
+   15.325
+  ],
+  [
+   9,
+   25.372
+  ],
+  [
+   15,
+   40.491
+  ],
+  [
+   19,
+   50.789
+  ],
+  [
+   36,
+   94.557
+  ],
+  [
+   40,
+   104.925
+  ],
+  [
+   44,
+   115.224
+  ],
+  [
+   48,
+   125.596
+  ],
+  [
+   67,
+   174.517
+  ],
+  [
+   71,
+   184.825
+  ],
+  [
+   77,
+   200.25
+  ],
+  [
+   82,
+   213.123
+  ]
+ ],
+ "strumSource": "stima"
+}

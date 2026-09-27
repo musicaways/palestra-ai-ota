@@ -1,0 +1,345 @@
+{
+ "title": "Sere nere",
+ "artist": "Tiziano Ferro",
+ "album": "TZN – The Best Of (Lo Stadio Tour 2015 Edition)",
+ "year": 2004,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "Tyar4MCVeR8",
+ "key": "F#",
+ "bpm": 135.86,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.56,
+ "strum": "B-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 37000859,
+  "duration": 265,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F# – Bmaj7 – C# – A#m – D#m – Badd9.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "%",
+    "F#",
+    "Bmaj7",
+    "%",
+    "F#",
+    "Badd9",
+    "%",
+    "F#",
+    "F#",
+    "%",
+    "Bmaj7",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "B---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "F#",
+    [
+     "F#:2",
+     "Bmaj7:2"
+    ],
+    "%",
+    "C#",
+    "%",
+    "%",
+    "%",
+    "%",
+    "F#",
+    "%",
+    "Bmaj7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "F#4",
+    "F#",
+    "Bmaj7",
+    "C#",
+    "%",
+    "%",
+    "%",
+    "Bm",
+    "%",
+    "%",
+    "%",
+    "F#",
+    "F#",
+    "D#m",
+    "%",
+    "A#m",
+    "%",
+    "%",
+    "%",
+    "F#",
+    "F#",
+    "D#m",
+    "%",
+    "A#m",
+    "%",
+    "C#",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "F#",
+    "%",
+    "%",
+    "Bmaj7",
+    "%",
+    "%",
+    "F#",
+    "%",
+    "Bmaj7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "F#",
+    [
+     "F#:2",
+     "Bmaj7:2"
+    ],
+    "%",
+    "C#",
+    "%",
+    "C#4",
+    "%",
+    "Bm",
+    "%",
+    "%",
+    "%",
+    "F#",
+    "F#",
+    "D#m",
+    "%",
+    "A#m",
+    "%",
+    "%",
+    "%",
+    "F#",
+    "F#",
+    "D#m",
+    "%",
+    "A#m",
+    "%",
+    [
+     "A#m:2",
+     "C#:2"
+    ],
+    "%",
+    "%",
+    "Bmaj7",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "F#",
+    [
+     "F#:2",
+     "Bmaj7:2"
+    ],
+    "%",
+    "Badd9",
+    "C#",
+    "F#",
+    "D#m7",
+    "Badd9",
+    "C#",
+    "B",
+    "%",
+    "C#",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "F#",
+    "F#",
+    "D#m",
+    "%",
+    "A#m",
+    "%",
+    "%",
+    "%",
+    "F#",
+    "F#",
+    "D#m",
+    "%",
+    "A#m",
+    "%",
+    "C#",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "F#",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "F#:2",
+     "Bmaj7:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   8,
+   15.754
+  ],
+  [
+   15,
+   28.141
+  ],
+  [
+   20,
+   36.952
+  ],
+  [
+   24,
+   44.018
+  ],
+  [
+   31,
+   56.382
+  ],
+  [
+   35,
+   63.248
+  ],
+  [
+   39,
+   70.314
+  ],
+  [
+   43,
+   77.38
+  ],
+  [
+   47,
+   84.685
+  ],
+  [
+   51,
+   91.512
+  ],
+  [
+   60,
+   107.411
+  ],
+  [
+   64,
+   114.518
+  ],
+  [
+   71,
+   126.862
+  ],
+  [
+   75,
+   133.928
+  ],
+  [
+   79,
+   140.994
+  ],
+  [
+   83,
+   148.082
+  ],
+  [
+   87,
+   155.16
+  ],
+  [
+   92,
+   164.224
+  ],
+  [
+   96,
+   171.29
+  ],
+  [
+   101,
+   180.13
+  ],
+  [
+   105,
+   187.183
+  ],
+  [
+   117,
+   208.202
+  ],
+  [
+   121,
+   215.268
+  ],
+  [
+   125,
+   222.334
+  ],
+  [
+   129,
+   229.328
+  ],
+  [
+   133,
+   236.466
+  ]
+ ],
+ "strumSource": "stima"
+}

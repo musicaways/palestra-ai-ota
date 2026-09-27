@@ -1,0 +1,385 @@
+{
+ "title": "Hymn for the Weekend",
+ "artist": "Coldplay",
+ "album": "Wow! The Tens",
+ "year": 2015,
+ "genre": "Pop / Rock",
+ "difficulty": 5,
+ "youtubeId": "1As2xAHBh4k",
+ "key": "Bb",
+ "bpm": 87.48,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.72,
+ "strum": "D--UD-DU",
+ "lyricsSource": {
+  "lrclibId": 37294126,
+  "duration": 258,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bb – Cm – Ab – Fm – Gm – Eb6.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Fm",
+    "Bb",
+    "Cm"
+   ],
+   "strum": "D---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Fm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "Cm:2"
+    ],
+    [
+     "Bb:2",
+     "Fm:2"
+    ],
+    [
+     "Bb:2",
+     "Cm:2"
+    ],
+    [
+     "Fm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "Cm:2"
+    ],
+    [
+     "Bb:2",
+     "Fm:2"
+    ],
+    [
+     "Bb:2",
+     "Cm:2"
+    ],
+    [
+     "Bb:2",
+     "Fm:2"
+    ],
+    [
+     "Bb:2",
+     "Cm:2"
+    ],
+    [
+     "Bb:2",
+     "Fm:2"
+    ],
+    [
+     "Bb:2",
+     "Cm:2"
+    ],
+    [
+     "Bb:2",
+     "Fm:2"
+    ],
+    [
+     "Bb:2",
+     "Cm:2"
+    ],
+    [
+     "Bb:2",
+     "Fm:2"
+    ],
+    [
+     "Bb:2",
+     "Cm:2"
+    ],
+    "Abmaj7",
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    "Cm",
+    [
+     "Fm7:1",
+     "Eb6:2"
+    ],
+    "Cm",
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    "Cm",
+    [
+     "Fm:1",
+     "Eb6:2"
+    ],
+    [
+     "Ab:1",
+     "Bb:2",
+     "Cm:1"
+    ],
+    "Gm",
+    [
+     "Gm:2",
+     "Ab:2"
+    ],
+    "%",
+    [
+     "Ab:1",
+     "Bb:2",
+     "Cm:1"
+    ],
+    "Gm",
+    "%",
+    "%",
+    "Ab",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Bb:2",
+     "Fm:2"
+    ],
+    [
+     "Bb:2",
+     "Cm:2"
+    ],
+    [
+     "Bb:2",
+     "Fm:2"
+    ],
+    [
+     "Bb:2",
+     "Cm:2"
+    ],
+    [
+     "Bb:2",
+     "Fm:2"
+    ],
+    [
+     "Bb:2",
+     "Cm:2"
+    ],
+    [
+     "Bb:2",
+     "Fm:2"
+    ],
+    [
+     "Bb:2",
+     "Cm:2"
+    ],
+    "Cm",
+    [
+     "Ab:2",
+     "Fm:2"
+    ],
+    "Cm",
+    [
+     "Fm:1",
+     "Eb6:2"
+    ],
+    [
+     "Ab:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "Cm:2"
+    ],
+    "Gm",
+    "Ab",
+    [
+     "Ab:1",
+     "Bb:2",
+     "Cm:1"
+    ],
+    "Gm",
+    [
+     "Gm:2",
+     "Ab:2"
+    ],
+    "%",
+    [
+     "Ab:1",
+     "Bb:2",
+     "Cm:1"
+    ],
+    "Gm",
+    [
+     "Gm:2",
+     "Ab:2"
+    ],
+    "%",
+    [
+     "Ab:1",
+     "Bb:2",
+     "Cm:1"
+    ],
+    "Gm",
+    "Ab",
+    [
+     "Ab:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "Cm:2"
+    ],
+    [
+     "Gm:2",
+     "Ab:2"
+    ],
+    [
+     "Bb:2",
+     "Cm:2"
+    ],
+    [
+     "Gm:2",
+     "Ab:2"
+    ],
+    [
+     "Bb:2",
+     "Cm:2"
+    ],
+    [
+     "Gm:2",
+     "Ab:2"
+    ],
+    [
+     "Bb:2",
+     "Cm:2"
+    ],
+    [
+     "Gm:2",
+     "Ab:2"
+    ],
+    [
+     "Bb:2",
+     "Cm:2"
+    ],
+    [
+     "Gm:2",
+     "Ab:2"
+    ],
+    [
+     "Bb:2",
+     "Cm:2"
+    ],
+    [
+     "Gm:2",
+     "Ab:2"
+    ],
+    [
+     "Bb:2",
+     "Cm:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   3,
+   11.31
+  ],
+  [
+   7,
+   22.327
+  ],
+  [
+   14,
+   41.496
+  ],
+  [
+   20,
+   57.88
+  ],
+  [
+   26,
+   73.78
+  ],
+  [
+   30,
+   84.547
+  ],
+  [
+   35,
+   97.97
+  ],
+  [
+   42,
+   117.634
+  ],
+  [
+   49,
+   137.291
+  ],
+  [
+   55,
+   153.73
+  ],
+  [
+   59,
+   164.673
+  ],
+  [
+   65,
+   181.066
+  ],
+  [
+   70,
+   195.181
+  ],
+  [
+   76,
+   211.513
+  ],
+  [
+   82,
+   227.7
+  ],
+  [
+   86,
+   238.657
+  ],
+  [
+   90,
+   249.37
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 114811546
+}

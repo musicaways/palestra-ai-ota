@@ -1,0 +1,324 @@
+{
+ "title": "Nord sud ovest est",
+ "artist": "883",
+ "album": "Guilty Pleasure",
+ "year": 1993,
+ "genre": "Pop",
+ "difficulty": 1,
+ "youtubeId": "oIFZcvTJ7EY",
+ "key": "C",
+ "bpm": 59.98,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.16,
+ "strum": "D---D-DU",
+ "lyricsSource": {
+  "lrclibId": 35308576,
+  "duration": 271.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – D – G – Em.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G",
+    "C",
+    "D"
+   ],
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "G:1",
+     "C:2",
+     "D:1"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "C:1"
+    ],
+    [
+     "G:1",
+     "C:1",
+     "D:1",
+     "C:1"
+    ],
+    [
+     "G:1",
+     "C:2",
+     "D:1"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "C:1"
+    ],
+    [
+     "G:1",
+     "C:1",
+     "D:1",
+     "C:1"
+    ],
+    [
+     "Em:2",
+     "D:2"
+    ],
+    [
+     "G:1",
+     "D:2",
+     "C:1"
+    ],
+    [
+     "Em:2",
+     "D:2"
+    ],
+    "%",
+    [
+     "G:1",
+     "C:1",
+     "D:1",
+     "C:1"
+    ],
+    [
+     "Em:1",
+     "D:1",
+     "C:1",
+     "D:1"
+    ],
+    [
+     "G:1",
+     "C:1",
+     "D:1",
+     "C:1"
+    ],
+    [
+     "Em:1",
+     "D:1",
+     "C:1",
+     "D:1"
+    ],
+    "G",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "G:1",
+     "C:2",
+     "D:1"
+    ],
+    [
+     "C:1",
+     "D:1",
+     "C:1",
+     "G:1"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "C:1"
+    ],
+    [
+     "G:1",
+     "C:1",
+     "D:1",
+     "C:1"
+    ],
+    [
+     "G:1",
+     "C:2",
+     "D:1"
+    ],
+    [
+     "C:1",
+     "D:1",
+     "C:1",
+     "G:1"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "C:1"
+    ],
+    [
+     "G:1",
+     "C:1",
+     "D:1",
+     "C:1"
+    ],
+    [
+     "Em:2",
+     "D:2"
+    ],
+    [
+     "G:1",
+     "D:2",
+     "C:1"
+    ],
+    [
+     "Em:2",
+     "D:2"
+    ],
+    "%",
+    [
+     "G:1",
+     "C:1",
+     "D:1",
+     "C:1"
+    ],
+    [
+     "Em:1",
+     "D:1",
+     "C:1",
+     "D:1"
+    ],
+    [
+     "G:1",
+     "C:1",
+     "D:1",
+     "C:1"
+    ],
+    [
+     "Em:1",
+     "D:1",
+     "C:1",
+     "D:1"
+    ],
+    "G",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "G:1",
+     "C:2",
+     "D:1"
+    ],
+    [
+     "C:1",
+     "D:1",
+     "C:1",
+     "G:1"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "C:1"
+    ],
+    [
+     "G:1",
+     "C:1",
+     "D:1",
+     "C:1"
+    ],
+    [
+     "G:1",
+     "C:2",
+     "D:1"
+    ],
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "C:1",
+     "D:2",
+     "C:1"
+    ],
+    [
+     "G:1",
+     "C:1",
+     "D:1",
+     "C:1"
+    ],
+    [
+     "Em:2",
+     "D:2"
+    ],
+    [
+     "G:1",
+     "D:2",
+     "C:1"
+    ],
+    [
+     "Em:2",
+     "D:2"
+    ],
+    "%",
+    [
+     "G:1",
+     "C:1",
+     "D:1",
+     "C:1"
+    ],
+    [
+     "Em:1",
+     "D:1",
+     "C:1",
+     "D:1"
+    ],
+    [
+     "G:1",
+     "C:1",
+     "D:1",
+     "C:1"
+    ],
+    "%",
+    [
+     "G:1",
+     "C:1",
+     "D:1",
+     "C:1"
+    ],
+    [
+     "Em:1",
+     "D:1",
+     "C:1",
+     "D:1"
+    ],
+    [
+     "G:1",
+     "C:1",
+     "D:1",
+     "C:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima",
+ "deezerId": 766668
+}

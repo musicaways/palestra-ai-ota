@@ -1,0 +1,230 @@
+{
+ "title": "Vietato morire",
+ "artist": "Ermal Meta",
+ "album": "Vietato morire",
+ "year": 2017,
+ "genre": "Pop / Rock",
+ "difficulty": 3,
+ "youtubeId": "4WMejmcT9ZY",
+ "key": "Am",
+ "bpm": 98.54,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.17,
+ "strum": "D-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 6310521,
+  "duration": 215,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Am – G – C – F – Fmaj7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Am",
+    "Fmaj7",
+    "C",
+    "G",
+    "Am",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Fmaj7",
+    "C",
+    "G",
+    "Am",
+    "Fmaj7",
+    "C",
+    "G",
+    "Am",
+    "Fmaj7",
+    "C",
+    "G",
+    "Am",
+    "Fmaj7",
+    "C",
+    "G",
+    "Am",
+    "Am",
+    "F",
+    "%",
+    "%",
+    "Am",
+    "F",
+    "%",
+    "%",
+    "Am",
+    "Fmaj7",
+    "C",
+    "G",
+    "Am",
+    "Fmaj7",
+    "C",
+    "G",
+    "Am",
+    "Am",
+    "F",
+    "%",
+    "%",
+    "Am",
+    "F",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "C",
+    "%",
+    "F",
+    "%",
+    "G",
+    [
+     "G:2",
+     "Am:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Am",
+    "F",
+    "C",
+    "G",
+    "Am",
+    "F",
+    "%",
+    "%",
+    "%",
+    "F",
+    "C",
+    "G"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Am",
+    "F",
+    "C",
+    "G",
+    "Am",
+    "F",
+    "C",
+    "G",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
+  }
+ ],
+ "warp": [
+  [
+   5,
+   12.347
+  ],
+  [
+   10,
+   24.423
+  ],
+  [
+   15,
+   36.757
+  ],
+  [
+   19,
+   46.779
+  ],
+  [
+   23,
+   56.063
+  ],
+  [
+   28,
+   68.241
+  ],
+  [
+   32,
+   77.808
+  ],
+  [
+   36,
+   87.603
+  ],
+  [
+   40,
+   97.571
+  ],
+  [
+   45,
+   109.448
+  ],
+  [
+   49,
+   119.19
+  ],
+  [
+   53,
+   129.347
+  ],
+  [
+   64,
+   156.229
+  ],
+  [
+   68,
+   166.109
+  ],
+  [
+   73,
+   178.058
+  ],
+  [
+   78,
+   189.697
+  ],
+  [
+   82,
+   199.393
+  ],
+  [
+   84,
+   204.31
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 1174891052,
+ "spotifyId": "1vCl6djbRIMdm0jGobUVx9"
+}

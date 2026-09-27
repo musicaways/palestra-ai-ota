@@ -1,0 +1,307 @@
+{
+ "title": "The A Team",
+ "artist": "Ed Sheeran",
+ "album": "That Hits",
+ "year": 2011,
+ "genre": "Pop",
+ "difficulty": 3,
+ "youtubeId": "yJojXtTLFOU",
+ "key": "A",
+ "bpm": 84.81,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.51,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37008459,
+  "duration": 261,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – D – F#m7 – Dadd9 – E – F#m.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "A",
+    "E",
+    "F#m7",
+    "D"
+   ],
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "A",
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    "D",
+    "A",
+    "%",
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    "D",
+    "A",
+    "D",
+    "A",
+    "E",
+    "Bm7",
+    "D",
+    "A",
+    "%",
+    "E",
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    "A",
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    "A",
+    [
+     "F#m:1",
+     "D:2",
+     "A:1"
+    ],
+    [
+     "E:2",
+     "F#m7:2"
+    ],
+    [
+     "Dadd9:2",
+     "A:2"
+    ],
+    "F#m7",
+    "Dadd9",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "A",
+    [
+     "E:2",
+     "F#m7:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "A:2"
+    ],
+    "%",
+    [
+     "E:2",
+     "F#m7:2"
+    ],
+    "D",
+    "A",
+    "D",
+    "A",
+    "E",
+    "Bm7",
+    "D",
+    "A",
+    "%",
+    "E",
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    "A",
+    [
+     "F#m:1",
+     "D:2",
+     "A:1"
+    ],
+    "F#m",
+    "D",
+    "A",
+    [
+     "F#m:1",
+     "D:2",
+     "A:1"
+    ],
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    "Dadd9",
+    "F#m7",
+    "%",
+    "A",
+    "Dadd9",
+    [
+     "F#m7:1",
+     "Dadd9:2",
+     "A:1"
+    ],
+    "F#m7",
+    "Dadd9",
+    "A",
+    "F#m7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "D",
+    "A",
+    "E",
+    "Bm7",
+    "D",
+    "A",
+    "E",
+    "F#m7",
+    "%",
+    "A",
+    [
+     "F#m7:1",
+     "Dadd9:2",
+     "A:1"
+    ],
+    "F#m7",
+    "Dadd9",
+    "A",
+    [
+     "F#m7:1",
+     "Dadd9:2",
+     "A:1"
+    ],
+    [
+     "E:2",
+     "F#m7:2"
+    ],
+    [
+     "Dadd9:2",
+     "A:2"
+    ],
+    [
+     "F#m7:2",
+     "Dadd9:2"
+    ],
+    [
+     "Dadd9:2",
+     "A:2"
+    ],
+    [
+     "F#m7:2",
+     "Dadd9:2"
+    ],
+    [
+     "Dadd9:2",
+     "A:2"
+    ],
+    [
+     "F#m7:2",
+     "Dadd9:2"
+    ],
+    [
+     "Dadd9:2",
+     "A:2"
+    ],
+    "E",
+    "%",
+    "A",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   11.781
+  ],
+  [
+   8,
+   23.1
+  ],
+  [
+   12,
+   34.82
+  ],
+  [
+   16,
+   46.2
+  ],
+  [
+   27,
+   77.3
+  ],
+  [
+   32,
+   90.82
+  ],
+  [
+   37,
+   105
+  ],
+  [
+   41,
+   116.89
+  ],
+  [
+   46,
+   130.87
+  ],
+  [
+   50,
+   142.161
+  ],
+  [
+   55,
+   156.31
+  ],
+  [
+   61,
+   173.459
+  ],
+  [
+   66,
+   187.58
+  ],
+  [
+   71,
+   201.602
+  ],
+  [
+   81,
+   229.9
+  ],
+  [
+   87,
+   246.749
+  ],
+  [
+   89,
+   252.539
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 13651702
+}

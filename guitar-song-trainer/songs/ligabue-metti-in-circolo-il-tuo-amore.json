@@ -1,0 +1,236 @@
+{
+ "title": "Metti in circolo il tuo amore",
+ "artist": "Ligabue",
+ "album": "Radio Freccia",
+ "year": 1990,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "DyQ-p5wV10c",
+ "key": "E",
+ "bpm": 104.02,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.07,
+ "strum": "P-P-D-DU",
+ "lyricsSource": {
+  "lrclibId": 18057367,
+  "duration": 224.63225,
+  "offset": 0
+ },
+ "notes": "Accordi principali: E – G#m7 – B – F# – E2.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "G#m7"
+   ]
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "G#m7",
+    "F#",
+    [
+     "E2:2",
+     "B:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G#m7",
+    "F#",
+    [
+     "E2:2",
+     "B:2"
+    ],
+    "%",
+    [
+     "G#m7:2",
+     "F#:2"
+    ],
+    "E",
+    [
+     "E:2",
+     "B:2"
+    ],
+    "%",
+    "%",
+    "E",
+    [
+     "E:2",
+     "B:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "G#m7",
+    "F#",
+    "%",
+    "%",
+    "G#m7",
+    "F#",
+    "E",
+    "B",
+    "%",
+    "E",
+    [
+     "E:2",
+     "B:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "G#m7",
+    "F#",
+    "%",
+    "%",
+    "G#m7",
+    "F#",
+    "E",
+    "B",
+    "%",
+    "E",
+    [
+     "E:2",
+     "B:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  }
+ ],
+ "warp": [
+  [
+   1,
+   4.426
+  ],
+  [
+   5,
+   13.596
+  ],
+  [
+   9,
+   22.824
+  ],
+  [
+   14,
+   34.359
+  ],
+  [
+   19,
+   45.76
+  ],
+  [
+   23,
+   54.989
+  ],
+  [
+   33,
+   78.022
+  ],
+  [
+   38,
+   89.963
+  ],
+  [
+   43,
+   101.391
+  ],
+  [
+   49,
+   115.267
+  ],
+  [
+   65,
+   152.15
+  ],
+  [
+   70,
+   163.719
+  ],
+  [
+   75,
+   175.31
+  ],
+  [
+   81,
+   189.153
+  ]
+ ],
+ "strumSource": "stima"
+}

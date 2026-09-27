@@ -1,0 +1,221 @@
+{
+ "title": "La cura",
+ "artist": "Franco Battiato",
+ "album": "Singles",
+ "year": 1996,
+ "genre": "Cantautori",
+ "difficulty": 2,
+ "youtubeId": "RCE92bGhVOg",
+ "key": "G",
+ "bpm": 92.12,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.93,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34806756,
+  "duration": 244,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – D – Bm – A – Dmaj7 – E.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G",
+    "%",
+    "%",
+    "%",
+    "G",
+    "D",
+    "G",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "G",
+    "D"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "G",
+    "D",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "G",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "Bm",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "Bm:2",
+     "Dmaj7:2"
+    ],
+    [
+     "A:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "%",
+    "%",
+    "D",
+    "%",
+    "%",
+    "%",
+    "G",
+    "D",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "G",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    "%",
+    "G",
+    "D",
+    "Bm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   9,
+   25.514
+  ],
+  [
+   14,
+   38.469
+  ],
+  [
+   18,
+   48.909
+  ],
+  [
+   22,
+   59.312
+  ],
+  [
+   27,
+   72.167
+  ],
+  [
+   39,
+   103.405
+  ],
+  [
+   49,
+   129.452
+  ],
+  [
+   54,
+   142.43
+  ],
+  [
+   60,
+   158.181
+  ],
+  [
+   67,
+   176.556
+  ],
+  [
+   73,
+   192.312
+  ]
+ ],
+ "strumSource": "stima",
+ "introSource": "stima: giro della prima parte cantata (la fonte non riportava gli accordi dell'intro)"
+}

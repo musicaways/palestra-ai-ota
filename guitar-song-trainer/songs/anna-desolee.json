@@ -1,0 +1,279 @@
+{
+ "title": "Désolée",
+ "artist": "Anna",
+ "album": "Vangelo",
+ "year": 2024,
+ "genre": "Rap / Hip-hop",
+ "difficulty": 4,
+ "youtubeId": "Hlce_NL8ZxY",
+ "key": "Cm",
+ "bpm": 104.38,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.89,
+ "strum": "D--D-UD-",
+ "lyricsSource": {
+  "lrclibId": 33387641,
+  "duration": 159,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Cm – Fm – Dbmaj7 – Db – Eb – Bbm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Parte 1",
+   "bars": [
+    "Db",
+    [
+     "Db:1",
+     "Cm:2",
+     "Fm:1"
+    ],
+    "%",
+    [
+     "Db:2",
+     "Cm:2"
+    ],
+    "Fm",
+    [
+     "Db:2",
+     "Cm:2"
+    ],
+    "Fm",
+    [
+     "Dbmaj7:2",
+     "Cm:2"
+    ],
+    "Fm",
+    "Cm",
+    [
+     "Fm:2",
+     "Dbmaj7:2"
+    ],
+    "Cm",
+    "Fm",
+    [
+     "Dbmaj7:2",
+     "Cm:2"
+    ],
+    "Fm",
+    [
+     "Db:2",
+     "Cm:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "Fm",
+    [
+     "Dbmaj7:2",
+     "Cm:2"
+    ],
+    "Fm",
+    [
+     "Dbmaj7:2",
+     "Cm:2"
+    ],
+    "Fm",
+    [
+     "Dbmaj7:2",
+     "Cm:2"
+    ],
+    "Fm",
+    "Cm",
+    "Fm",
+    [
+     "Dbmaj7:2",
+     "Cm:2"
+    ],
+    "Fm",
+    [
+     "Dbmaj7:2",
+     "Cm:2"
+    ],
+    "Fm",
+    [
+     "Dbmaj7:2",
+     "Cm:2"
+    ],
+    "Db",
+    [
+     "Cm:2",
+     "Fm:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "Db",
+    "Cm",
+    "%",
+    [
+     "Db:2",
+     "Cm:2"
+    ],
+    "Fm",
+    [
+     "Dbmaj7:2",
+     "Cm:2"
+    ],
+    "Fm",
+    [
+     "Dbmaj7:2",
+     "Cm:2"
+    ],
+    "Fm",
+    [
+     "Dbmaj7:2",
+     "Cm:2"
+    ],
+    "Fm",
+    [
+     "Dbmaj7:2",
+     "Eb:2"
+    ],
+    [
+     "Eb:2",
+     "Fm:2"
+    ],
+    [
+     "Dbmaj7:2",
+     "Eb:2"
+    ],
+    [
+     "Eb:2",
+     "Bbm7:2"
+    ],
+    [
+     "Dbmaj7:2",
+     "Cm:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    [
+     "Cm:2",
+     "Fm:2"
+    ],
+    "%",
+    "%",
+    [
+     "Db:2",
+     "Cm:2"
+    ],
+    "Fm",
+    [
+     "Dbmaj7:2",
+     "Cm:2"
+    ],
+    "Fm",
+    [
+     "Dbmaj7:2",
+     "Cm:2"
+    ],
+    "Fm",
+    [
+     "Dbmaj7:2",
+     "Cm:2"
+    ],
+    "Fm",
+    "%",
+    "%",
+    "%",
+    [
+     "Dbmaj7:1",
+     "Cm:2",
+     "Fm:1"
+    ],
+    "Dbmaj7",
+    "Cm",
+    "Fm",
+    "Dbmaj7",
+    "Cm",
+    "Fm"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   0,
+   1.64
+  ],
+  [
+   4,
+   10.751
+  ],
+  [
+   8,
+   20.149
+  ],
+  [
+   13,
+   32.229
+  ],
+  [
+   17,
+   41.261
+  ],
+  [
+   21,
+   50.459
+  ],
+  [
+   26,
+   61.46
+  ],
+  [
+   30,
+   70.599
+  ],
+  [
+   34,
+   80.218
+  ],
+  [
+   38,
+   89.391
+  ],
+  [
+   42,
+   98.552
+  ],
+  [
+   47,
+   110.049
+  ],
+  [
+   51,
+   119.062
+  ],
+  [
+   55,
+   128.179
+  ],
+  [
+   62,
+   144.316
+  ],
+  [
+   66,
+   153.86
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 3412379111,
+ "spotifyId": "2bT6QX29M7GLSuTDSirwaS"
+}

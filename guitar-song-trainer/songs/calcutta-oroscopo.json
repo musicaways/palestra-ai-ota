@@ -1,0 +1,212 @@
+{
+ "title": "Oroscopo",
+ "artist": "Calcutta",
+ "album": "Oroscopo",
+ "year": 2018,
+ "genre": "Indie",
+ "difficulty": 3,
+ "youtubeId": "wVF_wOOSz1c",
+ "key": "F#m7",
+ "bpm": 81.54,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.18,
+ "strum": "D-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 21207439,
+  "duration": 198.292676,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F#m7 – Em7 – Bm – D – Fm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Bm",
+    "Bm",
+    [
+     "Bm:2",
+     "F#m7:2"
+    ],
+    "%",
+    [
+     "F#m7:2",
+     "Em7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Bm:2",
+     "F#m7:2"
+    ],
+    [
+     "F#m7:2",
+     "Em7:2"
+    ],
+    [
+     "Bm:2",
+     "F#m7:2"
+    ],
+    [
+     "F#m7:2",
+     "Em7:2"
+    ],
+    [
+     "Bm:2",
+     "F#m7:2"
+    ],
+    [
+     "F#m7:2",
+     "Em7:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "F#m7:2",
+     "Em7:2"
+    ],
+    "F#m7",
+    "%",
+    [
+     "D:2",
+     "Fm7:2"
+    ],
+    [
+     "Fm7:2",
+     "Em7:2"
+    ],
+    [
+     "D:2",
+     "F#m7:2"
+    ],
+    [
+     "F#m7:2",
+     "Em7:2"
+    ],
+    [
+     "D:1",
+     "F#m7:2",
+     "Em7:1"
+    ],
+    "%",
+    [
+     "D:2",
+     "F#m7:2"
+    ],
+    "Em7",
+    "%",
+    "Bm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   1,
+   3.21
+  ],
+  [
+   6,
+   17.927
+  ],
+  [
+   10,
+   29.847
+  ],
+  [
+   14,
+   41.813
+  ],
+  [
+   18,
+   53.587
+  ],
+  [
+   26,
+   76.287
+  ],
+  [
+   31,
+   91.003
+  ],
+  [
+   36,
+   106.363
+  ],
+  [
+   40,
+   118.113
+  ],
+  [
+   48,
+   141.557
+  ],
+  [
+   52,
+   153.433
+  ],
+  [
+   54,
+   159.42
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 142746486
+}

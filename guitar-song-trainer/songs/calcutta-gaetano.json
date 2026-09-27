@@ -1,0 +1,321 @@
+{
+ "title": "Gaetano",
+ "artist": "Calcutta",
+ "album": "Calcutta",
+ "year": 2015,
+ "genre": "Indie",
+ "difficulty": 3,
+ "youtubeId": "hzfz82wyPFs",
+ "key": "F",
+ "bpm": 140.06,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.37,
+ "strum": "D-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 34675417,
+  "duration": 242,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F – Am – C – Em – Fmaj7 – E7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "C",
+    "E7",
+    "F",
+    "%",
+    "Em",
+    "%",
+    "F",
+    "%",
+    "C",
+    "E7",
+    "F",
+    "%",
+    "Em",
+    "F",
+    "%",
+    "%",
+    "C",
+    "E7",
+    "F",
+    "%",
+    "Em",
+    "%",
+    "F",
+    "%",
+    "Am",
+    "Am",
+    "%",
+    "Fmaj7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "%",
+    "F",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "C",
+    "%",
+    "F",
+    "%",
+    "%",
+    "%",
+    [
+     "Em:1",
+     "F:2",
+     "C7:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "Am",
+    "Am",
+    "%",
+    "Fmaj7",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "C",
+    "E7",
+    "F",
+    "%",
+    "Em",
+    "%",
+    "F",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "C",
+    "%",
+    "E7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "Fmaj7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "%",
+    "F",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "C",
+    "%",
+    "F",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Am",
+    "Am",
+    "Fmaj7",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Am",
+    "Fmaj7",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "Fmaj7",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "Fmaj7",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "Fmaj7",
+    "%",
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "C",
+    "E7",
+    "F",
+    "%",
+    "Em",
+    "F",
+    "C",
+    "E7",
+    "F",
+    "%",
+    "Em",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "Em:2",
+     "F:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   0,
+   0.399
+  ],
+  [
+   4,
+   7.253
+  ],
+  [
+   8,
+   13.993
+  ],
+  [
+   12,
+   20.82
+  ],
+  [
+   16,
+   27.674
+  ],
+  [
+   20,
+   34.634
+  ],
+  [
+   24,
+   41.562
+  ],
+  [
+   29,
+   50.176
+  ],
+  [
+   33,
+   57.196
+  ],
+  [
+   37,
+   63.916
+  ],
+  [
+   41,
+   70.865
+  ],
+  [
+   48,
+   82.652
+  ],
+  [
+   53,
+   91.196
+  ],
+  [
+   57,
+   97.899
+  ],
+  [
+   61,
+   104.753
+  ],
+  [
+   65,
+   111.607
+  ],
+  [
+   69,
+   118.517
+  ],
+  [
+   75,
+   128.798
+  ],
+  [
+   81,
+   139.384
+  ],
+  [
+   87,
+   149.684
+  ],
+  [
+   94,
+   161.565
+  ],
+  [
+   115,
+   197.336
+  ],
+  [
+   121,
+   207.617
+  ],
+  [
+   125,
+   214.667
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 142746396
+}

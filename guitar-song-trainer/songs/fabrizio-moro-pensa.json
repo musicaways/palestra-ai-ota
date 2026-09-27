@@ -1,0 +1,256 @@
+{
+ "title": "Pensa",
+ "artist": "Fabrizio Moro",
+ "album": "Mix - Italian",
+ "year": 2007,
+ "genre": "Pop / Rock",
+ "difficulty": 3,
+ "youtubeId": "Y9no1WcVRWw",
+ "key": "Am",
+ "bpm": 86.34,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.38,
+ "strum": "D-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 17434441,
+  "duration": 226,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Am – C – G – F – Fmaj7 – Em.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Am",
+    "%",
+    "Em",
+    "%",
+    "Fmaj7",
+    "%",
+    "C",
+    "%",
+    "G"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "Am",
+    "%",
+    "Em",
+    "%",
+    "Fmaj7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Fmaj7",
+    "%",
+    "C",
+    "%",
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    "%",
+    "Em",
+    "Fmaj7",
+    "%",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "%",
+    [
+     "Am:2",
+     "F:2"
+    ],
+    "C",
+    "%",
+    [
+     "G:2",
+     "Am:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    "%",
+    "G",
+    "Am",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "Em",
+    "%",
+    "Fmaj7",
+    "%",
+    "C",
+    "G",
+    [
+     "Am:2",
+     "F:2"
+    ],
+    "C",
+    "%",
+    [
+     "G:2",
+     "Am:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    "%",
+    "G",
+    "Am",
+    "%",
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "%",
+    "Fmaj7",
+    "%",
+    "%",
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "Am:2",
+     "F:2"
+    ],
+    "C",
+    "%",
+    [
+     "G:2",
+     "Am:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    "%",
+    "G",
+    "Am",
+    [
+     "F:2",
+     "C:2"
+    ],
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    [
+     "Am:1",
+     "F:1",
+     "C:1",
+     "G:1"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  }
+ ],
+ "warp": [
+  [
+   9,
+   25.42
+  ],
+  [
+   13,
+   36.539
+  ],
+  [
+   17,
+   47.81
+  ],
+  [
+   22,
+   62.169
+  ],
+  [
+   26,
+   72.709
+  ],
+  [
+   32,
+   89.361
+  ],
+  [
+   37,
+   103.221
+  ],
+  [
+   41,
+   114.34
+  ],
+  [
+   46,
+   128.01
+  ],
+  [
+   51,
+   142.03
+  ],
+  [
+   56,
+   155.741
+  ],
+  [
+   61,
+   169.639
+  ],
+  [
+   66,
+   184.069
+  ],
+  [
+   72,
+   201.379
+  ],
+  [
+   74,
+   206.95
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 1671209662
+}

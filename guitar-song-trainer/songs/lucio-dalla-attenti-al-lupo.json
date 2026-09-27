@@ -1,0 +1,414 @@
+{
+ "title": "Attenti al lupo",
+ "artist": "Lucio Dalla",
+ "album": "Italo Super Hits",
+ "year": 1990,
+ "genre": "Cantautori",
+ "difficulty": 3,
+ "youtubeId": "o2CPUqFrEdE",
+ "key": "Em",
+ "bpm": 109.03,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.02,
+ "strum": "D-D-DUDU",
+ "lyricsSource": {
+  "lrclibId": 37309339,
+  "duration": 260,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Em – F – G7 – C – Am – Dm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "C",
+    "%",
+    "%",
+    "%",
+    "Em",
+    "%",
+    "%",
+    "%",
+    "F",
+    "%",
+    "%",
+    "%",
+    "G7",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "C:2",
+     "Em:2"
+    ],
+    [
+     "F:2",
+     "G7:2"
+    ],
+    [
+     "C:2",
+     "Em:2"
+    ],
+    [
+     "F:2",
+     "G7:2"
+    ],
+    [
+     "C:2",
+     "Em:2"
+    ],
+    [
+     "F:2",
+     "G7:2"
+    ],
+    [
+     "Am:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "F:2"
+    ],
+    [
+     "C:2",
+     "Em:2"
+    ],
+    [
+     "F:2",
+     "G7:2"
+    ],
+    [
+     "C:2",
+     "Em:2"
+    ],
+    [
+     "F:2",
+     "G7:2"
+    ],
+    [
+     "C:2",
+     "Em:2"
+    ],
+    [
+     "F:2",
+     "G7:2"
+    ],
+    [
+     "Am:2",
+     "Em:2"
+    ],
+    [
+     "F:2",
+     "G7:2"
+    ],
+    "%",
+    [
+     "Am:2",
+     "Em:2"
+    ],
+    [
+     "F:2",
+     "G7:2"
+    ],
+    [
+     "A7:2",
+     "Dm:2"
+    ],
+    "Dm",
+    "%",
+    "%",
+    [
+     "A7:2",
+     "Dm:2"
+    ],
+    "G7",
+    "Cm",
+    "%",
+    "%",
+    [
+     "C:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "F:2"
+    ],
+    "G7",
+    [
+     "C:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "F:2"
+    ],
+    "G7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "C:2",
+     "Em:2"
+    ],
+    [
+     "F:2",
+     "G7:2"
+    ],
+    [
+     "C:2",
+     "Em:2"
+    ],
+    [
+     "F:2",
+     "G7:2"
+    ],
+    [
+     "C:1",
+     "Em:2",
+     "F:1"
+    ],
+    "G7",
+    [
+     "Am:2",
+     "Em:2"
+    ],
+    "F",
+    [
+     "G7:1",
+     "Am:1",
+     "Em:1",
+     "F:1"
+    ],
+    "C",
+    [
+     "Em:2",
+     "F:2"
+    ],
+    "G7"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "C:2",
+     "Em:2"
+    ],
+    [
+     "F:2",
+     "G7:2"
+    ],
+    [
+     "C:1",
+     "Em:2",
+     "F:1"
+    ],
+    "G7",
+    [
+     "Am:2",
+     "Em:2"
+    ],
+    "F",
+    [
+     "G7:2",
+     "Am:2"
+    ],
+    [
+     "Em:2",
+     "F:2"
+    ],
+    [
+     "A7:2",
+     "Dm:2"
+    ],
+    "A7",
+    "Dm",
+    "%",
+    [
+     "A7:2",
+     "Dm:2"
+    ],
+    "G7",
+    "Cm",
+    "F",
+    "%",
+    "%",
+    [
+     "C:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "F:2"
+    ],
+    "G7",
+    [
+     "C:2",
+     "Em:2"
+    ],
+    "F",
+    [
+     "G7:2",
+     "C:2"
+    ],
+    [
+     "Em:2",
+     "F:2"
+    ],
+    "G7",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "Em",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "C:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "F:2"
+    ],
+    [
+     "C:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "F:2"
+    ],
+    "C",
+    "%",
+    "Em",
+    "%",
+    "F",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  }
+ ],
+ "warp": [
+  [
+   16,
+   35.885
+  ],
+  [
+   20,
+   44.775
+  ],
+  [
+   26,
+   58.08
+  ],
+  [
+   32,
+   71.766
+  ],
+  [
+   36,
+   80.845
+  ],
+  [
+   40,
+   89.999
+  ],
+  [
+   49,
+   109.848
+  ],
+  [
+   53,
+   118.749
+  ],
+  [
+   58,
+   130.164
+  ],
+  [
+   63,
+   141.242
+  ],
+  [
+   69,
+   154.45
+  ],
+  [
+   73,
+   163.082
+  ],
+  [
+   79,
+   176.151
+  ],
+  [
+   84,
+   187.076
+  ],
+  [
+   95,
+   211.274
+  ],
+  [
+   99,
+   220.176
+  ],
+  [
+   105,
+   233.037
+  ],
+  [
+   108,
+   240.024
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 972494
+}

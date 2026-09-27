@@ -1,0 +1,278 @@
+{
+ "title": "Roma capoccia",
+ "artist": "Antonello Venditti",
+ "album": "varie",
+ "year": 1972,
+ "genre": "Cantautori",
+ "difficulty": 5,
+ "youtubeId": "sby3N-rQuqo",
+ "key": "A",
+ "bpm": 91.15,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.8,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36937530,
+  "duration": 292,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – B – E – F#7 – D – C#m. La fonte suggerisce il capotasto al 1° tasto.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "A",
+    "%",
+    "%",
+    "E",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "A",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    "E",
+    "C#m",
+    "F#m"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "A",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    "E",
+    "C#m",
+    "F#m",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    [
+     "A:2",
+     "E7:2"
+    ],
+    [
+     "E7:2",
+     "D:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "A",
+    "B",
+    "D",
+    "A",
+    "B",
+    "Dadd9",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "E",
+    "C#m",
+    "F#m",
+    [
+     "A:2",
+     "E7:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "D",
+    [
+     "D:2",
+     "A:2"
+    ],
+    "%",
+    [
+     "A:2",
+     "F#7:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "B",
+    [
+     "B:2",
+     "F#:2"
+    ],
+    "%",
+    "F#7",
+    "D#m",
+    "G#m",
+    "%",
+    "B",
+    [
+     "F#7:2",
+     "E:2"
+    ],
+    "B",
+    "%",
+    "%",
+    "B",
+    "C#",
+    "Eadd9",
+    "B"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "C#",
+    "Eadd9",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "F#7",
+    "D#m",
+    "G#m",
+    [
+     "B:2",
+     "F#7:2"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "E",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "E:2",
+     "B:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   6,
+   16.13
+  ],
+  [
+   12,
+   31.928
+  ],
+  [
+   21,
+   55.97
+  ],
+  [
+   27,
+   71.983
+  ],
+  [
+   34,
+   90.722
+  ],
+  [
+   39,
+   103.8
+  ],
+  [
+   45,
+   119.421
+  ],
+  [
+   51,
+   135.219
+  ],
+  [
+   60,
+   158.85
+  ],
+  [
+   66,
+   174.689
+  ],
+  [
+   70,
+   185.126
+  ],
+  [
+   75,
+   198.291
+  ],
+  [
+   81,
+   214.089
+  ],
+  [
+   87,
+   229.93
+  ],
+  [
+   94,
+   248.479
+  ]
+ ],
+ "strumSource": "stima"
+}

@@ -1,0 +1,268 @@
+{
+ "title": "Il mare davanti",
+ "artist": "Fast Animals and Slow Kids",
+ "album": "Alaska",
+ "year": 2017,
+ "genre": "Rock",
+ "difficulty": 1,
+ "youtubeId": "UamiX26hggA",
+ "key": "A",
+ "bpm": 88.62,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.56,
+ "strum": "D-D-D-DU",
+ "lyricsSource": {
+  "lrclibId": 9272382,
+  "duration": 208,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – D – Bm – G.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Bm",
+    "A",
+    "Bm",
+    "A",
+    [
+     "G:2",
+     "Bm:2"
+    ],
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "G:2",
+     "Bm:2"
+    ],
+    "A",
+    [
+     "G:2",
+     "Bm:2"
+    ],
+    "A",
+    "Bm",
+    "A",
+    [
+     "A:2",
+     "D:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "Bm:1",
+     "A:2",
+     "D:1"
+    ],
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ],
+    "Bm",
+    "A",
+    "D",
+    [
+     "Bm:1",
+     "A:2",
+     "D:1"
+    ]
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Bm",
+    "A",
+    "Bm",
+    "A",
+    [
+     "G:2",
+     "Bm:2"
+    ],
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "G:2",
+     "Bm:2"
+    ],
+    "A",
+    [
+     "G:2",
+     "Bm:2"
+    ],
+    "A",
+    "Bm",
+    "A",
+    [
+     "A:2",
+     "D:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ],
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ],
+    [
+     "Bm:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ],
+    "Bm",
+    "%",
+    "A",
+    "%",
+    "D",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ponte",
+   "bars": [
+    "D",
+    "G",
+    "D",
+    "G",
+    "D",
+    "G",
+    "D",
+    "G",
+    "D",
+    "G",
+    "D",
+    "G",
+    "D",
+    "G",
+    "D",
+    "G",
+    "D",
+    "G",
+    "D",
+    "G"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "D",
+    "G",
+    "D",
+    "G",
+    "D",
+    "G",
+    "D",
+    "G",
+    "D"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D---"
+  }
+ ],
+ "warp": [
+  [
+   2,
+   8.039
+  ],
+  [
+   6,
+   18.903
+  ],
+  [
+   11,
+   32.506
+  ],
+  [
+   15,
+   43.339
+  ],
+  [
+   21,
+   59.442
+  ],
+  [
+   27,
+   75.536
+  ],
+  [
+   32,
+   89.045
+  ],
+  [
+   37,
+   101.74
+  ],
+  [
+   48,
+   132.302
+  ],
+  [
+   53,
+   145.855
+  ],
+  [
+   58,
+   159.524
+  ],
+  [
+   63,
+   173.065
+  ],
+  [
+   68,
+   186.636
+  ],
+  [
+   73,
+   201.048
+  ],
+  [
+   75,
+   206.49
+  ]
+ ],
+ "strumSource": "stima"
+}

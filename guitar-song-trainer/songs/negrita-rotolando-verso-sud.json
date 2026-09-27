@@ -1,0 +1,423 @@
+{
+ "title": "Rotolando verso sud",
+ "artist": "Negrita",
+ "album": "Festivalbar 2005: Compilation rossa",
+ "year": 2005,
+ "genre": "Rock",
+ "difficulty": 2,
+ "youtubeId": "9RzPj2g_XGI",
+ "key": "Bb",
+ "bpm": 83.43,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.43,
+ "strum": "D-DU-UDUD-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 33361757,
+  "duration": 286,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bb – Cm – F.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Cm",
+    "Bb"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    [
+     "Cm:1",
+     "Bb:2",
+     "F:1"
+    ],
+    [
+     "Cm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Cm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Cm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Cm:1",
+     "Bb:2",
+     "F:1"
+    ],
+    "%",
+    [
+     "Cm:1",
+     "Bb:2",
+     "F:1"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Cm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Cm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Cm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Cm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Cm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Cm:1",
+     "Bb:2",
+     "F:1"
+    ],
+    "%",
+    [
+     "Cm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Cm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Cm:1",
+     "Bb:2",
+     "F:1"
+    ],
+    "%",
+    [
+     "Cm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Cm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Cm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Cm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Cm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "Cm",
+    "%",
+    "%",
+    "Bb",
+    "%",
+    "%",
+    "F",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "%",
+    [
+     "Cm:1",
+     "Bb:2",
+     "F:1"
+    ],
+    [
+     "Cm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Cm:1",
+     "Bb:2",
+     "F:1"
+    ],
+    "%",
+    [
+     "Cm:1",
+     "Bb:2",
+     "F:1"
+    ],
+    "%",
+    [
+     "Cm:1",
+     "Bb:2",
+     "F:1"
+    ],
+    "%",
+    [
+     "Cm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Cm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Cm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "Cm",
+    "%",
+    "Bb",
+    "%",
+    "F",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "Cm:1",
+     "Bb:2",
+     "F:1"
+    ],
+    "%",
+    [
+     "Cm:1",
+     "Bb:2",
+     "F:1"
+    ],
+    "%",
+    "Cm",
+    [
+     "Cm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    [
+     "Cm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Cm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "Cm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "Cm",
+    "%",
+    "%",
+    [
+     "Cm:2",
+     "Bb:2"
+    ],
+    "%",
+    "%",
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   2,
+   6.11
+  ],
+  [
+   8,
+   23.337
+  ],
+  [
+   13,
+   37.72
+  ],
+  [
+   18,
+   52.247
+  ],
+  [
+   24,
+   69.553
+  ],
+  [
+   28,
+   81.143
+  ],
+  [
+   32,
+   92.567
+  ],
+  [
+   36,
+   104.157
+  ],
+  [
+   40,
+   115.453
+  ],
+  [
+   56,
+   161.56
+  ],
+  [
+   60,
+   173.143
+  ],
+  [
+   64,
+   184.75
+  ],
+  [
+   68,
+   196.213
+  ],
+  [
+   76,
+   218.967
+  ],
+  [
+   84,
+   241.847
+  ],
+  [
+   88,
+   253.303
+  ],
+  [
+   90,
+   259.057
+  ]
+ ],
+ "strumSource": "ultimate-guitar",
+ "deezerId": 2428986
+}

@@ -1,0 +1,335 @@
+{
+ "title": "Bad Habits",
+ "artist": "Ed Sheeran",
+ "album": "Ed Sheeran compilation",
+ "year": 2021,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "HeOpRzcqKrE",
+ "key": "Bm",
+ "bpm": 122.72,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.85,
+ "strum": "D-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 12897626,
+  "duration": 231,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bm – A – G – Dmaj7 – F#m – Em.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Bm",
+    "%",
+    "%",
+    "%",
+    "Bm",
+    "%",
+    "Dmaj7",
+    "%",
+    "Bm",
+    "%",
+    "Dmaj7",
+    "%",
+    "F#m",
+    [
+     "F#m:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "A:2"
+    ],
+    "%",
+    "Bm",
+    "Dmaj7",
+    "F#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Bm",
+    "D",
+    "F#m",
+    "G",
+    "A",
+    "Bm",
+    [
+     "F#m:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    [
+     "Bm:2",
+     "Dmaj7:2"
+    ],
+    "F#m",
+    "G",
+    "A",
+    "Bm",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    [
+     "Dmaj7:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "A",
+    "%",
+    "Bm",
+    "%",
+    "Dmaj7",
+    "%",
+    "G6",
+    "%",
+    "%",
+    "%",
+    "Bm",
+    "%",
+    "Dmaj7",
+    "%",
+    "Bm",
+    [
+     "Dmaj7:2",
+     "F#m:2"
+    ],
+    "Em7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Bm",
+    "D",
+    "F#m",
+    "G",
+    "A",
+    "Bm",
+    [
+     "F#m:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    [
+     "Bm:2",
+     "Dmaj7:2"
+    ],
+    "F#m",
+    "G",
+    "A",
+    "Bm",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    [
+     "A:1",
+     "Bm:1",
+     "Dmaj7:1",
+     "G:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "Bm",
+    "D",
+    "G",
+    "A",
+    [
+     "Bm:2",
+     "D:2"
+    ],
+    "%",
+    [
+     "Em7:2",
+     "G:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Bm",
+    "D",
+    "F#m",
+    "G",
+    "A",
+    "Bm",
+    [
+     "F#m:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "G:2"
+    ],
+    "Bm",
+    "Dmaj7",
+    "F#m",
+    "G",
+    "A",
+    "Bm",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "%",
+    "%",
+    [
+     "A:2",
+     "Bm:1",
+     "Dmaj7:1"
+    ],
+    [
+     "Dmaj7:1",
+     "Em:1",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "A",
+    "%",
+    [
+     "A:2",
+     "Bm:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   1,
+   4.02
+  ],
+  [
+   8,
+   17.647
+  ],
+  [
+   19,
+   39.05
+  ],
+  [
+   25,
+   50.659
+  ],
+  [
+   29,
+   58.447
+  ],
+  [
+   36,
+   72.137
+  ],
+  [
+   44,
+   87.925
+  ],
+  [
+   52,
+   103.57
+  ],
+  [
+   56,
+   111.393
+  ],
+  [
+   61,
+   121.159
+  ],
+  [
+   65,
+   128.937
+  ],
+  [
+   71,
+   140.379
+  ],
+  [
+   76,
+   150.218
+  ],
+  [
+   87,
+   171.86
+  ],
+  [
+   92,
+   181.656
+  ],
+  [
+   98,
+   193.649
+  ],
+  [
+   104,
+   205.13
+  ],
+  [
+   111,
+   218.82
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 1409072752,
+ "spotifyId": "5zWL6UihsoLW9qJYcBVaXY"
+}

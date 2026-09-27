@@ -1,0 +1,303 @@
+{
+ "title": "Shotgun",
+ "artist": "George Ezra",
+ "album": "The Official Uk Top 40 Singles Chart (19.04.2019)",
+ "year": 2018,
+ "genre": "Pop",
+ "difficulty": 2,
+ "youtubeId": "s4FPe5qwTro",
+ "key": "F",
+ "bpm": 116.04,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.3,
+ "strum": "B-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 37015468,
+  "duration": 201,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F – Bb – C – Dm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F",
+    "Bb",
+    "Dm",
+    "C"
+   ],
+   "strum": "B---D---"
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    "%",
+    [
+     "Dm:2",
+     "C:2"
+    ],
+    [
+     "Dm:2",
+     "C:2"
+    ],
+    "F",
+    [
+     "Bb:2",
+     "Dm:2"
+    ],
+    "C",
+    "%",
+    "F",
+    "Bb",
+    "Dm",
+    "C",
+    "F",
+    "Bb",
+    "Dm",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    "Dm",
+    "C",
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    "Dm",
+    "C",
+    "F",
+    "Bb",
+    [
+     "Dm:2",
+     "C:2"
+    ],
+    [
+     "Dm:2",
+     "C:2"
+    ],
+    "F",
+    "Bb",
+    "Dm",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "F",
+    "Bb",
+    "Dm",
+    "C",
+    "F",
+    "Bb",
+    "Dm",
+    "C",
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    "Dm",
+    "C",
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    "Dm",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "F",
+    "Bb",
+    "Dm",
+    "C",
+    "F",
+    "Bb",
+    "Dm",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "F",
+    "Bb",
+    "Dm",
+    "C",
+    "F",
+    "Bb",
+    "Dm",
+    "C",
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    "Dm",
+    "C",
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    "Dm",
+    "C",
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    "Dm",
+    "C",
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    [
+     "Dm:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   8.75
+  ],
+  [
+   8,
+   16.99
+  ],
+  [
+   12,
+   25.187
+  ],
+  [
+   16,
+   33.273
+  ],
+  [
+   21,
+   43.46
+  ],
+  [
+   25,
+   51.752
+  ],
+  [
+   30,
+   62.442
+  ],
+  [
+   38,
+   78.988
+  ],
+  [
+   44,
+   91.222
+  ],
+  [
+   49,
+   101.508
+  ],
+  [
+   55,
+   114.33
+  ],
+  [
+   62,
+   128.808
+  ],
+  [
+   68,
+   141.02
+  ],
+  [
+   73,
+   151.235
+  ],
+  [
+   77,
+   159.445
+  ],
+  [
+   81,
+   167.713
+  ],
+  [
+   83,
+   171.837
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 1050294642
+}

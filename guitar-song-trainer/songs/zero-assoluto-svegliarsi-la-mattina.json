@@ -1,0 +1,343 @@
+{
+ "title": "Svegliarsi la mattina",
+ "artist": "Zero Assoluto",
+ "album": "Je T'aime Volume 6",
+ "year": 2005,
+ "genre": "Pop",
+ "difficulty": 3,
+ "youtubeId": "fie_xPWXqGc",
+ "key": "Bm",
+ "bpm": 85.52,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.66,
+ "strum": "B-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 34966483,
+  "duration": 223,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bm – D – G – F#m – A – C.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bm",
+    "G",
+    "D",
+    "A"
+   ],
+   "strum": "B---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Bm:1",
+     "G:2",
+     "D:1"
+    ],
+    "A",
+    [
+     "Bm:1",
+     "G:2",
+     "D:1"
+    ],
+    "A",
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    "D",
+    "A",
+    [
+     "G:2",
+     "Bm:2"
+    ],
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "F#m:2",
+     "A:2"
+    ],
+    [
+     "D:2",
+     "F#m:1",
+     "Bm:1"
+    ],
+    [
+     "Bm:1",
+     "G:1",
+     "D:2"
+    ],
+    [
+     "F#m:2",
+     "Bm:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "F#m:2",
+     "Bm:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "F#m:2",
+     "Bm:2"
+    ],
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    "Bm",
+    "G",
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "Bm:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    "C",
+    [
+     "C:2",
+     "Bm:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "G:1",
+     "F#m:2",
+     "A:1"
+    ],
+    [
+     "D:2",
+     "F#m:1",
+     "Bm:1"
+    ],
+    [
+     "Bm:1",
+     "G:1",
+     "D:2"
+    ],
+    [
+     "F#m:2",
+     "Bm:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "F#m:2",
+     "Bm:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "F#m:1",
+     "Bm:1",
+     "G:1",
+     "D:1"
+    ],
+    "%",
+    "%",
+    [
+     "Bm:1",
+     "F#m:2",
+     "Bm:1"
+    ],
+    "D",
+    "C",
+    "%",
+    "%",
+    "Bm",
+    "%",
+    [
+     "F#m:2",
+     "A:2"
+    ],
+    "D",
+    "F#m",
+    "Bm",
+    "G",
+    "D",
+    "F#m",
+    "Bm"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "D:1",
+     "F#m:1",
+     "Bm:1",
+     "G:1"
+    ],
+    [
+     "D:2",
+     "F#m:1",
+     "Bm:1"
+    ],
+    [
+     "Bm:1",
+     "G:1",
+     "D:2"
+    ],
+    [
+     "F#m:2",
+     "Bm:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "F#m:2",
+     "Bm:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "F#m:1",
+     "Bm:1",
+     "G:1",
+     "D:1"
+    ],
+    "D",
+    "F#m",
+    "Bm",
+    "G"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    [
+     "D:1",
+     "F#m:1",
+     "Bm:1",
+     "G:1"
+    ],
+    "D",
+    "F#m",
+    "Bm",
+    "G",
+    "D",
+    "F#m"
+   ],
+   "barsPerRow": 4,
+   "strum": "B---D---"
+  }
+ ],
+ "warp": [
+  [
+   4,
+   12.83
+  ],
+  [
+   8,
+   23.978
+  ],
+  [
+   13,
+   38.149
+  ],
+  [
+   18,
+   52.595
+  ],
+  [
+   24,
+   69.433
+  ],
+  [
+   28,
+   79.87
+  ],
+  [
+   32,
+   91.253
+  ],
+  [
+   36,
+   102.832
+  ],
+  [
+   40,
+   114.208
+  ],
+  [
+   45,
+   128.24
+  ],
+  [
+   52,
+   147.885
+  ],
+  [
+   60,
+   170.004
+  ],
+  [
+   65,
+   184.015
+  ],
+  [
+   72,
+   203.607
+  ]
+ ],
+ "strumSource": "stima"
+}

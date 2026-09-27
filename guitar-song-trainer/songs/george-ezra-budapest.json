@@ -1,0 +1,273 @@
+{
+ "title": "Budapest",
+ "artist": "George Ezra",
+ "album": "TOP 100 - 2014 - September",
+ "year": 2014,
+ "genre": "Pop",
+ "difficulty": 2,
+ "youtubeId": "4YCkAVokE84",
+ "key": "Bb",
+ "bpm": 128.18,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.86,
+ "strum": "D--UD-DU",
+ "lyricsSource": {
+  "lrclibId": 37523182,
+  "duration": 202,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bb – F – C.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F",
+    "%",
+    "%"
+   ],
+   "strum": "D---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "F",
+    "%",
+    "%",
+    "%",
+    "Bb",
+    "%",
+    "F",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bb",
+    "%",
+    "F",
+    "%",
+    "Bb",
+    "%",
+    "F",
+    "%",
+    "C",
+    "Bb",
+    "F",
+    "C",
+    "%",
+    "Bb",
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "F",
+    "%",
+    "%",
+    "%",
+    "Bb",
+    "%",
+    "F",
+    "%",
+    "Bb",
+    "%",
+    "F",
+    "%",
+    "C",
+    "Bb",
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "%",
+    "C",
+    "Bb",
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "C",
+    "Bb",
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "%",
+    "C",
+    "Bb",
+    "F",
+    "F",
+    "%",
+    "Bb",
+    "%",
+    "F",
+    "%",
+    "F",
+    "%",
+    "Bb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "F",
+    "%",
+    "%",
+    "%",
+    "Bb",
+    "%",
+    "F",
+    "%",
+    "Bb",
+    "%",
+    "F",
+    "%",
+    "C",
+    "Bb",
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "%",
+    "C",
+    "Bb",
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "%",
+    "C",
+    "Bb",
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "%",
+    "Bb",
+    "%",
+    "F",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "F",
+    "%",
+    "%",
+    "%",
+    "Bb",
+    "%",
+    "F",
+    "%",
+    "Bb",
+    "%",
+    "F",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   3,
+   7.873
+  ],
+  [
+   7,
+   15.341
+  ],
+  [
+   11,
+   22.83
+  ],
+  [
+   15,
+   29.66
+  ],
+  [
+   21,
+   40.79
+  ],
+  [
+   26,
+   50.295
+  ],
+  [
+   34,
+   65.174
+  ],
+  [
+   39,
+   74.525
+  ],
+  [
+   44,
+   84.071
+  ],
+  [
+   51,
+   97.177
+  ],
+  [
+   56,
+   106.942
+  ],
+  [
+   67,
+   127.413
+  ],
+  [
+   73,
+   138.435
+  ],
+  [
+   79,
+   149.658
+  ],
+  [
+   84,
+   159.091
+  ],
+  [
+   91,
+   172.378
+  ],
+  [
+   96,
+   181.74
+  ],
+  [
+   101,
+   191.102
+  ],
+  [
+   105,
+   198.505
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 71220746,
+ "spotifyId": "0ZnnRLXJnzmWG0bRNUCW8J"
+}

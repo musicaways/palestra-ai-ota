@@ -1,0 +1,298 @@
+{
+ "title": "Ragazzo fortunato",
+ "artist": "Jovanotti",
+ "album": "Pasaporte",
+ "year": 1992,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "jhQlQNI521M",
+ "key": "E",
+ "bpm": 106.14,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.22,
+ "strum": "B-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 18480954,
+  "duration": 287.8963456,
+  "offset": 0
+ },
+ "notes": "Accordi principali: E – D – A – Bm7 – Amaj7 – Bm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "A",
+    "%",
+    "%",
+    "%",
+    "Amaj7",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "B---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "A",
+    "Amaj7",
+    "A7",
+    "Amaj7",
+    "Bm7",
+    "E",
+    "Bm7",
+    [
+     "Bm7:2",
+     "E:2"
+    ],
+    "%",
+    "D",
+    [
+     "D:2",
+     "E:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "A",
+    "Amaj7",
+    "A7",
+    "Amaj7",
+    "Bm7",
+    "E",
+    [
+     "Bm7:2",
+     "E:2"
+    ],
+    [
+     "D:2",
+     "E:2"
+    ],
+    "F#",
+    "%",
+    "E",
+    "%",
+    "F#",
+    "%",
+    "E",
+    "%",
+    "A",
+    "D",
+    "A",
+    "D",
+    "Bm7",
+    "E",
+    "E",
+    "D",
+    "E",
+    "A",
+    "D",
+    "Bm",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "A",
+    "%",
+    "D",
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    "%",
+    "E",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "A",
+    "Amaj7",
+    "A7",
+    "Amaj7",
+    "Bm7",
+    "E",
+    [
+     "Bm7:2",
+     "E:2"
+    ],
+    [
+     "D:2",
+     "E:2"
+    ],
+    "F#",
+    "%",
+    "E",
+    "%",
+    "F#",
+    "%",
+    "E",
+    "%",
+    "A",
+    "D",
+    "A",
+    "D",
+    "Bm7",
+    "E",
+    "E",
+    "D",
+    "E",
+    "A",
+    "D",
+    "Bm",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    [
+     "A:2",
+     "D:2"
+    ],
+    [
+     "Bm:2",
+     "E:2"
+    ],
+    "A",
+    "Amaj7",
+    "A7",
+    "Amaj7",
+    "Bm7",
+    "E",
+    "Bm7",
+    "E",
+    "D",
+    "E",
+    "A",
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    "A",
+    "D",
+    "A",
+    "D",
+    "Bm7",
+    "E",
+    "E",
+    "D",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 7",
+   "bars": [
+    "A",
+    "D",
+    "%",
+    "A",
+    "D",
+    "A",
+    "D",
+    "A",
+    "D",
+    "A",
+    "D",
+    "A",
+    "D",
+    "A",
+    "D",
+    "A",
+    "D",
+    "A",
+    "D"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   10,
+   22.97
+  ],
+  [
+   14,
+   32.015
+  ],
+  [
+   20,
+   45.582
+  ],
+  [
+   24,
+   54.758
+  ],
+  [
+   30,
+   68.325
+  ],
+  [
+   37,
+   84.047
+  ],
+  [
+   42,
+   95.081
+  ],
+  [
+   58,
+   131.26
+  ],
+  [
+   72,
+   162.749
+  ],
+  [
+   76,
+   172.058
+  ],
+  [
+   85,
+   192.408
+  ],
+  [
+   97,
+   219.547
+  ],
+  [
+   102,
+   230.955
+  ],
+  [
+   106,
+   240.002
+  ],
+  [
+   110,
+   249.047
+  ]
+ ],
+ "strumSource": "stima"
+}

@@ -1,0 +1,312 @@
+{
+ "title": "Il regalo più grande",
+ "artist": "Tiziano Ferro",
+ "album": "Top Of The Spot 2017",
+ "year": 2008,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "_eqKO3md-Mk",
+ "key": "F",
+ "bpm": 142.22,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.55,
+ "strum": "B-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 33523189,
+  "duration": 229,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F – Cm7 – Bb – F# – Ebadd9 – F4.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bb4",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "B---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Ebadd9",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Ebadd9",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Cm7",
+    "%",
+    "F",
+    "%",
+    "Cm7",
+    "F",
+    "Bb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bbmaj7",
+    "%",
+    "Bb",
+    "%",
+    "F",
+    "%",
+    "Cm7",
+    "%",
+    "F",
+    "%",
+    "Cm7",
+    "%",
+    "%",
+    "Bb",
+    "%",
+    "%",
+    "%",
+    "F",
+    "%",
+    "%",
+    "Eb",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Ebadd9",
+    "%",
+    "%",
+    "%",
+    "Bb4",
+    [
+     "Bb4:2",
+     "F4:2"
+    ],
+    [
+     "F4:2",
+     "F:2"
+    ],
+    "%",
+    "Cm7",
+    "%",
+    "%",
+    "%",
+    "Cm7",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    [
+     "F4:1",
+     "F:2",
+     "Bb:1"
+    ],
+    "%",
+    "%",
+    "Bbmaj7",
+    "%",
+    "Bb",
+    "%",
+    "F",
+    "%",
+    "Cm7",
+    "%",
+    "F",
+    "%",
+    "Cm7",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "Gm",
+    "F",
+    "Eb",
+    "F",
+    "Bb",
+    "%",
+    "%",
+    "%",
+    "Gm",
+    "F",
+    "Eb",
+    "F",
+    "Bb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 8",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "G#m",
+    "F#",
+    "E",
+    "F#",
+    "B",
+    "%",
+    "%",
+    "%",
+    "G#m",
+    "F#",
+    "E",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 9",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "B",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   7,
+   13.635
+  ],
+  [
+   15,
+   26.92
+  ],
+  [
+   23,
+   40.38
+  ],
+  [
+   32,
+   55.543
+  ],
+  [
+   36,
+   62.1
+  ],
+  [
+   42,
+   72.22
+  ],
+  [
+   47,
+   80.598
+  ],
+  [
+   57,
+   97.445
+  ],
+  [
+   69,
+   117.82
+  ],
+  [
+   74,
+   126.435
+  ],
+  [
+   80,
+   136.58
+  ],
+  [
+   84,
+   143.37
+  ],
+  [
+   89,
+   151.808
+  ],
+  [
+   94,
+   160.335
+  ],
+  [
+   98,
+   167.1
+  ],
+  [
+   106,
+   180.55
+  ],
+  [
+   110,
+   187.13
+  ],
+  [
+   116,
+   197.13
+  ],
+  [
+   121,
+   205.568
+  ],
+  [
+   123,
+   208.943
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 90581939
+}

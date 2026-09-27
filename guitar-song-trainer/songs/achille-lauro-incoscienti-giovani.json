@@ -1,0 +1,243 @@
+{
+ "title": "Incoscienti giovani",
+ "artist": "Achille Lauro",
+ "album": "This is Achille Lauro",
+ "year": 2025,
+ "genre": "Rock / Pop",
+ "difficulty": 5,
+ "youtubeId": "9nvovtrK_eI",
+ "key": "Bb",
+ "bpm": 106.04,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.58,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 33610962,
+  "duration": 205,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bb – Cm – F7 – F – Gm – Eb.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bb",
+    "%",
+    "Bb",
+    [
+     "Bb:2",
+     "Gm:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Eb",
+    [
+     "Eb:2",
+     "Cm:2"
+    ],
+    "%",
+    "%",
+    "Dm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "F",
+    "Cm",
+    "F",
+    "Bb",
+    "%",
+    "Cm",
+    "%",
+    "F7",
+    "Bb",
+    "%",
+    "%",
+    "Cm",
+    "%",
+    "%",
+    "Bb",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Cm",
+    "%",
+    "%",
+    "Gm",
+    "F",
+    "Cm",
+    "F7",
+    "Bb",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "Cm",
+    "F7",
+    "Bb",
+    "%",
+    "%",
+    "Cm",
+    "%",
+    "%",
+    "Bb",
+    "%",
+    "%",
+    "%",
+    "Gm",
+    "Eb",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "%",
+    "F",
+    "Gm7",
+    "Ebm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Cm7:2",
+     "F7:2"
+    ],
+    "Bb",
+    "%",
+    "%",
+    "F4",
+    "Cm",
+    "Ebm",
+    "Bb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   2,
+   6.65
+  ],
+  [
+   8,
+   19.56
+  ],
+  [
+   14,
+   33.096
+  ],
+  [
+   19,
+   44.456
+  ],
+  [
+   23,
+   53.47
+  ],
+  [
+   27,
+   62.523
+  ],
+  [
+   32,
+   74.047
+  ],
+  [
+   37,
+   85.347
+  ],
+  [
+   41,
+   94.4
+  ],
+  [
+   47,
+   108.124
+  ],
+  [
+   52,
+   119.296
+  ],
+  [
+   58,
+   133.06
+  ],
+  [
+   64,
+   146.64
+  ],
+  [
+   68,
+   155.667
+  ],
+  [
+   77,
+   175.937
+  ],
+  [
+   81,
+   184.67
+  ],
+  [
+   86,
+   195.987
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 3229751841,
+ "spotifyId": "3hY4HKGIVDHFiPcAHYvHJh"
+}

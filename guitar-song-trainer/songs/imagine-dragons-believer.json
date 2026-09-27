@@ -1,0 +1,261 @@
+{
+ "title": "Believer",
+ "artist": "Imagine Dragons",
+ "album": "Top Streaming 2023",
+ "year": 2017,
+ "genre": "Pop / Rock",
+ "difficulty": 4,
+ "youtubeId": "o0LydWpBQts",
+ "key": "Gb",
+ "bpm": 128.75,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.97,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37458486,
+  "duration": 204,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Gb – Bbm – F7 – G – Adim – Ab.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Gb",
+    "%",
+    "%",
+    "%",
+    "Gb",
+    "%",
+    "Bbm",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Gb",
+    [
+     "Gb:2",
+     "F7:2"
+    ],
+    "%",
+    "Gb",
+    "%",
+    "Bbm",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Gb",
+    "F7",
+    "Bbm",
+    "%",
+    "Gb",
+    "F7",
+    "Bbm",
+    "%",
+    "Gb",
+    "F7",
+    "%",
+    "Bbm",
+    "%",
+    "%",
+    "%",
+    "Bbm",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Gb",
+    "%",
+    "%",
+    "%",
+    "Bbm",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Gb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Gb",
+    [
+     "Gb:2",
+     "F7:2"
+    ],
+    "%",
+    "Bbm",
+    "%",
+    "G",
+    "F7",
+    "Bbm",
+    "Gb",
+    "%",
+    "F7",
+    "%",
+    "Bbm",
+    "%",
+    "%",
+    "%",
+    "Bbm",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "Gb",
+    "%",
+    "%",
+    "%",
+    "Bbm",
+    "%",
+    "%",
+    "%",
+    "Gb",
+    "%",
+    "F7",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    "Bbm",
+    "%",
+    "%",
+    "Gb",
+    "Ab",
+    "%",
+    "Adim",
+    "%",
+    "Bbm",
+    "%",
+    "%",
+    "%",
+    "Bbm",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 7",
+   "bars": [
+    "Gb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bbm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   8.422
+  ],
+  [
+   9,
+   17.825
+  ],
+  [
+   14,
+   27.063
+  ],
+  [
+   20,
+   38.216
+  ],
+  [
+   24,
+   45.72
+  ],
+  [
+   29,
+   55.172
+  ],
+  [
+   41,
+   77.547
+  ],
+  [
+   47,
+   88.727
+  ],
+  [
+   53,
+   99.71
+  ],
+  [
+   57,
+   107.184
+  ],
+  [
+   62,
+   116.538
+  ],
+  [
+   74,
+   138.833
+  ],
+  [
+   80,
+   150.017
+  ],
+  [
+   86,
+   161.19
+  ],
+  [
+   91,
+   170.308
+  ],
+  [
+   95,
+   177.764
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 528330441,
+ "spotifyId": "15bWckhU6MlGQ0or1GFWtn"
+}

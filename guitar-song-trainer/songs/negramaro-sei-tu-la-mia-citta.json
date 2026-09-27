@@ -1,0 +1,280 @@
+{
+ "title": "Sei tu la mia città",
+ "artist": "Negramaro",
+ "album": "Sei Tu La Mia Città",
+ "year": 2008,
+ "genre": "Pop / Rock",
+ "difficulty": 3,
+ "youtubeId": "hKGO6euiybY",
+ "key": "A",
+ "bpm": 120.16,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.39,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 17722144,
+  "duration": 255,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – Dadd9 – F#m7 – Bm7 – E – C#m7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F#m7",
+    "Dadd9",
+    "%",
+    "Dadd9",
+    "%",
+    "A",
+    "%",
+    "F#m7",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "%",
+    "Dadd9",
+    "%",
+    "A",
+    "%",
+    "F#m7",
+    "%",
+    "Dadd9",
+    "A",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "A",
+    "%",
+    "%",
+    "%",
+    "Dadd9",
+    "%",
+    "A",
+    "%",
+    "F#m7",
+    "%",
+    "Dadd9",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "F#m7",
+    "%",
+    "%",
+    "Dadd9",
+    "Bm7",
+    "%",
+    "A",
+    "%",
+    "C#m7",
+    "%",
+    "%",
+    "Dadd9",
+    "%",
+    "A",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "A",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Dadd9",
+    "%",
+    "A",
+    "%",
+    "F#m7",
+    "%",
+    "Dadd9",
+    "%",
+    "A",
+    "%",
+    "E7",
+    "%",
+    "A",
+    "%",
+    "%",
+    "Dadd9",
+    "Bm7",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "%",
+    "Dadd9",
+    "Bm7",
+    "%",
+    "F#m7",
+    "%",
+    "E",
+    "%",
+    "Dadd9",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "Dadd9",
+    "Bm7",
+    "%",
+    "F#m7",
+    "%",
+    "E",
+    "%",
+    "%",
+    "Dadd9",
+    "Bm7",
+    "%",
+    "F#m7",
+    "E",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Dadd9",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   5,
+   11.242
+  ],
+  [
+   11,
+   23.09
+  ],
+  [
+   17,
+   35.157
+  ],
+  [
+   23,
+   47.141
+  ],
+  [
+   29,
+   59.341
+  ],
+  [
+   35,
+   71.465
+  ],
+  [
+   41,
+   83.404
+  ],
+  [
+   46,
+   93.19
+  ],
+  [
+   54,
+   109.288
+  ],
+  [
+   59,
+   119.275
+  ],
+  [
+   65,
+   131.251
+  ],
+  [
+   69,
+   139.303
+  ],
+  [
+   74,
+   149.225
+  ],
+  [
+   78,
+   157.183
+  ],
+  [
+   83,
+   167.057
+  ],
+  [
+   87,
+   175.278
+  ],
+  [
+   99,
+   199.173
+  ],
+  [
+   103,
+   206.988
+  ],
+  [
+   108,
+   217.132
+  ],
+  [
+   114,
+   229.183
+  ],
+  [
+   119,
+   239.17
+  ],
+  [
+   123,
+   247.159
+  ]
+ ],
+ "strumSource": "stima",
+ "introSource": "stima: giro della prima parte cantata (la fonte non riportava gli accordi dell'intro)"
+}

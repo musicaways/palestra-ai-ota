@@ -1,0 +1,210 @@
+{
+ "title": "Fotoromanza",
+ "artist": "Gianna Nannini",
+ "album": "I Successi Italiani degli Anni 80",
+ "year": 1984,
+ "genre": "Rock",
+ "difficulty": 2,
+ "youtubeId": "yfE1Q-3jnmA",
+ "key": "B",
+ "bpm": 85.41,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.85,
+ "strum": "D--UD-DU",
+ "lyricsSource": {
+  "lrclibId": 37538036,
+  "duration": 268,
+  "offset": 0
+ },
+ "notes": "Accordi principali: B – E – F#7 – F#.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "B",
+    "%",
+    "%",
+    "%"
+   ],
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "B",
+    "E",
+    "%",
+    "B",
+    "%",
+    "E",
+    "%",
+    "B",
+    "E",
+    "B",
+    "%",
+    "E",
+    "B",
+    "%",
+    "E",
+    "%",
+    "B",
+    "%",
+    "E",
+    "%",
+    "B",
+    "E",
+    "B",
+    "%",
+    "E",
+    "B",
+    "F#",
+    "B",
+    "%",
+    "F#7",
+    "%",
+    "%",
+    "%",
+    "B",
+    "%",
+    "%",
+    "%",
+    "F#7",
+    "%",
+    "%",
+    "%",
+    "B",
+    "E",
+    "B",
+    "E",
+    "B",
+    "E",
+    "B"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "B",
+    "E",
+    "%",
+    "B",
+    "%",
+    "%",
+    "E",
+    "B",
+    "E",
+    "B",
+    "%",
+    "E",
+    "B",
+    "F#",
+    "B",
+    "%",
+    "F#7",
+    "%",
+    "%",
+    "%",
+    "B",
+    "%",
+    "%",
+    "%",
+    "F#7",
+    "%",
+    "%",
+    "%",
+    "B",
+    "B",
+    "F#7",
+    "B",
+    "B",
+    "F#7",
+    "B",
+    "B",
+    "F#7",
+    "B",
+    "B",
+    "F#7",
+    "B",
+    "B",
+    "F#7",
+    "B"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   12.38
+  ],
+  [
+   8,
+   23.6
+  ],
+  [
+   13,
+   37.67
+  ],
+  [
+   17,
+   48.91
+  ],
+  [
+   22,
+   62.98
+  ],
+  [
+   31,
+   87.74
+  ],
+  [
+   37,
+   104.52
+  ],
+  [
+   41,
+   115.72
+  ],
+  [
+   45,
+   126.96
+  ],
+  [
+   55,
+   155.26
+  ],
+  [
+   60,
+   169.43
+  ],
+  [
+   66,
+   186.34
+  ],
+  [
+   70,
+   197.59
+  ],
+  [
+   74,
+   208.83
+  ],
+  [
+   78,
+   220.07
+  ],
+  [
+   80,
+   225.79
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 4016801031
+}

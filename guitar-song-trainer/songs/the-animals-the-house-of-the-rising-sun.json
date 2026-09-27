@@ -1,0 +1,346 @@
+{
+ "title": "The House of the Rising Sun",
+ "artist": "The Animals",
+ "album": "Good Morning Vietnam",
+ "year": 1964,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "Yvln02hNRLY",
+ "key": "Am",
+ "bpm": 78.5,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.55,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37461951,
+  "duration": 270,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Am – C – E7 – D – F – Dm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Am",
+    "C",
+    "D",
+    "F"
+   ],
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Am:2",
+     "C:2"
+    ],
+    [
+     "D:2",
+     "F:2"
+    ],
+    [
+     "Am:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "E:2"
+    ],
+    [
+     "Am:2",
+     "C:2"
+    ],
+    [
+     "D:2",
+     "F:2"
+    ],
+    [
+     "Am:1",
+     "E:1",
+     "Am:1",
+     "C:1"
+    ],
+    "Am",
+    "E",
+    "Am",
+    "E"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Am:2",
+     "C:2"
+    ],
+    [
+     "D:2",
+     "F7:2"
+    ],
+    [
+     "Am:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "E7:2"
+    ],
+    [
+     "Am:2",
+     "C:2"
+    ],
+    [
+     "D:2",
+     "F:2"
+    ],
+    [
+     "Am:1",
+     "E7:1",
+     "Am:1",
+     "C:1"
+    ],
+    "Am",
+    "E",
+    "Am",
+    "E7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Am:2",
+     "C:2"
+    ],
+    [
+     "D:2",
+     "F7:2"
+    ],
+    [
+     "Am:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "E7:2"
+    ],
+    [
+     "Am:2",
+     "C:2"
+    ],
+    [
+     "D:2",
+     "F:2"
+    ],
+    [
+     "Am:1",
+     "E7:1",
+     "Am:1",
+     "C:1"
+    ],
+    "Am",
+    "E7",
+    "Am",
+    "E7",
+    "Am",
+    "C",
+    "D",
+    "F",
+    "Am",
+    "C",
+    "E7",
+    "Am",
+    "C",
+    "D",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "Am:2",
+     "C:2"
+    ],
+    [
+     "D:2",
+     "F7:2"
+    ],
+    [
+     "Am:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "E7:2"
+    ],
+    [
+     "Am:2",
+     "C:2"
+    ],
+    [
+     "D:2",
+     "F:2"
+    ],
+    [
+     "Am:1",
+     "E7:1",
+     "Am:1",
+     "C:1"
+    ],
+    "Am",
+    "E7",
+    "Am",
+    "E7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    [
+     "Am:2",
+     "C:2"
+    ],
+    [
+     "D:2",
+     "F7:2"
+    ],
+    [
+     "Am:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "E7:2"
+    ],
+    [
+     "Am:2",
+     "C:2"
+    ],
+    [
+     "D:2",
+     "F:2"
+    ],
+    [
+     "Am:1",
+     "E7:1",
+     "Am:1",
+     "C:1"
+    ],
+    "Am",
+    "E7",
+    "Am",
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    [
+     "E7:2",
+     "Am:1",
+     "C:1"
+    ],
+    [
+     "C:1",
+     "D:1",
+     "F7:2"
+    ],
+    [
+     "Am:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "E7:2"
+    ],
+    [
+     "Am:2",
+     "C:2"
+    ],
+    [
+     "D:2",
+     "F:2"
+    ],
+    [
+     "Am:1",
+     "E7:1",
+     "Am:1",
+     "C:1"
+    ],
+    "Am",
+    "E7",
+    "Am",
+    "Dm",
+    "Am",
+    "Dm",
+    "Am",
+    "Dm",
+    "Am",
+    "Dm",
+    "Am",
+    "Dm"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   12.431
+  ],
+  [
+   8,
+   24.789
+  ],
+  [
+   15,
+   46.255
+  ],
+  [
+   21,
+   64.915
+  ],
+  [
+   26,
+   80.395
+  ],
+  [
+   32,
+   98.739
+  ],
+  [
+   48,
+   147.806
+  ],
+  [
+   54,
+   165.804
+  ],
+  [
+   61,
+   187.205
+  ],
+  [
+   72,
+   220.731
+  ],
+  [
+   76,
+   232.659
+  ]
+ ],
+ "strumSource": "stima"
+}

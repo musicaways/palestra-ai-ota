@@ -1,0 +1,360 @@
+{
+ "title": "Giudizi universali",
+ "artist": "Samuele Bersani",
+ "album": "Unknown",
+ "year": 1997,
+ "genre": "Cantautori",
+ "difficulty": 4,
+ "youtubeId": "s6NRYlNvlIA",
+ "key": "B",
+ "bpm": 148.06,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.96,
+ "strum": "B-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 35159915,
+  "duration": 235,
+  "offset": 0
+ },
+ "notes": "Accordi principali: B – A – Aadd9 – G#m7 – F#m7 – C#m7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "A",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "B---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "B",
+    "C#m7",
+    "B",
+    "Aadd9",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "F#m7:2",
+     "G#m7:2"
+    ],
+    "A",
+    "B",
+    "%",
+    "%",
+    "%",
+    [
+     "F#m7:2",
+     "G#m7:2"
+    ],
+    "A",
+    "B",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "A:2",
+     "B:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "%",
+    "%",
+    [
+     "A:2",
+     "B:2"
+    ],
+    [
+     "B:2",
+     "C#m7:2"
+    ],
+    "B",
+    "Aadd9",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "Aadd9",
+    [
+     "Aadd9:2",
+     "B:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "A",
+    [
+     "A:2",
+     "B:2"
+    ],
+    "%",
+    "G#m7",
+    "%",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "B",
+    "C#m7",
+    "B",
+    "Aadd9",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 7",
+   "bars": [
+    [
+     "F#m7:2",
+     "G#m7:2"
+    ],
+    "A",
+    "B",
+    "%",
+    "%",
+    "%",
+    [
+     "F#m7:2",
+     "G#m7:2"
+    ],
+    "A",
+    "B",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Aadd9",
+    [
+     "Aadd9:2",
+     "B:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "A",
+    [
+     "A:2",
+     "B:2"
+    ],
+    "%",
+    "G#m7",
+    "%",
+    "%",
+    "Aadd9",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   6,
+   10.815
+  ],
+  [
+   10,
+   17.299
+  ],
+  [
+   15,
+   25.351
+  ],
+  [
+   19,
+   31.835
+  ],
+  [
+   24,
+   39.94
+  ],
+  [
+   30,
+   49.85
+  ],
+  [
+   42,
+   69.24
+  ],
+  [
+   47,
+   77.196
+  ],
+  [
+   53,
+   86.71
+  ],
+  [
+   60,
+   98.057
+  ],
+  [
+   66,
+   107.807
+  ],
+  [
+   72,
+   117.576
+  ],
+  [
+   84,
+   137.229
+  ],
+  [
+   88,
+   143.754
+  ],
+  [
+   93,
+   151.917
+  ],
+  [
+   97,
+   158.408
+  ],
+  [
+   102,
+   166.574
+  ],
+  [
+   108,
+   176.3
+  ],
+  [
+   114,
+   185.801
+  ],
+  [
+   120,
+   195.504
+  ],
+  [
+   126,
+   205.23
+  ],
+  [
+   132,
+   214.979
+  ]
+ ],
+ "strumSource": "stima"
+}

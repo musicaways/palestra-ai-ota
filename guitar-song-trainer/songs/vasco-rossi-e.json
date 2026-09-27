@@ -1,0 +1,277 @@
+{
+ "title": "E...",
+ "artist": "Vasco Rossi",
+ "album": "VascoNonStop [Disc 1]",
+ "year": 2001,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "jCweTEZre-k",
+ "key": "G",
+ "bpm": 143.3,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.84,
+ "strum": "PPPP-PPU",
+ "lyricsSource": {
+  "lrclibId": 36999569,
+  "duration": 209,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – Cadd9 – Em7 – C – Bm – D.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Em7",
+    "%",
+    "%",
+    "Cadd9",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "D",
+    "%",
+    "%",
+    "Em7",
+    "%",
+    "%",
+    "Cadd9",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "D",
+    "%",
+    "%",
+    "Em7",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-D-D-D-"
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "Cadd9",
+    "%",
+    "%",
+    "Em7",
+    "%",
+    "Cadd9",
+    "%",
+    "G",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "Cadd9",
+    "%",
+    "Cadd9",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    "Em7",
+    "D",
+    [
+     "D:2",
+     "D7:2"
+    ],
+    "%",
+    "G",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "Cadd9",
+    "D7",
+    "Bm",
+    "%",
+    "%",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    [
+     "C:2",
+     "G:2"
+    ],
+    "%",
+    "Bm",
+    "%",
+    "%",
+    "C",
+    "%",
+    "Bm",
+    "%",
+    "G",
+    "%",
+    "D",
+    [
+     "D:2",
+     "C:2"
+    ],
+    "%",
+    "Cadd9",
+    "%",
+    "%",
+    "Em7",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "G",
+    "%",
+    "Am",
+    "%",
+    "Cadd9",
+    "D7",
+    "%",
+    "Bm",
+    "%",
+    "%",
+    "C",
+    "G",
+    "Bm",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "C",
+    "%",
+    "%",
+    "C",
+    "%",
+    "%",
+    "D",
+    "G",
+    "Bm",
+    "%",
+    "%",
+    "C",
+    "G",
+    "Bm",
+    "%",
+    "%",
+    "C",
+    "%",
+    "Bm",
+    "%",
+    "G",
+    "%",
+    [
+     "D:2",
+     "G:2"
+    ],
+    "Em7",
+    "%",
+    "Cadd9",
+    "%",
+    "Em7",
+    "%",
+    "Em7"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   26,
+   44.306
+  ],
+  [
+   30,
+   51.34
+  ],
+  [
+   35,
+   59.676
+  ],
+  [
+   43,
+   73.074
+  ],
+  [
+   49,
+   83.119
+  ],
+  [
+   54,
+   91.24
+  ],
+  [
+   60,
+   101.17
+  ],
+  [
+   65,
+   109.866
+  ],
+  [
+   69,
+   116.566
+  ],
+  [
+   75,
+   126.4
+  ],
+  [
+   79,
+   133.271
+  ],
+  [
+   83,
+   139.931
+  ],
+  [
+   89,
+   150.011
+  ],
+  [
+   95,
+   160.029
+  ],
+  [
+   101,
+   170.042
+  ],
+  [
+   108,
+   181.806
+  ],
+  [
+   113,
+   190.18
+  ],
+  [
+   115,
+   193.53
+  ]
+ ],
+ "strumSource": "stima"
+}

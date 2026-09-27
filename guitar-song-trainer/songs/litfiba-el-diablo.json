@@ -1,0 +1,292 @@
+{
+ "title": "El diablo",
+ "artist": "Litfiba",
+ "album": "Sogno Ribelle (Remix)",
+ "year": 1990,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "SxKXgx5i0Vc",
+ "key": "C",
+ "bpm": 61.27,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 3.33,
+ "strum": "D-D-D-DU",
+ "lyricsSource": {
+  "lrclibId": 37449709,
+  "duration": 266.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – Gm – Bb – F – Eb – F#.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F",
+    "Bb",
+    "C",
+    "Gm"
+   ],
+   "strum": "D---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Gm:2",
+     "F:1",
+     "Bb:1"
+    ],
+    [
+     "Bb:1",
+     "C:1",
+     "Gm:2"
+    ],
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    [
+     "C:2",
+     "Gm:2"
+    ],
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    [
+     "C:2",
+     "Gm:2"
+    ],
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    [
+     "C:2",
+     "Gm:2"
+    ],
+    [
+     "F:1",
+     "Bb:1",
+     "C:1",
+     "Gm:1"
+    ],
+    "Gm",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Gm:2",
+     "F:1",
+     "Bb:1"
+    ],
+    [
+     "Bb:1",
+     "C:1",
+     "Gm:2"
+    ],
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    [
+     "C:2",
+     "Gm:2"
+    ],
+    "%",
+    [
+     "F:1",
+     "Bb:1",
+     "C:1",
+     "Gm:1"
+    ],
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    [
+     "C:2",
+     "Gm:2"
+    ],
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    [
+     "Eb:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Gm:2"
+    ],
+    [
+     "Eb:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Gm:2"
+    ],
+    [
+     "Eb:1",
+     "C:2",
+     "Gm:1"
+    ],
+    [
+     "F:1",
+     "F#:2",
+     "Gm:1"
+    ],
+    [
+     "F:2",
+     "Bb:1",
+     "C:1"
+    ],
+    [
+     "C:1",
+     "Gm:1",
+     "F:2"
+    ],
+    [
+     "Bb:1",
+     "C:2",
+     "Gm:1"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Gm:2",
+     "F:1",
+     "Bb:1"
+    ],
+    [
+     "Bb:1",
+     "C:1",
+     "Gm:2"
+    ],
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    [
+     "C:2",
+     "Gm:2"
+    ],
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    [
+     "C:2",
+     "Gm:2"
+    ],
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    [
+     "C:2",
+     "Gm:2"
+    ],
+    [
+     "F:2",
+     "Bb:2"
+    ],
+    [
+     "C:2",
+     "Gm:2"
+    ],
+    [
+     "Eb:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Gm:2"
+    ],
+    [
+     "Eb:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Gm:2"
+    ],
+    [
+     "Eb:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Gm:2"
+    ],
+    [
+     "Eb:1",
+     "C:2",
+     "Gm:1"
+    ],
+    [
+     "F:1",
+     "F#:2",
+     "Gm:1"
+    ],
+    [
+     "F:2",
+     "Bb:1",
+     "C:1"
+    ],
+    [
+     "C:1",
+     "Gm:1",
+     "F:2"
+    ],
+    [
+     "Bb:1",
+     "C:2",
+     "Gm:1"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "F",
+    "F#",
+    "Gm",
+    "F",
+    "Bb",
+    "C",
+    "Gm",
+    "F",
+    "Bb",
+    "C",
+    "Gm"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima",
+ "deezerId": 3875421
+}

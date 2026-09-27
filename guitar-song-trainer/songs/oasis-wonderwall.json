@@ -1,0 +1,257 @@
+{
+ "title": "Wonderwall",
+ "artist": "Oasis",
+ "album": "VH1 100 Greatest Songs of the 90s",
+ "year": 1995,
+ "genre": "Rock",
+ "difficulty": 1,
+ "youtubeId": "8LaTzWMbShY",
+ "key": "F#m7",
+ "bpm": 85.31,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 2,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.22,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34599533,
+  "duration": 259.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Em7 – G – Cadd9 – D4.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F#m7",
+    "A",
+    "E4",
+    "%",
+    "F#m7"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "E4",
+    "%",
+    "E4",
+    "%",
+    "F#m7",
+    "A",
+    [
+     "A:2",
+     "E4:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "F#m7",
+    "A",
+    "F#m7",
+    "A",
+    "F#m7",
+    "A",
+    "E4",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Dadd9:2",
+     "E4:2"
+    ],
+    [
+     "E4:2",
+     "F#m7:2"
+    ],
+    "Dadd9",
+    "E4",
+    "F#m7",
+    "Dadd9",
+    "%",
+    "E4",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Dadd9:2",
+     "F#m7:2"
+    ],
+    [
+     "F#m7:2",
+     "A:2"
+    ],
+    [
+     "F#m7:2",
+     "Dadd9:2"
+    ],
+    [
+     "F#m7:2",
+     "A:2"
+    ],
+    [
+     "F#m7:2",
+     "Dadd9:2"
+    ],
+    [
+     "F#m7:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "E4",
+    "E4",
+    "%",
+    "F#m7",
+    "A",
+    "F#m7",
+    "A",
+    "E4",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "Dadd9:2",
+     "E4:2"
+    ],
+    [
+     "E4:2",
+     "F#m7:2"
+    ],
+    "Dadd9",
+    "E4",
+    "F#m7",
+    "Dadd9",
+    "%",
+    "E4",
+    "%",
+    "%",
+    "F#m7",
+    [
+     "Dadd9:2",
+     "F#m7:2"
+    ],
+    "A",
+    [
+     "F#m7:2",
+     "Dadd9:2"
+    ],
+    [
+     "F#m7:2",
+     "A:2"
+    ],
+    [
+     "F#m7:2",
+     "Dadd9:2"
+    ],
+    "F#m7",
+    [
+     "A:2",
+     "F#m7:2"
+    ],
+    [
+     "Dadd9:1",
+     "F#m7:2",
+     "A:1"
+    ],
+    "F#m7",
+    [
+     "Dadd9:2",
+     "F#m7:2"
+    ],
+    "A",
+    [
+     "F#m7:2",
+     "Dadd9:2"
+    ],
+    [
+     "F#m7:2",
+     "A:2"
+    ],
+    [
+     "F#m7:2",
+     "Dadd9:2"
+    ],
+    "F#m7",
+    [
+     "A:2",
+     "F#m7:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    [
+     "Dadd9:1",
+     "F#m7:2",
+     "A:1"
+    ],
+    [
+     "F#m7:1",
+     "Dadd9:1",
+     "F#m7:1",
+     "A:1"
+    ],
+    [
+     "F#m7:2",
+     "Dadd9:2"
+    ],
+    [
+     "F#m7:2",
+     "A:2"
+    ],
+    "F#m7",
+    "Dadd9",
+    "F#m7",
+    "A",
+    "F#m7",
+    "Dadd9",
+    "F#m7",
+    "A",
+    "F#m7",
+    "Dadd9",
+    "F#m7",
+    "A"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima",
+ "spotifyId": "1qPbGZqppFwLwcBC1JQ6Vr",
+ "deezerId": 985745702,
+ "keySource": "disco: accordi +2 (forme con capotasto al 2° tasto); anteprima Deezer e MIDI concordano"
+}

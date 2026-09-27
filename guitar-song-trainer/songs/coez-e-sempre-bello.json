@@ -1,0 +1,373 @@
+{
+ "title": "È sempre bello",
+ "artist": "Coez",
+ "album": "Top 50 Italy 12.09.2019",
+ "year": 2019,
+ "genre": "Pop / Rap",
+ "difficulty": 4,
+ "youtubeId": "Pc9PxnWCjRU",
+ "key": "Ab",
+ "bpm": 108.83,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.18,
+ "strum": "D---D-DU-UD-D-DU",
+ "lyricsSource": {
+  "lrclibId": 37015541,
+  "duration": 204,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Ab – Fm7 – Db – Cm7 – Fm – Cm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Ab",
+    "Cm7",
+    "Fm7",
+    "Db",
+    "Ab"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Ab",
+    "Cm7",
+    "Fm",
+    "%",
+    "Db",
+    "Ab",
+    "Cm7",
+    "%",
+    "Fm",
+    "Db",
+    "Ab",
+    "%",
+    "Cm7",
+    "Fm7",
+    "%",
+    "Db",
+    "Ab",
+    "Cm7",
+    "Fm7",
+    [
+     "Fm7:2",
+     "Db:2"
+    ],
+    "%",
+    "Ab",
+    "Cm7",
+    "Fm7",
+    [
+     "Fm7:2",
+     "Db:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Ab",
+    "Cm7",
+    "%",
+    "Fm7",
+    "Db",
+    "Ab",
+    "%",
+    "Cm7",
+    "Fm7",
+    "%",
+    "Db",
+    "Ab",
+    "Cm7",
+    "Fm7",
+    [
+     "Fm7:2",
+     "Db:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Ab",
+    "Cm7",
+    "Fm7",
+    "%",
+    "Db",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "Ab:2",
+     "Cm:2"
+    ],
+    "Fm",
+    "%",
+    "Db",
+    "%",
+    "Ab",
+    "Cm",
+    "Fm",
+    "Db",
+    "%",
+    "Ab",
+    "Cm7",
+    "Fm7",
+    [
+     "Fm7:2",
+     "Db:2"
+    ],
+    "%",
+    "Ab",
+    "Cm7",
+    "Fm7",
+    [
+     "Fm7:2",
+     "Db:2"
+    ],
+    "%",
+    "Ab",
+    [
+     "Ab:2",
+     "Cm7:2"
+    ],
+    "%",
+    "Fm7",
+    "Db"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "Ab",
+    [
+     "Ab:2",
+     "Cm7:2"
+    ],
+    "%",
+    "Fm7",
+    [
+     "Fm7:2",
+     "Db:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "Ab",
+    "Cm",
+    "Fm",
+    "Db",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   5,
+   10.88
+  ],
+  [
+   6,
+   13.65
+  ],
+  [
+   7,
+   16.64
+  ],
+  [
+   9,
+   19.51
+  ],
+  [
+   10,
+   22.49
+  ],
+  [
+   11,
+   25.32
+  ],
+  [
+   13,
+   28.28
+  ],
+  [
+   14,
+   31.15
+  ],
+  [
+   15,
+   33.92
+  ],
+  [
+   17,
+   36.81
+  ],
+  [
+   18,
+   39.72
+  ],
+  [
+   20,
+   43.19
+  ],
+  [
+   21,
+   46.57
+  ],
+  [
+   23,
+   50.85
+  ],
+  [
+   26,
+   57.44
+  ],
+  [
+   28,
+   62.41
+  ],
+  [
+   31,
+   68.96
+  ],
+  [
+   32,
+   71.71
+  ],
+  [
+   34,
+   74.78
+  ],
+  [
+   35,
+   77.47
+  ],
+  [
+   36,
+   80.28
+  ],
+  [
+   38,
+   83.14
+  ],
+  [
+   39,
+   86.28
+  ],
+  [
+   41,
+   90.02
+  ],
+  [
+   42,
+   92.65
+  ],
+  [
+   44,
+   97.36
+  ],
+  [
+   47,
+   103.71
+  ],
+  [
+   49,
+   108.85
+  ],
+  [
+   53,
+   116.55
+  ],
+  [
+   54,
+   119.93
+  ],
+  [
+   56,
+   122.78
+  ],
+  [
+   58,
+   128.04
+  ],
+  [
+   60,
+   131.5
+  ],
+  [
+   61,
+   134.22
+  ],
+  [
+   63,
+   138.84
+  ],
+  [
+   65,
+   143.68
+  ],
+  [
+   68,
+   150.05
+  ],
+  [
+   70,
+   154.94
+  ],
+  [
+   73,
+   161.84
+  ],
+  [
+   76,
+   166.88
+  ],
+  [
+   78,
+   173.15
+  ],
+  [
+   81,
+   178.25
+  ],
+  [
+   84,
+   185.97
+  ],
+  [
+   86,
+   189.52
+  ],
+  [
+   87,
+   192.21
+  ]
+ ],
+ "strumSource": "ultimate-guitar"
+}

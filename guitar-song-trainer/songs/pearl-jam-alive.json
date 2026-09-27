@@ -1,0 +1,311 @@
+{
+ "title": "Alive",
+ "artist": "Pearl Jam",
+ "album": "Rearviewmirror (Greatest Hits 1991-2003) CD2",
+ "year": 1991,
+ "genre": "Rock",
+ "difficulty": 2,
+ "youtubeId": "35-FBXyP7b0",
+ "key": "A",
+ "bpm": 81.98,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.88,
+ "strum": "P-P-D-DU",
+ "lyricsSource": {
+  "lrclibId": 37010663,
+  "duration": 341.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – G – D – E – F – C.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "A",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "A:2",
+     "G:2"
+    ],
+    [
+     "A:2",
+     "G:2"
+    ],
+    [
+     "A:1",
+     "G:1",
+     "A:1",
+     "G:1"
+    ],
+    "%",
+    "%",
+    [
+     "A:2",
+     "G:2"
+    ],
+    [
+     "A:2",
+     "G:2"
+    ],
+    [
+     "A:1",
+     "G:1",
+     "A:1",
+     "G:1"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "E:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    "E",
+    "G",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "A:2",
+     "G:2"
+    ],
+    [
+     "A:2",
+     "G:2"
+    ],
+    [
+     "A:2",
+     "G:2"
+    ],
+    [
+     "A:2",
+     "G:2"
+    ],
+    [
+     "A:2",
+     "G:2"
+    ],
+    [
+     "A:2",
+     "G:2"
+    ],
+    [
+     "A:2",
+     "G:2"
+    ],
+    [
+     "A:2",
+     "G:2"
+    ],
+    [
+     "F:1",
+     "C:1",
+     "F:1",
+     "C:1"
+    ],
+    "%",
+    "%",
+    [
+     "E:1",
+     "G:1",
+     "D:1",
+     "A:1"
+    ],
+    [
+     "E:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    "E",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "D",
+    "%",
+    "%",
+    "A",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    [
+     "A:1",
+     "D:1",
+     "A:1",
+     "D:1"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "E:1",
+     "G:1",
+     "D:1",
+     "A:1"
+    ],
+    "E",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "A",
+    [
+     "E:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "G:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima",
+ "deezerId": 7675130,
+ "spotifyId": "1L94M3KIu7QluZe63g64rv"
+}

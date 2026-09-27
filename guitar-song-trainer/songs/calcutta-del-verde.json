@@ -1,0 +1,209 @@
+{
+ "title": "Del verde",
+ "artist": "Calcutta",
+ "album": "Mainstream (Deluxe Edition)",
+ "year": 2018,
+ "genre": "Indie",
+ "difficulty": 2,
+ "youtubeId": "lt5S9_IHN2I",
+ "key": "C",
+ "bpm": 75.19,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.91,
+ "strum": "P-PU-UPU",
+ "lyricsSource": {
+  "lrclibId": 2953446,
+  "duration": 228,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – G – F – G7 – Em – Am.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "C",
+    "G7",
+    "C",
+    [
+     "G7:2",
+     "C:2"
+    ],
+    "G7",
+    "C",
+    "G7",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "G7",
+    [
+     "G7:2",
+     "C:2"
+    ],
+    "%",
+    "G7",
+    "Em",
+    "G7",
+    "Em"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "G:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    "Am",
+    "G",
+    "C",
+    [
+     "Am:2",
+     "G:2"
+    ],
+    "C",
+    [
+     "C6:2",
+     "G:2"
+    ],
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "G7",
+    "C",
+    "G7",
+    "Em",
+    "G7",
+    "Em"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "G:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    "F",
+    "G",
+    "C",
+    [
+     "F:2",
+     "G:2"
+    ],
+    "C",
+    [
+     "F:2",
+     "G:2"
+    ],
+    "C",
+    [
+     "F:2",
+     "G:2"
+    ],
+    "C",
+    "F",
+    "G",
+    "C",
+    "F",
+    "G",
+    "C",
+    "F",
+    "G",
+    "C",
+    "F",
+    "G",
+    "C",
+    "F",
+    "G",
+    "C",
+    "F",
+    "G",
+    "C",
+    "F",
+    "G",
+    "C",
+    "F",
+    "G",
+    "C",
+    "F",
+    "G",
+    "C",
+    "F",
+    "G",
+    "C"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   0,
+   1.052
+  ],
+  [
+   4,
+   13.82
+  ],
+  [
+   8,
+   26.588
+  ],
+  [
+   15,
+   49.03
+  ],
+  [
+   20,
+   64.432
+  ],
+  [
+   26,
+   83.513
+  ],
+  [
+   31,
+   99.472
+  ],
+  [
+   35,
+   112.24
+  ],
+  [
+   39,
+   125.52
+  ],
+  [
+   41,
+   131.904
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 142746428
+}

@@ -1,0 +1,283 @@
+{
+ "title": "Laura non c'è",
+ "artist": "Nek",
+ "album": "Just the Best-Italo Hits",
+ "year": 1997,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "zs5G5qPudzo",
+ "key": "Fmaj7",
+ "bpm": 62.97,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.52,
+ "strum": "D---D-DU",
+ "lyricsSource": {
+  "lrclibId": 36964228,
+  "duration": 229,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Fmaj7 – Am – G – Em7 – A – C#m.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Am",
+    "Fmaj7"
+   ],
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Am:2",
+     "Fmaj7:2"
+    ],
+    [
+     "G:2",
+     "Em7:2"
+    ],
+    [
+     "Am:2",
+     "Fmaj7:2"
+    ],
+    [
+     "G:2",
+     "Em7:2"
+    ],
+    [
+     "Fmaj7:2",
+     "G:2"
+    ],
+    [
+     "Am:2",
+     "Em7:2"
+    ],
+    [
+     "Fmaj7:2",
+     "G:2"
+    ],
+    [
+     "Am:2",
+     "Fmaj7:2"
+    ],
+    [
+     "G:2",
+     "Em7:2"
+    ],
+    [
+     "Am:2",
+     "Fmaj7:2"
+    ],
+    [
+     "G:2",
+     "Em7:2"
+    ],
+    [
+     "Fmaj7:2",
+     "G:2"
+    ],
+    [
+     "Am:2",
+     "Em7:2"
+    ],
+    [
+     "Fmaj7:2",
+     "G:2"
+    ],
+    [
+     "Am:2",
+     "C:2"
+    ],
+    [
+     "Dadd9:2",
+     "Fmaj7:2"
+    ],
+    [
+     "Am:2",
+     "C:2"
+    ],
+    "Dadd9",
+    [
+     "Dadd9:2",
+     "Fmaj7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Am:2",
+     "Fmaj7:2"
+    ],
+    [
+     "G:2",
+     "Em7:2"
+    ],
+    [
+     "Am:2",
+     "Fmaj7:2"
+    ],
+    [
+     "G:2",
+     "Em7:2"
+    ],
+    [
+     "Fmaj7:2",
+     "G:2"
+    ],
+    [
+     "Am:2",
+     "Em7:2"
+    ],
+    [
+     "Fmaj7:2",
+     "G:2"
+    ],
+    [
+     "Am:2",
+     "C:2"
+    ],
+    [
+     "Dadd9:2",
+     "Fmaj7:2"
+    ],
+    [
+     "Am:2",
+     "C:2"
+    ],
+    "Dadd9",
+    "Fmaj7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "F",
+    "C#m",
+    "A",
+    "B",
+    "G#m",
+    "C#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Aadd9:2",
+     "B:2"
+    ],
+    [
+     "C#m7:2",
+     "G#m:2"
+    ],
+    [
+     "A:2",
+     "B:2"
+    ],
+    [
+     "C#m:2",
+     "E:2"
+    ],
+    [
+     "F#:2",
+     "A:2"
+    ],
+    [
+     "C#m:2",
+     "E:2"
+    ],
+    [
+     "F#:2",
+     "A:2"
+    ],
+    [
+     "B:1",
+     "C#m:2",
+     "E:1"
+    ],
+    [
+     "F#:2",
+     "A:2"
+    ],
+    [
+     "C#m:1",
+     "B:2",
+     "E:1"
+    ],
+    "F#",
+    "%",
+    "A",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   2,
+   9.16
+  ],
+  [
+   7,
+   28.293
+  ],
+  [
+   11,
+   43.6
+  ],
+  [
+   16,
+   62.109
+  ],
+  [
+   22,
+   84.977
+  ],
+  [
+   27,
+   104.156
+  ],
+  [
+   31,
+   119.43
+  ],
+  [
+   36,
+   139.327
+  ],
+  [
+   40,
+   154.595
+  ],
+  [
+   46,
+   177.463
+  ],
+  [
+   50,
+   191.91
+  ],
+  [
+   54,
+   207.121
+  ],
+  [
+   56,
+   214.744
+  ]
+ ],
+ "strumSource": "stima"
+}

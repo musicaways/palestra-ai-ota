@@ -1,0 +1,203 @@
+{
+ "title": "Let It Be",
+ "artist": "The Beatles",
+ "album": "RollingStone The 500 Greatest Songs of All Time(Ⅰ)",
+ "year": 1970,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "5AnNkJ_VK9E",
+ "key": "C",
+ "bpm": 73.6,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0,
+ "strum": "P-P-D-DU",
+ "lyricsSource": {
+  "lrclibId": 37014528,
+  "duration": 243,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – G – F – Am – Fmaj7 – F6.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "C",
+    "G",
+    "Am",
+    "G"
+   ],
+   "strum": "D---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "Am:1",
+     "Fmaj7:2",
+     "F6:1"
+    ],
+    "C",
+    "G",
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "Am:1",
+     "Fmaj7:2",
+     "F6:1"
+    ],
+    "C",
+    "G",
+    "%",
+    [
+     "F:2",
+     "C:2"
+    ],
+    "C",
+    "G",
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "Am:1",
+     "Fmaj7:2",
+     "F6:1"
+    ],
+    "C",
+    "G",
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "Am:1",
+     "Fmaj7:2",
+     "F6:1"
+    ],
+    "C",
+    "G",
+    "%",
+    [
+     "F:2",
+     "C:2"
+    ],
+    "C",
+    "G",
+    "%",
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    "C",
+    "G",
+    "Am",
+    "F",
+    "C",
+    "G",
+    "F",
+    "C",
+    "C",
+    "G",
+    "Am",
+    "F",
+    "C",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    [
+     "F:2",
+     "C:2"
+    ],
+    "C",
+    "G",
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "Am:2",
+     "Fmaj7:2"
+    ],
+    [
+     "Fmaj7:2",
+     "F6:2"
+    ],
+    "C",
+    "G",
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "Am:1",
+     "Am7:1",
+     "Fmaj7:1",
+     "F6:1"
+    ],
+    "C",
+    "G",
+    [
+     "F:1",
+     "Em:1",
+     "Dm:1",
+     "C:1"
+    ],
+    "%",
+    "%",
+    "%",
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "F:1",
+     "Em:1",
+     "Dm:1",
+     "C:1"
+    ],
+    "C",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    [
+     "F:2",
+     "C:2"
+    ],
+    "C",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima",
+ "deezerId": 116348656,
+ "spotifyId": "7iN1s7xHE4ifF5povM6A48"
+}

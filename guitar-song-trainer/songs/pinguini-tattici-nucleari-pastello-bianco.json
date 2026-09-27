@@ -1,0 +1,299 @@
+{
+ "title": "Pastello bianco",
+ "artist": "Pinguini Tattici Nucleari",
+ "album": "Ahia!",
+ "year": 2019,
+ "genre": "Pop / Indie",
+ "difficulty": 2,
+ "youtubeId": "TqS0whbHsUk",
+ "key": "La minore (Am)",
+ "bpm": 139.5,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.43,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 19223851,
+  "offset": 0
+ },
+ "notes": "Tutto in La minore con accordi aperti; F e F6 si possono fare senza barrè completo (xx3211 / xx3231).",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. Se gli accordi sono in anticipo o in ritardo usa Sincronia; per l'allineamento perfetto Registra tempi.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Am",
+    "%",
+    "F",
+    "%",
+    "C",
+    "%",
+    "Dm7",
+    "%"
+   ],
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Am",
+    "Am7",
+    "F",
+    "F6",
+    "C",
+    "%",
+    "Dm",
+    "%",
+    "Am",
+    "Am7",
+    "F",
+    "F6",
+    "C",
+    "%",
+    "Dm",
+    "%",
+    "Am",
+    "Am7",
+    "F",
+    "F6",
+    "C",
+    "%",
+    "Dm",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Pre-ritornello",
+   "bars": [
+    "Am",
+    "%",
+    "F",
+    "%",
+    "C",
+    "%",
+    "Dm",
+    "%",
+    "Gsus4",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "%",
+    "F",
+    "%",
+    "Am",
+    "%",
+    "G",
+    "%",
+    "Dm7",
+    "%",
+    "C/E",
+    "%",
+    "F",
+    "%",
+    "Am",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 8,
+   "strum": "D-DUXUDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Am",
+    "Am7",
+    "F",
+    "F6",
+    "C",
+    "%",
+    "Dm",
+    "%",
+    "Am",
+    "Am7",
+    "F",
+    "F6",
+    "C",
+    "%",
+    "Dm",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Pre-ritornello",
+   "bars": [
+    "Am",
+    "%",
+    "F",
+    "%",
+    "C",
+    "%",
+    "Dm",
+    "%",
+    "Gsus4",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "%",
+    "F",
+    "%",
+    "Am",
+    "%",
+    "G",
+    "%",
+    "Dm7",
+    "%",
+    "C/E",
+    "%",
+    "F",
+    "%",
+    "Am",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 8,
+   "strum": "D-DUXUDU"
+  },
+  {
+   "name": "Ponte",
+   "bars": [
+    "Am",
+    "%",
+    "G",
+    "%",
+    "C",
+    "%",
+    "F",
+    "%",
+    "Am",
+    "%",
+    "G",
+    "%",
+    "C",
+    "%",
+    "F",
+    "%"
+   ],
+   "barsPerRow": 8,
+   "strum": "D-D-D-DU"
+  },
+  {
+   "name": "Ritornello finale",
+   "bars": [
+    "C",
+    "%",
+    "F",
+    "%",
+    "Am",
+    "%",
+    "G",
+    "%",
+    "Dm7",
+    "%",
+    "C/E",
+    "%",
+    "F",
+    "%",
+    "Am",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 8,
+   "strum": "D-DUXUDU"
+  }
+ ],
+ "warp": [
+  [
+   8,
+   14.029
+  ],
+  [
+   16,
+   27.793
+  ],
+  [
+   24,
+   41.7
+  ],
+  [
+   28,
+   48.566
+  ],
+  [
+   32,
+   55.448
+  ],
+  [
+   37,
+   64.05
+  ],
+  [
+   44,
+   76.337
+  ],
+  [
+   50,
+   86.837
+  ],
+  [
+   80,
+   138.349
+  ],
+  [
+   84,
+   145.148
+  ],
+  [
+   90,
+   155.343
+  ],
+  [
+   96,
+   165.338
+  ],
+  [
+   104,
+   178.963
+  ],
+  [
+   111,
+   191.231
+  ],
+  [
+   116,
+   199.97
+  ],
+  [
+   120,
+   206.968
+  ],
+  [
+   124,
+   213.883
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 1138147582
+}

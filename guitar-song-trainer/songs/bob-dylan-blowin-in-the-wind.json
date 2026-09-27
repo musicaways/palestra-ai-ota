@@ -1,0 +1,237 @@
+{
+ "title": "Blowin' in the Wind",
+ "artist": "Bob Dylan",
+ "album": "Freewheelin' Bob Dylan/Times They Are A-Changin'/Another Side of Bob Dylan",
+ "year": 1963,
+ "genre": "Folk",
+ "difficulty": 2,
+ "youtubeId": "uGRdor6CUBQ",
+ "key": "A",
+ "bpm": 85.99,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.73,
+ "strum": "B-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37459738,
+  "duration": 169,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – E – B – C#m.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa",
+   "bars": [
+    "E"
+   ]
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "E:1",
+     "A:2",
+     "E:1"
+    ],
+    "A",
+    "E",
+    "A",
+    "E",
+    "A",
+    "B",
+    [
+     "E:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    "A",
+    "B",
+    [
+     "A:2",
+     "B:2"
+    ],
+    [
+     "E:2",
+     "C#m:2"
+    ],
+    "A",
+    [
+     "A:2",
+     "B:2"
+    ],
+    "%",
+    [
+     "B:2",
+     "E:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "E:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    "A",
+    "E",
+    "A",
+    "E",
+    "A",
+    "B",
+    [
+     "E:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    "A",
+    "B",
+    [
+     "A:2",
+     "B:2"
+    ],
+    [
+     "E:2",
+     "C#m:2"
+    ],
+    "A",
+    [
+     "A:2",
+     "B:2"
+    ],
+    "%",
+    [
+     "B:2",
+     "E:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "E:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    "A",
+    "E",
+    "A",
+    "E",
+    "A",
+    "B",
+    [
+     "E:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    "A",
+    "B",
+    [
+     "A:2",
+     "B:2"
+    ],
+    [
+     "E:2",
+     "C#m:2"
+    ],
+    "A",
+    "%",
+    [
+     "A:2",
+     "B:2"
+    ],
+    "%",
+    "%",
+    [
+     "B:2",
+     "C#m:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  }
+ ],
+ "warp": [
+  [
+   1,
+   4.523
+  ],
+  [
+   6,
+   18.304
+  ],
+  [
+   10,
+   29.468
+  ],
+  [
+   14,
+   40.806
+  ],
+  [
+   19,
+   54.836
+  ],
+  [
+   23,
+   66
+  ],
+  [
+   27,
+   76.844
+  ],
+  [
+   31,
+   88.008
+  ],
+  [
+   38,
+   108.08
+  ],
+  [
+   42,
+   119.244
+  ],
+  [
+   48,
+   135.712
+  ],
+  [
+   52,
+   146.69
+  ]
+ ],
+ "strumSource": "stima",
+ "spotifyId": "18GiV1BaXzPVYpp9rmOg0E",
+ "deezerId": 75768709
+}

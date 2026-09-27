@@ -1,0 +1,232 @@
+{
+ "title": "Paracetamolo",
+ "artist": "Calcutta",
+ "album": "Evergreen",
+ "year": 2018,
+ "genre": "Indie",
+ "difficulty": 3,
+ "youtubeId": "UW1DjnCBcSY",
+ "key": "Bm",
+ "bpm": 71.77,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.25,
+ "strum": "D-D-D-DUD-D-D-DU",
+ "lyricsSource": {
+  "lrclibId": 2956134,
+  "duration": 178,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bm – D – F#m – A7 – A – Em7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "F#m:2",
+     "A7:2"
+    ],
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "F#m:2",
+     "A7:2"
+    ],
+    [
+     "D:1",
+     "Bm:2",
+     "F#m:1"
+    ],
+    "D",
+    [
+     "Bm:2",
+     "F#m:2"
+    ],
+    "A7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Em7",
+    "%",
+    "%",
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "Bm:2",
+     "F#m:2"
+    ],
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "Bm:2",
+     "F#m:2"
+    ],
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "Bm:2",
+     "F#m:2"
+    ],
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "F#m:2",
+     "A7:2"
+    ],
+    [
+     "D:1",
+     "Bm:2",
+     "F#m:1"
+    ],
+    [
+     "A:2",
+     "D:2"
+    ],
+    "Bm",
+    "F#m",
+    "Em7",
+    "%",
+    "A7",
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "Bm:2",
+     "F#m:2"
+    ],
+    "D",
+    "Bm",
+    "F#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "A",
+    "%",
+    "Em7",
+    "D",
+    "A",
+    "Amaj7",
+    "Em7",
+    "A",
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "Bm:2",
+     "F#m:2"
+    ],
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "Bm:2",
+     "F#m:2"
+    ],
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "Bm:2",
+     "F#m:2"
+    ],
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "Bm:2",
+     "F#m:2"
+    ],
+    [
+     "D:1",
+     "Bm:2",
+     "F#m:1"
+    ],
+    "D",
+    "Bm",
+    "F#m",
+    "D",
+    "Bm",
+    "F#m"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   0,
+   0.598
+  ],
+  [
+   4,
+   13.66
+  ],
+  [
+   8,
+   26.414
+  ],
+  [
+   13,
+   43.124
+  ],
+  [
+   19,
+   63.216
+  ],
+  [
+   25,
+   83.28
+  ],
+  [
+   31,
+   103.584
+  ],
+  [
+   35,
+   117.962
+  ],
+  [
+   39,
+   130.386
+  ],
+  [
+   45,
+   150.45
+  ],
+  [
+   47,
+   157.254
+  ]
+ ],
+ "strumSource": "ultimate-guitar",
+ "deezerId": 500305862
+}

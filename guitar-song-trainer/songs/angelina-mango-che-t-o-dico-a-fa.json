@@ -1,0 +1,189 @@
+{
+ "title": "Che t'o dico a fa'",
+ "artist": "Angelina Mango",
+ "album": "che t'o dico a fa'",
+ "year": 2023,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "cHqS0XR8pns",
+ "key": "F#7",
+ "bpm": 87.51,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.17,
+ "strum": "D-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 35587455,
+  "duration": 211,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F#7 – Bm – Em – F# – F#m – Gmaj7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Bm",
+    "F#m",
+    "Em",
+    "F#7",
+    "%",
+    "Bm",
+    "F#m",
+    "Em",
+    "%",
+    "F#7",
+    "%",
+    "Bm",
+    "F#7",
+    "%",
+    "F#7",
+    "Bm",
+    "F#7",
+    "Em",
+    "F#7",
+    "Bm",
+    "F#7",
+    "Em",
+    "F#7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "Bm",
+    "F#5",
+    "E5",
+    [
+     "F#:2",
+     "Gmaj7:2"
+    ],
+    "F#7",
+    "Em",
+    "%",
+    "F#7",
+    "Bm",
+    "F#7",
+    "F#7",
+    "%",
+    "Bm",
+    "F#7",
+    "Em",
+    "F#7",
+    "%",
+    "Bm",
+    "F#",
+    "Bm",
+    "F#",
+    "Bm",
+    "F#",
+    "Bm",
+    "F#",
+    "Bm",
+    "F#7",
+    "%",
+    "F#7",
+    "Bm",
+    "F#7",
+    "Em",
+    "F#7",
+    "%",
+    "Bm",
+    "Bm",
+    "F#7",
+    "Em",
+    "F#7",
+    "%",
+    "Gmaj7",
+    [
+     "F#7:2",
+     "Em:2"
+    ],
+    "F#7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  }
+ ],
+ "warp": [
+  [
+   1,
+   5.687
+  ],
+  [
+   5,
+   16.22
+  ],
+  [
+   11,
+   32.595
+  ],
+  [
+   15,
+   43.207
+  ],
+  [
+   20,
+   56.795
+  ],
+  [
+   24,
+   67.645
+  ],
+  [
+   29,
+   82.213
+  ],
+  [
+   33,
+   93.323
+  ],
+  [
+   38,
+   106.813
+  ],
+  [
+   45,
+   125.495
+  ],
+  [
+   49,
+   136.453
+  ],
+  [
+   54,
+   150.303
+  ],
+  [
+   59,
+   164.205
+  ],
+  [
+   67,
+   186.033
+  ]
+ ],
+ "strumSource": "stima"
+}

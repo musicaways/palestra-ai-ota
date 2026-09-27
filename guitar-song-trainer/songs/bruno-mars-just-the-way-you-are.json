@@ -1,0 +1,228 @@
+{
+ "title": "Just the Way You Are",
+ "artist": "Bruno Mars",
+ "album": "Billboard Top 100 Hits Of 2010",
+ "year": 2010,
+ "genre": "Pop",
+ "difficulty": 2,
+ "youtubeId": "E-UJTGXof6Q",
+ "key": "F",
+ "bpm": 109.65,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.35,
+ "strum": "D-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 36979543,
+  "duration": 219,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F – Bb – Dm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F",
+    "%",
+    "Dm7",
+    "%",
+    "Bb",
+    "%",
+    "F",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "F",
+    "%",
+    "Dm7",
+    "%",
+    "Bb",
+    "F",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Dm7",
+    "%",
+    "Bb",
+    "%",
+    "F",
+    "%",
+    "%",
+    "Dm7",
+    "%",
+    "Bb",
+    "%",
+    "F",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "Dm7",
+    "%",
+    "Bb",
+    "%",
+    "F",
+    "%",
+    "%",
+    "F",
+    "%",
+    "Dm7",
+    "%",
+    "Bb",
+    "F",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Dm7",
+    "%",
+    "Bb",
+    "%",
+    "F",
+    "F",
+    "%",
+    "Dm7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Bb",
+    "%",
+    "F",
+    "%",
+    "%",
+    "%",
+    "Dm7",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Bb",
+    "F",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Dm7",
+    "%",
+    "Bb",
+    "F",
+    "%",
+    "%",
+    "%",
+    "Dm7",
+    "%",
+    "%",
+    "Bb",
+    "F",
+    "%",
+    "%",
+    "%",
+    "Dm7",
+    "%",
+    "Bb",
+    "%",
+    "F",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   9,
+   19.9
+  ],
+  [
+   13,
+   28.91
+  ],
+  [
+   17,
+   37.684
+  ],
+  [
+   25,
+   55.194
+  ],
+  [
+   32,
+   70.93
+  ],
+  [
+   40,
+   88.302
+  ],
+  [
+   44,
+   97.014
+  ],
+  [
+   49,
+   107.762
+  ],
+  [
+   54,
+   118.44
+  ],
+  [
+   61,
+   133.761
+  ],
+  [
+   68,
+   149.141
+  ],
+  [
+   76,
+   166.651
+  ],
+  [
+   84,
+   184.191
+  ],
+  [
+   89,
+   195.187
+  ],
+  [
+   93,
+   203.942
+  ],
+  [
+   95,
+   208.36
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 10201936,
+ "spotifyId": "4vy0kVo1ygAIKTZU3F5OoT"
+}

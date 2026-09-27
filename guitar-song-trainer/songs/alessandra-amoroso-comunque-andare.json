@@ -1,0 +1,196 @@
+{
+ "title": "Comunque andare",
+ "artist": "Alessandra Amoroso",
+ "album": "Vivere a colori",
+ "year": 2016,
+ "genre": "Pop",
+ "difficulty": 3,
+ "youtubeId": "5h8BA2iKBKw",
+ "key": "G",
+ "bpm": 63.5,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.84,
+ "strum": "B-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 8784711,
+  "duration": 222,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – C – Cadd9 – Em – G4 – Gadd9.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Gadd9"
+   ]
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "%",
+    [
+     "Gadd9:2",
+     "Cadd9:2"
+    ],
+    [
+     "Cadd9:2",
+     "Gadd9:2"
+    ],
+    "Cadd9",
+    "Am",
+    "Gadd9",
+    "%",
+    "Cadd9",
+    "Am",
+    "%",
+    "%",
+    "Cadd9",
+    [
+     "C:2",
+     "Am7:2"
+    ],
+    "G",
+    "%",
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "C",
+    "G",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "%",
+    [
+     "C:2",
+     "Am7:2"
+    ],
+    "%",
+    "%",
+    "C",
+    "Am7",
+    "G",
+    "%",
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "C",
+    "G",
+    [
+     "G4:2",
+     "G:2"
+    ],
+    "C",
+    "%",
+    "G",
+    "%",
+    "Em",
+    "C",
+    [
+     "G:2",
+     "G4:2"
+    ],
+    [
+     "G4:2",
+     "G:2"
+    ],
+    "Em",
+    "C",
+    "G",
+    "%",
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "C",
+    "G",
+    [
+     "G4:2",
+     "G:2"
+    ],
+    "C",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   1,
+   4.692
+  ],
+  [
+   6,
+   23.581
+  ],
+  [
+   12,
+   46.261
+  ],
+  [
+   18,
+   68.938
+  ],
+  [
+   22,
+   83.86
+  ],
+  [
+   26,
+   98.922
+  ],
+  [
+   30,
+   113.809
+  ],
+  [
+   34,
+   129.13
+  ],
+  [
+   38,
+   144.248
+  ],
+  [
+   42,
+   159.482
+  ],
+  [
+   46,
+   174.302
+  ],
+  [
+   50,
+   190.129
+  ],
+  [
+   54,
+   205.459
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 117301226
+}

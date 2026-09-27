@@ -1,0 +1,240 @@
+# 🎸 Guitar Song Trainer
+
+**Versione 2.3.0** — sorgenti audio (YouTube, Spotify, file tuo), parte vera da MIDI trovata online, tablatura,
+karaoke parola per parola, pennate per brano; obiettivi di pratica, backup dei dati e affidabilità offline.
+Analisi del progetto, limiti e prossime funzionalità: [PROGETTO.md](PROGETTO.md).
+
+Web app (PWA) per imparare le canzoni alla chitarra, in stile Rocksmith.
+Funziona nel browser di **PC, tablet e telefono Android** e si può installare come app
+(Chrome → menu ⋮ → *Installa app* / *Aggiungi a schermata Home*).
+
+## Cosa fa
+
+- **Obiettivo giornaliero**: scegli da 5 a 60 minuti in *Progressi*, con barra di avanzamento,
+  ultimi sette giorni e conteggio dei giorni in cui hai raggiunto l'obiettivo attuale.
+  Si basa sul tempo di riproduzione dei brani.
+- **Backup e ripristino**: dalla libreria esporta i dati personali in JSON e trasferiscili su un altro
+  browser. L'importazione mostra un'anteprima e richiede il pulsante di conferma; sostituisce i dati
+  dell'app. Video registrati e cache LRCLIB sono esclusi; brani personali e testi incollati sono inclusi.
+
+- **Palco in stile Rocksmith**: corsia in prospettiva da cui arrivano verso di te le cornici degli
+  accordi, con le gemme colorate su corde e tasti giusti; le cornici tratteggiate segnano le battute
+  in cui l'accordo prosegue, le linee sulla corsia sono battute e battiti.
+- **Manico al neon**: diteggiatura corrente (colori per corda, numero del dito, barrè, corde a vuoto
+  `O` e da non suonare `✕`), corde che vibrano e scintille a ogni cambio; nell'ultimo battito le dita
+  **scivolano verso l'accordo successivo**, già visibile tratteggiato.
+- **Ritmo**: indicatore dei battiti (il primo della battuta è arancione), pattern di pennata
+  suggerito (↓ ↑) che si illumina a tempo, conto alla rovescia "prossimo accordo tra N battiti",
+  click del metronomo opzionale.
+- **Video YouTube sincronizzato** sotto il manico: pausa, ±5 s, **velocità** (25%–200%),
+  **loop A-B** oppure loop di una sezione/frase con un tocco su ⟲.
+- **Il tuo file audio al posto del video** (⋯ → Audio): MP3/M4A del brano, allineato da solo agli accordi ascoltando
+  la musica; rallenti senza cambiare intonazione. Il file resta solo sul dispositivo. Se il video YouTube è bloccato
+  l'app lo dice subito e resta utilizzabile (niente attese all'avvio).
+- **Spotify** come sorgente (⋯ → Audio): il brano del disco sincronizzato con testo e accordi; parte da solo se il
+  video non va. Brano intero se sei entrato in Spotify nel browser (anche gratis), velocità fissa.
+- **Scheda Tab**: la tablatura della parte (MIDI, Guitar Pro o arpeggio) che scorre con la musica, con le tecniche.
+- **File Guitar Pro** (.gp, .gp5…) come parte vera: corde, tasti e tecniche esatti di chi l'ha trascritta.
+- **Modalità «Aspetta»** (⋯ → Aspetta): il brano si ferma a ogni accordo o nota finché non lo suoni giusto.
+- **Parte vera da file MIDI** (Parte → Trova la parte online, oppure Carica un file MIDI): l'app cerca i MIDI gratuiti
+  su BitMidi e tiene quello che suona gli accordi del brano; le note esatte della chitarra del brano (esportate da
+  Guitar Pro, TuxGuitar, MuseScore…) si agganciano da sole alle battute e ne seguono il tempo; la Base le suona
+  con la loro durata e intensità.
+- **Pennate diverse per ogni brano e sezione** (strofa più leggera, ritornello più pieno), trascritte da Ultimate Guitar
+  quando ci sono; palm muting, stoppate, solo basso; stili di arpeggio (Travis, p-i-m-a, valzer, pinch…).
+- **Testo karaoke parola per parola**: le parole si colorano mentre vengono cantate; la riga cantata si illumina man mano, con gli accordi sopra le parole
+  nel punto in cui cambiano. Il testo viene scaricato al momento da [LRCLIB](https://lrclib.net)
+  (archivio pubblico di testi sincronizzati) e **non è incluso nel repository**.
+- **Scheda Accordi**: griglia delle battute (`%` = l'accordo prosegue), un tocco per saltare lì.
+- **Scheda Diteggiature**: i diagrammi di tutti gli accordi del brano; quello che stai suonando si illumina.
+- **Velocità progressiva** (stile Riff Repeater): attiva il loop su una sezione e a ogni ripetizione la
+  velocità sale (50% → 60% → … → 100%).
+- **Conteggio d'attacco**: una battuta di click prima di partire.
+- **Accordatore** cromatico col microfono (serve la pagina in https e il permesso del microfono).
+- **Capotasto** con suggerimento automatico: il brano suona uguale ma usi forme più facili
+  (per Cartine corte il capo al 3° trasforma Gm – Gm/F – Ebmaj7 – D7 in Em – Em/D – Cmaj7 – B7).
+- **Allenamento cambi accordo**: scegli 2-4 accordi e un tempo; li alterni col metronomo in round da
+  un minuto, con il BPM che sale da solo e il record salvato per ogni combinazione.
+- **Statistiche di pratica**: tempo suonato e ultima volta su ogni brano, scheda *Recenti*.
+- Schermo sempre acceso mentre suoni. **Vista** a scelta: completa, manico e testo, video e testo, solo video, solo testo.
+- **Parti di chitarra**: ritmica, arpeggio, power chord, facile. **Tonalità**: trasposizione e versione senza capotasto.
+- Le scelte (tonalità, capotasto, parte, vista, velocità, loop) restano **salvate per ogni brano**. **Stampa accordi** in PDF.
+- Comandi compatti: play, velocità (0,5× 0,75× 1× 1,25× più − e +) e loop in una riga; gli strumenti meno usati dietro ⋯.
+- **Sezioni del brano** in una riga di chip scorrevole: un tocco per andarci, ⟲ per ripeterla.
+- **Studio guidato**: il brano diviso in sezioni, ognuna in loop dal lento alla velocità piena; quando ci arrivi è imparata.
+- **Ampli ed effetti** per la chitarra collegata (cavo Rocksmith o scheda audio): 8 preset (pulito, chorus, acustico,
+  crunch, distorsione, assolo, metal, ambient) e manopole; il suono è scelto in automatico per il brano, oppure
+  lo imposti per ogni brano o come predefinito.
+- **Video mentre suoni**: fotocamera frontale o posteriore, audio con la chitarra; i video restano sul dispositivo
+  (*Registrazioni*) e si condividono con le app del telefono.
+- **Impara**: lezioni ed esercizi animati sul manico (primi passi, accordi, ritmo, scale, tecniche, teoria),
+  con suono della nota, tempo regolabile e lezioni completate. Pronta per altri strumenti.
+- **Progressi**: livello, giorni di fila e obiettivi sbloccati.
+- **Base**: chitarra sintetica che suona gli accordi del brano con la sua pennata (⋯ → Base).
+- **Dizionario degli accordi** (12 note × 13 tipi) con suono; **quiz d'ascolto** in Impara.
+- **Scalette**: metti in fila i brani (⋯ → Scaletta) e suonali uno dopo l'altro; filtri per genere e decennio, brano a caso.
+- **Sincronia di default**: ogni brano è agganciato ai tempi del canto lungo tutta la canzone (niente deriva), anche rap e brani cantati liberamente.
+- **Pagella di fine brano** con le stelle in modalità ascolto.
+- **Modalità ascolto** (stile Rocksmith): il microfono riconosce l'accordo che suoni; a ogni cambio il
+  manico si illumina di verde o di rosso, con precisione, serie e record.
+- **Frecce della pennata** (↓ ↑) che scorrono sulla corsia a tempo.
+- **Sincronia assistita**: l'app controlla la coerenza fra testo e accordi (se no, pallino sul pulsante *Sincronia*),
+  e li allinea al video con un tocco quando inizia il canto oppure ascoltando il video dal microfono.
+- **Testo sotto il manico** (riga attuale e successiva), **Riprendi** dal punto in cui eri, **guida rapida** (?).
+- Libreria: **Continua** l'ultimo brano, ordinamento (titolo, artista, più facili, più suonati, più recenti), tasto `/`.
+- **Cavo USB Rocksmith** (Real Tone Cable) o qualsiasi scheda audio: riconosciuto da solo, con guadagno,
+  indicatore di livello e ascolto della chitarra in cuffia (*Impostazioni → Ingresso audio*).
+- **Editor dei brani**: crea o modifica un brano dall'app (accordi scritti come testo, tap tempo,
+  ricerca del testo su LRCLIB), provalo subito ed esporta il JSON. I brani creati hanno il badge *Tuo*.
+- **Libreria di 613 brani di oltre 200 artisti** (pop, rock, cantautori, indie, rap adattato, classici stranieri) con ricerca e schede *Tutti / Preferiti / Recenti / Artisti / Generi / Difficoltà*.
+- **Sincronia**: correzione fine ±0,05 s e modalità **🎯 Registra tempi** (tocchi TAP a ogni cambio
+  accordo mentre il video suona: i tempi vengono salvati e si possono esportare in JSON).
+- **Il tuo testo**: da *Sincronia → Incolla il tuo testo* puoi usare un testo tuo, anche in formato LRC;
+  resta salvato solo sul tuo dispositivo.
+- Notazione internazionale (C D E) o italiana (Do Re Mi), modalità mancini, nomi delle note sul manico.
+- Su HTTPS o localhost, dopo il primo caricamento completo, funziona offline con libreria, lezioni e
+  brani già aperti; il video richiede internet, i testi devono essere già in cache o incollati.
+  Se YouTube non è raggiungibile si usa il clock interno. Non scarica automaticamente tutti i brani.
+
+Scorciatoie da tastiera: `spazio` play/pausa · `←` `→` ±5 s · `[` `]` punti A/B · `L` loop ·
+`T` tap in registrazione.
+
+## Installazione in locale
+
+Guida passo passo in [`INSTALLAZIONE.md`](INSTALLAZIONE.md): estrai lo zip e fai doppio clic su
+`avvia.bat` (Windows), `avvia.command` (macOS) o `./avvia.sh` (Linux).
+
+## Riprendere il progetto con un altro assistente AI
+
+La memoria condivisa del progetto è in [`AGENTS.md`](AGENTS.md): architettura, regole, formato dei
+brani, procedura per aggiungerne di nuovi, stato attuale, decisioni e prossimi passi. È letto
+automaticamente da Codex, Cursor e altri; `CLAUDE.md` e `GEMINI.md` rimandano allo stesso file.
+
+## Avvio in locale
+
+Nessuna installazione o build: bastano file statici.
+
+```bash
+npm start                 # nessun npm install necessario per avviare l'app
+# poi apri http://localhost:8080
+```
+
+## Test
+
+```bash
+npm ci                                # dipendenze solo di sviluppo
+npx playwright install chromium       # browser per i test
+npm test                              # test Node + Python 3 (rilevato automaticamente)
+npm run test:e2e                       # avvia/chiude il server, desktop + telefono + offline
+```
+
+## Pubblicazione
+
+**Vercel**: progetto statico senza build (`vercel.json` imposta solo le intestazioni di cache).
+
+**GitHub Pages**
+
+Il workflow `.github/workflows/ci.yml` verifica ogni push e pull request.
+La pubblicazione è **solo manuale**: il repository privato non viene pubblicato dal push.
+Per usare Pages, verifica che sia disponibile per il repository e configura
+*Settings → Pages → Source: GitHub Actions*, poi avvia il workflow *Pubblica su GitHub Pages*. L'app sarà su
+`https://<utente>.github.io/<repository>/`, apribile da qualsiasi dispositivo.
+
+## Aggiungere un brano
+
+1. Crea `songs/<id>.json` (formato qui sotto).
+2. Aggiungi una voce in `songs/index.json` con `id`, `file`, `title`, `artist`, `genre`,
+   `difficulty` (1–5), `youtubeId`.
+
+```jsonc
+{
+  "title": "Titolo",
+  "artist": "Artista",
+  "genre": "Rock",
+  "difficulty": 2,                 // 1 principiante … 5 esperto
+  "youtubeId": "XXXXXXXXXXX",      // l'ID dopo watch?v=
+  "bpm": 95,
+  "timeSignature": [4, 4],
+  "offset": 0.4,                   // secondo del video in cui cade il primo accordo
+  "strum": "D-DU-UDU",             // pennata su 8 crome: D giù, U su, - pausa, X stoppata
+  "patterns": {                    // giri di accordi riutilizzabili: una voce = una battuta
+    "giro": [["Gm"], ["Gm/F"], ["Ebmaj7"], ["D7sus4", "D7"]]
+  },
+  "sections": [
+    { "name": "Strofa", "pattern": "giro", "repeat": 4 },
+    { "name": "Bridge", "bars": [["G5"], ["F5:3", "C5:1"]] }   // "Accordo:battiti"
+  ],
+  "lyricsSource": { "lrclibId": 21128462, "offset": 0 },  // testo karaoke da LRCLIB (id o ricerca per titolo)
+  "sync": [0.41, 2.93, 5.46],      // opzionale: tempi registrati di ogni cambio accordo
+  "shapes": {                      // opzionale: diteggiature personalizzate (Mi grave → Mi cantino)
+    "Gm": { "frets": [null, null, 5, 3, 3, 3], "fingers": [0, 0, 3, 1, 1, 1] }
+  }
+}
+```
+
+- Più accordi in una battuta si dividono i battiti in parti uguali, oppure con `"Accordo:battiti"`.
+- `"%"` come battuta significa "l'accordo precedente prosegue".
+- Senza `lrclibId` l'app cerca il testo su LRCLIB per artista e titolo.
+- Ogni ripetizione del pattern è una riga dello spartito (`barsPerRow` per spezzarla).
+- Le diteggiature di accordi maggiori, minori, 7, m7, maj7, sus2, sus4, 7sus4, 5, dim, aug e degli
+  accordi con basso (`/`) sono generate automaticamente; `shapes` serve solo per forme diverse.
+- Il testo delle canzoni non è incluso nel repository (diritti d'autore): arriva da LRCLIB o lo incolli dall'app.
+
+### Allineare gli accordi al video
+
+1. Apri il brano e premi **🎯 Registra tempi**: il video riparte qualche secondo prima del primo accordo.
+2. Tocca **TAP** (o premi `T`) nel momento esatto di ogni cambio accordo indicato. Conviene
+   abbassare la velocità al 50–75%: i tempi sono registrati sul tempo del video, quindi restano giusti.
+3. **Fine** salva sul dispositivo; **Esporta JSON** scarica il brano con i tempi (e copia `sync` negli appunti)
+   così può essere aggiunto al repository per tutti i dispositivi.
+
+## Crediti e ispirazioni
+
+- [alphaTab](https://github.com/CoderLine/alphaTab) (MPL-2.0): lettura dei file Guitar Pro; caricato dal CDN jsDelivr
+  solo quando si apre un file .gp, non modificato.
+- [RAF](https://github.com/iamdey/raf): idea di usare alphaTab per imparare i brani dai file Guitar Pro.
+- [StringTheory](https://alternativeto.net/software/rocksmith/?license=free) (gioco open source, GPL-3): idea della
+  modalità che aspetta la nota giusta. Nessun codice copiato.
+- Servizi usati a runtime: [LRCLIB](https://lrclib.net) (testi), YouTube, Spotify (lettore incorporato),
+  [BitMidi](https://bitmidi.com) (MIDI), Deezer e [MusicBrainz](https://musicbrainz.org) (collegamento a Spotify).
+- Valutato e non copiato: [pitchfinder](https://github.com/peterkhayes/pitchfinder) (GPL-3; l'algoritmo YIN provato
+  sui nostri segnali di prova non dà risultati migliori del metodo attuale).
+
+## Struttura
+
+```
+index.html            pagina unica
+css/style.css         stile (tema scuro, responsive)
+js/app.js             avvio e navigazione
+js/library.js         libreria, ricerca, preferiti
+js/player.js          schermata di studio: controlli, loop, registrazione tempi
+js/fretboard.js       canvas: corsia 3D + manico animato
+js/karaoke.js         testo karaoke sincronizzato con gli accordi
+js/lyrics.js          download da LRCLIB e parsing LRC
+js/sheet.js           griglia degli accordi
+js/diagram.js         diagrammi SVG degli accordi
+js/tuner.js           accordatore (microfono, autocorrelazione)
+js/drill.js           allenamento cambi accordo
+js/stats.js           statistiche di pratica e record
+js/audio.js           metronomo e schermo sempre acceso
+js/syncmath.js        controlli e correzioni della sincronia
+js/detect.js          riconoscimento degli accordi dal microfono
+js/songtext.js        formato testuale degli accordi dell'editor
+js/usersongs.js       brani creati dall'utente
+js/editor.js          editor dei brani
+tests/                test unitari (node --test) ed end-to-end (Playwright)
+js/icons.js           icone SVG
+js/timeline.js        da sezioni/battute a tempi assoluti
+js/music.js           note, parsing accordi, diteggiature
+js/clock.js           YouTube (IFrame API), file audio (AudioClock), clock interno; SwitchClock li scambia al volo
+js/audiofiles.js      file audio e MIDI dell'utente (IndexedDB)
+js/audioanalysis.js   cromagramma di un file audio e allineamento alla griglia
+js/midi.js            lettura dei file MIDI, aggancio alle battute, diteggiatura
+js/wordtiming.js      tempi delle singole parole per il karaoke
+js/online.js          servizi gratuiti: brano su Spotify (Deezer → ISRC → MusicBrainz), MIDI da BitMidi, link Songsterr
+js/tab.js             tablatura della parte a note singole
+js/gpfile.js          file Guitar Pro → parte (con alphaTab caricato solo quando serve)
+js/waitmode.js        modalità Aspetta: bersagli e verifica di accordi e note
+songs/                libreria dei brani (JSON)
+sw.js, manifest.webmanifest, icons/   PWA
+```

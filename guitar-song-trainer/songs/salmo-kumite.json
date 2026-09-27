@@ -1,0 +1,148 @@
+{
+ "title": "Kumite",
+ "artist": "Salmo",
+ "album": "Unknown",
+ "year": 2021,
+ "genre": "Rap / Hip-hop",
+ "difficulty": 2,
+ "youtubeId": "qUloxCy-D2A",
+ "key": "Eb",
+ "bpm": 76.4,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.45,
+ "strum": "P-PP-PP-",
+ "lyricsSource": {
+  "lrclibId": 36855330,
+  "duration": 171,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Eb – F – Gm – Bb.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Eb",
+    "F",
+    "Gm",
+    "F"
+   ],
+   "strum": "P-------"
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "Eb",
+    "Gm",
+    "Eb",
+    "Gm",
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    "%",
+    "F",
+    "%",
+    "%",
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    "%",
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    "Gm",
+    "Eb",
+    "Gm",
+    [
+     "Eb:2",
+     "F:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "Gm",
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    "Gm",
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    "Gm",
+    "%",
+    "Eb",
+    [
+     "F:2",
+     "Gm:2"
+    ],
+    "Eb",
+    "%",
+    "Eb",
+    "Gm",
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    "Bb",
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    "Gm",
+    "Eb",
+    "Gm",
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    "Gm",
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    "Gm",
+    [
+     "Eb:2",
+     "F:2"
+    ],
+    "Gm",
+    "%",
+    "Eb",
+    "F",
+    "Gm",
+    "Eb",
+    "F",
+    "Gm"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima",
+ "deezerId": 1509449672
+}

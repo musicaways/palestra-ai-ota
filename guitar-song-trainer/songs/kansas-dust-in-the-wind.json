@@ -1,0 +1,222 @@
+{
+ "title": "Dust in the Wind",
+ "artist": "Kansas",
+ "album": "TOP 40 HITDOSSIER - One Hit Wonders",
+ "year": 1977,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "12DeNdF0KPA",
+ "key": "Am",
+ "bpm": 94.06,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.76,
+ "strum": "D--UD-DU",
+ "lyricsSource": {
+  "lrclibId": 36941280,
+  "duration": 207,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Am – D – G – C – Cmaj7 – Am7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "C",
+    "Cmaj7",
+    "Cadd9",
+    "C",
+    "Am7",
+    "A4",
+    "Am",
+    "Am7",
+    "%",
+    "%",
+    "%",
+    [
+     "Dm7:2",
+     "Am:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "%",
+    [
+     "D:1",
+     "G:2",
+     "Am:1"
+    ],
+    [
+     "D:1",
+     "G:2",
+     "Am:1"
+    ],
+    "%",
+    "%",
+    "Dm7",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "D:1",
+     "G:1",
+     "Am:1",
+     "D:1"
+    ],
+    "C",
+    "Cmaj7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "%",
+    [
+     "D:1",
+     "G:2",
+     "Am:1"
+    ],
+    [
+     "D:1",
+     "G:2",
+     "Am:1"
+    ],
+    [
+     "D:1",
+     "G:1",
+     "Am:1",
+     "D:1"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   8,
+   21.164
+  ],
+  [
+   12,
+   31.37
+  ],
+  [
+   16,
+   41.551
+  ],
+  [
+   20,
+   51.793
+  ],
+  [
+   24,
+   62.03
+  ],
+  [
+   28,
+   72.26
+  ],
+  [
+   33,
+   85.035
+  ],
+  [
+   51,
+   130.978
+  ],
+  [
+   55,
+   141.184
+  ],
+  [
+   61,
+   156.379
+  ],
+  [
+   65,
+   166.353
+  ],
+  [
+   68,
+   174.008
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 855863,
+ "spotifyId": "6zeE5tKyr8Nu882DQhhSQI"
+}

@@ -1,0 +1,418 @@
+{
+ "title": "Still Loving You",
+ "artist": "Scorpions",
+ "album": "Hits der 80er (1980-1984)",
+ "year": 1984,
+ "genre": "Rock",
+ "difficulty": 5,
+ "youtubeId": "EYyarcp5LtU",
+ "key": "Gm",
+ "bpm": 106.6,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.7,
+ "strum": "D--UD-DU",
+ "lyricsSource": {
+  "lrclibId": 36948890,
+  "duration": 387,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Gm – F – A7 – Eb – D – Bb.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    [
+     "A7:2",
+     "D:2"
+    ],
+    "Gm",
+    "%",
+    "Gm",
+    "%",
+    "A7",
+    "D",
+    "A7",
+    [
+     "A7:2",
+     "D:2"
+    ]
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "%",
+    "Gm",
+    "%",
+    "A7",
+    "D",
+    "A7",
+    [
+     "A7:2",
+     "D:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "Gm",
+    [
+     "A7:2",
+     "D:2"
+    ],
+    "Gm",
+    "A7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "A7:2",
+     "D:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "Gm",
+    "%",
+    "A7",
+    "D",
+    "A7",
+    "D",
+    "%",
+    "%",
+    "Gm",
+    "%",
+    "A7",
+    "D",
+    "A7",
+    [
+     "A7:2",
+     "D:2"
+    ],
+    "%",
+    "Gm",
+    "Eb",
+    "Bb",
+    "F",
+    "Gm",
+    "Eb",
+    "Bb",
+    "F"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Gm:2",
+     "Cm:2"
+    ],
+    [
+     "D:2",
+     "Gm:2"
+    ],
+    "Gm",
+    "Eb",
+    "F",
+    "%",
+    "%",
+    [
+     "Gm:1",
+     "Ebmaj7:1",
+     "D7:1"
+    ],
+    "Gm",
+    "%",
+    "Ebmaj7",
+    "D7",
+    "Gm",
+    "%",
+    "Ebmaj7",
+    "D7",
+    "Gm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "Gm",
+    "%",
+    "A7",
+    "D",
+    "A7",
+    "D",
+    "%",
+    "%",
+    "Gm",
+    "%",
+    "A7",
+    "D",
+    "A7",
+    [
+     "A7:2",
+     "D:2"
+    ],
+    "%",
+    "Gm",
+    "Eb",
+    "Bb",
+    "F",
+    "Gm",
+    "Eb",
+    "Bb",
+    "F"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "Gm:2",
+     "Cm:2"
+    ],
+    [
+     "D:2",
+     "Gm:2"
+    ],
+    "Gm",
+    "Eb",
+    "F",
+    "%",
+    "%",
+    "%",
+    "Gm",
+    "Eb",
+    "Bb",
+    "F",
+    "Gm",
+    "Eb",
+    "Bb",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    [
+     "Gm:2",
+     "Cm:2"
+    ],
+    [
+     "D:2",
+     "Gm:2"
+    ],
+    "Gm",
+    "Eb",
+    "F",
+    "%",
+    "Gm",
+    "Eb",
+    "Bb",
+    "F",
+    "Gm",
+    "Eb",
+    "Bb",
+    "F",
+    "Gm",
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    "F",
+    "F",
+    "Gm",
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Gm",
+    "Eb",
+    "Bb",
+    "F",
+    "Gm",
+    [
+     "Eb:2",
+     "Bb:2"
+    ],
+    "F",
+    "F",
+    "%",
+    "%",
+    "%",
+    "F",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "F",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  }
+ ],
+ "warp": [
+  [
+   9,
+   22.54
+  ],
+  [
+   13,
+   31.573
+  ],
+  [
+   21,
+   49.379
+  ],
+  [
+   36,
+   83.15
+  ],
+  [
+   44,
+   101.037
+  ],
+  [
+   48,
+   109.573
+  ],
+  [
+   53,
+   120.83
+  ],
+  [
+   57,
+   129.836
+  ],
+  [
+   64,
+   145.86
+  ],
+  [
+   68,
+   154.866
+  ],
+  [
+   78,
+   177.38
+  ],
+  [
+   82,
+   186.066
+  ],
+  [
+   90,
+   204.077
+  ],
+  [
+   95,
+   215.334
+  ],
+  [
+   103,
+   233.466
+  ],
+  [
+   108,
+   244.563
+  ],
+  [
+   115,
+   260.323
+  ],
+  [
+   120,
+   271.653
+  ],
+  [
+   124,
+   280.78
+  ],
+  [
+   133,
+   301.043
+  ],
+  [
+   137,
+   310.161
+  ],
+  [
+   151,
+   341.681
+  ],
+  [
+   155,
+   350.79
+  ],
+  [
+   163,
+   368.801
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 3613848042,
+ "spotifyId": "69WPOz8sYOQw1fsItenMlB",
+ "introSource": "stima: giro della prima parte cantata (la fonte non riportava gli accordi dell'intro)"
+}

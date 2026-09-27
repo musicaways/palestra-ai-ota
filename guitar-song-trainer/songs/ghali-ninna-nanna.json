@@ -1,0 +1,363 @@
+{
+ "title": "Ninna nanna",
+ "artist": "Ghali",
+ "album": "134 Mln di visualizzazioni",
+ "year": 2016,
+ "genre": "Rap / Hip-hop",
+ "difficulty": 1,
+ "youtubeId": "s1xbQVNGSPQ",
+ "key": "Em",
+ "bpm": 143.7,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.06,
+ "strum": "D---D-DU",
+ "lyricsSource": {
+  "lrclibId": 36354608,
+  "duration": 250,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Em – B7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Parte 1",
+   "bars": [
+    "Em",
+    "%",
+    "%",
+    "%",
+    "Em",
+    "%",
+    "%",
+    "%",
+    "Em",
+    "B7",
+    "%",
+    "Em",
+    "%",
+    "B7",
+    "%",
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "%",
+    "%",
+    "B7",
+    "%",
+    "Em",
+    "%",
+    "B7",
+    "%",
+    "Em",
+    "%",
+    "B7",
+    "%",
+    "Em",
+    "%",
+    "B7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "Em",
+    "%",
+    "B7",
+    "%",
+    "Em",
+    "%",
+    "B7",
+    "%",
+    "%",
+    "Em",
+    "%",
+    "B7",
+    "%",
+    "Em",
+    "%",
+    "B7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "Em",
+    "%",
+    "B7",
+    "%",
+    "Em",
+    "%",
+    "%",
+    "B7",
+    "%",
+    "Em",
+    "%",
+    "B7",
+    "%",
+    "Em",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "B7",
+    "Em",
+    "%",
+    "B7",
+    "%",
+    "Em",
+    "%",
+    "B7",
+    "%",
+    "Em",
+    "%",
+    "B7",
+    "%",
+    "Em",
+    "%",
+    "B7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "%",
+    "%",
+    "Em",
+    "%",
+    "B7",
+    "%",
+    "Em",
+    "%",
+    "B7",
+    "%",
+    "Em",
+    "%",
+    "B7",
+    "%",
+    "Em",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "B7",
+    "%",
+    "Em",
+    "%",
+    "B7",
+    "%",
+    "Em",
+    "%",
+    "B7",
+    "%",
+    "%",
+    "Em",
+    "%",
+    "B7",
+    "%",
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 8",
+   "bars": [
+    "%",
+    "B7",
+    "Em",
+    "%",
+    "B7",
+    "%",
+    "Em",
+    "%",
+    "B7",
+    "%",
+    "Em",
+    "%",
+    "B7",
+    "%",
+    "Em",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 9",
+   "bars": [
+    "B7",
+    "%",
+    "%",
+    "Em",
+    [
+     "Em:2",
+     "B7:2"
+    ],
+    [
+     "B7:2",
+     "Em:2"
+    ],
+    "%",
+    "B7",
+    "%",
+    "Em",
+    "%",
+    "B7",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 10",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   0,
+   0.209
+  ],
+  [
+   4,
+   7.149
+  ],
+  [
+   9,
+   15.5
+  ],
+  [
+   13,
+   22.34
+  ],
+  [
+   19,
+   32.67
+  ],
+  [
+   33,
+   56.172
+  ],
+  [
+   37,
+   63.181
+  ],
+  [
+   42,
+   71.88
+  ],
+  [
+   46,
+   78.63
+  ],
+  [
+   50,
+   85.139
+  ],
+  [
+   55,
+   93.19
+  ],
+  [
+   59,
+   99.871
+  ],
+  [
+   63,
+   106.79
+  ],
+  [
+   68,
+   115.189
+  ],
+  [
+   72,
+   121.87
+  ],
+  [
+   78,
+   131.891
+  ],
+  [
+   82,
+   138.68
+  ],
+  [
+   86,
+   145.43
+  ],
+  [
+   90,
+   152.08
+  ],
+  [
+   94,
+   158.76
+  ],
+  [
+   98,
+   165.239
+  ],
+  [
+   106,
+   178.519
+  ],
+  [
+   112,
+   188.621
+  ],
+  [
+   117,
+   197.159
+  ],
+  [
+   121,
+   204.169
+  ],
+  [
+   125,
+   210.548
+  ],
+  [
+   130,
+   219.2
+  ],
+  [
+   136,
+   229.221
+  ],
+  [
+   138,
+   232.562
+  ]
+ ],
+ "strumSource": "stima"
+}

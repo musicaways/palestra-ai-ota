@@ -1,0 +1,215 @@
+{
+ "title": "Io vagabondo",
+ "artist": "Nomadi",
+ "album": "Nomadi Quaranta cd1",
+ "year": 1972,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "CWGBNW9rnUA",
+ "key": "G",
+ "bpm": 131.3,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.55,
+ "strum": "PPPPPPPP",
+ "lyricsSource": {
+  "lrclibId": 37065213,
+  "duration": 232.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – C – Am – F – Dm – G6.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "C",
+    "%",
+    "G",
+    "%",
+    "Am",
+    "%",
+    "G",
+    "%",
+    "C",
+    "C",
+    "%",
+    "G",
+    "%",
+    "Am",
+    [
+     "G6:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Bb:2"
+    ],
+    "F",
+    "C",
+    "%",
+    "G",
+    "%",
+    "F",
+    [
+     "F:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Am:2"
+    ],
+    "%",
+    "F",
+    "Dm",
+    [
+     "Dm:2",
+     "G6:2"
+    ],
+    "%",
+    "C",
+    "F",
+    "%",
+    "%",
+    "G",
+    "%",
+    "C",
+    "%",
+    "Am",
+    "%",
+    "Dm",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "G",
+    "E7",
+    "C",
+    "G",
+    "Am",
+    "G",
+    "C",
+    "G",
+    "Am",
+    "G",
+    "C",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "%",
+    "E",
+    "C",
+    "%",
+    "G",
+    "%",
+    "Am",
+    [
+     "G6:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Bb:2"
+    ],
+    "F",
+    "C",
+    "%",
+    "G",
+    "%",
+    "F",
+    [
+     "F:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Am:2"
+    ],
+    "%",
+    "F",
+    "Dm",
+    [
+     "Dm:2",
+     "G6:2"
+    ],
+    "%",
+    "C",
+    "F",
+    "%",
+    "%",
+    "G",
+    "%",
+    "C",
+    "%",
+    "Am",
+    "%",
+    "Dm",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "G",
+    "E7",
+    "C",
+    "G",
+    "Am",
+    "G",
+    "C",
+    "G",
+    "Am",
+    [
+     "G:2",
+     "C:2"
+    ],
+    "C",
+    "G",
+    "Am",
+    "G",
+    "C",
+    "G",
+    "Am",
+    "G",
+    "C",
+    "G",
+    "Am",
+    "G",
+    "C",
+    "G",
+    "Am",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "G:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima",
+ "deezerId": 768824
+}

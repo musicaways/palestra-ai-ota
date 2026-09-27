@@ -1,0 +1,312 @@
+{
+ "title": "La canzone di Marinella",
+ "artist": "Fabrizio De André",
+ "album": "In concerto con PFM, vol.1",
+ "year": 1964,
+ "genre": "Cantautori",
+ "difficulty": 5,
+ "youtubeId": "JjO9cYUnkFc",
+ "key": "Am",
+ "bpm": 82.32,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.27,
+ "strum": "D-DDD-DD",
+ "lyricsSource": {
+  "lrclibId": 33410243,
+  "duration": 244,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Am – Dm – E7 – Fm – Cm – G7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Dm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Am:2",
+     "Dm:2"
+    ],
+    [
+     "G:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Am:2"
+    ],
+    [
+     "A7:1",
+     "Dm:2",
+     "Dm7:1"
+    ],
+    "Dm",
+    [
+     "Am:2",
+     "E7:2"
+    ],
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Am",
+    "Dm",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    [
+     "A7:2",
+     "Dm:2"
+    ],
+    [
+     "Dm:2",
+     "Dm7:2"
+    ],
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    "E7",
+    [
+     "Am:2",
+     "G7:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Cm",
+    "Fm",
+    [
+     "Bb7:1",
+     "Eb:2",
+     "Cm:1"
+    ],
+    [
+     "C7:2",
+     "Fm:2"
+    ],
+    [
+     "Fm:2",
+     "Fm7:2"
+    ],
+    [
+     "Fm:2",
+     "Cm:1",
+     "G7:1"
+    ],
+    [
+     "G7:1",
+     "Cm:1",
+     "E7:2"
+    ],
+    "Am",
+    "Dm",
+    [
+     "G:1",
+     "C:2",
+     "Am:1"
+    ],
+    [
+     "A7:2",
+     "Dm:2"
+    ],
+    [
+     "Dm:2",
+     "Dm7:2"
+    ],
+    "Dm",
+    [
+     "Am:2",
+     "E7:2"
+    ],
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Am",
+    "Dm",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    [
+     "A7:2",
+     "Dm:2"
+    ],
+    [
+     "Dm:2",
+     "Dm7:2"
+    ],
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    "E7",
+    [
+     "Am:2",
+     "G7:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Cm",
+    "Fm",
+    [
+     "Bb7:1",
+     "Eb:2",
+     "Cm:1"
+    ],
+    [
+     "C7:2",
+     "Fm:2"
+    ],
+    [
+     "Fm:2",
+     "Fm7:2"
+    ],
+    [
+     "Fm:2",
+     "Cm:1",
+     "G7:1"
+    ],
+    [
+     "G7:1",
+     "Cm:1",
+     "E7:2"
+    ],
+    "Am",
+    "Dm",
+    [
+     "G:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Am:2"
+    ],
+    [
+     "A7:1",
+     "Dm:2",
+     "Dm7:1"
+    ],
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    [
+     "A7:2",
+     "Dm:2"
+    ],
+    [
+     "Dm:2",
+     "Dm7:2"
+    ],
+    "Dm",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "E7",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   19,
+   56.124
+  ],
+  [
+   25,
+   73.616
+  ],
+  [
+   30,
+   87.78
+  ],
+  [
+   36,
+   105.273
+  ],
+  [
+   40,
+   116.706
+  ],
+  [
+   45,
+   130.846
+  ],
+  [
+   50,
+   145.627
+  ],
+  [
+   56,
+   163.354
+  ],
+  [
+   61,
+   177.888
+  ],
+  [
+   67,
+   195.773
+  ],
+  [
+   72,
+   210.392
+  ]
+ ],
+ "strumSource": "ultimate-guitar"
+}

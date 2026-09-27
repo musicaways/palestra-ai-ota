@@ -1,0 +1,337 @@
+{
+ "title": "La tua canzone",
+ "artist": "Coez",
+ "album": "Video Songs",
+ "year": 2017,
+ "genre": "Pop / Rap",
+ "difficulty": 5,
+ "youtubeId": "lJdU5JE_2no",
+ "key": "Db",
+ "bpm": 90.28,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.41,
+ "strum": "D--D--D-",
+ "lyricsSource": {
+  "lrclibId": 33910852,
+  "duration": 194,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Db – Bbm – Ab – Gb – Gbmaj7 – Ebm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Db",
+    "Gb",
+    "Bbm",
+    "Ab"
+   ],
+   "strum": "D-------"
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    [
+     "Db:1",
+     "Gb:2",
+     "Bbm:1"
+    ],
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    [
+     "Gb:2",
+     "Bbm:2"
+    ],
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    [
+     "Gb:2",
+     "Bbm:2"
+    ],
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    [
+     "Gb:2",
+     "Bbm:2"
+    ],
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    [
+     "Gb:2",
+     "Bbm:2"
+    ],
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    [
+     "Gb:2",
+     "Bbm:2"
+    ],
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    [
+     "Gb:2",
+     "Bbm:2"
+    ],
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    [
+     "Gb:2",
+     "Bbm:2"
+    ],
+    [
+     "Ab:2",
+     "Db:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    [
+     "Gb:2",
+     "Bbm:2"
+    ],
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    [
+     "Gb:2",
+     "Bbm:2"
+    ],
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    [
+     "Gb:2",
+     "Bbm:2"
+    ],
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    [
+     "Gb:2",
+     "Bbm:2"
+    ],
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    [
+     "Gbmaj7:2",
+     "Bbm:2"
+    ],
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    [
+     "Gbmaj7:2",
+     "Bbm:2"
+    ],
+    [
+     "Ab:2",
+     "Ebm7:2"
+    ],
+    "Gb",
+    "Db",
+    [
+     "Gb:2",
+     "Bbm:2"
+    ],
+    [
+     "Bbm:2",
+     "Ab:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    [
+     "Db:2",
+     "Gb:2"
+    ],
+    [
+     "Bbm:2",
+     "Ab:2"
+    ],
+    [
+     "Db:1",
+     "Gb:2",
+     "Bbm:1"
+    ],
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    [
+     "Gb:2",
+     "Bbm:2"
+    ],
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    [
+     "Gb:2",
+     "Bbm:2"
+    ],
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    [
+     "Gb:1",
+     "Bbm:2",
+     "Ab:1"
+    ],
+    "Db",
+    [
+     "Gbmaj7:2",
+     "Bbm:2"
+    ],
+    [
+     "Ab:2",
+     "Db:2"
+    ],
+    [
+     "Gbmaj7:2",
+     "Bbm:2"
+    ],
+    [
+     "Ab:2",
+     "Ebm7:2"
+    ],
+    "Gb",
+    "Db"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "Gb:1",
+     "Bbm:2",
+     "Ab:1"
+    ],
+    "Db",
+    [
+     "Db:1",
+     "Gb:1",
+     "Bbm:1",
+     "Ab:1"
+    ],
+    "Db",
+    [
+     "Db:1",
+     "Gb:1",
+     "Bbm:1",
+     "Ab:1"
+    ],
+    "Db",
+    [
+     "Db:1",
+     "Gb:1",
+     "Bbm:1",
+     "Ab:1"
+    ],
+    "Db",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   11.762
+  ],
+  [
+   8,
+   22.81
+  ],
+  [
+   13,
+   36.237
+  ],
+  [
+   17,
+   46.55
+  ],
+  [
+   22,
+   60.37
+  ],
+  [
+   27,
+   73.662
+  ],
+  [
+   32,
+   86.29
+  ],
+  [
+   38,
+   102.24
+  ],
+  [
+   44,
+   118.404
+  ],
+  [
+   50,
+   134.067
+  ],
+  [
+   54,
+   144.7
+  ],
+  [
+   60,
+   160.707
+  ],
+  [
+   66,
+   176.87
+  ]
+ ],
+ "strumSource": "stima"
+}

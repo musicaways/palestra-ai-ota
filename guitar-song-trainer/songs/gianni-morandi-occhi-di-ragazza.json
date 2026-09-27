@@ -1,0 +1,283 @@
+{
+ "title": "Occhi di ragazza",
+ "artist": "Gianni Morandi",
+ "album": "Cantautori Italiani, Vol. 08",
+ "year": 1970,
+ "genre": "Pop",
+ "difficulty": 3,
+ "youtubeId": "9nz6Uvs7FQs",
+ "key": "G",
+ "bpm": 101.42,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.46,
+ "strum": "D--UD-DU",
+ "lyricsSource": {
+  "lrclibId": 33463507,
+  "duration": 171,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – Am – Gmaj7 – Am7 – D7 – G6.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G",
+    "%",
+    "Gmaj7",
+    "%",
+    [
+     "G:2",
+     "Gmaj7:2"
+    ],
+    [
+     "G6:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "Am:2",
+     "Am:2"
+    ],
+    [
+     "Am7:2",
+     "D7:2"
+    ],
+    [
+     "D7:2",
+     "G:2"
+    ],
+    "Gmaj7"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Gmaj7:2",
+     "G6:2"
+    ],
+    [
+     "G:2",
+     "Am:2"
+    ],
+    "Am",
+    "Am7",
+    [
+     "Am:1",
+     "Cm:2",
+     "G:1"
+    ],
+    "Am7",
+    "D7",
+    [
+     "D7:2",
+     "G:2"
+    ],
+    "%",
+    [
+     "G:2",
+     "Gmaj7:2"
+    ],
+    [
+     "G:2",
+     "Am:2"
+    ],
+    "Am",
+    "Am7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Am:2",
+     "Am:2"
+    ],
+    [
+     "Am7:1",
+     "D7:2",
+     "G:1"
+    ],
+    "Gmaj7",
+    "G6",
+    [
+     "G:1",
+     "Gmaj7:2",
+     "G6:1"
+    ],
+    [
+     "G:2",
+     "Am:2"
+    ],
+    "Am",
+    "Am7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Am:1",
+     "Cm:2",
+     "G:1"
+    ],
+    "Am7",
+    "D7",
+    "G",
+    "Em",
+    "D",
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "D:2",
+     "G:2"
+    ],
+    "Gmaj7",
+    "G6",
+    "G",
+    "D7",
+    "Gmaj7",
+    "G6"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    [
+     "G:2",
+     "Gmaj7:2"
+    ],
+    "Am",
+    [
+     "Am:2",
+     "Am7:2"
+    ],
+    "D7",
+    [
+     "Am:1",
+     "Am:2",
+     "Am7:1"
+    ],
+    [
+     "D7:2",
+     "G:2"
+    ],
+    "Gmaj7",
+    "G6",
+    [
+     "G6:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Am:2"
+    ],
+    "Am",
+    "Am7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    [
+     "Am:1",
+     "Cm:2",
+     "G:1"
+    ],
+    "Am7",
+    "D7",
+    "G",
+    [
+     "Am:1",
+     "Cm:2",
+     "G:1"
+    ],
+    "Am7",
+    [
+     "D7:2",
+     "G:2"
+    ],
+    "Gmaj7",
+    "G6",
+    "G",
+    "Gmaj7",
+    "G6",
+    "G"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   10.79
+  ],
+  [
+   8,
+   20.254
+  ],
+  [
+   12,
+   29.697
+  ],
+  [
+   21,
+   50.994
+  ],
+  [
+   26,
+   62.826
+  ],
+  [
+   33,
+   79.547
+  ],
+  [
+   37,
+   89.013
+  ],
+  [
+   47,
+   113.028
+  ],
+  [
+   51,
+   121.67
+  ],
+  [
+   59,
+   140.601
+  ],
+  [
+   63,
+   150.654
+  ],
+  [
+   65,
+   155.44
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 68627312
+}

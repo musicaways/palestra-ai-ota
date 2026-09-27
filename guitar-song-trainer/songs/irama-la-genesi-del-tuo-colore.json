@@ -1,0 +1,307 @@
+{
+ "title": "La genesi del tuo colore",
+ "artist": "Irama",
+ "album": "Ho visto lei che bacia lui - Mon Amour",
+ "year": 2021,
+ "genre": "Pop",
+ "difficulty": 3,
+ "youtubeId": "p7H-hWbDcIs",
+ "key": "E",
+ "bpm": 124.28,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.45,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37371841,
+  "duration": 229,
+  "offset": 0
+ },
+ "notes": "Accordi principali: E – D – F#m – A – Bm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "D",
+    "E",
+    "F#m",
+    "A",
+    "%",
+    "%",
+    "%",
+    "%",
+    "D",
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    "A"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "D",
+    "E",
+    "F#m",
+    "A",
+    [
+     "D:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    "%",
+    "%",
+    "E",
+    "%",
+    "%",
+    [
+     "E:2",
+     "D:2"
+    ],
+    "E",
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    "E",
+    "F#m",
+    "A",
+    "D",
+    "E",
+    "A",
+    "F#m",
+    "D",
+    "E",
+    "A",
+    "F#m",
+    "D",
+    "E",
+    "A"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "F#m",
+    "D",
+    "E",
+    "F#m",
+    "A",
+    "D",
+    "E",
+    "F#m",
+    [
+     "A:2",
+     "D:2"
+    ],
+    "E",
+    "%",
+    "%",
+    "D",
+    "E",
+    "%",
+    "F#m",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "D:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    "A",
+    "D",
+    "E",
+    "A",
+    "F#m",
+    "D",
+    "E",
+    "A",
+    "F#m",
+    "D",
+    "E",
+    "A"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "F#m",
+    "D",
+    "E",
+    "A",
+    "F#m",
+    "D",
+    "E",
+    "A",
+    "F#m",
+    "D",
+    "E",
+    "%",
+    "A",
+    "Bm",
+    "%",
+    "%",
+    "%",
+    [
+     "D:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    "A",
+    "D",
+    "E",
+    "A",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "D",
+    "E",
+    "A",
+    "F#m",
+    "D",
+    "E",
+    "%",
+    "%",
+    "D",
+    "E",
+    "%",
+    "%",
+    "D",
+    "E",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   9.05
+  ],
+  [
+   8,
+   16.774
+  ],
+  [
+   13,
+   26.763
+  ],
+  [
+   17,
+   34.527
+  ],
+  [
+   22,
+   44.182
+  ],
+  [
+   29,
+   57.637
+  ],
+  [
+   33,
+   65.361
+  ],
+  [
+   41,
+   80.409
+  ],
+  [
+   46,
+   90.11
+  ],
+  [
+   51,
+   100.281
+  ],
+  [
+   60,
+   117.73
+  ],
+  [
+   68,
+   132.654
+  ],
+  [
+   72,
+   140.337
+  ],
+  [
+   77,
+   149.918
+  ],
+  [
+   81,
+   157.664
+  ],
+  [
+   88,
+   171.414
+  ],
+  [
+   95,
+   185.05
+  ],
+  [
+   100,
+   194.746
+  ],
+  [
+   106,
+   206.31
+  ],
+  [
+   112,
+   217.804
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 1254247602
+}

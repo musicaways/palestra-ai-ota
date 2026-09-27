@@ -1,0 +1,188 @@
+{
+ "title": "Mi ritorni in mente",
+ "artist": "Lucio Battisti",
+ "album": "Le avventure di Lucio Battisti e Mogol",
+ "year": 1969,
+ "genre": "Cantautori",
+ "difficulty": 4,
+ "youtubeId": "ZXh5H51RCpc",
+ "key": "G",
+ "bpm": 78.69,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.15,
+ "strum": "D---D-DU",
+ "lyricsSource": {
+  "lrclibId": 33656117,
+  "duration": 220.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – C – Bm – D – Am – C7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G",
+    "Bm",
+    "C",
+    "G",
+    [
+     "Em:1",
+     "D:2",
+     "C:1"
+    ],
+    "%",
+    "%",
+    "%",
+    [
+     "Am:1",
+     "C:1",
+     "Bm:1",
+     "Am:1"
+    ],
+    "D",
+    [
+     "C:2",
+     "Bm:2"
+    ],
+    "Em",
+    [
+     "Bm:1",
+     "Em:1",
+     "D:1",
+     "C:1"
+    ],
+    "Bm",
+    "Am",
+    "C"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "G",
+    "A7",
+    [
+     "C7:2",
+     "G:2"
+    ],
+    [
+     "C7:2",
+     "G:2"
+    ],
+    [
+     "C7:1",
+     "G:1",
+     "C7:1",
+     "G:1"
+    ],
+    "G",
+    "E7",
+    "Am",
+    "Am",
+    "G",
+    "%",
+    "Am",
+    "%",
+    "G",
+    [
+     "Bm:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    "C",
+    "G",
+    "C",
+    [
+     "C:2",
+     "D7:2"
+    ],
+    "%",
+    [
+     "Em:1",
+     "D:2",
+     "C:1"
+    ],
+    "%",
+    "%",
+    "%",
+    [
+     "Am:1",
+     "C:1",
+     "Bm:1",
+     "Am:1"
+    ],
+    "D",
+    [
+     "C:2",
+     "Bm:2"
+    ],
+    "Em",
+    [
+     "Bm:1",
+     "Em:1",
+     "D:1",
+     "C:1"
+    ],
+    "Bm",
+    "Am",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "G",
+    "A7",
+    [
+     "C7:2",
+     "G:2"
+    ],
+    [
+     "C7:2",
+     "G:2"
+    ],
+    [
+     "C7:1",
+     "G:1",
+     "C7:1",
+     "G:1"
+    ],
+    [
+     "G:1",
+     "E7:2"
+    ],
+    "Bm",
+    "D",
+    "C#m",
+    "Bm",
+    "E",
+    "D",
+    "C#m",
+    "F#m",
+    "Bm",
+    "D",
+    "C#m",
+    "Bm",
+    "E",
+    "D",
+    "C#m",
+    "F#m",
+    "Bm"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima"
+}

@@ -1,0 +1,293 @@
+{
+ "title": "Vengo dalla luna",
+ "artist": "Caparezza",
+ "album": "verit� supposte",
+ "year": 2003,
+ "genre": "Rap / Hip-hop",
+ "difficulty": 2,
+ "youtubeId": "idOSb0HebzU",
+ "key": "C",
+ "bpm": 101.92,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.68,
+ "strum": "D--D-UD-",
+ "lyricsSource": {
+  "lrclibId": 34544231,
+  "duration": 254,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Em7 – C – F – Am – D – Em.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Am",
+    "%",
+    "C",
+    "%",
+    "F",
+    "%",
+    "Em7",
+    "%",
+    "Am",
+    "%",
+    "C",
+    "%",
+    "F",
+    "%",
+    "Em7",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "C",
+    "F",
+    "C",
+    "Em7",
+    "C",
+    "Em7",
+    "C",
+    "Em7",
+    "Am",
+    "Em7",
+    "C",
+    "Em7",
+    "Am",
+    "Em",
+    "C",
+    "Em7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "Am",
+    "F",
+    "C",
+    "Em7",
+    "C",
+    "Em7",
+    "C",
+    "Em7",
+    "Em7",
+    "%",
+    "Em7",
+    "%",
+    "Em7",
+    "%",
+    "C",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "C",
+    "Em7",
+    "Am",
+    "F",
+    "C",
+    "Em7",
+    "C",
+    "Em7",
+    "C",
+    "Em7",
+    "Am",
+    "F",
+    "C",
+    "F",
+    "C",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "Am",
+    "F",
+    "C",
+    "Em7",
+    "C",
+    "F",
+    "C",
+    "Em7",
+    "Em7",
+    "%",
+    "Em7",
+    "%",
+    "Em7",
+    "%",
+    "C",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    [
+     "D:2",
+     "Em7:2"
+    ],
+    "%",
+    "Em7",
+    "%",
+    "D",
+    [
+     "D:2",
+     "Em7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    [
+     "Am:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "Em7:2"
+    ],
+    [
+     "Am:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "Em7:2"
+    ],
+    [
+     "Am:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "Em7:2"
+    ],
+    [
+     "Am:2",
+     "C:2"
+    ],
+    [
+     "F:2",
+     "Em7:2"
+    ],
+    "C",
+    "F",
+    "C",
+    "F",
+    "C",
+    "F",
+    "C",
+    "%",
+    "%",
+    "F",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   16,
+   38.681
+  ],
+  [
+   20,
+   48.01
+  ],
+  [
+   25,
+   59.66
+  ],
+  [
+   29,
+   68.87
+  ],
+  [
+   34,
+   80.77
+  ],
+  [
+   38,
+   90.255
+  ],
+  [
+   44,
+   104.65
+  ],
+  [
+   49,
+   116.17
+  ],
+  [
+   53,
+   125.374
+  ],
+  [
+   58,
+   137.165
+  ],
+  [
+   62,
+   146.56
+  ],
+  [
+   67,
+   158.38
+  ],
+  [
+   71,
+   167.805
+  ],
+  [
+   76,
+   180.06
+  ],
+  [
+   80,
+   189.479
+  ],
+  [
+   87,
+   205.395
+  ],
+  [
+   91,
+   214.814
+  ],
+  [
+   95,
+   224.685
+  ],
+  [
+   100,
+   236.53
+  ],
+  [
+   102,
+   241.24
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 3091028
+}

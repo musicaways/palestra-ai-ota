@@ -1,0 +1,250 @@
+{
+ "title": "Chiamami per nome",
+ "artist": "Francesca Michielin, Fedez",
+ "album": "Feat (Fuori dagli spazi)",
+ "year": 2021,
+ "genre": "Pop / Rap",
+ "difficulty": 3,
+ "youtubeId": "6jvQS47IEXI",
+ "key": "Sol minore (Gm)",
+ "bpm": 90.55,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.69,
+ "strum": "B--D-UD-",
+ "lyricsSource": {
+  "lrclibId": 9955609,
+  "offset": 0
+ },
+ "notes": "Sanremo 2021. Giro Gm – Eb – Bb – F con varianti (Gm7, Ebadd9, Ebmaj7): col capotasto al 3° diventa Em – C – G – D.",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. Se gli accordi sono in anticipo o in ritardo usa Sincronia; per l'allineamento perfetto Registra tempi.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Gm",
+    "Ebmaj7",
+    "Bb",
+    "F"
+   ],
+   "strum": "B-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Gm",
+    "Eb",
+    "Bb",
+    "F",
+    "Gm",
+    "Eb",
+    "Bb",
+    "F",
+    "Gm",
+    "Eb",
+    "Bb",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Pre-ritornello",
+   "bars": [
+    "Gm",
+    "Eb",
+    "Bb",
+    "F"
+   ]
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Gm7",
+    "Ebadd9",
+    "Bb",
+    "F",
+    "Gm7",
+    "Ebadd9",
+    "Bb",
+    "F",
+    "Gm7",
+    "Ebadd9",
+    "Bb",
+    "F",
+    "Gm7",
+    "Ebadd9",
+    "Bb",
+    "F"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUXUDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Gm",
+    "Eb",
+    "Bb",
+    "F",
+    "Gm",
+    "Eb",
+    "Bb",
+    "F",
+    "Gm",
+    "Eb",
+    "Bb",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Pre-ritornello",
+   "bars": [
+    "Gm",
+    "Eb",
+    "Bb",
+    "F"
+   ]
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Gm7",
+    "Ebadd9",
+    "Bb",
+    "F",
+    "Gm7",
+    "Ebadd9",
+    "Bb",
+    "F",
+    "Gm7",
+    "Ebadd9",
+    "Bb",
+    "F"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUXUDU"
+  },
+  {
+   "name": "Ponte",
+   "bars": [
+    "Eb",
+    "F",
+    "Bb",
+    "Dm",
+    "Gm",
+    "%"
+   ],
+   "strum": "D--D--D-"
+  },
+  {
+   "name": "Ritornello finale",
+   "bars": [
+    "Gm7",
+    "Ebadd9",
+    "Bb",
+    "F",
+    "Gm7",
+    "Ebadd9",
+    "Bb",
+    "F",
+    "Gm7",
+    "Ebadd9",
+    "Bb",
+    "F"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUXUDU"
+  },
+  {
+   "name": "Outro",
+   "bars": [
+    "Ebadd9",
+    "F",
+    "Gm",
+    "%"
+   ],
+   "strum": "B-------"
+  }
+ ],
+ "warp": [
+  [
+   4,
+   12.62
+  ],
+  [
+   8,
+   23.13
+  ],
+  [
+   12,
+   33.44
+  ],
+  [
+   16,
+   43.82
+  ],
+  [
+   20,
+   54.63
+  ],
+  [
+   25,
+   67.91
+  ],
+  [
+   30,
+   81.162
+  ],
+  [
+   34,
+   91.49
+  ],
+  [
+   39,
+   105.149
+  ],
+  [
+   43,
+   115.927
+  ],
+  [
+   49,
+   131.842
+  ],
+  [
+   53,
+   142.549
+  ],
+  [
+   58,
+   156.421
+  ],
+  [
+   62,
+   166.637
+  ],
+  [
+   66,
+   177.129
+  ],
+  [
+   70,
+   187.64
+  ],
+  [
+   77,
+   205.489
+  ],
+  [
+   80,
+   213.411
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 1262536072
+}

@@ -1,0 +1,195 @@
+{
+ "title": "Paprika",
+ "artist": "Ghali",
+ "album": "Radio Italia Summer Hits 2024",
+ "year": 2019,
+ "genre": "Rap / Hip-hop",
+ "difficulty": 3,
+ "youtubeId": "J-nVDbmzf-w",
+ "key": "G",
+ "bpm": 105.23,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.45,
+ "strum": "D---D-DU",
+ "lyricsSource": {
+  "lrclibId": 19642458,
+  "duration": 148.610612,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – Am – E7 – Fmaj7 – F – E.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Fmaj7",
+    "%",
+    "G",
+    "%"
+   ],
+   "strum": "D-------"
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    [
+     "Fmaj7:2",
+     "G:2"
+    ],
+    "E",
+    "Am",
+    "Fmaj7",
+    "G",
+    "E7",
+    "Am",
+    "Fmaj7",
+    "G",
+    "E7",
+    "Am",
+    "F",
+    "G",
+    "E7",
+    "Am",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "G",
+    "E7",
+    "Am",
+    "F",
+    "G",
+    "E7",
+    "Am",
+    "Fmaj7",
+    "G",
+    "E7",
+    "Am",
+    "Fmaj7",
+    "G",
+    "E7",
+    "Am",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "G",
+    "E",
+    "Am",
+    "F",
+    "%",
+    [
+     "G:2",
+     "E7:2"
+    ],
+    "Am",
+    [
+     "F:2",
+     "G:2"
+    ],
+    "%",
+    "E7",
+    "Am",
+    "Fmaj7",
+    "G",
+    "E7",
+    "Am",
+    "Fmaj7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "G",
+    "E7",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "G:1",
+     "Fmaj7:2",
+     "G:1"
+    ],
+    "E7",
+    "Am",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   10.53
+  ],
+  [
+   8,
+   19.612
+  ],
+  [
+   13,
+   31.09
+  ],
+  [
+   18,
+   42.879
+  ],
+  [
+   22,
+   51.789
+  ],
+  [
+   27,
+   63.001
+  ],
+  [
+   32,
+   74.339
+  ],
+  [
+   37,
+   85.743
+  ],
+  [
+   42,
+   96.971
+  ],
+  [
+   46,
+   106.349
+  ],
+  [
+   50,
+   115.472
+  ],
+  [
+   54,
+   124.667
+  ],
+  [
+   58,
+   133.79
+  ],
+  [
+   62,
+   142.913
+  ]
+ ],
+ "strumSource": "stima"
+}

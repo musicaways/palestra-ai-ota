@@ -1,0 +1,260 @@
+{
+ "title": "Blu celeste",
+ "artist": "Blanco",
+ "album": "Blu celeste",
+ "year": 2021,
+ "genre": "Pop",
+ "difficulty": 3,
+ "youtubeId": "d_HZbLc7xsU",
+ "key": "Fa diesis minore (F#m) / La maggiore",
+ "bpm": 112.92,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.28,
+ "strum": "D-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 21361371,
+  "duration": 207,
+  "offset": 0
+ },
+ "notes": "Ballata su un unico giro: F#m7 – A/E – Dmaj7 – C#m7, un accordo per battuta. Col capotasto al 2° diventa Em7 – G/D – Cmaj7 – Bm7.",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. L'app controlla da sola che testo e accordi siano coerenti; per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F#m7",
+    "A",
+    "Dmaj7",
+    "C#m7"
+   ],
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7",
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7",
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7",
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7",
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7",
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7",
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7",
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7",
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7",
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7",
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ponte",
+   "bars": [
+    "F#m7",
+    "A",
+    "Dmaj7",
+    "C#m7",
+    "F#m7",
+    "A",
+    "Dmaj7",
+    "C#m7",
+    "F#m7",
+    "A",
+    "Dmaj7",
+    "C#m7",
+    "F#m7",
+    "A",
+    "Dmaj7",
+    "C#m7"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  },
+  {
+   "name": "Ritornello finale",
+   "bars": [
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7",
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7",
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7",
+    "F#m7",
+    "A/E",
+    "Dmaj7",
+    "C#m7"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Outro",
+   "bars": [
+    "Dmaj7",
+    "C#m7",
+    "Dmaj7",
+    "C#m7",
+    "Dmaj7",
+    "C#m7"
+   ],
+   "barsPerRow": 2,
+   "strum": "D-------"
+  }
+ ],
+ "warp": [
+  [
+   8,
+   17.36
+  ],
+  [
+   12,
+   25.93
+  ],
+  [
+   20,
+   43.078
+  ],
+  [
+   24,
+   51.579
+  ],
+  [
+   28,
+   59.952
+  ],
+  [
+   32,
+   68.35
+  ],
+  [
+   37,
+   78.535
+  ],
+  [
+   42,
+   89.045
+  ],
+  [
+   46,
+   97.495
+  ],
+  [
+   51,
+   108.775
+  ],
+  [
+   55,
+   116.87
+  ],
+  [
+   60,
+   127.451
+  ],
+  [
+   65,
+   138.34
+  ],
+  [
+   70,
+   149.824
+  ],
+  [
+   74,
+   158.15
+  ],
+  [
+   79,
+   168.555
+  ],
+  [
+   84,
+   179.041
+  ],
+  [
+   88,
+   187.274
+  ],
+  [
+   93,
+   197.901
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 1490152612,
+ "spotifyId": "0BeXxjO6mgLDzg4xA6UheO"
+}

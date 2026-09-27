@@ -1,0 +1,250 @@
+{
+ "title": "Live Forever",
+ "artist": "Oasis",
+ "album": "Definitely Maybe",
+ "year": 1994,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "sZvt2bteU6k",
+ "key": "D",
+ "bpm": 94.5,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.78,
+ "strum": "D--UD-DU",
+ "lyricsSource": {
+  "lrclibId": 38276098,
+  "duration": 277,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – Am7 – G – Am – C – Fadd9.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "G",
+    "%",
+    "%",
+    "%"
+   ]
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "G",
+    "D",
+    "Am7",
+    "%",
+    "G",
+    "D",
+    "D",
+    [
+     "D:2",
+     "Em7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "D",
+    "%",
+    "C",
+    "%",
+    "Am7",
+    "%",
+    "Fadd9",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "G",
+    "D",
+    "Am7",
+    "%",
+    "G",
+    "D",
+    "C",
+    "D",
+    "Em7",
+    "Am7",
+    "%",
+    "D",
+    "Em7",
+    "Am7",
+    "%",
+    "Fadd9",
+    "G",
+    "D",
+    "Am7",
+    "C",
+    "D",
+    "G",
+    "D",
+    "Am7",
+    "C",
+    "D",
+    "Em7",
+    "D",
+    "Am7",
+    "C",
+    "D",
+    "Em7",
+    "D",
+    "Am7",
+    "Fadd9",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    [
+     "G:2",
+     "D:2"
+    ],
+    "Am7",
+    "%",
+    "%",
+    "G",
+    "D",
+    [
+     "C:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Em7:2"
+    ],
+    "D",
+    "%",
+    "C",
+    "%",
+    "Am7",
+    "%",
+    "Fadd9",
+    [
+     "Fadd9:2",
+     "Am:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "%",
+    "Fadd9",
+    "Am",
+    "Fmaj7",
+    "Am",
+    "Fmaj7",
+    "Am",
+    "Fmaj7",
+    "Am",
+    "Fmaj7",
+    "Am",
+    "Fmaj7",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   12.492
+  ],
+  [
+   8,
+   22.429
+  ],
+  [
+   13,
+   34.968
+  ],
+  [
+   17,
+   44.782
+  ],
+  [
+   22,
+   57.718
+  ],
+  [
+   28,
+   72.753
+  ],
+  [
+   33,
+   85.451
+  ],
+  [
+   62,
+   159.102
+  ],
+  [
+   66,
+   169.62
+  ],
+  [
+   72,
+   184.858
+  ],
+  [
+   77,
+   197.29
+  ],
+  [
+   83,
+   212.528
+  ],
+  [
+   85,
+   217.619
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 987064552,
+ "spotifyId": "5IfBLN9VPPJOwcKmAZhdXe"
+}

@@ -1,0 +1,283 @@
+{
+ "title": "Rimmel",
+ "artist": "Francesco De Gregori",
+ "album": "La Valigia Dell 'Attore",
+ "year": 1975,
+ "genre": "Cantautori",
+ "difficulty": 2,
+ "youtubeId": "IRMXmwmPYOc",
+ "key": "C",
+ "bpm": 82.08,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.82,
+ "strum": "D-DU-UDUD-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37205076,
+  "duration": 239,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – F – G – Em – Dm – Am.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "C",
+    "Dm",
+    "Em",
+    "F"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "C:2",
+     "F:2"
+    ],
+    "G",
+    "C",
+    [
+     "Am:2",
+     "Em:1",
+     "F:1"
+    ],
+    [
+     "F:1",
+     "G:1",
+     "C:2"
+    ],
+    [
+     "Dm:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "F:2"
+    ],
+    "C",
+    [
+     "G:2",
+     "C:2"
+    ],
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "C:2",
+     "F:2"
+    ],
+    "C",
+    "%",
+    [
+     "F:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "C:2"
+    ],
+    [
+     "Dm:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "F:2"
+    ],
+    "C",
+    [
+     "G:2",
+     "C:2"
+    ],
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Am",
+    "%",
+    "C",
+    "%",
+    "Am",
+    "%",
+    "F",
+    "G",
+    [
+     "F:2",
+     "G:2"
+    ],
+    "C",
+    "Dm",
+    "Em",
+    "F",
+    "C",
+    "Dm",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strumentale",
+   "bars": [
+    [
+     "C:1",
+     "F:1",
+     "G:1",
+     "C:1"
+    ],
+    [
+     "Am:2",
+     "Em:2"
+    ],
+    "F",
+    [
+     "G:2",
+     "C:2"
+    ],
+    [
+     "Dm:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "F:2"
+    ],
+    "C",
+    [
+     "G:2",
+     "C:2"
+    ],
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "C:2",
+     "F:2"
+    ],
+    "G",
+    "C",
+    [
+     "Am:2",
+     "Em:1",
+     "F:1"
+    ],
+    [
+     "F:1",
+     "G:1",
+     "C:2"
+    ],
+    [
+     "Dm:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "F:2"
+    ],
+    "C",
+    [
+     "G:2",
+     "C:2"
+    ],
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Am",
+    "%",
+    "F",
+    "%",
+    "Am",
+    "%",
+    "F",
+    "G",
+    [
+     "F:2",
+     "G:2"
+    ],
+    "C",
+    "Dm",
+    "Em",
+    "F",
+    "C",
+    "Dm",
+    "Em",
+    "F",
+    "C",
+    "Dm",
+    "Em",
+    "F",
+    "C",
+    "Dm"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   12.56
+  ],
+  [
+   9,
+   27.03
+  ],
+  [
+   14,
+   41.622
+  ],
+  [
+   19,
+   56.572
+  ],
+  [
+   24,
+   71.25
+  ],
+  [
+   30,
+   88.736
+  ],
+  [
+   44,
+   129.17
+  ],
+  [
+   49,
+   143.79
+  ],
+  [
+   56,
+   164.258
+  ],
+  [
+   61,
+   179.278
+  ],
+  [
+   67,
+   196.964
+  ]
+ ],
+ "strumSource": "ultimate-guitar",
+ "deezerId": 581863
+}

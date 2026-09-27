@@ -1,0 +1,310 @@
+{
+ "title": "Nel blu dipinto di blu",
+ "artist": "Domenico Modugno",
+ "album": "Tutto Modugno: Mr. Volare 1956-1964",
+ "year": 1958,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "-UkhT0N1aiI",
+ "key": "F7",
+ "bpm": 64.12,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.58,
+ "strum": "B---D-DU",
+ "lyricsSource": {
+  "lrclibId": 34630311,
+  "duration": 218,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F7 – Bb – Cm7 – Cm – Gm – G.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bb",
+    "Bdim",
+    "Cm"
+   ],
+   "strum": "B-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Bb:1",
+     "Bdim:1",
+     "Cm:1",
+     "Cm7:1"
+    ],
+    [
+     "Cm7:1",
+     "F7:1",
+     "Bb:1",
+     "F7:1"
+    ],
+    [
+     "Bb:2",
+     "Bbdim:2"
+    ],
+    [
+     "Bbdim:2",
+     "Cm:2"
+    ],
+    [
+     "C7:2",
+     "Gm7:2"
+    ],
+    "C7",
+    [
+     "Cm7:2",
+     "F7:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "G:2",
+     "Cm7:2"
+    ],
+    [
+     "G:2",
+     "Cm7:2"
+    ],
+    [
+     "F7:2",
+     "Bb:2"
+    ],
+    [
+     "D7:2",
+     "Gm:2"
+    ],
+    [
+     "Cm7:1",
+     "F7:1",
+     "Bb:1",
+     "Gm:1"
+    ],
+    [
+     "Cm:1",
+     "F7:2",
+     "Bb:1"
+    ],
+    "Dm",
+    "%",
+    "D7",
+    "%",
+    [
+     "Eb:2",
+     "Ebm7:1",
+     "Ab:1"
+    ],
+    [
+     "Ab:1",
+     "Db:1",
+     "F7:2"
+    ],
+    "G",
+    [
+     "Cm7:2",
+     "G:2"
+    ],
+    "Cm7",
+    [
+     "F7:2",
+     "Bb:2"
+    ],
+    [
+     "D7:2",
+     "Gm:2"
+    ],
+    [
+     "Cm7:1",
+     "F7:1",
+     "Bb:1",
+     "Gm:1"
+    ],
+    [
+     "Cm:1",
+     "F7:2",
+     "Bb:1"
+    ],
+    [
+     "Bb:2",
+     "Bdim:1",
+     "Cm:1"
+    ],
+    [
+     "Cm:1",
+     "Cm7:1",
+     "F:2"
+    ],
+    [
+     "Cm7:1",
+     "F7:1",
+     "Bb:1",
+     "F7:1"
+    ],
+    [
+     "Bb:2",
+     "Bbdim:2"
+    ],
+    [
+     "Bbdim:2",
+     "Cm:2"
+    ],
+    [
+     "C7:2",
+     "Gm7:2"
+    ],
+    "C7",
+    [
+     "Cm7:2",
+     "F7:2"
+    ],
+    [
+     "G:2",
+     "Cm7:2"
+    ],
+    [
+     "G:2",
+     "Cm7:2"
+    ],
+    [
+     "F7:2",
+     "Bb:2"
+    ],
+    [
+     "D7:2",
+     "Gm:2"
+    ],
+    [
+     "Cm7:1",
+     "F7:1",
+     "Bb:1",
+     "Gm:1"
+    ],
+    [
+     "Cm:1",
+     "F7:2",
+     "Bb:1"
+    ],
+    "Dm",
+    "%",
+    "D7",
+    "%",
+    [
+     "Eb:2",
+     "Ebm7:1",
+     "Ab:1"
+    ],
+    [
+     "Ab:1",
+     "Db:1",
+     "F7:2"
+    ],
+    [
+     "G:2",
+     "Cm7:2"
+    ],
+    [
+     "G:2",
+     "Cm7:2"
+    ],
+    [
+     "F7:2",
+     "Bb:2"
+    ],
+    [
+     "D7:2",
+     "Gm:2"
+    ],
+    [
+     "Cm7:1",
+     "F7:1",
+     "Bb:1",
+     "Gm:1"
+    ],
+    [
+     "Cm:1",
+     "F7:2",
+     "Bb:1"
+    ],
+    [
+     "Cm7:1",
+     "F7:1",
+     "Bb:1",
+     "Gm:1"
+    ],
+    [
+     "Cm:2",
+     "F7:2"
+    ],
+    [
+     "F7:2",
+     "Bb:2"
+    ]
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   3,
+   12.6
+  ],
+  [
+   7,
+   27.9
+  ],
+  [
+   12,
+   46.615
+  ],
+  [
+   18,
+   69.242
+  ],
+  [
+   22,
+   83.315
+  ],
+  [
+   27,
+   101.957
+  ],
+  [
+   31,
+   117.002
+  ],
+  [
+   37,
+   139.574
+  ],
+  [
+   41,
+   155.13
+  ],
+  [
+   45,
+   170.199
+  ],
+  [
+   51,
+   192.374
+  ],
+  [
+   56,
+   211.15
+  ]
+ ],
+ "strumSource": "stima"
+}

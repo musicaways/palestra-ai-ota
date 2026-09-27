@@ -1,0 +1,312 @@
+{
+ "title": "About a Girl",
+ "artist": "Nirvana",
+ "album": "Nirvana",
+ "year": 1989,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "UNcWgG58W6Y",
+ "key": "Em",
+ "bpm": 118.63,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.42,
+ "strum": "PPPP-PPU",
+ "lyricsSource": {
+  "lrclibId": 23901674,
+  "duration": 169.173333,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Em – G – G# – A – C#m – F#.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Em",
+    "G",
+    "Em",
+    "G",
+    "Em",
+    "G",
+    "Em"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-D-D-D-"
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "C#m:1",
+     "G#:2",
+     "F#:1"
+    ],
+    [
+     "C#m:2",
+     "G#:2"
+    ],
+    [
+     "G#:2",
+     "F#:2"
+    ],
+    [
+     "E:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "C:2"
+    ],
+    [
+     "Em:1",
+     "G:2",
+     "Em:1"
+    ],
+    [
+     "G:1",
+     "Em:2",
+     "G:1"
+    ],
+    [
+     "Em:1",
+     "G:1",
+     "Em:1",
+     "G:1"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "C#m:2",
+     "G#:2"
+    ],
+    [
+     "G#:2",
+     "F#:2"
+    ],
+    [
+     "C#m:1",
+     "G#:2",
+     "F#:1"
+    ],
+    [
+     "E:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "C:2"
+    ],
+    [
+     "Em:1",
+     "G:1",
+     "Em:1",
+     "G:1"
+    ],
+    "Em",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "G",
+    "%",
+    "Em",
+    "%",
+    "G",
+    "%",
+    "Em",
+    "%",
+    "G",
+    "%",
+    "Em",
+    "%",
+    "G",
+    "%",
+    "Em",
+    "%",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Em:1",
+     "G:1",
+     "Em:1",
+     "G:1"
+    ],
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "C#m:2",
+     "G#:2"
+    ],
+    [
+     "G#:2",
+     "F#:2"
+    ],
+    [
+     "C#m:1",
+     "G#:2",
+     "F#:1"
+    ],
+    [
+     "E:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "C:2"
+    ],
+    "E",
+    "A",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "Em:1",
+     "G:1",
+     "Em:1",
+     "G:1"
+    ],
+    [
+     "Em:2",
+     "G:2"
+    ],
+    [
+     "Em:2",
+     "G:2"
+    ],
+    "Em",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima",
+ "deezerId": 739433242,
+ "spotifyId": "2uH9XfpBqH1OSIQbmdg0h3"
+}

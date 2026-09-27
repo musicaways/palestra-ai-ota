@@ -1,0 +1,255 @@
+{
+ "title": "Knockin' on Heaven's Door",
+ "artist": "Bob Dylan",
+ "album": "All Discographie",
+ "year": 1973,
+ "genre": "Rock / Folk",
+ "difficulty": 2,
+ "youtubeId": "_WafaWYFQdo",
+ "key": "G",
+ "bpm": 139.88,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.24,
+ "strum": "D-PPD-PP",
+ "lyricsSource": {
+  "lrclibId": 37014016,
+  "duration": 150,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – G – C – Am – Am7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro (1)",
+   "bars": [
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "D",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  },
+  {
+   "name": "Intro (2)",
+   "bars": [
+    "%",
+    "G",
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Am:2"
+    ],
+    "%",
+    "G",
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    "%",
+    "G",
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Am:2"
+    ],
+    "%",
+    "G",
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ]
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  },
+  {
+   "name": "Intro (3)",
+   "bars": [
+    "%",
+    "G",
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Am:2"
+    ],
+    "%",
+    "G",
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    "%",
+    "G",
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Am:2"
+    ],
+    "%",
+    "G",
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ]
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  },
+  {
+   "name": "Intro (4)",
+   "bars": [
+    "%",
+    "G",
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Am7:2"
+    ],
+    "%",
+    "G",
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    "%",
+    "G",
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Am7:2"
+    ],
+    "%",
+    "G",
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ]
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  },
+  {
+   "name": "Intro (5)",
+   "bars": [
+    "%",
+    "G",
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Am:2"
+    ],
+    "%",
+    "G",
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "C:2"
+    ],
+    "%",
+    "G",
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Am:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa",
+   "bars": [
+    "G",
+    "%",
+    "%",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    "%",
+    "%",
+    [
+     "D:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima",
+ "deezerId": 75768727
+}

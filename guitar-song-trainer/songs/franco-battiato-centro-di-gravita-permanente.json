@@ -1,0 +1,264 @@
+{
+ "title": "Centro di gravità permanente",
+ "artist": "Franco Battiato",
+ "album": "One Shot '80 - Volume 20 (Disc 1)",
+ "year": 1981,
+ "genre": "Cantautori",
+ "difficulty": 4,
+ "youtubeId": "vN-KwiaM8_s",
+ "key": "G",
+ "bpm": 130.91,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.74,
+ "strum": "B-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 18499331,
+  "duration": 237.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – Eb – Cm – Dm – Am – C.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "B---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Dm",
+    "Cm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Dm",
+    "Cm",
+    "G",
+    "Eb",
+    [
+     "Eb:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Eb:2"
+    ],
+    "%",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Dm",
+    "Cm",
+    "Cm",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Eb",
+    "G",
+    "C",
+    "Am",
+    "F",
+    "G",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "G",
+    "C",
+    "Am",
+    "F",
+    "G",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "G:1",
+     "D:1",
+     "Eb:1",
+     "G:1"
+    ],
+    "Eb",
+    "%",
+    "G",
+    "%",
+    "Eb",
+    "%",
+    "G",
+    "%",
+    "Eb",
+    "%",
+    "G",
+    "%",
+    "Dm",
+    "Cm",
+    "G",
+    "Eb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "Eb",
+    "%",
+    "G",
+    "%",
+    "Eb",
+    "%",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    "Dm",
+    "Cm",
+    "G",
+    [
+     "G:2",
+     "Eb:2"
+    ],
+    [
+     "Eb:2",
+     "Cm:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Eb",
+    "G",
+    "C",
+    "Am",
+    "F",
+    "G",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "G",
+    "C",
+    "Am",
+    "F",
+    "G",
+    "%",
+    "%",
+    "%",
+    [
+     "G:1",
+     "D:1",
+     "Eb:1",
+     "G:1"
+    ],
+    "C",
+    "%",
+    "Am"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 7",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G",
+    "D",
+    "Eb",
+    "G",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 8",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima",
+ "deezerId": 1375685872
+}

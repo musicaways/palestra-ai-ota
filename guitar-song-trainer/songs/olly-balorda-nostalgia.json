@@ -1,0 +1,241 @@
+{
+ "title": "Balorda nostalgia",
+ "artist": "Olly",
+ "album": "Tutta vita",
+ "year": 2025,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "-SZ8G8NekhE",
+ "key": "Ab",
+ "bpm": 109.75,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.35,
+ "strum": "D-DUDUD-",
+ "lyricsSource": {
+  "lrclibId": 33612427,
+  "duration": 198,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Ab – Db – Gb – Bbm7 – Bbm – Ebm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bbm",
+    "Gb",
+    "Db",
+    "Ab"
+   ]
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "Dbmaj7",
+    "%",
+    "%",
+    "%",
+    "Gb",
+    "%",
+    "Gbmaj7",
+    "Gbm",
+    "Dbmaj7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Gbm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Db",
+    "%",
+    "Bbm7",
+    "%",
+    "Ebm7",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%",
+    "Bbm7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "Ebm7",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%",
+    "%",
+    "%",
+    "Gb",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "%",
+    "Gbadd9",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%",
+    "Bbm7",
+    "%",
+    "Ebm7",
+    "%",
+    "Ab",
+    "%",
+    "Db",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "%",
+    "Ebm7",
+    "%",
+    "Ab",
+    "%",
+    "Bbm",
+    "Gb",
+    "Db",
+    "Ab",
+    "Bbm",
+    [
+     "Bbm:2",
+     "Gb:2"
+    ],
+    "%",
+    "Db"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    [
+     "Ab:2",
+     "Gb:2"
+    ],
+    [
+     "Gb:2",
+     "Ab:2"
+    ],
+    "Bbm7",
+    "%",
+    "Gb",
+    "Ab",
+    "Db",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   9.126
+  ],
+  [
+   8,
+   17.874
+  ],
+  [
+   12,
+   26.489
+  ],
+  [
+   18,
+   39.61
+  ],
+  [
+   23,
+   50.644
+  ],
+  [
+   29,
+   63.981
+  ],
+  [
+   33,
+   72.87
+  ],
+  [
+   39,
+   85.416
+  ],
+  [
+   44,
+   96.293
+  ],
+  [
+   48,
+   105.03
+  ],
+  [
+   53,
+   115.964
+  ],
+  [
+   59,
+   129.467
+  ],
+  [
+   65,
+   142.793
+  ],
+  [
+   70,
+   153.727
+  ],
+  [
+   76,
+   166.556
+  ],
+  [
+   81,
+   177.484
+  ],
+  [
+   87,
+   190.517
+  ]
+ ],
+ "strumSource": "ultimate-guitar",
+ "deezerId": 3229863571
+}

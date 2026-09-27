@@ -1,0 +1,237 @@
+{
+ "title": "Emozioni",
+ "artist": "Lucio Battisti",
+ "album": "Le Origini Vol1 CD2",
+ "year": 1970,
+ "genre": "Cantautori",
+ "difficulty": 4,
+ "youtubeId": "9q59mFPDjRU",
+ "key": "G",
+ "bpm": 114.77,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.28,
+ "strum": "B-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37505906,
+  "duration": 288.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – Em7 – Dmaj7 – A7 – F#m7 – Bm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "Em7",
+    "A7",
+    "Dmaj7",
+    "G",
+    "%",
+    "F#m7",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "B---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "A7",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "Em7",
+    "A7",
+    "Dmaj7",
+    "F#m7",
+    "%",
+    "%",
+    "%",
+    "A7",
+    "%",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%",
+    "G",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    "G",
+    "%",
+    [
+     "G:2",
+     "F#m7:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "Em7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Em7",
+    "Dmaj7",
+    "G",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Dmaj7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "A7",
+    [
+     "A7:2",
+     "Dmaj7:2"
+    ],
+    "%",
+    "G",
+    "%",
+    "%",
+    "Em7",
+    [
+     "Em7:2",
+     "A7:2"
+    ],
+    "%",
+    "G",
+    "%",
+    "F#m7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "A7",
+    "Dmaj7",
+    "G",
+    "%",
+    "F#m7",
+    "%",
+    "Bm7",
+    "%",
+    "Em7",
+    "%",
+    "Bm",
+    "%",
+    "%",
+    "G",
+    [
+     "G:2",
+     "Dmaj7:2"
+    ],
+    "%",
+    "G",
+    "%",
+    "F#m7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    "Bm7",
+    "Em7",
+    "%",
+    "%",
+    "Em7",
+    "%",
+    "%",
+    "Em7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 7",
+   "bars": [
+    "%",
+    "Dmaj7",
+    "G",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 8",
+   "bars": [
+    "%",
+    "Dmaj7",
+    "G",
+    "%",
+    "%",
+    "%",
+    "Em7",
+    "%",
+    "A7",
+    "%",
+    "D",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima"
+}

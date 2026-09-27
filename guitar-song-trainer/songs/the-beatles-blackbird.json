@@ -1,0 +1,314 @@
+{
+ "title": "Blackbird",
+ "artist": "The Beatles",
+ "album": "NME- Greatest Songs of All Time",
+ "year": 1968,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "7epRPz0LGPE",
+ "key": "G",
+ "bpm": 103.59,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.51,
+ "strum": "D-D-D-DU",
+ "lyricsSource": {
+  "lrclibId": 37015439,
+  "duration": 138,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – C – A7/C# – G/B – D7 – Am7/D.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G",
+    "Am7"
+   ],
+   "strum": "D---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "G:2",
+     "Am7:2"
+    ],
+    [
+     "G/B:2",
+     "G:2"
+    ],
+    [
+     "C:1",
+     "A7/C#:2",
+     "D7:1"
+    ],
+    [
+     "B7/D#:1",
+     "Em:2",
+     "Gaug/Eb:1"
+    ],
+    [
+     "G/D:2",
+     "A7/C#:2"
+    ],
+    [
+     "C:2",
+     "Cm:2"
+    ],
+    [
+     "G/B:2",
+     "A7/C#:1",
+     "Am7/D:1"
+    ],
+    [
+     "Am7/D:1",
+     "D7:1",
+     "G:2"
+    ],
+    "G/B",
+    "A7/C#"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "G:2",
+     "Am7:2"
+    ],
+    [
+     "G/B:2",
+     "G:2"
+    ],
+    [
+     "C:1",
+     "A7/C#:2",
+     "D7:1"
+    ],
+    [
+     "B7/D#:1",
+     "Em:2",
+     "Gaug/Eb:1"
+    ],
+    [
+     "G/D:2",
+     "A7/C#:2"
+    ],
+    [
+     "C:2",
+     "Cm:2"
+    ],
+    [
+     "G/B:2",
+     "A7/C#:1",
+     "Am7/D:1"
+    ],
+    [
+     "Am7/D:1",
+     "D7:1",
+     "G:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "Fsus2:1",
+     "C/E:2",
+     "Dm:1"
+    ],
+    [
+     "C:1",
+     "Gm/Bb:2",
+     "C:1"
+    ],
+    [
+     "Fsus2:1",
+     "C/E:2",
+     "Dm:1"
+    ],
+    [
+     "C:1",
+     "Gm/Bb:2",
+     "A7:1"
+    ],
+    [
+     "Dm7:2",
+     "G/D:2"
+    ],
+    [
+     "G/D:2",
+     "G:2"
+    ],
+    "G",
+    "Am7",
+    "G/B",
+    "G",
+    "C",
+    "A7/C#",
+    "D7"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "Fsus2:1",
+     "C/E:2",
+     "Dm:1"
+    ],
+    [
+     "C:1",
+     "Gm/Bb:2",
+     "C:1"
+    ],
+    [
+     "Fsus2:1",
+     "C/E:2",
+     "Dm:1"
+    ],
+    [
+     "C:1",
+     "Gm/Bb:2",
+     "A7:1"
+    ],
+    [
+     "Dm7:2",
+     "G/D:2"
+    ],
+    [
+     "G/D:2",
+     "G:2"
+    ],
+    "G",
+    "Am7",
+    "G/B",
+    "G",
+    "G",
+    "Am7",
+    "G/B"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "G:2",
+     "Am7:2"
+    ],
+    [
+     "G/B:2",
+     "G:2"
+    ],
+    [
+     "C:1",
+     "A7/C#:2",
+     "D7:1"
+    ],
+    [
+     "B7/D#:1",
+     "Em:2",
+     "Gaug/Eb:1"
+    ],
+    [
+     "G/D:2",
+     "A7/C#:2"
+    ],
+    [
+     "C:2",
+     "Cm:2"
+    ],
+    [
+     "G/B:2",
+     "A7/C#:1",
+     "Am7/D:1"
+    ],
+    [
+     "Am7/D:1",
+     "D7:1",
+     "G:2"
+    ],
+    [
+     "C:1",
+     "G/B:2",
+     "A7/C#:1"
+    ],
+    [
+     "Am7/D:1",
+     "D7:2",
+     "G:1"
+    ],
+    [
+     "C:2",
+     "G/B:2"
+    ],
+    [
+     "G/B:2",
+     "A7/C#:2"
+    ],
+    [
+     "Am7/D:2",
+     "D7:2"
+    ],
+    [
+     "D7:2",
+     "G:2"
+    ]
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   2,
+   4.55
+  ],
+  [
+   6,
+   14.405
+  ],
+  [
+   12,
+   28.306
+  ],
+  [
+   18,
+   42.336
+  ],
+  [
+   22,
+   51.604
+  ],
+  [
+   33,
+   77.176
+  ],
+  [
+   46,
+   107.049
+  ],
+  [
+   52,
+   120.811
+  ],
+  [
+   56,
+   130.32
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 116348212
+}

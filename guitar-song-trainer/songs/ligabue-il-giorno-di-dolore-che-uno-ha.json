@@ -1,0 +1,336 @@
+{
+ "title": "Il giorno di dolore che uno ha",
+ "artist": "Ligabue",
+ "album": "Giro d'Italia (Cd 1)",
+ "year": 1999,
+ "genre": "Rock",
+ "difficulty": 2,
+ "youtubeId": "W37kGc3zCxo",
+ "key": "G",
+ "bpm": 120.66,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1,
+ "strum": "PPPPPPPP",
+ "lyricsSource": {
+  "lrclibId": 18480520,
+  "duration": 299.029,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – Cadd9 – D – Am – C.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G",
+    "%",
+    "Cadd9",
+    "Am",
+    "G"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "G",
+    "G",
+    "%",
+    "Cadd9",
+    "%",
+    "%",
+    "G",
+    "G",
+    "%",
+    "Cadd9",
+    [
+     "Cadd9:2",
+     "Am:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    [
+     "D:2",
+     "Cadd9:2"
+    ],
+    "%",
+    "G",
+    "%",
+    "%",
+    "Cadd9",
+    "%",
+    [
+     "Cadd9:2",
+     "D:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Cadd9:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Cadd9",
+    "Am",
+    "G",
+    "G",
+    "%",
+    "Cadd9",
+    [
+     "Cadd9:2",
+     "Am:2"
+    ],
+    "%",
+    "D",
+    [
+     "D:2",
+     "Cadd9:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "G",
+    "%",
+    "%",
+    "Cadd9",
+    "%",
+    [
+     "Cadd9:2",
+     "D:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "Cadd9:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "D",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "C",
+    "%",
+    "D",
+    "%",
+    "C",
+    "%",
+    "D",
+    "%",
+    "D",
+    "%",
+    "C",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "G",
+    "%",
+    "Cadd9",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "Cadd9",
+    [
+     "Cadd9:2",
+     "Am:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    "%",
+    "%",
+    "G",
+    "G",
+    "%",
+    "Cadd9",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    [
+     "Cadd9:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "C",
+    "%",
+    "Am",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "C",
+    "%",
+    "Am",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "C",
+    "%",
+    "Am",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "C",
+    "%",
+    "Am",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "C"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   5,
+   11.113
+  ],
+  [
+   11,
+   23.047
+  ],
+  [
+   17,
+   34.917
+  ],
+  [
+   23,
+   46.817
+  ],
+  [
+   28,
+   56.762
+  ],
+  [
+   41,
+   82.38
+  ],
+  [
+   47,
+   94.314
+  ],
+  [
+   53,
+   106.175
+  ],
+  [
+   58,
+   116.072
+  ],
+  [
+   84,
+   167.836
+  ],
+  [
+   98,
+   195.75
+  ],
+  [
+   109,
+   217.732
+  ],
+  [
+   111,
+   221.768
+  ]
+ ],
+ "strumSource": "stima"
+}

@@ -1,0 +1,323 @@
+{
+ "title": "Pensieri e parole",
+ "artist": "Lucio Battisti",
+ "album": "Le avventure di Lucio Battisti e Mogol",
+ "year": 1971,
+ "genre": "Cantautori",
+ "difficulty": 3,
+ "youtubeId": "-MP_oMstjKs",
+ "key": "Am",
+ "bpm": 152.4,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.0,
+ "strum": "D-D-DUDU",
+ "lyricsSource": {
+  "lrclibId": 37002507,
+  "duration": 232.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Am – E – Dm – G – E7 – C.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "F",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Dm",
+    "%",
+    "%",
+    "E7",
+    "%",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Dm",
+    "%",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "E",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "A",
+    "%",
+    "A4",
+    "%",
+    [
+     "A4:2",
+     "Dm:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "G",
+    [
+     "G:2",
+     "E7:2"
+    ],
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "%",
+    "C",
+    "%",
+    "Dm",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    "E",
+    [
+     "E:2",
+     "Am:2"
+    ],
+    [
+     "Am:2",
+     "A:2"
+    ],
+    "%",
+    "Dm",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    [
+     "G:1",
+     "E:2",
+     "Am:1"
+    ],
+    "C",
+    "%",
+    "Dm",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  },
+  {
+   "name": "Strofa 7",
+   "bars": [
+    "E",
+    [
+     "E:2",
+     "Am:2"
+    ],
+    "%",
+    "G",
+    "%",
+    "F",
+    [
+     "F:2",
+     "E:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 8",
+   "bars": [
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 9",
+   "bars": [
+    "Dm",
+    "%",
+    "%",
+    "%",
+    "Am",
+    [
+     "Am:2",
+     "E:2"
+    ],
+    "%",
+    "A",
+    "%",
+    "A4",
+    "%",
+    [
+     "A4:2",
+     "Dm:2"
+    ],
+    "%",
+    "%",
+    "G",
+    [
+     "G:2",
+     "E7:2"
+    ],
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "%",
+    "C",
+    "%",
+    [
+     "C:2",
+     "Dm:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 10",
+   "bars": [
+    "E",
+    "Am",
+    "A",
+    "Dm",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    [
+     "G:1",
+     "E:2",
+     "Am:1"
+    ],
+    "C",
+    "%",
+    "Dm",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  },
+  {
+   "name": "Strofa 11",
+   "bars": [
+    "E",
+    "%",
+    [
+     "E:2",
+     "Am:2"
+    ],
+    "%",
+    "%",
+    [
+     "Am:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "F",
+    "%",
+    [
+     "F:2",
+     "E:2"
+    ],
+    "%",
+    "%",
+    [
+     "E:2",
+     "Am:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima"
+}

@@ -1,0 +1,194 @@
+{
+ "title": "Estate",
+ "artist": "Negramaro",
+ "album": "La Finestra (Deluxe Edition)",
+ "year": 2005,
+ "genre": "Pop / Rock",
+ "difficulty": 5,
+ "youtubeId": "ANFV6T3vuSg",
+ "key": "E",
+ "bpm": 88.38,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.28,
+ "strum": "D--UD-DU",
+ "lyricsSource": {
+  "lrclibId": 35927745,
+  "duration": 179,
+  "offset": 0
+ },
+ "notes": "Accordi principali: E – D – A – C#m – Bm7 – Bm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "A",
+    "E",
+    "Bm7",
+    "C#m7",
+    "D",
+    "E"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "E",
+    "%",
+    [
+     "Bm7:2",
+     "C#m7:1",
+     "D:1"
+    ],
+    [
+     "D:1",
+     "E:1",
+     "A:2"
+    ],
+    "E",
+    "%",
+    "Bm7",
+    "C#m7",
+    "%",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%",
+    "%",
+    "A",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "E",
+    "%",
+    [
+     "Bm:2",
+     "C#m:2"
+    ],
+    [
+     "C#m:2",
+     "D:2"
+    ],
+    "E",
+    "%",
+    [
+     "C#m:2",
+     "D:2"
+    ],
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    "%",
+    "A",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "F#m",
+    "%",
+    "%",
+    [
+     "Bm:2",
+     "C#m:1",
+     "D:1"
+    ],
+    [
+     "D:1",
+     "E:1",
+     "F#m:2"
+    ],
+    "%",
+    "%",
+    "Bm",
+    "C#m",
+    "D"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "A",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   6,
+   18.878
+  ],
+  [
+   12,
+   34.973
+  ],
+  [
+   17,
+   48.457
+  ],
+  [
+   26,
+   72.567
+  ],
+  [
+   32,
+   88.851
+  ],
+  [
+   37,
+   102.438
+  ],
+  [
+   42,
+   116.5
+  ],
+  [
+   51,
+   140.832
+  ],
+  [
+   56,
+   154.666
+  ],
+  [
+   61,
+   168.342
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 1414986052
+}

@@ -1,0 +1,214 @@
+{
+ "title": "Cigno nero",
+ "artist": "Fedez, Francesca Michielin",
+ "album": "Sig. Brainwash - L'arte di accontentare",
+ "year": 2013,
+ "genre": "Pop / Rap",
+ "difficulty": 3,
+ "youtubeId": "a6h45y3Cp0k",
+ "key": "Fa diesis minore (F#m)",
+ "bpm": 90.45,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.04,
+ "strum": "D--D--D-",
+ "lyricsSource": {
+  "lrclibId": 11538705,
+  "duration": 202,
+  "offset": 0
+ },
+ "notes": "Adattamento per chitarra del brano rap: un giro di tre accordi F#m – C#m7 – Dmaj7. Col capotasto al 2° diventa Em – Bm7 – Cmaj7.",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. L'app controlla da sola che testo e accordi siano coerenti; per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F#m",
+    "C#m7",
+    "Dmaj7",
+    "%",
+    "F#m",
+    "C#m7",
+    "Dmaj7",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1 (Fedez)",
+   "bars": [
+    "F#m",
+    "C#m7",
+    "Dmaj7",
+    "%",
+    "F#m",
+    "C#m7",
+    "Dmaj7",
+    "%",
+    "F#m",
+    "C#m7",
+    "Dmaj7",
+    "%",
+    "F#m",
+    "C#m7",
+    "Dmaj7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "F#m",
+    "C#m7",
+    "Dmaj7",
+    "%",
+    "F#m",
+    "C#m7",
+    "Dmaj7",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D--D-UDU"
+  },
+  {
+   "name": "Strofa 2 (Fedez)",
+   "bars": [
+    "F#m",
+    "C#m7",
+    "Dmaj7",
+    "%",
+    "F#m",
+    "C#m7",
+    "Dmaj7",
+    "%",
+    "F#m",
+    "C#m7",
+    "Dmaj7",
+    "%",
+    "F#m",
+    "C#m7",
+    "Dmaj7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "F#m",
+    "C#m7",
+    "Dmaj7",
+    "%",
+    "F#m",
+    "C#m7",
+    "Dmaj7",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D--D-UDU"
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "F#m",
+    "C#m7",
+    "Dmaj7",
+    "%",
+    "F#m",
+    "C#m7",
+    "Dmaj7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello finale",
+   "bars": [
+    "F#m7",
+    "C#m7",
+    "Dmaj7",
+    "%",
+    "F#m7",
+    "C#m7",
+    "Dmaj7",
+    "%",
+    "F#m7",
+    "C#m7",
+    "Dmaj7",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D--D-UDU"
+  }
+ ],
+ "warp": [
+  [
+   7,
+   20.673
+  ],
+  [
+   12,
+   33.833
+  ],
+  [
+   16,
+   44.49
+  ],
+  [
+   20,
+   55.027
+  ],
+  [
+   25,
+   69.1
+  ],
+  [
+   30,
+   82.203
+  ],
+  [
+   34,
+   92.027
+  ],
+  [
+   39,
+   104.653
+  ],
+  [
+   43,
+   115.263
+  ],
+  [
+   48,
+   129.61
+  ],
+  [
+   52,
+   140.49
+  ],
+  [
+   58,
+   155.59
+  ],
+  [
+   62,
+   166.26
+  ],
+  [
+   67,
+   180.037
+  ],
+  [
+   70,
+   188.12
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 65101374
+}

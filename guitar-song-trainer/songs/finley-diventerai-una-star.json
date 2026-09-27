@@ -1,0 +1,153 @@
+{
+ "title": "Diventerai una star",
+ "artist": "Finley",
+ "album": "Tutto è possibile",
+ "year": 2006,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "FyTpkk9bu2s",
+ "key": "B",
+ "bpm": 92.35,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.57,
+ "strum": "P-P-D-DU",
+ "lyricsSource": {
+  "lrclibId": 20136935,
+  "duration": 188.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Eadd9 – B – F# – E – G#m – G#m7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "B",
+    "E",
+    "G#m",
+    "E",
+    "B",
+    "E",
+    "G#m",
+    "E"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "G#m",
+    "%",
+    "F#",
+    "E",
+    [
+     "B:2",
+     "E:2"
+    ],
+    "G#m",
+    "F#",
+    "E",
+    [
+     "Eadd9:2",
+     "B:1"
+    ],
+    "%",
+    "Eadd9",
+    [
+     "Eadd9:2",
+     "F#:2"
+    ],
+    "B",
+    "F#",
+    "Eadd9",
+    [
+     "G#m:2",
+     "F#:2"
+    ],
+    "B",
+    "F#",
+    "Eadd9",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "B:2",
+     "E:2"
+    ],
+    "G#m",
+    "F#",
+    "Eadd9"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Eadd9:2",
+     "B:1"
+    ],
+    "%",
+    "Eadd9",
+    [
+     "Eadd9:2",
+     "F#:2"
+    ],
+    "B",
+    "F#",
+    "Eadd9",
+    [
+     "G#m:2",
+     "F#:2"
+    ],
+    "B",
+    "F#",
+    "Eadd9",
+    "%",
+    "%",
+    "%",
+    "%",
+    "B",
+    "E",
+    "G#m7",
+    "E",
+    "B",
+    "E",
+    "G#m7",
+    "Eadd9"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "B",
+    "F#",
+    "Eadd9",
+    [
+     "G#m:2",
+     "F#:2"
+    ],
+    "B",
+    "F#",
+    "Eadd9",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima"
+}

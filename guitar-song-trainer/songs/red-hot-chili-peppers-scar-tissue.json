@@ -1,0 +1,183 @@
+{
+ "title": "Scar Tissue",
+ "artist": "Red Hot Chili Peppers",
+ "album": "626 млн просмотров",
+ "year": 1999,
+ "genre": "Rock",
+ "difficulty": 1,
+ "youtubeId": "mzJj5-lubeM",
+ "key": "F",
+ "bpm": 88.93,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.18,
+ "strum": "P-P-D-DU",
+ "lyricsSource": {
+  "lrclibId": 36840401,
+  "duration": 221,
+  "offset": 0
+ },
+ "notes": "Accordi principali: F – Dm – C.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F",
+    "C",
+    "Dm",
+    "C"
+   ],
+   "strum": "D---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "F",
+    "Dm",
+    "F",
+    "Dm",
+    "F",
+    "%",
+    "F",
+    "%",
+    "F",
+    "Dm",
+    "F",
+    "Dm",
+    "F",
+    "%",
+    "Dm",
+    "%",
+    "F",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "F",
+    "Dm",
+    "F",
+    "Dm",
+    "F",
+    "%",
+    "F",
+    "%",
+    "F",
+    "Dm",
+    "F",
+    "Dm",
+    "F",
+    "%",
+    "Dm",
+    "%",
+    "F",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "F",
+    "Dm",
+    "F",
+    "Dm",
+    "F",
+    "%",
+    "Dm",
+    "%",
+    "F",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   11.171
+  ],
+  [
+   8,
+   21.91
+  ],
+  [
+   13,
+   35.136
+  ],
+  [
+   18,
+   48.63
+  ],
+  [
+   26,
+   70.283
+  ],
+  [
+   32,
+   86.612
+  ],
+  [
+   37,
+   100.036
+  ],
+  [
+   42,
+   113.525
+  ],
+  [
+   52,
+   140.518
+  ],
+  [
+   56,
+   151.308
+  ],
+  [
+   60,
+   162.234
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 725254,
+ "spotifyId": "1G391cbiT3v3Cywg8T7DM1"
+}

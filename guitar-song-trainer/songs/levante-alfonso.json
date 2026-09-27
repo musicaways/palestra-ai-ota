@@ -1,0 +1,264 @@
+{
+ "title": "Alfonso",
+ "artist": "Levante",
+ "album": "Manuale Distruzione - Dieci Anni Dopo",
+ "year": 2013,
+ "genre": "Indie",
+ "difficulty": 2,
+ "youtubeId": "gDQAeKu1F10",
+ "key": "Am",
+ "bpm": 79.35,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.24,
+ "strum": "D--UXUDU",
+ "lyricsSource": {
+  "lrclibId": 36440364,
+  "duration": 212,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Am – G – C – D – Am7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G",
+    "Am",
+    "C",
+    "G",
+    "Am",
+    "C"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "G:2",
+     "Am:2"
+    ],
+    [
+     "Am:2",
+     "C:2"
+    ],
+    [
+     "G:2",
+     "Am:2"
+    ],
+    [
+     "Am:2",
+     "C:2"
+    ],
+    [
+     "G:1",
+     "Am:2",
+     "C:1"
+    ],
+    "G",
+    "Am",
+    "C",
+    [
+     "G:2",
+     "Am:2"
+    ],
+    [
+     "Am:2",
+     "C:2"
+    ],
+    "Am",
+    "C",
+    [
+     "G:1",
+     "Am:2",
+     "C:1"
+    ],
+    "G",
+    "Am",
+    "C",
+    "D",
+    "Am",
+    [
+     "Am:2",
+     "D:2"
+    ],
+    "%",
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "D",
+    "Am",
+    "G",
+    "D",
+    "G",
+    "D",
+    "Am",
+    [
+     "G:2",
+     "Am:2"
+    ],
+    "C",
+    "G",
+    [
+     "G:2",
+     "Am:2"
+    ],
+    [
+     "Am:2",
+     "C:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "G:1",
+     "Am:2",
+     "C:1"
+    ],
+    "%",
+    [
+     "G:2",
+     "Am:2"
+    ],
+    [
+     "Am:2",
+     "C:2"
+    ],
+    "D",
+    "Am",
+    [
+     "Am:2",
+     "D:2"
+    ],
+    "%",
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "Am:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    [
+     "Am:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "G",
+    "%",
+    "%",
+    "%",
+    [
+     "Am7:2",
+     "C:2"
+    ],
+    "G",
+    "D",
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "G",
+    "D",
+    [
+     "Am:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "G",
+    "D",
+    "Am7",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D---"
+  }
+ ],
+ "warp": [
+  [
+   6,
+   18.1
+  ],
+  [
+   10,
+   30.855
+  ],
+  [
+   16,
+   49.038
+  ],
+  [
+   20,
+   60.959
+  ],
+  [
+   27,
+   82.042
+  ],
+  [
+   31,
+   94.128
+  ],
+  [
+   36,
+   109.103
+  ],
+  [
+   40,
+   121.201
+  ],
+  [
+   49,
+   148.531
+  ],
+  [
+   53,
+   160.629
+  ],
+  [
+   57,
+   172.727
+  ],
+  [
+   61,
+   184.712
+  ],
+  [
+   67,
+   202.859
+  ]
+ ],
+ "strumSource": "stima"
+}

@@ -1,0 +1,251 @@
+{
+ "title": "Parole di burro",
+ "artist": "Carmen Consoli",
+ "album": "Stato Di Necessità",
+ "year": 2000,
+ "genre": "Rock / Cantautori",
+ "difficulty": 5,
+ "youtubeId": "NwjTfikeWxw",
+ "key": "A",
+ "bpm": 118.22,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.57,
+ "strum": "PPPPPPPP",
+ "lyricsSource": {
+  "lrclibId": 33877446,
+  "duration": 243.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – Emaj7 – E – C#m – G#m7 – Amaj7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Emaj7",
+    "Amaj7",
+    "Emaj7",
+    "A6",
+    "Emaj7",
+    "Emaj7",
+    "Emaj7",
+    "G#m7",
+    "%",
+    "A",
+    "C#m7",
+    "%",
+    "A",
+    "Emaj7",
+    "%",
+    "G#m7"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "A",
+    "%",
+    [
+     "A:2",
+     "C#m7:2"
+    ],
+    "%",
+    "C#m7",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "E",
+    "%",
+    "%",
+    "%",
+    "G#m7",
+    "%",
+    "F#m7",
+    "%",
+    "E",
+    "%",
+    "G#m7",
+    "F#m7",
+    "A",
+    "C#m",
+    "E",
+    "B",
+    "%",
+    "%",
+    "A",
+    "C#m",
+    "F#",
+    [
+     "A:2",
+     "C#m:2"
+    ],
+    "E",
+    [
+     "B:2",
+     "A:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "Emaj7",
+    "%",
+    "G#m7",
+    "A",
+    "C#m7",
+    "%",
+    "A",
+    "Emaj7",
+    "Emaj7",
+    "%",
+    "G#m7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "A",
+    [
+     "A:2",
+     "C#m7:2"
+    ],
+    "%",
+    "%",
+    "Amaj7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "E",
+    "%",
+    "%",
+    "G#m7",
+    "%",
+    "F#m7",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "E",
+    "%",
+    "%",
+    "G#m7",
+    "%",
+    "F#m7",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    [
+     "A:2",
+     "C#m:2"
+    ],
+    [
+     "E:2",
+     "B:2"
+    ],
+    "%",
+    "%",
+    "A",
+    [
+     "A:2",
+     "C#m:2"
+    ],
+    [
+     "C#m:2",
+     "F#:2"
+    ],
+    "%",
+    [
+     "A:1",
+     "C#m:1",
+     "E:1",
+     "B:1"
+    ],
+    "A",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    [
+     "A:1",
+     "C#m:1",
+     "E:1",
+     "B:1"
+    ],
+    "A",
+    "%",
+    "C#m",
+    "%",
+    "E",
+    "%",
+    "%",
+    "%",
+    "Emaj7",
+    "%",
+    [
+     "Emaj7:2",
+     "Amaj7:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 7",
+   "bars": [
+    "Emaj7",
+    "A6",
+    "Emaj7",
+    "Amaj7",
+    "Emaj7",
+    "%",
+    "A6",
+    [
+     "A6:2",
+     "Emaj7:2"
+    ],
+    "%",
+    "Amaj7",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima"
+}

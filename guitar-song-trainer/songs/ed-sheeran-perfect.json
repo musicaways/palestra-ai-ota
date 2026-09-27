@@ -1,0 +1,428 @@
+{
+ "title": "Perfect",
+ "artist": "Ed Sheeran",
+ "album": "Bravo Hits 2018",
+ "year": 2017,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "CWG-GDfejmY",
+ "key": "Ab",
+ "bpm": 99.91,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.44,
+ "strum": "D--UD-DU",
+ "lyricsSource": {
+  "lrclibId": 36995784,
+  "duration": 262,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Ab – Eb – Dbadd9 – Fm7 – Db – Fm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Ab",
+    "Ab",
+    [
+     "Ab:2",
+     "Fm7:2"
+    ],
+    "%",
+    "Dbadd9",
+    [
+     "Dbadd9:2",
+     "Eb:2"
+    ],
+    "%",
+    "Ab",
+    [
+     "Ab:2",
+     "Fm7:2"
+    ],
+    "%",
+    "Dbadd9",
+    [
+     "Dbadd9:2",
+     "Eb:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Ab",
+    "%",
+    "Fm7",
+    "%",
+    "Dbadd9",
+    "Ab",
+    "Eb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Ab",
+    "Fm7",
+    "%",
+    "Dbadd9",
+    [
+     "Dbadd9:2",
+     "Eb:2"
+    ],
+    "%",
+    "Fm",
+    "Dbadd9",
+    "Ab"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Eb",
+    "Fm7",
+    [
+     "Dbadd9:2",
+     "Ab:2"
+    ],
+    [
+     "Eb:2",
+     "Fm7:2"
+    ],
+    "Dbadd9",
+    "Ab",
+    [
+     "Eb:2",
+     "Fm7:2"
+    ],
+    "Db",
+    "Ab",
+    "%",
+    [
+     "Ab:2",
+     "Eb:2"
+    ],
+    "%",
+    "%",
+    "Ab",
+    [
+     "Ab:2",
+     "Fm7:2"
+    ],
+    "%",
+    "Eb",
+    "%",
+    "%",
+    "Ab",
+    "%",
+    "Fm7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Dbadd9",
+    "Eb",
+    "Ab",
+    "%",
+    "Fm7",
+    "%",
+    "Db",
+    "Ab",
+    "Eb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Ab",
+    "Fm7",
+    "%",
+    "Db",
+    [
+     "Db:2",
+     "Eb:2"
+    ],
+    "%",
+    "Fm",
+    "Dbadd9",
+    "Ab"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "Eb",
+    "Fm7",
+    [
+     "Dbadd9:2",
+     "Ab:2"
+    ],
+    [
+     "Eb:2",
+     "Fm7:2"
+    ],
+    "Dbadd9",
+    [
+     "Dbadd9:2",
+     "Ab:2"
+    ],
+    "%",
+    "Fm7",
+    "Dbadd9",
+    [
+     "Ab:2",
+     "Eb:2"
+    ],
+    [
+     "Ab:2",
+     "Fm7:2"
+    ],
+    "Dbadd9",
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "Fm",
+    "Dbadd9",
+    "Ab"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    [
+     "Eb:2",
+     "Fm7:2"
+    ],
+    "Dbadd9",
+    "Ab",
+    [
+     "Eb:2",
+     "Fm7:2"
+    ],
+    "Db",
+    "Ab",
+    [
+     "Eb:2",
+     "Fm7:2"
+    ],
+    [
+     "Fm7:2",
+     "Db:2"
+    ],
+    "Ab",
+    "Eb",
+    "Dbadd9",
+    "%",
+    "Eb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   1,
+   2.98
+  ],
+  [
+   4,
+   10.36
+  ],
+  [
+   7,
+   17.69
+  ],
+  [
+   10,
+   25.37
+  ],
+  [
+   13,
+   31.85
+  ],
+  [
+   15,
+   36.78
+  ],
+  [
+   17,
+   40.74
+  ],
+  [
+   20,
+   48.12
+  ],
+  [
+   21,
+   51.92
+  ],
+  [
+   23,
+   55.78
+  ],
+  [
+   26,
+   62.37
+  ],
+  [
+   29,
+   69.84
+  ],
+  [
+   31,
+   73.76
+  ],
+  [
+   32,
+   77.45
+  ],
+  [
+   33,
+   80.45
+  ],
+  [
+   35,
+   84.2
+  ],
+  [
+   36,
+   87.76
+  ],
+  [
+   37,
+   90.51
+  ],
+  [
+   42,
+   101.07
+  ],
+  [
+   45,
+   108.83
+  ],
+  [
+   48,
+   116.58
+  ],
+  [
+   52,
+   124.51
+  ],
+  [
+   54,
+   130.64
+  ],
+  [
+   56,
+   135.32
+  ],
+  [
+   58,
+   139.31
+  ],
+  [
+   61,
+   146.76
+  ],
+  [
+   62,
+   150.26
+  ],
+  [
+   64,
+   154.35
+  ],
+  [
+   67,
+   161.01
+  ],
+  [
+   70,
+   168.27
+  ],
+  [
+   72,
+   172.32
+  ],
+  [
+   73,
+   175.99
+  ],
+  [
+   74,
+   179.23
+  ],
+  [
+   77,
+   185.32
+  ],
+  [
+   79,
+   189.07
+  ],
+  [
+   83,
+   199.49
+  ],
+  [
+   86,
+   206.3
+  ],
+  [
+   89,
+   213.61
+  ],
+  [
+   92,
+   221.42
+  ],
+  [
+   93,
+   224.7
+  ],
+  [
+   95,
+   228.49
+  ],
+  [
+   97,
+   234.46
+  ],
+  [
+   99,
+   238.26
+  ],
+  [
+   101,
+   242.44
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 142986206,
+ "spotifyId": "0tgVpDi06FyKpA1z0VMD4v"
+}

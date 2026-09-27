@@ -1,0 +1,310 @@
+{
+ "title": "Se io non avessi te",
+ "artist": "Nek",
+ "album": "L'Anno zero",
+ "year": 1998,
+ "genre": "Pop",
+ "difficulty": 2,
+ "youtubeId": "WBLFT8j-5wE",
+ "key": "D",
+ "bpm": 146.54,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.06,
+ "strum": "D-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 19698153,
+  "duration": 228.532,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – D – G – Em – Bb – C.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "D",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "%",
+    "G",
+    "D",
+    "%",
+    "%",
+    "G",
+    "Em",
+    "A",
+    "%",
+    "D",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "A",
+    "%",
+    "%",
+    "D",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "A",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "A",
+    "%",
+    "%",
+    "D",
+    "%",
+    "G",
+    "%",
+    "D",
+    "%",
+    "A",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "A",
+    "%",
+    "%",
+    "Em",
+    "%",
+    "A",
+    "%",
+    "Em",
+    "%",
+    "A",
+    "%",
+    "Em",
+    "%",
+    "A",
+    "%",
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Bb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "C",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "D",
+    "%",
+    "G",
+    "%",
+    "D",
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "G:2"
+    ],
+    "%",
+    "D",
+    "%",
+    "G",
+    "%",
+    "D",
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "G:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "D",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  }
+ ],
+ "warp": [
+  [
+   17,
+   27.854
+  ],
+  [
+   23,
+   37.681
+  ],
+  [
+   29,
+   47.629
+  ],
+  [
+   33,
+   54.248
+  ],
+  [
+   41,
+   67.22
+  ],
+  [
+   48,
+   78.636
+  ],
+  [
+   52,
+   85.187
+  ],
+  [
+   65,
+   106.478
+  ],
+  [
+   69,
+   113.218
+  ],
+  [
+   77,
+   126.32
+  ],
+  [
+   84,
+   137.784
+  ],
+  [
+   88,
+   144.336
+  ],
+  [
+   104,
+   170.356
+  ],
+  [
+   116,
+   190.009
+  ],
+  [
+   120,
+   196.56
+  ],
+  [
+   128,
+   209.599
+  ],
+  [
+   132,
+   216.15
+  ]
+ ],
+ "strumSource": "stima"
+}

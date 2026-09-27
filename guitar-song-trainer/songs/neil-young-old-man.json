@@ -1,0 +1,217 @@
+{
+ "title": "Old Man",
+ "artist": "Neil Young",
+ "album": "2008-12-12: Spectrum, Philadelphia, PA, USA (AUD2)",
+ "year": 1972,
+ "genre": "Folk / Rock",
+ "difficulty": 3,
+ "youtubeId": "ZKCiC-H2Xbg",
+ "key": "D",
+ "bpm": 70.88,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.83,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37238388,
+  "duration": 205,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – F – C – G – Am7 – Em.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "D",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "D",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "D",
+    "%",
+    "%",
+    [
+     "D:1",
+     "Fmaj7:1",
+     "C:1",
+     "G:1"
+    ],
+    "F",
+    "C",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "F",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "F",
+    [
+     "C:1",
+     "F:2",
+     "D:1"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "C",
+    [
+     "F:2",
+     "G:2"
+    ],
+    "D",
+    "Am7"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "D",
+    "%",
+    "%",
+    "%",
+    [
+     "Am7:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "G:2"
+    ],
+    "D",
+    "F",
+    "C",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "D:2",
+     "F:2"
+    ],
+    [
+     "C:1",
+     "G:2",
+     "D:1"
+    ],
+    "F",
+    [
+     "C:1",
+     "F:2",
+     "D:1"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "C",
+    [
+     "F:2",
+     "G:2"
+    ],
+    "D",
+    "Am7",
+    "D",
+    "%",
+    "%",
+    "%",
+    [
+     "D:1",
+     "Fmaj7:1",
+     "C:1",
+     "G:1"
+    ]
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  }
+ ],
+ "warp": [
+  [
+   17,
+   60.534
+  ],
+  [
+   21,
+   73.876
+  ],
+  [
+   25,
+   87.42
+  ],
+  [
+   30,
+   104.728
+  ],
+  [
+   35,
+   121.148
+  ],
+  [
+   39,
+   134.692
+  ],
+  [
+   45,
+   155.008
+  ],
+  [
+   50,
+   172.11
+  ],
+  [
+   55,
+   189.166
+  ],
+  [
+   59,
+   202.772
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 3826696
+}

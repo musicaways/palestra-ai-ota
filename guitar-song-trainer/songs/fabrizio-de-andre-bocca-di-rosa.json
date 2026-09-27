@@ -1,0 +1,415 @@
+{
+ "title": "Bocca di rosa",
+ "artist": "Fabrizio De André",
+ "album": "In concerto - Arraggiamenti PFM (CD 2)",
+ "year": 1967,
+ "genre": "Cantautori",
+ "difficulty": 2,
+ "youtubeId": "0F_prPLht6o",
+ "key": "Am",
+ "bpm": 117.66,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.47,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 36985543,
+  "duration": 280,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Am – E7 – Dm – C – G7 – A7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    [
+     "A7:2",
+     "Dm:2"
+    ],
+    [
+     "G7:2",
+     "C:2"
+    ],
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    [
+     "A7:2",
+     "Dm:2"
+    ],
+    [
+     "G7:2",
+     "C:2"
+    ],
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    "E7",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Am",
+    "%",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    [
+     "A7:2",
+     "Dm:2"
+    ],
+    [
+     "G7:2",
+     "C:2"
+    ],
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    [
+     "A7:2",
+     "Dm:2"
+    ],
+    [
+     "G7:2",
+     "C:2"
+    ],
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    "E7",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    [
+     "A7:2",
+     "Dm:2"
+    ],
+    [
+     "G7:2",
+     "C:2"
+    ],
+    "E7",
+    "Am",
+    "Am",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    [
+     "G7:2",
+     "C:2"
+    ],
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    "E7",
+    "Am",
+    [
+     "E7:2",
+     "Am:2"
+    ],
+    "Am",
+    "E7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  }
+ ],
+ "warp": [
+  [
+   10,
+   21.325
+  ],
+  [
+   33,
+   68.01
+  ],
+  [
+   37,
+   75.79
+  ],
+  [
+   42,
+   85.44
+  ],
+  [
+   46,
+   92.8
+  ],
+  [
+   51,
+   102.47
+  ],
+  [
+   55,
+   110.51
+  ],
+  [
+   62,
+   124.759
+  ],
+  [
+   67,
+   134.66
+  ],
+  [
+   72,
+   144.04
+  ],
+  [
+   76,
+   151.57
+  ],
+  [
+   88,
+   175.808
+  ],
+  [
+   104,
+   208.501
+  ],
+  [
+   108,
+   216.66
+  ],
+  [
+   117,
+   235.089
+  ],
+  [
+   121,
+   242.85
+  ],
+  [
+   126,
+   252.36
+  ],
+  [
+   129,
+   258.239
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 15481477
+}

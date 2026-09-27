@@ -1,0 +1,211 @@
+{
+ "title": "Pianeti",
+ "artist": "Ultimo",
+ "album": "Peter Pan",
+ "year": 2018,
+ "genre": "Pop / Cantautori",
+ "difficulty": 2,
+ "youtubeId": "QdaO4l7a3c4",
+ "key": "Fa minore (Fm)",
+ "bpm": 79.85,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 1,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.05,
+ "strum": "DUUUUUUU",
+ "lyricsSource": {
+  "lrclibId": 24643618,
+  "offset": 0
+ },
+ "notes": "Col capotasto al 1° tasto le forme diventano Em – C – G – D/F#: la versione più comoda per chitarra.",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. Se gli accordi sono in anticipo o in ritardo usa Sincronia; per l'allineamento perfetto Registra tempi.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Fm",
+    "Db",
+    "Ab",
+    "Eb/G",
+    "Fm",
+    "Db",
+    "Ab",
+    "Eb/G",
+    "Fm",
+    "Db",
+    "Ab",
+    "Eb/G",
+    "Fm",
+    "Db",
+    "Ab",
+    "Eb/G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Fm",
+    "Dbadd9",
+    "Ab",
+    "Eb/G",
+    "Fm",
+    "Dbadd9",
+    "Ab",
+    "Eb7/G"
+   ],
+   "strum": "DDDDDDDD"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Fm",
+    "Dbadd9",
+    "Ab",
+    "Eb7/G",
+    "Fm",
+    "Dbadd9",
+    "Ab",
+    "Eb7/G",
+    "Fm",
+    "Dbadd9",
+    "Ab",
+    "Eb7/G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Fm",
+    "Dbadd9",
+    "Ab",
+    "Eb/G",
+    "Fm",
+    "Dbadd9",
+    "Ab",
+    "Eb7/G"
+   ],
+   "strum": "DDDDDDDD"
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Fm",
+    "Dbadd9",
+    "Ab",
+    "Eb7/G",
+    "Fm",
+    "Dbadd9",
+    "Ab",
+    "Eb7/G",
+    "Fm",
+    "Dbadd9",
+    "Ab",
+    "Eb7/G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ponte",
+   "bars": [
+    "Cm",
+    "Fm",
+    "Db",
+    "Ab",
+    "Cm",
+    "Db"
+   ]
+  },
+  {
+   "name": "Ritornello finale",
+   "bars": [
+    "Fm",
+    "Dbadd9",
+    "Ab",
+    "Cm",
+    "Db",
+    "%",
+    "Fm",
+    "Dbadd9",
+    "Ab",
+    "Eb7/G"
+   ],
+   "barsPerRow": 8,
+   "strum": "DDDDDDDD"
+  },
+  {
+   "name": "Outro",
+   "bars": [
+    "Fm",
+    "Db",
+    "Ab",
+    "Cm",
+    "Db",
+    "%"
+   ]
+  }
+ ],
+ "warp": [
+  [
+   1,
+   3.334
+  ],
+  [
+   5,
+   15.076
+  ],
+  [
+   10,
+   30.143
+  ],
+  [
+   14,
+   42.191
+  ],
+  [
+   19,
+   57.137
+  ],
+  [
+   26,
+   77.984
+  ],
+  [
+   30,
+   89.87
+  ],
+  [
+   35,
+   105.09
+  ],
+  [
+   40,
+   120.366
+  ],
+  [
+   44,
+   132.95
+  ],
+  [
+   50,
+   150.1
+  ],
+  [
+   55,
+   164.917
+  ],
+  [
+   65,
+   195.609
+  ],
+  [
+   69,
+   207.723
+  ]
+ ],
+ "strumSource": "ultimate-guitar"
+}

@@ -1,0 +1,271 @@
+{
+ "title": "La donna cannone",
+ "artist": "Francesco De Gregori",
+ "album": "Catcher in the Sky",
+ "year": 1983,
+ "genre": "Cantautori",
+ "difficulty": 5,
+ "youtubeId": "EC4eB4CEOBg",
+ "key": "G",
+ "bpm": 71.01,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.05,
+ "strum": "D---D-DU",
+ "lyricsSource": {
+  "lrclibId": 17551260,
+  "duration": 276.9554999,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – F – C – A – F#m – Cmaj7/B.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F",
+    "G",
+    "C",
+    "F",
+    "C",
+    "G"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "C:2",
+     "Cmaj7/B:2"
+    ],
+    "%",
+    "Gm",
+    "A",
+    "G#",
+    "Cm",
+    [
+     "G:2",
+     "G7:2"
+    ],
+    [
+     "G7:2",
+     "C:2"
+    ],
+    "C",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "C",
+    "Cmaj7/B",
+    "Gm",
+    "A",
+    "G#",
+    "Cm",
+    "G",
+    [
+     "G:2",
+     "F:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "A:2",
+     "F#m:2"
+    ],
+    [
+     "F#m:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "F#m:2"
+    ],
+    "G",
+    [
+     "G7:2",
+     "C:2"
+    ],
+    "Cmaj7/B",
+    "Am",
+    [
+     "Gm:2",
+     "C7:2"
+    ],
+    "F"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    [
+     "Fm:1",
+     "D7:2",
+     "G:1"
+    ],
+    "F",
+    "F",
+    "F",
+    "F",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "C",
+    "Cmaj7/B",
+    "Gm",
+    "A",
+    "G#",
+    "Cm",
+    "G",
+    [
+     "G:2",
+     "F:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "A:2",
+     "F#m:2"
+    ],
+    [
+     "F#m:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "F#m:2"
+    ],
+    "G",
+    [
+     "G7:2",
+     "C:2"
+    ],
+    "Cmaj7/B",
+    "Am",
+    [
+     "Gm:2",
+     "C7:2"
+    ],
+    "F"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "%",
+    [
+     "Fm:1",
+     "D7:2",
+     "G:1"
+    ],
+    "F",
+    "G",
+    "C",
+    "F",
+    "C",
+    "G",
+    "F",
+    "F",
+    "G",
+    "C",
+    "F",
+    "C",
+    "G",
+    "F",
+    "G"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   6,
+   23.17
+  ],
+  [
+   10,
+   36.32
+  ],
+  [
+   16,
+   56.139
+  ],
+  [
+   22,
+   76.301
+  ],
+  [
+   27,
+   93.2
+  ],
+  [
+   37,
+   126.921
+  ],
+  [
+   44,
+   150.429
+  ],
+  [
+   50,
+   170.859
+  ],
+  [
+   55,
+   188.231
+  ],
+  [
+   59,
+   201.861
+  ],
+  [
+   65,
+   222.1
+  ],
+  [
+   66,
+   225.52
+  ]
+ ],
+ "strumSource": "stima"
+}

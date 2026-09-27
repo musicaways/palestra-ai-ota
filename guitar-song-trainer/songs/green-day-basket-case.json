@@ -1,0 +1,242 @@
+{
+ "title": "Basket Case",
+ "artist": "Green Day",
+ "album": "Greatest Hits: Godâs Favorite Band",
+ "year": 1994,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "VKjEdYrx9P0",
+ "key": "Bb",
+ "bpm": 87.41,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.6,
+ "strum": "D-D-D-DU",
+ "lyricsSource": {
+  "lrclibId": 37011536,
+  "duration": 183,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bb – Eb – Ab – Cm – Gm – Db.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Cm:2",
+     "Gm:2"
+    ],
+    "Ab",
+    "Eb",
+    "Cm",
+    "Gm",
+    "Ab",
+    "Eb",
+    [
+     "Ab:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    [
+     "Ab:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    [
+     "Ab:2",
+     "Bb:2"
+    ],
+    [
+     "Eb:1",
+     "Db:2",
+     "Cm:1"
+    ],
+    "Ab",
+    "%",
+    "Bb",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Cm:2",
+     "Gm:2"
+    ],
+    "Bb",
+    "%",
+    "Cm",
+    "Gm",
+    "Ab",
+    "Eb",
+    [
+     "Ab:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    [
+     "Ab:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    [
+     "Ab:2",
+     "Bb:2"
+    ],
+    [
+     "Eb:1",
+     "Db:2",
+     "Cm:1"
+    ],
+    [
+     "Ab:2",
+     "Bb:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Ab",
+    "Bb",
+    [
+     "Eb:1",
+     "Bb:1",
+     "Cm:1",
+     "Gm:1"
+    ],
+    "Eb",
+    "Bb",
+    "Cm",
+    "Gm",
+    "Ab",
+    "Eb",
+    "Bb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "Ab:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    [
+     "Ab:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "Eb:2"
+    ],
+    [
+     "Ab:2",
+     "Bb:2"
+    ],
+    [
+     "Eb:1",
+     "Db:2",
+     "Cm:1"
+    ],
+    [
+     "Ab:2",
+     "Bb:2"
+    ],
+    [
+     "Eb:1",
+     "Cm:1",
+     "Ab:1",
+     "Eb:1"
+    ],
+    "Eb",
+    "Cm",
+    "Ab",
+    "Eb",
+    "Bb",
+    "Eb",
+    "Cm",
+    "Ab",
+    "Eb",
+    "Bb",
+    "Eb",
+    "Cm",
+    "Ab"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   1,
+   4.57
+  ],
+  [
+   5,
+   16.136
+  ],
+  [
+   11,
+   32.751
+  ],
+  [
+   18,
+   52.254
+  ],
+  [
+   22,
+   63.201
+  ],
+  [
+   28,
+   79.634
+  ],
+  [
+   35,
+   99.003
+  ],
+  [
+   45,
+   126.46
+  ],
+  [
+   50,
+   139.707
+  ],
+  [
+   52,
+   145.027
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 678044,
+ "spotifyId": "3IVRacQwKGORqcxNEPMXlA"
+}

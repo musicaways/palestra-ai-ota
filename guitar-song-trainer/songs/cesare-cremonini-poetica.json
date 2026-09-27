@@ -1,0 +1,178 @@
+{
+ "title": "Poetica",
+ "artist": "Cesare Cremonini",
+ "album": "Possibili scenari",
+ "year": 2017,
+ "genre": "Pop / Cantautori",
+ "difficulty": 2,
+ "youtubeId": "O_wjE3L2uGo",
+ "key": "La minore → La maggiore",
+ "bpm": 139.28,
+ "timeSignature": [
+  6,
+  8
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.22,
+ "strum": "D--D-UD-UD--D-UD-U",
+ "lyricsSource": {
+  "lrclibId": 35563125,
+  "offset": 0
+ },
+ "notes": "Tempo in 6/8 (due pulsazioni da tre crome per battuta). La strofa è in La minore, il ritornello si apre in La maggiore con Dmaj7.",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. Se gli accordi sono in anticipo o in ritardo usa Sincronia; per l'allineamento perfetto Registra tempi.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Am",
+    "Fmaj7",
+    "C6",
+    "Em7",
+    "Am",
+    "Fmaj7",
+    "C6",
+    "Em7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Am",
+    "F6",
+    "C",
+    "Em7",
+    "Am",
+    "F6",
+    "C",
+    "Em7",
+    "Am",
+    "F6",
+    "C",
+    "Em7",
+    "Am",
+    "F6",
+    "C",
+    "Em7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Am",
+    "Dm",
+    "C",
+    "Em7",
+    "Am",
+    "F6",
+    "C",
+    "Em7",
+    "Am",
+    "Dm",
+    "C",
+    "Em7",
+    "Am",
+    "F6",
+    "C",
+    "Em7"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Pre-ritornello",
+   "bars": [
+    "Dmaj7",
+    "A",
+    "Dmaj7",
+    "A",
+    "Dmaj7",
+    "F#m",
+    "Dmaj7",
+    "%"
+   ]
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "A",
+    "Dmaj7",
+    "A",
+    "Dmaj7",
+    "F#m",
+    "Dmaj7",
+    "A",
+    "Dmaj7",
+    "A",
+    "Dmaj7",
+    "A",
+    "Dmaj7",
+    "F#m",
+    "Dmaj7",
+    "A",
+    "Dmaj7"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Pre-ritornello",
+   "bars": [
+    "Dmaj7",
+    "A",
+    "Dmaj7",
+    "A",
+    "Dmaj7",
+    "F#m",
+    "Dmaj7",
+    "%"
+   ]
+  },
+  {
+   "name": "Ritornello finale",
+   "bars": [
+    "A",
+    "Dmaj7",
+    "A",
+    "Dmaj7",
+    "F#m",
+    "Dmaj7",
+    "A",
+    "Dmaj7",
+    "A",
+    "Dmaj7",
+    "A",
+    "Dmaj7",
+    "F#m",
+    "Dmaj7",
+    "A",
+    "Dmaj7",
+    "A",
+    "Dmaj7",
+    "A",
+    "Dmaj7"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Outro",
+   "bars": [
+    "A",
+    "Dmaj7",
+    "A",
+    "Dmaj7",
+    "A",
+    "Dmaj7",
+    "A",
+    "Dmaj7",
+    "A",
+    "Dmaj7",
+    "A",
+    "Dmaj7"
+   ],
+   "barsPerRow": 2
+  }
+ ],
+ "strumSource": "ultimate-guitar"
+}

@@ -1,0 +1,226 @@
+{
+ "title": "La storia infinita",
+ "artist": "Pinguini Tattici Nucleari",
+ "album": "Ahia!",
+ "year": 2020,
+ "genre": "Pop / Indie",
+ "difficulty": 2,
+ "youtubeId": "G5skN8QYAMU",
+ "key": "Mi maggiore (E)",
+ "bpm": 89.9,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.89,
+ "strum": "D-D-D-DUD-D-D-DU",
+ "lyricsSource": {
+  "lrclibId": 10689961,
+  "duration": 208,
+  "offset": 0
+ },
+ "notes": "In Mi: strofa E – A, ritornello C#m7 – A – E – B con la salita F#m7 – E/G# – A – B.",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. L'app controlla da sola che testo e accordi siano coerenti; per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "E",
+    "A",
+    "C#m",
+    "A"
+   ]
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "E",
+    "A",
+    "E",
+    "%",
+    "E",
+    "A",
+    "E",
+    "%",
+    "E",
+    "A",
+    "E",
+    "%",
+    "E",
+    "A",
+    "E",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "E",
+    "A",
+    "E",
+    "%",
+    "C#m7",
+    "A",
+    "E",
+    "%"
+   ]
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C#m7",
+    "A",
+    "E",
+    "B",
+    "C#m7",
+    "A",
+    "E",
+    "B",
+    "F#m7",
+    "E/G#",
+    "A",
+    "B"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "E",
+    "A",
+    "E",
+    "%",
+    "E",
+    "A",
+    "E",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ponte",
+   "bars": [
+    "A",
+    "E",
+    "B",
+    "A",
+    "E",
+    "B"
+   ],
+   "barsPerRow": 3
+  },
+  {
+   "name": "Ritornello finale",
+   "bars": [
+    "C#m7",
+    "A",
+    "E",
+    "B",
+    "C#m7",
+    "A",
+    "E",
+    "B",
+    "F#m7",
+    "E/G#",
+    "A",
+    "B",
+    "C#m7",
+    "A",
+    "E",
+    "B",
+    "C#m7",
+    "A"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Outro",
+   "bars": [
+    "E",
+    "A",
+    "E",
+    "C#m",
+    "A",
+    "E"
+   ]
+  }
+ ],
+ "warp": [
+  [
+   3,
+   10.061
+  ],
+  [
+   7,
+   20.739
+  ],
+  [
+   11,
+   31.44
+  ],
+  [
+   16,
+   44.55
+  ],
+  [
+   20,
+   55.111
+  ],
+  [
+   24,
+   65.79
+  ],
+  [
+   28,
+   76.631
+  ],
+  [
+   32,
+   87.569
+  ],
+  [
+   36,
+   98.09
+  ],
+  [
+   40,
+   108.31
+  ],
+  [
+   44,
+   118.989
+  ],
+  [
+   48,
+   129.663
+  ],
+  [
+   52,
+   140.341
+  ],
+  [
+   56,
+   151.02
+  ],
+  [
+   60,
+   161.699
+  ],
+  [
+   64,
+   172.47
+  ],
+  [
+   68,
+   184.111
+  ],
+  [
+   73,
+   197.569
+  ]
+ ],
+ "strumSource": "ultimate-guitar"
+}

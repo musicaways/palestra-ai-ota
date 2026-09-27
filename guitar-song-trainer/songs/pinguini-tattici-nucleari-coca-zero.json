@@ -1,0 +1,293 @@
+{
+ "title": "Coca zero",
+ "artist": "Pinguini Tattici Nucleari",
+ "album": "Pinguini Tattici Nucleari",
+ "year": 2020,
+ "genre": "Pop / Indie",
+ "difficulty": 5,
+ "youtubeId": "FUijg2GO75o",
+ "key": "E",
+ "bpm": 74.72,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.8,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 34654345,
+  "duration": 204,
+  "offset": 0
+ },
+ "notes": "Accordi principali: E – G#7 – A – Amaj7 – G# – Am.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "E",
+    "G#7"
+   ],
+   "strum": "D-------"
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    [
+     "E:2",
+     "G#7:2"
+    ],
+    "Amaj7",
+    [
+     "E:2",
+     "G#7:2"
+    ],
+    "Amaj7",
+    [
+     "E:2",
+     "G#7:2"
+    ],
+    "A",
+    [
+     "G#7:2",
+     "A:2"
+    ],
+    "%",
+    [
+     "E:2",
+     "G#7:2"
+    ],
+    "Amaj7",
+    [
+     "E:2",
+     "G#7:2"
+    ],
+    "Amaj7",
+    [
+     "E:2",
+     "G#7:2"
+    ],
+    "A",
+    [
+     "E:2",
+     "G#7:2"
+    ],
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    [
+     "E:2",
+     "G#:2"
+    ],
+    [
+     "A:2",
+     "B:2"
+    ],
+    [
+     "E:2",
+     "G#:2"
+    ],
+    "A",
+    [
+     "E:2",
+     "G#:2"
+    ],
+    "%",
+    [
+     "E:2",
+     "G#:2"
+    ],
+    "A",
+    [
+     "E:2",
+     "G#7:2"
+    ],
+    [
+     "Am:2",
+     "E:2"
+    ],
+    "%",
+    "%",
+    [
+     "E:2",
+     "G#7:2"
+    ],
+    [
+     "Amaj7:2",
+     "Am:2"
+    ],
+    [
+     "E:2",
+     "G#7:2"
+    ],
+    [
+     "A7:1",
+     "C#m:2",
+     "B:1"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    [
+     "E:2",
+     "G#7:2"
+    ],
+    [
+     "A:2",
+     "Am:2"
+    ],
+    [
+     "E:2",
+     "G#7:2"
+    ],
+    [
+     "Amaj7:1",
+     "C:2",
+     "B:1"
+    ],
+    [
+     "E:2",
+     "G#:2"
+    ],
+    "A",
+    [
+     "E:2",
+     "G#:2"
+    ],
+    "A",
+    "E",
+    "Cmaj7",
+    "G#7",
+    [
+     "Bm7:2",
+     "Emaj7:2"
+    ],
+    [
+     "E7:2",
+     "Amaj7:2"
+    ],
+    [
+     "C6:2",
+     "E:2"
+    ],
+    [
+     "G#7:2",
+     "A:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "%",
+    [
+     "E:2",
+     "G#7:2"
+    ],
+    "Amaj7",
+    [
+     "E:2",
+     "G#7:2"
+    ],
+    "Amaj7",
+    [
+     "E:2",
+     "G#:2"
+    ],
+    [
+     "A:2",
+     "Am:2"
+    ],
+    [
+     "E:2",
+     "G#:2"
+    ],
+    [
+     "A:2",
+     "Am:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "E",
+    "G#"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   2,
+   7.05
+  ],
+  [
+   7,
+   23.46
+  ],
+  [
+   11,
+   36.198
+  ],
+  [
+   16,
+   52.372
+  ],
+  [
+   20,
+   65.166
+  ],
+  [
+   25,
+   80.582
+  ],
+  [
+   29,
+   93.616
+  ],
+  [
+   33,
+   106.856
+  ],
+  [
+   37,
+   119.678
+  ],
+  [
+   41,
+   132.522
+  ],
+  [
+   46,
+   149.128
+  ],
+  [
+   51,
+   165.216
+  ],
+  [
+   55,
+   177.35
+  ],
+  [
+   59,
+   190.144
+  ],
+  [
+   62,
+   199.78
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 2216386007
+}

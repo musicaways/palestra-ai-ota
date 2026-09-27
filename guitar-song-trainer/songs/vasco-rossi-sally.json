@@ -1,0 +1,371 @@
+{
+ "title": "Sally",
+ "artist": "Vasco Rossi",
+ "album": "Gli Spari Sopra",
+ "year": 1996,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "o4xPL7g8ev8",
+ "key": "D",
+ "bpm": 104.03,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.08,
+ "strum": "P-P-D-DU",
+ "lyricsSource": {
+  "lrclibId": 33392242,
+  "duration": 285,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – G – A – Dmaj7 – D7 – A4.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "D",
+    "%",
+    "Dmaj7",
+    "%",
+    "D7",
+    "%",
+    "D",
+    [
+     "D:2",
+     "Dmaj7:2"
+    ],
+    [
+     "Dmaj7:2",
+     "D7:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "G",
+    "Em7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    [
+     "Bm:2",
+     "A6:2"
+    ],
+    [
+     "G:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "G:2"
+    ],
+    "A4",
+    "A",
+    "D4",
+    "D",
+    "%",
+    "%",
+    "G",
+    "%",
+    [
+     "A4:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Dmaj7:2"
+    ],
+    "D7",
+    "G",
+    "Em7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    [
+     "D4:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    [
+     "D:2",
+     "Dmaj7:2"
+    ],
+    [
+     "Dmaj7:2",
+     "D7:2"
+    ],
+    "G",
+    "Em7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "Bm:2",
+     "A6:2"
+    ],
+    [
+     "G:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "G:2"
+    ],
+    "A4",
+    "A",
+    "D4",
+    "D",
+    "%",
+    "%",
+    "A6",
+    "G",
+    [
+     "A4:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "Dmaj7:2"
+    ],
+    "D7",
+    "G",
+    "Em7"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "%",
+    "%",
+    [
+     "D4:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "A:2"
+    ],
+    "D",
+    "Dmaj7",
+    [
+     "D7:2",
+     "G:2"
+    ],
+    "Em7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bm",
+    "A6",
+    [
+     "G:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "G:2"
+    ],
+    "A4",
+    "A",
+    "D4",
+    "D",
+    "%",
+    "%",
+    "A6",
+    "G",
+    "A4",
+    "D",
+    "Dmaj7",
+    "D7",
+    "G",
+    "%",
+    "Em7"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "D:2",
+     "Dmaj7:2"
+    ],
+    [
+     "Dmaj7:2",
+     "D7:2"
+    ],
+    "G",
+    "Em7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bm",
+    "A6",
+    [
+     "G:2",
+     "A:2"
+    ],
+    [
+     "A:2",
+     "G:2"
+    ],
+    "A4",
+    "A",
+    "D4",
+    "D",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "A",
+    "D",
+    "Dmaj7",
+    "D7",
+    "G",
+    "%",
+    "Em7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    [
+     "A4:2",
+     "A:2"
+    ],
+    "D",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D---"
+  }
+ ],
+ "warp": [
+  [
+   10,
+   23.412
+  ],
+  [
+   17,
+   39.819
+  ],
+  [
+   22,
+   50.898
+  ],
+  [
+   26,
+   60.261
+  ],
+  [
+   33,
+   76.199
+  ],
+  [
+   37,
+   85.503
+  ],
+  [
+   43,
+   99.48
+  ],
+  [
+   47,
+   108.6
+  ],
+  [
+   51,
+   117.778
+  ],
+  [
+   55,
+   126.871
+  ],
+  [
+   62,
+   142.819
+  ],
+  [
+   66,
+   152.248
+  ],
+  [
+   72,
+   166.402
+  ],
+  [
+   76,
+   175.63
+  ],
+  [
+   80,
+   184.389
+  ],
+  [
+   86,
+   198.231
+  ],
+  [
+   93,
+   214.103
+  ],
+  [
+   97,
+   223.568
+  ],
+  [
+   103,
+   237.41
+  ],
+  [
+   107,
+   246.673
+  ],
+  [
+   118,
+   272.151
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 358728991
+}

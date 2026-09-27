@@ -1,0 +1,275 @@
+{
+ "title": "Tra palco e realtà",
+ "artist": "Ligabue",
+ "album": "Su e Giù Da Un Palco (Cd 2)",
+ "year": 1999,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "AcnTBYYPxjI",
+ "key": "G",
+ "bpm": 73.86,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.09,
+ "strum": "D-D-D-DU",
+ "lyricsSource": {
+  "lrclibId": 18480486,
+  "duration": 275.649417,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – Am7 – D – Em – Cmaj7 – C.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G",
+    "%",
+    "Am7",
+    "%",
+    "G",
+    "G",
+    "%",
+    "Am7",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D---"
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "%",
+    [
+     "G:2",
+     "Am7:2"
+    ],
+    "%",
+    [
+     "G:2",
+     "Am7:2"
+    ],
+    "%",
+    [
+     "G:2",
+     "Am7:2"
+    ],
+    "%",
+    "%",
+    [
+     "Am7:2",
+     "G:2"
+    ],
+    "%",
+    [
+     "Am7:2",
+     "G:2"
+    ],
+    "D",
+    "Am7",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    "%",
+    [
+     "G:2",
+     "Am7:2"
+    ],
+    "%",
+    [
+     "G:2",
+     "Am7:2"
+    ],
+    "%",
+    [
+     "G:2",
+     "Am7:2"
+    ],
+    "%",
+    [
+     "G:2",
+     "Am7:2"
+    ],
+    "%",
+    "%",
+    [
+     "Am7:2",
+     "G:2"
+    ],
+    "%",
+    [
+     "Am7:2",
+     "G:2"
+    ],
+    "D",
+    "Am7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Em",
+    "Cmaj7",
+    [
+     "G:1",
+     "Em7:1"
+    ],
+    "Cadd9",
+    "G",
+    [
+     "Em:1",
+     "Cmaj7:1"
+    ],
+    [
+     "G:1",
+     "C:1"
+    ],
+    "G",
+    "G",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "%",
+    "G",
+    "%",
+    [
+     "G:2",
+     "Am7:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    [
+     "G:2",
+     "Am7:2"
+    ],
+    "%",
+    "%",
+    [
+     "Am7:2",
+     "G:2"
+    ],
+    "%",
+    [
+     "Am7:2",
+     "G:2"
+    ],
+    "D",
+    "Am7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   5,
+   18.084
+  ],
+  [
+   10,
+   34.252
+  ],
+  [
+   14,
+   47.46
+  ],
+  [
+   18,
+   61.192
+  ],
+  [
+   22,
+   74.548
+  ],
+  [
+   29,
+   96.248
+  ],
+  [
+   33,
+   109.45
+  ],
+  [
+   37,
+   123.089
+  ],
+  [
+   42,
+   139.888
+  ],
+  [
+   46,
+   151.534
+  ],
+  [
+   52,
+   170.784
+  ],
+  [
+   58,
+   190.204
+  ],
+  [
+   63,
+   206.527
+  ],
+  [
+   68,
+   223.282
+  ],
+  [
+   72,
+   236.28
+  ],
+  [
+   76,
+   249.091
+  ],
+  [
+   78,
+   255.729
+  ]
+ ],
+ "strumSource": "stima"
+}

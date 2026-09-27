@@ -1,0 +1,242 @@
+{
+ "title": "Siamo solo noi",
+ "artist": "Vasco Rossi",
+ "album": "Canzoni al massimo  CD 3",
+ "year": 1981,
+ "genre": "Rock",
+ "difficulty": 2,
+ "youtubeId": "8NE_Xij7JP8",
+ "key": "D",
+ "bpm": 75.2,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.76,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 17926202,
+  "duration": 357.903673,
+  "offset": 0
+ },
+ "notes": "Accordi principali: D – G – A7 – Bm – A.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "D",
+    "%",
+    "A",
+    "%",
+    "G",
+    "%",
+    "A",
+    "%",
+    "D",
+    "%",
+    "D"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "A7:2",
+     "D:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "G",
+    "D",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "G",
+    "D",
+    "G",
+    "D",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "G",
+    "D",
+    "%",
+    "%",
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "A7",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "G",
+    "D",
+    [
+     "G:1",
+     "Bm:1",
+     "A:1",
+     "G:1"
+    ],
+    "Bm",
+    "%",
+    [
+     "G:1",
+     "Bm:1",
+     "A:1",
+     "G:1"
+    ],
+    "Bm",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "A7:2",
+     "D:2"
+    ],
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "G",
+    "D",
+    [
+     "G:1",
+     "Bm:1",
+     "A:1",
+     "G:1"
+    ],
+    "Bm",
+    "%",
+    [
+     "G:1",
+     "Bm:1",
+     "A:1",
+     "G:1"
+    ],
+    "Bm",
+    "%",
+    "D",
+    "%",
+    "%",
+    "G",
+    [
+     "G:2",
+     "D:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "A7",
+    "D",
+    "A7",
+    "%",
+    "D",
+    "%",
+    "A7",
+    [
+     "A7:2",
+     "D:2"
+    ],
+    "%",
+    "A7",
+    "D",
+    "A7",
+    [
+     "A7:2",
+     "D:2"
+    ],
+    "%",
+    "A7",
+    [
+     "A7:2",
+     "D:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "A7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "D",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima"
+}

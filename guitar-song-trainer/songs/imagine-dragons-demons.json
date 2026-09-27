@@ -1,0 +1,179 @@
+{
+ "title": "Demons",
+ "artist": "Imagine Dragons",
+ "album": "Night Visions",
+ "year": 2012,
+ "genre": "Pop / Rock",
+ "difficulty": 4,
+ "youtubeId": "pvrkfb1C4tE",
+ "key": "Ab",
+ "bpm": 89.62,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.82,
+ "strum": "D--UD-DU",
+ "lyricsSource": {
+  "lrclibId": 32216516,
+  "duration": 178,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Ab – Bb – Eb – Cm7 – Bb4.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Parte 1",
+   "bars": [
+    "Eb",
+    "%",
+    "Cm7",
+    "%",
+    "Eb",
+    "%",
+    "Ab",
+    "%",
+    "Eb",
+    "Bb",
+    "Eb",
+    "%",
+    "Cm7",
+    "%",
+    "Ab",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "Bb",
+    "%",
+    "Ab",
+    "%",
+    "Bb",
+    "%",
+    "Ab",
+    "%",
+    "Bb4",
+    "%",
+    "Cm7",
+    "%",
+    "Eb",
+    "%",
+    "Cm7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "Eb",
+    "Bb",
+    "Ab",
+    "%",
+    "Cm7",
+    "%",
+    "Ab",
+    "%",
+    "Bb",
+    "%",
+    "Ab",
+    "%",
+    "Bb",
+    "%",
+    "Ab",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "Bb",
+    "%",
+    "Ab",
+    "%",
+    "Bb",
+    "%",
+    "Ab",
+    "%",
+    "Bb",
+    "%",
+    "Ab",
+    "%",
+    "Bb",
+    "%",
+    "Ab",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   0,
+   0.094
+  ],
+  [
+   4,
+   11.392
+  ],
+  [
+   8,
+   22.18
+  ],
+  [
+   12,
+   33.242
+  ],
+  [
+   18,
+   49.31
+  ],
+  [
+   24,
+   65.284
+  ],
+  [
+   32,
+   86.614
+  ],
+  [
+   36,
+   97.212
+  ],
+  [
+   42,
+   113.378
+  ],
+  [
+   46,
+   124.09
+  ],
+  [
+   50,
+   134.696
+  ],
+  [
+   56,
+   150.644
+  ],
+  [
+   60,
+   161.356
+  ],
+  [
+   62,
+   166.758
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 1522720672
+}

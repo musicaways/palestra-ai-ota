@@ -1,0 +1,422 @@
+{
+ "title": "Bitter Sweet Symphony",
+ "artist": "The Verve",
+ "album": "Triple J Hottest 100 Of All Time (2009)",
+ "year": 1997,
+ "genre": "Rock",
+ "difficulty": 1,
+ "youtubeId": "DGC0a4cby5c",
+ "key": "E",
+ "bpm": 85.09,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.64,
+ "strum": "P-P-D-DU",
+ "lyricsSource": {
+  "lrclibId": 37502353,
+  "duration": 358.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: E – Dsus2 – Bm7 – A.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "E",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Bm7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Dsus2",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    [
+     "Dsus2:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    [
+     "Dsus2:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    [
+     "Dsus2:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    [
+     "Dsus2:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    [
+     "Dsus2:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    [
+     "Dsus2:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    [
+     "Dsus2:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    [
+     "Dsus2:2",
+     "A:2"
+    ]
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D---"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    [
+     "Dsus2:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    [
+     "Dsus2:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    [
+     "Dsus2:2",
+     "A:2"
+    ],
+    [
+     "E:1",
+     "Bm7:1",
+     "Dsus2:1",
+     "A:1"
+    ],
+    [
+     "E:1",
+     "Bm7:1",
+     "Dsus2:1",
+     "A:1"
+    ],
+    "E",
+    "Bm7",
+    "Dsus2",
+    "A",
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    [
+     "Dsus2:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    [
+     "Dsus2:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    [
+     "Dsus2:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    [
+     "Dsus2:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    [
+     "Dsus2:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    [
+     "Dsus2:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    [
+     "Dsus2:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    [
+     "Dsus2:2",
+     "A:2"
+    ]
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    [
+     "Dsus2:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    [
+     "Dsus2:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    [
+     "Dsus2:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "Bm7:1",
+     "Dsus2:1"
+    ],
+    [
+     "Dsus2:1",
+     "A:1",
+     "E:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "E",
+    [
+     "Bm7:2",
+     "Dsus2:2"
+    ],
+    "A",
+    "E",
+    [
+     "Bm7:2",
+     "Dsus2:2"
+    ],
+    "A",
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    [
+     "Dsus2:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    [
+     "Dsus2:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "Bm7:1",
+     "Dsus2:1"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "Bm7:1",
+     "Dsus2:1",
+     "A:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "E:1",
+     "Bm7:1",
+     "Dsus2:1",
+     "A:1"
+    ],
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    [
+     "Dsus2:2",
+     "A:2"
+    ],
+    "E",
+    "Bm7",
+    [
+     "Bm7:2",
+     "Dsus2:2"
+    ],
+    "%",
+    "A",
+    [
+     "E:1",
+     "Bm7:1",
+     "Dsus2:1",
+     "A:1"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "E:1",
+     "Bm7:1",
+     "Dsus2:1",
+     "A:1"
+    ],
+    "%",
+    [
+     "E:1",
+     "Bm7:1",
+     "Dsus2:1",
+     "A:1"
+    ],
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    [
+     "Dsus2:2",
+     "A:2"
+    ],
+    [
+     "E:2",
+     "Bm7:2"
+    ],
+    [
+     "Dsus2:2",
+     "A:2"
+    ]
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima",
+ "deezerId": 398570642,
+ "spotifyId": "0Dmao2oWlAZzIBX2Q1B5AH"
+}

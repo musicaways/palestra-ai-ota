@@ -1,0 +1,205 @@
+{
+ "title": "Rosso relativo",
+ "artist": "Tiziano Ferro",
+ "album": "1000% Romantic Soul Ballads Disco 4",
+ "year": 2001,
+ "genre": "Pop",
+ "difficulty": 3,
+ "youtubeId": "yMnDNgtQLKw",
+ "key": "Gm",
+ "bpm": 80.16,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.7,
+ "strum": "D--UD-DU",
+ "lyricsSource": {
+  "lrclibId": 37072701,
+  "duration": 238,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Gm – Cm – D – Bb – F.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Gm",
+    "Cm",
+    "D",
+    "Gm",
+    "Gm",
+    "Cm",
+    "D",
+    "Gm",
+    "%",
+    "%",
+    "%",
+    "Gm",
+    "Cm",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D---"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Gm",
+    "%",
+    "Cm",
+    "D",
+    "Gm",
+    "%",
+    "Bb",
+    "%",
+    "Gm",
+    "%",
+    "%",
+    "%",
+    "Gm",
+    "Cm",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Gm",
+    "%",
+    "Cm",
+    "D",
+    "Gm",
+    "%",
+    "Bb",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "%",
+    "Cm",
+    "Bb",
+    "Gm",
+    "Cm",
+    [
+     "Cm:2",
+     "D:2"
+    ],
+    "%",
+    "Gm",
+    "Cm",
+    "Bb",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Gm",
+    "%",
+    "Cm",
+    "D",
+    "Gm",
+    "%",
+    "Bb",
+    "%",
+    "Gm",
+    "%",
+    "Cm",
+    "D",
+    "Gm",
+    "%",
+    "Bb",
+    "%",
+    "Gm",
+    "%",
+    "Cm",
+    "%",
+    "D",
+    "%",
+    "Gm",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   7,
+   24.034
+  ],
+  [
+   11,
+   35.436
+  ],
+  [
+   15,
+   47.412
+  ],
+  [
+   19,
+   59.412
+  ],
+  [
+   23,
+   71.636
+  ],
+  [
+   27,
+   83.612
+  ],
+  [
+   31,
+   95.588
+  ],
+  [
+   35,
+   107.602
+  ],
+  [
+   39,
+   119.578
+  ],
+  [
+   45,
+   137.956
+  ],
+  [
+   51,
+   155.406
+  ],
+  [
+   57,
+   173.352
+  ],
+  [
+   63,
+   191.316
+  ],
+  [
+   67,
+   203.38
+  ],
+  [
+   71,
+   215.38
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 128561315
+}

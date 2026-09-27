@@ -1,0 +1,311 @@
+{
+ "title": "Ring of Fire",
+ "artist": "Johnny Cash",
+ "album": "1963! Songs of the Year",
+ "year": 1963,
+ "genre": "Country",
+ "difficulty": 1,
+ "youtubeId": "FwiYC0SsQIc",
+ "key": "G",
+ "bpm": 102.75,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.9,
+ "strum": "D--UDUDU",
+ "lyricsSource": {
+  "lrclibId": 36947264,
+  "duration": 158,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – C – D.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G",
+    "C",
+    "G"
+   ],
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa",
+   "bars": [
+    "G",
+    "C",
+    "G",
+    "D",
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "C",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C",
+    "G",
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    "D",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "G",
+    "C",
+    "G",
+    "G",
+    "C",
+    "G",
+    "G",
+    "D",
+    "G",
+    "G"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    "D",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "G",
+    "C",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "%",
+    [
+     "G:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    "D",
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%",
+    "C",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "D",
+    "G",
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    "D",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "G",
+    "C",
+    "G",
+    [
+     "D:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    "D",
+    [
+     "C:2",
+     "G:2"
+    ],
+    "G",
+    "C",
+    "G",
+    "G",
+    "%",
+    "C",
+    "G",
+    "D",
+    "%",
+    "G",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  }
+ ],
+ "warp": [
+  [
+   3,
+   9.27
+  ],
+  [
+   6,
+   15.31
+  ],
+  [
+   9,
+   21.98
+  ],
+  [
+   11,
+   28.24
+  ],
+  [
+   13,
+   32.36
+  ],
+  [
+   15,
+   36.53
+  ],
+  [
+   16,
+   38.85
+  ],
+  [
+   17,
+   41.14
+  ],
+  [
+   18,
+   44.14
+  ],
+  [
+   27,
+   65.66
+  ],
+  [
+   29,
+   69.85
+  ],
+  [
+   30,
+   72.15
+  ],
+  [
+   31,
+   74.42
+  ],
+  [
+   32,
+   77.34
+  ],
+  [
+   35,
+   82.55
+  ],
+  [
+   37,
+   88.84
+  ],
+  [
+   40,
+   95.26
+  ],
+  [
+   43,
+   102.3
+  ],
+  [
+   45,
+   106.86
+  ],
+  [
+   47,
+   111.04
+  ],
+  [
+   48,
+   113.36
+  ],
+  [
+   49,
+   115.65
+  ],
+  [
+   50,
+   118.6
+  ],
+  [
+   52,
+   123.98
+  ],
+  [
+   54,
+   128.11
+  ],
+  [
+   55,
+   130.39
+  ],
+  [
+   56,
+   132.64
+  ],
+  [
+   57,
+   135.59
+  ],
+  [
+   59,
+   140.45
+  ],
+  [
+   61,
+   143.58
+  ],
+  [
+   63,
+   148.09
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 856630,
+ "spotifyId": "6YffUZJ2R06kyxyK6onezL"
+}

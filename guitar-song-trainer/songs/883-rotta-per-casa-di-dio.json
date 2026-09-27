@@ -1,0 +1,369 @@
+{
+ "title": "Rotta per casa di Dio",
+ "artist": "883",
+ "album": "Gli Anni",
+ "year": 1997,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "bu1cOGXqIn8",
+ "key": "C",
+ "bpm": 121.33,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.71,
+ "strum": "D-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 37045654,
+  "duration": 298.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – F – Bbadd9 – Bb – Fadd9.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Fadd9",
+    "Bbadd9",
+    "Fadd9",
+    "Bbadd9",
+    "F",
+    "C",
+    "Bbadd9",
+    "C",
+    "F",
+    "C",
+    "Bbadd9",
+    "C"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "F",
+    "Bbadd9",
+    "F",
+    "C",
+    "F",
+    "Bbadd9",
+    "F",
+    "C",
+    "F",
+    "Bbadd9",
+    "F",
+    "C",
+    "F",
+    "Bbadd9",
+    "F",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    [
+     "F:1",
+     "C:2",
+     "Bbadd9:1"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    "C",
+    [
+     "Bbadd9:2",
+     "C:2"
+    ],
+    [
+     "F:1",
+     "C:2",
+     "Bbadd9:1"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    "C",
+    [
+     "Bbadd9:2",
+     "F:2"
+    ],
+    [
+     "C:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    "Bb",
+    "F",
+    "Bb",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "F",
+    "Bbadd9",
+    "F",
+    "C",
+    "F",
+    "Bbadd9",
+    "F",
+    "C",
+    "F",
+    "Bbadd9",
+    "F",
+    "C",
+    "F",
+    "Bbadd9",
+    "F",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    [
+     "F:1",
+     "C:2",
+     "Bbadd9:1"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    "C",
+    [
+     "Bbadd9:2",
+     "C:2"
+    ],
+    [
+     "F:1",
+     "C:2",
+     "Bbadd9:1"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    "C",
+    [
+     "Bbadd9:2",
+     "F:2"
+    ],
+    [
+     "C:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    "Bb",
+    "F",
+    "Bb",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "F",
+    "%",
+    "C",
+    "%",
+    "Bbadd9",
+    "%",
+    "C",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 7",
+   "bars": [
+    "F",
+    "Bbadd9",
+    "F",
+    "C",
+    "F",
+    "Bbadd9",
+    "F",
+    "C",
+    "F",
+    "Bbadd9",
+    "F",
+    "C",
+    "F",
+    "Bbadd9",
+    "F",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 8",
+   "bars": [
+    [
+     "F:1",
+     "C:2",
+     "Bbadd9:1"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    "C",
+    [
+     "Bbadd9:2",
+     "C:2"
+    ],
+    [
+     "F:1",
+     "C:2",
+     "Bbadd9:1"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    "C",
+    [
+     "Bbadd9:2",
+     "F:2"
+    ],
+    [
+     "C:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    "Bb",
+    "F",
+    "Bb",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 9",
+   "bars": [
+    [
+     "F:1",
+     "C:2",
+     "Bbadd9:1"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    "C",
+    [
+     "Bbadd9:2",
+     "C:2"
+    ],
+    [
+     "F:1",
+     "C:2",
+     "Bbadd9:1"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    "C",
+    [
+     "Bbadd9:2",
+     "F:2"
+    ],
+    [
+     "C:2",
+     "Bb:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    "Bb",
+    "F",
+    "Bb",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 10",
+   "bars": [
+    "F",
+    "%",
+    "C",
+    "%",
+    "Bbadd9",
+    "%",
+    "C",
+    "%",
+    "F",
+    "%",
+    "C",
+    "%",
+    "Bbadd9",
+    "%",
+    "C",
+    "%",
+    "F",
+    "%",
+    "C"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima"
+}

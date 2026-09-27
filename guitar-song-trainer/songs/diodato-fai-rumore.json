@@ -1,0 +1,214 @@
+{
+ "title": "Fai rumore",
+ "artist": "Diodato",
+ "album": "Pop Italiano",
+ "year": 2020,
+ "genre": "Cantautori",
+ "difficulty": 5,
+ "youtubeId": "0tyhPbv3-bM",
+ "key": "Gb",
+ "bpm": 71.89,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.32,
+ "strum": "B-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37010729,
+  "duration": 216,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Gb – Ebm – B – Db – Bm – Bbm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Parte 1",
+   "bars": [
+    "Gb",
+    "Bbm",
+    [
+     "B:2",
+     "B6:2"
+    ],
+    [
+     "Bm:2",
+     "Gb:2"
+    ],
+    "%",
+    "Bbm",
+    "B",
+    "Bm",
+    "Ebm",
+    "Gb",
+    "Ebm",
+    "Gb",
+    [
+     "B:2",
+     "Db:2"
+    ],
+    [
+     "Db:2",
+     "Db7:2"
+    ],
+    "Gb",
+    "Ebm"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    [
+     "B:2",
+     "Db:2"
+    ],
+    [
+     "Db:2",
+     "Db7:2"
+    ],
+    "Gb",
+    "Ebm",
+    "B",
+    "Bm",
+    "Gb",
+    "Bbm",
+    "B",
+    [
+     "Bm:2",
+     "Bm:2"
+    ],
+    "Gb",
+    "Bbm7",
+    "B",
+    "Bm",
+    "Ebm",
+    "Gb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "Ebm",
+    "Gb",
+    [
+     "B:2",
+     "Db:2"
+    ],
+    [
+     "Db:2",
+     "Db7:2"
+    ],
+    "Gb",
+    "Ebm",
+    [
+     "B:2",
+     "Db:2"
+    ],
+    [
+     "Db:2",
+     "Db7:2"
+    ],
+    "Gb",
+    [
+     "Ebm:1",
+     "B:2",
+     "Bm:1"
+    ],
+    "Gb",
+    "Bbm",
+    "B",
+    "Bm",
+    "Gb",
+    "Bbm",
+    "B",
+    "Db4",
+    "Db",
+    "Gb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Ebm",
+    "Db",
+    "Gb",
+    "Bbm7",
+    "Ebm",
+    "Gb",
+    "Ebm",
+    "%",
+    "Ebm",
+    "%",
+    "Gb",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   0,
+   0.365
+  ],
+  [
+   4,
+   13.753
+  ],
+  [
+   8,
+   27.033
+  ],
+  [
+   12,
+   39.935
+  ],
+  [
+   16,
+   53.288
+  ],
+  [
+   20,
+   67.097
+  ],
+  [
+   24,
+   80.565
+  ],
+  [
+   28,
+   93.918
+  ],
+  [
+   32,
+   107.234
+  ],
+  [
+   36,
+   120.452
+  ],
+  [
+   40,
+   133.805
+  ],
+  [
+   52,
+   173.783
+  ],
+  [
+   56,
+   187.293
+  ],
+  [
+   58,
+   193.987
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 859216462
+}

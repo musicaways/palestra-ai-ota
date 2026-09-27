@@ -1,0 +1,186 @@
+{
+ "title": "As It Was",
+ "artist": "Harry Styles",
+ "album": "Titres likés",
+ "year": 2022,
+ "genre": "Pop",
+ "difficulty": 2,
+ "youtubeId": "Y5BOyU29tUw",
+ "key": "Bm",
+ "bpm": 86.89,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.5,
+ "strum": "D--UD-DU",
+ "lyricsSource": {
+  "lrclibId": 36975922,
+  "duration": 167,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bm – E – A – D – D6.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "Bm",
+    [
+     "Bm:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "A:2"
+    ],
+    "%"
+   ]
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "D6",
+    "Bm",
+    "E",
+    "A",
+    "D6",
+    "Bm",
+    "E",
+    "A",
+    "%",
+    [
+     "D:2",
+     "Bm:2"
+    ],
+    [
+     "Bm:2",
+     "E:2"
+    ],
+    "A",
+    "D",
+    "Bm",
+    "E",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "D",
+    "Bm",
+    "E",
+    "A",
+    "D6",
+    "Bm",
+    "E",
+    "A",
+    "D6",
+    "Bm",
+    "E",
+    "A",
+    "D",
+    "Bm",
+    "E",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "D",
+    "Bm",
+    "E",
+    "A",
+    "D",
+    "Bm",
+    "E",
+    "A",
+    "D6",
+    "Bm",
+    "E",
+    "A",
+    "%",
+    "Bm",
+    "E",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "D",
+    "Bm",
+    "E",
+    "%",
+    "%",
+    "A",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   13.554
+  ],
+  [
+   8,
+   24.516
+  ],
+  [
+   13,
+   38.308
+  ],
+  [
+   17,
+   49.213
+  ],
+  [
+   21,
+   60.644
+  ],
+  [
+   25,
+   71.49
+  ],
+  [
+   29,
+   82.516
+  ],
+  [
+   33,
+   93.564
+  ],
+  [
+   37,
+   104.613
+  ],
+  [
+   41,
+   115.913
+  ],
+  [
+   45,
+   127.258
+  ],
+  [
+   49,
+   137.88
+  ],
+  [
+   54,
+   151.684
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 1703487577,
+ "spotifyId": "4Dvkj6JhhA12EX05fT7y2e"
+}

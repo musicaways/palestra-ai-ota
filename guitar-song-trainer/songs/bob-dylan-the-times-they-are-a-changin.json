@@ -1,0 +1,421 @@
+{
+ "title": "The Times They Are a-Changin'",
+ "artist": "Bob Dylan",
+ "album": "The Original Mono Recordings",
+ "year": 1964,
+ "genre": "Folk",
+ "difficulty": 2,
+ "youtubeId": "fS7aBrBUaFU",
+ "key": "G",
+ "bpm": 85.91,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.3,
+ "strum": "B-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 18539518,
+  "duration": 197.653333,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – D – C – Em – Am – D7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa",
+   "bars": [
+    "G"
+   ]
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:1",
+     "Am:1",
+     "C:1",
+     "D:1"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Am:2"
+    ],
+    [
+     "Am:2",
+     "D:2"
+    ],
+    [
+     "D:2",
+     "D7:2"
+    ],
+    [
+     "D6:2",
+     "D:2"
+    ],
+    [
+     "G:1",
+     "C:1",
+     "D:1",
+     "G:1"
+    ],
+    "G",
+    "Em",
+    "C"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:1",
+     "Am:1",
+     "C:1",
+     "D:1"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Am:2"
+    ],
+    [
+     "Am:2",
+     "D:2"
+    ],
+    [
+     "D:1",
+     "D7:1",
+     "D6:1",
+     "D:1"
+    ],
+    "G",
+    [
+     "G:2",
+     "C:2"
+    ],
+    "%",
+    "D",
+    [
+     "D:2",
+     "G:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:1",
+     "Am:1",
+     "C:1",
+     "D:1"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Am:2"
+    ],
+    [
+     "Am:2",
+     "D:2"
+    ],
+    [
+     "D:1",
+     "D7:1",
+     "D6:1",
+     "D:1"
+    ],
+    "G",
+    "C",
+    "D",
+    "G"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:1",
+     "Am:1",
+     "C:1",
+     "D:1"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:1",
+     "Am:2",
+     "D:1"
+    ],
+    [
+     "D:2",
+     "D7:2"
+    ],
+    [
+     "D6:2",
+     "D:2"
+    ],
+    [
+     "G:1",
+     "C:1",
+     "D:1",
+     "G:1"
+    ],
+    "G",
+    "Em",
+    "D",
+    "G",
+    "G",
+    "Em",
+    [
+     "Em:2",
+     "C:2"
+    ],
+    "%",
+    "G"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    [
+     "G:1",
+     "Am:1",
+     "C:1",
+     "D:1"
+    ],
+    [
+     "G:2",
+     "Em:2"
+    ],
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:1",
+     "Am:2",
+     "D:1"
+    ],
+    [
+     "D:2",
+     "D7:2"
+    ],
+    [
+     "D6:2",
+     "D:2"
+    ],
+    [
+     "G:1",
+     "C:1",
+     "D:1",
+     "G:1"
+    ],
+    "G",
+    "Em",
+    "C",
+    "G",
+    "G",
+    "G"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DU-UDU"
+  }
+ ],
+ "warp": [
+  [
+   1,
+   2.83
+  ],
+  [
+   3,
+   8.51
+  ],
+  [
+   4,
+   12.45
+  ],
+  [
+   6,
+   18.21
+  ],
+  [
+   8,
+   23.67
+  ],
+  [
+   10,
+   27.22
+  ],
+  [
+   14,
+   38.67
+  ],
+  [
+   16,
+   44.88
+  ],
+  [
+   17,
+   48.3
+  ],
+  [
+   19,
+   53.98
+  ],
+  [
+   21,
+   57.91
+  ],
+  [
+   22,
+   62.23
+  ],
+  [
+   28,
+   78.21
+  ],
+  [
+   30,
+   83.31
+  ],
+  [
+   31,
+   87.08
+  ],
+  [
+   33,
+   92.71
+  ],
+  [
+   35,
+   97.26
+  ],
+  [
+   36,
+   101.25
+  ],
+  [
+   40,
+   111.76
+  ],
+  [
+   42,
+   116.66
+  ],
+  [
+   43,
+   120.58
+  ],
+  [
+   45,
+   125.72
+  ],
+  [
+   46,
+   129.52
+  ],
+  [
+   48,
+   134.34
+  ],
+  [
+   53,
+   149.49
+  ],
+  [
+   58,
+   161.43
+  ],
+  [
+   59,
+   165.6
+  ],
+  [
+   61,
+   170.42
+  ],
+  [
+   62,
+   174.24
+  ],
+  [
+   64,
+   178.89
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 15398875,
+ "spotifyId": "52vA3CYKZqZVdQnzRrdZt6"
+}

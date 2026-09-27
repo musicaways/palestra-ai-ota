@@ -1,0 +1,249 @@
+{
+ "title": "Gianna",
+ "artist": "Rino Gaetano",
+ "album": "Nuntereggae più",
+ "year": 1978,
+ "genre": "Cantautori",
+ "difficulty": 1,
+ "youtubeId": "Vk7ClgGq2bU",
+ "key": "La maggiore (A)",
+ "bpm": 106.37,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.93,
+ "strum": "D-D---DUD-D---DU",
+ "lyricsSource": {
+  "lrclibId": 37127275,
+  "offset": 0
+ },
+ "notes": "Tre accordi per tutto il brano: A – D – E. Ottimo per allenare i cambi e la pennata.",
+ "syncNote": "Struttura e tempi stimati: griglia ritmica ricavata dai tempi delle righe cantate (LRCLIB), accordi da fonti pubbliche. Se gli accordi sono in anticipo o in ritardo usa Sincronia; per l'allineamento perfetto Registra tempi.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "A",
+    "D",
+    "E",
+    "%",
+    "A",
+    "D",
+    "E",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "A",
+    "D",
+    "E",
+    "%",
+    "A",
+    "D",
+    "E",
+    "%",
+    "A",
+    "D",
+    "E",
+    "%",
+    "A",
+    "D",
+    "E",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "A",
+    "D",
+    "E",
+    "A",
+    "D",
+    "E",
+    "A",
+    "%"
+   ]
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "A",
+    "D",
+    "E",
+    "%",
+    "A",
+    "D",
+    "E",
+    "%",
+    "A",
+    "D",
+    "E",
+    "%",
+    "A",
+    "D",
+    "E",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "A",
+    "D",
+    "E",
+    "A",
+    "D",
+    "E",
+    "A",
+    "%"
+   ]
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "A",
+    "D",
+    "E",
+    "%",
+    "A",
+    "D",
+    "E",
+    "%",
+    "A",
+    "D",
+    "E",
+    "%",
+    "A",
+    "D",
+    "E",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello finale",
+   "bars": [
+    "A",
+    "D",
+    "E",
+    "A",
+    "D",
+    "E",
+    "A",
+    "%",
+    "A",
+    "D",
+    "E",
+    "A",
+    "D",
+    "E",
+    "A",
+    "%",
+    "A",
+    "D",
+    "E",
+    "A",
+    "D",
+    "E",
+    "A",
+    "%"
+   ],
+   "barsPerRow": 8
+  },
+  {
+   "name": "Outro",
+   "bars": [
+    "A",
+    "D",
+    "E",
+    "%",
+    "A",
+    "D",
+    "E",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   8,
+   19.56
+  ],
+  [
+   12,
+   28.56
+  ],
+  [
+   16,
+   37.61
+  ],
+  [
+   20,
+   46.635
+  ],
+  [
+   24,
+   55.815
+  ],
+  [
+   36,
+   83.02
+  ],
+  [
+   44,
+   101.07
+  ],
+  [
+   48,
+   110.26
+  ],
+  [
+   52,
+   119.295
+  ],
+  [
+   62,
+   141.883
+  ],
+  [
+   72,
+   164.587
+  ],
+  [
+   78,
+   178.125
+  ],
+  [
+   82,
+   187.067
+  ],
+  [
+   86,
+   195.847
+  ],
+  [
+   92,
+   209.06
+  ],
+  [
+   96,
+   217.95
+  ],
+  [
+   98,
+   222.463
+  ]
+ ],
+ "strumSource": "ultimate-guitar",
+ "deezerId": 634108
+}

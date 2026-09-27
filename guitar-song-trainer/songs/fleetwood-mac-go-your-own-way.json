@@ -1,0 +1,336 @@
+{
+ "title": "Go Your Own Way",
+ "artist": "Fleetwood Mac",
+ "album": "Greatest Hits Of Fleetwood Mac",
+ "year": 1977,
+ "genre": "Rock",
+ "difficulty": 2,
+ "youtubeId": "oiosqtFLBBA",
+ "key": "Bb",
+ "bpm": 135.26,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.82,
+ "strum": "D-PPD-PP",
+ "lyricsSource": {
+  "lrclibId": 37457838,
+  "duration": 221,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bb – C – Dm – F.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "F",
+    "%"
+   ],
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "F",
+    "C",
+    [
+     "C:2",
+     "Bb:2"
+    ],
+    "%",
+    "%",
+    "F",
+    "%",
+    "%",
+    "%",
+    "C",
+    [
+     "C:2",
+     "Bb:2"
+    ],
+    "%",
+    "%",
+    "F",
+    "%",
+    "%",
+    [
+     "Dm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    "Dm",
+    "%",
+    "Bb",
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Dm:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "Bb",
+    "C",
+    "F",
+    "%",
+    "%",
+    "C",
+    [
+     "C:2",
+     "Bb:2"
+    ],
+    "%",
+    "%",
+    "F",
+    "%",
+    "%",
+    "%",
+    "C",
+    [
+     "C:2",
+     "Bb:2"
+    ],
+    "%",
+    "%",
+    "F",
+    "%",
+    "%",
+    [
+     "Dm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    "Dm",
+    "%",
+    "Bb",
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Dm:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "Bb",
+    "C",
+    [
+     "F:2",
+     "C:2"
+    ],
+    "Bb",
+    "%",
+    "F",
+    "%",
+    "C",
+    "%",
+    "Bb",
+    "%",
+    "F",
+    "%",
+    "Bb",
+    "%",
+    "F",
+    "%",
+    "C",
+    "%",
+    "Bb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "Dm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    "Dm",
+    "%",
+    "Bb",
+    "C",
+    "Dm",
+    "%",
+    [
+     "Dm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    "Dm",
+    "%",
+    "Bb",
+    "C",
+    "Dm",
+    "%",
+    "Bb",
+    "%",
+    "C",
+    "%",
+    "Dm",
+    "%",
+    "Bb",
+    "%",
+    "C",
+    "%",
+    "Dm",
+    "%",
+    "Bb",
+    "%",
+    "C",
+    "%",
+    "Dm",
+    "%",
+    "Bb",
+    "%",
+    "Dm",
+    [
+     "Dm:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    "%",
+    "Bb",
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    [
+     "C:2",
+     "Dm:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Finale",
+   "bars": [
+    "Dm",
+    "%",
+    [
+     "Dm:2",
+     "Bb:2"
+    ],
+    "%",
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  }
+ ],
+ "warp": [
+  [
+   2,
+   4.376
+  ],
+  [
+   6,
+   11.413
+  ],
+  [
+   11,
+   20.182
+  ],
+  [
+   18,
+   32.713
+  ],
+  [
+   26,
+   47.261
+  ],
+  [
+   31,
+   55.554
+  ],
+  [
+   35,
+   62.65
+  ],
+  [
+   42,
+   75.246
+  ],
+  [
+   46,
+   82.62
+  ],
+  [
+   50,
+   89.733
+  ],
+  [
+   56,
+   100.625
+  ],
+  [
+   74,
+   132.317
+  ],
+  [
+   78,
+   139.28
+  ],
+  [
+   82,
+   146.333
+  ],
+  [
+   86,
+   153.43
+  ],
+  [
+   110,
+   196.015
+  ],
+  [
+   114,
+   203.112
+  ],
+  [
+   118,
+   210.21
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 63480990,
+ "spotifyId": "07GvNcU1WdyZJq3XxP0kZa"
+}

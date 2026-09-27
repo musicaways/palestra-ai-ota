@@ -1,0 +1,219 @@
+{
+ "title": "Tango",
+ "artist": "Tananai",
+ "album": "3:30",
+ "year": 2023,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "Lz2ch3GMX4M",
+ "key": "G#m7",
+ "bpm": 94.38,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.87,
+ "strum": "B-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 34694131,
+  "duration": 209,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G#m7 – C# – C#7 – D#m – F# – F#maj7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Parte 1",
+   "bars": [
+    "Bmaj7",
+    "%",
+    "C#",
+    "F#",
+    "D#m",
+    [
+     "D#m:2",
+     "C#:2"
+    ],
+    "Bmaj7",
+    "%",
+    "C#6",
+    "F#",
+    "%",
+    "D#m",
+    "G#m7",
+    "C#",
+    "%",
+    "D#m"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "A#m",
+    "%",
+    "G#m7",
+    "%",
+    "C#7",
+    "F#maj7",
+    "%",
+    "A#m7",
+    "G#m7",
+    "%",
+    "C#7",
+    "F#maj7",
+    "%",
+    "G#m",
+    "%",
+    "C#"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    "Bmaj7",
+    "%",
+    "C#6",
+    [
+     "C#7:2",
+     "F#:2"
+    ],
+    "%",
+    "D#m",
+    "C#",
+    "Bmaj7",
+    "C#",
+    "F#",
+    "%",
+    "D#m",
+    "G#m7",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "D#m",
+    "%",
+    "%",
+    "G#m7",
+    "%",
+    "C#7",
+    "F#maj7",
+    "%",
+    "A#m7",
+    "G#m7",
+    "%",
+    "C#7",
+    "F#maj7",
+    "%",
+    "G#m7",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "C#7",
+    "%",
+    "F#",
+    "A#5",
+    "%",
+    "G#m7",
+    "%",
+    "C#7",
+    "F#",
+    "%",
+    "G#m7",
+    "%",
+    "C#",
+    "F#",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   0,
+   1.901
+  ],
+  [
+   4,
+   12.112
+  ],
+  [
+   8,
+   22.283
+  ],
+  [
+   14,
+   37.601
+  ],
+  [
+   18,
+   47.306
+  ],
+  [
+   23,
+   60.474
+  ],
+  [
+   28,
+   73.189
+  ],
+  [
+   33,
+   85.775
+  ],
+  [
+   37,
+   95.772
+  ],
+  [
+   41,
+   105.937
+  ],
+  [
+   47,
+   121.189
+  ],
+  [
+   51,
+   131.414
+  ],
+  [
+   56,
+   144.061
+  ],
+  [
+   61,
+   156.619
+  ],
+  [
+   66,
+   169.195
+  ],
+  [
+   71,
+   182.176
+  ],
+  [
+   77,
+   197.815
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 2142601957,
+ "spotifyId": "74cyFjvgjyiFiQ3QxszFWq"
+}

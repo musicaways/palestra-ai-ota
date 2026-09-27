@@ -1,0 +1,235 @@
+{
+ "title": "Al di là dell'amore",
+ "artist": "Brunori Sas",
+ "album": "Unknown Album",
+ "year": 2020,
+ "genre": "Indie",
+ "difficulty": 4,
+ "youtubeId": "zO802boBh_M",
+ "key": "Bb",
+ "bpm": 100.38,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.5,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 33437695,
+  "duration": 236,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bb – Dm – C – F6 – A – F.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Dm",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "Dm",
+    "%",
+    "Bb",
+    "%",
+    "G",
+    "%",
+    "%",
+    "A",
+    "Dm",
+    "%",
+    "Bb",
+    "%",
+    "%",
+    "%",
+    "F",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "Bb",
+    "C",
+    "Dm",
+    "F6",
+    "Bb",
+    "C",
+    "Dm",
+    "F6",
+    "%",
+    "Bb",
+    [
+     "Bb:2",
+     "C:2"
+    ],
+    "%",
+    "G",
+    "%",
+    "Dm",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "Bb",
+    "%",
+    "G7",
+    "%",
+    "F",
+    "A",
+    "Dm",
+    "%",
+    "Bb",
+    "%",
+    "%",
+    "%",
+    "F",
+    "A",
+    "Bb",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "Dm",
+    "F6",
+    "Bb",
+    "C",
+    "Dm",
+    "F6",
+    "%",
+    "Bb",
+    "C",
+    "Bb",
+    "C",
+    "Bb",
+    "C7",
+    "Dm",
+    "F6",
+    "Bb"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 6",
+   "bars": [
+    "Bb",
+    "C7",
+    "Dm",
+    "F",
+    "Bb",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "C",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "C:2",
+     "Dm:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   5,
+   13.526
+  ],
+  [
+   10,
+   25.477
+  ],
+  [
+   14,
+   34.909
+  ],
+  [
+   19,
+   46.808
+  ],
+  [
+   24,
+   58.907
+  ],
+  [
+   28,
+   68.603
+  ],
+  [
+   35,
+   85.428
+  ],
+  [
+   39,
+   94.991
+  ],
+  [
+   44,
+   106.712
+  ],
+  [
+   49,
+   118.652
+  ],
+  [
+   54,
+   130.417
+  ],
+  [
+   59,
+   142.471
+  ],
+  [
+   69,
+   166.506
+  ],
+  [
+   76,
+   183.826
+  ]
+ ],
+ "strumSource": "stima"
+}

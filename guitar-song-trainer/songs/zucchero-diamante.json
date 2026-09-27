@@ -1,0 +1,236 @@
+{
+ "title": "Diamante",
+ "artist": "Zucchero",
+ "album": "The Best Popsongs Ever",
+ "year": 1989,
+ "genre": "Rock / Blues",
+ "difficulty": 4,
+ "youtubeId": "80pf0Y-QE8g",
+ "key": "Bb",
+ "bpm": 55.4,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 2.57,
+ "strum": "D-DUUDD-",
+ "lyricsSource": {
+  "lrclibId": 37224011,
+  "duration": 350,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Bb – F – C – Gm7 – Fmaj7 – F6.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Bb",
+    "Bb",
+    "%",
+    "F",
+    "%",
+    "Bb",
+    "%",
+    "%",
+    "%",
+    "Bb",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "F",
+    "%",
+    "Bb",
+    "%",
+    "%",
+    "%",
+    "Bb",
+    "%",
+    [
+     "C:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "C:1",
+     "Bb:2",
+     "F:1"
+    ],
+    "Gm7",
+    "Fmaj7",
+    "F6",
+    "F",
+    "Gm7",
+    "Fmaj7"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "F",
+    "%",
+    "Bb",
+    "%",
+    "F",
+    "%",
+    "Bb",
+    "F",
+    [
+     "C:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "C:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "C:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "C",
+    [
+     "C:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "%",
+    "C",
+    "Gm7",
+    "Fmaj7",
+    "F6",
+    "F",
+    "Gm7",
+    "Fmaj7",
+    "F6",
+    "F"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    [
+     "C:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "C:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "C:2",
+     "Bb:2"
+    ],
+    [
+     "Bb:2",
+     "F:2"
+    ],
+    [
+     "C:1",
+     "Bb:2",
+     "F:1"
+    ],
+    "Dm",
+    "C",
+    "Gm7",
+    "Fmaj7",
+    "F6",
+    "F",
+    "Gm7",
+    "Fmaj7",
+    "F6",
+    "F",
+    "Dm",
+    "C",
+    "Gm7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   11,
+   50.02
+  ],
+  [
+   17,
+   76.05
+  ],
+  [
+   28,
+   123.703
+  ],
+  [
+   32,
+   140.94
+  ],
+  [
+   38,
+   167.561
+  ],
+  [
+   46,
+   202.333
+  ],
+  [
+   56,
+   245.269
+  ],
+  [
+   62,
+   271.08
+  ],
+  [
+   76,
+   331.73
+  ]
+ ],
+ "strumSource": "ultimate-guitar",
+ "deezerId": 2760132,
+ "introSource": "stima: giro della prima parte cantata (la fonte non riportava gli accordi dell'intro)"
+}

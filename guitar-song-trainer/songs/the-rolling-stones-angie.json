@@ -1,0 +1,273 @@
+{
+ "title": "Angie",
+ "artist": "The Rolling Stones",
+ "album": "On CD: A Radio Sampler (US)",
+ "year": 1973,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "Bh99s-tUirY",
+ "key": "G",
+ "bpm": 70.19,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.03,
+ "strum": "D--UD-DU",
+ "lyricsSource": {
+  "lrclibId": 37130225,
+  "duration": 273,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – Am – E7 – F – C – Dm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "E7",
+    "%",
+    "G",
+    "%",
+    "E7"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "E7:2",
+     "G:2"
+    ],
+    [
+     "F4:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "C:2"
+    ],
+    "G",
+    "Dm",
+    "Am",
+    [
+     "C:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "G:2"
+    ],
+    [
+     "Am:2",
+     "E7:2"
+    ],
+    [
+     "E7:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    [
+     "Am:2",
+     "E7:2"
+    ],
+    [
+     "E7:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "%",
+    [
+     "Am:1",
+     "E7:2",
+     "G:1"
+    ],
+    [
+     "F4:2",
+     "F:2"
+    ],
+    [
+     "C4:2",
+     "C:2"
+    ],
+    "G",
+    [
+     "Dm:1",
+     "Am:2",
+     "C:1"
+    ],
+    [
+     "F:2",
+     "G4:2"
+    ],
+    [
+     "G4:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "Am",
+    "E7",
+    "G",
+    "F4",
+    "F",
+    "C4",
+    "C",
+    "Am",
+    "E7",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "G",
+    [
+     "Dm:1",
+     "Am:2",
+     "C:1"
+    ],
+    "F",
+    "G",
+    [
+     "Am:2",
+     "E7:2"
+    ],
+    [
+     "E7:2",
+     "G:2"
+    ],
+    "Am",
+    "E7",
+    "G",
+    "F4",
+    "F",
+    "C4"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "G",
+    [
+     "Dm:2",
+     "Am:2"
+    ],
+    [
+     "C:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "G:2"
+    ],
+    "Dm",
+    "Am",
+    "Dm",
+    "Am",
+    "Dm",
+    "Am",
+    [
+     "C:2",
+     "F:2"
+    ],
+    [
+     "F:2",
+     "G:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    [
+     "Am:2",
+     "E7:2"
+    ],
+    [
+     "G:2",
+     "F4:2"
+    ],
+    [
+     "F4:2",
+     "F:2"
+    ],
+    [
+     "C4:2",
+     "C:2"
+    ]
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   5,
+   19.19
+  ],
+  [
+   11,
+   39.706
+  ],
+  [
+   22,
+   76.943
+  ],
+  [
+   27,
+   93.504
+  ],
+  [
+   32,
+   110.6
+  ],
+  [
+   36,
+   123.93
+  ],
+  [
+   46,
+   157.883
+  ],
+  [
+   52,
+   178.654
+  ],
+  [
+   58,
+   199.414
+  ],
+  [
+   62,
+   213.091
+  ],
+  [
+   68,
+   233.607
+  ],
+  [
+   72,
+   247.411
+  ],
+  [
+   76,
+   261.089
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 4124759
+}

@@ -1,0 +1,318 @@
+{
+ "title": "Mr. Brightside",
+ "artist": "The Killers",
+ "album": "Top 100 Uk 19.03",
+ "year": 2003,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "j8tZs6G_h7U",
+ "key": "G",
+ "bpm": 148.26,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.33,
+ "strum": "PPPP-PPU",
+ "lyricsSource": {
+  "lrclibId": 37013893,
+  "duration": 224,
+  "offset": 0
+ },
+ "notes": "Accordi principali: G – A – D – Bm – Gadd9 – Bm7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "G",
+    "%",
+    "%",
+    "%"
+   ],
+   "strum": "D-D-D-D-"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "Bm",
+    "%",
+    "%",
+    "A",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Bm",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "D",
+    "G",
+    "Bm",
+    "A",
+    "D",
+    "G",
+    "Bm",
+    "A",
+    "D",
+    "G",
+    "Bm",
+    "A",
+    "D",
+    "G",
+    "Bm",
+    "%",
+    "%",
+    "%",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "A",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "Bm",
+    "%",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDU"
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "D",
+    "G",
+    "Bm",
+    "A",
+    "D",
+    "G",
+    "Bm",
+    "A",
+    "D",
+    "G",
+    "Bm",
+    "A",
+    "D",
+    "G",
+    "Bm",
+    "A",
+    "D",
+    "%",
+    "G",
+    "%",
+    "Bm",
+    "%",
+    "A",
+    "%",
+    "D",
+    "Gadd9",
+    "Bm7",
+    "A",
+    "D",
+    "Gadd9",
+    "Bm7",
+    "A",
+    "D",
+    "Gadd9",
+    "Bm7",
+    "A"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   4,
+   6.825
+  ],
+  [
+   8,
+   13.328
+  ],
+  [
+   12,
+   19.907
+  ],
+  [
+   18,
+   29.62
+  ],
+  [
+   23,
+   37.386
+  ],
+  [
+   28,
+   45.48
+  ],
+  [
+   36,
+   58.44
+  ],
+  [
+   41,
+   66.595
+  ],
+  [
+   45,
+   73.08
+  ],
+  [
+   50,
+   81.44
+  ],
+  [
+   60,
+   97.64
+  ],
+  [
+   64,
+   104.228
+  ],
+  [
+   68,
+   110.738
+  ],
+  [
+   74,
+   120.375
+  ],
+  [
+   79,
+   128.168
+  ],
+  [
+   84,
+   136.22
+  ],
+  [
+   88,
+   142.695
+  ],
+  [
+   92,
+   149.124
+  ],
+  [
+   97,
+   157.305
+  ],
+  [
+   101,
+   163.898
+  ],
+  [
+   106,
+   171.992
+  ],
+  [
+   116,
+   188.062
+  ],
+  [
+   124,
+   200.785
+  ],
+  [
+   128,
+   207.26
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 602459672,
+ "spotifyId": "3ZoyWv2kzXlKV2WDnekue2"
+}

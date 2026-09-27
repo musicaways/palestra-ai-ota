@@ -1,0 +1,144 @@
+{
+ "title": "L'addio",
+ "artist": "Coma_Cose",
+ "album": "I Singoli di Sanremo 2023 In HI-Res",
+ "year": 2023,
+ "genre": "Indie / Pop",
+ "difficulty": 4,
+ "youtubeId": "gG7czSry4LY",
+ "key": "A",
+ "bpm": 80.28,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.17,
+ "strum": "D-DUXUDU",
+ "lyricsSource": {
+  "lrclibId": 18147016,
+  "duration": 207.0,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – D – A6 – F#m7 – Gmaj7 – Gm.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "%",
+    "A"
+   ],
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "D",
+    "F#7",
+    "%",
+    "%",
+    "%",
+    "A",
+    "%",
+    "D",
+    "%",
+    "F#m7",
+    "%",
+    "Gmaj7",
+    "%",
+    "A",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "D",
+    "F#m7",
+    "%",
+    "G",
+    "%",
+    "A6",
+    [
+     "A6:2",
+     "A:2"
+    ],
+    "%",
+    "Em",
+    "Gm",
+    "A",
+    [
+     "A:2",
+     "Gmaj7:2"
+    ],
+    "D",
+    "F#m7",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "D",
+    "F#m7",
+    "%",
+    "%",
+    "%",
+    "A6",
+    "A",
+    "%",
+    "D",
+    "F#m7",
+    "%",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    "%",
+    "A6",
+    [
+     "A6:2",
+     "A:2"
+    ],
+    "%",
+    "D",
+    "F#m7",
+    "%",
+    "Gmaj7",
+    "%",
+    "A6",
+    [
+     "A6:2",
+     "A:2"
+    ],
+    "%",
+    "Em7",
+    "Gm",
+    "A",
+    [
+     "A:2",
+     "Gmaj7:2"
+    ],
+    "D",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "strumSource": "stima",
+ "deezerId": 2141012837
+}

@@ -1,0 +1,331 @@
+{
+ "title": "Sex on Fire",
+ "artist": "Kings of Leon",
+ "album": "(EP & Single Collection)",
+ "year": 2008,
+ "genre": "Rock",
+ "difficulty": 1,
+ "youtubeId": "GeEKGgv85uk",
+ "key": "C#m",
+ "bpm": 152.81,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.3,
+ "strum": "PPPPDDDD",
+ "lyricsSource": {
+  "lrclibId": 38408468,
+  "duration": 204,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C#m – E – A – Amaj7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "E",
+    "%",
+    "%",
+    "%",
+    "C#m",
+    "%",
+    "%",
+    "%",
+    "E",
+    "%",
+    "%",
+    "%",
+    "C#m",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "DDDDDDDD"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "E",
+    "%",
+    "%",
+    "%",
+    "C#m",
+    "%",
+    "%",
+    "%",
+    "E",
+    "%",
+    "%",
+    "%",
+    "C#m",
+    "%",
+    "%",
+    "%",
+    "%",
+    "E",
+    "%",
+    "C#m",
+    "%",
+    [
+     "C#m:2",
+     "A:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "E",
+    "%",
+    "%",
+    "%",
+    "C#m",
+    "%",
+    "%",
+    "%",
+    "E",
+    "%",
+    "%",
+    "%",
+    "C#m",
+    "%",
+    "Amaj7",
+    "%",
+    "E",
+    "%",
+    "%",
+    "C#m",
+    "%",
+    [
+     "C#m:2",
+     "A:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "E",
+    "%",
+    "%",
+    "C#m",
+    "%",
+    [
+     "C#m:2",
+     "A:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "E",
+    "%",
+    "%",
+    "%",
+    "C#m",
+    "%",
+    "%",
+    "%",
+    "E",
+    "%",
+    "%",
+    "%",
+    "C#m",
+    "%",
+    "Amaj7",
+    "Amaj7",
+    "E",
+    "%",
+    "%",
+    "C#m",
+    "%",
+    [
+     "C#m:2",
+     "A:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "E",
+    "%",
+    "%",
+    "C#m",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "E",
+    "%",
+    "%",
+    "C#m",
+    "%",
+    [
+     "C#m:2",
+     "A:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "E",
+    "%",
+    "%",
+    "C#m",
+    "%",
+    [
+     "C#m:2",
+     "A:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "E",
+    "%",
+    "%",
+    "C#m",
+    "%",
+    [
+     "C#m:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    [
+     "A:2",
+     "E:2"
+    ],
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  }
+ ],
+ "warp": [
+  [
+   15,
+   25.028
+  ],
+  [
+   19,
+   31.31
+  ],
+  [
+   23,
+   37.592
+  ],
+  [
+   27,
+   43.889
+  ],
+  [
+   34,
+   54.695
+  ],
+  [
+   39,
+   62.685
+  ],
+  [
+   43,
+   68.702
+  ],
+  [
+   47,
+   74.967
+  ],
+  [
+   53,
+   84.627
+  ],
+  [
+   58,
+   92.243
+  ],
+  [
+   63,
+   100.096
+  ],
+  [
+   71,
+   112.578
+  ],
+  [
+   75,
+   118.812
+  ],
+  [
+   79,
+   124.947
+  ],
+  [
+   85,
+   134.422
+  ],
+  [
+   90,
+   142.592
+  ],
+  [
+   95,
+   150.533
+  ],
+  [
+   103,
+   163.145
+  ],
+  [
+   111,
+   175.868
+  ],
+  [
+   119,
+   188.433
+  ],
+  [
+   122,
+   193.145
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 15531170,
+ "spotifyId": "0ntQJM78wzOLVeCUAW7Y45"
+}

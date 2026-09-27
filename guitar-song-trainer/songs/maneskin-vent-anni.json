@@ -1,0 +1,310 @@
+{
+ "title": "Vent'anni",
+ "artist": "Måneskin",
+ "album": "VENT'ANNI - Single",
+ "year": 2020,
+ "genre": "Rock",
+ "difficulty": 3,
+ "youtubeId": "mHKJV4tuvgM",
+ "key": "C",
+ "bpm": 123.15,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.49,
+ "strum": "D-PPD-PP",
+ "lyricsSource": {
+  "lrclibId": 34490477,
+  "duration": 254,
+  "offset": 0
+ },
+ "notes": "Accordi principali: C – Cm – Em – Am – D – G.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-------"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "%",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Am7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "C",
+    [
+     "C:2",
+     "Cm:2"
+    ],
+    [
+     "Cm:2",
+     "G:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Cm",
+    [
+     "Cm:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "D:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "C",
+    "Cm",
+    [
+     "Cm:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "D:2"
+    ],
+    "%",
+    "C"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "%",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "Am",
+    "%",
+    "%",
+    "G",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Cm",
+    [
+     "Cm:2",
+     "Em:2"
+    ],
+    [
+     "Em:2",
+     "D:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 5",
+   "bars": [
+    "C",
+    "%",
+    "%",
+    "%",
+    [
+     "C:2",
+     "Cm:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "Em",
+    "%",
+    "%",
+    "%",
+    "D",
+    "%",
+    "%",
+    "%",
+    [
+     "D:2",
+     "C:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "Am7",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "C",
+    [
+     "C:2",
+     "B5:2"
+    ],
+    [
+     "B5:2",
+     "Bb:2"
+    ],
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 6",
+   "bars": [
+    "%",
+    "Am",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "Em",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   8,
+   16.361
+  ],
+  [
+   13,
+   26.066
+  ],
+  [
+   18,
+   35.81
+  ],
+  [
+   32,
+   62.908
+  ],
+  [
+   36,
+   70.665
+  ],
+  [
+   44,
+   86.066
+  ],
+  [
+   48,
+   93.837
+  ],
+  [
+   54,
+   105.537
+  ],
+  [
+   60,
+   117.468
+  ],
+  [
+   65,
+   127.086
+  ],
+  [
+   70,
+   136.974
+  ],
+  [
+   78,
+   152.42
+  ],
+  [
+   100,
+   195.294
+  ],
+  [
+   108,
+   210.885
+  ],
+  [
+   116,
+   226.531
+  ],
+  [
+   121,
+   236.838
+  ],
+  [
+   124,
+   242.907
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 1107571102
+}

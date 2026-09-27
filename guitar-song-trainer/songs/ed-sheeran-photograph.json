@@ -1,0 +1,271 @@
+{
+ "title": "Photograph",
+ "artist": "Ed Sheeran",
+ "album": "Ö3 Greatest Hits 70",
+ "year": 2014,
+ "genre": "Pop",
+ "difficulty": 4,
+ "youtubeId": "KKQl-pIRQMY",
+ "key": "E",
+ "bpm": 107.68,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 0.48,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37494258,
+  "duration": 259,
+  "offset": 0
+ },
+ "notes": "Accordi principali: E – B – C#m – A – Aadd9 – C#m7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "E",
+    "%",
+    "C#m7",
+    "%",
+    "B4",
+    "%",
+    "Aadd9",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Strofa 1",
+   "bars": [
+    "E",
+    "C#m",
+    [
+     "B:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "E",
+    "C#m",
+    "B",
+    "%",
+    "A",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C#m",
+    "A",
+    "E",
+    "B",
+    "C#m",
+    "A",
+    "E",
+    "B",
+    "E",
+    "B",
+    "%",
+    "C#m7",
+    "%",
+    "Aadd9",
+    "%",
+    "E",
+    "%",
+    "%",
+    "%",
+    "%",
+    "E",
+    "C#m",
+    [
+     "B:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    "%",
+    "E",
+    "C#m",
+    "%",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "C#m",
+    "A",
+    "E",
+    "B",
+    "C#m",
+    "A",
+    "E",
+    "B",
+    "E",
+    "B",
+    "%",
+    "C#m7",
+    "%",
+    "Aadd9",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Ritornello",
+   "bars": [
+    "E",
+    "B",
+    "%",
+    "C#m7",
+    "%",
+    "Aadd9",
+    "%",
+    "C#m",
+    "%",
+    "A",
+    "%",
+    "E",
+    "%",
+    "B",
+    "%",
+    "E",
+    "%",
+    "B",
+    "%",
+    "C#m",
+    "%",
+    "Aadd9",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4,
+   "strum": "D-DUDUDU"
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "E",
+    "B",
+    "%",
+    "C#m7",
+    "%",
+    "Aadd9",
+    "%",
+    "%",
+    "%",
+    "E",
+    "B",
+    "C#m",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   8,
+   18.11
+  ],
+  [
+   12,
+   26.92
+  ],
+  [
+   16,
+   35.743
+  ],
+  [
+   29,
+   64.904
+  ],
+  [
+   33,
+   74.266
+  ],
+  [
+   39,
+   87.573
+  ],
+  [
+   47,
+   105.32
+  ],
+  [
+   54,
+   120.922
+  ],
+  [
+   60,
+   134.264
+  ],
+  [
+   66,
+   147.684
+  ],
+  [
+   71,
+   158.747
+  ],
+  [
+   75,
+   167.662
+  ],
+  [
+   81,
+   181.077
+  ],
+  [
+   87,
+   194.45
+  ],
+  [
+   93,
+   207.74
+  ],
+  [
+   98,
+   218.766
+  ],
+  [
+   103,
+   230.035
+  ],
+  [
+   107,
+   239.072
+  ],
+  [
+   111,
+   248.01
+  ]
+ ],
+ "strumSource": "stima",
+ "deezerId": 79875054,
+ "spotifyId": "1uswaYRxN8f1Qp6hQRF7yL"
+}

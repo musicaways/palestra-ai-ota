@@ -1,0 +1,347 @@
+{
+ "title": "Take Me to Church",
+ "artist": "Hozier",
+ "album": "Die ultimative Chart Show: Die erfolgreichsten Album-Hits 2014",
+ "year": 2013,
+ "genre": "Rock",
+ "difficulty": 4,
+ "youtubeId": "SND2LY0s8FE",
+ "key": "Am",
+ "bpm": 127.69,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.39,
+ "strum": "D-PPD-PP",
+ "lyricsSource": {
+  "lrclibId": 37014860,
+  "duration": 242,
+  "offset": 0
+ },
+ "notes": "Accordi principali: Am – Em – G – C – B – B7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Strofa 1",
+   "bars": [
+    [
+     "Em:1",
+     "Am:2",
+     "Em:1"
+    ],
+    "Am",
+    "G",
+    [
+     "Am:2",
+     "Em:2"
+    ],
+    "Am",
+    "Em",
+    [
+     "Am:2",
+     "Em:2"
+    ],
+    "Am",
+    "G",
+    [
+     "Am:2",
+     "Em:2"
+    ],
+    "Am",
+    "D",
+    "C",
+    "%",
+    [
+     "Em:1",
+     "Am:2",
+     "Em:1"
+    ],
+    "Am",
+    "G",
+    [
+     "Am:2",
+     "Em:2"
+    ],
+    "Am",
+    "D",
+    "C",
+    "%",
+    "%",
+    "G",
+    "C",
+    "G",
+    "C",
+    "G",
+    "Cm",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    "B",
+    "%",
+    "G",
+    "%",
+    "Am",
+    "%",
+    [
+     "Em:2",
+     "Am:2"
+    ],
+    "Em",
+    "B",
+    "%",
+    "G",
+    "%",
+    "Am",
+    "%",
+    "Em",
+    "Am"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    [
+     "Em:2",
+     "Am:2"
+    ],
+    [
+     "Am:2",
+     "Em:2"
+    ],
+    [
+     "Am:2",
+     "G:2"
+    ],
+    "Am",
+    "Em",
+    [
+     "Am:2",
+     "D:2"
+    ],
+    "C",
+    "Em",
+    [
+     "Am:2",
+     "Em:2"
+    ],
+    "Am",
+    "G",
+    [
+     "Am:2",
+     "Em:2"
+    ],
+    "Am",
+    "D",
+    "C",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "%",
+    "Em",
+    "B",
+    "%",
+    "G",
+    "%",
+    "Am",
+    "Em",
+    "Am",
+    "Em",
+    "B",
+    "%",
+    "G",
+    "%",
+    "Am",
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 5",
+   "bars": [
+    [
+     "Em:2",
+     "Am:2"
+    ],
+    "%",
+    "B7",
+    [
+     "B7:2",
+     "Em:2"
+    ],
+    "%",
+    "C",
+    "G",
+    "B7",
+    "Em",
+    "C",
+    "G",
+    "B7",
+    "Em"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    "C",
+    "G",
+    "%",
+    "%",
+    "%",
+    "C",
+    "C",
+    [
+     "C:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Cm:2"
+    ],
+    [
+     "Cm:2",
+     "G:2"
+    ],
+    [
+     "G:2",
+     "Cm:2"
+    ],
+    "%",
+    "G"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "Em",
+    "B",
+    "%",
+    "G",
+    "%",
+    "Am",
+    "Em",
+    "Am",
+    "Em",
+    "B",
+    "%",
+    "G",
+    "%",
+    "Am",
+    "Em",
+    "%",
+    "%",
+    [
+     "Em:2",
+     "Am:2"
+    ],
+    "%",
+    "%",
+    "%",
+    [
+     "Am:2",
+     "Em:2"
+    ],
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   1,
+   3.49
+  ],
+  [
+   6,
+   12.888
+  ],
+  [
+   10,
+   20.022
+  ],
+  [
+   15,
+   29.42
+  ],
+  [
+   20,
+   39.191
+  ],
+  [
+   30,
+   58.182
+  ],
+  [
+   37,
+   71.339
+  ],
+  [
+   42,
+   80.55
+  ],
+  [
+   49,
+   93.509
+  ],
+  [
+   54,
+   102.851
+  ],
+  [
+   60,
+   114.007
+  ],
+  [
+   66,
+   125.21
+  ],
+  [
+   71,
+   134.539
+  ],
+  [
+   76,
+   143.922
+  ],
+  [
+   91,
+   172.452
+  ],
+  [
+   96,
+   181.85
+  ],
+  [
+   104,
+   196.886
+  ],
+  [
+   109,
+   206.159
+  ],
+  [
+   115,
+   217.359
+  ],
+  [
+   117,
+   221.118
+  ]
+ ],
+ "strumSource": "stima"
+}

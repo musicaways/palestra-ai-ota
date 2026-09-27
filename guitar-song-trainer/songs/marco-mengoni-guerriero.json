@@ -1,0 +1,315 @@
+{
+ "title": "Guerriero",
+ "artist": "Marco Mengoni",
+ "album": "Mtv - Hitlist Italia Gennaio 2015",
+ "year": 2014,
+ "genre": "Pop",
+ "difficulty": 5,
+ "youtubeId": "7qKXA5t7Osw",
+ "key": "A",
+ "bpm": 135.18,
+ "timeSignature": [
+  4,
+  4
+ ],
+ "capo": 0,
+ "tuning": "Standard (E A D G B E)",
+ "offset": 1.65,
+ "strum": "D-DU-UDU",
+ "lyricsSource": {
+  "lrclibId": 37032961,
+  "duration": 245,
+  "offset": 0
+ },
+ "notes": "Accordi principali: A – E – C#m – F#m – B – Amaj7.",
+ "syncNote": "Accordi agganciati riga per riga ai tempi del canto (LRCLIB) e griglia ritmica ricavata dagli stessi tempi; accordi da fonti pubbliche. Per allinearli al video usa Sincronia → Tocca quando inizia a cantare.",
+ "sections": [
+  {
+   "name": "Intro",
+   "bars": [
+    "C#m",
+    "E"
+   ],
+   "strum": "D---D-DU"
+  },
+  {
+   "name": "Parte 2",
+   "bars": [
+    [
+     "C#m:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "A:2"
+    ],
+    "E",
+    "C#m",
+    "E",
+    "A",
+    "%",
+    "%",
+    "E",
+    "A",
+    "E",
+    "%",
+    "F#m",
+    "A",
+    "B",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 3",
+   "bars": [
+    "%",
+    [
+     "C#m:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    "E",
+    "A",
+    "%",
+    "%",
+    "E",
+    "A",
+    "%",
+    "%",
+    "Aadd9",
+    "%",
+    "B"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Parte 4",
+   "bars": [
+    "C#m",
+    "B",
+    "C#m",
+    "F#m",
+    "A",
+    "B",
+    "C#m",
+    "F#m",
+    "A",
+    "B",
+    "C#m",
+    "F#m",
+    "A",
+    "B",
+    "C#m",
+    "F#m",
+    "A",
+    "%",
+    "C#m",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 2",
+   "bars": [
+    "F#m",
+    "Amaj7",
+    "B6",
+    "C#m",
+    "F#m",
+    "Amaj7",
+    "C#m",
+    "E",
+    "A",
+    "E",
+    [
+     "E:2",
+     "F#m:2"
+    ],
+    [
+     "F#m:2",
+     "A:2"
+    ],
+    "%",
+    "B"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 3",
+   "bars": [
+    [
+     "C#m:2",
+     "E:2"
+    ],
+    [
+     "E:2",
+     "A:2"
+    ],
+    "%",
+    "%",
+    "E",
+    "A",
+    "%",
+    "%",
+    "E",
+    "A",
+    "%",
+    "%",
+    "Aadd9",
+    "%",
+    "B",
+    "%",
+    "%",
+    "C#m",
+    "F#m",
+    "A",
+    "B",
+    "C#m",
+    "F#m",
+    "A",
+    "B",
+    "C#m",
+    "F#m",
+    "A",
+    "B",
+    "C#m",
+    "F#m",
+    "A",
+    "C#m",
+    "Badd9",
+    "%",
+    "A",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  },
+  {
+   "name": "Strofa 4",
+   "bars": [
+    "E",
+    "F#m",
+    "A",
+    "E",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%",
+    "%"
+   ],
+   "barsPerRow": 4
+  }
+ ],
+ "warp": [
+  [
+   2,
+   5.128
+  ],
+  [
+   8,
+   15.781
+  ],
+  [
+   14,
+   26.4
+  ],
+  [
+   19,
+   35.298
+  ],
+  [
+   25,
+   46.032
+  ],
+  [
+   31,
+   56.859
+  ],
+  [
+   36,
+   65.759
+  ],
+  [
+   40,
+   72.858
+  ],
+  [
+   44,
+   79.948
+  ],
+  [
+   50,
+   90.48
+  ],
+  [
+   56,
+   101.132
+  ],
+  [
+   62,
+   111.467
+  ],
+  [
+   68,
+   122.119
+  ],
+  [
+   74,
+   132.878
+  ],
+  [
+   80,
+   143.612
+  ],
+  [
+   85,
+   152.499
+  ],
+  [
+   91,
+   163.2
+  ],
+  [
+   97,
+   173.87
+  ],
+  [
+   103,
+   185.08
+  ],
+  [
+   108,
+   193.988
+  ]
+ ],
+ "strumSource": "stima"
+}
