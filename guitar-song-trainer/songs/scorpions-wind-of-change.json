@@ -27,22 +27,22 @@
   {
    "name": "Strofa 1",
    "bars": [
+    "C",
+    "%",
     "Dm",
+    "Am",
+    "C",
     "%",
+    "Dm",
+    "Am",
+    "C",
     "%",
+    "Dm",
+    "Am",
+    "C",
     "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%"
+    "Dm",
+    "Am"
    ],
    "barsPerRow": 4
   },
@@ -334,5 +334,8 @@
    "barsPerRow": 4
   }
  ],
- "strumSource": "stima"
+ "strumSource": "stima",
+ "deezerId": 927900,
+ "spotifyId": "3ovjw5HZZv43SxTwApooCM",
+ "introSource": "stima: giro della prima parte cantata (la fonte non riportava gli accordi dell'intro)"
 }

@@ -6,13 +6,13 @@
  "genre": "Folk",
  "difficulty": 2,
  "youtubeId": "nkUOACGtGfA",
- "key": "F",
+ "key": "Gb",
  "bpm": 104.82,
  "timeSignature": [
   4,
   4
  ],
- "capo": 0,
+ "capo": 1,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.45,
  "strum": "D--UDUDU",
@@ -27,30 +27,30 @@
   {
    "name": "Strofa 1",
    "bars": [
-    "Dm"
+    "Ebm"
    ]
   },
   {
    "name": "Ritornello",
    "bars": [
-    "Dm",
-    "C",
-    "Dm",
+    "Ebm",
+    "Db",
+    "Ebm",
     "%",
-    "Bb",
-    "F",
-    "Bb",
-    "F",
-    "Bb",
+    "B",
+    "Gb",
+    "B",
+    "Gb",
+    "B",
     [
-     "Bb:2",
-     "F:2"
+     "B:2",
+     "Gb:2"
     ],
     "%",
     "%",
-    "F",
-    "C",
-    "Dm"
+    "Gb",
+    "Db",
+    "Ebm"
    ],
    "barsPerRow": 4,
    "strum": "D-DUDUDU"
@@ -58,24 +58,24 @@
   {
    "name": "Ritornello",
    "bars": [
-    "C",
+    "Db",
     "%",
-    "Dm",
+    "Ebm",
     "%",
-    "Bb",
-    "F",
-    "Bb",
-    "F",
-    "Bb",
+    "B",
+    "Gb",
+    "B",
+    "Gb",
+    "B",
     [
-     "Bb:2",
-     "F:2"
+     "B:2",
+     "Gb:2"
     ],
     "%",
     "%",
-    "F",
-    "C",
-    "Dm"
+    "Gb",
+    "Db",
+    "Ebm"
    ],
    "barsPerRow": 4,
    "strum": "D-DUDUDU"
@@ -83,18 +83,18 @@
   {
    "name": "Ritornello",
    "bars": [
-    "C",
+    "Db",
     "%",
-    "Dm",
+    "Ebm",
     "%",
-    "Bb",
-    "F",
-    "Bb",
-    "F",
-    "Bb",
+    "B",
+    "Gb",
+    "B",
+    "Gb",
+    "B",
     [
-     "Bb:2",
-     "F:2"
+     "B:2",
+     "Gb:2"
     ],
     "%"
    ],
@@ -107,28 +107,28 @@
     "%",
     "%",
     [
-     "F:2",
-     "C:2"
+     "Gb:2",
+     "Db:2"
     ],
     [
-     "C:2",
-     "Dm:2"
+     "Db:2",
+     "Ebm:2"
     ],
-    "C",
+    "Db",
     "%",
-    "Dm",
+    "Ebm",
     "%",
-    "Bb",
-    "F",
-    "Bb",
-    "F",
-    "%",
-    "%",
+    "B",
+    "Gb",
+    "B",
+    "Gb",
     "%",
     "%",
-    "C",
     "%",
-    "Dm",
+    "%",
+    "Db",
+    "%",
+    "Ebm",
     "%"
    ],
    "barsPerRow": 4,
@@ -137,14 +137,14 @@
   {
    "name": "Ritornello",
    "bars": [
-    "C",
-    "Dm",
+    "Db",
+    "Ebm",
     "%",
-    "Bb",
-    "F",
-    "Bb",
-    "F",
-    "Bb",
+    "B",
+    "Gb",
+    "B",
+    "Gb",
+    "B",
     "%",
     "%"
    ],
@@ -156,17 +156,17 @@
    "bars": [
     "%",
     "%",
-    "F",
+    "Gb",
     "%",
     [
-     "F:2",
-     "C:2"
+     "Gb:2",
+     "Db:2"
     ],
     "%",
     "%",
     [
-     "C:2",
-     "Dm:2"
+     "Db:2",
+     "Ebm:2"
     ],
     "%",
     "%"
@@ -237,5 +237,8 @@
    165.387
   ]
  ],
- "strumSource": "stima"
+ "strumSource": "stima",
+ "spotifyId": "5y788ya4NvwhBznoDIcXwK",
+ "deezerId": 15275985,
+ "keySource": "disco in Mi♭ minore (anteprima Deezer e MIDI concordano): accordi +1, forme con capotasto al 1° tasto"
 }

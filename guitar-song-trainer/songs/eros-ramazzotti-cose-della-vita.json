@@ -27,18 +27,54 @@
   {
    "name": "Intro",
    "bars": [
-    "F#m",
-    "%",
-    "%",
-    "%",
-    "F#m",
-    "%",
-    "%",
-    "%",
-    "F#m",
-    "%",
-    "%",
-    "%"
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ],
+    [
+     "F#m:2",
+     "D:2"
+    ],
+    [
+     "A:2",
+     "E:2"
+    ]
    ],
    "barsPerRow": 4,
    "strum": "D-------"
@@ -316,5 +352,7 @@
    "strum": "D-------"
   }
  ],
- "strumSource": "stima"
+ "strumSource": "stima",
+ "deezerId": 1056982,
+ "introSource": "stima: giro della prima parte cantata (la fonte non riportava gli accordi dell'intro)"
 }

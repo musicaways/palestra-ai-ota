@@ -41,6 +41,24 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
     { id: 1, name: 'Salmo - Cartine corte.mid', downloadUrl: '/uploads/1.mid' },
     { id: 2, name: 'Cartine corte (drums).mid', downloadUrl: '/uploads/2.mid' },
   ] } }) }));
+  // lettore Spotify finto (l'API vera nel browser dei test non suona: manca il modulo DRM)
+  await ctx.route(/open\.spotify\.com\/embed\/iframe-api/, (r) => r.fulfill({ contentType: 'text/javascript', body: `(() => {
+    const api = { createController(el, opts, cb) {
+      const L = {}; let pos = 0; let paused = true; let t0 = 0; const dur = 150000;
+      const emit = (ev, d) => (L[ev] || []).forEach((f) => f({ data: d }));
+      const upd = () => emit('playback_update', { isPaused: paused, isBuffering: false, duration: dur, position: pos });
+      const tick = () => { if (paused) return; pos = performance.now() - t0; upd(); setTimeout(tick, 400); };
+      const ctl = {
+        addListener(ev, f) { (L[ev] = L[ev] || []).push(f); if (ev === 'ready') setTimeout(() => f({}), 30); },
+        play() { paused = false; t0 = performance.now() - pos; tick(); }, resume() { this.play(); },
+        pause() { pos = performance.now() - t0; paused = true; upd(); },
+        seek(s) { pos = s * 1000; t0 = performance.now() - pos; upd(); }, destroy() {},
+      };
+      el.replaceWith(Object.assign(document.createElement('iframe'), { className: 'fake-spotify' }));
+      setTimeout(() => cb(ctl), 10);
+    } };
+    window.onSpotifyIframeApiReady && window.onSpotifyIframeApiReady(api);
+  })();` }));
   await ctx.route(/bitmidi\.com\/uploads\/1\.mid/, (r) => r.fulfill({ contentType: 'audio/midi', body: readFileSync(midiPath) }));
   await ctx.route(/bitmidi\.com\/uploads\/2\.mid/, (r) => r.fulfill({ contentType: 'audio/midi', body: readFileSync(midiWrongPath) }));
   await ctx.addInitScript(() => { try { localStorage.setItem('gst:helpSeen', 'true'); } catch {} });
@@ -632,6 +650,27 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   await page.waitForSelector('.dlg-source [data-src="forget"]', { timeout: 3000 }).catch(() => {});
   if (await page.locator('.dlg-source [data-src="forget"]').count()) await page.click('.dlg-source [data-src="forget"]');
   else if (await page.locator('dialog[open]').count()) await page.keyboard.press('Escape');
+
+  // Spotify: link del brano incollato → il lettore Spotify fa da orologio; la velocità non si cambia
+  await tap('button.tool[data-act="source"]');
+  await page.waitForSelector('.dlg-source .src-splink', { timeout: 3000 });
+  await page.fill('.dlg-source .src-splink', 'https://open.spotify.com/intl-it/track/1qPbGZqppFwLwcBC1JQ6Vr?si=x');
+  await page.click('.dlg-source [data-src="splink"]');
+  await page.waitForSelector('.video.spotify .fake-spotify', { timeout: 10000 }).catch(() => {});
+  check(await page.locator('.video.spotify .fake-spotify').count() === 1, 'Spotify: lettore al posto del video');
+  await page.click('[data-act="play"]');
+  await page.waitForTimeout(1500);
+  const spT = await page.textContent('.t-cur');
+  await page.click('[data-act="play"]');
+  check(spT !== '0:00', `Spotify: il brano avanza e accordi e testo lo seguono (${spT})`);
+  await tap('.speed-pills [data-rate="0.5"]');
+  check((await page.textContent('.toast')).includes('Spotify'), 'Spotify: niente rallentamento, con avviso');
+  if (await page.locator('[data-popbody="speed"]:not([hidden])').count()) await page.click('[data-pop="speed"]');
+  await tap('button.tool[data-act="source"]');
+  await page.waitForSelector('.dlg-source [data-srcopt="youtube"]', { timeout: 3000 });
+  await page.click('.dlg-source [data-srcopt="youtube"]');
+  const spPrefs = await page.evaluate(() => JSON.parse(localStorage.getItem('gst:prefs:salmo-cartine-corte')));
+  check(spPrefs.source === 'youtube' && spPrefs.spotifyId === '1qPbGZqppFwLwcBC1JQ6Vr', 'Spotify: link ricordato, si torna al video');
 
   await page.click('.panel-tab[data-tab="lyrics"]').catch(() => {});
   await page.waitForSelector('.k-row', { timeout: 30000 }).catch(() => {});

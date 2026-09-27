@@ -27,16 +27,16 @@
   {
    "name": "Intro",
    "bars": [
+    "Gbadd9",
+    "Db",
+    "%",
     "Db",
     "%",
     "%",
     "%",
+    "Gbadd9",
     "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
+    "Db",
     "%"
    ],
    "barsPerRow": 4,
@@ -179,5 +179,6 @@
    "barsPerRow": 4
   }
  ],
- "strumSource": "stima"
+ "strumSource": "stima",
+ "introSource": "stima: giro della prima parte cantata (la fonte non riportava gli accordi dell'intro)"
 }

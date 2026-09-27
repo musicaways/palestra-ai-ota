@@ -27,12 +27,12 @@
   {
    "name": "Strofa 1",
    "bars": [
+    "A7",
+    "%",
+    "%",
+    "%",
+    "%",
     "A",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
     "%",
     "%"
    ],
@@ -429,5 +429,6 @@
    329.67
   ]
  ],
- "strumSource": "stima"
+ "strumSource": "stima",
+ "introSource": "stima: giro della prima parte cantata (la fonte non riportava gli accordi dell'intro)"
 }

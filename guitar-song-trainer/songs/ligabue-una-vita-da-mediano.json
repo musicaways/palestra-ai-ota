@@ -29,11 +29,11 @@
    "bars": [
     "G",
     "%",
+    "D",
     "%",
+    "Am",
     "%",
-    "%",
-    "%",
-    "%",
+    "C",
     "%"
    ],
    "barsPerRow": 4
@@ -282,5 +282,7 @@
    181.911
   ]
  ],
- "strumSource": "ultimate-guitar"
+ "strumSource": "ultimate-guitar",
+ "deezerId": 6628021,
+ "introSource": "stima: giro della prima parte cantata (la fonte non riportava gli accordi dell'intro)"
 }

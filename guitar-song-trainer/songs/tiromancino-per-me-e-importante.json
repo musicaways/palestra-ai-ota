@@ -27,22 +27,22 @@
   {
    "name": "Intro",
    "bars": [
+    "Am7",
     "Dm7",
     "%",
+    "Dm7",
     "%",
+    "Am",
     "%",
+    "Am7",
     "%",
+    "Dm7",
     "%",
+    "Dm7",
     "%",
+    "Am",
     "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
+    "Am7",
     "%"
    ],
    "barsPerRow": 4,
@@ -322,5 +322,6 @@
    247.306
   ]
  ],
- "strumSource": "stima"
+ "strumSource": "stima",
+ "introSource": "stima: giro della prima parte cantata (la fonte non riportava gli accordi dell'intro)"
 }

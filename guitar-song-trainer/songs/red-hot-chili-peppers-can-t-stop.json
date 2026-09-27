@@ -28,17 +28,17 @@
    "name": "Intro",
    "bars": [
     "Em",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%"
+    "D",
+    "Bm",
+    "C",
+    "Em",
+    "D",
+    "Bm",
+    "C",
+    "Em",
+    "D",
+    "Bm",
+    "C"
    ],
    "barsPerRow": 4,
    "strum": "D---D---"
@@ -288,5 +288,8 @@
    265.004
   ]
  ],
- "strumSource": "stima"
+ "strumSource": "stima",
+ "deezerId": 725971,
+ "spotifyId": "3ZOEytgrvLwQaqXreDs2Jx",
+ "introSource": "stima: giro della prima parte cantata (la fonte non riportava gli accordi dell'intro)"
 }

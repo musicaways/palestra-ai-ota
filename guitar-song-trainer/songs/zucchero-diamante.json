@@ -27,16 +27,16 @@
   {
    "name": "Intro",
    "bars": [
+    "Bb",
+    "Bb",
+    "%",
     "F",
     "%",
+    "Bb",
     "%",
     "%",
     "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
+    "Bb",
     "%"
    ],
    "barsPerRow": 4
@@ -230,5 +230,7 @@
    331.73
   ]
  ],
- "strumSource": "ultimate-guitar"
+ "strumSource": "ultimate-guitar",
+ "deezerId": 2760132,
+ "introSource": "stima: giro della prima parte cantata (la fonte non riportava gli accordi dell'intro)"
 }

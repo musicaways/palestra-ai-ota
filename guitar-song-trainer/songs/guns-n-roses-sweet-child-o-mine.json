@@ -27,17 +27,26 @@
   {
    "name": "Intro",
    "bars": [
+    "Cadd9",
+    "%",
+    [
+     "G:2",
+     "D:2"
+    ],
     "D",
+    "Cadd9",
+    [
+     "G:2",
+     "D:2"
+    ],
     "%",
+    "D",
+    "Cadd9",
     "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%"
+    [
+     "G:2",
+     "D:2"
+    ]
    ],
    "barsPerRow": 4,
    "strum": "D---D-DU"
@@ -288,5 +297,8 @@
    335.031
   ]
  ],
- "strumSource": "stima"
+ "strumSource": "stima",
+ "deezerId": 518458172,
+ "spotifyId": "50qma2LfxTfAILyNlZEnpP",
+ "introSource": "stima: giro della prima parte cantata (la fonte non riportava gli accordi dell'intro)"
 }

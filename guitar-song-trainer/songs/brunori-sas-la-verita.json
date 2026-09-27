@@ -28,17 +28,17 @@
    "name": "Intro",
    "bars": [
     "Dmaj7",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%"
+    "G",
+    "Dmaj7",
+    "G",
+    "Dmaj7",
+    "G",
+    "Dmaj7",
+    "G",
+    "Dmaj7",
+    "G",
+    "Dmaj7",
+    "G"
    ],
    "barsPerRow": 4,
    "strum": "D-DUD-DUD-DUD-DUD-DUD-DUD-DUD-DU"
@@ -119,5 +119,6 @@
    "barsPerRow": 4
   }
  ],
- "strumSource": "ultimate-guitar"
+ "strumSource": "ultimate-guitar",
+ "introSource": "stima: giro della prima parte cantata (la fonte non riportava gli accordi dell'intro)"
 }

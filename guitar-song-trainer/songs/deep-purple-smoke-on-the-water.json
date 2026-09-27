@@ -27,18 +27,39 @@
   {
    "name": "Intro",
    "bars": [
+    [
+     "F5:2",
+     "G5:2"
+    ],
+    [
+     "F5:2",
+     "G5:2"
+    ],
+    "%",
+    [
+     "F5:2",
+     "G5:2"
+    ],
     "G5",
+    [
+     "F5:2",
+     "G5:2"
+    ],
     "%",
+    [
+     "F5:2",
+     "G5:2"
+    ],
     "%",
+    [
+     "F5:2",
+     "G5:2"
+    ],
     "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%"
+    [
+     "F5:2",
+     "G5:2"
+    ]
    ],
    "barsPerRow": 4,
    "strum": "D---D-DU"
@@ -238,5 +259,6 @@
    277.534
   ]
  ],
- "strumSource": "stima"
+ "strumSource": "stima",
+ "introSource": "stima: giro della prima parte cantata (la fonte non riportava gli accordi dell'intro)"
 }

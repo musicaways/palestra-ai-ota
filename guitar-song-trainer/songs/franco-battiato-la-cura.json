@@ -31,16 +31,16 @@
     "%",
     "%",
     "%",
+    "G",
+    "D",
+    "G",
     "%",
-    "%",
-    "%",
-    "%",
+    "G",
     "%",
     "%",
     "%",
     "G",
-    "%",
-    "%"
+    "D"
    ],
    "barsPerRow": 4,
    "strum": "D---D-DU"
@@ -216,5 +216,6 @@
    192.312
   ]
  ],
- "strumSource": "stima"
+ "strumSource": "stima",
+ "introSource": "stima: giro della prima parte cantata (la fonte non riportava gli accordi dell'intro)"
 }

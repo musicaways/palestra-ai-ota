@@ -27,16 +27,16 @@
   {
    "name": "Intro",
    "bars": [
+    "Aadd9",
+    "F#m",
+    "%",
     "C#m",
     "%",
+    "Dadd9",
+    "Aadd9",
     "%",
     "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
-    "%",
+    "F#m",
     "%"
    ],
    "barsPerRow": 4,
@@ -316,5 +316,7 @@
    229.986
   ]
  ],
- "strumSource": "stima"
+ "strumSource": "stima",
+ "deezerId": 3559368461,
+ "introSource": "stima: giro della prima parte cantata (la fonte non riportava gli accordi dell'intro)"
 }

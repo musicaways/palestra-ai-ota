@@ -29,12 +29,18 @@
    "bars": [
     "A",
     "%",
+    [
+     "D:2",
+     "B7:2"
+    ],
+    [
+     "B7:2",
+     "D:2"
+    ],
+    "A",
     "%",
     "%",
-    "%",
-    "%",
-    "%",
-    "%"
+    "D"
    ],
    "barsPerRow": 4,
    "strum": "DDDDDDDD"
@@ -280,5 +286,8 @@
    173.37
   ]
  ],
- "strumSource": "stima"
+ "strumSource": "stima",
+ "deezerId": 760429452,
+ "spotifyId": "2lpzszb00J977krNrv6VhF",
+ "introSource": "stima: giro della prima parte cantata (la fonte non riportava gli accordi dell'intro)"
 }

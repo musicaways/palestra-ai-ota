@@ -6,13 +6,13 @@
  "genre": "Rock",
  "difficulty": 1,
  "youtubeId": "8LaTzWMbShY",
- "key": "Em7",
+ "key": "F#m7",
  "bpm": 85.31,
  "timeSignature": [
   4,
   4
  ],
- "capo": 0,
+ "capo": 2,
  "tuning": "Standard (E A D G B E)",
  "offset": 0.22,
  "strum": "D-DU-UDU",
@@ -27,11 +27,11 @@
   {
    "name": "Intro",
    "bars": [
-    "Em7",
-    "G",
-    "D4",
+    "F#m7",
+    "A",
+    "E4",
     "%",
-    "Em7"
+    "F#m7"
    ],
    "barsPerRow": 4,
    "strum": "D---D-DU"
@@ -39,15 +39,15 @@
   {
    "name": "Strofa 1",
    "bars": [
-    "D4",
+    "E4",
     "%",
-    "D4",
+    "E4",
     "%",
-    "Em7",
-    "G",
+    "F#m7",
+    "A",
     [
-     "G:2",
-     "D4:2"
+     "A:2",
+     "E4:2"
     ],
     "%",
     "%"
@@ -57,13 +57,13 @@
   {
    "name": "Ritornello",
    "bars": [
-    "Em7",
-    "G",
-    "Em7",
-    "G",
-    "Em7",
-    "G",
-    "D4",
+    "F#m7",
+    "A",
+    "F#m7",
+    "A",
+    "F#m7",
+    "A",
+    "E4",
     "%"
    ],
    "barsPerRow": 4,
@@ -73,19 +73,19 @@
    "name": "Strofa 2",
    "bars": [
     [
-     "Cadd9:2",
-     "D4:2"
+     "Dadd9:2",
+     "E4:2"
     ],
     [
-     "D4:2",
-     "Em7:2"
+     "E4:2",
+     "F#m7:2"
     ],
-    "Cadd9",
-    "D4",
-    "Em7",
-    "Cadd9",
+    "Dadd9",
+    "E4",
+    "F#m7",
+    "Dadd9",
     "%",
-    "D4",
+    "E4",
     "%"
    ],
    "barsPerRow": 4
@@ -94,28 +94,28 @@
    "name": "Strofa 3",
    "bars": [
     [
-     "Cadd9:2",
-     "Em7:2"
+     "Dadd9:2",
+     "F#m7:2"
     ],
     [
-     "Em7:2",
-     "G:2"
+     "F#m7:2",
+     "A:2"
     ],
     [
-     "Em7:2",
-     "Cadd9:2"
+     "F#m7:2",
+     "Dadd9:2"
     ],
     [
-     "Em7:2",
-     "G:2"
+     "F#m7:2",
+     "A:2"
     ],
     [
-     "Em7:2",
-     "Cadd9:2"
+     "F#m7:2",
+     "Dadd9:2"
     ],
     [
-     "Em7:2",
-     "G:2"
+     "F#m7:2",
+     "A:2"
     ],
     "%",
     "%",
@@ -126,14 +126,14 @@
   {
    "name": "Ritornello",
    "bars": [
-    "D4",
-    "D4",
+    "E4",
+    "E4",
     "%",
-    "Em7",
-    "G",
-    "Em7",
-    "G",
-    "D4",
+    "F#m7",
+    "A",
+    "F#m7",
+    "A",
+    "E4",
     "%"
    ],
    "barsPerRow": 4,
@@ -143,71 +143,71 @@
    "name": "Strofa 4",
    "bars": [
     [
-     "Cadd9:2",
-     "D4:2"
+     "Dadd9:2",
+     "E4:2"
     ],
     [
-     "D4:2",
-     "Em7:2"
+     "E4:2",
+     "F#m7:2"
     ],
-    "Cadd9",
-    "D4",
-    "Em7",
-    "Cadd9",
+    "Dadd9",
+    "E4",
+    "F#m7",
+    "Dadd9",
     "%",
-    "D4",
+    "E4",
     "%",
     "%",
-    "Em7",
+    "F#m7",
     [
-     "Cadd9:2",
-     "Em7:2"
+     "Dadd9:2",
+     "F#m7:2"
     ],
-    "G",
+    "A",
     [
-     "Em7:2",
-     "Cadd9:2"
-    ],
-    [
-     "Em7:2",
-     "G:2"
+     "F#m7:2",
+     "Dadd9:2"
     ],
     [
-     "Em7:2",
-     "Cadd9:2"
-    ],
-    "Em7",
-    [
-     "G:2",
-     "Em7:2"
+     "F#m7:2",
+     "A:2"
     ],
     [
-     "Cadd9:1",
-     "Em7:2",
-     "G:1"
+     "F#m7:2",
+     "Dadd9:2"
     ],
-    "Em7",
+    "F#m7",
     [
-     "Cadd9:2",
-     "Em7:2"
-    ],
-    "G",
-    [
-     "Em7:2",
-     "Cadd9:2"
+     "A:2",
+     "F#m7:2"
     ],
     [
-     "Em7:2",
-     "G:2"
+     "Dadd9:1",
+     "F#m7:2",
+     "A:1"
+    ],
+    "F#m7",
+    [
+     "Dadd9:2",
+     "F#m7:2"
+    ],
+    "A",
+    [
+     "F#m7:2",
+     "Dadd9:2"
     ],
     [
-     "Em7:2",
-     "Cadd9:2"
+     "F#m7:2",
+     "A:2"
     ],
-    "Em7",
     [
-     "G:2",
-     "Em7:2"
+     "F#m7:2",
+     "Dadd9:2"
+    ],
+    "F#m7",
+    [
+     "A:2",
+     "F#m7:2"
     ]
    ],
    "barsPerRow": 4
@@ -216,39 +216,42 @@
    "name": "Strofa 5",
    "bars": [
     [
-     "Cadd9:1",
-     "Em7:2",
-     "G:1"
+     "Dadd9:1",
+     "F#m7:2",
+     "A:1"
     ],
     [
-     "Em7:1",
-     "Cadd9:1",
-     "Em7:1",
-     "G:1"
+     "F#m7:1",
+     "Dadd9:1",
+     "F#m7:1",
+     "A:1"
     ],
     [
-     "Em7:2",
-     "Cadd9:2"
+     "F#m7:2",
+     "Dadd9:2"
     ],
     [
-     "Em7:2",
-     "G:2"
+     "F#m7:2",
+     "A:2"
     ],
-    "Em7",
-    "Cadd9",
-    "Em7",
-    "G",
-    "Em7",
-    "Cadd9",
-    "Em7",
-    "G",
-    "Em7",
-    "Cadd9",
-    "Em7",
-    "G"
+    "F#m7",
+    "Dadd9",
+    "F#m7",
+    "A",
+    "F#m7",
+    "Dadd9",
+    "F#m7",
+    "A",
+    "F#m7",
+    "Dadd9",
+    "F#m7",
+    "A"
    ],
    "barsPerRow": 4
   }
  ],
- "strumSource": "stima"
+ "strumSource": "stima",
+ "spotifyId": "1qPbGZqppFwLwcBC1JQ6Vr",
+ "deezerId": 985745702,
+ "keySource": "disco: accordi +2 (forme con capotasto al 2° tasto); anteprima Deezer e MIDI concordano"
 }
