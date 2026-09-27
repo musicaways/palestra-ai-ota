@@ -1,6 +1,6 @@
 # 🎸 Guitar Song Trainer
 
-**Versione 2.2.0** — sorgenti audio (YouTube, Spotify, file tuo), parte vera da MIDI trovata online, tablatura,
+**Versione 2.3.0** — sorgenti audio (YouTube, Spotify, file tuo), parte vera da MIDI trovata online, tablatura,
 karaoke parola per parola, pennate per brano; obiettivi di pratica, backup dei dati e affidabilità offline.
 Analisi del progetto, limiti e prossime funzionalità: [PROGETTO.md](PROGETTO.md).
 
@@ -33,7 +33,9 @@ Funziona nel browser di **PC, tablet e telefono Android** e si può installare c
   l'app lo dice subito e resta utilizzabile (niente attese all'avvio).
 - **Spotify** come sorgente (⋯ → Audio): il brano del disco sincronizzato con testo e accordi; parte da solo se il
   video non va. Brano intero se sei entrato in Spotify nel browser (anche gratis), velocità fissa.
-- **Scheda Tab**: la tablatura della parte (MIDI o arpeggio) che scorre con la musica.
+- **Scheda Tab**: la tablatura della parte (MIDI, Guitar Pro o arpeggio) che scorre con la musica, con le tecniche.
+- **File Guitar Pro** (.gp, .gp5…) come parte vera: corde, tasti e tecniche esatti di chi l'ha trascritta.
+- **Modalità «Aspetta»** (⋯ → Aspetta): il brano si ferma a ogni accordo o nota finché non lo suoni giusto.
 - **Parte vera da file MIDI** (Parte → Trova la parte online, oppure Carica un file MIDI): l'app cerca i MIDI gratuiti
   su BitMidi e tiene quello che suona gli accordi del brano; le note esatte della chitarra del brano (esportate da
   Guitar Pro, TuxGuitar, MuseScore…) si agganciano da sole alle battute e ne seguono il tempo; la Base le suona
@@ -186,6 +188,18 @@ Per usare Pages, verifica che sia disponibile per il repository e configura
 3. **Fine** salva sul dispositivo; **Esporta JSON** scarica il brano con i tempi (e copia `sync` negli appunti)
    così può essere aggiunto al repository per tutti i dispositivi.
 
+## Crediti e ispirazioni
+
+- [alphaTab](https://github.com/CoderLine/alphaTab) (MPL-2.0): lettura dei file Guitar Pro; caricato dal CDN jsDelivr
+  solo quando si apre un file .gp, non modificato.
+- [RAF](https://github.com/iamdey/raf): idea di usare alphaTab per imparare i brani dai file Guitar Pro.
+- [StringTheory](https://alternativeto.net/software/rocksmith/?license=free) (gioco open source, GPL-3): idea della
+  modalità che aspetta la nota giusta. Nessun codice copiato.
+- Servizi usati a runtime: [LRCLIB](https://lrclib.net) (testi), YouTube, Spotify (lettore incorporato),
+  [BitMidi](https://bitmidi.com) (MIDI), Deezer e [MusicBrainz](https://musicbrainz.org) (collegamento a Spotify).
+- Valutato e non copiato: [pitchfinder](https://github.com/peterkhayes/pitchfinder) (GPL-3; l'algoritmo YIN provato
+  sui nostri segnali di prova non dà risultati migliori del metodo attuale).
+
 ## Struttura
 
 ```
@@ -219,6 +233,8 @@ js/midi.js            lettura dei file MIDI, aggancio alle battute, diteggiatura
 js/wordtiming.js      tempi delle singole parole per il karaoke
 js/online.js          servizi gratuiti: brano su Spotify (Deezer → ISRC → MusicBrainz), MIDI da BitMidi, link Songsterr
 js/tab.js             tablatura della parte a note singole
+js/gpfile.js          file Guitar Pro → parte (con alphaTab caricato solo quando serve)
+js/waitmode.js        modalità Aspetta: bersagli e verifica di accordi e note
 songs/                libreria dei brani (JSON)
 sw.js, manifest.webmanifest, icons/   PWA
 ```

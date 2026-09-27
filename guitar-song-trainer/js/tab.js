@@ -19,7 +19,9 @@ export function tabBars(tl, notes, { perBeat = 4 } = {}) {
     const slot = Math.max(0, Math.min(size - 1, Math.round(((n.t - bar.start) / Math.max(0.01, bar.end - bar.start)) * size)));
     if (!bar.map.has(slot)) bar.map.set(slot, Array(6).fill(null));
     const col = bar.map.get(slot);
-    if (col[n.string] == null) col[n.string] = n.fret;
+    // tasto con la sigla della tecnica (h p / b ~ x) come nelle tablature scritte
+    const mark = { h: 'h', p: 'p', s: '/', b: 'b', v: '~' }[n.tech] ?? '';
+    if (col[n.string] == null) col[n.string] = n.tech === 'x' ? 'x' : n.tech === 'pm' ? `${n.fret}·` : mark ? `${mark}${n.fret}` : n.fret;
   }
   return out.map(({ map, ...b }) => ({ ...b, cols: [...map.entries()].sort((a, c) => a[0] - c[0]).map(([slot, frets]) => ({ slot, frets })) }));
 }
@@ -40,7 +42,7 @@ export class Tab {
     this.bars = [];
     if (!notes?.length) {
       this.el.innerHTML = `<div class="panel-empty">La tablatura c'è quando suoni note singole: scegli <b>Parte → Arpeggio</b>,
-        oppure <b>Parte → Parte vera (MIDI)</b> per le note esatte del brano.</div>`;
+        oppure <b>Parte → Parte vera</b> (file MIDI o Guitar Pro) per le note esatte del brano.</div>`;
       return;
     }
     const bars = tabBars(tl, notes);

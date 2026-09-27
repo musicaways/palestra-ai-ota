@@ -297,6 +297,16 @@ export class Fretboard {
             ctx.shadowBlur = 0;
           }
         }
+        if (!noteMode && nt.tech) {
+          // parte vera (Guitar Pro): la tecnica scritta nel file sopra la nota che suona
+          ctx.font = '800 13px Rajdhani, system-ui, sans-serif';
+          ctx.textAlign = 'center';
+          ctx.fillStyle = '#fff';
+          ctx.shadowColor = '#22d3ee';
+          ctx.shadowBlur = 10;
+          ctx.fillText(TECH_LABEL[nt.tech] ?? nt.tech, nx, ny - 26);
+          ctx.shadowBlur = 0;
+        }
         if (ni !== this.lastNote && playing) {
           this.onNote?.(nt);
           this.vibration[nt.string] = 0.8;

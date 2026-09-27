@@ -1,5 +1,19 @@
 # AGENTS.md — memoria condivisa del progetto
 
+## Aggiornamento 2.3.0 — 2026-09-27
+
+Richiesta: guardare progetti simili open source e prenderne idee o codice. Fatto:
+- `js/gpfile.js`: file Guitar Pro letti con alphaTab (MPL-2.0, CDN jsDelivr versione fissata 1.8.4, import dinamico solo
+  quando serve; `@coderline/alphatab` è anche devDependency per test e fixture). `scoreToParsed` porta la partitura nel
+  formato delle parti ({ b, bd, pitch, vel, string, fret, tech }); il player usa corde e tasti del file se l'accordatura è
+  standard o spostata tutta insieme e non c'è trasposizione, altrimenti ridiggita. alphaTab: `n.string` 1 = corda grave,
+  `realValue` include il capotasto, `fret` è contato dal capotasto.
+- `js/waitmode.js`: modalità Aspetta (idea di StringTheory, GPL-3: nessun codice copiato). Listener passa anche il segnale
+  nel tempo per `detectPitch`.
+- pitchfinder (GPL-3) non copiato; YIN riscritto e confrontato: nessun vantaggio sui segnali di prova → non adottato.
+- Bug trovato dai test: Base con capotasto suonava le corde a vuoto senza capo.
+- Test in questo ambiente: `CHROMIUM_PATH=/opt/pw-browsers/chromium` (Playwright del lock più nuovo del Chromium installato).
+
 ## Aggiornamento 2.2.0 — 2026-09-27 (unione)
 
 Nel repo dedicato `musicaways/guitar-song-trainer` le due linee sono state unite: `main` (1.10.0, Codex, partita

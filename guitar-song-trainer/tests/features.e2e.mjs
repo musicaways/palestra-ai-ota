@@ -11,7 +11,7 @@ const catalogSize = JSON.parse(readFileSync(new URL('../songs/index.json', impor
 const base = process.argv[2] ?? 'http://127.0.0.1:8080';
 const shots = process.argv[3] ?? 'test-results';
 await mkdir(shots, { recursive: true });
-const browser = await chromium.launch();
+const browser = await chromium.launch({ executablePath: process.env.CHROMIUM_PATH || undefined });
 const errors = [];
 try {
   for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['telefono', { width: 390, height: 844 }]]) {

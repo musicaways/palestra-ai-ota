@@ -141,7 +141,7 @@ export class Listener {
       const level = Math.sqrt(rms / time.length);
       this.analyser.getFloatFrequencyData(db);
       for (let i = 0; i < db.length; i++) mags[i] = Math.pow(10, db[i] / 20);
-      this.onFrame({ chroma: chromaFromSpectrum(mags, binHz), level });
+      this.onFrame({ chroma: chromaFromSpectrum(mags, binHz), level, time, sampleRate: this.ctx.sampleRate });
     }, 100);
   }
 

@@ -65,3 +65,34 @@ export function wavForSong(song, { delay = 0, seconds = 60, rate = 22050 } = {})
   head.write('data', 36); head.writeUInt32LE(n * 2, 40);
   return Buffer.concat([head, Buffer.from(pcm.buffer)]);
 }
+
+/**
+ * File Guitar Pro 7 con la parte arpeggiata degli accordi del brano (dalla battuta `fromBar`), scritto con alphaTab
+ * (dipendenza di sviluppo): corde e tasti veri, come in un file scaricato.
+ */
+export async function gpForSong(song, { fromBar = 1, bpm = song.bpm } = {}) {
+  const at = await import('../node_modules/@coderline/alphatab/dist/alphaTab.core.mjs');
+  const { fingerNotes } = await import('../js/midi.js');
+  const tl = buildTimeline(song);
+  const chords = beatChords(tl).slice(fromBar * tl.bpb);
+  const notes = chords.map((name, i) => {
+    const v = voicing(name);
+    return v.length ? { t: i, dur: 1, pitch: v[i % tl.bpb === 0 ? 0 : 1 + (i % 3)] } : null;
+  });
+  const fingered = fingerNotes(notes.filter(Boolean));
+  const byT = new Map(fingered.map((n) => [n.t, n]));
+  const bars = [];
+  for (let i = 0; i < chords.length; i += tl.bpb) {
+    const beats = [];
+    for (let k = i; k < i + tl.bpb; k++) {
+      const n = byT.get(k);
+      beats.push(n ? `${n.fret}.${6 - n.string}` : 'r');
+    }
+    bars.push(`:4 ${beats.join(' ')}`);
+  }
+  const tex = `\\title "Prova" \\tempo ${Math.round(bpm)} . \\track "Chitarra" \\staff {tabs} \\ts ${tl.bpb} 4 ${bars.join(' | ')}`;
+  const settings = new at.Settings();
+  const imp = new at.importer.AlphaTexImporter();
+  imp.initFromString(tex, settings);
+  return Buffer.from(new at.exporter.Gp7Exporter().export(imp.readScore(), settings));
+}

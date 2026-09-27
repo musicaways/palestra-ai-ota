@@ -1,9 +1,11 @@
 {
   "name": "guitar-song-trainer",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "description": "Web app per imparare canzoni alla chitarra in stile Rocksmith",
   "scripts": {
     "start": "node tools/serve.mjs",
@@ -12,6 +14,7 @@
     "test:e2e": "node tools/browser-test.mjs"
   },
   "devDependencies": {
+    "@coderline/alphatab": "1.8.4",
     "playwright": "^1.63.0"
   }
 }

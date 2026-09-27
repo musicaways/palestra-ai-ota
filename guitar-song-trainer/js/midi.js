@@ -133,7 +133,7 @@ export function fingerNotes(notes, { capo = 0 } = {}) {
     const group = notes.slice(i, j).sort((a, b) => a.pitch - b.pitch).slice(0, 6);
     const choice = assign(group, hand, capo);
     if (choice) {
-      choice.forEach((c, k) => out.push({ t: group[k].t, dur: group[k].dur, string: c.s, fret: c.f, pitch: group[k].pitch, vel: group[k].vel }));
+      choice.forEach((c, k) => out.push({ t: group[k].t, dur: group[k].dur, string: c.s, fret: c.f, pitch: group[k].pitch, vel: group[k].vel, tech: group[k].tech }));
       const fretted = choice.filter((c) => c.f > 0).map((c) => c.f);
       if (fretted.length) hand = hand * 0.4 + (fretted.reduce((a, b) => a + b, 0) / fretted.length) * 0.6;
     }
@@ -412,7 +412,8 @@ export function placeMidi(notes, tl, { shift = 0, scale = 1, transpose = 0, map 
     } else sb = x + shift + nudge;
     const t = songBeatTime(tl, sb);
     const t1 = songBeatTime(tl, sb + n.bd * scale);
-    out.push({ t, dur: Math.max(0.05, t1 - t), pitch: n.pitch + transpose, vel: n.vel });
+    // corda, tasto e tecnica restano quando il file li ha (Guitar Pro)
+    out.push({ t, dur: Math.max(0.05, t1 - t), pitch: n.pitch + transpose, vel: n.vel, string: n.string, fret: n.fret, tech: n.tech });
   }
   return out.sort((a, b) => a.t - b.t || a.pitch - b.pitch);
 }

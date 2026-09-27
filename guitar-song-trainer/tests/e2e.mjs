@@ -6,7 +6,7 @@ import { chromium } from 'playwright';
 import { readFileSync, writeFileSync, mkdtempSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-import { midiForSong, wavForSong } from './fixtures.mjs';
+import { midiForSong, wavForSong, gpForSong } from './fixtures.mjs';
 
 // file di prova ricavati dagli accordi di Cartine corte: parte MIDI (dalla battuta 2) e audio spostato di 1,5 s
 const cartine = JSON.parse(readFileSync(new URL('../songs/salmo-cartine-corte.json', import.meta.url)));
@@ -18,6 +18,9 @@ writeFileSync(midiPath, midiForSong(cartine, { fromBar: 1, bpm: 80 }));
 const midiWrongPath = join(tmp, 'altro.mid');
 writeFileSync(midiWrongPath, midiForSong({ bpm: 120, timeSignature: [4, 4], offset: 0, sections: [{ name: 'A', bars: Array(40).fill(0).map((_, i) => ['A', 'E', 'B', 'F#m'][i % 4]) }] }, { fromBar: 0 }));
 writeFileSync(wavPath, wavForSong(cartine, { delay: 1.5, seconds: 70 }));
+const gpPath = join(tmp, 'cartine-parte.gp');
+writeFileSync(gpPath, await gpForSong(cartine, { fromBar: 1, bpm: 80 }));
+const alphaTabFile = new URL('../node_modules/@coderline/alphatab/dist/alphaTab.core.min.mjs', import.meta.url);
 
 const BASE = process.argv[2] ?? 'http://localhost:8080';
 const SHOTS = process.argv[3] ?? null;
@@ -34,6 +37,8 @@ function check(cond, msg) {
 }
 
 const browser = await chromium.launch({
+  // CHROMIUM_PATH: un Chromium già installato (se la versione di Playwright non ha il suo)
+  executablePath: process.env.CHROMIUM_PATH || undefined,
   args: ['--use-fake-ui-for-media-stream', '--use-fake-device-for-media-stream', '--autoplay-policy=no-user-gesture-required'],
 });
 
@@ -50,6 +55,8 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
       ? [{ id: 1, duration: 280, syncedLyrics: mockLrc }]
       : { id: 1, duration: 280, syncedLyrics: mockLrc }),
   }));
+  // alphaTab (lettore dei file Guitar Pro) dalla copia locale invece che dal CDN
+  await ctx.route(/cdn\.jsdelivr\.net\/npm\/@coderline\/alphatab/, (r) => r.fulfill({ contentType: 'text/javascript', body: readFileSync(alphaTabFile) }));
   // BitMidi finto: la ricerca restituisce un file sbagliato e la parte giusta (ricavata dagli accordi)
   await ctx.route(/bitmidi\.com\/api\/midi\/search/, (r) => r.fulfill({ contentType: 'application/json', body: JSON.stringify({ result: { results: [
     { id: 1, name: 'Salmo - Cartine corte.mid', downloadUrl: '/uploads/1.mid' },
@@ -635,7 +642,7 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   await page.waitForSelector('.dlg-part .midi-info');
   const mi = await page.textContent('.dlg-part .midi-info');
   check(/battuta 2\b/.test(mi) && !/battito/.test(mi), `parte MIDI agganciata da sola alla battuta giusta (${mi})`);
-  check((await page.textContent('.part-label')) === 'Parte vera (MIDI)', 'la parte MIDI diventa la parte scelta');
+  check((await page.textContent('.part-label')) === 'Parte vera', 'la parte MIDI diventa la parte scelta');
   check(await page.locator('.dlg-part .midi-track option').count() === 1, 'tracce del file MIDI');
   await page.click('.dlg-part [data-midi="later"]');
   check(/battito 2/.test(await page.textContent('.dlg-part .midi-info')), 'parte MIDI spostabile di un battito');
@@ -643,8 +650,8 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   await page.click('.dlg-part button[value="ok"]');
   await page.reload();
   await page.waitForSelector('.player');
-  await page.waitForFunction(() => document.querySelector('.part-label')?.textContent === 'Parte vera (MIDI)', null, { timeout: 5000 }).catch(() => {});
-  check((await page.textContent('.part-label')) === 'Parte vera (MIDI)', 'la parte MIDI resta salvata sul dispositivo');
+  await page.waitForFunction(() => document.querySelector('.part-label')?.textContent === 'Parte vera', null, { timeout: 5000 }).catch(() => {});
+  check((await page.textContent('.part-label')) === 'Parte vera', 'la parte MIDI resta salvata sul dispositivo');
   await page.click('.panel-tab[data-tab="tab"]');
   const tabNotes = await page.locator('.tab-body .tab-bar i.n').count();
   check(tabNotes > 100, `tablatura della parte MIDI (${tabNotes} note)`);
@@ -664,6 +671,19 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   await page.waitForSelector('.dlg-part .midi-info', { timeout: 15000 }).catch(() => {});
   const found = await page.evaluate(() => ({ info: document.querySelector('.dlg-part .midi-info')?.textContent ?? '', name: document.querySelector('.dlg-part .dlg-sub')?.textContent ?? '', cands: document.querySelectorAll('.midi-cand').length }));
   check(/Cartine corte\.mid/.test(found.name) && /battuta 2\b/.test(found.info) && found.cands === 2, `parte MIDI trovata online e scelta da sola (${found.name} · ${found.info})`);
+  await page.click('.dlg-part [data-midi="remove"]');
+  // file Guitar Pro: corde e tasti scritti nel file, stesso aggancio alle battute
+  await page.waitForFunction(() => !document.querySelector('.dlg-part .midi-info'), null, { timeout: 5000 }).catch(() => {});
+  await page.setInputFiles('.dlg-part .midi-file', gpPath);
+  await page.waitForSelector('.dlg-part .midi-info', { timeout: 20000 }).catch(() => {});
+  const gpInfo = await page.evaluate(() => ({ info: document.querySelector('.dlg-part .midi-info')?.textContent ?? '', name: document.querySelector('.dlg-part .dlg-sub')?.textContent ?? '' }));
+  check(/cartine-parte\.gp/.test(gpInfo.name) && /battuta 2\b/.test(gpInfo.info), `file Guitar Pro letto e agganciato (${gpInfo.name} · ${gpInfo.info})`);
+  await page.click('.dlg-part button[value="ok"]');
+  await page.click('.panel-tab[data-tab="tab"]');
+  const gpTab = await page.locator('.tab-body .tab-bar i.n').count();
+  check(gpTab > 100, `tablatura dal file Guitar Pro (${gpTab} note)`);
+  await page.click('.panel-tab[data-tab="lyrics"]');
+  await tap('[data-act="part"]');
   await page.click('.dlg-part [data-midi="remove"]');
   await page.click('.dlg-part button[value="ok"]');
 
@@ -702,6 +722,27 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   await page.click('.dlg-source [data-srcopt="youtube"]');
   const spPrefs = await page.evaluate(() => JSON.parse(localStorage.getItem('gst:prefs:salmo-cartine-corte')));
   check(spPrefs.source === 'youtube' && spPrefs.spotifyId === '1qPbGZqppFwLwcBC1JQ6Vr', 'Spotify: link ricordato, si torna al video');
+
+  // Modalità Aspetta: il brano si ferma sul primo accordo finché non lo suoni (qui: "Salta")
+  await page.click('.sec-chip >> nth=1');
+  await tap('[data-act="wait"]');
+  await page.waitForTimeout(800);
+  if (await page.locator('[data-popbody]:not([hidden])').count()) await page.keyboard.press('Escape');
+  await page.click('[data-act="play"]');
+  await page.waitForSelector('.wait-pill:not([hidden])', { timeout: 8000 }).catch(() => {});
+  const waitTxt = await page.evaluate(() => document.querySelector('.wait-pill:not([hidden]) .wait-what')?.textContent ?? '');
+  const t1 = await page.textContent('.t-cur');
+  await page.waitForTimeout(1200);
+  const stopped = (await page.textContent('.t-cur')) === t1 && !(await page.getAttribute('[data-act="play"]', 'class')).includes('playing');
+  check(/^Suona \S+/.test(waitTxt) && stopped, `Aspetta: il brano si ferma sull'accordo da suonare (${waitTxt})`);
+  await page.click('.wait-pill [data-act="waitskip"]');
+  await page.waitForTimeout(300);
+  const resumed = (await page.getAttribute('[data-act="play"]', 'class')).includes('playing') || await page.isVisible('.wait-pill');
+  check(resumed, 'Aspetta: "Salta" fa ripartire il brano fino al bersaglio successivo');
+  await tap('[data-act="wait"]');
+  if (await page.locator('[data-popbody]:not([hidden])').count()) await page.keyboard.press('Escape');
+  if ((await page.getAttribute('[data-act="play"]', 'class')).includes('playing')) await page.click('[data-act="play"]');
+  check(await page.isHidden('.wait-pill'), 'Aspetta: si spegne');
 
   await page.click('.panel-tab[data-tab="lyrics"]').catch(() => {});
   await page.waitForSelector('.k-row', { timeout: 30000 }).catch(() => {});

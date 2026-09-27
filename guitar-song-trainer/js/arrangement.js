@@ -10,7 +10,7 @@ export const ARRANGEMENTS = [
   { id: 'arpeggio', label: 'Arpeggio', desc: 'Le note dell\'accordo una alla volta: basso e corde acute, a crome.' },
   { id: 'power', label: 'Power chord', desc: 'Fondamentale e quinta sulle corde gravi: suono rock, due dita.' },
   { id: 'easy', label: 'Facile', desc: 'Accordi semplificati, senza settime e con forme ridotte al posto del barrè.' },
-  { id: 'midi', label: 'Parte vera (MIDI)', desc: 'Le note esatte della chitarra del brano, da un file MIDI: si agganciano da sole alle battute.' },
+  { id: 'midi', label: 'Parte vera', desc: 'Le note esatte della chitarra del brano, da un file MIDI o Guitar Pro: si agganciano da sole alle battute.' },
 ];
 
 // "Ebmaj7" → "Eb", "Gm7" → "Gm", "D7sus4" → "D", "Gm/F" → "Gm", "Dm7b5" → "Dm"

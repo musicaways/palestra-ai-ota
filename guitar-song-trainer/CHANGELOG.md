@@ -1,5 +1,14 @@
 # Novità
 
+## 2.3.0 — 2026-09-27
+Idee e codice presi da progetti open source simili (vedi «Crediti» nel README):
+- **File Guitar Pro** (.gp3 .gp4 .gp5 .gpx .gp) come parte vera, letti con **alphaTab** (MPL-2.0, come fa il progetto
+  open source RAF): corde, tasti, capotasto e tecniche (hammer-on, pull-off, slide, bend, vibrato, palm muting, note
+  stoppate) scritti nel file; le tecniche compaiono sul manico e nella tablatura. alphaTab si scarica solo quando serve.
+- **Modalità «Aspetta»** (da StringTheory, GPL-3: solo l'idea, codice nostro): il brano si ferma a ogni accordo, o a ogni
+  nota della parte vera, finché il microfono non sente che l'hai suonato giusto; «Salta» per andare avanti.
+- Corretto: con il capotasto la Base suonava le corde a vuoto senza capotasto (stonate), sia negli accordi sia nelle note.
+
 ## 2.2.0 — 2026-09-27
 - Unione delle due linee di sviluppo: la 1.10.0 fatta in locale con Codex (backup e ripristino, obiettivo giornaliero,
   correzioni di serie, «A caso», service worker; server e test multipiattaforma, CI) e la 2.0–2.1 fatta con Claude

@@ -3,6 +3,9 @@ import { YouTubeClock, FreeClock, AudioClock, SwitchClock, SpotifyClock } from '
 import { saveAudio, getAudio, removeAudio, saveMidi, getMidi, removeMidi } from './audiofiles.js';
 import { findSpotify, spotifyId as parseSpotifyId, searchMidi, downloadMidi, songsterrUrl } from './online.js';
 import { Tab } from './tab.js';
+import { waitTargets, hitsTarget, nextTarget } from './waitmode.js';
+import { detectPitch } from './tuner.js';
+import { isGuitarPro, parseGuitarPro } from './gpfile.js';
 import { parseMidi, guessGuitarTrack, fingerNotes, alignMidi, alignMidiFull, placeMidi, programName } from './midi.js';
 import { youtubeId as parseYouTubeId } from './songtext.js';
 import { wordTimes, wordAt } from './wordtiming.js';
@@ -78,6 +81,8 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
   const wake = new WakeLock();
   let listener = null;
   let judge = null; // { idx, frames, hits } valutazione dell'accordo corrente
+  // modalità Aspetta: bersagli (accordi o note), quelli già superati, quello su cui il brano è fermo
+  const wait = { on: false, targets: [], cleared: new Set(), cur: null, paused: false, hits: 0 };
   let score = { hits: 0, total: 0, streak: 0, bestStreak: 0 };
 
   root.innerHTML = `
@@ -97,6 +102,7 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
       <div class="count-overlay" hidden></div>
       <div class="stage-lyric" hidden><div class="sl-now"></div><div class="sl-next"></div></div>
       <div class="toast" hidden></div>
+      <div class="wait-pill" hidden><span class="wait-what"></span><button type="button" class="chip-btn" data-act="waitskip">Salta</button></div>
       <div class="hud">
         <div class="hud-block now">
           <div class="hud-label"><span class="section-name">Intro</span> <span class="capo-badge" hidden></span></div>
@@ -169,6 +175,7 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
             <button class="tool" data-act="amp" title="Amplificatore ed effetti per la chitarra collegata">${icon('amp', 18)}<span>Ampli</span></button>
             <button class="tool" data-act="camera" title="Registra un video mentre suoni">${icon('camera', 18)}<span>Video</span></button>
             <button class="tool" data-act="listen" title="Ascolta dal microfono e controlla se suoni l'accordo giusto">${icon('mic', 18)}<span>Ascolto</span></button>
+            <button class="tool" data-act="wait" title="Aspetta: il brano si ferma a ogni accordo (o nota) finché non lo suoni giusto">${icon('target', 18)}<span>Aspetta</span></button>
             <button class="tool" data-act="tuner" title="Accorda la chitarra col microfono">${icon('tuner', 18)}<span>Accorda</span></button>
             <button class="tool" data-act="sync" title="Allinea accordi e testo al video">${icon('sliders', 18)}<span>Sincronia</span></button>
             <button class="tool" data-act="record" title="Registra i cambi accordo toccando a tempo">${icon('target', 18)}<span>Registra</span></button>
@@ -503,6 +510,7 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
       return d;
     }));
     paintStrumSlots(tl.notes ? '' : tl.strum ?? '');
+    if (wait.on) { wait.targets = waitTargets(tl, { capo }); wait.cur = null; }
   }
 
   // Pattern della pennata nell'HUD: cambia con la sezione (strofa, ritornello…)
@@ -768,6 +776,8 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
   function seek(t) {
     clock.seek(Math.max(0, t));
     lastSeekAt = performance.now();
+    // modalità Aspetta: i bersagli da quel punto in poi vanno suonati di nuovo
+    if (wait.on) { for (const x of wait.targets) if (x.t >= t - 0.05) wait.cleared.delete(x.key); wait.cur = null; wait.paused = false; paintWait(); }
   }
 
   scrub.addEventListener('pointerdown', (e) => {
@@ -1013,7 +1023,12 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
     { id: 'funk', label: 'Stoppate', p: 'D-XUD-XU' },
     { id: 'lenta', label: 'Una per battito', p: 'D-D-D-D-' },
   ];
-  // ---------- Parte vera da file MIDI ----------
+  // ---------- Parte vera da file MIDI o Guitar Pro ----------
+  const PART_ACCEPT = '.mid,.midi,.gp,.gp3,.gp4,.gp5,.gpx,audio/midi,audio/x-midi';
+  async function parsePart(bytes, name) {
+    const d = new Uint8Array(bytes);
+    return isGuitarPro(d, name) ? parseGuitarPro(d) : parseMidi(d);
+  }
   function midiTrackIndex() {
     const i = prefs.midi?.track;
     return midi && i != null && midi.tracks[i] ? i : midi ? guessGuitarTrack(midi.tracks) : -1;
@@ -1026,7 +1041,12 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
       shift: m.shift ?? 0, scale: m.scale ?? 1, nudge: m.nudge ?? 0, map: m.mode === 'path' ? m.map : null,
       transpose: (m.fileT ?? 0) + prefs.transpose,
     });
-    const notes = fingerNotes(placed, { capo });
+    // Guitar Pro: corde e tasti del file, se valgono sul manico così com'è (stessa tonalità, capotasto compatibile)
+    const shift = (trk.capo ?? 0) - capo;
+    const fromFile = trk.frettable && !prefs.transpose && !(m.fileT ?? 0) && placed.every((n) => n.string != null && n.fret + shift >= 0);
+    const notes = fromFile
+      ? placed.map((n) => ({ ...n, fret: n.fret + shift }))
+      : fingerNotes(placed, { capo });
     return notes.length ? notes : null;
   }
   // Aggancio automatico: tutte le tracce insieme danno l'armonia, confrontata con gli accordi della griglia.
@@ -1104,7 +1124,7 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
   }
   async function loadMidiFile(file) {
     try {
-      const parsed = parseMidi(await file.arrayBuffer());
+      const parsed = await parsePart(await file.arrayBuffer(), file.name);
       if (!parsed.tracks.length) throw new Error('nessuna nota');
       await saveMidi(song.id, file);
       midi = { name: file.name, ...parsed };
@@ -1128,9 +1148,9 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
     if (!midi) {
       box.innerHTML = `<div class="dlg-sub">Parte vera del brano</div>
         <p class="hint">Le note esatte da suonare, da un file MIDI: l'app lo cerca da sola online (BitMidi, gratuito) e tiene la versione
-        che suona davvero gli accordi del brano, oppure ne carichi uno tuo (Guitar Pro, TuxGuitar, MuseScore…). Le note si agganciano
-        alle battute e ne seguono il tempo.</p>${online}
-        <label class="chip-btn">${icon('guitar', 16)} Carica un file MIDI…<input type="file" accept=".mid,.midi,audio/midi,audio/x-midi" class="midi-file" hidden></label>`;
+        che suona davvero gli accordi del brano, oppure ne carichi uno tuo: MIDI, oppure un file <b>Guitar Pro</b> (.gp, .gp5…) che ha
+        anche corde, tasti e tecniche giusti. Le note si agganciano alle battute e ne seguono il tempo.</p>${online}
+        <label class="chip-btn">${icon('guitar', 16)} Carica un file MIDI o Guitar Pro…<input type="file" accept="${PART_ACCEPT}" class="midi-file" hidden></label>`;
       return;
     }
     const cur = midiTrackIndex();
@@ -1147,7 +1167,7 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
         <button type="button" class="seg" data-midi="later" title="Un battito dopo">battito ▶</button>
         <button type="button" class="seg" data-midi="align">Aggancia di nuovo</button>
         <button type="button" class="seg" data-midi="remove">Rimuovi</button>
-        <label class="seg">Altro file…<input type="file" accept=".mid,.midi,audio/midi,audio/x-midi" class="midi-file" hidden></label></div>${online}`;
+        <label class="seg">Altro file…<input type="file" accept="${PART_ACCEPT}" class="midi-file" hidden></label></div>${online}`;
   }
   // c'è un MIDI online con titolo e artista giusti? Un'etichetta sul pulsante Parte lo fa sapere (controllo leggero,
   // solo i nomi; ricordato per un giorno)
@@ -1167,7 +1187,7 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
   getMidi(song.id).then(async (rec) => {
     if (!rec?.blob || destroyed) return;
     try {
-      midi = { name: rec.name, ...parseMidi(await rec.blob.arrayBuffer()) };
+      midi = { name: rec.name, ...(await parsePart(await rec.blob.arrayBuffer(), rec.name)) };
       if (prefs.arrangement === 'midi') { rebuild(); lastIdx = -2; }
     } catch { /* file rovinato: si ignora */ }
   });
@@ -1334,6 +1354,7 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
     if (listener) {
       listener.stop();
       listener = null;
+      if (wait.on) { wait.on = false; wait.paused = false; wait.cur = null; paintWait(); }
       btn.classList.remove('active');
       scoreHud.hidden = true;
       if (score.total >= 8) {
@@ -1346,7 +1367,8 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
       return;
     }
     const names = [...new Set(tl.events.map((e) => e.sounding ?? e.name))];
-    listener = new Listener(({ chroma, level }) => {
+    listener = new Listener(({ chroma, level, time, sampleRate }) => {
+      if (wait.on && wait.paused && wait.cur) { waitHear({ chroma, level, time, sampleRate }); return; }
       const t = clock.getTime();
       const idx = eventIndexAt(tl, t);
       const ev = tl.events[idx];
@@ -1371,6 +1393,59 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
     scoreHud.hidden = false;
     paintScore();
     toast(listener.rocksmith ? 'Ascolto dal cavo Rocksmith: suona insieme al brano' : 'Ascolto attivo: suona insieme al brano');
+  }
+
+  // ---------- Modalità Aspetta (come in StringTheory): il brano si ferma finché non suoni giusto ----------
+  const waitPill = $('.wait-pill');
+  function paintWait() {
+    $('[data-act="wait"]')?.classList.toggle('active', wait.on);
+    waitPill.hidden = !(wait.on && wait.paused && wait.cur);
+    if (waitPill.hidden) return;
+    const c = wait.cur;
+    waitPill.querySelector('.wait-what').textContent = c.kind === 'chord'
+      ? `Suona ${displayChord(tl.events.find((e) => e.start === c.t)?.name ?? c.name, settings.notation)}`
+      : c.kind === 'note' ? 'Suona la nota illuminata' : 'Suona le note illuminate';
+  }
+  async function toggleWait() {
+    wait.on = !wait.on;
+    wait.cleared = new Set();
+    wait.cur = null;
+    wait.paused = false;
+    if (wait.on) {
+      wait.targets = waitTargets(tl, { capo });
+      if (!listener) await toggleListen();
+      if (!listener) { wait.on = false; paintWait(); return; }
+      toast(tl.notes ? 'Aspetta: il brano si ferma a ogni nota finché non la suoni' : 'Aspetta: il brano si ferma a ogni accordo finché non lo suoni');
+    }
+    paintWait();
+  }
+  function waitRelease() {
+    wait.cleared.add(wait.cur.key);
+    wait.cur = null;
+    wait.paused = false;
+    wait.hits = 0;
+    paintWait();
+    clock.play();
+  }
+  function waitSkip() { if (wait.cur) waitRelease(); }
+  function waitHear(frame) {
+    const pitch = wait.cur.kind === 'note' && frame.level >= 0.012 ? detectPitch(frame.time, frame.sampleRate) : null;
+    if (hitsTarget(wait.cur, { ...frame, pitch }, { matchChord: (ch, name) => matchChord(ch, name, [...new Set(tl.events.map((e) => e.sounding ?? e.name))]) })) {
+      wait.hits++;
+      if (wait.hits >= 2) { fretboard.verdict = { ok: true, at: performance.now() }; waitRelease(); }
+    } else wait.hits = Math.max(0, wait.hits - 1);
+  }
+  // nel ciclo di animazione: ferma il brano sul bersaglio successivo
+  function waitStep(t) {
+    if (!wait.on || wait.paused || !clock.playing) return;
+    wait.cur ??= nextTarget(wait.targets, t, wait.cleared);
+    if (wait.cur && t >= wait.cur.t) {
+      clock.pause();
+      clock.seek(wait.cur.t);
+      wait.paused = true;
+      wait.hits = 0;
+      paintWait();
+    }
   }
 
   // Pagella di fine brano (stile Rocksmith): stelle, precisione, serie migliore.
@@ -1472,6 +1547,8 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
       case 'countin': settings.countIn = !settings.countIn; saveSettings(settings); paintToggles(); break;
       case 'tuner': openTuner(); break;
       case 'listen': toggleListen(); break;
+      case 'wait': toggleWait(); break;
+      case 'waitskip': waitSkip(); break;
       case 'input': e.preventDefault(); openInput(); break;
       case 'capo': openCapo(); break;
       case 'help': $('.dlg-help').showModal(); break;
@@ -2081,6 +2158,7 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
       onLoopWrap();
     }
 
+    waitStep(t);
     const idx = eventIndexAt(tl, t);
     const { bar, beat } = beatAt(tl, t);
     if (!stageHidden()) fretboard.render(t, tl, idx, settings, clock.playing);
@@ -2143,7 +2221,7 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
           // dopo un salto (seek) non si recuperano le note vecchie
           if (t - n.t > 0.15) continue;
           const vol = prefs.arrangement === 'midi' ? 0.12 + 0.28 * ((n.vel ?? 90) / 127) : 0.3;
-          pluck(n.string, n.fret > 0 ? n.fret + capo : 0, vol, prefs.arrangement === 'midi' ? n.dur / (clock.getRate?.() || 1) : null);
+          pluck(n.string, n.fret + capo, vol, prefs.arrangement === 'midi' ? n.dur / (clock.getRate?.() || 1) : null);
         }
       }
     } else lastNoteIdx = -1;
@@ -2161,7 +2239,7 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
           const perBeat = pat.length / tl.bpb;
           const onBeat = pos % perBeat === 0;
           const accent = pos === 0 ? 1.18 : onBeat ? 1.02 : 0.85;
-          strumChord(sh.frets, { kind: ch, accent });
+          strumChord(capo ? sh.frets.map((f) => (f === 0 ? capo : f)) : sh.frets, { kind: ch, accent }); // col capotasto le corde a vuoto suonano al tasto del capo
         }
       }
     }

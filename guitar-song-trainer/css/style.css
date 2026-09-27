@@ -952,3 +952,10 @@ kbd { background: rgba(146, 132, 255, .12); border: 1px solid var(--line); borde
 .tool.has-midi::after { content: "MIDI"; position: absolute; top: 2px; right: 2px; padding: 0 4px; border-radius: 6px; font-size: 9px; font-weight: 800; letter-spacing: .04em; background: var(--pink); color: #0a0816; }
 .mini.has-dot { position: relative; }
 .mini.has-dot::after { content: ""; position: absolute; top: 5px; right: 5px; width: 8px; height: 8px; border-radius: 50%; background: var(--pink); box-shadow: 0 0 8px var(--pink); }
+
+/* modalità Aspetta: cosa suonare, in alto al centro del palco */
+.wait-pill { position: absolute; left: 50%; top: 56px; translate: -50% 0; z-index: 6; display: flex; align-items: center; gap: 10px;
+  padding: 6px 8px 6px 16px; border-radius: 999px; background: rgba(7, 6, 15, .85); border: 1px solid var(--cyan);
+  box-shadow: 0 0 22px rgba(34, 211, 238, .45); font-weight: 800; letter-spacing: .02em; animation: wait-pulse 1.4s ease-in-out infinite; }
+.wait-pill .chip-btn { height: 30px; padding: 0 12px; }
+@keyframes wait-pulse { 50% { box-shadow: 0 0 34px rgba(34, 211, 238, .75); } }
