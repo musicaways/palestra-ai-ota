@@ -835,7 +835,20 @@ kbd { background: rgba(146, 132, 255, .12); border: 1px solid var(--line); borde
   .library.home .hero-stats { display: none; }
   .library-head { gap: 8px; }
   .sort-wrap { font-size: 0; gap: 0; }
-  .sort { height: 38px; }
+  .sort { height: 38px; font-size: 14px; }
+  /* elenco compatto: miniatura a sinistra, titolo e dati a destra (tanti brani in una schermata) */
+  .song-grid { grid-template-columns: 1fr; gap: 8px; }
+  .song-card { flex-direction: row; align-items: stretch; border-radius: 14px; min-height: 76px; }
+  .song-card:hover { transform: none; }
+  .song-card .thumb { flex: 0 0 118px; aspect-ratio: auto; min-height: 76px; }
+  .song-card .key-badge { left: 6px; bottom: 6px; font-size: 12px; padding: 1px 7px; }
+  .song-card .play-badge { display: none; }
+  .song-card .meta { flex: 1; min-width: 0; padding: 8px 48px 8px 12px; display: flex; flex-direction: column; justify-content: center; }
+  .song-card .meta .title { font-size: 17px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .song-card .meta .artist { font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .song-card .meta-row { margin-top: 4px; }
+  .song-card .genre { font-size: 10px; }
+  .song-card .fav { top: 50%; translate: 0 -50%; right: 8px; width: 34px; height: 34px; }
 }
 
 /* ---------- Pagella di fine brano ---------- */
@@ -860,3 +873,46 @@ kbd { background: rgba(146, 132, 255, .12); border: 1px solid var(--line); borde
 .sl-now .kw.now { --wp: 0%; background: linear-gradient(90deg, #22d3ee var(--wp), rgba(255, 255, 255, .45) var(--wp));
   -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
 .strum-slot.fine { width: 12px; font-size: 12px; }
+
+/* lettore Spotify dentro il riquadro del video */
+.video-wrap .video.spotify { display: flex; align-items: center; justify-content: center; padding: 0 12px; background: #121212; }
+.video-wrap .video.spotify iframe { position: static; width: 100%; height: 152px; border-radius: 12px; }
+.midi-cands { display: grid; gap: 6px; margin: 8px 0; }
+.midi-cand { display: flex; align-items: center; gap: 8px; justify-content: space-between; padding: 6px 10px; border-radius: 10px; background: var(--panel-2, rgba(255,255,255,.05)); font-size: 13px; }
+.midi-cand span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.midi-cand .ok { color: var(--green, #3ddc84); font-weight: 700; }
+
+/* Telefono e tablet: i comandi restano sempre visibili mentre il testo scorre (niente play "sparito") */
+@media (max-width: 960px) {
+  .player:not(.drill) .left-col { display: contents; }
+  .player:not(.drill) .transport { position: sticky; top: 0; z-index: 4; background: #120f24; box-shadow: 0 6px 16px rgba(0, 0, 0, .35); }
+  .player:not(.drill) .panel-tabs { top: var(--tp-h, 0px); }
+  .player:not(.drill) .player-main { grid-template-rows: none; grid-auto-rows: auto; }
+  .player:not(.drill) .panel { height: auto; max-height: none; min-height: 60vh; }
+}
+
+/* nessun video (bloccato, file audio, senza musica): una riga compatta invece del riquadro 16:9 */
+.video-wrap.msg-only { aspect-ratio: auto; width: 100% !important; flex: none !important; min-height: 0 !important; box-shadow: none; }
+.video-wrap.msg-only .video { display: none; }
+.video-wrap.msg-only .video-msg { position: static; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px 14px; padding: 10px 14px; font-size: 13px; }
+.video-wrap.msg-only .video-msg > div:first-child { display: none; }
+.video-wrap.msg-only .video-msg p { max-width: none; flex: 1 1 220px; text-align: left; }
+.video-wrap.msg-only .vm-actions { margin: 0; }
+
+/* ---------- Tablatura ---------- */
+.tab-wrap { display: flex; flex-wrap: wrap; gap: 10px 0; align-items: end; }
+.tab-sec { flex-basis: 100%; font-size: 11px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: var(--violet); margin-top: 6px; }
+.tab-bar {
+  position: relative; display: grid; grid-template-columns: repeat(var(--cols), minmax(14px, 1fr)); grid-template-rows: repeat(6, 16px);
+  flex: 1 1 calc(var(--cols) * 15px); max-width: 100%; padding: 14px 6px 4px; border-left: 2px solid rgba(238, 234, 255, .35); cursor: pointer;
+  background: repeating-linear-gradient(180deg, transparent 0 7px, rgba(238, 234, 255, .22) 7px 8px, transparent 8px 16px) 0 14px / 100% 96px no-repeat;
+  font: 700 12px/16px ui-monospace, 'JetBrains Mono', Menlo, monospace; font-variant-numeric: tabular-nums;
+}
+.tab-bar i { font-style: normal; text-align: center; }
+.tab-bar i.n { color: #0a0816; background: #eeeaff; border-radius: 5px; margin: 0 1px; z-index: 1; }
+.tab-bar:hover { background-color: rgba(146, 132, 255, .06); }
+.tab-num { position: absolute; top: 0; left: 4px; font-size: 10px; color: var(--muted); }
+.tab-bar.now { background-color: rgba(34, 211, 238, .08); border-left-color: var(--cyan); }
+.tab-bar.now i.n { background: var(--cyan); }
+.tab-cursor { display: none; position: absolute; top: 12px; bottom: 2px; width: 2px; left: calc(6px + var(--pos, 0) * (100% - 12px)); background: var(--pink); box-shadow: 0 0 8px var(--pink); z-index: 2; }
+.tab-bar.now .tab-cursor { display: block; }

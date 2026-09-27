@@ -1,5 +1,5 @@
-// Due "orologi" con la stessa interfaccia: il video YouTube oppure un clock interno
-// (usato quando YouTube non è raggiungibile, così si può comunque esercitarsi col metronomo).
+// "Orologi" con la stessa interfaccia: video YouTube, brano su Spotify, file audio dell'utente oppure un clock
+// interno (usato quando nessuna sorgente è raggiungibile, così si può comunque esercitarsi col metronomo).
 
 let ytApiPromise = null;
 
@@ -39,7 +39,8 @@ export class YouTubeClock {
       let ready = false;
       clock.player = new YT.Player(element, {
         videoId,
-        playerVars: { playsinline: 1, rel: 0, modestbranding: 1, controls: 1 },
+        // origin: senza, alcuni server locali fanno rifiutare il video da YouTube (errore 153)
+        playerVars: { playsinline: 1, rel: 0, modestbranding: 1, controls: 1, ...(location.protocol.startsWith('http') ? { origin: location.origin } : {}) },
         events: {
           onReady: () => {
             clearTimeout(timer);
@@ -115,6 +116,82 @@ export function youTubeErrorText(code) {
   if (code === 2) return 'Video non valido';
   if (code === 5) return 'Il browser non riesce a riprodurre il video';
   return `Errore del video YouTube (codice ${code})`;
+}
+
+let spApiPromise = null;
+export function loadSpotifyApi(timeoutMs = 10000) {
+  if (window.__spotifyIFrameAPI) return Promise.resolve(window.__spotifyIFrameAPI);
+  if (spApiPromise) return spApiPromise;
+  spApiPromise = new Promise((resolve, reject) => {
+    const fail = () => { spApiPromise = null; reject(new Error('Spotify non raggiungibile')); };
+    const timer = setTimeout(fail, timeoutMs);
+    window.onSpotifyIframeApiReady = (api) => {
+      clearTimeout(timer);
+      window.__spotifyIFrameAPI = api;
+      resolve(api);
+    };
+    const s = document.createElement('script');
+    s.src = 'https://open.spotify.com/embed/iframe-api/v1';
+    s.onerror = () => { clearTimeout(timer); fail(); };
+    document.head.appendChild(s);
+  });
+  return spApiPromise;
+}
+
+/**
+ * Brano su Spotify (lettore incorporato ufficiale). La versione è quella del disco, la stessa dei tempi del
+ * testo: la sincronia è la più precisa. Brano intero se nel browser si è entrati in Spotify (anche account
+ * gratuito), altrimenti un'anteprima di 30 s. Velocità fissa (Spotify non permette di rallentare).
+ */
+export class SpotifyClock {
+  static async create(element, trackId, { onStateChange, onPreview } = {}) {
+    const api = await loadSpotifyApi();
+    return new Promise((resolve, reject) => {
+      const timer = setTimeout(() => reject(new Error('Il lettore di Spotify non si è caricato')), 15000);
+      api.createController(element, { uri: `spotify:track:${trackId}`, width: '100%', height: 152 }, (ctl) => {
+        const clock = new SpotifyClock(ctl);
+        ctl.addListener('ready', () => { clearTimeout(timer); resolve(clock); });
+        ctl.addListener('playback_update', (e) => {
+          const d = e.data ?? {};
+          const was = clock._playing;
+          clock._playing = !d.isPaused && !d.isBuffering;
+          clock._dur = (d.duration ?? 0) / 1000;
+          clock._anchor = { t: (d.position ?? 0) / 1000, now: performance.now() };
+          if (clock._dur > 0 && clock._dur <= 31 && !clock._previewTold) { clock._previewTold = true; onPreview?.(); }
+          if (was !== clock._playing) onStateChange?.(clock._playing);
+        });
+      });
+    });
+  }
+
+  constructor(ctl) {
+    this.kind = 'spotify';
+    this.ctl = ctl;
+    this._playing = false;
+    this._started = false;
+    this._dur = 0;
+    this._anchor = { t: 0, now: performance.now() };
+  }
+
+  get playing() { return this._playing; }
+  play() {
+    if (!this._started) { this._started = true; this.ctl.play(); if (this._anchor.t > 0.5) this.ctl.seek(this._anchor.t); } else this.ctl.resume();
+    this._playing = true;
+    this._anchor = { t: this._anchor.t, now: performance.now() };
+  }
+  pause() { this._anchor = { t: this.getTime(), now: performance.now() }; this.ctl.pause(); this._playing = false; }
+  toggle() { this._playing ? this.pause() : this.play(); }
+  seek(t) {
+    const x = Math.max(0, t);
+    this._anchor = { t: x, now: performance.now() };
+    if (this._started) this.ctl.seek(x);
+  }
+  setRate() {}
+  getRate() { return 1; }
+  rates() { return [1]; }
+  duration() { return this._dur; }
+  getTime() { return this._playing ? this._anchor.t + (performance.now() - this._anchor.now) / 1000 : this._anchor.t; }
+  destroy() { try { this.ctl.destroy(); } catch { /* già tolto */ } }
 }
 
 // File audio scelto dall'utente (MP3, M4A…): velocità regolabile senza cambiare l'intonazione.

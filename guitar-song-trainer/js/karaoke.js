@@ -188,8 +188,9 @@ export function scrollIntoPanel(panel, el) {
   const b = box.getBoundingClientRect();
   const r = el.getBoundingClientRect();
   // le schede del pannello restano ferme in alto: la riga non deve finirci sotto
+  // (e sul telefono anche i comandi, fermi sopra le schede)
   const tabs = box.querySelector('.panel-tabs');
-  const sticky = tabs && getComputedStyle(tabs).position === 'sticky' ? tabs.getBoundingClientRect().height : 0;
+  const sticky = tabs && getComputedStyle(tabs).position === 'sticky' ? tabs.getBoundingClientRect().height + (parseFloat(getComputedStyle(tabs).top) || 0) : 0;
   const top = b.top + sticky + 8;
   const target = r.top - top - (b.bottom - top) * 0.28;
   if (r.top < top || r.bottom > b.bottom - 8 || Math.abs(target) > 4) box.scrollBy({ top: target, behavior: 'smooth' });

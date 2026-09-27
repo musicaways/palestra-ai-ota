@@ -1,6 +1,8 @@
 // Schermata di studio di un brano: palco con manico 3D, video, trasporto, testo karaoke.
-import { YouTubeClock, FreeClock, AudioClock, SwitchClock } from './clock.js';
+import { YouTubeClock, FreeClock, AudioClock, SwitchClock, SpotifyClock } from './clock.js';
 import { saveAudio, getAudio, removeAudio, saveMidi, getMidi, removeMidi } from './audiofiles.js';
+import { findSpotify, spotifyId as parseSpotifyId, searchMidi, downloadMidi, songsterrUrl } from './online.js';
+import { Tab } from './tab.js';
 import { parseMidi, guessGuitarTrack, fingerNotes, alignMidi, placeMidi, programName } from './midi.js';
 import { youtubeId as parseYouTubeId } from './songtext.js';
 import { wordTimes, wordAt } from './wordtiming.js';
@@ -180,11 +182,13 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
           <button class="panel-tab" data-tab="lyrics">${icon('mic', 16)} Testo</button>
           <button class="panel-tab" data-tab="chords">${icon('grid', 16)} Accordi</button>
           <button class="panel-tab" data-tab="shapes">${icon('hand', 16)} Diteggiature</button>
+          <button class="panel-tab" data-tab="tab">${icon('guitar', 16)} Tab</button>
           <span class="panel-source"></span>
         </div>
         <div class="panel-body lyrics-body"></div>
         <div class="panel-body chords-body"></div>
         <div class="panel-body shapes-body"></div>
+        <div class="panel-body tab-body"></div>
       </aside>
     </div>
 
@@ -357,6 +361,8 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
       <div class="option-list src-list"></div>
       <label class="src-file-line chip-btn primary">${icon('mic', 16)} Scegli un file audio…<input type="file" accept="audio/*" class="src-file" hidden></label>
       <div class="tr-actions"><input class="sl-new src-link" placeholder="Incolla il link di un altro video YouTube"><button type="button" class="chip-btn" data-src="link">Usa questo video</button></div>
+      <div class="tr-actions"><input class="sl-new src-splink" placeholder="…oppure il link del brano su Spotify"><button type="button" class="chip-btn" data-src="splink">Usa Spotify</button></div>
+      <label class="check"><input type="checkbox" class="src-all"> Preferisci Spotify per tutti i brani</label>
       <p class="hint src-status"></p>
       <menu><button value="ok" class="chip-btn primary">Fatto</button></menu></form></dialog>
 
@@ -399,6 +405,7 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
   const chordsBody = $('.chords-body');
   const panelSource = $('.panel-source');
   const shapesBody = $('.shapes-body');
+  const tabBody = $('.tab-body');
   const countEl = $('.count-overlay');
   const toastEl = $('.toast');
 
@@ -417,6 +424,7 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
   const handlers = { onSeek: (t) => seek(t), onLoop: (a, b, label) => setLoop(a, b, label) };
   const sheet = new Sheet(chordsBody, handlers);
   const karaoke = new Karaoke(lyricsBody, handlers);
+  const tabView = new Tab(tabBody, handlers);
 
   function diagramShapes(names) {
     if (prefs.arrangement !== 'easy') return customShapes();
@@ -428,6 +436,8 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
     lyricsBody.hidden = panelTab !== 'lyrics';
     chordsBody.hidden = panelTab !== 'chords';
     shapesBody.hidden = panelTab !== 'shapes';
+    tabBody.hidden = panelTab !== 'tab';
+    if (panelTab === 'tab') tabView.render(tl, tl.notes, { capo, source: prefs.arrangement === 'midi' && midi ? `Parte vera: ${midi.name}` : 'Arpeggio ricavato dagli accordi' });
     const names = [...new Set(tl.events.map((e) => e.name))];
     shapesBody.innerHTML = `<p class="hint">Gli accordi del brano, nell'ordine in cui compaiono. Quello che stai suonando si illumina.${capo ? ` <b>Capotasto al ${capo}° tasto</b>: i diagrammi partono dal capotasto.` : ''}</p>
       <div class="diagram-grid">${names.map((n) => chordDiagram(n, settings, diagramShapes(names))).join('')}</div>`;
@@ -528,8 +538,10 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
   // (file dell'utente o video YouTube) si aggancia appena è pronta, senza perdere posizione e velocità.
   const freeClock = () => new FreeClock(Math.max(tl.end, 150) + 4, { onStateChange: onState });
   clock = new SwitchClock(freeClock());
-  function showVideoMsg(text, { actions = true } = {}) {
+  // compact: nessun video da mostrare, il riquadro diventa una riga (niente spazio sprecato)
+  function showVideoMsg(text, { actions = true, compact = actions } = {}) {
     videoMsg.hidden = false;
+    $('.video-wrap').classList.toggle('msg-only', compact);
     videoMsg.innerHTML = `<div>${icon('guitar', 36)}</div><p></p>${actions ? `<div class="tr-actions vm-actions">
       <button type="button" class="chip-btn primary" data-act="source">${icon('mic', 14)} Scegli la sorgente audio</button></div>` : ''}`;
     videoMsg.querySelector('p').textContent = text;
@@ -538,12 +550,64 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
     if (destroyed) return;
     if (clock.kind === 'youtube') clock.use(freeClock());
     $('.video')?.replaceChildren();
-    showVideoMsg(`${err.message}. Puoi usare un tuo file audio o un altro video; intanto accordi, testo, metronomo e Base funzionano.`);
+    // YouTube non va: si prova da soli il brano su Spotify, poi si propone un'altra sorgente
+    lastYtErr = err.message;
+    if (!triedSpotify) { triedSpotify = true; attachSpotify(sourceToken, `${err.message}: ascolti il brano da Spotify`); return; }
+    showVideoMsg(`${err.message}. Puoi usare Spotify, un tuo file audio o un altro video; intanto accordi, testo, metronomo e Base funzionano.`);
+  }
+  let triedSpotify = false;
+  let lastYtErr = '';
+  const ytNote = () => (lastYtErr ? `Video: ${lastYtErr.toLowerCase()}. ` : '');
+  function videoBox(cls = '') {
+    let box = $('.video');
+    if (!box) { box = document.createElement('div'); $('.video-wrap').prepend(box); }
+    box.className = `video ${cls}`.trim();
+    const target = document.createElement('div');
+    box.replaceChildren(target);
+    return target;
+  }
+  // ID Spotify del brano: scelto dall'utente, nel brano, già trovato prima, oppure cercato adesso
+  async function spotifyTrack() {
+    if (prefs.spotifyId) return prefs.spotifyId;
+    if (song.spotifyId) return song.spotifyId;
+    const cached = store.get(key('spotify'), undefined);
+    if (cached !== undefined && Date.now() - (cached?.at ?? 0) < 7 * 864e5) return cached?.id ?? null;
+    try {
+      const r = await findSpotify(song, song.lyricsSource?.duration ?? 0);
+      store.set(key('spotify'), { id: r?.spotifyId ?? null, at: Date.now() });
+      return r?.spotifyId ?? null;
+    } catch { return null; }
+  }
+  async function attachSpotify(token, note) {
+    showVideoMsg('Cerco il brano su Spotify…', { actions: false });
+    const id = await spotifyTrack();
+    if (destroyed || token !== sourceToken) return false;
+    if (!id) {
+      showVideoMsg(`${ytNote()}Su Spotify il brano non è stato trovato: puoi incollarne il link o usare un tuo file audio (Scegli la sorgente audio). Accordi, testo e Base funzionano comunque.`);
+      return false;
+    }
+    const target = videoBox('spotify');
+    try {
+      const sp = await SpotifyClock.create(target, id, {
+        onStateChange: onState,
+        onPreview: () => toast('Spotify fa sentire solo 30 s: entra in Spotify in questo browser (va bene anche l\'account gratuito) per il brano intero'),
+      });
+      if (destroyed || token !== sourceToken) { sp.destroy(); return false; }
+      clock.use(sp);
+      videoMsg.hidden = true;
+      $('.video-wrap').classList.remove('msg-only');
+      if (note) toast(note);
+      paintSpeed?.();
+      return true;
+    } catch (err) {
+      if (token === sourceToken) showVideoMsg(`${ytNote()}${err.message}. Puoi usare un tuo file audio o un altro video; accordi, testo e Base funzionano comunque.`);
+      return false;
+    }
   }
   let sourceToken = 0;
   async function attachSource() {
     const token = ++sourceToken;
-    const own = prefs.source !== 'youtube' ? await getAudio(song.id) : null;
+    const own = ['youtube', 'spotify'].includes(prefs.source) ? null : await getAudio(song.id);
     if (destroyed || token !== sourceToken) return;
     if (own?.blob && prefs.source !== 'none') {
       try {
@@ -551,29 +615,40 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
         if (destroyed || token !== sourceToken) { a.destroy(); return; }
         clock.use(a);
         $('.video')?.replaceChildren();
-        showVideoMsg(`Audio: ${own.name}`, { actions: false });
+        showVideoMsg(`Audio: ${own.name}`, { actions: false, compact: true });
         videoMsg.classList.add('audio-mode');
+        paintSpeed?.();
         return;
       } catch (err) { showVideoMsg(err.message); }
     }
-    const vid = prefs.youtubeId || song.youtubeId;
-    if (prefs.source === 'none' || !vid) { showVideoMsg(vid ? 'Senza audio: metronomo e Base' : 'Nessun video associato al brano'); return; }
-    let box = $('.video');
-    if (!box) { box = document.createElement('div'); box.className = 'video'; $('.video-wrap').prepend(box); }
-    const target = document.createElement('div');
-    box.replaceChildren(target);
     videoMsg.classList.remove('audio-mode');
+    if (prefs.source === 'none') { showVideoMsg('Senza audio: metronomo e Base'); return; }
+    if (prefs.source === 'spotify' || (!prefs.source && settings.source === 'spotify')) {
+      triedSpotify = true;
+      if (await attachSpotify(token)) return;
+      if (destroyed || token !== sourceToken || prefs.source === 'spotify') return;
+    }
+    const vid = prefs.youtubeId || song.youtubeId;
+    if (!vid) { triedSpotify = true; await attachSpotify(token, 'Nessun video per questo brano: ascolti da Spotify'); return; }
+    if (location.protocol === 'file:') { videoFailed(new Error('Aperta come file, YouTube non funziona: avvia l\'app con avvia.bat / avvia.command')); return; }
+    const target = videoBox();
     showVideoMsg('Caricamento del video…', { actions: false });
     try {
       const yt = await YouTubeClock.create(target, vid, { onStateChange: onState, onError: videoFailed });
       if (destroyed || token !== sourceToken) { yt.destroy(); return; }
       clock.use(yt);
       videoMsg.hidden = true;
+      $('.video-wrap').classList.remove('msg-only');
+      paintSpeed?.();
     } catch (err) {
       if (token === sourceToken) videoFailed(err);
     }
   }
   attachSource();
+  // altezza dei comandi: le schede del pannello si fermano subito sotto (telefono)
+  const transportEl = $('.transport');
+  const tpObs = new ResizeObserver(() => root.querySelector('.player')?.style.setProperty('--tp-h', `${transportEl.offsetHeight}px`));
+  tpObs.observe(transportEl);
 
   const speedBox = $('.speed-pills');
   // poche velocità a portata di dito; con − e + si passa a quelle intermedie della sorgente attuale
@@ -588,6 +663,10 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
     speedBox.querySelectorAll('button').forEach((b) => b.classList.toggle('active', Math.abs(Number(b.dataset.rate) - cur) < 0.001));
   }
   function setSpeed(r, close = true) {
+    if (clock.kind === 'spotify' && Math.abs(r - 1) > 0.001) {
+      toast('Spotify non permette di rallentare: per studiare lento usa il video YouTube o un tuo file audio (⋯ → Audio)');
+      return;
+    }
     clock.setRate(r);
     prefs.rate = r;
     savePrefs();
@@ -956,13 +1035,72 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
     lastIdx = -2;
     if (announce) toast(r.confidence >= 0.4 ? `Parte agganciata alle battute (affidabilità ${Math.round(r.confidence * 100)}%)` : 'Aggancio incerto: controlla con ◀ ▶ nella finestra Parte');
   }
+  // Traccia da studiare: la chitarra se c'è, altrimenti quella (non basso) che suona meglio gli accordi del brano.
+  function bestTrack(tracks) {
+    const g = guessGuitarTrack(tracks);
+    if (tracks[g] && (tracks[g].program >= 24 && tracks[g].program <= 31 || /guit|chitarr|gtr/i.test(tracks[g].name))) return g;
+    let best = g;
+    let bestScore = -1;
+    tracks.forEach((t, i) => {
+      if (t.notes.length < 20 || /bass|basso/i.test(t.name) || (t.program >= 32 && t.program <= 39)) return;
+      const pitches = t.notes.map((n) => n.pitch).sort((a, b) => a - b);
+      if (pitches[pitches.length >> 1] < 45) return;
+      const r = alignMidi(t.notes, tl, { transpose: prefs.transpose });
+      if (r.score > bestScore) { bestScore = r.score; best = i; }
+    });
+    return best;
+  }
+  // Ricerca automatica su BitMidi: si scaricano i candidati e si tiene quello che suona gli accordi del brano.
+  let midiSearch = { state: 'idle', cands: [], msg: '' };
+  async function findMidiOnline(repaint) {
+    midiSearch = { state: 'searching', cands: [], msg: 'Cerco su BitMidi…' };
+    repaint();
+    try {
+      const list = await searchMidi(song, { limit: 6 });
+      if (!list.length) { midiSearch = { state: 'done', cands: [], msg: 'Nessun file MIDI trovato per questo brano. Puoi caricarne uno tuo o cercare la tablatura su Songsterr.' }; repaint(); return; }
+      const songBeats = tl.bars.length * tl.bpb;
+      for (const c of list) {
+        midiSearch.msg = `Provo ${c.name}…`;
+        repaint();
+        try {
+          c.bytes = await downloadMidi(c);
+          const parsed = parseMidi(c.bytes);
+          const all = parsed.tracks.flatMap((x) => x.notes);
+          if (all.length < 30) continue;
+          const r = alignMidi(all, tl, { transpose: prefs.transpose });
+          const span = (Math.max(...all.map((n) => n.b + n.bd)) - Math.min(...all.map((n) => n.b))) * r.scale;
+          c.align = r;
+          c.cover = Math.min(1, span / songBeats);
+          c.quality = r.score * (0.5 + r.confidence) * (0.4 + 0.6 * c.cover) + c.score * 0.1;
+          midiSearch.cands.push(c);
+        } catch { /* file rovinato o non scaricabile: si passa al prossimo */ }
+      }
+      midiSearch.cands.sort((a, b) => b.quality - a.quality);
+      const top = midiSearch.cands[0];
+      if (top && top.align.confidence >= 0.35 && top.align.score >= 0.4 && top.cover >= 0.4) {
+        await useMidiCandidate(top);
+        midiSearch = { state: 'done', cands: midiSearch.cands, msg: `Trovata e agganciata: ${top.name}. Se non ti convince prova le altre versioni qui sotto.` };
+      } else {
+        midiSearch = { state: 'done', cands: midiSearch.cands, msg: midiSearch.cands.length
+          ? 'Ho trovato dei file, ma nessuno combacia bene con gli accordi del brano: provali qui sotto.'
+          : 'I file trovati non sono leggibili. Puoi caricarne uno tuo.' };
+      }
+    } catch (err) {
+      midiSearch = { state: 'done', cands: [], msg: `Ricerca non riuscita: ${err.message}` };
+    }
+    repaint();
+  }
+  async function useMidiCandidate(c) {
+    const file = new File([c.bytes], c.name, { type: 'audio/midi' });
+    await loadMidiFile(file);
+  }
   async function loadMidiFile(file) {
     try {
       const parsed = parseMidi(await file.arrayBuffer());
       if (!parsed.tracks.length) throw new Error('nessuna nota');
       await saveMidi(song.id, file);
       midi = { name: file.name, ...parsed };
-      prefs.midi = { track: guessGuitarTrack(parsed.tracks) };
+      prefs.midi = { track: bestTrack(parsed.tracks) };
       prefs.arrangement = 'midi';
       autoAlignMidi(true);
     } catch (err) {
@@ -970,11 +1108,19 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
     }
   }
   function paintMidiBlock(box) {
+    const online = `<div class="tr-actions">
+        <button type="button" class="chip-btn${midi ? '' : ' primary'}" data-midi="find"${midiSearch.state === 'searching' ? ' disabled' : ''}>${icon('search', 16)} ${midi ? 'Cerca altre versioni online' : 'Trova la parte online'}</button>
+        <a class="chip-btn" href="${songsterrUrl(song)}" target="_blank" rel="noopener">Tablatura su Songsterr</a></div>
+      ${midiSearch.msg ? `<p class="hint midi-status">${esc(midiSearch.msg)}</p>` : ''}
+      ${midiSearch.cands.length ? `<div class="midi-cands">${midiSearch.cands.map((c, i) => `<div class="midi-cand"><span>${esc(c.name)}</span>
+        <b class="${c.align.confidence >= 0.35 ? 'ok' : ''}">${Math.round(c.align.score * 100)}%</b>
+        <button type="button" class="seg" data-midicand="${i}">${midi?.name === c.name ? 'In uso' : 'Usa'}</button></div>`).join('')}</div>` : ''}`;
     if (!midi) {
       box.innerHTML = `<div class="dlg-sub">Parte vera del brano</div>
-        <p class="hint">Per imparare il brano nota per nota carica un file MIDI con la chitarra (per esempio esportato da Guitar Pro,
-        TuxGuitar, MuseScore o Songsterr). Le note si agganciano da sole alle battute del brano e ne seguono il tempo.</p>
-        <label class="chip-btn primary">${icon('guitar', 16)} Carica un file MIDI…<input type="file" accept=".mid,.midi,audio/midi,audio/x-midi" class="midi-file" hidden></label>`;
+        <p class="hint">Le note esatte da suonare, da un file MIDI: l'app lo cerca da sola online (BitMidi, gratuito) e tiene la versione
+        che suona davvero gli accordi del brano, oppure ne carichi uno tuo (Guitar Pro, TuxGuitar, MuseScore…). Le note si agganciano
+        alle battute e ne seguono il tempo.</p>${online}
+        <label class="chip-btn">${icon('guitar', 16)} Carica un file MIDI…<input type="file" accept=".mid,.midi,audio/midi,audio/x-midi" class="midi-file" hidden></label>`;
       return;
     }
     const cur = midiTrackIndex();
@@ -989,7 +1135,7 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
         <button type="button" class="seg" data-midi="later" title="Un battito dopo">battito ▶</button>
         <button type="button" class="seg" data-midi="align">Aggancia di nuovo</button>
         <button type="button" class="seg" data-midi="remove">Rimuovi</button>
-        <label class="seg">Altro file…<input type="file" accept=".mid,.midi,audio/midi,audio/x-midi" class="midi-file" hidden></label></div>`;
+        <label class="seg">Altro file…<input type="file" accept=".mid,.midi,audio/midi,audio/x-midi" class="midi-file" hidden></label></div>${online}`;
   }
   getMidi(song.id).then(async (rec) => {
     if (!rec?.blob || destroyed) return;
@@ -1042,6 +1188,9 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
         return;
       }
       if (mact === 'align') { autoAlignMidi(true); paint(); return; }
+      if (mact === 'find') { findMidiOnline(paint); return; }
+      const ci = e.target.closest('[data-midicand]')?.dataset.midicand;
+      if (ci != null) { await useMidiCandidate(midiSearch.cands[Number(ci)]); paint(); return; }
       if (mact === 'earlier' || mact === 'later') {
         prefs.midi = { ...prefs.midi, shift: (prefs.midi?.shift ?? 0) + (mact === 'later' ? 1 : -1) };
         savePrefs(); rebuild(); lastIdx = -2; paint();
@@ -1493,20 +1642,32 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
     const own = await getAudio(song.id);
     const cur = clock.kind;
     const opts = [
-      { id: 'youtube', label: 'Video YouTube', desc: prefs.youtubeId ? 'Il video che hai scelto tu' : 'Il video associato al brano', on: cur === 'youtube' || (!own && prefs.source !== 'none') },
+      { id: 'youtube', label: 'Video YouTube', desc: `${prefs.youtubeId ? 'Il video che hai scelto tu' : 'Il video associato al brano'}. Gratis, velocità regolabile; per il solo audio scegli la Vista "Manico e testo".`, on: cur === 'youtube' },
+      { id: 'spotify', label: 'Spotify', desc: 'Il brano del disco, sincronia più precisa. Intero se nel browser sei entrato in Spotify (anche gratis), altrimenti 30 s. Velocità fissa.', on: cur === 'spotify' },
       ...(own ? [{ id: 'file', label: `Il tuo file: ${own.name}`, desc: 'Sincronia calcolata sull\'audio, velocità senza cambiare intonazione', on: cur === 'audio' }] : []),
       { id: 'none', label: 'Nessuna musica', desc: 'Solo metronomo e Base (chitarra sintetica)', on: prefs.source === 'none' },
     ];
     dlg.querySelector('.src-list').innerHTML = opts.map((o) =>
       `<button type="button" class="option${o.on ? ' active' : ''}" data-srcopt="${o.id}"><b></b><span>${o.desc}</span></button>`).join('');
     dlg.querySelectorAll('[data-srcopt] b').forEach((b, i) => { b.textContent = opts[i].label; });
+    dlg.querySelector('.src-all').checked = settings.source === 'spotify';
     const status = dlg.querySelector('.src-status');
     status.textContent = own ? 'Per togliere il file: scegli un\'altra sorgente e tocca "Dimentica il file".' : '';
     if (own) status.insertAdjacentHTML('beforeend', ' <button type="button" class="chip-btn" data-src="forget">Dimentica il file</button>');
     dlg.onclick = async (e) => {
       const o = e.target.closest('[data-srcopt]')?.dataset.srcopt;
       const act = e.target.closest('[data-src]')?.dataset.src;
-      if (o) { prefs.source = o === 'file' ? 'file' : o; savePrefs(); dlg.close(); attachSource(); }
+      if (o) {
+        prefs.source = o;
+        settings.source = dlg.querySelector('.src-all').checked && o === 'spotify' ? 'spotify' : null;
+        saveSettings(settings);
+        savePrefs(); dlg.close(); attachSource();
+      }
+      if (act === 'splink') {
+        const id = parseSpotifyId(dlg.querySelector('.src-splink').value);
+        if (!id) { toast('Link Spotify non valido (serve il link di un brano: open.spotify.com/track/…)'); return; }
+        prefs.spotifyId = id; prefs.source = 'spotify'; savePrefs(); dlg.close(); attachSource();
+      }
       if (act === 'link') {
         const id = parseYouTubeId(dlg.querySelector('.src-link').value);
         if (!id) { toast('Link YouTube non valido'); return; }
@@ -1896,6 +2057,7 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
     const { bar, beat } = beatAt(tl, t);
     if (!stageHidden()) fretboard.render(t, tl, idx, settings, clock.playing);
     if (panelTab === 'lyrics' && synced?.lines.length) karaoke.update(t, settings);
+    if (panelTab === 'tab') tabView.update(t, settings);
     else sheet.update(bar, settings);
 
     const cur = tl.events[idx];
@@ -1997,6 +2159,7 @@ export async function openPlayer(root, song, { setlist: setlistId = null, songIn
 
   return function destroy() {
     destroyed = true;
+    tpObs.disconnect();
     cancelAnimationFrame(raf);
     cancelCountIn();
     tuner?.stop();

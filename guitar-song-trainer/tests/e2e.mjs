@@ -13,6 +13,9 @@ const tmp = mkdtempSync(join(tmpdir(), 'gst-e2e-'));
 const midiPath = join(tmp, 'cartine-parte.mid');
 const wavPath = join(tmp, 'cartine-audio.wav');
 writeFileSync(midiPath, midiForSong(cartine, { fromBar: 1, bpm: 80 }));
+// un MIDI che non c'entra: accordi di un altro brano
+const midiWrongPath = join(tmp, 'altro.mid');
+writeFileSync(midiWrongPath, midiForSong({ bpm: 120, timeSignature: [4, 4], offset: 0, sections: [{ name: 'A', bars: Array(40).fill(0).map((_, i) => ['A', 'E', 'B', 'F#m'][i % 4]) }] }, { fromBar: 0 }));
 writeFileSync(wavPath, wavForSong(cartine, { delay: 1.5, seconds: 70 }));
 
 const BASE = process.argv[2] ?? 'http://localhost:8080';
@@ -32,7 +35,14 @@ const browser = await chromium.launch({
 for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['telefono', { width: 390, height: 844 }]]) {
   console.log(`\n— ${name} —`);
   const ctx = await browser.newContext({ viewport, ignoreHTTPSErrors: true, permissions: ['microphone', 'camera'], acceptDownloads: true });
-  await ctx.route(/youtube\.com|ytimg\.com/, (r) => r.abort());
+  await ctx.route(/youtube\.com|ytimg\.com|spotify\.com|spotifycdn\.com|deezer\.com|musicbrainz\.org/, (r) => r.abort());
+  // BitMidi finto: la ricerca restituisce un file sbagliato e la parte giusta (ricavata dagli accordi)
+  await ctx.route(/bitmidi\.com\/api\/midi\/search/, (r) => r.fulfill({ contentType: 'application/json', body: JSON.stringify({ result: { results: [
+    { id: 1, name: 'Salmo - Cartine corte.mid', downloadUrl: '/uploads/1.mid' },
+    { id: 2, name: 'Cartine corte (drums).mid', downloadUrl: '/uploads/2.mid' },
+  ] } }) }));
+  await ctx.route(/bitmidi\.com\/uploads\/1\.mid/, (r) => r.fulfill({ contentType: 'audio/midi', body: readFileSync(midiPath) }));
+  await ctx.route(/bitmidi\.com\/uploads\/2\.mid/, (r) => r.fulfill({ contentType: 'audio/midi', body: readFileSync(midiWrongPath) }));
   await ctx.addInitScript(() => { try { localStorage.setItem('gst:helpSeen', 'true'); } catch {} });
   const page = await ctx.newPage();
   page.on('pageerror', (e) => errors.push(`${name}: ${e.message}`));
@@ -468,7 +478,8 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   await shot('allenamento');
   await page.click('.drill-start');
 
-  // Progressi
+  // Progressi (un minuto di pratica garantito: il tempo suonato nei passi prima dipende dalla velocità della macchina)
+  await page.evaluate(async () => (await import('./js/stats.js')).addPractice('salmo-cartine-corte', 60));
   await page.goto(`${BASE}/#/progressi`);
   await page.waitForSelector('.badge');
   check(await page.locator('.badge.on').count() >= 1, `progressi: ${await page.locator('.badge.on').count()} obiettivi sbloccati, ${await page.textContent('.progress h1 span')}`);
@@ -585,6 +596,11 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   await page.waitForSelector('.player');
   await page.waitForFunction(() => document.querySelector('.part-label')?.textContent === 'Parte vera (MIDI)', null, { timeout: 5000 }).catch(() => {});
   check((await page.textContent('.part-label')) === 'Parte vera (MIDI)', 'la parte MIDI resta salvata sul dispositivo');
+  await page.click('.panel-tab[data-tab="tab"]');
+  const tabNotes = await page.locator('.tab-body .tab-bar i.n').count();
+  check(tabNotes > 100, `tablatura della parte MIDI (${tabNotes} note)`);
+  await shot('tablatura');
+  await page.click('.panel-tab[data-tab="lyrics"]');
   await tap('[data-act="backing"]');
   await page.click('[data-act="play"]');
   await page.waitForTimeout(1500);
@@ -594,18 +610,25 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   await page.click('.dlg-part [data-midi="remove"]');
   await page.waitForFunction(() => document.querySelector('.part-label')?.textContent === 'Ritmica', null, { timeout: 3000 }).catch(() => {});
   check((await page.textContent('.part-label')) === 'Ritmica' && !(await page.locator('.dlg-part [data-part="midi"]').count()), 'parte MIDI rimossa');
+  // parte trovata da sola online: fra i candidati si sceglie quello che suona gli accordi del brano
+  await page.click('.dlg-part [data-midi="find"]');
+  await page.waitForSelector('.dlg-part .midi-info', { timeout: 15000 }).catch(() => {});
+  const found = await page.evaluate(() => ({ info: document.querySelector('.dlg-part .midi-info')?.textContent ?? '', name: document.querySelector('.dlg-part .dlg-sub')?.textContent ?? '', cands: document.querySelectorAll('.midi-cand').length }));
+  check(/Cartine corte\.mid/.test(found.name) && /battuta 2\b/.test(found.info) && found.cands === 2, `parte MIDI trovata online e scelta da sola (${found.name} · ${found.info})`);
+  await page.click('.dlg-part [data-midi="remove"]');
   await page.click('.dlg-part button[value="ok"]');
 
-  await tap('[data-act="source"]');
+  await tap('button.tool[data-act="source"]');
   await page.waitForSelector('.dlg-source .src-list .option', { timeout: 3000 }).catch(() => {});
   check(await page.locator('.dlg-source .src-list .option').count() >= 2, 'finestra della sorgente audio');
+  check(await page.locator('.dlg-source [data-srcopt="spotify"]').count() === 1, 'sorgente Spotify fra le scelte');
   await page.setInputFiles('.dlg-source .src-file', wavPath);
   await page.waitForFunction(() => localStorage.getItem('gst:audioAligned:salmo-cartine-corte'), null, { timeout: 30000 }).catch(() => {});
   const aOff = await page.evaluate(() => JSON.parse(localStorage.getItem('gst:offset:salmo-cartine-corte') ?? 'null'));
   check(aOff != null && Math.abs(aOff - 1.5) < 0.25, `file audio: accordi allineati da soli alla musica (spostamento ${aOff} s, atteso 1,5)`);
   check(await page.evaluate(() => document.querySelector('.video-msg')?.textContent.includes('Audio:')), 'file audio: suona al posto del video');
   if (await page.locator('dialog[open]').count()) await page.keyboard.press('Escape');
-  await tap('[data-act="source"]');
+  await tap('button.tool[data-act="source"]');
   await page.waitForSelector('.dlg-source [data-src="forget"]', { timeout: 3000 }).catch(() => {});
   if (await page.locator('.dlg-source [data-src="forget"]').count()) await page.click('.dlg-source [data-src="forget"]');
   else if (await page.locator('dialog[open]').count()) await page.keyboard.press('Escape');
