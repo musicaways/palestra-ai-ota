@@ -40,6 +40,7 @@ export function renderLibrary(root, songs) {
           <a class="chip-btn" href="#/allenamento">${icon('drill', 16)} Allenamento cambi</a>
           <a class="chip-btn" href="#/registrazioni">${icon('camera', 16)} Registrazioni</a>
           <a class="chip-btn" href="#/editor">${icon('text', 16)} Crea un brano</a>
+          <a class="chip-btn" href="#/backup">${icon('save', 16)} Backup dei dati</a>
           <a class="chip-btn continue-btn" hidden></a>
           <a class="chip-btn level-chip" href="#/progressi"></a>
           <span class="hero-stats"></span>
@@ -104,7 +105,7 @@ export function renderLibrary(root, songs) {
     const a = document.createElement('a');
     a.className = 'song-card';
     a.href = `#/song/${encodeURIComponent(song.id)}`;
-    const thumb = song.youtubeId ? `https://i.ytimg.com/vi/${song.youtubeId}/hqdefault.jpg` : '';
+    const thumb = /^[\w-]{11}$/.test(song.youtubeId ?? '') ? `https://i.ytimg.com/vi/${song.youtubeId}/hqdefault.jpg` : '';
     const level = Number(song.difficulty) || 0;
     a.innerHTML = `
       <div class="thumb">${thumb ? `<img loading="lazy" alt="" src="${thumb}" onerror="this.remove()">` : ''}<div class="thumb-shade"></div>
@@ -188,19 +189,30 @@ export function renderLibrary(root, songs) {
     root.querySelector('.hero-stats').textContent = total ? `Hai suonato ${formatDuration(total)} in tutto` : '';
     const pg = loadProgress();
     root.querySelector('.level-chip').innerHTML = `${icon('starFill', 14)} Livello ${pg.level}${pg.streak ? ` · ${pg.streak} ${pg.streak === 1 ? 'giorno' : 'giorni'} di fila` : ''}`;
-    tabsEl.querySelectorAll('.tab').forEach((b) => b.classList.toggle('active', b.dataset.tab === tab));
+    tabsEl.querySelectorAll('.tab').forEach((b) => {
+      b.classList.toggle('active', b.dataset.tab === tab);
+      b.setAttribute('aria-selected', String(b.dataset.tab === tab));
+    });
     const favs = getFavorites();
     // filtri: genere principale e decennio
     const genres = [...new Set(songs.map((x) => mainGenre(x.genre)))].sort((a, b) => a.localeCompare(b, 'it'));
     const decades = [...new Set(songs.map((x) => decadeOf(x.year)).filter(Boolean))].sort();
     const fEl = root.querySelector('.lib-filters');
-    fEl.innerHTML = `<button class="seg${!filt.genre && !filt.decade ? ' active' : ''}" data-f="all">Tutti</button>`
-      + genres.map((g) => `<button class="seg${filt.genre === g ? ' active' : ''}" data-fg="${g}">${g}</button>`).join('')
-      + decades.map((d) => `<button class="seg${filt.decade === d ? ' active' : ''}" data-fd="${d}">${decadeLabel(d)}</button>`).join('');
+    fEl.replaceChildren();
+    const filterButton = (label, active, key, value) => {
+      const button = document.createElement('button');
+      button.className = `seg${active ? ' active' : ''}`;
+      button.textContent = label;
+      button.dataset[key] = value;
+      button.setAttribute('aria-pressed', String(active));
+      fEl.append(button);
+    };
+    filterButton('Tutti', !filt.genre && !filt.decade, 'f', 'all');
+    genres.forEach((g) => filterButton(g, filt.genre === g, 'fg', g));
+    decades.forEach((d) => filterButton(decadeLabel(d), filt.decade === d, 'fd', d));
     let list = songs.filter((s) =>
       (!query || [s.title, s.artist, s.genre, s.album].filter(Boolean).some((v) => v.toLowerCase().includes(query)))
       && (!filt.genre || mainGenre(s.genre) === filt.genre) && (!filt.decade || decadeOf(s.year) === filt.decade));
-    lastList = list;
     const byTitle = (a, b) => a.title.localeCompare(b.title, 'it');
     const sorters = {
       title: byTitle,
@@ -225,6 +237,9 @@ export function renderLibrary(root, songs) {
     if (tab === 'recent') {
       list = list.filter((s) => stats[s.id]?.lastPlayed).sort((a, b) => stats[b.id].lastPlayed - stats[a.id].lastPlayed);
     }
+    lastList = list;
+    root.querySelector('.random-btn').disabled = !list.length;
+    if (tab === 'setlists') { drawSetlists(favs); return; }
     if (!list.length) {
       const p = document.createElement('p');
       p.className = 'empty';
@@ -234,13 +249,18 @@ export function renderLibrary(root, songs) {
       body.append(p);
       return;
     }
-    if (tab === 'setlists') { body.replaceChildren(); drawSetlists(favs); return; }
     if (tab === 'artist') {
       // indice A–Z degli artisti
       const letters = [...new Set(list.flatMap((s) => splitArtists(s.artist)).map((a) => a[0].toUpperCase()))].sort();
       const az = document.createElement('nav');
       az.className = 'az';
-      az.innerHTML = letters.map((l) => `<a href="#" data-az="${l}">${l}</a>`).join('');
+      letters.forEach((l) => {
+        const link = document.createElement('a');
+        link.href = '#';
+        link.dataset.az = l;
+        link.textContent = l;
+        az.append(link);
+      });
       body.append(az, grouped(list, (s) => splitArtists(s.artist), favs));
     }
     else if (tab === 'genre') body.append(grouped(list, (s) => mainGenre(s.genre), favs));
@@ -259,7 +279,7 @@ export function renderLibrary(root, songs) {
     draw();
   });
   root.querySelector('.random-btn').addEventListener('click', () => {
-    const pool = lastList.length ? lastList : songs;
+    const pool = lastList;
     const pick = pool[Math.floor(Math.random() * pool.length)];
     if (pick) location.hash = `#/song/${encodeURIComponent(pick.id)}`;
   });
@@ -291,7 +311,9 @@ export function renderLibrary(root, songs) {
       h.className = 'setlist-head';
       h.innerHTML = `<h2 class="group-title"></h2>
         ${l.songs.length ? `<a class="chip-btn primary" href="${songHref(l.songs[0], l.id)}">${icon('play', 14)} Suona</a>` : ''}
-        <button class="chip-btn" data-slren="${l.id}">Rinomina</button><button class="chip-btn" data-sldel="${l.id}">${icon('close', 14)} Elimina</button>`;
+        <button class="chip-btn" data-slren>Rinomina</button><button class="chip-btn" data-sldel>${icon('close', 14)} Elimina</button>`;
+      h.querySelector('[data-slren]').dataset.slren = l.id;
+      h.querySelector('[data-sldel]').dataset.sldel = l.id;
       h.querySelector('h2').textContent = `${l.name} (${l.songs.length})`;
       const g = document.createElement('div');
       g.className = 'song-grid';
@@ -321,6 +343,10 @@ export function renderLibrary(root, songs) {
   }
 
   draw();
+  return () => {
+    window.removeEventListener('keydown', onSlash);
+    if (window.__gstSlash === onSlash) delete window.__gstSlash;
+  };
 }
 
 // "MACE, Blanco, Salmo" / "Fedez feat. Francesca Michielin" → artisti singoli

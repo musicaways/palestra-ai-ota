@@ -4,6 +4,7 @@ import { getAllStats, getDays, streak, formatDuration } from './stats.js';
 import { store } from './store.js';
 import { icon } from './icons.js';
 import { LESSONS } from './lessons.js';
+import { getPracticeGoal, setPracticeGoal, PRACTICE_GOALS, summarizePractice } from './practice.js';
 
 export const levelFor = (xp) => {
   let lv = 1;
@@ -58,8 +59,9 @@ export function bestStreak(days) {
   let run = 0;
   let prev = null;
   for (const k of keys) {
-    const t = Date.parse(`${k}T12:00:00`);
-    run = prev != null && Math.round((t - prev) / 86400000) === 1 ? run + 1 : 1;
+    const [year, month, day] = k.split('-').map(Number);
+    const t = Date.UTC(year, month - 1, day) / 86400000;
+    run = prev != null && t - prev === 1 ? run + 1 : 1;
     best = Math.max(best, run);
     prev = t;
   }
@@ -79,6 +81,15 @@ export function loadProgress() {
 
 export function renderProgress(root) {
   const p = loadProgress();
+  const practice = summarizePractice(getDays(), getPracticeGoal());
+  const weekMarkup = practice.week.map((day) => {
+    const date = new Date(`${day.key}T12:00:00`);
+    const label = new Intl.DateTimeFormat('it-IT', { weekday: 'short', day: 'numeric', month: 'short' }).format(date);
+    const pct = Math.min(100, Math.floor(day.seconds / practice.goalSeconds * 100));
+    return `<div class="practice-day${day.reached ? ' reached' : ''}" aria-label="${label}: ${formatDuration(day.seconds)}${day.reached ? ', obiettivo raggiunto' : ''}">
+      <span class="practice-day-label">${label}</span><span class="practice-day-bar" aria-hidden="true"><i class="practice-day-fill" style="width:${pct}%"></i></span>
+      <span class="practice-day-duration">${formatDuration(day.seconds)}</span></div>`;
+  }).join('');
   root.innerHTML = `
   <div class="library progress">
     <section class="hero">
@@ -86,12 +97,25 @@ export function renderProgress(root) {
       <h1>Livello ${p.level}<br><span>${p.streak ? `${p.streak} ${p.streak === 1 ? 'giorno' : 'giorni'} di fila` : 'suona oggi per iniziare la serie'}</span></h1>
       <div class="level-bar"><i style="width:${Math.round(p.pct * 100)}%"></i></div>
       <p>${p.xp} punti · ${p.to - p.xp} al livello ${p.level + 1}. Pratica totale ${formatDuration(p.seconds)} ·
-        ${p.lessons} lezioni · ${p.sections} sezioni imparate · serie migliore ${p.bestStreak} giorni.</p>
+        ${p.lessons} lezioni · ${p.sections} sezioni imparate · serie migliore ${p.bestStreak} ${p.bestStreak === 1 ? 'giorno' : 'giorni'}.</p>
       <div class="hero-actions"><a class="chip-btn" href="#/">${icon('back', 16)} Libreria brani</a><a class="chip-btn" href="#/impara">${icon('study', 16)} Impara</a></div>
+    </section>
+    <section class="practice-summary card" aria-labelledby="practice-title">
+      <p class="hint">Tempo di studio misurato durante la riproduzione dei brani.</p>
+      <div class="practice-goal-control"><h2 id="practice-title">Pratica quotidiana</h2>
+        <label for="practice-goal">Obiettivo giornaliero</label>
+        <select id="practice-goal" name="practiceGoal">${PRACTICE_GOALS.map((minutes) => `<option value="${minutes}"${minutes === practice.goalMinutes ? ' selected' : ''}>${minutes} min</option>`).join('')}</select></div>
+      <div class="practice-today"><strong>Oggi: ${formatDuration(practice.todaySeconds)} / ${practice.goalMinutes} min</strong>
+        <span>${practice.todayReached ? 'Obiettivo raggiunto!' : `${Math.max(0, Math.ceil((practice.goalSeconds - practice.todaySeconds) / 60))} min all’obiettivo`}</span></div>
+      <div class="practice-bar" role="progressbar" aria-label="Pratica di oggi" aria-valuemin="0" aria-valuemax="${practice.goalSeconds}" aria-valuenow="${Math.min(practice.todaySeconds, practice.goalSeconds)}" aria-valuetext="${formatDuration(practice.todaySeconds)} su ${practice.goalMinutes} min"><i class="practice-bar-fill" style="width:${practice.todayPct}%"></i></div>
+      <h3>Ultimi 7 giorni</h3><div class="practice-week">${weekMarkup}</div>
+      <p>Totale: ${formatDuration(practice.weekSeconds)} · Obiettivo raggiunto ${practice.reachedDays} ${practice.reachedDays === 1 ? 'giorno' : 'giorni'} su 7</p>
     </section>
     <h2 class="group-title">Obiettivi (${p.badges.filter((b) => b.unlocked).length}/${p.badges.length})</h2>
     <div class="badge-grid">${p.badges.map((b) => `<div class="badge card${b.unlocked ? ' on' : ''}"><span class="badge-ico">${icon(b.unlocked ? 'starFill' : 'star', 22)}</span><b>${b.label}</b><span class="hint">${b.desc}</span></div>`).join('')}</div>
-    <p class="hint">Punti: 1 al minuto di pratica, 20 per lezione completata, 10 per sezione imparata, 30 per brano imparato tutto.
-      Presto potrai mostrarli nel tuo profilo della community.</p>
+    <p class="hint">Punti: 1 al minuto di pratica, 20 per lezione completata, 10 per sezione imparata, 30 per brano imparato tutto.</p>
   </div>`;
+  root.querySelector('#practice-goal').addEventListener('change', (event) => {
+    if (setPracticeGoal(Number(event.target.value))) renderProgress(root);
+  });
 }

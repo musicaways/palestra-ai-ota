@@ -19,9 +19,9 @@ function save(id, s) {
 
 // Aggiunge tempo di pratica; una nuova "sessione" se l'ultima risale a più di 30 minuti fa.
 export function addPractice(id, seconds, now = Date.now()) {
-  if (!(seconds > 0)) return getStats(id);
+  if (!Number.isFinite(seconds) || seconds <= 0) return getStats(id);
   const s = getStats(id);
-  if (now - s.lastPlayed > 30 * 60 * 1000) s.sessions++;
+  if (!s.sessions || now - s.lastPlayed > 30 * 60 * 1000) s.sessions++;
   s.seconds += seconds;
   s.lastPlayed = now;
   save(id, s);
@@ -42,9 +42,13 @@ export const getDays = () => store.get('days', {});
 // Giorni consecutivi con almeno un minuto di pratica, fino a oggi (o fino a ieri, se oggi non hai ancora suonato).
 export function streak(days, now = Date.now()) {
   let n = 0;
-  let t = now;
-  if (!((days[dayKey(t)] ?? 0) >= 60)) t -= 86400000;
-  while ((days[dayKey(t)] ?? 0) >= 60) { n++; t -= 86400000; }
+  const today = new Date(now);
+  const cursor = new Date(today.getFullYear(), today.getMonth(), today.getDate(), 12);
+  if (!((days[dayKey(cursor)] ?? 0) >= 60)) cursor.setDate(cursor.getDate() - 1);
+  while ((days[dayKey(cursor)] ?? 0) >= 60) {
+    n++;
+    cursor.setDate(cursor.getDate() - 1);
+  }
   return n;
 }
 

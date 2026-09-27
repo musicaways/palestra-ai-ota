@@ -1,5 +1,10 @@
 # Novità
 
+## 2.2.0 — 2026-09-27
+- Unione delle due linee di sviluppo: la 1.10.0 fatta in locale con Codex (backup e ripristino, obiettivo giornaliero,
+  correzioni di serie, «A caso», service worker; server e test multipiattaforma, CI) e la 2.0–2.1 fatta con Claude
+  (sorgenti audio, parte MIDI, pennate, karaoke parola per parola, tablatura, catalogo più preciso).
+
 ## 2.1.0 — 2026-09-27
 - **Spotify come sorgente audio**: il brano del disco, sincronizzato con testo e accordi (è la stessa versione dei
   tempi del testo). Parte da solo se il video YouTube non va; si può scegliere per un brano o per tutti, oppure
@@ -28,6 +33,17 @@
 - **Pennate per brano e per sezione** (trascritte da Ultimate Guitar dove ci sono, altrimenti stimate da genere e
   tempo), con accenti, palm muting, stoppate; **stili di arpeggio** diversi; scelta dello stile nella finestra Parte.
 - **Karaoke parola per parola** nel testo e sotto il manico (anche con i tempi per parola dei testi LRC estesi).
+
+## 1.10.0 — 2026-09-26
+- Backup JSON dei dati personali e ripristino con validazione, anteprima, conferma e rollback in caso di errore.
+- Obiettivo giornaliero configurabile e riepilogo degli ultimi sette giorni nella pagina Progressi.
+- Serie di pratica corretta durante il passaggio all'ora legale/solare e scarto di durate non valide.
+- A caso rispetta Preferiti/Recenti; le scalette restano accessibili anche se la ricerca non trova brani.
+- Metadati della libreria trattati come testo; link malformati gestiti dalla pagina di errore.
+- Service worker attivo anche su localhost, cache separata per installazione e nessuna sovrascrittura
+  di copie valide con risposte HTTP fallite. Catalogo e icone inclusi nella cache iniziale.
+- Server locale senza download di pacchetti; test Node/Python multipiattaforma, browser desktop/mobile
+  con servizi esterni simulati e test offline reale. CI su push/PR; pubblicazione Pages solo manuale.
 
 ## 1.9.0 — 2026-09-26
 - **Catalogo: 614 brani di 217 artisti** (171 nuovi), tutti sincronizzati sul canto: rap e urban italiano (Salmo, Fedez,

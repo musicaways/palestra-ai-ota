@@ -1,5 +1,31 @@
 # AGENTS.md — memoria condivisa del progetto
 
+## Aggiornamento 2.2.0 — 2026-09-27 (unione)
+
+Nel repo dedicato `musicaways/guitar-song-trainer` le due linee sono state unite: `main` (1.10.0, Codex, partita
+dall'archivio 1.9.0) e `claude/guitar-learning-app-iy0h24` (2.0–2.1, Claude). Base comune ricostruita dalla 1.9.0
+e merge a tre vie: conflitti solo in `.gitignore`, `CHANGELOG.md`, `package.json`, `sw.js` (schema cache di Codex +
+moduli nuovi di Claude) e `tests/e2e.mjs` (blocco di tutti i servizi esterni e LRCLIB sintetico di Codex + BitMidi e
+Spotify simulati di Claude). Due test di Codex con valori fissi (614 brani, cache v1.10.0) ora leggono indice e sw.js.
+Le sezioni "Stato attuale" più sotto descrivono la 2.1 (Claude); quella qui sotto la 1.10.0 (Codex).
+
+## Aggiornamento 1.10.0 — 2026-09-26
+
+Continuazione dall'archivio 1.9.0. Analisi e roadmap aggiornate in `PROGETTO.md`.
+Nuovi moduli: `js/backup.js` (export/ripristino validato con anteprima) e `js/practice.js`
+(obiettivo giornaliero/riepilogo settimana). Nuova route `#/backup`, raggiungibile dalla libreria.
+Progressi contiene selettore 5–60 minuti e serie corrette durante il cambio d'ora.
+SW versione 1.10.0 con cache isolata per scope, attivo anche su localhost; offline disponibili
+catalogo e brani già aperti. Fix filtri/scalette, metadati libreria e URL malformati.
+
+Avvio: `npm start` senza installare dipendenze. Test: `npm ci`, `npx playwright install chromium`,
+`npm test`, `npm run test:e2e`. L'ultimo comando gestisce da solo server e due suite browser.
+CI automatica su push/PR; Pages è soltanto manuale. Le sezioni 1.9.0 sotto sono memoria storica;
+in particolare il vecchio comando `python3` nei test è stato sostituito dal rilevamento multipiattaforma.
+
+Prossimi passi suggeriti: pacchetti offline per scaletta, routine guidate, calibrazione audio reale,
+estrazione dei componenti di player.js. Nessuna funzionalità cloud o pubblicazione del sito aggiunta.
+
 > File letto dagli assistenti AI (Claude Code, Codex, Cursor, Gemini, Copilot…) per riprendere il
 > lavoro senza perdere il contesto. **Aggiornalo a fine sessione**: sezioni "Stato attuale",
 > "Diario delle sessioni" e "Prossimi passi". Scrivi in italiano, come il resto del progetto.

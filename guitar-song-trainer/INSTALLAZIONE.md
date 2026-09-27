@@ -28,6 +28,8 @@ L'app è una pagina web: non va compilata e non installa nulla nel sistema. Serv
 Si apre il browser su **http://localhost:8080**. Per fermare l'app chiudi la finestra nera
 (o premi `Ctrl+C`). Da terminale funziona anche `npm start` e poi apri http://localhost:8080.
 
+Con Node.js l'avvio usa il server incluso: non scarica pacchetti e non richiede `npm install`.
+
 Consigliati: **Chrome** o **Edge** (sono quelli con il miglior supporto per microfono e ingressi USB).
 
 ## 4. Collegare la chitarra
@@ -49,13 +51,29 @@ in *Ingresso audio*.
 Il microfono e il cavo funzionano solo su pagine **https** (o su `localhost`). Per il telefono la
 strada più semplice è pubblicare l'app online gratis:
 - **Vercel**: *Add New → Project*, importa il repository, *Framework Preset: Other*, nessuna build.
-- **GitHub Pages**: *Settings → Pages → Source: GitHub Actions* (il workflow è già incluso).
+- **GitHub Pages**: se disponibile per il repository, *Settings → Pages → Source: GitHub Actions*,
+  poi esegui manualmente il workflow *Pubblica su GitHub Pages*. Il push non pubblica il sito.
 
 Poi apri l'indirizzo in Chrome sul telefono → menu ⋮ → **Installa app**. Il cavo Rocksmith sul
 telefono si collega con un adattatore **USB-OTG** (USB-C o micro-USB → USB-A).
 
 Solo per provare accordi, testo e video (senza microfono) puoi anche aprire dal telefono
 `http://<indirizzo-IP-del-computer>:8080` se telefono e computer sono sulla stessa rete Wi-Fi.
+Il server Node ascolta solo sul computer: per questa prova avvialo con `HOST=0.0.0.0 npm start`
+su macOS/Linux, oppure `$env:HOST='0.0.0.0'; npm start` in PowerShell.
+
+## Backup e pratica quotidiana
+
+Dalla libreria apri **Backup dei dati → Scarica backup JSON**. Sul browser di destinazione apri
+la stessa pagina, scegli il file, leggi l'anteprima e premi **Sostituisci i dati personali con questo backup**.
+Il ripristino sostituisce i dati precedenti dell'app; esportali prima se vuoi conservarli. I video in
+*Registrazioni* si salvano separatamente. Cache LRCLIB e dispositivo audio scelto non sono trasferiti.
+
+In **Progressi** scegli un obiettivo di 5–60 minuti: vengono mostrati il tempo di oggi e gli ultimi
+sette giorni. I giorni raggiunti sono ricalcolati rispetto all'obiettivo selezionato.
+
+Offline sono disponibili le pagine dell'app e i brani già aperti dopo l'installazione della cache
+su HTTPS o localhost. YouTube richiede rete; i testi sono disponibili se già memorizzati nel browser.
 
 ## 6. Problemi frequenti
 

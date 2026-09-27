@@ -9,6 +9,7 @@ import { renderRecordings } from './recordings.js';
 import { renderProgress } from './progress.js';
 import { renderChords } from './chords.js';
 import { parseSongHash } from './setlists.js';
+import { renderBackup } from './backup.js';
 
 const root = document.getElementById('app');
 let index = null;
@@ -45,8 +46,8 @@ async function route() {
   destroyCurrent?.();
   destroyCurrent = null;
   document.body.classList.remove('in-player');
-  const m = parseSongHash(location.hash);
   try {
+    const m = parseSongHash(location.hash);
     const ed = /^#\/editor(?:\/(.+))?$/.exec(location.hash);
     if (ed) {
       document.body.classList.add('in-player');
@@ -64,6 +65,10 @@ async function route() {
     } else if (location.hash === '#/accordi') {
       document.title = 'Dizionario accordi · Guitar Song Trainer';
       renderChords(root);
+      window.scrollTo(0, 0);
+    } else if (location.hash === '#/backup') {
+      document.title = 'Backup dei dati · Guitar Song Trainer';
+      renderBackup(root);
       window.scrollTo(0, 0);
     } else if (location.hash === '#/progressi') {
       document.title = 'Progressi · Guitar Song Trainer';
@@ -83,6 +88,7 @@ async function route() {
       const song = await loadSong(m.id);
       if (token !== navToken) return;
       const list = await loadIndex();
+      if (token !== navToken) return;
       const destroy = await openPlayer(root, song, { setlist: m.setlist, songInfo: (id) => list.find((x) => x.id === id) });
       if (token !== navToken) destroy();
       else destroyCurrent = destroy;
@@ -90,7 +96,7 @@ async function route() {
       document.title = 'Guitar Song Trainer';
       const songs = await loadIndex();
       if (token !== navToken) return;
-      renderLibrary(root, songs);
+      destroyCurrent = renderLibrary(root, songs);
     }
   } catch (err) {
     console.error(err);
@@ -101,6 +107,6 @@ async function route() {
 window.addEventListener('hashchange', route);
 route();
 
-if ('serviceWorker' in navigator && location.protocol === 'https:') {
+if ('serviceWorker' in navigator && window.isSecureContext) {
   navigator.serviceWorker.register('sw.js').catch(() => {});
 }

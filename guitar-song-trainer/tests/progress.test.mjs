@@ -21,6 +21,11 @@ test('serie di giorni', () => {
   assert.equal(bestStreak(days), 3);
 });
 
+test('serie migliore attraversa entrambi i cambi di ora senza usare millisecondi', () => {
+  assert.equal(bestStreak({ '2026-03-28': 60, '2026-03-29': 60, '2026-03-30': 60 }), 3);
+  assert.equal(bestStreak({ '2026-10-24': 60, '2026-10-25': 60, '2026-10-26': 60 }), 3);
+});
+
 test('punti e obiettivi', () => {
   const p = computeProgress({
     stats: { a: { seconds: 3700, bestAccuracy: 0.85 }, b: { seconds: 30 } },

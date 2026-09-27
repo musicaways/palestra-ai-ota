@@ -1,10 +1,21 @@
 # 🎸 Guitar Song Trainer
 
+**Versione 2.2.0** — sorgenti audio (YouTube, Spotify, file tuo), parte vera da MIDI trovata online, tablatura,
+karaoke parola per parola, pennate per brano; obiettivi di pratica, backup dei dati e affidabilità offline.
+Analisi del progetto, limiti e prossime funzionalità: [PROGETTO.md](PROGETTO.md).
+
 Web app (PWA) per imparare le canzoni alla chitarra, in stile Rocksmith.
 Funziona nel browser di **PC, tablet e telefono Android** e si può installare come app
 (Chrome → menu ⋮ → *Installa app* / *Aggiungi a schermata Home*).
 
 ## Cosa fa
+
+- **Obiettivo giornaliero**: scegli da 5 a 60 minuti in *Progressi*, con barra di avanzamento,
+  ultimi sette giorni e conteggio dei giorni in cui hai raggiunto l'obiettivo attuale.
+  Si basa sul tempo di riproduzione dei brani.
+- **Backup e ripristino**: dalla libreria esporta i dati personali in JSON e trasferiscili su un altro
+  browser. L'importazione mostra un'anteprima e richiede il pulsante di conferma; sostituisce i dati
+  dell'app. Video registrati e cache LRCLIB sono esclusi; brani personali e testi incollati sono inclusi.
 
 - **Palco in stile Rocksmith**: corsia in prospettiva da cui arrivano verso di te le cornici degli
   accordi, con le gemme colorate su corde e tasti giusti; le cornici tratteggiate segnano le battute
@@ -65,7 +76,7 @@ Funziona nel browser di **PC, tablet e telefono Android** e si può installare c
 - **Modalità ascolto** (stile Rocksmith): il microfono riconosce l'accordo che suoni; a ogni cambio il
   manico si illumina di verde o di rosso, con precisione, serie e record.
 - **Frecce della pennata** (↓ ↑) che scorrono sulla corsia a tempo.
-- **Sincronia garantita**: l'app controlla da sola che testo e accordi combacino (se no, pallino sul pulsante *Sincronia*),
+- **Sincronia assistita**: l'app controlla la coerenza fra testo e accordi (se no, pallino sul pulsante *Sincronia*),
   e li allinea al video con un tocco quando inizia il canto oppure ascoltando il video dal microfono.
 - **Testo sotto il manico** (riga attuale e successiva), **Riprendi** dal punto in cui eri, **guida rapida** (?).
 - Libreria: **Continua** l'ultimo brano, ordinamento (titolo, artista, più facili, più suonati, più recenti), tasto `/`.
@@ -79,7 +90,9 @@ Funziona nel browser di **PC, tablet e telefono Android** e si può installare c
 - **Il tuo testo**: da *Sincronia → Incolla il tuo testo* puoi usare un testo tuo, anche in formato LRC;
   resta salvato solo sul tuo dispositivo.
 - Notazione internazionale (C D E) o italiana (Do Re Mi), modalità mancini, nomi delle note sul manico.
-- Funziona anche offline (tranne il video) e anche se YouTube non è raggiungibile (clock interno).
+- Su HTTPS o localhost, dopo il primo caricamento completo, funziona offline con libreria, lezioni e
+  brani già aperti; il video richiede internet, i testi devono essere già in cache o incollati.
+  Se YouTube non è raggiungibile si usa il clock interno. Non scarica automaticamente tutti i brani.
 
 Scorciatoie da tastiera: `spazio` play/pausa · `←` `→` ±5 s · `[` `]` punti A/B · `L` loop ·
 `T` tap in registrazione.
@@ -100,16 +113,17 @@ automaticamente da Codex, Cursor e altri; `CLAUDE.md` e `GEMINI.md` rimandano al
 Nessuna installazione o build: bastano file statici.
 
 ```bash
-npx http-server -c-1 .     # oppure: python3 -m http.server
+npm start                 # nessun npm install necessario per avviare l'app
 # poi apri http://localhost:8080
 ```
 
 ## Test
 
 ```bash
-npm test                              # test unitari: accordi, timeline, testo LRC, accordatore
-npm start &                           # server locale su :8080
-node tests/e2e.mjs http://localhost:8080   # test nel browser (serve Playwright)
+npm ci                                # dipendenze solo di sviluppo
+npx playwright install chromium       # browser per i test
+npm test                              # test Node + Python 3 (rilevato automaticamente)
+npm run test:e2e                       # avvia/chiude il server, desktop + telefono + offline
 ```
 
 ## Pubblicazione
@@ -118,8 +132,10 @@ node tests/e2e.mjs http://localhost:8080   # test nel browser (serve Playwright)
 
 **GitHub Pages**
 
-Il workflow `.github/workflows/pages.yml` pubblica la cartella a ogni push su `main`.
-Una volta sola: *Settings → Pages → Source: GitHub Actions*. L'app sarà su
+Il workflow `.github/workflows/ci.yml` verifica ogni push e pull request.
+La pubblicazione è **solo manuale**: il repository privato non viene pubblicato dal push.
+Per usare Pages, verifica che sia disponibile per il repository e configura
+*Settings → Pages → Source: GitHub Actions*, poi avvia il workflow *Pubblica su GitHub Pages*. L'app sarà su
 `https://<utente>.github.io/<repository>/`, apribile da qualsiasi dispositivo.
 
 ## Aggiungere un brano

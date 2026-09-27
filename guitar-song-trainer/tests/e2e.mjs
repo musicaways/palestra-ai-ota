@@ -1,6 +1,7 @@
 // Test end-to-end nel browser (Playwright). Uso:
-//   npx http-server -p 8080 . &   node tests/e2e.mjs [http://localhost:8080] [cartella-screenshot]
+//   npm run test:browser (oppure node tests/e2e.mjs [URL server] [cartella-screenshot])
 // YouTube viene bloccato apposta: così si prova anche il clock interno di riserva.
+// LRCLIB usa soltanto righe sintetiche: test deterministici, nessun testo di canzoni.
 import { chromium } from 'playwright';
 import { readFileSync, writeFileSync, mkdtempSync } from 'node:fs';
 import { tmpdir } from 'node:os';
@@ -20,6 +21,10 @@ writeFileSync(wavPath, wavForSong(cartine, { delay: 1.5, seconds: 70 }));
 
 const BASE = process.argv[2] ?? 'http://localhost:8080';
 const SHOTS = process.argv[3] ?? null;
+const mockLrc = Array.from({ length: 75 }, (_, i) => {
+  const time = i * 3.8 + 0.5;
+  return `[${String(Math.floor(time / 60)).padStart(2, '0')}:${(time % 60).toFixed(2).padStart(5, '0')}]Riga sintetica ${i + 1}`;
+}).join('\n');
 const errors = [];
 let failed = 0;
 
@@ -34,8 +39,17 @@ const browser = await chromium.launch({
 
 for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['telefono', { width: 390, height: 844 }]]) {
   console.log(`\n— ${name} —`);
-  const ctx = await browser.newContext({ viewport, ignoreHTTPSErrors: true, permissions: ['microphone', 'camera'], acceptDownloads: true });
-  await ctx.route(/youtube\.com|ytimg\.com|spotify\.com|spotifycdn\.com|deezer\.com|musicbrainz\.org/, (r) => r.abort());
+  const ctx = await browser.newContext({ viewport, ignoreHTTPSErrors: true, permissions: ['microphone', 'camera'], acceptDownloads: true, serviceWorkers: 'block' });
+  await ctx.route('**/*', (route) => new URL(route.request().url()).origin === new URL(BASE).origin
+    ? route.continue() : route.abort());
+  await ctx.route(/youtube\.com|ytimg\.com/, (r) => r.abort());
+  await ctx.route(/^https:\/\/lrclib\.net\/api\//, (route) => route.fulfill({
+    status: 200,
+    contentType: 'application/json',
+    body: JSON.stringify(route.request().url().includes('/search?')
+      ? [{ id: 1, duration: 280, syncedLyrics: mockLrc }]
+      : { id: 1, duration: 280, syncedLyrics: mockLrc }),
+  }));
   // BitMidi finto: la ricerca restituisce un file sbagliato e la parte giusta (ricavata dagli accordi)
   await ctx.route(/bitmidi\.com\/api\/midi\/search/, (r) => r.fulfill({ contentType: 'application/json', body: JSON.stringify({ result: { results: [
     { id: 1, name: 'Salmo - Cartine corte.mid', downloadUrl: '/uploads/1.mid' },
@@ -89,7 +103,7 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   await shot('libreria');
 
   // Tutti i brani della libreria si aprono senza errori
-  if (name === 'desktop') {
+  if (name === 'desktop' && process.env.E2E_SKIP_CATALOG !== '1') {
     const ids = await page.evaluate(async () => (await (await fetch('songs/index.json')).json()).map((x) => x.id));
     check(ids.length >= 17, `libreria con ${ids.length} brani`);
     // GST_QUICK=1: solo una parte del catalogo (per provare in fretta le altre funzioni)
@@ -149,8 +163,15 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   await page.click('.dlg-sync button[value="ok"]');
   await page.evaluate(() => { localStorage.removeItem('gst:offset:salmo-cartine-corte'); localStorage.removeItem('gst:lyricsOffset:salmo-cartine-corte'); });
 
-  await page.click('[data-act="play"]');
-  await page.waitForTimeout(3000);
+  // L'allineamento avvia già il clock: un click incondizionato lo metterebbe in pausa
+  // prima del primo accordo, con esito dipendente dalla velocità del dispositivo.
+  if (!(await page.locator('[data-act="play"]').evaluate((el) => el.classList.contains('playing')))) {
+    await page.click('[data-act="play"]');
+  }
+  await page.waitForFunction(() => {
+    const chord = document.querySelector('.now-chord')?.textContent;
+    return chord && chord !== '—';
+  });
   const now = await page.textContent('.now-chord');
   check(now && now !== '—', `HUD mostra l'accordo corrente (${now})`);
   check(await page.isVisible('.stage-lyric'), 'riga del testo sul palco');
@@ -164,7 +185,7 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   await page.click('.panel-tab[data-tab="shapes"]');
   const diagrams = await page.locator('.diagram svg').count();
   check(diagrams >= 9, `scheda Diteggiature (${diagrams} diagrammi)`);
-  await page.waitForTimeout(3000);
+  await page.waitForSelector('.diagram.active');
   check(await page.locator('.diagram.active').count() === 1, 'il diagramma dell\'accordo corrente si illumina');
   await shot('diteggiature');
   await page.click('.panel-tab[data-tab="lyrics"]');
@@ -496,8 +517,18 @@ for (const [name, viewport] of [['desktop', { width: 1440, height: 900 }], ['tel
   await shot('allenamento');
   await page.click('.drill-start');
 
-  // Progressi (un minuto di pratica garantito: il tempo suonato nei passi prima dipende dalla velocità della macchina)
-  await page.evaluate(async () => (await import('./js/stats.js')).addPractice('salmo-cartine-corte', 60));
+  // Il tempo reale accumulato varia con la velocità della macchina: prima verifichiamo
+  // il salvataggio, poi aggiungiamo una durata nota per verificare lo sblocco del badge.
+  const recordedSeconds = await page.evaluate(() => {
+    const stats = JSON.parse(localStorage.getItem('gst:stats') || '{}');
+    return stats['salmo-cartine-corte']?.seconds ?? 0;
+  });
+  check(recordedSeconds > 0, 'il player salva il tempo di pratica');
+  await page.evaluate(async () => {
+    const { addPractice } = await import('./js/stats.js');
+    addPractice('salmo-cartine-corte', 60);
+  });
+  // Progressi
   await page.goto(`${BASE}/#/progressi`);
   await page.waitForSelector('.badge');
   check(await page.locator('.badge.on').count() >= 1, `progressi: ${await page.locator('.badge.on').count()} obiettivi sbloccati, ${await page.textContent('.progress h1 span')}`);

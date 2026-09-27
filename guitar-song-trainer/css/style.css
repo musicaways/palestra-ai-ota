@@ -18,6 +18,35 @@
   color-scheme: dark;
 }
 
+/* Pratica quotidiana e trasferimento dei dati personali. */
+.practice-summary { padding: 24px; margin: 12px 0 28px; }
+.practice-goal-control { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.practice-goal-control h2 { margin: 0 auto 0 0; }
+.practice-goal-control label { color: var(--muted); font-size: 13px; }
+.practice-goal-control select { background: var(--bg-2); border: 1px solid var(--line-2); padding: 9px 12px; border-radius: 10px; }
+.practice-today { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin: 24px 0 10px; }
+.practice-today > span { color: var(--cyan); }
+.practice-bar, .practice-day-bar { display: block; overflow: hidden; background: var(--bg-2); border-radius: 8px; }
+.practice-bar { height: 12px; }
+.practice-bar-fill, .practice-day-fill { display: block; height: 100%; background: var(--grad); border-radius: inherit; }
+.practice-week { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 16px; }
+.practice-day { display: grid; gap: 10px; min-width: 0; }
+.practice-day-label { font-size: 12px; color: var(--muted); }
+.practice-day-bar { height: 8px; }
+.practice-day-duration { font-size: 13px; }
+.practice-day.reached .practice-day-duration { color: var(--cyan); }
+.practice-summary > p { margin-bottom: 0; color: var(--muted); }
+.backup-page .card { padding: 24px; margin-bottom: 20px; }
+.backup-page input[type="file"] { display: block; max-width: 100%; margin: 16px 0; }
+.backup-page [role="status"], .backup-page [role="alert"] { overflow-wrap: anywhere; }
+@media (max-width: 560px) {
+  .practice-summary, .backup-page .card { padding: 18px; }
+  .practice-goal-control h2 { flex-basis: 100%; }
+  .practice-week { grid-template-columns: 1fr; gap: 12px; }
+  .practice-day { grid-template-columns: 90px minmax(0, 1fr) 64px; align-items: center; }
+  .practice-day-duration { text-align: right; }
+}
+
 * { box-sizing: border-box; }
 html, body { margin: 0; min-height: 100%; }
 body { overflow-x: hidden; }

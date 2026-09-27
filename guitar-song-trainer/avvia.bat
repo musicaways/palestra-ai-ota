@@ -7,7 +7,7 @@ where node >nul 2>nul
 if %errorlevel%==0 (
   start "" http://localhost:%PORT%
   echo Guitar Song Trainer su http://localhost:%PORT%  -  chiudi questa finestra per fermarlo.
-  npx --yes http-server -p %PORT% -c-1 .
+  node tools\serve.mjs
   goto :eof
 )
 where python >nul 2>nul
