@@ -198,7 +198,7 @@ sincronizzato; continuare con funzioni, test, correzioni, usabilità.
   (le sue tablature sono dati protetti).
 - YouTube resta la sorgente gratuita principale (602/613 video incorporabili). Se non va, si prova Spotify da solo.
 - Telefono: comandi fissi mentre il testo scorre (left-col `display: contents` + transport sticky, `--tp-h`).
-- e2e: servizi esterni bloccati, BitMidi simulato con due file (quello giusto va scelto dall'aggancio).
+- 90 test unitari e **918 controlli e2e verdi** (613 brani). e2e: servizi esterni bloccati, BitMidi simulato con due file (quello giusto va scelto dall'aggancio), lettore Spotify simulato.
 - **Precisione dei dati** scoperta con i MIDI veri: (1) brani importati con le forme "da capotasto" senza capotasto
   (es. Wonderwall, 2 semitoni sotto il disco) → tools/keycheck.py; (2) intro strumentali con un accordo solo per molte
   battute (es. Hotel California, 16 battute di Bm) → tools/introfix.py e autosong corretto (intro dal giro cantato).

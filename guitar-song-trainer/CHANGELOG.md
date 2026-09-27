@@ -10,6 +10,11 @@
 - Telefono: elenco dei brani compatto (molti brani per schermata), comandi sempre visibili mentre il testo scorre,
   menu Ordina leggibile; quando non c'è video il riquadro diventa una riga.
 - YouTube più affidabile con i server locali (errore 153); avviso se l'app è aperta come file.
+- **Parte MIDI più precisa**: tonalità del file riconosciuta, tempo doppio/metà dal BPM del file, aggancio a sezioni
+  quando il file ha ripetizioni diverse dal disco; un'etichetta «MIDI» sul pulsante Parte quando online c'è un file.
+- **Catalogo più preciso**: 26 intro strumentali che avevano un accordo solo per molte battute ora suonano il giro
+  del brano; Wonderwall, The Sound of Silence e Boulevard of Broken Dreams nella tonalità del disco (col capotasto);
+  169 brani già collegati a Spotify.
 
 ## 2.0.0 — 2026-09-26
 - **Avvio immediato**: il brano si usa subito (prima si aspettava il video fino a 25 s e il carattere del titolo);
